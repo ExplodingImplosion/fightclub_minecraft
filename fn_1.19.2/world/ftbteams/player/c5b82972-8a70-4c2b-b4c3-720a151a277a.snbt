@@ -1,0 +1,17 @@
+{
+	id: "c5b82972-8a70-4c2b-b4c3-720a151a277a"
+	type: "player"
+	player_name: "paxlux2002"
+	ranks: {
+		c5b82972-8a70-4c2b-b4c3-720a151a277a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "paxlux2002"
+		"ftbteams:description": ""
+		"ftbteams:color": "#D759FF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

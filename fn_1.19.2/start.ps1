@@ -52,7 +52,7 @@ $FabricInstallerVersion = $ExternalVariables['FABRIC_INSTALLER_VERSION']
 $QuiltInstallerVersion =$ExternalVariables['QUILT_INSTALLER_VERSION']
 $MinecraftServerUrl = $ExternalVariables['MINECRAFT_SERVER_URL']
 $JavaArgs = $ExternalVariables['JAVA_ARGS']
-$Java = $ExternalVariables['JAVA']
+$Java = "C:\Program Files\Java\jdk-18.0.2.1\bin\java.exe"
 
 # Clean up quotes from the Java variable
 if ($Java[0] -eq '"')
