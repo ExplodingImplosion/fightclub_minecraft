@@ -1,0 +1,26 @@
+{
+  "guid": "18529e65-afba-448a-af3f-9479d6a42c0a",
+  "serverTypeGuid": "8e3aecd7-b81b-4827-a3e2-93a701cdd3b4",
+  "name": "fightclub_forge",
+  "description": "",
+  "creationDate": "2024-07-01T14:14:40.995829-04:00",
+  "autostart": false,
+  "forceSaveOnStop": true,
+  "stopPrevention": "None",
+  "startupMethode": "JavaStartupLine",
+  "allocatedMemory": 2048,
+  "allocatedMemorySuffix": "GB",
+  "startupLine": "java -Xms256M -Xmx[RAM]M -jar forge-installer.jar",
+  "startupBatFilename": null,
+  "serverFileChecksum": "13200fcc4b00959734cd7bb193cb4e5e6ea756635cdc9e61c23ec45ac632880e",
+  "serverFileVersion": "1.19.2-forge-43.4.0",
+  "javaPathOverride": "",
+  "tasks": {
+    "scheduledTasks": []
+  },
+  "backups": {
+    "backupTemplates": [],
+    "backupHistory": []
+  },
+  "subServers": []
+}
