@@ -1,8 +1,6 @@
 @echo OFF
 
-:loop
-
-java -Xmx4096M -Xms4096M -jar server.jar
+java -Xmx2048M -Xms2048M -jar server.jar
 
 echo Press CTRL+C to cancel GitHub commit.
 
@@ -18,11 +16,3 @@ git push
 echo (%time%) changes pushed(? idk)
 git pull
 echo (%time% changes pulled(? idk)
-
-echo Press CTRL+C to cancel server restart.
-
-timeout 3
-
-echo (%time%) Restarting server...
-
-goto loop
