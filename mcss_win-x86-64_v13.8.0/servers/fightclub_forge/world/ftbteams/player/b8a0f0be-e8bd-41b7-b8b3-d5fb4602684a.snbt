@@ -1,0 +1,17 @@
+{
+	id: "b8a0f0be-e8bd-41b7-b8b3-d5fb4602684a"
+	type: "player"
+	player_name: "takamakii"
+	ranks: {
+		b8a0f0be-e8bd-41b7-b8b3-d5fb4602684a: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "takamakii"
+		"ftbteams:description": ""
+		"ftbteams:color": "#C5FF59"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

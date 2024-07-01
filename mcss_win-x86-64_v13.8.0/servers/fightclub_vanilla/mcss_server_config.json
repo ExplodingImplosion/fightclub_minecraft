@@ -16,7 +16,36 @@
   "serverFileVersion": "",
   "javaPathOverride": "",
   "tasks": {
-    "scheduledTasks": []
+    "scheduledTasks": [
+      {
+        "guid": "dbc2bc45-67e6-4b76-a951-9e7a09836be4",
+        "name": "restart",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "00:00:00",
+          "repeat": true
+        },
+        "job": {
+          "action": "Restart"
+        }
+      },
+      {
+        "guid": "12faac52-50d9-484f-b677-04e3d6db9e0e",
+        "name": "restart noti",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "time": "23:59:00",
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/say server restarts in 1 minute and will come back online as soon as it is done uploading daily changes."
+          ]
+        }
+      }
+    ]
   },
   "backups": {
     "backupTemplates": [],

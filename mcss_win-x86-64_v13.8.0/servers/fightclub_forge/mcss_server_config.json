@@ -16,7 +16,49 @@
   "serverFileVersion": "1.19.2-forge-43.4.0",
   "javaPathOverride": "",
   "tasks": {
-    "scheduledTasks": []
+    "scheduledTasks": [
+      {
+        "guid": "295beb0c-b434-4129-a7fb-980e404f43ac",
+        "name": "stop",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "23:59:00",
+          "repeat": true
+        },
+        "job": {
+          "action": "Stop"
+        }
+      },
+      {
+        "guid": "e313de76-7a88-425c-922d-8e2800eb59d0",
+        "name": "start",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "00:10:00",
+          "repeat": true
+        },
+        "job": {
+          "action": "Start"
+        }
+      },
+      {
+        "guid": "5ddcecc5-c83c-4f60-a58c-33ef322e9ebd",
+        "name": "restart reminder",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "time": "23:58:00",
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/say server stops in 1 minute and will come back online at 12:10am."
+          ]
+        }
+      }
+    ]
   },
   "backups": {
     "backupTemplates": [],
