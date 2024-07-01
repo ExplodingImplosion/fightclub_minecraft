@@ -16,6 +16,8 @@ git commit -m %%datenow%%
 echo (%time%) pushing changes to GitHub repo...
 git push
 echo (%time%) changes pushed(? idk)
+git pull
+echo (%time% changes pulled(? idk)
 
 echo Press CTRL+C to cancel server restart.
 
