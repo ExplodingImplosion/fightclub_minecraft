@@ -53,18 +53,18 @@
     },
     "done": true
   },
+  "naturescompass:natures_compass_sapling": {
+    "criteria": {
+      "has_recipe": "2024-06-30 23:25:44 -0400"
+    },
+    "done": true
+  },
   "dnl:util/entity_hit_matching/on_hurt": {
     "criteria": {
       "not_projectile": "2024-06-30 23:26:08 -0400",
       "blocked_false": "2024-06-30 23:26:08 -0400"
     },
     "done": false
-  },
-  "naturescompass:natures_compass_sapling": {
-    "criteria": {
-      "has_recipe": "2024-06-30 23:25:44 -0400"
-    },
-    "done": true
   },
   "ancient_manuscripts:items/dark_oak_binding_table": {
     "criteria": {
