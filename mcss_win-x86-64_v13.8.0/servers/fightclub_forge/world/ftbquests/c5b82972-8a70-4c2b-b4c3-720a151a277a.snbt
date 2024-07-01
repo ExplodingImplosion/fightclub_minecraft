@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "c5b829728a704c2bb4c3720a151a277a"
+	name: "paxlux2002"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
