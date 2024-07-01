@@ -1,0 +1,17 @@
+{
+	id: "e88efef4-13d1-45e6-9f5a-971a7509bf42"
+	type: "player"
+	player_name: "Jezzums"
+	ranks: {
+		e88efef4-13d1-45e6-9f5a-971a7509bf42: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Jezzums"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFEF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}

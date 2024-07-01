@@ -1,0 +1,12 @@
+{
+	version: 1
+	uuid: "e88efef413d145e69f5a971a7509bf42"
+	name: "Jezzums"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	claimed_rewards: { }
+	player_data: { }
+}
