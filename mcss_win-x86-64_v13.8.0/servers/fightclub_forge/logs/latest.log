@@ -1263,3 +1263,18 @@ This server requires secure profiles.
 [02Jul2024 01:41:22.854] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: paxlux2002 lost connection: Disconnected
 [02Jul2024 01:41:22.854] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: paxlux2002 left the game
 [02Jul2024 01:41:22.854] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client paxlux2002
+[02Jul2024 13:06:02.564] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[02Jul2024 13:06:02.617] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Jul2024 13:06:02.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Jul2024 13:06:02.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Jul2024 13:06:02.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02Jul2024 13:06:02.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02Jul2024 13:06:02.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[02Jul2024 13:06:02.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02Jul2024 13:06:02.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02Jul2024 13:06:02.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Jul2024 13:06:02.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[02Jul2024 13:06:02.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Jul2024 13:06:02.801] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Jul2024 13:06:02.829] [Server thread/INFO] [configured/]: Unloading server configs...
+[02Jul2024 13:06:02.829] [Server thread/INFO] [configured/]: Sending config unload event for configured.developer.toml
