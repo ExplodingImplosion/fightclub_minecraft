@@ -6,7 +6,7 @@
   "creationDate": "2024-07-01T14:14:40.995829-04:00",
   "autostart": false,
   "forceSaveOnStop": true,
-  "stopPrevention": "None",
+  "stopPrevention": "Elevated",
   "startupMethode": "BatFile",
   "allocatedMemory": 2048,
   "allocatedMemorySuffix": "GB",

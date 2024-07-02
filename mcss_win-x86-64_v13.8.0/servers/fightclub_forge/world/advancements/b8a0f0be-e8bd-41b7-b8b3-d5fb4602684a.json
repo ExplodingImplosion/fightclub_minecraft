@@ -5,12 +5,6 @@
     },
     "done": true
   },
-  "betterdungeons:root": {
-    "criteria": {
-      "always": "2024-07-01 13:42:24 -0400"
-    },
-    "done": true
-  },
   "ancient_manuscripts:items/acacia_binding_table": {
     "criteria": {
       "has_recipe": "2024-07-01 13:42:23 -0400"
@@ -24,34 +18,21 @@
     },
     "done": true
   },
-  "dnl:entity/guardian_ghast/hurt": {
+  "minecraft:recipes/woodcutting/oak/oak_pressure_plate_from_oak_slab_woodcutting": {
     "criteria": {
-      "not_projectile": "2024-07-01 13:55:27 -0400"
-    },
-    "done": false
-  },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "minecraft:creeper": "2024-07-01 14:22:41 -0400"
+      "give_recipe": "2024-07-01 18:15:18 -0400"
     },
     "done": true
   },
-  "dnl:util/entity_hit_matching/on_hurt": {
+  "minecraft:recipes/woodcutting/oak/oak_sign_from_oak_slab_woodcutting": {
     "criteria": {
-      "not_projectile": "2024-07-01 15:34:24 -0400",
-      "blocked_false": "2024-07-01 15:34:24 -0400"
+      "give_recipe": "2024-07-01 18:15:18 -0400"
     },
-    "done": false
+    "done": true
   },
   "naturescompass:natures_compass": {
     "criteria": {
       "has_recipe": "2024-07-01 13:42:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:story/obtain_armor": {
-    "criteria": {
-      "iron_chestplate": "2024-07-01 14:16:21 -0400"
     },
     "done": true
   },
@@ -67,21 +48,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/spruce_sign_from_spruce_planks_woodcutting": {
+  "minecraft:recipes/woodcutting/oak/oak_fence_gate_from_oak_slab_woodcutting": {
     "criteria": {
-      "give_recipe": "2024-07-01 14:09:52 -0400"
-    },
-    "done": true
-  },
-  "regions_unexplored:parent": {
-    "criteria": {
-      "load_in_world": "2024-07-01 13:42:24 -0400"
-    },
-    "done": true
-  },
-  "minecraft:story/mine_stone": {
-    "criteria": {
-      "get_stone": "2024-07-01 14:13:43 -0400"
+      "give_recipe": "2024-07-01 18:15:18 -0400"
     },
     "done": true
   },
@@ -91,45 +60,9 @@
     },
     "done": true
   },
-  "undead_unleashed:shards_of_the_past": {
-    "criteria": {
-      "shards_of_the_past": "2024-07-01 14:22:53 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "minecraft:taiga": "2024-07-01 15:03:49 -0400",
-      "minecraft:beach": "2024-07-01 15:02:43 -0400",
-      "minecraft:river": "2024-07-01 13:45:28 -0400",
-      "minecraft:forest": "2024-07-01 15:02:03 -0400",
-      "minecraft:lush_caves": "2024-07-01 14:39:32 -0400",
-      "minecraft:ocean": "2024-07-01 14:21:20 -0400",
-      "minecraft:plains": "2024-07-01 13:42:24 -0400"
-    },
-    "done": false
-  },
   "minecraft:recipes/woodcutting/oak/oak_fence_gate_from_oak_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 14:00:31 -0400"
-    },
-    "done": true
-  },
-  "undead_unleashed:undead_unleashed": {
-    "criteria": {
-      "undead_unleashed": "2024-07-01 13:42:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/spruce/spruce_button_from_spruce_slab_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 15:10:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/spruce/barrel_from_spruce_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:09:52 -0400"
     },
     "done": true
   },
@@ -145,21 +78,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/spruce_fence_gate_from_spruce_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:09:52 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/woodcutting/spruce/spruce_fence_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 15:10:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/root": {
-    "criteria": {
-      "consumed_item": "2024-07-01 14:13:29 -0400"
     },
     "done": true
   },
@@ -181,35 +102,11 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/spruce_boat_from_spruce_slab_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 15:10:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/spruce/spruce_door_from_spruce_slab_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 15:10:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/spruce/spruce_trapdoor_from_spruce_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:09:52 -0400"
-    },
-    "done": true
-  },
   "regions_unexplored:got_wood": {
     "criteria": {
       "mauve_log": "2024-07-01 14:05:41 -0400"
     },
     "done": false
-  },
-  "minecraft:recipes/woodcutting/spruce/spruce_fence_gate_from_spruce_slab_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 15:10:34 -0400"
-    },
-    "done": true
   },
   "minecraft:recipes/woodcutting/spruce/spruce_chest_boat_from_spruce_slab_woodcutting": {
     "criteria": {
@@ -217,27 +114,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/spruce_planks_from_spruce_slab_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 15:10:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2024-07-01 13:55:30 -0400"
-    },
-    "done": true
-  },
   "ancient_manuscripts:items/mangrove_binding_table": {
     "criteria": {
       "has_recipe": "2024-07-01 13:42:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/oak/oak_pressure_plate_from_oak_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:00:31 -0400"
     },
     "done": true
   },
@@ -253,33 +132,15 @@
     },
     "done": true
   },
-  "ancient_manuscripts:items/crimson_binding_table": {
-    "criteria": {
-      "has_recipe": "2024-07-01 13:42:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/oak/chest_from_oak_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:00:31 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/spruce/spruce_chest_boat_from_spruce_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:09:52 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/woodcutting/spruce/spruce_fence_from_spruce_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 14:09:52 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/spruce_slab_from_spruce_planks_woodcutting": {
+  "minecraft:recipes/woodcutting/oak/oak_trapdoor_from_oak_slab_woodcutting": {
     "criteria": {
-      "give_recipe": "2024-07-01 14:09:52 -0400"
+      "give_recipe": "2024-07-01 18:15:18 -0400"
     },
     "done": true
   },
@@ -295,27 +156,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/oak/oak_door_from_oak_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:00:31 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/oak/oak_fence_from_oak_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:00:31 -0400"
-    },
-    "done": true
-  },
   "ancient_manuscripts:items/jungle_binding_table": {
     "criteria": {
       "has_recipe": "2024-07-01 13:42:23 -0400"
     },
     "done": true
   },
-  "ancient_manuscripts:items/spruce_binding_table": {
+  "minecraft:recipes/woodcutting/oak/chest_from_oak_slab_woodcutting": {
     "criteria": {
-      "has_recipe": "2024-07-01 13:42:23 -0400"
+      "give_recipe": "2024-07-01 18:15:18 -0400"
     },
     "done": true
   },
@@ -331,22 +180,7 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "minecraft:skeleton": "2024-07-01 14:55:59 -0400",
-      "minecraft:creeper": "2024-07-01 14:22:41 -0400",
-      "minecraft:wither_skeleton": "2024-07-01 15:23:13 -0400",
-      "minecraft:zombie": "2024-07-01 14:55:29 -0400"
-    },
-    "done": false
-  },
   "minecraft:recipes/woodcutting/spruce/barrel_from_spruce_slab_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 15:10:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/spruce/spruce_trapdoor_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 15:10:34 -0400"
     },
@@ -355,12 +189,6 @@
   "minecraft:recipes/woodcutting/oak/crafting_table_from_oak_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 14:00:31 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/spruce/spruce_pressure_plate_from_spruce_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:09:52 -0400"
     },
     "done": true
   },
@@ -375,15 +203,10 @@
       "cooked_beef": "2024-07-01 14:14:55 -0400",
       "apple": "2024-07-01 14:13:29 -0400",
       "cooked_cod": "2024-07-01 15:30:57 -0400",
-      "bread": "2024-07-01 14:19:25 -0400"
+      "bread": "2024-07-01 14:19:25 -0400",
+      "carrot": "2024-07-01 17:40:41 -0400"
     },
     "done": false
-  },
-  "minecraft:recipes/woodcutting/oak/barrel_from_oak_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:00:31 -0400"
-    },
-    "done": true
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
@@ -404,21 +227,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/oak/oak_chest_boat_from_oak_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:00:31 -0400"
-    },
-    "done": true
-  },
   "biomancy:biomancy/root": {
     "criteria": {
       "has_raw_meats": "2024-07-01 13:59:51 -0400"
-    },
-    "done": true
-  },
-  "dnl:story/structures/plains_castle/locate": {
-    "criteria": {
-      "locate_plains_castle": "2024-07-01 13:45:31 -0400"
     },
     "done": true
   },
@@ -428,27 +239,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/spruce_pressure_plate_from_spruce_slab_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 15:10:34 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/woodcutting/oak/oak_planks_from_oak_log_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 13:57:48 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/spruce/spruce_sign_from_spruce_slab_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 15:10:34 -0400"
-    },
-    "done": true
-  },
-  "betterdeserttemples:root": {
-    "criteria": {
-      "always": "2024-07-01 13:42:24 -0400"
     },
     "done": true
   },
@@ -458,27 +251,21 @@
     },
     "done": true
   },
-  "naturescompass:natures_compass_log": {
+  "undead_unleashed:boo": {
     "criteria": {
-      "has_recipe": "2024-07-01 13:42:23 -0400"
+      "boo": "2024-07-01 17:36:02 -0400"
     },
     "done": true
   },
-  "ancient_manuscripts:items/warped_binding_table": {
+  "minecraft:recipes/woodcutting/oak/oak_fence_from_oak_slab_woodcutting": {
     "criteria": {
-      "has_recipe": "2024-07-01 13:42:23 -0400"
+      "give_recipe": "2024-07-01 18:15:18 -0400"
     },
     "done": true
   },
   "naturescompass:natures_compass_sapling": {
     "criteria": {
       "has_recipe": "2024-07-01 13:42:23 -0400"
-    },
-    "done": true
-  },
-  "minecraft:story/upgrade_tools": {
-    "criteria": {
-      "stone_pickaxe": "2024-07-01 14:18:14 -0400"
     },
     "done": true
   },
@@ -519,27 +306,9 @@
     },
     "done": true
   },
-  "minecraft:story/smelt_iron": {
-    "criteria": {
-      "iron": "2024-07-01 14:58:39 -0400"
-    },
-    "done": true
-  },
   "minecraft:recipes/woodcutting/spruce/chest_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 15:10:34 -0400"
-    },
-    "done": true
-  },
-  "minecraft:recipes/woodcutting/oak/oak_button_from_oak_planks_woodcutting": {
-    "criteria": {
-      "give_recipe": "2024-07-01 14:00:31 -0400"
-    },
-    "done": true
-  },
-  "undead_unleashed:nerves_of_steel": {
-    "criteria": {
-      "nerves_of_steel": "2024-07-01 15:23:22 -0400"
     },
     "done": true
   },
@@ -567,15 +336,333 @@
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/crafting_table_from_spruce_slab_woodcutting": {
+  "minecraft:recipes/woodcutting/spruce/spruce_planks_from_spruce_stairs_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 15:25:34 -0400"
+    },
+    "done": true
+  },
+  "betterdungeons:root": {
+    "criteria": {
+      "always": "2024-07-01 13:42:24 -0400"
+    },
+    "done": true
+  },
+  "dnl:entity/guardian_ghast/hurt": {
+    "criteria": {
+      "not_projectile": "2024-07-01 13:55:27 -0400"
+    },
+    "done": false
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:creeper": "2024-07-01 14:22:41 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-07-01 14:16:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/crafting_table_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 18:15:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_sign_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:09:52 -0400"
+    },
+    "done": true
+  },
+  "regions_unexplored:parent": {
+    "criteria": {
+      "load_in_world": "2024-07-01 13:42:24 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_stone": {
+    "criteria": {
+      "get_stone": "2024-07-01 14:13:43 -0400"
+    },
+    "done": true
+  },
+  "undead_unleashed:shards_of_the_past": {
+    "criteria": {
+      "shards_of_the_past": "2024-07-01 14:22:53 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:taiga": "2024-07-01 15:03:49 -0400",
+      "minecraft:beach": "2024-07-01 15:02:43 -0400",
+      "minecraft:river": "2024-07-01 13:45:28 -0400",
+      "minecraft:forest": "2024-07-01 15:02:03 -0400",
+      "minecraft:lush_caves": "2024-07-01 14:39:32 -0400",
+      "minecraft:ocean": "2024-07-01 14:21:20 -0400",
+      "minecraft:plains": "2024-07-01 13:42:24 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/woodcutting/oak/oak_boat_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 18:15:18 -0400"
+    },
+    "done": true
+  },
+  "undead_unleashed:undead_unleashed": {
+    "criteria": {
+      "undead_unleashed": "2024-07-01 13:42:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_button_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 15:10:34 -0400"
     },
     "done": true
   },
-  "minecraft:recipes/woodcutting/spruce/spruce_planks_from_spruce_stairs_woodcutting": {
+  "minecraft:recipes/woodcutting/spruce/barrel_from_spruce_planks_woodcutting": {
     "criteria": {
-      "give_recipe": "2024-07-01 15:25:34 -0400"
+      "give_recipe": "2024-07-01 14:09:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_fence_gate_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:09:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-07-01 14:13:29 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_boat_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 15:10:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_door_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 15:10:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/barrel_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 18:15:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_trapdoor_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:09:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_planks_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 18:15:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_fence_gate_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 15:10:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_planks_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 15:10:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-07-01 13:55:30 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_pressure_plate_from_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:00:31 -0400"
+    },
+    "done": true
+  },
+  "ancient_manuscripts:items/crimson_binding_table": {
+    "criteria": {
+      "has_recipe": "2024-07-01 13:42:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/chest_from_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:00:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_button_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 18:15:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_chest_boat_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:09:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_slab_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:09:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_door_from_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:00:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_fence_from_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:00:31 -0400"
+    },
+    "done": true
+  },
+  "ancient_manuscripts:items/spruce_binding_table": {
+    "criteria": {
+      "has_recipe": "2024-07-01 13:42:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2024-07-01 14:55:59 -0400",
+      "minecraft:spider": "2024-07-01 17:13:04 -0400",
+      "minecraft:creeper": "2024-07-01 14:22:41 -0400",
+      "minecraft:witch": "2024-07-01 18:19:51 -0400",
+      "minecraft:wither_skeleton": "2024-07-01 15:23:13 -0400",
+      "minecraft:enderman": "2024-07-01 17:36:02 -0400",
+      "minecraft:zombie": "2024-07-01 14:55:29 -0400"
+    },
+    "done": false
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_trapdoor_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 15:10:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_pressure_plate_from_spruce_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:09:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/barrel_from_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:00:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_chest_boat_from_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:00:31 -0400"
+    },
+    "done": true
+  },
+  "dnl:story/structures/plains_castle/locate": {
+    "criteria": {
+      "locate_plains_castle": "2024-07-01 13:45:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_pressure_plate_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 15:10:34 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_sign_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 15:10:34 -0400"
+    },
+    "done": true
+  },
+  "betterdeserttemples:root": {
+    "criteria": {
+      "always": "2024-07-01 13:42:24 -0400"
+    },
+    "done": true
+  },
+  "naturescompass:natures_compass_log": {
+    "criteria": {
+      "has_recipe": "2024-07-01 13:42:23 -0400"
+    },
+    "done": true
+  },
+  "ancient_manuscripts:items/warped_binding_table": {
+    "criteria": {
+      "has_recipe": "2024-07-01 13:42:23 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_stairs_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 18:15:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_door_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 18:15:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/upgrade_tools": {
+    "criteria": {
+      "stone_pickaxe": "2024-07-01 14:18:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-07-01 14:58:39 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_button_from_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 14:00:31 -0400"
+    },
+    "done": true
+  },
+  "undead_unleashed:nerves_of_steel": {
+    "criteria": {
+      "nerves_of_steel": "2024-07-01 15:23:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_chest_boat_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 18:15:18 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/crafting_table_from_spruce_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-01 15:10:34 -0400"
     },
     "done": true
   },

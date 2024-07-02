@@ -1,36 +1,11 @@
-[16:41:12] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
-[16:41:12] [main/INFO]: Loading 5 mods:
-	- fabricloader 0.15.11
-	   \-- mixinextras 0.3.5
-	- java 22
-	- lithium 0.12.7
-	- minecraft 1.21
-[16:41:13] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/fightclub_vanilla/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[16:41:13] [main/INFO]: Compatibility level set to JAVA_16
-[16:41:13] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 0 override(s) found
-[16:41:14] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[16:41:25] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:41:27] [main/INFO]: Loaded 1290 recipes
-[16:41:27] [main/INFO]: Loaded 1399 advancements
-[16:41:28] [Server thread/INFO]: Starting minecraft server version 1.21
-[16:41:28] [Server thread/INFO]: Loading properties
-[16:41:28] [Server thread/INFO]: Default game type: SURVIVAL
-[16:41:28] [Server thread/INFO]: Generating keypair
-[16:41:28] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[16:41:28] [Server thread/INFO]: Using default channel type
-[16:41:29] [Server thread/INFO]: Preparing level "world"
-[16:41:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:41:31] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[16:41:32] [Server thread/INFO]: Time elapsed: 583 ms
-[16:41:32] [Server thread/INFO]: Done (2.948s)! For help, type "help"
-[16:49:10] [Server thread/INFO]: Stopping the server
-[16:49:10] [Server thread/INFO]: Stopping server
-[16:49:10] [Server thread/INFO]: Saving players
-[16:49:10] [Server thread/INFO]: Saving worlds
-[16:49:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:49:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:49:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:49:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:49:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:49:10] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:49:10] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:00] [Server thread/INFO]: Stopping the server
+[00:00:00] [Server thread/INFO]: Stopping server
+[00:00:00] [Server thread/INFO]: Saving players
+[00:00:00] [Server thread/INFO]: Saving worlds
+[00:00:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:00:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:00:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:00:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
