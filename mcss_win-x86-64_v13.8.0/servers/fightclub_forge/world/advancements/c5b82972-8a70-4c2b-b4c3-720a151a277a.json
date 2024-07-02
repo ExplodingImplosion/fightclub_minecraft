@@ -11,6 +11,14 @@
     },
     "done": true
   },
+  "dnl:util/entity_hit_matching/on_hit": {
+    "criteria": {
+      "not_projectile": "2024-07-02 01:37:30 -0400",
+      "is_projectile": "2024-07-02 01:38:10 -0400",
+      "not_magic": "2024-07-02 01:37:30 -0400"
+    },
+    "done": false
+  },
   "naturescompass:natures_compass": {
     "criteria": {
       "has_recipe": "2024-06-30 23:25:44 -0400"
@@ -197,9 +205,13 @@
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
+      "silver_birch_forest": "2024-07-02 00:49:25 -0400",
       "shrubland": "2024-07-01 00:58:32 -0400",
       "grassy_beach": "2024-07-01 01:07:04 -0400",
-      "rocky_meadow": "2024-06-30 23:27:52 -0400"
+      "rocky_meadow": "2024-06-30 23:27:52 -0400",
+      "maple_forest": "2024-07-02 00:49:26 -0400",
+      "boreal_forest": "2024-07-02 00:50:19 -0400",
+      "bioshroom_caves": "2024-07-02 00:56:51 -0400"
     },
     "done": false
   },
@@ -265,9 +277,12 @@
   },
   "regions_unexplored:pioneer": {
     "criteria": {
+      "silver_birch_forest": "2024-07-02 00:49:25 -0400",
       "shrubland": "2024-07-01 00:58:32 -0400",
       "grassy_beach": "2024-07-01 01:07:04 -0400",
-      "rocky_meadow": "2024-06-30 23:27:52 -0400"
+      "rocky_meadow": "2024-06-30 23:27:52 -0400",
+      "maple_forest": "2024-07-02 00:49:26 -0400",
+      "boreal_forest": "2024-07-02 00:50:19 -0400"
     },
     "done": false
   },
@@ -307,6 +322,12 @@
     },
     "done": true
   },
+  "spore:spore": {
+    "criteria": {
+      "requirement": "2024-07-02 01:05:01 -0400"
+    },
+    "done": true
+  },
   "dnl:entity/guardian_ghast/hurt": {
     "criteria": {
       "not_projectile": "2024-07-01 00:24:21 -0400",
@@ -325,13 +346,6 @@
       "minecraft:zombie": "2024-07-01 00:27:31 -0400"
     },
     "done": true
-  },
-  "dnl:util/entity_hit_matching/on_hurt": {
-    "criteria": {
-      "not_projectile": "2024-07-01 02:26:56 -0400",
-      "blocked_false": "2024-07-01 02:26:56 -0400"
-    },
-    "done": false
   },
   "minecraft:story/obtain_armor": {
     "criteria": {
@@ -365,9 +379,11 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2024-07-02 00:52:55 -0400",
       "minecraft:beach": "2024-07-01 00:50:15 -0400",
       "minecraft:river": "2024-06-30 23:27:34 -0400",
       "minecraft:forest": "2024-06-30 23:27:35 -0400",
+      "minecraft:lush_caves": "2024-07-02 00:56:54 -0400",
       "minecraft:ocean": "2024-06-30 23:27:39 -0400",
       "minecraft:plains": "2024-06-30 23:25:45 -0400"
     },
@@ -475,9 +491,21 @@
     },
     "done": true
   },
+  "regions_unexplored:spelunker": {
+    "criteria": {
+      "bioshroom_caves": "2024-07-02 00:56:51 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/woodcutting/spruce/spruce_slab_from_spruce_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 01:18:30 -0400"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/kill_graveyard_mob": {
+    "criteria": {
+      "revenant": "2024-07-02 00:53:32 -0400"
     },
     "done": true
   },
@@ -503,6 +531,8 @@
     "criteria": {
       "minecraft:skeleton": "2024-07-01 00:58:58 -0400",
       "minecraft:spider": "2024-07-01 01:13:36 -0400",
+      "minecraft:creeper": "2024-07-02 01:03:21 -0400",
+      "minecraft:witch": "2024-07-02 00:54:38 -0400",
       "minecraft:zombie": "2024-07-01 00:27:31 -0400"
     },
     "done": false
@@ -590,6 +620,13 @@
       "iron": "2024-07-01 01:32:10 -0400"
     },
     "done": true
+  },
+  "regions_unexplored:mycologist": {
+    "criteria": {
+      "blue_bioshroom": "2024-07-02 00:57:18 -0400",
+      "pink_bioshroom": "2024-07-02 00:57:25 -0400"
+    },
+    "done": false
   },
   "minecraft:recipes/woodcutting/oak/oak_button_from_oak_planks_woodcutting": {
     "criteria": {
