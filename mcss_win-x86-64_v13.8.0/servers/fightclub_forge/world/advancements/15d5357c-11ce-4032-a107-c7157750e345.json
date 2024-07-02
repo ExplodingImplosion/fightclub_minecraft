@@ -11,9 +11,28 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-07-02 16:31:10 -0400"
+    },
+    "done": true
+  },
+  "dnl:util/entity_hit_matching/on_hit": {
+    "criteria": {
+      "not_projectile": "2024-07-02 16:38:07 -0400",
+      "not_magic": "2024-07-02 16:38:07 -0400"
+    },
+    "done": false
+  },
   "naturescompass:natures_compass": {
     "criteria": {
       "has_recipe": "2024-07-01 00:34:38 -0400"
+    },
+    "done": true
+  },
+  "dungeons_enhanced:root": {
+    "criteria": {
+      "entered_watch_tower": "2024-07-02 14:21:56 -0400"
     },
     "done": true
   },
@@ -83,6 +102,12 @@
     },
     "done": true
   },
+  "dnl:story/structures/pillager_camp/locate": {
+    "criteria": {
+      "locate_pillager_camp": "2024-07-02 16:35:31 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/spruce/chest_from_spruce_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 01:39:36 -0400"
@@ -92,6 +117,12 @@
   "repurposed_structures:witch_huts": {
     "criteria": {
       "in_witch_hut_taiga": "2024-07-01 15:10:00 -0400"
+    },
+    "done": false
+  },
+  "regions_unexplored:got_wood": {
+    "criteria": {
+      "maple_log": "2024-07-02 14:27:51 -0400"
     },
     "done": false
   },
@@ -195,21 +226,36 @@
     "criteria": {
       "cooked_porkchop": "2024-07-01 02:20:30 -0400",
       "cooked_beef": "2024-07-01 14:25:31 -0400",
+      "baked_potato": "2024-07-02 16:06:36 -0400",
       "apple": "2024-07-01 00:40:33 -0400",
       "spider_eye": "2024-07-01 02:25:21 -0400",
       "cooked_cod": "2024-07-01 14:23:31 -0400",
       "bread": "2024-07-01 01:28:19 -0400",
+      "golden_apple": "2024-07-02 16:39:16 -0400",
       "rotten_flesh": "2024-07-01 01:23:31 -0400"
     },
     "done": false
   },
   "regions_unexplored:regions_explored": {
     "criteria": {
+      "silver_birch_forest": "2024-07-02 15:45:12 -0400",
       "shrubland": "2024-07-01 00:46:09 -0400",
+      "autumnal_maple_forest": "2024-07-02 14:21:43 -0400",
+      "muddy_river": "2024-07-02 15:38:02 -0400",
+      "willow_forest": "2024-07-02 15:59:35 -0400",
       "grassy_beach": "2024-07-01 00:51:38 -0400",
       "rocky_meadow": "2024-07-01 02:24:24 -0400",
+      "highland_fields": "2024-07-02 16:01:05 -0400",
       "maple_forest": "2024-07-02 00:50:02 -0400",
+      "magnolia_highlands": "2024-07-02 15:56:28 -0400",
+      "deciduous_forest": "2024-07-02 16:02:06 -0400",
       "boreal_forest": "2024-07-01 15:07:33 -0400",
+      "temperate_grove": "2024-07-02 15:50:47 -0400",
+      "cold_river": "2024-07-02 14:21:39 -0400",
+      "grassland": "2024-07-02 16:15:13 -0400",
+      "prairie": "2024-07-02 16:02:16 -0400",
+      "gravel_beach": "2024-07-02 14:24:49 -0400",
+      "redwoods": "2024-07-02 16:18:48 -0400",
       "bioshroom_caves": "2024-07-02 00:57:11 -0400"
     },
     "done": false
@@ -288,11 +334,24 @@
   },
   "regions_unexplored:pioneer": {
     "criteria": {
+      "silver_birch_forest": "2024-07-02 15:45:12 -0400",
       "shrubland": "2024-07-01 00:46:09 -0400",
+      "autumnal_maple_forest": "2024-07-02 14:21:43 -0400",
+      "muddy_river": "2024-07-02 15:38:02 -0400",
+      "willow_forest": "2024-07-02 15:59:35 -0400",
       "grassy_beach": "2024-07-01 00:51:38 -0400",
       "rocky_meadow": "2024-07-01 02:24:24 -0400",
+      "highland_fields": "2024-07-02 16:01:05 -0400",
       "maple_forest": "2024-07-02 00:50:02 -0400",
-      "boreal_forest": "2024-07-01 15:07:33 -0400"
+      "magnolia_highlands": "2024-07-02 15:56:28 -0400",
+      "deciduous_forest": "2024-07-02 16:02:06 -0400",
+      "boreal_forest": "2024-07-01 15:07:33 -0400",
+      "temperate_grove": "2024-07-02 15:50:47 -0400",
+      "cold_river": "2024-07-02 14:21:39 -0400",
+      "grassland": "2024-07-02 16:15:13 -0400",
+      "prairie": "2024-07-02 16:02:16 -0400",
+      "gravel_beach": "2024-07-02 14:24:49 -0400",
+      "redwoods": "2024-07-02 16:18:48 -0400"
     },
     "done": false
   },
@@ -320,11 +379,31 @@
     },
     "done": true
   },
+  "dungeons_enhanced:ambitious_explorer": {
+    "criteria": {
+      "entered_fishing_ship": "2024-07-02 15:11:01 -0400",
+      "entered_watch_tower": "2024-07-02 14:21:56 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/woodcutting/spruce/spruce_button_from_spruce_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 01:39:36 -0400"
     },
     "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-07-02 16:33:01 -0400"
+    },
+    "done": true
+  },
+  "biomancy:biomancy/predator_killer": {
+    "criteria": {
+      "has_killed_fangs_mob": "2024-07-02 16:32:28 -0400",
+      "has_killed_claws_mob": "2024-07-02 16:32:28 -0400"
+    },
+    "done": false
   },
   "minecraft:recipes/woodcutting/jungle/jungle_planks_from_jungle_log_woodcutting": {
     "criteria": {
@@ -335,6 +414,12 @@
   "betterdungeons:root": {
     "criteria": {
       "always": "2024-07-01 00:34:38 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/villager": {
+    "criteria": {
+      "meet_gunsmith": "2024-07-02 15:49:20 -0400"
     },
     "done": true
   },
@@ -359,8 +444,8 @@
   },
   "dnl:util/entity_hit_matching/on_hurt": {
     "criteria": {
-      "not_projectile": "2024-07-02 01:38:24 -0400",
-      "blocked_false": "2024-07-02 01:38:24 -0400"
+      "not_projectile": "2024-07-02 16:37:47 -0400",
+      "blocked_false": "2024-07-02 16:37:47 -0400"
     },
     "done": false
   },
@@ -382,6 +467,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-07-02 16:37:11 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/mine_stone": {
     "criteria": {
       "get_stone": "2024-07-01 00:39:34 -0400"
@@ -397,12 +488,19 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2024-07-01 15:03:24 -0400",
+      "minecraft:birch_forest": "2024-07-02 16:27:44 -0400",
+      "minecraft:bamboo_jungle": "2024-07-02 16:19:55 -0400",
       "minecraft:beach": "2024-07-01 00:49:56 -0400",
+      "minecraft:sparse_jungle": "2024-07-02 16:19:02 -0400",
       "minecraft:river": "2024-07-01 00:35:25 -0400",
+      "minecraft:cold_ocean": "2024-07-02 14:40:04 -0400",
       "minecraft:forest": "2024-07-01 00:35:34 -0400",
       "minecraft:lush_caves": "2024-07-01 14:39:19 -0400",
       "minecraft:ocean": "2024-07-02 01:32:30 -0400",
+      "minecraft:jungle": "2024-07-02 16:18:27 -0400",
       "minecraft:old_growth_spruce_taiga": "2024-07-01 15:07:27 -0400",
+      "minecraft:flower_forest": "2024-07-02 16:36:00 -0400",
+      "minecraft:old_growth_birch_forest": "2024-07-02 16:22:00 -0400",
       "minecraft:plains": "2024-07-01 00:34:38 -0400"
     },
     "done": false
@@ -547,6 +645,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-07-02 16:35:29 -0400",
       "minecraft:skeleton": "2024-07-01 01:02:55 -0400",
       "minecraft:spider": "2024-07-01 01:03:22 -0400",
       "minecraft:creeper": "2024-07-01 02:21:04 -0400",
@@ -569,6 +668,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-07-02 15:13:59 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/oak/barrel_from_oak_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 00:44:11 -0400"
@@ -584,6 +689,12 @@
   "minecraft:recipes/woodcutting/oak/oak_chest_boat_from_oak_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 00:44:11 -0400"
+    },
+    "done": true
+  },
+  "dnl:story/themes/illager/locate": {
+    "criteria": {
+      "locate_plains_pillager_camp": "2024-07-02 16:35:31 -0400"
     },
     "done": true
   },
@@ -647,6 +758,12 @@
     },
     "done": true
   },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-07-02 15:58:26 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/birch/birch_boat_from_birch_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 00:37:15 -0400"
@@ -680,6 +797,12 @@
   "repurposed_structures:root": {
     "criteria": {
       "always": "2024-07-01 00:34:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-07-02 15:24:24 -0400"
     },
     "done": true
   },
