@@ -23,7 +23,7 @@
         "enabled": true,
         "playerRequirement": "None",
         "timing": {
-          "time": "23:59:00",
+          "time": "01:55:00",
           "repeat": true
         },
         "job": {
@@ -36,7 +36,7 @@
         "enabled": true,
         "playerRequirement": "None",
         "timing": {
-          "time": "00:10:00",
+          "time": "07:55:00",
           "repeat": true
         },
         "job": {
@@ -49,12 +49,57 @@
         "enabled": true,
         "playerRequirement": "AtLeastOne",
         "timing": {
-          "time": "23:58:00",
+          "time": "01:54:00",
           "repeat": true
         },
         "job": {
           "commands": [
-            "/say server stops in 1 minute and will come back online at 12:10am."
+            "/say server stops for the night in 1 minute. the server will come back online at 8am EST. gn gamers"
+          ]
+        }
+      },
+      {
+        "guid": "e5072931-7e04-4e19-8b2d-e6af136023d2",
+        "name": "save",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "interval": 21600,
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "save-all"
+          ]
+        }
+      },
+      {
+        "guid": "1e0a0eda-c066-48fb-8cf3-b7ec1a45db75",
+        "name": "stop in an hour",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "time": "00:55:00",
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/say server stops for the night in an hour. the server will come back online at 8am EST."
+          ]
+        }
+      },
+      {
+        "guid": "2b195325-4562-4f7a-a42a-2f78dcef5d10",
+        "name": "stop in 30",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "time": "01:25:00",
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/say server stops for the night in 30 minutes. the server will come back online at 8am EST."
           ]
         }
       }
