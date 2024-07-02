@@ -19,30 +19,88 @@
     "scheduledTasks": [
       {
         "guid": "dbc2bc45-67e6-4b76-a951-9e7a09836be4",
-        "name": "restart",
+        "name": "stop",
         "enabled": true,
         "playerRequirement": "None",
         "timing": {
-          "time": "00:00:00",
+          "time": "02:00:00",
           "repeat": true
         },
         "job": {
-          "action": "Restart"
+          "action": "Stop"
         }
       },
       {
         "guid": "12faac52-50d9-484f-b677-04e3d6db9e0e",
-        "name": "restart noti",
+        "name": "stopping noti",
         "enabled": true,
         "playerRequirement": "AtLeastOne",
         "timing": {
-          "time": "23:59:00",
+          "time": "01:59:00",
           "repeat": true
         },
         "job": {
           "commands": [
-            "/say server restarts in 1 minute and will come back online as soon as it is done uploading daily changes."
+            "/say server stops for the night in 1 minute. the server will come back online at 8am EST. gn gamers"
           ]
+        }
+      },
+      {
+        "guid": "87e129f6-d585-44a4-bc8c-2b880f3cd0a8",
+        "name": "save",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "interval": 21600,
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/save-all"
+          ]
+        }
+      },
+      {
+        "guid": "19791032-4d53-4317-8872-eab60ae35757",
+        "name": "server stops in an hour",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "time": "01:00:00",
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/say server stops for the night in 1 hour. the server will come back online at 8am EST."
+          ]
+        }
+      },
+      {
+        "guid": "a023a531-519d-4fb8-8c74-a08cec5ce779",
+        "name": "server stops in 30",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "time": "01:30:00",
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/say server stops for the night in 30 minutes. the server will come back online at 8am EST."
+          ]
+        }
+      },
+      {
+        "guid": "93b581ee-a3db-4e08-9d95-2c891399e1e0",
+        "name": "start",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "07:55:00",
+          "repeat": true
+        },
+        "job": {
+          "action": "Start"
         }
       }
     ]
