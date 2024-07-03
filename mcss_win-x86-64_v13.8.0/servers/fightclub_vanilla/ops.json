@@ -1,20 +1,14 @@
 [
   {
+    "level": 4,
+    "bypassesPlayerLimit": true,
     "uuid": "80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8",
-    "name": "ASFJASJHALALF",
-    "level": 4,
-    "bypassesPlayerLimit": true
+    "name": "ASFJASJHALALF"
   },
   {
+    "level": 4,
+    "bypassesPlayerLimit": false,
     "uuid": "c5b82972-8a70-4c2b-b4c3-720a151a277a",
-    "name": "paxlux2002",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "e817ea6d-f451-4c07-8fe9-21ba2518cf00",
-    "name": "FrozenJarate",
-    "level": 4,
-    "bypassesPlayerLimit": true
+    "name": "paxlux2002"
   }
 ]
