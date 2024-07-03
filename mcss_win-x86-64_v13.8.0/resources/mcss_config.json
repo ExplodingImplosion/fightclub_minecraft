@@ -7,7 +7,8 @@
     "serverTabsOrder": "Custom",
     "customServerTabsOrder": [
       "5870d283-ae74-4829-bc21-2d450defe3a7",
-      "18529e65-afba-448a-af3f-9479d6a42c0a"
+      "18529e65-afba-448a-af3f-9479d6a42c0a",
+      "d709e5a0-8f4a-462d-a3ae-9bc8ae46de78"
     ],
     "suppresPingLogs": true,
     "hideDuplicateLines": false,
