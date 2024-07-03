@@ -7,11 +7,11 @@
   "autostart": false,
   "forceSaveOnStop": true,
   "stopPrevention": "None",
-  "startupMethode": "JavaStartupLine",
+  "startupMethode": "BatFile",
   "allocatedMemory": 256,
   "allocatedMemorySuffix": "MB",
   "startupLine": "java -Xms256M -Xmx[RAM]M -jar [SERVERTYPE.NAME].jar",
-  "startupBatFilename": null,
+  "startupBatFilename": "startserver.bat",
   "serverFileChecksum": "",
   "serverFileVersion": "",
   "javaPathOverride": "",
@@ -28,6 +28,19 @@
         },
         "job": {
           "action": "Stop"
+        }
+      },
+      {
+        "guid": "65c97d6c-e5f5-45e2-b212-a9d660895780",
+        "name": "auto save stuff",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "time": "02:05:00",
+          "repeat": true
+        },
+        "job": {
+          "action": "Start"
         }
       }
     ]
