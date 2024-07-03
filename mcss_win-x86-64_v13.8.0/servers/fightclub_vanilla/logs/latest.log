@@ -1,36 +1,36 @@
-[13:14:14] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
-[13:14:14] [main/INFO]: Loading 5 mods:
+[06:11:25] [main/INFO]: Loading Minecraft 1.21 with Fabric Loader 0.15.11
+[06:11:25] [main/INFO]: Loading 5 mods:
 	- fabricloader 0.15.11
 	   \-- mixinextras 0.3.5
 	- java 22
 	- lithium 0.12.7
 	- minecraft 1.21
-[13:14:14] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/fightclub_vanilla/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
-[13:14:15] [main/INFO]: Compatibility level set to JAVA_16
-[13:14:15] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 0 override(s) found
-[13:14:16] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[13:14:28] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:14:30] [main/INFO]: Loaded 1290 recipes
-[13:14:31] [main/INFO]: Loaded 1399 advancements
-[13:14:32] [Server thread/INFO]: Starting minecraft server version 1.21
-[13:14:32] [Server thread/INFO]: Loading properties
-[13:14:32] [Server thread/INFO]: Default game type: SURVIVAL
-[13:14:32] [Server thread/INFO]: Generating keypair
-[13:14:32] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[13:14:32] [Server thread/INFO]: Using default channel type
-[13:14:32] [Server thread/INFO]: Preparing level "world"
-[13:14:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:14:36] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[13:14:36] [Server thread/INFO]: Time elapsed: 436 ms
-[13:14:36] [Server thread/INFO]: Done (3.565s)! For help, type "help"
-[17:03:20] [Server thread/INFO]: Stopping the server
-[17:03:20] [Server thread/INFO]: Stopping server
-[17:03:20] [Server thread/INFO]: Saving players
-[17:03:20] [Server thread/INFO]: Saving worlds
-[17:03:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:03:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:03:20] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:03:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:03:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:03:20] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:03:20] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06:11:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/fightclub_vanilla/libraries/net/fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[06:11:26] [main/INFO]: Compatibility level set to JAVA_16
+[06:11:26] [main/INFO]: Loaded configuration file for Lithium: 138 options available, 0 override(s) found
+[06:11:26] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[06:11:34] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[06:11:35] [main/INFO]: Loaded 1290 recipes
+[06:11:35] [main/INFO]: Loaded 1399 advancements
+[06:11:36] [Server thread/INFO]: Starting minecraft server version 1.21
+[06:11:36] [Server thread/INFO]: Loading properties
+[06:11:36] [Server thread/INFO]: Default game type: SURVIVAL
+[06:11:36] [Server thread/INFO]: Generating keypair
+[06:11:36] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[06:11:36] [Server thread/INFO]: Using default channel type
+[06:11:37] [Server thread/INFO]: Preparing level "world"
+[06:11:38] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[06:11:38] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[06:11:38] [Server thread/INFO]: Time elapsed: 409 ms
+[06:11:38] [Server thread/INFO]: Done (1.786s)! For help, type "help"
+[06:11:52] [Server thread/INFO]: Stopping the server
+[06:11:52] [Server thread/INFO]: Stopping server
+[06:11:52] [Server thread/INFO]: Saving players
+[06:11:52] [Server thread/INFO]: Saving worlds
+[06:11:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:11:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:11:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:11:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:11:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:11:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:11:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
