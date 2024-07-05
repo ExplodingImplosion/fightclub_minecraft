@@ -17,6 +17,13 @@
     },
     "done": true
   },
+  "dnl:util/entity_hit_matching/on_hit": {
+    "criteria": {
+      "not_projectile": "2024-07-04 17:55:09 -0400",
+      "not_magic": "2024-07-04 17:55:09 -0400"
+    },
+    "done": false
+  },
   "naturescompass:natures_compass": {
     "criteria": {
       "has_recipe": "2024-06-30 23:25:44 -0400"
@@ -56,6 +63,18 @@
   "minecraft:recipes/woodcutting/birch/birch_pressure_plate_from_birch_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 00:37:19 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-07-04 17:54:47 -0400"
+    },
+    "done": true
+  },
+  "bygonenether:root": {
+    "criteria": {
+      "entered_nether": "2024-07-04 17:54:47 -0400"
     },
     "done": true
   },
@@ -233,6 +252,7 @@
       "maple_forest": "2024-07-02 00:49:26 -0400",
       "magnolia_highlands": "2024-07-02 14:12:45 -0400",
       "boreal_forest": "2024-07-02 00:50:19 -0400",
+      "blackstone_basin": "2024-07-04 17:54:48 -0400",
       "cold_river": "2024-07-02 14:00:06 -0400",
       "gravel_beach": "2024-07-02 14:12:09 -0400",
       "bioshroom_caves": "2024-07-02 00:56:51 -0400"
@@ -403,8 +423,8 @@
   },
   "dnl:util/entity_hit_matching/on_hurt": {
     "criteria": {
-      "not_projectile": "2024-07-02 16:25:22 -0400",
-      "blocked_false": "2024-07-02 16:25:22 -0400"
+      "not_projectile": "2024-07-04 17:55:07 -0400",
+      "blocked_false": "2024-07-04 17:55:07 -0400"
     },
     "done": false
   },
@@ -603,9 +623,16 @@
       "minecraft:spider": "2024-07-01 01:13:36 -0400",
       "minecraft:creeper": "2024-07-02 01:03:21 -0400",
       "minecraft:witch": "2024-07-02 00:54:38 -0400",
+      "minecraft:wither_skeleton": "2024-07-04 17:55:06 -0400",
       "minecraft:zombie": "2024-07-01 00:27:31 -0400"
     },
     "done": false
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-07-04 17:54:47 -0400"
+    },
+    "done": true
   },
   "minecraft:recipes/woodcutting/spruce/spruce_trapdoor_from_spruce_slab_woodcutting": {
     "criteria": {
@@ -672,6 +699,12 @@
       "has_recipe": "2024-06-30 23:25:44 -0400"
     },
     "done": true
+  },
+  "regions_unexplored:eternal_expedition": {
+    "criteria": {
+      "blackstone_basin": "2024-07-04 17:54:48 -0400"
+    },
+    "done": false
   },
   "ancient_manuscripts:items/warped_binding_table": {
     "criteria": {
