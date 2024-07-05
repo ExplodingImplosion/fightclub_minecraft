@@ -12,8 +12,8 @@
   "allocatedMemorySuffix": "GB",
   "startupLine": "java -Xms256M -Xmx[RAM]M -jar forge-installer.jar",
   "startupBatFilename": "run.bat",
-  "serverFileChecksum": "13200fcc4b00959734cd7bb193cb4e5e6ea756635cdc9e61c23ec45ac632880e",
-  "serverFileVersion": "1.19.2-forge-43.4.0",
+  "serverFileChecksum": "",
+  "serverFileVersion": "",
   "javaPathOverride": "",
   "tasks": {
     "scheduledTasks": [

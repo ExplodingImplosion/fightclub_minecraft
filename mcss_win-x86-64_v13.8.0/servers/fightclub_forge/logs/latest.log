@@ -1,15 +1,1237 @@
-[04Jul2024 01:55:00.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[04Jul2024 01:55:00.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[04Jul2024 01:55:00.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[04Jul2024 01:55:00.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[04Jul2024 01:55:00.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[04Jul2024 01:55:00.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[04Jul2024 01:55:00.658] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[04Jul2024 01:55:00.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
-[04Jul2024 01:55:00.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[04Jul2024 01:55:00.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04Jul2024 01:55:00.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04Jul2024 01:55:00.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
-[04Jul2024 01:55:00.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[04Jul2024 01:55:00.751] [Server thread/INFO] [configured/]: Unloading server configs...
-[04Jul2024 01:55:00.752] [Server thread/INFO] [configured/]: Sending config unload event for configured.developer.toml
+[04Jul2024 17:44:52.166] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.3.5, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[04Jul2024 17:44:52.170] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 18.0.2.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[04Jul2024 17:44:53.324] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/fightclub_forge/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[04Jul2024 17:44:54.134] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\libraries\net\minecraftforge\fmlcore\1.19.2-43.3.5\fmlcore-1.19.2-43.3.5.jar is missing mods.toml file
+[04Jul2024 17:44:54.138] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.3.5\javafmllanguage-1.19.2-43.3.5.jar is missing mods.toml file
+[04Jul2024 17:44:54.141] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.3.5\lowcodelanguage-1.19.2-43.3.5.jar is missing mods.toml file
+[04Jul2024 17:44:54.144] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\libraries\net\minecraftforge\mclanguage\1.19.2-43.3.5\mclanguage-1.19.2-43.3.5.jar is missing mods.toml file
+[04Jul2024 17:44:54.313] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[04Jul2024 17:44:54.314] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: terrablender. Using Mod File: C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\mods\TerraBlender-forge-1.19.2-2.0.1.166.jar
+[04Jul2024 17:44:54.314] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\mods\curios-forge-1.19.2-5.1.4.3.jar
+[04Jul2024 17:44:54.314] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 12 dependencies adding them to mods collection
+[04Jul2024 17:44:56.422] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Jul2024 17:44:56.574] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
+[04Jul2024 17:44:56.598] [main/ERROR] [mixin/]: Mixin config spruceui.mixins.json does not specify "minVersion" property
+[04Jul2024 17:44:56.674] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[04Jul2024 17:44:56.675] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[04Jul2024 17:44:56.676] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[04Jul2024 17:44:56.707] [main/WARN] [mixin/]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2024 17:44:56.755] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.16.1+mc1.19.2: 84 options available, 0 override(s) found
+[04Jul2024 17:44:56.755] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[04Jul2024 17:44:56.765] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[04Jul2024 17:44:56.825] [main/WARN] [mixin/]: Reference map 'lmft-forge-refmap.json' for lmft.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2024 17:44:56.830] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2024 17:44:56.831] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-forge-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2024 17:44:56.845] [main/WARN] [mixin/]: Reference map 'ysnsforge.refmap.json' for ysns.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2024 17:44:56.851] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2024 17:44:56.862] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2024 17:44:56.907] [main/WARN] [mixin/]: Reference map 'fastpaintings-forge-refmap.json' for fastpaintings-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2024 17:44:57.008] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: recipeessentials.json
+[04Jul2024 17:44:57.081] [main/INFO] [com.cupboard.Cupboard/]: Loaded config for: structureessentials.json
+[04Jul2024 17:44:57.249] [main/WARN] [mixin/]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing.farmersdelight.common.block.TomatoVineBlock)
+[04Jul2024 17:44:57.249] [main/WARN] [mixin/]: @Mixin target vectorwing.farmersdelight.common.block.TomatoVineBlock was not found supplementaries.mixins.json:CompatFarmersDelightMixin
+[04Jul2024 17:44:57.292] [main/WARN] [mixin/]: Error loading class: net/mcreator/midnightmadness/procedures/WelcomingMSGProcedure (java.lang.ClassNotFoundException: net.mcreator.midnightmadness.procedures.WelcomingMSGProcedure)
+[04Jul2024 17:44:57.292] [main/WARN] [mixin/]: @Mixin target net.mcreator.midnightmadness.procedures.WelcomingMSGProcedure was not found teraphobia.mixins.json:integrations.midnight_madness.RemoveWelcomeMessageMixin
+[04Jul2024 17:44:57.319] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/multiplayer/ServerSelectionList for invalid dist DEDICATED_SERVER
+[04Jul2024 17:44:57.320] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/multiplayer/ServerSelectionList (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/multiplayer/ServerSelectionList for invalid dist DEDICATED_SERVER)
+[04Jul2024 17:44:57.320] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.multiplayer.ServerSelectionList was not found serverbrowser.mixins.json:ServerSelectionMixin
+[04Jul2024 17:44:57.439] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/config/ConfigManager (java.lang.ClassNotFoundException: noobanidus.mods.lootr.config.ConfigManager)
+[04Jul2024 17:44:57.482] [main/WARN] [net.tonimatasdev.packetfixerforge.mixin.MixinConfigPlugin/]: For can't fit X into 3 error fix. Delete Krypton.
+[04Jul2024 17:44:57.482] [main/WARN] [net.tonimatasdev.packetfixerforge.mixin.MixinConfigPlugin/]: For can't fit X into 3 error fix. Delete Krypton.
+[04Jul2024 17:44:57.486] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/audio/Channel (java.lang.ClassNotFoundException: com.mojang.blaze3d.audio.Channel)
+[04Jul2024 17:44:57.486] [main/WARN] [mixin/]: @Mixin target com.mojang.blaze3d.audio.Channel was not found assets/sound_physics_remastered/sound_physics_remastered.mixins.json:ChannelAccessor
+[04Jul2024 17:44:57.489] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Will be applying 2 memory leak fixes!
+[04Jul2024 17:44:57.489] [main/INFO] [memoryleakfix/]: [MemoryLeakFix] Currently enabled memory leak fixes: [entityMemoriesLeak, biomeTemperatureLeak]
+[04Jul2024 17:44:57.589] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[04Jul2024 17:44:57.589] [main/WARN] [MixinExtras|Service/]: Found problematic active MixinExtras instance at ca.fxco.memoryleakfix.mixinextras (version 0.2.0-beta.8)
+[04Jul2024 17:44:57.590] [main/WARN] [MixinExtras|Service/]: Versions from 0.2.0-beta.1 to 0.2.0-beta.9 have limited support and it is strongly recommended to update.
+[04Jul2024 17:44:58.252] [main/INFO] [net.minecraft.server.Bootstrap/]: ModernFix reached bootstrap stage (7.852 s after launch)
+[04Jul2024 17:44:58.309] [main/WARN] [mixin/]: @Final field delegatesByName:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Jul2024 17:44:58.310] [main/WARN] [mixin/]: @Final field delegatesByValue:Ljava/util/Map; in modernfix-forge.mixins.json:perf.forge_registry_alloc.ForgeRegistryMixin should be final
+[04Jul2024 17:44:58.368] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[04Jul2024 17:44:58.368] [main/INFO] [ModernFix/]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[04Jul2024 17:44:58.450] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinEntity::handler$zln000$move exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04Jul2024 17:44:59.328] [main/INFO] [net.minecraft.server.Bootstrap/]: Vanilla bootstrap took 1074 milliseconds
+[04Jul2024 17:44:59.385] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer.mixins.json:ClientboundCustomPayloadPacketMixin->@ModifyConstant::newSize(I)I with priority 9999
+[04Jul2024 17:44:59.385] [main/WARN] [mixin/]: @ModifyConstant conflict. Skipping connectivity.mixins.json:ClientBoundCustomPayloadPacketLMixin->@ModifyConstant::modifyLimit(I)I with priority 1, already redirected by packetfixer.mixins.json:ClientboundCustomPayloadPacketMixin->@ModifyConstant::newSize(I)I with priority 9999
+[04Jul2024 17:45:00.920] [main/WARN] [mixin/]: Static binding violation: PRIVATE @Overwrite method m_47505_ in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[04Jul2024 17:45:01.839] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.TagsFeature
+[04Jul2024 17:45:01.861] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.FixFeature
+[04Jul2024 17:45:01.865] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.insanelib.module.base.feature.AEC3DFeature
+[04Jul2024 17:45:01.934] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option debugConsole, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[04Jul2024 17:45:01.934] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option debugConsoleOmniscient, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[04Jul2024 17:45:01.934] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option debugConsoleSuperDetailed, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[04Jul2024 17:45:01.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option client_renderBlood, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[04Jul2024 17:45:01.937] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option client_debugSensesVisual, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[04Jul2024 17:45:01.940] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option soundAlerts, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[04Jul2024 17:45:01.940] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Detected a comment that is all whitespace for config option soundInvestigates, which causes obscure bugs in Forge's config system and will cause a crash in the future. Please report this to the mod author.
+[04Jul2024 17:45:01.990] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:pufferfish_bucket is now minecraft:bucket.
+[04Jul2024 17:45:01.990] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:salmon_bucket is now minecraft:bucket.
+[04Jul2024 17:45:01.990] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:cod_bucket is now minecraft:bucket.
+[04Jul2024 17:45:01.990] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tropical_fish_bucket is now minecraft:bucket.
+[04Jul2024 17:45:01.990] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:axolotl_bucket is now minecraft:bucket.
+[04Jul2024 17:45:01.990] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:powder_snow_bucket is now minecraft:bucket.
+[04Jul2024 17:45:01.990] [modloading-worker-0/INFO] [Bookshelf/]: Fixing MC-151457. Crafting remainder for minecraft:tadpole_bucket is now minecraft:bucket.
+[04Jul2024 17:45:02.041] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Successfully initialized!
+[04Jul2024 17:45:02.041] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side libs ready to use!
+[04Jul2024 17:45:02.043] [modloading-worker-0/INFO] [io.wispforest.lmft.LMFTCommon/]: [LMFT]: Loaded Config File!
+[04Jul2024 17:45:02.092] [modloading-worker-0/INFO] [croissantnova.sanitydim.SanityMod/]: Applying dimension config example.toml
+[04Jul2024 17:45:02.114] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod leavesbegone
+[04Jul2024 17:45:02.135] [modloading-worker-0/INFO] [dev.wuffs.bcc.BCC/]: Better Compatibility Checker loading
+[04Jul2024 17:45:02.185] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: memorysettings.json
+[04Jul2024 17:45:02.198] [modloading-worker-0/INFO] [Collective/]: Loading Collective version 7.13.
+[04Jul2024 17:45:02.240] [modloading-worker-0/INFO] [com.aetherteam.cumulus.Cumulus/]: Disabling Cumulus as it is on server.
+[04Jul2024 17:45:02.295] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[04Jul2024 17:45:02.308] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod netherchested
+[04Jul2024 17:45:02.311] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/76a3075595713f9ead985fe1b5bc670f
+[04Jul2024 17:45:02.314] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/4f7690f0914131bfb637c4b9db1a0d1c
+[04Jul2024 17:45:02.314] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.PearlerZombie
+[04Jul2024 17:45:02.316] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/a6daf1a1e95931bc8f3abcbda1a2ae9d
+[04Jul2024 17:45:02.317] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.FisherZombie
+[04Jul2024 17:45:02.318] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/840fe05af8cd3b4aa95281c6cc221938
+[04Jul2024 17:45:02.319] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.zombie.feature.DiggerZombie
+[04Jul2024 17:45:02.319] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/17c566f85bb03fb69f8615e26b6784b4
+[04Jul2024 17:45:02.321] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.WitchPotionThrowing
+[04Jul2024 17:45:02.321] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/b80b4c698dec3f6f87b9726830b1ace8
+[04Jul2024 17:45:02.324] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.WitchFleeTarget
+[04Jul2024 17:45:02.324] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/544a29a5d5183866803b64316e1294b1
+[04Jul2024 17:45:02.325] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/c36dcfa0b7ab3b8bb8b35a54b6d07097
+[04Jul2024 17:45:02.326] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.ThirstyWitches
+[04Jul2024 17:45:02.326] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/f802f5d752b638be9b7c637a8a4c19d6
+[04Jul2024 17:45:02.327] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.witch.feature.DarkArtWitch
+[04Jul2024 17:45:02.328] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/99444a2917f03fe5a9692032bd12bf33
+[04Jul2024 17:45:02.329] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.villager.feature.VillagerAttacking
+[04Jul2024 17:45:02.329] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/69fd935ac1a93efaa9557e3279ab6dff
+[04Jul2024 17:45:02.331] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/ffb125f7948b3624985f99a74b44b6b6
+[04Jul2024 17:45:02.331] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.feature.ThrowingWeb
+[04Jul2024 17:45:02.332] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/65e1afdf666c30bca0c2c459fb9cb3be
+[04Jul2024 17:45:02.333] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.spider.feature.Misc
+[04Jul2024 17:45:02.334] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/b097a3dc46b7325b9cd24ba38d0447b4
+[04Jul2024 17:45:02.335] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.feature.SkeletonShoot
+[04Jul2024 17:45:02.336] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/26ac8e7ddec3356bb6764befd257dc32
+[04Jul2024 17:45:02.337] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.skeleton.feature.SkeletonFleeTarget
+[04Jul2024 17:45:02.338] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/14126b0bf54233409f83ae93b77196f7
+[04Jul2024 17:45:02.338] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.ghast.feature.GhastShoot
+[04Jul2024 17:45:02.339] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.feature.ItemDisruption
+[04Jul2024 17:45:02.339] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/0011717adeda362481b4fc4e9dc0eeb9
+[04Jul2024 17:45:02.341] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.enderman.feature.GetOverHere
+[04Jul2024 17:45:02.341] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/a55bce397a523be2895599ebf32bb8f3
+[04Jul2024 17:45:02.342] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id immersivemc:immersive_mc/8fc988cfeded3ca4af3631137cc4d74f
+[04Jul2024 17:45:02.342] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.drowned.feature.DrownedSwimming
+[04Jul2024 17:45:02.344] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.creeper.feature.CreeperSwell
+[04Jul2024 17:45:02.347] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.blaze.feature.BlazeAttack
+[04Jul2024 17:45:02.349] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Targeting
+[04Jul2024 17:45:02.354] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Shielding
+[04Jul2024 17:45:02.356] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Movement
+[04Jul2024 17:45:02.358] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Base
+[04Jul2024 17:45:02.358] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.AvoidExplosions
+[04Jul2024 17:45:02.360] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.Attacking
+[04Jul2024 17:45:02.361] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.base.feature.AntiCheese
+[04Jul2024 17:45:02.364] [modloading-worker-0/INFO] [insane96mcp.insanelib.InsaneLib/]: Found (COMMON) InsaneLib Feature class insane96mcp.enhancedai.modules.animal.feature.AnimalAttacking
+[04Jul2024 17:45:02.411] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[04Jul2024 17:45:02.423] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:open_gui
+[04Jul2024 17:45:02.425] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:update_settings
+[04Jul2024 17:45:02.427] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:send_message
+[04Jul2024 17:45:02.428] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:create_party
+[04Jul2024 17:45:02.430] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbteams:player_gui_operation
+[04Jul2024 17:45:02.464] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/14e7fa1454283aec8ae811ef844ada28
+[04Jul2024 17:45:02.465] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id itemfilters:main/8f6a899247753217b9d86ab427a2b279
+[04Jul2024 17:45:02.472] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod visualworkbench
+[04Jul2024 17:45:02.529] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: Could not find parent net/minecraft/client/renderer/entity/layers/RenderLayer for class com/obscuria/obscureapi/client/renderer/PatreonLayer in classloader cpw.mods.modlauncher.TransformingClassLoader@3dce6dd8 on thread Thread[modloading-worker-0,5,main]
+[04Jul2024 17:45:02.529] [modloading-worker-0/ERROR] [net.minecraftforge.eventbus.EventSubclassTransformer/EVENTBUS]: An error occurred building event handler
+java.lang.ClassNotFoundException: net.minecraft.client.renderer.entity.layers.RenderLayer
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:141) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.buildEvents(EventSubclassTransformer.java:92) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventSubclassTransformer.transform(EventSubclassTransformer.java:44) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBusEngine.processClass(EventBusEngine.java:26) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.service.ModLauncherService.processClassWithFlags(ModLauncherService.java:32) ~[eventbus-6.0.3.jar%2351!/:6.0.3+6.0.3+master.039e4ea9]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:113) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$15(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:229) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:219) ~[securejarhandler-2.1.4.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:135) ~[securejarhandler-2.1.4.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.ClassLoader.defineClass0(Native Method) ~[?:?]
+	at java.lang.System$2.defineClass(System.java:2346) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClass(MethodHandles.java:2432) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup$ClassDefiner.defineClassAsLookup(MethodHandles.java:2413) ~[?:?]
+	at java.lang.invoke.MethodHandles$Lookup.defineHiddenClass(MethodHandles.java:2119) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.generateInnerClass(InnerClassLambdaMetafactory.java:385) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.spinInnerClass(InnerClassLambdaMetafactory.java:293) ~[?:?]
+	at java.lang.invoke.InnerClassLambdaMetafactory.buildCallSite(InnerClassLambdaMetafactory.java:228) ~[?:?]
+	at java.lang.invoke.LambdaMetafactory.metafactory(LambdaMetafactory.java:341) ~[?:?]
+	at java.lang.invoke.BootstrapMethodInvoker.invoke(BootstrapMethodInvoker.java:134) ~[?:?]
+	at java.lang.invoke.CallSite.makeSite(CallSite.java:315) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSiteImpl(MethodHandleNatives.java:279) ~[?:?]
+	at java.lang.invoke.MethodHandleNatives.linkCallSite(MethodHandleNatives.java:269) ~[?:?]
+	at com.obscuria.obscureapi.client.renderer.PatreonLayer$Mode.<clinit>(PatreonLayer.java:55) ~[obscure_api-15.jar%23370!/:15]
+	at com.obscuria.obscureapi.ObscureAPIConfig$Client.<clinit>(ObscureAPIConfig.java:26) ~[obscure_api-15.jar%23370!/:15]
+	at com.obscuria.obscureapi.ObscureAPIConfig.register(ObscureAPIConfig.java:42) ~[obscure_api-15.jar%23370!/:15]
+	at com.obscuria.obscureapi.ObscureAPI.<init>(ObscureAPI.java:68) ~[obscure_api-15.jar%23370!/:15]
+	at jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:483) ~[?:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:70) ~[javafmllanguage-1.19.2-43.3.5.jar%23443!/:?]
+	at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:121) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) [?:?]
+[04Jul2024 17:45:02.530] [modloading-worker-0/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class com/obscuria/obscureapi/client/renderer/PatreonLayer for invalid dist DEDICATED_SERVER
+[04Jul2024 17:45:02.603] [modloading-worker-0/INFO] [Kiwi/Init]: Processing 4 KiwiModule annotations
+[04Jul2024 17:45:02.838] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [Entity Tags] as the active game stages implementation
+[04Jul2024 17:45:02.840] [modloading-worker-0/INFO] [FTB XMod Compat/]: Chose [FALLBACK] as the active permissions implementation
+[04Jul2024 17:45:02.841] [modloading-worker-0/INFO] [FTB XMod Compat/]: [FTB Quests] recipe helper provider is [JEI]
+[04Jul2024 17:45:02.847] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id gardens_of_the_dead:networking_channel/bc2f24ca5d503301bb3abf7b928d614e
+[04Jul2024 17:45:02.924] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod mindfuldarkness
+[04Jul2024 17:45:02.929] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:submit_task
+[04Jul2024 17:45:02.930] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_reward
+[04Jul2024 17:45:02.933] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:get_emergency_items
+[04Jul2024 17:45:02.935] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_all_rewards
+[04Jul2024 17:45:02.937] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:claim_choice_reward
+[04Jul2024 17:45:02.941] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_pinned
+[04Jul2024 17:45:02.943] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_chapter_pinned
+[04Jul2024 17:45:02.945] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:toggle_editing_mode
+[04Jul2024 17:45:02.949] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:force_save
+[04Jul2024 17:45:02.952] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:set_custom_image
+[04Jul2024 17:45:02.955] [modloading-worker-0/INFO] [paintings/]: loading json file and contents for paintings.
+[04Jul2024 17:45:02.955] [modloading-worker-0/INFO] [paintings/]: **Paintings++ no longer copies the base file outside if the mod. **
+[04Jul2024 17:45:02.956] [modloading-worker-0/INFO] [paintings/]: Loaded json painting abstract_blue , 16 x 16
+[04Jul2024 17:45:02.956] [modloading-worker-0/INFO] [paintings/]: Loaded json painting abstract_rainbow , 16 x 16
+[04Jul2024 17:45:02.956] [modloading-worker-0/INFO] [paintings/]: Loaded json painting abstract_red , 16 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting abstract_sunset , 16 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting arachnophobe , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting barn_owl , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting big_z , 16 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting blue_bird , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting bluesclues , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting borgia , 16 x 32
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting cane , 16 x 32
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting cat_black , 16 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting cat_gray , 16 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting cat_orange , 16 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting cat , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting colorful_squares , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting crest , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting danger_zone , 32 x 32
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting decorative_gun , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting exit_down , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting exit_up , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting exit_left , 32 x 16
+[04Jul2024 17:45:02.957] [modloading-worker-0/INFO] [paintings/]: Loaded json painting exit_right , 32 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_bat , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_chicken , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_cow , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_creeper , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_dog , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_enderman , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_pig , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_pigman , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_silverfish , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_skeleton , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_squid , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting face_zombie , 16 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting fishes , 32 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting flowers , 32 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting fruits , 32 x 16
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting ghost , 16 x 32
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting glowlamp , 32 x 32
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting glowstone_hourglass , 16 x 32
+[04Jul2024 17:45:02.958] [modloading-worker-0/INFO] [paintings/]: Loaded json painting iluvmc , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting link , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting mine_prosperity , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting no_trespassing_for_mobs , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting ocelot , 16 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting penguin , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting pig_on_a_cliff , 32 x 32
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting pkmn_blue , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting pkmn_red , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting pkmn_green , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting plains_hut , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting portrait_2 , 16 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting portrait , 32 x 32
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting prison , 16 x 32
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting prosperity , 16 x 32
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting rest , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting skeleton , 16 x 32
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting sky , 32 x 32
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting skyblock , 32 x 32
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting snake , 16 x 32
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting snow_landscape , 32 x 16
+[04Jul2024 17:45:02.959] [modloading-worker-0/INFO] [paintings/]: Loaded json painting subaraki , 32 x 16
+[04Jul2024 17:45:02.960] [modloading-worker-0/INFO] [paintings/]: Loaded json painting synth_city , 16 x 16
+[04Jul2024 17:45:02.960] [modloading-worker-0/INFO] [paintings/]: Loaded json painting tapistry_a , 32 x 16
+[04Jul2024 17:45:02.960] [modloading-worker-0/INFO] [paintings/]: Loaded json painting tapistry_b , 16 x 32
+[04Jul2024 17:45:02.960] [modloading-worker-0/INFO] [paintings/]: Loaded json painting tapistry_purple , 16 x 32
+[04Jul2024 17:45:02.960] [modloading-worker-0/INFO] [paintings/]: Loaded json painting torched , 32 x 16
+[04Jul2024 17:45:02.960] [modloading-worker-0/INFO] [paintings/]: Loaded json painting waterfall , 32 x 16
+[04Jul2024 17:45:02.960] [modloading-worker-0/INFO] [paintings/]: Loaded json painting whale , 32 x 16
+[04Jul2024 17:45:02.960] [modloading-worker-0/INFO] [paintings/]: Loaded json painting wheat_field , 32 x 16
+[04Jul2024 17:45:02.960] [modloading-worker-0/INFO] [paintings/]: Loaded json painting wolf_in_wheat , 32 x 16
+[04Jul2024 17:45:02.965] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:task_screen_config_resp
+[04Jul2024 17:45:02.969] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_progress
+[04Jul2024 17:45:02.971] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_object
+[04Jul2024 17:45:02.972] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:create_task_at
+[04Jul2024 17:45:02.973] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:delete_object
+[04Jul2024 17:45:02.975] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:edit_object
+[04Jul2024 17:45:02.977] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter
+[04Jul2024 17:45:02.978] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.3.5, for MC 1.19.2 with MCP 20220805.130853
+[04Jul2024 17:45:02.979] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.3.5 Initialized
+[04Jul2024 17:45:02.979] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_quest
+[04Jul2024 17:45:02.981] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:change_chapter_group
+[04Jul2024 17:45:02.982] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:move_chapter_group
+[04Jul2024 17:45:02.985] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_quest
+[04Jul2024 17:45:02.987] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:copy_chapter_image
+[04Jul2024 17:45:02.988] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbquests:sync_structures_request
+[04Jul2024 17:45:02.994] [modloading-worker-0/INFO] [xyz.apex.forge.commonality.Mods.CommonalityMod/]: Running Minecraft '1.19.2', & Forge '43.3.5' on Java '18.0.2.1, Oracle Corporation'
+[04Jul2024 17:45:02.998] [modloading-worker-0/INFO] [TrustedSourceList/]: Loading BlackListed sources from remote... (https://api.stopmodreposts.org/minecraft/sites.txt)
+[04Jul2024 17:45:03.010] [modloading-worker-0/INFO] [betterstats/]: Initializing 'Better Statistics Screen' as 'BetterStatsServer'.
+[04Jul2024 17:45:03.010] [modloading-worker-0/INFO] [tcdcommons/]: Initializing 'TCDCommons API' as 'TCDCommonsServer'.
+[04Jul2024 17:45:03.052] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VariantSelectorModule
+[04Jul2024 17:45:03.057] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.NarratorReadoutModule
+[04Jul2024 17:45:03.058] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.ClimateControlRemoverModule
+[04Jul2024 17:45:03.060] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentsBegoneModule
+[04Jul2024 17:45:03.063] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.GameNerfsModule
+[04Jul2024 17:45:03.065] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.SpawnerReplacerModule
+[04Jul2024 17:45:03.066] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.AdjustableChatModule
+[04Jul2024 17:45:03.070] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.VillagerRerollingReworkModule
+[04Jul2024 17:45:03.071] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.OverlayShaderModule
+[04Jul2024 17:45:03.073] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.experimental.module.EnchantmentPredicatesModule
+[04Jul2024 17:45:03.074] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantLaddersModule
+[04Jul2024 17:45:03.075] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantBookshelvesModule
+[04Jul2024 17:45:03.076] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.BambooBackportModule
+[04Jul2024 17:45:03.078] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CompressedBlocksModule
+[04Jul2024 17:45:03.080] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MorePottedPlantsModule
+[04Jul2024 17:45:03.090] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.DuskboundBlocksModule
+[04Jul2024 17:45:03.091] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.WoodenPostsModule
+[04Jul2024 17:45:03.092] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ThatchModule
+[04Jul2024 17:45:03.094] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreStoneVariantsModule
+[04Jul2024 17:45:03.095] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShearVinesModule
+[04Jul2024 17:45:03.097] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.NetherBrickFenceGateModule
+[04Jul2024 17:45:03.098] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GoldBarsModule
+[04Jul2024 17:45:03.099] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RopeModule
+[04Jul2024 17:45:03.101] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.CelebratoryLampsModule
+[04Jul2024 17:45:03.102] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SoulSandstoneModule
+[04Jul2024 17:45:03.105] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantChestsModule
+[04Jul2024 17:45:03.116] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.LeafCarpetModule
+[04Jul2024 17:45:03.119] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.FramedGlassModule
+[04Jul2024 17:45:03.123] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalPlanksModule
+[04Jul2024 17:45:03.125] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VariantFurnacesModule
+[04Jul2024 17:45:03.128] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HedgesModule
+[04Jul2024 17:45:03.129] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.HollowLogsModule
+[04Jul2024 17:45:03.129] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MidoriModule
+[04Jul2024 17:45:03.130] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RainbowLampsModule
+[04Jul2024 17:45:03.131] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.VerticalSlabsModule
+[04Jul2024 17:45:03.134] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.ShinglesModule
+[04Jul2024 17:45:03.135] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.SturdyStoneModule
+[04Jul2024 17:45:03.136] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.StoolsModule
+[04Jul2024 17:45:03.137] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.RawMetalBricksModule
+[04Jul2024 17:45:03.138] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreMudBlocksModule
+[04Jul2024 17:45:03.139] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GrateModule
+[04Jul2024 17:45:03.143] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.JapanesePaletteModule
+[04Jul2024 17:45:03.145] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.MoreBrickTypesModule
+[04Jul2024 17:45:03.146] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.GlassItemFrameModule
+[04Jul2024 17:45:03.148] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.building.module.IndustrialPaletteModule
+[04Jul2024 17:45:03.153] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NetherObsidianSpikesModule
+[04Jul2024 17:45:03.156] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.PermafrostModule
+[04Jul2024 17:45:03.158] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.FairyRingsModule
+[04Jul2024 17:45:03.160] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BigStoneClustersModule
+[04Jul2024 17:45:03.166] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.SpiralSpiresModule
+[04Jul2024 17:45:03.168] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AncientWoodModule
+[04Jul2024 17:45:03.170] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NewStoneTypesModule
+[04Jul2024 17:45:03.172] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.BlossomTreesModule
+[04Jul2024 17:45:03.174] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.GlimmeringWealdModule
+[04Jul2024 17:45:03.178] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.MonsterBoxModule
+[04Jul2024 17:45:03.179] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.AzaleaWoodModule
+[04Jul2024 17:45:03.180] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.NoMoreLavaPocketsModule
+[04Jul2024 17:45:03.181] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.CorundumModule
+[04Jul2024 17:45:03.182] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.world.module.ChorusVegetationModule
+[04Jul2024 17:45:03.184] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.CameraModule
+[04Jul2024 17:45:03.185] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ElytraIndicatorModule
+[04Jul2024 17:45:03.186] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ImprovedTooltipsModule
+[04Jul2024 17:45:03.187] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.GreenerGrassModule
+[04Jul2024 17:45:03.190] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BucketsShowInhabitantsModule
+[04Jul2024 17:45:03.191] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.SoulCandlesModule
+[04Jul2024 17:45:03.191] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.AutoWalkKeybindModule
+[04Jul2024 17:45:03.193] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.VariantAnimalTexturesModule
+[04Jul2024 17:45:03.194] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.MicrocraftingHelperModule
+[04Jul2024 17:45:03.195] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsesForCursesModule
+[04Jul2024 17:45:03.196] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.WoolShutsUpMinecartsModule
+[04Jul2024 17:45:03.197] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.BackButtonKeybindModule
+[04Jul2024 17:45:03.198] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.ChestSearchingModule
+[04Jul2024 17:45:03.201] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.LongRangePickBlockModule
+[04Jul2024 17:45:03.202] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.client.module.UsageTickerModule
+[04Jul2024 17:45:03.204] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.PistonsMoveTileEntitiesModule
+[04Jul2024 17:45:03.204] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.EnderWatcherModule
+[04Jul2024 17:45:03.205] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.RedstoneRandomizerModule
+[04Jul2024 17:45:03.207] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.FeedingTroughModule
+[04Jul2024 17:45:03.209] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.MetalButtonsModule
+[04Jul2024 17:45:03.210] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.IronRodModule
+[04Jul2024 17:45:03.211] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ObsidianPlateModule
+[04Jul2024 17:45:03.212] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChainsConnectBlocksModule
+[04Jul2024 17:45:03.212] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.GravisandModule
+[04Jul2024 17:45:03.214] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.JukeboxAutomationModule
+[04Jul2024 17:45:03.214] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.DispensersPlaceBlocksModule
+[04Jul2024 17:45:03.215] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.automation.module.ChuteModule
+[04Jul2024 17:45:03.217] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.QuickArmorSwappingModule
+[04Jul2024 17:45:03.218] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ItemSharingModule
+[04Jul2024 17:45:03.219] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.AutomaticToolRestockModule
+[04Jul2024 17:45:03.223] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.ExpandedItemInteractionsModule
+[04Jul2024 17:45:03.224] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.InventorySortingModule
+[04Jul2024 17:45:03.225] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.HotbarChangerModule
+[04Jul2024 17:45:03.226] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.management.module.EasyTransferingModule
+[04Jul2024 17:45:03.227] [modloading-worker-0/INFO] [TrustedSourceList/]: Loaded 564 BlackListed sources from remote
+[04Jul2024 17:45:03.228] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'commonality' TrustWorthiness...
+[04Jul2024 17:45:03.228] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GoldToolsHaveFortuneModule
+[04Jul2024 17:45:03.228] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[04Jul2024 17:45:03.228] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'commonality' TrustWorthiness: UNKNOWN
+[04Jul2024 17:45:03.229] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.AutomaticRecipeUnlockModule
+[04Jul2024 17:45:03.230] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.UtilityRecipesModule
+[04Jul2024 17:45:03.232] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PoisonPotatoUsageModule
+[04Jul2024 17:45:03.233] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.BetterElytraRocketModule
+[04Jul2024 17:45:03.233] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.RenewableSporeBlossomsModule
+[04Jul2024 17:45:03.234] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CoralOnCactusModule
+[04Jul2024 17:45:03.235] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GlassShardModule
+[04Jul2024 17:45:03.236] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PigLittersModule
+[04Jul2024 17:45:03.237] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CampfiresBoostElytraModule
+[04Jul2024 17:45:03.239] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DyeableItemFramesModule
+[04Jul2024 17:45:03.240] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlabsToBlocksModule
+[04Jul2024 17:45:03.241] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MapWashingModule
+[04Jul2024 17:45:03.243] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EnhancedLaddersModule
+[04Jul2024 17:45:03.245] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReacharoundPlacingModule
+[04Jul2024 17:45:03.257] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HorsesSwimModule
+[04Jul2024 17:45:03.258] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongeOnWaterPlacementModule
+[04Jul2024 17:45:03.259] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ArmedArmorStandsModule
+[04Jul2024 17:45:03.260] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DoubleDoorOpeningModule
+[04Jul2024 17:45:03.261] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ZombieVillagersOnNormalModule
+[04Jul2024 17:45:03.262] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.HoeHarvestingModule
+[04Jul2024 17:45:03.263] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.EmotesModule
+[04Jul2024 17:45:03.264] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SlimesToMagmaCubesModule
+[04Jul2024 17:45:03.265] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SnowGolemPlayerHeadsModule
+[04Jul2024 17:45:03.265] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VexesDieWithTheirMastersModule
+[04Jul2024 17:45:03.266] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreNoteBlockSoundsModule
+[04Jul2024 17:45:03.267] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.PatTheDogsModule
+[04Jul2024 17:45:03.269] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.GrabChickensModule
+[04Jul2024 17:45:03.270] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.MoreBannerLayersModule
+[04Jul2024 17:45:03.271] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ReplaceScaffoldingModule
+[04Jul2024 17:45:03.272] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DiamondRepairModule
+[04Jul2024 17:45:03.273] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SaferCreaturesModule
+[04Jul2024 17:45:03.275] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.LockRotationModule
+[04Jul2024 17:45:03.277] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.VillagersFollowEmeraldsModule
+[04Jul2024 17:45:03.278] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.CompassesWorkEverywhereModule
+[04Jul2024 17:45:03.280] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.NoDurabilityOnCosmeticsModule
+[04Jul2024 17:45:03.280] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SpongesBetterModule
+[04Jul2024 17:45:03.281] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SignEditingModule
+[04Jul2024 17:45:03.283] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.SimpleHarvestModule
+[04Jul2024 17:45:03.284] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.DragonScalesModule
+[04Jul2024 17:45:03.284] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tweaks.module.ShulkerPackingModule
+[04Jul2024 17:45:03.287] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.FoxhoundModule
+[04Jul2024 17:45:03.288] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.WraithModule
+[04Jul2024 17:45:03.290] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.CrabsModule
+[04Jul2024 17:45:03.292] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ForgottenModule
+[04Jul2024 17:45:03.294] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ShibaModule
+[04Jul2024 17:45:03.296] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.StonelingsModule
+[04Jul2024 17:45:03.298] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.mobs.module.ToretoiseModule
+[04Jul2024 17:45:03.299] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BeaconRedirectionModule
+[04Jul2024 17:45:03.300] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AmbientDiscsModule
+[04Jul2024 17:45:03.302] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PathfinderMapsModule
+[04Jul2024 17:45:03.305] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ColorRunesModule
+[04Jul2024 17:45:03.307] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.PickarangModule
+[04Jul2024 17:45:03.313] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.ParrotEggsModule
+[04Jul2024 17:45:03.313] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TrowelModule
+[04Jul2024 17:45:03.316] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AbacusModule
+[04Jul2024 17:45:03.319] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BottledCloudModule
+[04Jul2024 17:45:03.326] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.TorchArrowModule
+[04Jul2024 17:45:03.328] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.BundleRecipeModule
+[04Jul2024 17:45:03.331] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.AncientTomesModule
+[04Jul2024 17:45:03.332] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.EndermoshMusicDiscModule
+[04Jul2024 17:45:03.333] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SeedPouchModule
+[04Jul2024 17:45:03.337] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SkullPikesModule
+[04Jul2024 17:45:03.338] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.content.tools.module.SlimeInABucketModule
+[04Jul2024 17:45:03.340] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.PipesModule
+[04Jul2024 17:45:03.346] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.BackpackModule
+[04Jul2024 17:45:03.348] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TinyPotatoModule
+[04Jul2024 17:45:03.352] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MatrixEnchantingModule
+[04Jul2024 17:45:03.354] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.TotemOfHoldingModule
+[04Jul2024 17:45:03.355] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.CrateModule
+[04Jul2024 17:45:03.356] [modloading-worker-0/INFO] [quark/]: Found Quark module class vazkii.quark.addons.oddities.module.MagnetsModule
+[04Jul2024 17:45:03.360] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONSTRUCT
+[04Jul2024 17:45:03.448] [modloading-worker-0/INFO] [quark/]: Loading Module Pistons Move Tile Entities
+[04Jul2024 17:45:03.450] [modloading-worker-0/INFO] [quark/]: Loading Module Ender Watcher
+[04Jul2024 17:45:03.450] [modloading-worker-0/INFO] [quark/]: Loading Module Redstone Randomizer
+[04Jul2024 17:45:03.450] [modloading-worker-0/INFO] [quark/]: Loading Module Feeding Trough
+[04Jul2024 17:45:03.452] [modloading-worker-0/INFO] [quark/]: Loading Module Metal Buttons
+[04Jul2024 17:45:03.452] [modloading-worker-0/INFO] [quark/]: Loading Module Iron Rod
+[04Jul2024 17:45:03.452] [modloading-worker-0/INFO] [quark/]: Loading Module Obsidian Plate
+[04Jul2024 17:45:03.452] [modloading-worker-0/INFO] [quark/]: Loading Module Chains Connect Blocks
+[04Jul2024 17:45:03.452] [modloading-worker-0/INFO] [quark/]: Loading Module Gravisand
+[04Jul2024 17:45:03.452] [modloading-worker-0/INFO] [quark/]: Loading Module Jukebox Automation
+[04Jul2024 17:45:03.453] [modloading-worker-0/INFO] [quark/]: Loading Module Dispensers Place Blocks
+[04Jul2024 17:45:03.453] [modloading-worker-0/INFO] [quark/]: Loading Module Chute
+[04Jul2024 17:45:03.453] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Ladders
+[04Jul2024 17:45:03.454] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Bookshelves
+[04Jul2024 17:45:03.454] [modloading-worker-0/INFO] [quark/]: Loading Module Bamboo Backport
+[04Jul2024 17:45:03.454] [modloading-worker-0/INFO] [quark/]: Loading Module Compressed Blocks
+[04Jul2024 17:45:03.454] [modloading-worker-0/INFO] [quark/]: Loading Module More Potted Plants
+[04Jul2024 17:45:03.454] [modloading-worker-0/INFO] [quark/]: Loading Module Duskbound Blocks
+[04Jul2024 17:45:03.454] [modloading-worker-0/INFO] [quark/]: Loading Module Wooden Posts
+[04Jul2024 17:45:03.454] [modloading-worker-0/INFO] [quark/]: Loading Module Thatch
+[04Jul2024 17:45:03.454] [modloading-worker-0/INFO] [quark/]: Loading Module More Stone Variants
+[04Jul2024 17:45:03.454] [modloading-worker-0/INFO] [quark/]: Loading Module Shear Vines
+[04Jul2024 17:45:03.455] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Brick Fence Gate
+[04Jul2024 17:45:03.455] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Bars
+[04Jul2024 17:45:03.455] [modloading-worker-0/INFO] [quark/]: Loading Module Rope
+[04Jul2024 17:45:03.455] [modloading-worker-0/INFO] [quark/]: Loading Module Celebratory Lamps
+[04Jul2024 17:45:03.455] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Sandstone
+[04Jul2024 17:45:03.455] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Chests
+[04Jul2024 17:45:03.459] [modloading-worker-0/INFO] [quark/]: Loading Module Leaf Carpet
+[04Jul2024 17:45:03.459] [modloading-worker-0/INFO] [quark/]: Loading Module Framed Glass
+[04Jul2024 17:45:03.459] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Planks
+[04Jul2024 17:45:03.459] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Furnaces
+[04Jul2024 17:45:03.459] [modloading-worker-0/INFO] [quark/]: Loading Module Hedges
+[04Jul2024 17:45:03.459] [modloading-worker-0/INFO] [quark/]: Loading Module Hollow Logs
+[04Jul2024 17:45:03.460] [modloading-worker-0/INFO] [quark/]: Loading Module Midori
+[04Jul2024 17:45:03.460] [modloading-worker-0/INFO] [quark/]: Loading Module Rainbow Lamps
+[04Jul2024 17:45:03.460] [modloading-worker-0/INFO] [quark/]: Loading Module Vertical Slabs
+[04Jul2024 17:45:03.460] [modloading-worker-0/INFO] [quark/]: Loading Module Shingles
+[04Jul2024 17:45:03.460] [modloading-worker-0/INFO] [quark/]: Loading Module Sturdy Stone
+[04Jul2024 17:45:03.460] [modloading-worker-0/INFO] [quark/]: Loading Module Stools
+[04Jul2024 17:45:03.461] [modloading-worker-0/INFO] [quark/]: Loading Module Raw Metal Bricks
+[04Jul2024 17:45:03.462] [modloading-worker-0/INFO] [quark/]: Loading Module More Mud Blocks
+[04Jul2024 17:45:03.462] [modloading-worker-0/INFO] [quark/]: Loading Module Grate
+[04Jul2024 17:45:03.462] [modloading-worker-0/INFO] [quark/]: Loading Module Japanese Palette
+[04Jul2024 17:45:03.462] [modloading-worker-0/INFO] [quark/]: Loading Module More Brick Types
+[04Jul2024 17:45:03.462] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Item Frame
+[04Jul2024 17:45:03.462] [modloading-worker-0/INFO] [quark/]: Loading Module Industrial Palette
+[04Jul2024 17:45:03.462] [modloading-worker-0/INFO] [quark/]: Loading Module Quick Armor Swapping
+[04Jul2024 17:45:03.462] [modloading-worker-0/INFO] [quark/]: Loading Module Item Sharing
+[04Jul2024 17:45:03.462] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Tool Restock
+[04Jul2024 17:45:03.465] [modloading-worker-0/INFO] [quark/]: Loading Module Expanded Item Interactions
+[04Jul2024 17:45:03.465] [modloading-worker-0/INFO] [quark/]: Loading Module Inventory Sorting
+[04Jul2024 17:45:03.465] [modloading-worker-0/INFO] [quark/]: Loading Module Hotbar Changer
+[04Jul2024 17:45:03.465] [modloading-worker-0/INFO] [quark/]: Loading Module Easy Transfering
+[04Jul2024 17:45:03.465] [modloading-worker-0/INFO] [quark/]: Loading Module Beacon Redirection
+[04Jul2024 17:45:03.465] [modloading-worker-0/INFO] [quark/]: Loading Module Ambient Discs
+[04Jul2024 17:45:03.466] [modloading-worker-0/INFO] [quark/]: Loading Module Pathfinder Maps
+[04Jul2024 17:45:03.468] [modloading-worker-0/INFO] [quark/]: Loading Module Color Runes
+[04Jul2024 17:45:03.472] [modloading-worker-0/INFO] [quark/]: Loading Module Pickarang
+[04Jul2024 17:45:03.472] [modloading-worker-0/INFO] [quark/]: Loading Module Parrot Eggs
+[04Jul2024 17:45:03.474] [modloading-worker-0/INFO] [quark/]: Loading Module Trowel
+[04Jul2024 17:45:03.474] [modloading-worker-0/INFO] [quark/]: Loading Module Abacus
+[04Jul2024 17:45:03.474] [modloading-worker-0/INFO] [quark/]: Loading Module Bottled Cloud
+[04Jul2024 17:45:03.475] [modloading-worker-0/INFO] [quark/]: Loading Module Torch Arrow
+[04Jul2024 17:45:03.475] [modloading-worker-0/INFO] [quark/]: Loading Module Bundle Recipe
+[04Jul2024 17:45:03.475] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Tomes
+[04Jul2024 17:45:03.478] [modloading-worker-0/INFO] [quark/]: Loading Module Endermosh Music Disc
+[04Jul2024 17:45:03.479] [modloading-worker-0/INFO] [quark/]: Loading Module Seed Pouch
+[04Jul2024 17:45:03.479] [modloading-worker-0/INFO] [quark/]: Loading Module Skull Pikes
+[04Jul2024 17:45:03.480] [modloading-worker-0/INFO] [quark/]: Loading Module Slime In A Bucket
+[04Jul2024 17:45:03.481] [modloading-worker-0/INFO] [quark/]: Loading Module Gold Tools Have Fortune
+[04Jul2024 17:45:03.481] [modloading-worker-0/INFO] [quark/]: Loading Module Automatic Recipe Unlock
+[04Jul2024 17:45:03.482] [modloading-worker-0/INFO] [quark/]: Loading Module Utility Recipes
+[04Jul2024 17:45:03.482] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'apexcore' TrustWorthiness...
+[04Jul2024 17:45:03.482] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[04Jul2024 17:45:03.483] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'apexcore' TrustWorthiness: UNKNOWN
+[04Jul2024 17:45:03.483] [modloading-worker-0/INFO] [quark/]: Loading Module Poison Potato Usage
+[04Jul2024 17:45:03.484] [modloading-worker-0/INFO] [quark/]: Loading Module Better Elytra Rocket
+[04Jul2024 17:45:03.485] [modloading-worker-0/INFO] [quark/]: Loading Module Renewable Spore Blossoms
+[04Jul2024 17:45:03.486] [modloading-worker-0/INFO] [quark/]: Loading Module Coral On Cactus
+[04Jul2024 17:45:03.486] [modloading-worker-0/INFO] [quark/]: Loading Module Glass Shard
+[04Jul2024 17:45:03.486] [modloading-worker-0/INFO] [quark/]: Loading Module Pig Litters
+[04Jul2024 17:45:03.488] [modloading-worker-0/INFO] [quark/]: Loading Module Campfires Boost Elytra
+[04Jul2024 17:45:03.488] [modloading-worker-0/INFO] [quark/]: Loading Module Dyeable Item Frames
+[04Jul2024 17:45:03.489] [modloading-worker-0/INFO] [quark/]: Loading Module Slabs To Blocks
+[04Jul2024 17:45:03.492] [modloading-worker-0/INFO] [quark/]: Loading Module Map Washing
+[04Jul2024 17:45:03.492] [modloading-worker-0/INFO] [quark/]: Loading Module Enhanced Ladders
+[04Jul2024 17:45:03.492] [modloading-worker-0/INFO] [TrustManager/]: Loading mod 'fantasyfurniture' TrustWorthiness...
+[04Jul2024 17:45:03.492] [modloading-worker-0/FATAL] [TrustManager/]: Could not determine mod trust worthiness, Assuming Jar was downloaded from trusted source!
+[04Jul2024 17:45:03.492] [modloading-worker-0/INFO] [TrustManager/]: Loaded mod 'fantasyfurniture' TrustWorthiness: UNKNOWN
+[04Jul2024 17:45:03.493] [modloading-worker-0/INFO] [quark/]: Loading Module Reacharound Placing
+[04Jul2024 17:45:03.493] [modloading-worker-0/INFO] [quark/]: Loading Module Horses Swim
+[04Jul2024 17:45:03.494] [modloading-worker-0/INFO] [quark/]: Loading Module Sponge On Water Placement
+[04Jul2024 17:45:03.495] [modloading-worker-0/INFO] [quark/]: Loading Module Armed Armor Stands
+[04Jul2024 17:45:03.496] [modloading-worker-0/INFO] [quark/]: Loading Module Double Door Opening
+[04Jul2024 17:45:03.496] [modloading-worker-0/INFO] [quark/]: Loading Module Zombie Villagers On Normal
+[04Jul2024 17:45:03.497] [modloading-worker-0/INFO] [quark/]: Loading Module Hoe Harvesting
+[04Jul2024 17:45:03.498] [modloading-worker-0/INFO] [quark/]: Loading Module Emotes
+[04Jul2024 17:45:03.498] [modloading-worker-0/INFO] [quark/]: Loading Module Slimes To Magma Cubes
+[04Jul2024 17:45:03.499] [modloading-worker-0/INFO] [quark/]: Loading Module Snow Golem Player Heads
+[04Jul2024 17:45:03.499] [modloading-worker-0/INFO] [quark/]: Loading Module Vexes Die With Their Masters
+[04Jul2024 17:45:03.500] [modloading-worker-0/INFO] [quark/]: Loading Module More Note Block Sounds
+[04Jul2024 17:45:03.501] [modloading-worker-0/INFO] [quark/]: Loading Module Pat The Dogs
+[04Jul2024 17:45:03.502] [modloading-worker-0/INFO] [quark/]: Loading Module Grab Chickens
+[04Jul2024 17:45:03.504] [modloading-worker-0/INFO] [quark/]: Loading Module More Banner Layers
+[04Jul2024 17:45:03.504] [modloading-worker-0/INFO] [quark/]: Loading Module Replace Scaffolding
+[04Jul2024 17:45:03.504] [modloading-worker-0/INFO] [quark/]: Loading Module Diamond Repair
+[04Jul2024 17:45:03.504] [modloading-worker-0/INFO] [quark/]: Loading Module Safer Creatures
+[04Jul2024 17:45:03.505] [modloading-worker-0/INFO] [quark/]: Loading Module Lock Rotation
+[04Jul2024 17:45:03.507] [modloading-worker-0/INFO] [quark/]: Loading Module Villagers Follow Emeralds
+[04Jul2024 17:45:03.507] [modloading-worker-0/INFO] [quark/]: Loading Module Compasses Work Everywhere
+[04Jul2024 17:45:03.508] [modloading-worker-0/INFO] [quark/]: Loading Module No Durability On Cosmetics
+[04Jul2024 17:45:03.509] [modloading-worker-0/INFO] [quark/]: Loading Module Sponges Better
+[04Jul2024 17:45:03.509] [modloading-worker-0/INFO] [quark/]: Loading Module Sign Editing
+[04Jul2024 17:45:03.509] [modloading-worker-0/INFO] [quark/]: Loading Module Simple Harvest
+[04Jul2024 17:45:03.510] [modloading-worker-0/INFO] [quark/]: Loading Module Dragon Scales
+[04Jul2024 17:45:03.511] [modloading-worker-0/INFO] [quark/]: Loading Module Shulker Packing
+[04Jul2024 17:45:03.512] [modloading-worker-0/INFO] [quark/]: Loading Module Nether Obsidian Spikes
+[04Jul2024 17:45:03.512] [modloading-worker-0/INFO] [quark/]: Loading Module Permafrost
+[04Jul2024 17:45:03.512] [modloading-worker-0/INFO] [quark/]: Loading Module Fairy Rings
+[04Jul2024 17:45:03.512] [modloading-worker-0/INFO] [quark/]: Loading Module Big Stone Clusters
+[04Jul2024 17:45:03.512] [modloading-worker-0/INFO] [quark/]: Loading Module Spiral Spires
+[04Jul2024 17:45:03.513] [modloading-worker-0/INFO] [quark/]: Loading Module Ancient Wood
+[04Jul2024 17:45:03.513] [modloading-worker-0/INFO] [quark/]: Loading Module New Stone Types
+[04Jul2024 17:45:03.513] [modloading-worker-0/INFO] [quark/]: Loading Module Blossom Trees
+[04Jul2024 17:45:03.514] [modloading-worker-0/INFO] [quark/]: Loading Module Glimmering Weald
+[04Jul2024 17:45:03.514] [modloading-worker-0/INFO] [quark/]: Loading Module Monster Box
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Azalea Wood
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module No More Lava Pockets
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Corundum
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Chorus Vegetation
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Foxhound
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Wraith
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Crabs
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Forgotten
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Shiba
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Stonelings
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Toretoise
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Camera
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Elytra Indicator
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Improved Tooltips
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Greener Grass
+[04Jul2024 17:45:03.515] [modloading-worker-0/INFO] [quark/]: Loading Module Buckets Show Inhabitants
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Soul Candles
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Auto Walk Keybind
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Animal Textures
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Microcrafting Helper
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Uses For Curses
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Wool Shuts Up Minecarts
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Back Button Keybind
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Chest Searching
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Long Range Pick Block
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Usage Ticker
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Variant Selector
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Narrator Readout
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Climate Control Remover
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantments Begone
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Game Nerfs
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Spawner Replacer
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Adjustable Chat
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Villager Rerolling Rework
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Overlay Shader
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Enchantment Predicates
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Pipes
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Backpack
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Tiny Potato
+[04Jul2024 17:45:03.516] [modloading-worker-0/INFO] [quark/]: Loading Module Matrix Enchanting
+[04Jul2024 17:45:03.517] [modloading-worker-0/INFO] [quark/]: Loading Module Totem Of Holding
+[04Jul2024 17:45:03.517] [modloading-worker-0/INFO] [quark/]: Loading Module Crate
+[04Jul2024 17:45:03.517] [modloading-worker-0/INFO] [quark/]: Loading Module Magnets
+[04Jul2024 17:45:03.574] [modloading-worker-0/INFO] [Puzzles Lib/]: Constructing common components for mod puzzleslib
+[04Jul2024 17:45:03.597] [modloading-worker-0/INFO] [net.tonimatasdev.packetfixerforge.PacketFixerForge/]: Packet Fixer (Forge) has been initialized successfully
+[04Jul2024 17:45:03.599] [modloading-worker-0/INFO] [thedarkcolour.kotlinforforge.test.KotlinForForge/]: Kotlin For Forge Enabled!
+[04Jul2024 17:45:04.009] [main/INFO] [quark/]: Dispatching Module Step REGISTER
+[04Jul2024 17:45:04.265] [main/INFO] [quark/]: Dispatching Module Step POST_REGISTER
+[04Jul2024 17:45:05.328] [main/INFO] [moonlight/]: Initialized block sets in 9ms
+[04Jul2024 17:45:06.105] [main/INFO] [ModernFix/]: Bypassed Mojang DFU
+[04Jul2024 17:45:06.105] [main/INFO] [ModernFix/]: Instantiating Mojang DFU
+[04Jul2024 17:45:06.368] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant abstract_blue
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant abstract_rainbow
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant abstract_red
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant abstract_sunset
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant arachnophobe
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant barn_owl
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant big_z
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant blue_bird
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant bluesclues
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant borgia
+[04Jul2024 17:45:06.406] [main/INFO] [paintings/]: Registered variant cane
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant cat_black
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant cat_gray
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant cat_orange
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant cat
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant colorful_squares
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant crest
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant danger_zone
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant decorative_gun
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant exit_down
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant exit_up
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant exit_left
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant exit_right
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_bat
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_chicken
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_cow
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_creeper
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_dog
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_enderman
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_pig
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_pigman
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_silverfish
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_skeleton
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_squid
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant face_zombie
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant fishes
+[04Jul2024 17:45:06.407] [main/INFO] [paintings/]: Registered variant flowers
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant fruits
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant ghost
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant glowlamp
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant glowstone_hourglass
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant iluvmc
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant link
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant mine_prosperity
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant no_trespassing_for_mobs
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant ocelot
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant penguin
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant pig_on_a_cliff
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant pkmn_blue
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant pkmn_red
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant pkmn_green
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant plains_hut
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant portrait_2
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant portrait
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant prison
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant prosperity
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant rest
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant skeleton
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant sky
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant skyblock
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant snake
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant snow_landscape
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant subaraki
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant synth_city
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant tapistry_a
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant tapistry_b
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant tapistry_purple
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant torched
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant waterfall
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant whale
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant wheat_field
+[04Jul2024 17:45:06.408] [main/INFO] [paintings/]: Registered variant wolf_in_wheat
+[04Jul2024 17:45:06.710] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.BaseEntities.Infected from class com.Harbinger.Spore.Sentities.EvolvedInfected.Stalker
+[04Jul2024 17:45:06.711] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.Organoids.Mound from class com.Harbinger.Spore.Sentities.Organoids.Proto
+[04Jul2024 17:45:06.712] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.Harbinger.Spore.Sentities.Utility.InfectionTendril from class com.Harbinger.Spore.Sentities.BaseEntities.Calamity
+[04Jul2024 17:45:06.880] [main/WARN] [fuzs.nightconfigfixes.config.ConfigSpecWrapper/CORE]: Configuration file C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\config\philips-ruins-common-configs.toml is not correct. Correcting
+[04Jul2024 17:45:06.880] [main/WARN] [fuzs.nightconfigfixes.config.ConfigSpecWrapper/CORE]: Incorrect key Philip's Ruins.Spawn Seed was corrected from 1 to its default, 1. 
+[04Jul2024 17:45:06.882] [main/INFO] [com.philip.philipsruins.PhilipsRuins/]: Philip's Ruins configs loaded.
+[04Jul2024 17:45:06.932] [main/WARN] [fuzs.nightconfigfixes.config.ConfigSpecWrapper/CORE]: Configuration file C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\config\distantfriends-common.toml is not correct. Correcting
+[04Jul2024 17:45:06.932] [main/WARN] [fuzs.nightconfigfixes.config.ConfigSpecWrapper/CORE]: Incorrect key compat.playerMobsWhitelist was corrected from [] to its default, []. 
+[04Jul2024 17:45:06.934] [main/INFO] [com.mrbysco.distantfriends.DistantFriends/]: Refreshing friends cache
+[04Jul2024 17:45:06.934] [main/ERROR] [com.mrbysco.distantfriends.DistantFriends/]: Error fetching names from 
+java.net.MalformedURLException: no protocol: 
+	at java.net.URL.<init>(URL.java:674) ~[?:?]
+	at java.net.URL.<init>(URL.java:569) ~[?:?]
+	at java.net.URL.<init>(URL.java:516) ~[?:?]
+	at com.mrbysco.distantfriends.config.FriendNamesCache.refreshCache(FriendNamesCache.java:36) ~[DistantFriends-1.19.2-0.2.3.jar%23311!/:0.2.3]
+	at com.mrbysco.distantfriends.config.FriendConfig.onLoad(FriendConfig.java:63) ~[DistantFriends-1.19.2-0.2.3.jar%23311!/:0.2.3]
+	at com.mrbysco.distantfriends.config.__FriendConfig_onLoad_Loading.invoke(.dynamic) ~[DistantFriends-1.19.2-0.2.3.jar%23311!/:0.2.3]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar%2351!/:?]
+	at net.minecraftforge.fml.javafmlmod.FMLModContainer.lambda$new$0(FMLModContainer.java:44) ~[javafmllanguage-1.19.2-43.3.5.jar%23443!/:?]
+	at org.embeddedt.modernfix.forge.config.ConfigFixer$LockingConfigHandler.accept(ConfigFixer.java:53) ~[modernfix-forge-5.16.1+mc1.19.2.jar%23362!/:5.16.1+mc1.19.2]
+	at org.embeddedt.modernfix.forge.config.ConfigFixer$LockingConfigHandler.accept(ConfigFixer.java:38) ~[modernfix-forge-5.16.1+mc1.19.2.jar%23362!/:5.16.1+mc1.19.2]
+	at fuzs.nightconfigfixes.config.ModConfigSpecUtil.lambda$wrapConfigHandler$0(ModConfigSpecUtil.java:51) ~[NightConfigFixes-v4.0.7-1.19.2-Forge.jar%23369!/:4.0.7]
+	at net.minecraftforge.fml.ModContainer.lambda$dispatchConfigEvent$13(ModContainer.java:150) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModContainer.dispatchConfigEvent(ModContainer.java:150) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at net.minecraftforge.fml.config.ModConfig.fireEvent(ModConfig.java:77) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at net.minecraftforge.fml.config.ConfigTracker.openConfig(ConfigTracker.java:62) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at net.minecraftforge.fml.config.ConfigTracker.lambda$loadConfigs$1(ConfigTracker.java:50) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at java.util.Collections$SynchronizedCollection.forEach(Collections.java:2131) ~[?:?]
+	at net.minecraftforge.fml.config.ConfigTracker.loadConfigs(ConfigTracker.java:50) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at net.minecraftforge.fml.core.ModStateProvider.lambda$new$3(ModStateProvider.java:68) ~[forge-1.19.2-43.3.5-universal.jar%23446!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$dispatchAndHandleError$23(ModLoader.java:207) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.dispatchAndHandleError(ModLoader.java:207) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at net.minecraftforge.fml.ModLoader.lambda$loadMods$17(ModLoader.java:191) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.minecraftforge.fml.ModLoader.loadMods(ModLoader.java:191) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:33) ~[forge-1.19.2-43.3.5-universal.jar%23446!/:?]
+	at net.minecraft.server.Main.main(Main.java:113) ~[server-1.19.2-20220805.130853-srg.jar%23441!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.3.5.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[04Jul2024 17:45:06.985] [main/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[04Jul2024 17:45:07.004] [modloading-worker-0/INFO] [ancient_manuscripts/]: Ancient Manuscripts common setup
+[04Jul2024 17:45:07.004] [modloading-worker-0/INFO] [com.recipeessentials.RecipeEssentials/]: recipeessentials mod initialized
+[04Jul2024 17:45:07.005] [modloading-worker-0/INFO] [com.connectivity.Connectivity/]: Connectivity initialized
+[04Jul2024 17:45:07.005] [modloading-worker-0/INFO] [com.structureessentials.StructureEssentials/]: structureessentials mod initialized
+[04Jul2024 17:45:07.007] [modloading-worker-0/INFO] [com.lootintegrations.LootintegrationsMod/]: lootintegrations mod initialized
+[04Jul2024 17:45:07.022] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.item_obliterator.forge.config.ConfigEntries.
+[04Jul2024 17:45:07.023] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.item_obliterator.forge.config.ConfigEntries read successfully.
+[04Jul2024 17:45:07.025] [modloading-worker-0/INFO] [elocindev.item_obliterator.forge.ItemObliterator/]: Loaded Item Obliterator Config
+[04Jul2024 17:45:07.028] [modloading-worker-0/INFO] [incontrol/]: Reading rules from spawn.json
+[04Jul2024 17:45:07.034] [modloading-worker-0/INFO] [dev.wuffs.bcc.BCC/]: Better Compatibility Checker setting up
+[04Jul2024 17:45:07.034] [modloading-worker-0/INFO] [com.eeriemusic.EerieMusicMod/]: eeriemusic mod initialized
+[04Jul2024 17:45:07.034] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: biomemusic.json
+[04Jul2024 17:45:07.035] [modloading-worker-0/INFO] [elocindev.teraphobia.forge.Teraphobia/]: Loaded Teraphobia Config
+[04Jul2024 17:45:07.037] [modloading-worker-0/INFO] [elocindev.ysns.forge.YSNS/]: Loaded YSNS Config
+[04Jul2024 17:45:07.049] [modloading-worker-0/INFO] [TimeControl/]: Registered custom gamerule
+[04Jul2024 17:45:07.050] [modloading-worker-0/INFO] [com.dusk.Dusk/]: Dusk initialized
+[04Jul2024 17:45:07.068] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Compatibility version 17
+[04Jul2024 17:45:07.079] [modloading-worker-0/INFO] [Sound Physics - General/]: Reloading config
+[04Jul2024 17:45:07.079] [modloading-worker-0/INFO] [Sound Physics - General/]: Reloading reverb parameters
+[04Jul2024 17:45:07.080] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[04Jul2024 17:45:07.080] [modloading-worker-0/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[04Jul2024 17:45:07.080] [modloading-worker-0/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[04Jul2024 17:45:07.081] [modloading-worker-0/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[04Jul2024 17:45:07.081] [modloading-worker-0/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[04Jul2024 17:45:07.087] [modloading-worker-0/INFO] [necronomicon/]: Necronomicon Initialized
+[04Jul2024 17:45:07.089] [modloading-worker-0/INFO] [necronomicon/]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[04Jul2024 17:45:07.089] [modloading-worker-0/INFO] [necronomicon/]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[04Jul2024 17:45:07.093] [modloading-worker-0/INFO] [jerintegration/]: Applying Immersive Engineering patch
+[04Jul2024 17:45:07.098] [Immersive Engineering Contributors Thread/INFO] [immersiveengineering/]: Attempting to download special revolvers from GitHub
+[04Jul2024 17:45:07.099] [modloading-worker-0/INFO] [incontrol/]: Reading rules from summonaid.json
+[04Jul2024 17:45:07.102] [modloading-worker-0/INFO] [incontrol/]: Reading rules from loot.json
+[04Jul2024 17:45:07.109] [modloading-worker-0/INFO] [incontrol/]: Reading rules from experience.json
+[04Jul2024 17:45:07.111] [modloading-worker-0/INFO] [incontrol/]: Reading rules from phases.json
+[04Jul2024 17:45:07.112] [modloading-worker-0/INFO] [Simple RPC/]: Loading config file from C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\config\simple-rpc-server.toml
+[04Jul2024 17:45:07.112] [modloading-worker-0/INFO] [studio.lunareclipse.watching.Init/]: From The Fog Loaded Successfully!
+[04Jul2024 17:45:07.113] [modloading-worker-0/INFO] [incontrol/]: Reading rules from special.json
+[04Jul2024 17:45:07.114] [modloading-worker-0/INFO] [incontrol/]: Reading rules from spawner.json
+[04Jul2024 17:45:07.119] [modloading-worker-0/INFO] [Simple RPC/]: Registered simple-rpc-server.toml successfully!
+[04Jul2024 17:45:07.152] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loading plugins
+[04Jul2024 17:45:07.158] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Loaded 1 plugin(s)
+[04Jul2024 17:45:07.158] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initializing plugins
+[04Jul2024 17:45:07.162] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether_enhanced_extinguishing] Starting version check at https://github.com/The-Aether-Team/Enhanced-Extinguishing/raw/1.19.2-develop/update.json
+[04Jul2024 17:45:07.166] [modloading-worker-0/INFO] [Sound Physics - General/]: Initializing Simple Voice Chat integration
+[04Jul2024 17:45:07.166] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Initialized 1 plugin(s)
+[04Jul2024 17:45:07.167] [modloading-worker-0/INFO] [com.betterchunkloading.BetterChunkLoading/]: betterchunkloading mod initialized
+[04Jul2024 17:45:07.167] [modloading-worker-0/INFO] [voicechat/]: [voicechat] Registering events for sound_physics_remastered
+[04Jul2024 17:45:07.171] [modloading-worker-0/INFO] [com.biomemusic.BiomeMusic/]: biomemusic mod initialized
+[04Jul2024 17:45:07.177] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step CONFIG_CHANGED
+[04Jul2024 17:45:07.181] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step SETUP
+[04Jul2024 17:45:07.181] [modloading-worker-0/INFO] [com.chunksending.ChunkSending/]: chunksending mod initialized
+[04Jul2024 17:45:07.241] [main/INFO] [terrablender/]: Registered region riverredux:overworld to index 3 for type OVERWORLD
+[04Jul2024 17:45:07.241] [main/INFO] [terrablender/]: Registered region hexerei:overworld to index 4 for type OVERWORLD
+[04Jul2024 17:45:07.251] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[04Jul2024 17:45:07.256] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[04Jul2024 17:45:07.258] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[04Jul2024 17:45:07.259] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[04Jul2024 17:45:07.289] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[04Jul2024 17:45:07.289] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[04Jul2024 17:45:07.289] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[04Jul2024 17:45:07.289] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[04Jul2024 17:45:07.294] [main/INFO] [terrablender/]: Registered region graveyard_biomes:biome_provider to index 5 for type OVERWORLD
+[04Jul2024 17:45:07.324] [main/INFO] [moonlight/]: Initialized color sets in 26ms
+[04Jul2024 17:45:07.348] [main/INFO] [moonlight/]: Initialized color sets in 23ms
+[04Jul2024 17:45:07.369] [main/INFO] [terrablender/]: Registered region gardens_of_the_dead:nether to index 2 for type NETHER
+[04Jul2024 17:45:07.386] [main/INFO] [supplementaries/]: Finished mod setup in: [0, 0, 1, 0, 0, 0, 0, 0, 0] ms
+[04Jul2024 17:45:07.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether_enhanced_extinguishing] Found status: UP_TO_DATE Current: 1.19.2-1.0.0-forge Target: null
+[04Jul2024 17:45:07.461] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ancient_manuscripts] Starting version check at https://raw.githubusercontent.com/mc-goodch/files/master/ancient-manuscripts-updater.json
+[04Jul2024 17:45:07.476] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ancient_manuscripts] Found status: BETA Current: 1.1.2-1.19 Target: null
+[04Jul2024 17:45:07.477] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Starting version check at https://github.com/The-Aether-Team/The-Aether/raw/1.19.2-develop/update.json
+[04Jul2024 17:45:07.521] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aether] Found status: OUTDATED Current: 1.19.2-1.0.0-beta.1.3-forge Target: 1.19.2-1.4.2-forge
+[04Jul2024 17:45:07.521] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Starting version check at https://updates.blamejared.com/get?n=bookshelf&gv=1.19.2
+[04Jul2024 17:45:07.607] [modloading-worker-0/INFO] [quark/]: Dispatching Module Step LOAD_COMPLETE
+[04Jul2024 17:45:07.610] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at ht.treechop.compat.Jade
+[04Jul2024 17:45:07.613] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at com.aetherteam.aether.integration.jade.AetherJadePlugin
+[04Jul2024 17:45:07.615] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[04Jul2024 17:45:07.616] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at blusunrize.immersiveengineering.common.util.compat.jade.IEWailaPlugin
+[04Jul2024 17:45:07.618] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[04Jul2024 17:45:07.624] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[04Jul2024 17:45:07.629] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[04Jul2024 17:45:07.630] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at lekavar.lma.drinkbeer.compat.jade.JadePlugin
+[04Jul2024 17:45:07.657] [main/INFO] [terrablender/]: Registered region quark:biome_provider to index 6 for type OVERWORLD
+[04Jul2024 17:45:07.887] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[04Jul2024 17:45:07.907] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [bookshelf] Found status: BETA Current: 16.3.20 Target: 16.3.20
+[04Jul2024 17:45:07.907] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [resourcepackoverrides] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/resourcepackoverrides.json
+[04Jul2024 17:45:07.922] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [resourcepackoverrides] Found status: UP_TO_DATE Current: 4.0.4 Target: null
+[04Jul2024 17:45:07.922] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Starting version check at https://raw.githubusercontent.com/XxRexRaptorxX/Update-Checker/main/AdditionalStructures.json
+[04Jul2024 17:45:07.940] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [additionalstructures] Found status: UP_TO_DATE Current: 4.0.4 Target: null
+[04Jul2024 17:45:07.940] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [leavesbegone] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/leavesbegone.json
+[04Jul2024 17:45:07.959] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [leavesbegone] Found status: UP_TO_DATE Current: 4.0.1 Target: null
+[04Jul2024 17:45:07.959] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://maxhenkel.de/update/corpse.json
+[04Jul2024 17:45:08.263] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/fightclub_forge/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23441!/assets/.mcassetsroot' uses unexpected schema
+[04Jul2024 17:45:08.263] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/fightclub_forge/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23441!/data/.mcassetsroot' uses unexpected schema
+[04Jul2024 17:45:08.337] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=2 on sanitydim.mixins.json:MixinServerPlayerGameMode::handler$zmb000$destroyBlock exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04Jul2024 17:45:08.406] [main/ERROR] [net.minecraft.server.packs.resources.MultiPackResourceManager/]: Failed to get filter section from pack aether-1.19.2-1.0.0-beta.1.3-forge.jar:packs/curios_tags
+[04Jul2024 17:45:08.406] [main/ERROR] [net.minecraft.server.packs.resources.MultiPackResourceManager/]: Failed to get filter section from pack aether_enhanced_extinguishing-1.19.2-1.0.0-forge.jar:packs/recipe_override
+[04Jul2024 17:45:08.482] [main/INFO] [supplementaries/]: Generated runtime SERVER_DATA for pack Supplementaries Generated Pack in: 70 ms
+[04Jul2024 17:45:08.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: UP_TO_DATE Current: 1.19.2-1.0.9 Target: null
+[04Jul2024 17:45:08.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Starting version check at https://raw.githubusercontent.com/croissantnova/SanityDescentIntoMadness/main/update.json
+[04Jul2024 17:45:08.951] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sanitydim] Found status: UP_TO_DATE Current: 1.1.0 Target: null
+[04Jul2024 17:45:08.951] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [nightconfigfixes] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/nightconfigfixes.json
+[04Jul2024 17:45:08.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [nightconfigfixes] Found status: UP_TO_DATE Current: 4.0.7 Target: null
+[04Jul2024 17:45:08.968] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Starting version check at https://github.com/The-Aether-Team/Cumulus/raw/1.19.2-develop/update.json
+[04Jul2024 17:45:09.013] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cumulus_menus] Found status: OUTDATED Current: 1.19.2-1.0.0-beta.1-forge Target: 1.19.2-1.0.0-forge
+[04Jul2024 17:45:09.014] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersivemc] Starting version check at https://api.modrinth.com/updates/immersivemc/forge_updates.json
+[04Jul2024 17:45:09.150] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersivemc] Found status: OUTDATED Current: 1.4.0 Target: 1.4.1
+[04Jul2024 17:45:09.150] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [netherchested] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/netherchested.json
+[04Jul2024 17:45:09.167] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [netherchested] Found status: UP_TO_DATE Current: 4.0.4 Target: null
+[04Jul2024 17:45:09.167] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [biomancy] Starting version check at https://api.modrinth.com/updates/uAAuyU4M/forge_updates.json
+[04Jul2024 17:45:09.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [biomancy] Found status: BETA_OUTDATED Current: 2.2.0.0 Target: 2.3.2.0
+[04Jul2024 17:45:09.231] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/visualworkbench.json
+[04Jul2024 17:45:09.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [visualworkbench] Found status: UP_TO_DATE Current: 4.2.4 Target: null
+[04Jul2024 17:45:09.249] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [obscure_api] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/obscure_api/versions.json
+[04Jul2024 17:45:09.290] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[04Jul2024 17:45:09.291] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[04Jul2024 17:45:09.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: OUTDATED Current: 8.2.37 Target: 8.2.40
+[04Jul2024 17:45:09.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Starting version check at https://mrcrayfish.com/modupdatejson?id=configured
+[04Jul2024 17:45:09.910] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [configured] Found status: BETA Current: 2.1.1 Target: 2.1.1
+[04Jul2024 17:45:09.910] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vivecraft] Starting version check at https://raw.githubusercontent.com/Vivecraft/VivecraftMod/forge-versions/forge_updates.json
+[04Jul2024 17:45:09.923] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [vivecraft] Found status: OUTDATED Current: 1.19.2-1.1.7 Target: 1.19.2-1.1.9
+[04Jul2024 17:45:09.923] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Starting version check at https://maxhenkel.de/update/voicechat.json
+[04Jul2024 17:45:10.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [voicechat] Found status: OUTDATED Current: 1.19.2-2.4.30 Target: 1.19.2-2.4.32
+[04Jul2024 17:45:10.147] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Starting version check at https://maxhenkel.de/update/sound_physics_remastered.json
+[04Jul2024 17:45:10.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [sound_physics_remastered] Found status: OUTDATED Current: 1.19.2-1.0.18 Target: 1.19.2-1.3.0
+[04Jul2024 17:45:10.376] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[04Jul2024 17:45:10.392] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: OUTDATED Current: 1.19.2-2.3.5 Target: 1.19.2-2.3.6
+[04Jul2024 17:45:10.392] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Starting version check at https://raw.githubusercontent.com/BluSunrize/ImmersiveEngineering/1.19/changelog.json
+[04Jul2024 17:45:10.409] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [immersiveengineering] Found status: BETA Current: 1.19.2-9.2.3-167 Target: null
+[04Jul2024 17:45:10.410] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mindfuldarkness] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/mindfuldarkness.json
+[04Jul2024 17:45:10.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mindfuldarkness] Found status: UP_TO_DATE Current: 4.0.9 Target: null
+[04Jul2024 17:45:10.426] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Jul2024 17:45:10.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.3.5 Target: 43.4.0
+[04Jul2024 17:45:10.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
+[04Jul2024 17:45:10.641] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [commonality] Found status: OUTDATED Current: 4.2.1 Target: 7.3.1
+[04Jul2024 17:45:10.641] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Supplementaries/master/forge/update.json
+[04Jul2024 17:45:10.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [supplementaries] Found status: OUTDATED Current: 1.19.2-2.4.13 Target: 1.19.2-2.4.21
+[04Jul2024 17:45:10.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Starting version check at https://api.modrinth.com/updates/apexcore/forge_updates.json
+[04Jul2024 17:45:10.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [apexcore] Found status: UP_TO_DATE Current: 7.3.1 Target: null
+[04Jul2024 17:45:10.733] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Starting version check at https://api.modrinth.com/updates/fantasy-furniture/forge_updates.json
+[04Jul2024 17:45:10.796] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [fantasyfurniture] Found status: UP_TO_DATE Current: 6.7.0 Target: null
+[04Jul2024 17:45:10.796] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Starting version check at https://raw.githubusercontent.com/Fuzss/modresources/main/update/puzzleslib.json
+[04Jul2024 17:45:10.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [puzzleslib] Found status: UP_TO_DATE Current: 4.4.3 Target: null
+[04Jul2024 17:45:10.811] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Starting version check at https://api.modrinth.com/updates/packet-fixer/forge_updates.json
+[04Jul2024 17:45:10.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [packetfixer] Found status: OUTDATED Current: 1.2.0 Target: 1.4.2
+[04Jul2024 17:45:10.935] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [aquamirae] Starting version check at https://raw.githubusercontent.com/ObscuriaLithium/Home/main/aquamirae/versions.json
+[04Jul2024 17:45:10.977] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.3.5.jar%23442!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was NUMBER at line 1 column 4 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[04Jul2024 17:45:11.158] [main/INFO] [croissantnova.sanitydim.SanityMod/]: Registering sanity command...
+[04Jul2024 17:45:11.217] [main/INFO] [com.github.L_Ender.cataclysm.cataclysm/]: Adding datapack listener altar_of_amethyst_recipes
+[04Jul2024 17:45:11.379] [Worker-Main-4/ERROR] [net.minecraft.tags.TagLoader/]: [Load My Fucking Tags] Couldn't load certain entries with the tag quark:wraith_spawnable: quark:soul_stone (from bygonenether-1.3.2-1.19.2.jar)
+[04Jul2024 17:45:12.011] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:fdsheeprack: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.013] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:smokerporkloin: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:porkloin'
+[04Jul2024 17:45:12.015] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:campfiresheeprack: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:sheeprack'
+[04Jul2024 17:45:12.019] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fd_goat_loin: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.025] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe teraphobia:netherrack_totem: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[04Jul2024 17:45:12.030] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/blackboard_clear as it's serializer returned null
+[04Jul2024 17:45:12.031] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:crushing/amethyst_dust: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:crushing'
+[04Jul2024 17:45:12.032] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:fdporkribs: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.032] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:smokersheepshank: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:sheepshank'
+[04Jul2024 17:45:12.032] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:smokerbeeftenderloin: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:beeftenderloin'
+[04Jul2024 17:45:12.037] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fd_goat_rack: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.040] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:smokerbeefribs: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:beefribs'
+[04Jul2024 17:45:12.041] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:milling/amethyst_dust: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:milling'
+[04Jul2024 17:45:12.041] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fdsheeploin: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.046] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:campfireham: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:ham'
+[04Jul2024 17:45:12.046] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe farmersdelight:organic_compost_from_body_parts: com.google.gson.JsonSyntaxException: Unknown item 'farmersdelight:straw'
+[04Jul2024 17:45:12.049] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_dye as it's serializer returned null
+[04Jul2024 17:45:12.051] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fdsheeprack: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.051] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:smoker_sheeploin: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:sheeploin'
+[04Jul2024 17:45:12.055] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:compacting/packed_flesh_block_from_flesh_blocks: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:compacting'
+[04Jul2024 17:45:12.057] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:rcookedporkloin: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:porkloin'
+[04Jul2024 17:45:12.058] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fdlegcow: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.062] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:campfiresheepshank: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:sheepshank'
+[04Jul2024 17:45:12.063] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fd_llama_leg: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.066] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fd_llama_loin: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.067] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:compacting/packed_flesh_block_from_flesh_bits: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:compacting'
+[04Jul2024 17:45:12.067] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fdbeeftenderloin: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.070] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:smokersheeprack: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:sheeprack'
+[04Jul2024 17:45:12.070] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:fdlegcow: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.071] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:campfireporkribs: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:porkribs'
+[04Jul2024 17:45:12.072] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe endofherobrine:blackstone_totem: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[04Jul2024 17:45:12.074] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe teraphobia:blackstone_totem: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[04Jul2024 17:45:12.076] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:cookedcowribs: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:beefribs'
+[04Jul2024 17:45:12.077] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:pressing/compound_plate: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:pressing'
+[04Jul2024 17:45:12.078] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fdsheepshank: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.080] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe minecraft:ender_eye: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[04Jul2024 17:45:12.080] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fdporkribs: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.081] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:fdsheeploin: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.083] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:rcookedsheeprack: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:sheeprack'
+[04Jul2024 17:45:12.084] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:cookedcowleg: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:legcow'
+[04Jul2024 17:45:12.085] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fdham: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.089] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:smokerporkribs: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:porkribs'
+[04Jul2024 17:45:12.091] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:fdbeefribs: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.091] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:compacting/malignant_flesh_block_from_veins: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:compacting'
+[04Jul2024 17:45:12.093] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:fdporkloin: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.093] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:campfire_sheeploin: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:sheeploin'
+[04Jul2024 17:45:12.094] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:r_cookedsheepshank: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:sheepshank'
+[04Jul2024 17:45:12.096] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:smokerlegcow: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:legcow'
+[04Jul2024 17:45:12.096] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:campfirebeefribs: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:beefribs'
+[04Jul2024 17:45:12.096] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:campfirebeeftenderloin: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:beeftenderloin'
+[04Jul2024 17:45:12.097] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:rcookedporkribs: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:porkribs'
+[04Jul2024 17:45:12.099] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fdbeefribs: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.099] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe teraphobia:cursed_head: com.google.gson.JsonSyntaxException: Invalid item: minecraft:air
+[04Jul2024 17:45:12.100] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:cookedbeeftenderloin: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:beeftenderloin'
+[04Jul2024 17:45:12.101] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe endofherobrine:netherrack_totem: com.google.gson.JsonSyntaxException: Missing type, expected to find a string
+[04Jul2024 17:45:12.104] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:smokerham: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:ham'
+[04Jul2024 17:45:12.107] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:fdham: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.107] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe supplementaries:inspirations/flag_clear as it's serializer returned null
+[04Jul2024 17:45:12.110] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fd_llama_ribs: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.110] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:fdsheepshank: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.112] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:rcookedham: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:ham'
+[04Jul2024 17:45:12.114] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:rcooked_sheeploin: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:sheeploin'
+[04Jul2024 17:45:12.114] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fdgoatshank: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.116] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:compacting/flesh_block_from_flesh_bits: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:compacting'
+[04Jul2024 17:45:12.116] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelightfoods:fdporkloin: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.117] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:campfirelegcow: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:legcow'
+[04Jul2024 17:45:12.117] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:fdbeeftenderloin: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersdelight:cutting'
+[04Jul2024 17:45:12.118] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe create:mixing/compound: com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'create:mixing'
+[04Jul2024 17:45:12.119] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe butchersdelight:campfireporkloin: com.google.gson.JsonSyntaxException: Unknown item 'butchersdelight:porkloin'
+[04Jul2024 17:45:12.124] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 49 recipes
+[04Jul2024 17:45:12.127] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Loot Modification Manager has loaded 0 modifier groups
+[04Jul2024 17:45:12.474] [main/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {minecraft:entities/mooshroom}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Jul2024 17:45:12.476] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Advancement Modification Manager has loaded 0 modifier groups
+[04Jul2024 17:45:12.477] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function watching:check
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 1: Unknown or incomplete command, see below for error at position 0: <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.19.2-20220805.130853-srg.jar%23441!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:85) ~[server-1.19.2-20220805.130853-srg.jar%23441!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[04Jul2024 17:45:12.495] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/emu_feather_decomposing: Unknown item id 'alexsmobs:emu_feather'
+[04Jul2024 17:45:12.498] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/blobfish_decomposing: Unknown item id 'alexsmobs:blobfish'
+[04Jul2024 17:45:12.499] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/fish_bones_decomposing: Unknown item id 'alexsmobs:fish_bones'
+[04Jul2024 17:45:12.501] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/centipede_leg_decomposing: Unknown item id 'alexsmobs:centipede_leg'
+[04Jul2024 17:45:12.503] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/kangaroo_hide_decomposing: Unknown item id 'alexsmobs:kangaroo_hide'
+[04Jul2024 17:45:12.505] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/bone_serpent_tooth_decomposing: Unknown item id 'alexsmobs:bone_serpent_tooth'
+[04Jul2024 17:45:12.506] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/maggot_decomposing: Unknown item id 'alexsmobs:maggot'
+[04Jul2024 17:45:12.509] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/void_worm_mandible_decomposing: Unknown item id 'alexsmobs:void_worm_mandible'
+[04Jul2024 17:45:12.510] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/raccoon_tail_decomposing: Unknown item id 'alexsmobs:raccoon_tail'
+[04Jul2024 17:45:12.511] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/froststalker_horn_decomposing: Unknown item id 'alexsmobs:froststalker_horn'
+[04Jul2024 17:45:12.512] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/dropbear_claw_decomposing: Unknown item id 'alexsmobs:dropbear_claw'
+[04Jul2024 17:45:12.513] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/rattlesnake_rattle_decomposing: Unknown item id 'alexsmobs:rattlesnake_rattle'
+[04Jul2024 17:45:12.516] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/moose_ribs_decomposing: Unknown item id 'alexsmobs:moose_ribs'
+[04Jul2024 17:45:12.517] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/gazelle_horn_decomposing: Unknown item id 'alexsmobs:gazelle_horn'
+[04Jul2024 17:45:12.520] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/komodo_spit_decomposing: Unknown item id 'alexsmobs:komodo_spit'
+[04Jul2024 17:45:12.522] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/hemolymph_sac_decomposing: Unknown item id 'alexsmobs:hemolymph_sac'
+[04Jul2024 17:45:12.523] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/lost_tentacle_decomposing: Unknown item id 'alexsmobs:lost_tentacle'
+[04Jul2024 17:45:12.524] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/raw_catfish_decomposing: Unknown item id 'alexsmobs:raw_catfish'
+[04Jul2024 17:45:12.525] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/shark_tooth_decomposing: Unknown item id 'alexsmobs:shark_tooth'
+[04Jul2024 17:45:12.529] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/void_worm_eye_decomposing: Unknown item id 'alexsmobs:void_worm_eye'
+[04Jul2024 17:45:12.535] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/roadrunner_feather_decomposing: Unknown item id 'alexsmobs:roadrunner_feather'
+[04Jul2024 17:45:12.536] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/kangaroo_meat_decomposing: Unknown item id 'alexsmobs:kangaroo_meat'
+[04Jul2024 17:45:12.536] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/blood_sac_decomposing: Unknown item id 'alexsmobs:blood_sac'
+[04Jul2024 17:45:12.537] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/crocodile_scute_decomposing: Unknown item id 'alexsmobs:crocodile_scute'
+[04Jul2024 17:45:12.537] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/cachalot_whale_tooth_decomposing: Unknown item id 'alexsmobs:cachalot_whale_tooth'
+[04Jul2024 17:45:12.538] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/shed_snake_skin_decomposing: Unknown item id 'alexsmobs:shed_snake_skin'
+[04Jul2024 17:45:12.544] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/moose_antler_decomposing: Unknown item id 'alexsmobs:moose_antler'
+[04Jul2024 17:45:12.546] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement biomancy:recipes/biomancy/decomposing/spiked_scute_decomposing: Unknown item id 'alexsmobs:spiked_scute'
+[04Jul2024 17:45:12.549] [main/INFO] [quark/]: [Automatic Recipe Unlock] Removed 3101 recipe advancements
+[04Jul2024 17:45:12.557] [main/ERROR] [net.minecraft.advancements.AdvancementList/]: Couldn't load advancement undead_unleashed:it_burns: Task Advancement{parentId=undead_unleashed:deleted_mod_element, display=net.minecraft.advancements.DisplayInfo@46878b4d, rewards=AdvancementRewards{experience=0, loot=[], recipes=[], function=net.minecraft.commands.CommandFunction$CacheableFunction@17ee7387}, criteria={it_burns=net.minecraft.advancements.Criterion@6144565f}, requirements=[[it_burns]]}
+[04Jul2024 17:45:12.565] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1655 advancements
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hanging_sign_dark_oak use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hanging_sign_crimson use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_alpha use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_magnolia use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_green_bioshroom use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hanging_sign_oak use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hanging_sign_spruce use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/aether/hanging_sign_skyroot use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_brimwood use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_blackwood use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/gardens_of_the_dead/hanging_sign_whistlecane use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/quark/hanging_sign_azalea use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/endlessbiomes/hanging_sign_penumbra use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hexerei/hanging_sign_willow use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hexerei/hanging_sign_mahogany use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_redwood use this folder name:lootintegrations
+[04Jul2024 17:45:12.567] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_socotra use this folder name:lootintegrations
+[04Jul2024 17:45:12.568] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Parsing loot modifiers for:lootintegrations:dungeonloot_medium with loottable: minecraft:chests/stronghold_crossing
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hanging_sign_acacia use this folder name:lootintegrations
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Parsing loot modifiers for:lootintegrations:dungeonloot_easy with loottable: minecraft:chests/simple_dungeon
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Parsing loot modifiers for:lootintegrations:dungeonloot_nether with loottable: minecraft:chests/nether_bridge
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_pink_bioshroom use this folder name:lootintegrations
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Parsing loot modifiers for:lootintegrations:dungeonloot_hard with loottable: minecraft:chests/end_city_treasure
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Parsing loot modifiers for:lootintegrations:dungeonloot_water with loottable: minecraft:chests/underwater_ruin_big
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_cypress use this folder name:lootintegrations
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_palm use this folder name:lootintegrations
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_cobalt use this folder name:lootintegrations
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/gardens_of_the_dead/hanging_sign_soulblight use this folder name:lootintegrations
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Parsing loot modifiers for:lootintegrations:dungeonloot_no_overflow with loottable: minecraft:chests/simple_dungeon
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_blue_bioshroom use this folder name:lootintegrations
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_mauve use this folder name:lootintegrations
+[04Jul2024 17:45:12.569] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_joshua use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hanging_sign_birch use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hexerei/hanging_sign_witch_hazel use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_kapok use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_maple use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/born_in_chaos_v1/hanging_sign_scorched use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_dead use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_eucalyptus use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/quark/hanging_sign_blossom use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hanging_sign_jungle use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hanging_sign_warped use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/endlessbiomes/hanging_sign_twisted use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_baobab use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/quark/hanging_sign_bamboo use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_willow use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_yellow_bioshroom use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/quark/hanging_sign_ancient use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_pine use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Parsing loot modifiers for:lootintegrations:villageloot_house with loottable: minecraft:chests/village/village_plains_house
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/hanging_sign_mangrove use this folder name:lootintegrations
+[04Jul2024 17:45:12.570] [main/WARN] [com.lootintegrations.LootintegrationsMod/]: Ignoring loot modifiers for:supplementaries:tables/blocks/regions_unexplored/hanging_sign_larch use this folder name:lootintegrations
+[04Jul2024 17:45:12.604] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Structure Repaletter Manager has loaded 0 repaletters
+[04Jul2024 17:45:12.614] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Modded Biome Slice Manager has loaded 1 slices
+[04Jul2024 17:45:12.614] [main/INFO] [com.teamabnormals.blueprint.core.Blueprint/]: Chunk Generator Modification Manager has loaded 0 modifier groups
+[04Jul2024 17:45:12.619] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id bygonenether:soul_stone_from_block - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: bygonenether:replace_item
+[04Jul2024 17:45:12.619] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id bygonenether:soul_stone_in_catacombs - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: bygonenether:replace_item
+[04Jul2024 17:45:12.621] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_on with 2 patches
+[04Jul2024 17:45:12.622] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/make_a_sign_glow with 1 patches
+[04Jul2024 17:45:12.622] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/balanced_diet with 1 patches
+[04Jul2024 17:45:12.622] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/plant_seed with 1 patches
+[04Jul2024 17:45:12.622] [main/INFO] [quark/]: Modified advancement minecraft:nether/all_effects with 1 patches
+[04Jul2024 17:45:12.622] [main/INFO] [quark/]: Modified advancement minecraft:husbandry/wax_off with 2 patches
+[04Jul2024 17:45:12.622] [main/INFO] [quark/]: Modified advancement minecraft:adventure/adventuring_time with 1 patches
+[04Jul2024 17:45:12.625] [main/INFO] [supplementaries/]: Loaded  8 flute songs
+[04Jul2024 17:45:12.685] [main/WARN] [supplementaries/]: Error white registering dispenser behavior for item skyroot_cod_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.cod
+[04Jul2024 17:45:12.685] [main/WARN] [supplementaries/]: Error white registering dispenser behavior for item skyroot_salmon_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.salmon
+[04Jul2024 17:45:12.685] [main/WARN] [supplementaries/]: Error white registering dispenser behavior for item skyroot_pufferfish_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.pufferfish
+[04Jul2024 17:45:12.685] [main/WARN] [supplementaries/]: Error white registering dispenser behavior for item skyroot_tropical_fish_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.tropical_fish
+[04Jul2024 17:45:12.685] [main/WARN] [supplementaries/]: Error white registering dispenser behavior for item skyroot_axolotl_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.axolotl
+[04Jul2024 17:45:12.685] [main/WARN] [supplementaries/]: Error white registering dispenser behavior for item skyroot_tadpole_bucket: java.lang.IllegalArgumentException: value already present: entity.minecraft.tadpole
+[04Jul2024 17:45:12.717] [main/INFO] [supplementaries/]: Finished additional setup in 39 ms
+[04Jul2024 17:45:12.736] [main/WARN] [net.minecraft.server.dedicated.DedicatedServerProperties/]: Failed to parse level-type default, defaulting to minecraft:normal
+[04Jul2024 17:45:13.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[04Jul2024 17:45:13.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[04Jul2024 17:45:13.256] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[04Jul2024 17:45:13.256] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[04Jul2024 17:45:13.311] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on 192.168.86.140:25566
+[04Jul2024 17:45:13.323] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[04Jul2024 17:45:13.439] [Server thread/INFO] [Puzzles Lib/]: Loading server config for leavesbegone
+[04Jul2024 17:45:13.446] [Server thread/INFO] [Puzzles Lib/]: Loading server config for netherchested
+[04Jul2024 17:45:13.526] [Server thread/INFO] [FTB Teams/]: loaded team data: 4 known players, 4 teams total
+[04Jul2024 17:45:13.647] [Server thread/INFO] [spark/]: Starting background profiler...
+[04Jul2024 17:45:13.658] [Server thread/INFO] [spark/]: The async-profiler engine is not supported for your os/arch (windows10/amd64), so the built-in Java engine will be used instead.
+[04Jul2024 17:45:13.702] [Server thread/INFO] [configured/]: Loading server configs...
+[04Jul2024 17:45:13.846] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[04Jul2024 17:45:14.194] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[04Jul2024 17:45:14.194] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[04Jul2024 17:45:14.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Jul2024 17:45:14.770] [Server thread/WARN] [mixin/]: @Redirect conflict. Skipping redirector.mixins.json:net.minecraft.world.level.block.state.CacheMixin->@Redirect::redirectSupportTypes()[Lnet/minecraft/world/level/block/SupportType; with priority 10, already redirected by modernfix-common.mixins.json:perf.cache_blockstate_cache_arrays.AbstractBlockStateCacheMixin->@Redirect::getVoxelShapeValues()[Lnet/minecraft/world/level/block/SupportType; with priority 1000
+[04Jul2024 17:45:15.656] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2024 17:45:15.657] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2024 17:45:15.657] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[04Jul2024 17:45:15.732] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterchunkloading.json
+[04Jul2024 17:45:16.044] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
+[04Jul2024 17:45:16.286] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1744 ms
+[04Jul2024 17:45:16.286] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (2.861s)! For help, type "help"
+[04Jul2024 17:45:16.311] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[04Jul2024 17:45:16.327] [Server thread/INFO] [FTB Quests/]: Loading quests from C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\config\ftbquests\quests
+[04Jul2024 17:45:16.351] [Server thread/INFO] [FTB Quests/]: Loaded 3 chapter groups, 9 chapters, 143 quests, 0 reward tables
+[04Jul2024 17:45:16.365] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[04Jul2024 17:45:16.366] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[04Jul2024 17:45:16.366] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
+[04Jul2024 17:45:16.366] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: lootintegrations.json
+[04Jul2024 17:45:16.367] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: chunksending.json
+[04Jul2024 17:45:16.367] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: betterfpsdist.json
+[04Jul2024 17:45:16.382] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[04Jul2024 17:45:16.386] [VoiceChatServerThread/INFO] [voicechat/]: [voicechat] Voice chat server started at 192.168.86.140:24454
+[04Jul2024 17:45:16.424] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 ash_scythe, missing knowledge for {1 stone_sword=1.0}
+[04Jul2024 17:45:16.425] [Server thread/INFO] [immersiveengineering/]: Couldn't fully analyze 1 radiator, missing knowledge for {1 water_bucket=0.25}
+[04Jul2024 17:45:16.425] [Server thread/INFO] [immersiveengineering/]: Finished recipe profiler for Arc Recycling, took 41 milliseconds
+[04Jul2024 17:45:16.426] [Server thread/WARN] [ModernFix/]: Dedicated server took 26.026 seconds to load
+[04Jul2024 17:46:11.952] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player paxlux2002 is c5b82972-8a70-4c2b-b4c3-720a151a277a
+[04Jul2024 17:46:12.188] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@139350d8[id=c5b82972-8a70-4c2b-b4c3-720a151a277a,name=paxlux2002,properties={textures=[com.mojang.authlib.properties.Property@3cb07c37]},legacy=false] (/98.217.45.25:51407) lost connection: Internal Exception: java.util.ConcurrentModificationException
+[04Jul2024 17:46:18.000] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player paxlux2002 is c5b82972-8a70-4c2b-b4c3-720a151a277a
+[04Jul2024 17:46:19.833] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[04Jul2024 17:46:19.889] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@41340669
+[04Jul2024 17:46:19.916] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: paxlux2002[/98.217.45.25:51414] logged in with entity id 655 at (105.60977697215597, 67.0, -10.268332585983734)
+[04Jul2024 17:46:20.010] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: paxlux2002 joined the game
+[04Jul2024 17:46:20.024] [Netty Server IO #4/INFO] [immersiveengineering/]: Recipes for potions: minecraft:slow_falling, minecraft:regeneration, minecraft:long_slow_falling, minecraft:night_vision, minecraft:swiftness, minecraft:long_night_vision, minecraft:leaping, quark:resilience, minecraft:water, minecraft:strength, minecraft:invisibility, minecraft:fire_resistance, minecraft:long_slowness, minecraft:long_weakness, minecraft:water_breathing, minecraft:awkward, minecraft:long_strength, minecraft:strong_slowness, minecraft:strong_turtle_master, minecraft:long_leaping, minecraft:strong_leaping, quark:strong_resilience, minecraft:long_water_breathing, minecraft:long_fire_resistance, quark:long_resilience, minecraft:strong_poison, minecraft:poison, minecraft:long_regeneration, minecraft:strong_regeneration, minecraft:weakness, minecraft:slowness, minecraft:long_swiftness, minecraft:turtle_master, minecraft:healing, minecraft:strong_harming, minecraft:long_poison, minecraft:long_invisibility, minecraft:strong_strength, minecraft:strong_healing, minecraft:long_turtle_master, minecraft:strong_swiftness, minecraft:harming
+[04Jul2024 17:46:20.164] [Server thread/INFO] [Jade/]: Syncing config to paxlux2002 (c5b82972-8a70-4c2b-b4c3-720a151a277a)
+[04Jul2024 17:46:21.699] [Server thread/INFO] [voicechat/]: [voicechat] Received secret request of paxlux2002 (17)
+[04Jul2024 17:46:21.700] [Server thread/INFO] [voicechat/]: [voicechat] Sent secret to paxlux2002
+[04Jul2024 17:54:45.657] [Worker-Main-4/WARN] [ModernFix/]: The namespace repurposed_structures contains an outdated structure file, which can cause worldgen lag. Please view debug.log for the full filename, determine which mod provides the structure, and report to the mod/datapack author, including the debug log.
+[04Jul2024 17:54:47.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: paxlux2002 has made the advancement [We Need to Go Deeper]
+[04Jul2024 17:54:47.599] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3574ms or 71 ticks behind
+[04Jul2024 17:54:52.305] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-5, -2], pos: MutableBlockPos{x=-75, y=75, z=-32}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[04Jul2024 17:54:53.451] [Worker-Main-2/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-4, -3], pos: MutableBlockPos{x=-64, y=79, z=-39}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:54:53.670] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-6, -3], pos: MutableBlockPos{x=-84, y=76, z=-48}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[04Jul2024 17:55:02.234] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-8, 12], pos: MutableBlockPos{x=-127, y=85, z=193}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[04Jul2024 17:55:02.235] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-8, 12], pos: MutableBlockPos{x=-125, y=84, z=192}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[04Jul2024 17:55:03.544] [Worker-Main-3/WARN] [ModernFix/]: The namespace betterfortresses contains an outdated structure file, which can cause worldgen lag. Please view debug.log for the full filename, determine which mod provides the structure, and report to the mod/datapack author, including the debug log.
+[04Jul2024 17:55:12.969] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 1], pos: MutableBlockPos{x=-159, y=46, z=17}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:12.970] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 1], pos: MutableBlockPos{x=-160, y=45, z=17}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:12.970] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 0], pos: MutableBlockPos{x=-160, y=45, z=12}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:12.970] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 0], pos: MutableBlockPos{x=-160, y=44, z=12}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:12.970] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 0], pos: MutableBlockPos{x=-160, y=43, z=12}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:12.970] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 0], pos: MutableBlockPos{x=-160, y=46, z=11}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:12.970] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 0], pos: MutableBlockPos{x=-160, y=45, z=11}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:12.970] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 0], pos: MutableBlockPos{x=-160, y=44, z=11}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:12.970] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 0], pos: MutableBlockPos{x=-160, y=46, z=12}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:12.970] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 0], pos: MutableBlockPos{x=-160, y=45, z=12}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:12.970] [Worker-Main-4/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 0], pos: MutableBlockPos{x=-160, y=44, z=12}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:13.264] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 6], pos: MutableBlockPos{x=-158, y=84, z=98}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:13.264] [Worker-Main-3/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-10, 6], pos: MutableBlockPos{x=-159, y=84, z=98}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:13.731] [Worker-Main-3/WARN] [ModernFix/]: The namespace graveyard contains an outdated structure file, which can cause worldgen lag. Please view debug.log for the full filename, determine which mod provides the structure, and report to the mod/datapack author, including the debug log.
+[04Jul2024 17:55:13.841] [Worker-Main-9/WARN] [ModernFix/]: The namespace hexerei contains an outdated structure file, which can cause worldgen lag. Please view debug.log for the full filename, determine which mod provides the structure, and report to the mod/datapack author, including the debug log.
+[04Jul2024 17:55:16.048] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-11, 8], pos: MutableBlockPos{x=-176, y=84, z=132}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/netherrack_lakes]
+[04Jul2024 17:55:16.109] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-11, 4], pos: MutableBlockPos{x=-176, y=59, z=78}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[04Jul2024 17:55:16.109] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-11, 4], pos: MutableBlockPos{x=-176, y=58, z=78}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[04Jul2024 17:55:16.110] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-11, 4], pos: MutableBlockPos{x=-176, y=58, z=77}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[04Jul2024 17:55:16.110] [Worker-Main-9/ERROR] [net.minecraft.Util/]: Detected setBlock in a far chunk [-11, 4], pos: MutableBlockPos{x=-176, y=57, z=77}, status: minecraft:features, currently generating: ResourceKey[minecraft:worldgen/placed_feature / hearths:minecraft/nether_wastes/blackstone_lakes]
+[04Jul2024 17:55:17.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: paxlux2002 was slain by Demogon
+[04Jul2024 17:55:48.089] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: paxlux2002 lost connection: Disconnected
+[04Jul2024 17:55:48.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: paxlux2002 left the game
+[04Jul2024 17:55:48.092] [Server thread/INFO] [voicechat/]: [voicechat] Disconnecting client paxlux2002
+[04Jul2024 18:47:17.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[04Jul2024 18:47:17.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Jul2024 18:47:17.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Jul2024 18:47:17.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Jul2024 18:47:17.541] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04Jul2024 18:47:17.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04Jul2024 18:47:17.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[04Jul2024 18:47:17.637] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04Jul2024 18:47:17.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04Jul2024 18:47:17.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Jul2024 18:47:17.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[04Jul2024 18:47:17.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Jul2024 18:47:17.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04Jul2024 18:47:17.751] [Server thread/INFO] [configured/]: Unloading server configs...
+[04Jul2024 18:47:17.751] [Server thread/INFO] [configured/]: Sending config unload event for configured.developer.toml
