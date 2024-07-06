@@ -19,8 +19,9 @@
   },
   "dnl:util/entity_hit_matching/on_hit": {
     "criteria": {
-      "not_projectile": "2024-07-04 17:55:09 -0400",
-      "not_magic": "2024-07-04 17:55:09 -0400"
+      "not_projectile": "2024-07-06 00:13:52 -0400",
+      "is_projectile": "2024-07-06 00:13:48 -0400",
+      "not_magic": "2024-07-06 00:13:48 -0400"
     },
     "done": false
   },
@@ -423,8 +424,8 @@
   },
   "dnl:util/entity_hit_matching/on_hurt": {
     "criteria": {
-      "not_projectile": "2024-07-04 17:55:07 -0400",
-      "blocked_false": "2024-07-04 17:55:07 -0400"
+      "not_projectile": "2024-07-06 00:13:56 -0400",
+      "blocked_false": "2024-07-06 00:13:56 -0400"
     },
     "done": false
   },
@@ -624,6 +625,7 @@
       "minecraft:creeper": "2024-07-02 01:03:21 -0400",
       "minecraft:witch": "2024-07-02 00:54:38 -0400",
       "minecraft:wither_skeleton": "2024-07-04 17:55:06 -0400",
+      "minecraft:enderman": "2024-07-06 00:06:39 -0400",
       "minecraft:zombie": "2024-07-01 00:27:31 -0400"
     },
     "done": false

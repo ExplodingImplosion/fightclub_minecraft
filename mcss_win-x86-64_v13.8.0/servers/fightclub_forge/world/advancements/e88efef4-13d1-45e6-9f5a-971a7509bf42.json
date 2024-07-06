@@ -77,6 +77,12 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-07-05 20:55:01 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/jungle/jungle_chest_boat_from_jungle_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 21:22:57 -0400"
@@ -122,6 +128,12 @@
   "minecraft:recipes/woodcutting/spruce/spruce_chest_boat_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:06:20 -0400"
+    },
+    "done": true
+  },
+  "biomancy:biomancy/flesh": {
+    "criteria": {
+      "has_ender_pearl": "2024-07-05 21:17:29 -0400"
     },
     "done": true
   },
@@ -214,6 +226,7 @@
       "cooked_mutton": "2024-07-02 22:31:44 -0400",
       "cooked_beef": "2024-07-03 17:17:27 -0400",
       "apple": "2024-07-01 19:27:40 -0400",
+      "potato": "2024-07-05 18:15:01 -0400",
       "pumpkin_pie": "2024-07-03 15:45:53 -0400",
       "bread": "2024-07-01 22:39:28 -0400",
       "rotten_flesh": "2024-07-01 19:40:19 -0400",
@@ -250,6 +263,7 @@
       "maple_forest": "2024-07-01 22:19:42 -0400",
       "magnolia_highlands": "2024-07-01 21:22:50 -0400",
       "boreal_forest": "2024-07-02 20:25:17 -0400",
+      "blackstone_basin": "2024-07-05 20:55:01 -0400",
       "temperate_grove": "2024-07-03 19:38:01 -0400",
       "cold_river": "2024-07-01 21:38:20 -0400",
       "gravel_beach": "2024-07-02 21:43:22 -0400",
@@ -381,6 +395,12 @@
     },
     "done": true
   },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-07-05 23:15:41 -0400"
+    },
+    "done": true
+  },
   "immersiveengineering:main/villager": {
     "criteria": {
       "meet_electrician": "2024-07-03 15:44:41 -0400"
@@ -404,6 +424,13 @@
       "give_recipe": "2024-07-01 22:54:12 -0400"
     },
     "done": true
+  },
+  "dnl:util/entity_hit_matching/on_hurt": {
+    "criteria": {
+      "not_projectile": "2024-07-05 23:43:38 -0400",
+      "blocked_false": "2024-07-05 23:43:38 -0400"
+    },
+    "done": false
   },
   "minecraft:recipes/woodcutting/mahogany/mahogany_planks_from_mahogany_log_woodcutting": {
     "criteria": {
@@ -581,13 +608,19 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:blaze": "2024-07-05 21:06:22 -0400",
       "minecraft:skeleton": "2024-07-01 19:39:43 -0400",
       "minecraft:spider": "2024-07-01 19:05:04 -0400",
+      "minecraft:piglin_brute": "2024-07-05 21:15:41 -0400",
       "minecraft:creeper": "2024-07-01 19:26:25 -0400",
+      "minecraft:zombified_piglin": "2024-07-05 23:14:13 -0400",
       "minecraft:witch": "2024-07-03 17:25:43 -0400",
       "minecraft:wither_skeleton": "2024-07-03 20:37:29 -0400",
       "minecraft:cave_spider": "2024-07-03 19:30:29 -0400",
+      "minecraft:enderman": "2024-07-05 21:17:28 -0400",
+      "minecraft:vex": "2024-07-05 23:09:02 -0400",
       "minecraft:zombie": "2024-07-01 19:44:21 -0400",
+      "minecraft:drowned": "2024-07-05 18:47:39 -0400",
       "minecraft:zombie_villager": "2024-07-02 21:00:34 -0400"
     },
     "done": false
@@ -601,6 +634,12 @@
   "minecraft:recipes/woodcutting/jungle/barrel_from_jungle_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 21:22:57 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-07-05 20:55:01 -0400"
     },
     "done": true
   },
@@ -691,6 +730,12 @@
   "minecraft:story/upgrade_tools": {
     "criteria": {
       "stone_pickaxe": "2024-07-01 20:01:34 -0400"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-07-05 19:17:06 -0400"
     },
     "done": true
   },
@@ -844,6 +889,12 @@
     },
     "done": true
   },
+  "bygonenether:root": {
+    "criteria": {
+      "entered_nether": "2024-07-05 20:55:01 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/oak/oak_fence_gate_from_oak_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:18:34 -0400"
@@ -879,6 +930,12 @@
       "give_recipe": "2024-07-01 19:49:16 -0400"
     },
     "done": true
+  },
+  "regions_unexplored:got_wood": {
+    "criteria": {
+      "willow_log": "2024-07-05 18:34:38 -0400"
+    },
+    "done": false
   },
   "minecraft:recipes/woodcutting/mahogany/polished_mahogany_stairs_from_mahogany_planks_woodcutting": {
     "criteria": {
@@ -1151,6 +1208,12 @@
     },
     "done": true
   },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-07-05 21:14:54 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/mahogany/polished_mahogany_pressure_plate_from_mahogany_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:52:43 -0400"
@@ -1383,6 +1446,12 @@
       "give_recipe": "2024-07-01 22:52:43 -0400"
     },
     "done": true
+  },
+  "regions_unexplored:eternal_expedition": {
+    "criteria": {
+      "blackstone_basin": "2024-07-05 20:55:01 -0400"
+    },
+    "done": false
   },
   "ancient_manuscripts:items/warped_binding_table": {
     "criteria": {
