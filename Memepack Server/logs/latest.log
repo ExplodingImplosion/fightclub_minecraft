@@ -1,0 +1,32 @@
+[20:03:56] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[20:04:07] [Server thread/INFO]: Loading properties
+[20:04:07] [Server thread/INFO]: Default game type: SURVIVAL
+[20:04:07] [Server thread/INFO]: Generating keypair
+[20:04:08] [Server thread/INFO]: Starting Minecraft server on 10.0.1.69:25565
+[20:04:14] [Server thread/INFO]: Preparing level "world"
+[20:04:15] [Server thread/INFO]: Preparing start region for level 0
+[20:04:16] [Server thread/INFO]: Done (2.327s)! For help, type "help" or "?"
+[20:05:03] [User Authenticator #1/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[20:05:03] [Server thread/INFO]: ASFJASJHALALF lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[20:05:03] [Server thread/INFO]: ASFJASJHALALF left the game
+[20:05:29] [Server thread/INFO]: Stopping the server
+[20:05:29] [Server thread/INFO]: Stopping server
+[20:05:29] [Server thread/INFO]: Saving players
+[20:05:29] [Server thread/INFO]: Saving worlds
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/planet.asteroids
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Spirit World
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Torment
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Mirror
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Dagobah
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Ilum
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Endor
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Yavin Four
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Kashyyyk
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Hoth
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Space
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/Tatooine
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/moon.moon
+[20:05:29] [Server thread/INFO]: Saving chunks for level 'world'/planet.mars

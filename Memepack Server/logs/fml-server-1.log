@@ -1,0 +1,1496 @@
+[16:53:34] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[16:53:34] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[16:53:34] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_201, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_201
+[16:53:34] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[16:53:34] [main/DEBUG] [FML/]: Java library path at launch is C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\Miles\AppData\Local\Microsoft\WindowsApps;;.
+[16:53:34] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[16:53:34] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[16:53:34] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[16:53:34] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[16:53:34] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[16:53:34] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[16:53:34] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[16:53:34] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[16:53:34] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\.
+[16:53:34] [main/DEBUG] [FML/]: Discovering coremods
+[16:53:34] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy [1.7.10]bspkrsCore-universal-6.15.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in [1.7.10]bspkrsCore-universal-6.15.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy AnimationAPI-1.7.10-1.2.4.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in AnimationAPI-1.7.10-1.2.4.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy ArchimedesShips-1.7.1.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in ArchimedesShips-1.7.1.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy BiblioCraft[v1.10.4][MC1.7.10].jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in BiblioCraft[v1.10.4][MC1.7.10].jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy buildcraft-7.1.22.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in buildcraft-7.1.22.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[16:53:35] [main/TRACE] [FML/]: Adding CodeChickenCore-1.7.10-1.0.7.47-universal.jar to the list of known coremods, it will not be examined again
+[16:53:35] [main/DEBUG] [FML/]: Instantiating coremod class CodeChickenCorePlugin
+[16:53:35] [main/WARN] [FML/]: The coremod codechicken.core.launch.CodeChickenCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:53:35] [main/DEBUG] [FML/]: Added access transformer class codechicken.core.asm.CodeChickenAccessTransformer to enqueued access transformers
+[16:53:35] [main/DEBUG] [FML/]: Enqueued coremod CodeChickenCorePlugin
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy CustomNPCs_1.7.10d.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in CustomNPCs_1.7.10d.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy DynamicTransport-0.1.2.0.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in DynamicTransport-0.1.2.0.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy Galacticraft-Planets-1.7-3.0.12.430.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in Galacticraft-Planets-1.7-3.0.12.430.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy GalacticraftCore-1.7-3.0.12.430.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in GalacticraftCore-1.7-3.0.12.430.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy Halocraft-v0.7.6-(MC-1.7.10)-(KCWM-Weap-v1.3).jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy iChunUtil-4.2.3.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in iChunUtil-4.2.3.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy inventorypets-1.7.10-1.4.9.6-universal.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in inventorypets-1.7.10-1.4.9.6-universal.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy Iron-Chests-Mod-1.7.10.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in Iron-Chests-Mod-1.7.10.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy KCs-Weapon-Mod-v0.1.5-(MC-1.7.10)-(Weap-v1.3).jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy Mantle-1.7.10-0.3.2.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in Mantle-1.7.10-0.3.2.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy MCA-1.7.10-5.1.1.0-universal.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in MCA-1.7.10-5.1.1.0-universal.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy MicdoodleCore-1.7-3.0.12.430.jar
+[16:53:35] [main/TRACE] [FML/]: Adding MicdoodleCore-1.7-3.0.12.430.jar to the list of known coremods, it will not be examined again
+[16:53:35] [main/DEBUG] [FML/]: Instantiating coremod class MicdoodlePlugin
+[16:53:35] [main/WARN] [FML/]: The coremod micdoodle8.mods.miccore.MicdoodlePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:53:35] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.DepLoader$DepLoadInst:<init>:333]: MicdoodleCore searching for dependencies in mods file: C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\.\mods
+[16:53:35] [main/DEBUG] [FML/]: Added access transformer class micdoodle8.mods.miccore.MicdoodleAccessTransformer to enqueued access transformers
+[16:53:35] [main/DEBUG] [FML/]: Enqueued coremod MicdoodlePlugin
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[16:53:35] [main/TRACE] [FML/]: Adding NotEnoughItems-1.7.10-1.0.5.120-universal.jar to the list of known coremods, it will not be examined again
+[16:53:35] [main/DEBUG] [FML/]: Instantiating coremod class NEICorePlugin
+[16:53:35] [main/WARN] [FML/]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:53:35] [main/DEBUG] [FML/]: Enqueued coremod NEICorePlugin
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy Pam's HarvestCraft 1.7.10f.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in Pam's HarvestCraft 1.7.10f.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy Parzi's Star Wars Mod v1.3.3.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in Parzi's Star Wars Mod v1.3.3.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy Portal-Gun-Mod-1.7.10.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in Portal-Gun-Mod-1.7.10.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy RadixCore-1.7.10-2.1.1-universal.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in RadixCore-1.7.10-2.1.1-universal.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy SlimevoidLibrary-2.0.4.7.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in SlimevoidLibrary-2.0.4.7.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy Sync-4.0.0.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in Sync-4.0.0.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy Tube-Transport-System-Mod-1.7.10.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in Tube-Transport-System-Mod-1.7.10.jar
+[16:53:35] [main/DEBUG] [FML/]: Examining for coremod candidacy witchery-1.7.10-0.24.1.jar
+[16:53:35] [main/DEBUG] [FML/]: Not found coremod data in witchery-1.7.10-0.24.1.jar
+[16:53:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:53:35] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:53:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:53:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:53:35] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:53:35] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[16:53:35] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[16:53:35] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[16:53:35] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:53:35] [main/DEBUG] [FML/]: Injection complete
+[16:53:35] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[16:53:35] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[16:53:36] [main/DEBUG] [FML/]: Read 527 binary patches
+[16:53:36] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:53:36] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[16:53:36] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:53:36] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[16:53:36] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[16:53:36] [main/DEBUG] [FML/]: Injection complete
+[16:53:36] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[16:53:36] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[16:53:36] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[16:53:36] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:53:36] [main/DEBUG] [FML/]: Injecting coremod CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin} class transformers
+[16:53:36] [main/DEBUG] [FML/]: Injection complete
+[16:53:36] [main/DEBUG] [FML/]: Running coremod plugin for CCCDeobfPlugin {codechicken.core.asm.MCPDeobfuscationTransformer$LoadPlugin}
+[16:53:36] [main/DEBUG] [FML/]: Running coremod plugin CCCDeobfPlugin
+[16:53:36] [main/DEBUG] [FML/]: Coremod plugin class LoadPlugin run successfully
+[16:53:36] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:53:36] [main/DEBUG] [FML/]: Injecting coremod CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin} class transformers
+[16:53:36] [main/TRACE] [FML/]: Registering transformer codechicken.lib.asm.ClassHeirachyManager
+[16:53:36] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.InterfaceDependancyTransformer
+[16:53:36] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.TweakTransformer
+[16:53:36] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.DelegatedTransformer
+[16:53:36] [main/TRACE] [FML/]: Registering transformer codechicken.core.asm.DefaultImplementationTransformer
+[16:53:36] [main/DEBUG] [FML/]: Injection complete
+[16:53:36] [main/DEBUG] [FML/]: Running coremod plugin for CodeChickenCorePlugin {codechicken.core.launch.CodeChickenCorePlugin}
+[16:53:36] [main/DEBUG] [FML/]: Running coremod plugin CodeChickenCorePlugin
+[16:53:36] [main/DEBUG] [FML/]: Coremod plugin class CodeChickenCorePlugin run successfully
+[16:53:36] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:53:36] [main/DEBUG] [FML/]: Injecting coremod MicdoodlePlugin {micdoodle8.mods.miccore.MicdoodlePlugin} class transformers
+[16:53:36] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodlePlugin:getASMTransformerClass:102]: Successfully Registered Transformer
+[16:53:36] [main/TRACE] [FML/]: Registering transformer micdoodle8.mods.miccore.MicdoodleTransformer
+[16:53:36] [main/DEBUG] [FML/]: Injection complete
+[16:53:36] [main/DEBUG] [FML/]: Running coremod plugin for MicdoodlePlugin {micdoodle8.mods.miccore.MicdoodlePlugin}
+[16:53:36] [main/DEBUG] [FML/]: Running coremod plugin MicdoodlePlugin
+[16:53:37] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:295]: [Micdoodle8Core]: Patching game...
+[16:53:37] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodlePlugin:injectData:295]: [Micdoodle8Core]: Patching game...
+[16:53:37] [main/DEBUG] [FML/]: Coremod plugin class MicdoodlePlugin run successfully
+[16:53:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:53:37] [main/DEBUG] [FML/]: Injecting coremod NEICorePlugin {codechicken.nei.asm.NEICorePlugin} class transformers
+[16:53:37] [main/TRACE] [FML/]: Registering transformer codechicken.nei.asm.NEITransformer
+[16:53:37] [main/DEBUG] [FML/]: Injection complete
+[16:53:37] [main/DEBUG] [FML/]: Running coremod plugin for NEICorePlugin {codechicken.nei.asm.NEICorePlugin}
+[16:53:37] [main/DEBUG] [FML/]: Running coremod plugin NEICorePlugin
+[16:53:37] [main/DEBUG] [FML/]: Coremod plugin class NEICorePlugin run successfully
+[16:53:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[16:53:37] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[16:53:37] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[16:53:37] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[16:53:37] [main/DEBUG] [FML/]: Loaded 30 rules from AccessTransformer config file micdoodlecore_at.cfg
+[16:53:37] [main/DEBUG] [FML/]: Loaded 60 rules from AccessTransformer mod jar file C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\mods\iChunUtil-4.2.3.jar!META-INF/iChunUtil_at.cfg
+
+[16:53:37] [main/DEBUG] [FML/]: Loaded 6 rules from AccessTransformer mod jar file C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\mods\witchery-1.7.10-0.24.1.jar!META-INF/witchery_at.cfg
+
+[16:53:37] [main/DEBUG] [FML/]: Loaded 11 rules from AccessTransformer mod jar file C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\mods\NotEnoughItems-1.7.10-1.0.5.120-universal.jar!META-INF/nei_at.cfg
+
+[16:53:37] [main/DEBUG] [FML/]: Validating minecraft
+[16:53:37] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[16:53:37] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[16:53:37] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[16:53:37] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: ahb (1 / 1)
+[16:53:37] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: oi (4 / 4)
+[16:53:37] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: sv (1 / 1)
+[16:53:37] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:53:37] [main/DEBUG] [CCL ASM/]: Writing method [aji.canBeReplacedByLeaves(Lahl;III)Z]
+[16:53:37] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: xk (1 / 1)
+[16:53:38] [main/DEBUG] [CCL ASM/]: Injecting before method [dh.toString()Ljava/lang/String;] @ 51 - 55
+[16:53:38] [main/INFO] [STDOUT/]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: zc (1 / 1)
+[16:53:38] [main/DEBUG] [CCL ASM/]: Injecting before method [dq.toString()Ljava/lang/String;] @ 56 - 60
+[16:53:39] [main/WARN] [FML/]: =============================================================
+[16:53:39] [main/WARN] [FML/]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FML!
+[16:53:39] [main/WARN] [FML/]: Offendor: net/minecraft/server/gui/MinecraftServerGui$1.windowClosing(Ljava/awt/event/WindowEvent;)V
+[16:53:39] [main/WARN] [FML/]: Use FMLCommonHandler.exitJava instead
+[16:53:39] [main/WARN] [FML/]: =============================================================
+[16:53:39] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[16:53:39] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
+[16:53:39] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[16:53:39] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[16:53:39] [Server thread/DEBUG] [FML/]: File C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\config\injectedDependencies.json not found. No dependencies injected
+[16:53:39] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer, codechicken.core.asm.CodeChickenCoreModContainer, micdoodle8.mods.miccore.MicdoodleModContainer, codechicken.nei.NEIModContainer]
+[16:53:39] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\forge-1.7.10-10.13.4.1558-1.7.10-universal.jar, examining for mod candidates
+[16:53:39] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\mods\CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\.\mods\1.7.10\CodeChickenLib-1.7.10-1.1.3.138-universal.jar, examining for mod candidates
+[16:53:39] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\mods\MicdoodleCore-1.7-3.0.12.430.jar
+[16:53:39] [Server thread/TRACE] [FML/]: Skipping known library file C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\mods\NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[16:53:39] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:53:39] [Server thread/INFO] [FML/]: Searching C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\mods for mods
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file [1.7.10]bspkrsCore-universal-6.15.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file AnimationAPI-1.7.10-1.2.4.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ArchimedesShips-1.7.1.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file BiblioCraft[v1.10.4][MC1.7.10].jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file buildcraft-7.1.22.jar
+[16:53:39] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker CodeChickenCore-1.7.10-1.0.7.47-universal.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CustomNPCs_1.7.10d.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file DynamicTransport-0.1.2.0.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Galacticraft-Planets-1.7-3.0.12.430.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file GalacticraftCore-1.7-3.0.12.430.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Halocraft-v0.7.6-(MC-1.7.10)-(KCWM-Weap-v1.3).jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file iChunUtil-4.2.3.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file inventorypets-1.7.10-1.4.9.6-universal.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Iron-Chests-Mod-1.7.10.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file KCs-Weapon-Mod-v0.1.5-(MC-1.7.10)-(Weap-v1.3).jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Mantle-1.7.10-0.3.2.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file MCA-1.7.10-5.1.1.0-universal.jar
+[16:53:39] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker MicdoodleCore-1.7-3.0.12.430.jar
+[16:53:39] [Server thread/TRACE] [FML/]: Skipping already parsed coremod or tweaker NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Pam's HarvestCraft 1.7.10f.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Parzi's Star Wars Mod v1.3.3.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Portal-Gun-Mod-1.7.10.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Ignoring unknown file PortalGunSounds.pak in mods directory
+[16:53:39] [Server thread/DEBUG] [FML/]: Ignoring unknown file PortalGunSounds.pak.md5 in mods directory
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file RadixCore-1.7.10-2.1.1-universal.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file SlimevoidLibrary-2.0.4.7.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Sync-4.0.0.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Tube-Transport-System-Mod-1.7.10.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file witchery-1.7.10-0.24.1.jar
+[16:53:39] [Server thread/INFO] [FML/]: Also searching C:\Users\Miles\Desktop\Games and Gaming\Other Games\Minecraft Stuff\Server stuff\Server files\Memepack Server\mods\1.7.10 for mods
+[16:53:39] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file CodeChickenLib-1.7.10-1.1.3.138-universal.jar
+[16:53:39] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1558-1.7.10-universal.jar for potential mods
+[16:53:39] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1558-1.7.10-universal.jar appears to be missing an mcmod.info file
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.3.138-universal.jar for potential mods
+[16:53:40] [Server thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.3.138-universal.jar appears to be missing an mcmod.info file
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[16:53:40] [Server thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar for potential mods
+[16:53:40] [Server thread/DEBUG] [FML/]: The mod container [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar appears to be missing an mcmod.info file
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a class net.geforcemods.securitycraft.main.mod_SecurityCraft following modloader naming convention but not directly a BaseMod or currently seen subclass
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.geforcemods.securitycraft.main.mod_SecurityCraft) - loading
+[16:53:40] [Server thread/TRACE] [securitycraft/]: Parsed dependency info : [Forge@[10.13.3.1420,)] [Forge@[10.13.3.1420,), LookingGlass@[0.2.0.01,)] []
+[16:53:40] [Server thread/INFO] [FML/]: Attempting to reparse the mod container [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar for potential mods
+[16:53:40] [Server thread/DEBUG] [FML/]: The mod container [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar appears to be missing an mcmod.info file
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a class net.geforcemods.securitycraft.main.mod_SecurityCraft following modloader naming convention but not directly a BaseMod or currently seen subclass
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.geforcemods.securitycraft.main.mod_SecurityCraft) - loading
+[16:53:40] [Server thread/TRACE] [securitycraft/]: Parsed dependency info : [Forge@[10.13.3.1420,)] [Forge@[10.13.3.1420,), LookingGlass@[0.2.0.01,)] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file [1.7.10]bspkrsCore-universal-6.15.jar for potential mods
+[16:53:40] [Server thread/TRACE] [FML/]: Located mcmod.info file in file [1.7.10]bspkrsCore-universal-6.15.jar
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (bspkrs.bspkrscore.fml.bspkrsCoreMod) - loading
+[16:53:40] [Server thread/TRACE] [bspkrsCore/]: Using mcmod dependency info : [Forge@[10.13.2.1230,)] [Forge@[10.13.2.1230,)] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file AnimationAPI-1.7.10-1.2.4.jar for potential mods
+[16:53:40] [Server thread/TRACE] [FML/]: Located mcmod.info file in file AnimationAPI-1.7.10-1.2.4.jar
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (thehippomaster.AnimationAPI.AnimationAPI) - loading
+[16:53:40] [Server thread/TRACE] [AnimationAPI/]: Parsed dependency info : [] [] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file ArchimedesShips-1.7.1.jar for potential mods
+[16:53:40] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ArchimedesShips-1.7.1.jar
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (ckathode.archimedes.ArchimedesShipMod) - loading
+[16:53:40] [Server thread/TRACE] [ArchimedesShips/]: Parsed dependency info : [] [] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file BiblioCraft[v1.10.4][MC1.7.10].jar for potential mods
+[16:53:40] [Server thread/TRACE] [FML/]: Located mcmod.info file in file BiblioCraft[v1.10.4][MC1.7.10].jar
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (jds.bibliocraft.BiblioCraft) - loading
+[16:53:40] [Server thread/TRACE] [BiblioCraft/]: Parsed dependency info : [] [] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file buildcraft-7.1.22.jar for potential mods
+[16:53:40] [Server thread/TRACE] [FML/]: Located mcmod.info file in file buildcraft-7.1.22.jar
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftCore) - loading
+[16:53:40] [Server thread/TRACE] [BuildCraft|Core/]: Parsed dependency info : [Forge@[10.13.2.1236,)] [Forge@[10.13.2.1236,)] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftTransport) - loading
+[16:53:40] [Server thread/TRACE] [BuildCraft|Transport/]: Parsed dependency info : [BuildCraft|Core@7.1.22] [BuildCraft|Core@7.1.22] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftFactory) - loading
+[16:53:40] [Server thread/TRACE] [BuildCraft|Factory/]: Parsed dependency info : [BuildCraft|Core@7.1.22] [BuildCraft|Core@7.1.22] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftSilicon) - loading
+[16:53:40] [Server thread/TRACE] [BuildCraft|Silicon/]: Parsed dependency info : [BuildCraft|Core@7.1.22] [BuildCraft|Core@7.1.22] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftRobotics) - loading
+[16:53:40] [Server thread/TRACE] [BuildCraft|Robotics/]: Parsed dependency info : [BuildCraft|Core@7.1.22] [BuildCraft|Core@7.1.22] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftEnergy) - loading
+[16:53:40] [Server thread/TRACE] [BuildCraft|Energy/]: Parsed dependency info : [BuildCraft|Core@7.1.22] [BuildCraft|Core@7.1.22] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (buildcraft.BuildCraftBuilders) - loading
+[16:53:40] [Server thread/TRACE] [BuildCraft|Builders/]: Parsed dependency info : [BuildCraft|Core@7.1.22] [BuildCraft|Core@7.1.22] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file CustomNPCs_1.7.10d.jar for potential mods
+[16:53:40] [Server thread/TRACE] [FML/]: Located mcmod.info file in file CustomNPCs_1.7.10d.jar
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (noppes.npcs.CustomNpcs) - loading
+[16:53:40] [Server thread/TRACE] [customnpcs/]: Parsed dependency info : [] [] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file DynamicTransport-0.1.2.0.jar for potential mods
+[16:53:40] [Server thread/TRACE] [FML/]: Located mcmod.info file in file DynamicTransport-0.1.2.0.jar
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.slimevoid.dynamictransport.core.DynamicTransportMod) - loading
+[16:53:40] [Server thread/TRACE] [DynamicTransport/]: Parsed dependency info : [Forge@[10.12.2.1121,), SlimevoidLib@[2.0.4.6,)] [Forge@[10.12.2.1121,), SlimevoidLib@[2.0.4.6,)] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file Galacticraft-Planets-1.7-3.0.12.430.jar for potential mods
+[16:53:40] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Galacticraft-Planets-1.7-3.0.12.430.jar
+[16:53:40] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (micdoodle8.mods.galacticraft.planets.GalacticraftPlanets) - loading
+[16:53:40] [Server thread/TRACE] [GalacticraftMars/]: Parsed dependency info : [GalacticraftCore] [GalacticraftCore] []
+[16:53:40] [Server thread/DEBUG] [FML/]: Examining file GalacticraftCore-1.7-3.0.12.430.jar for potential mods
+[16:53:40] [Server thread/TRACE] [FML/]: Located mcmod.info file in file GalacticraftCore-1.7-3.0.12.430.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (micdoodle8.mods.galacticraft.core.GalacticraftCore) - loading
+[16:53:41] [Server thread/TRACE] [GalacticraftCore/]: Parsed dependency info : [FML@[7.2.217.1147,), Forge@[10.12.2.1147,), Micdoodlecore] [Forge@[10.12.2.1147,), FML@[7.2.217.1147,), Micdoodlecore, IC2, BuildCraft|Core, BuildCraft|Energy, IC2] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file Halocraft-v0.7.6-(MC-1.7.10)-(KCWM-Weap-v1.3).jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Halocraft-v0.7.6-(MC-1.7.10)-(KCWM-Weap-v1.3).jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.killerchief.halocraft.Halocraft) - loading
+[16:53:41] [Server thread/TRACE] [halocraft/]: Parsed dependency info : [kcweaponmod@[0.1.4,)] [kcweaponmod@[0.1.4,)] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.killerchief.halocraft.HalocraftOldIDs) - loading
+[16:53:41] [Server thread/TRACE] [killerchief_halocraft/]: Parsed dependency info : [halocraft] [halocraft] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file iChunUtil-4.2.3.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file iChunUtil-4.2.3.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (ichun.common.iChunUtil) - loading
+[16:53:41] [Server thread/TRACE] [iChunUtil/]: Parsed dependency info : [Forge@[10.13.2.1291,)] [Forge@[10.13.2.1291,)] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file inventorypets-1.7.10-1.4.9.6-universal.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file inventorypets-1.7.10-1.4.9.6-universal.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.inventorypets.InventoryPets) - loading
+[16:53:41] [Server thread/TRACE] [InventoryPets/]: Parsed dependency info : [] [] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file Iron-Chests-Mod-1.7.10.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Iron-Chests-Mod-1.7.10.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (cpw.mods.ironchest.IronChest) - loading
+[16:53:41] [Server thread/TRACE] [IronChest/]: Parsed dependency info : [Forge@[10.10,), FML@[7.2,)] [Forge@[10.10,), FML@[7.2,)] []
+[16:53:41] [Server thread/DEBUG] [IronChest/]: Attempting to load the file version.properties from Iron-Chests-Mod-1.7.10.jar to locate a version number for IronChest
+[16:53:41] [Server thread/DEBUG] [IronChest/]: Found version 6.0.60.741 for mod IronChest in version.properties, using
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file KCs-Weapon-Mod-v0.1.5-(MC-1.7.10)-(Weap-v1.3).jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file KCs-Weapon-Mod-v0.1.5-(MC-1.7.10)-(Weap-v1.3).jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.killerchief.kcweaponmod.KCWeaponMod) - loading
+[16:53:41] [Server thread/TRACE] [kcweaponmod/]: Parsed dependency info : [] [] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file Mantle-1.7.10-0.3.2.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Mantle-1.7.10-0.3.2.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (mantle.Mantle) - loading
+[16:53:41] [Server thread/TRACE] [Mantle/]: Parsed dependency info : [Forge@[10.13,)] [Forge@[10.13,)] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file MCA-1.7.10-5.1.1.0-universal.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file MCA-1.7.10-5.1.1.0-universal.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (mca.core.MCA) - loading
+[16:53:41] [Server thread/TRACE] [MCA/]: Parsed dependency info : [RadixCore@[2.1.1,)] [RadixCore@[2.1.1,)] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file Pam's HarvestCraft 1.7.10f.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Pam's HarvestCraft 1.7.10f.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.pam.harvestcraft.harvestcraft) - loading
+[16:53:41] [Server thread/TRACE] [harvestcraft/]: Parsed dependency info : [] [] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file Parzi's Star Wars Mod v1.3.3.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Parzi's Star Wars Mod v1.3.3.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.parzivail.pswm.StarWarsMod) - loading
+[16:53:41] [Server thread/TRACE] [starwarsmod/]: Parsed dependency info : [] [] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file Portal-Gun-Mod-1.7.10.jar for potential mods
+[16:53:41] [Server thread/DEBUG] [FML/]: The mod container Portal-Gun-Mod-1.7.10.jar appears to be missing an mcmod.info file
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (portalgun.common.PortalGun) - loading
+[16:53:41] [Server thread/TRACE] [PortalGun/]: Parsed dependency info : [iChunUtil@[4.2.2,)] [iChunUtil@[4.2.2,)] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file RadixCore-1.7.10-2.1.1-universal.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file RadixCore-1.7.10-2.1.1-universal.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (radixcore.core.RadixCore) - loading
+[16:53:41] [Server thread/TRACE] [RadixCore/]: Parsed dependency info : [] [] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file SlimevoidLibrary-2.0.4.7.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file SlimevoidLibrary-2.0.4.7.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (net.slimevoid.library.core.SlimevoidLib) - loading
+[16:53:41] [Server thread/TRACE] [SlimevoidLib/]: Parsed dependency info : [] [] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file Sync-4.0.0.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Sync-4.0.0.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (sync.common.Sync) - loading
+[16:53:41] [Server thread/TRACE] [Sync/]: Parsed dependency info : [iChunUtil@[4.0.0,)] [iChunUtil@[4.0.0,), CoFHCore, Waila] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file Tube-Transport-System-Mod-1.7.10.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Tube-Transport-System-Mod-1.7.10.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (tubeTransportSystem.TubeTransportSystem) - loading
+[16:53:41] [Server thread/TRACE] [tts/]: Parsed dependency info : [] [] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file witchery-1.7.10-0.24.1.jar for potential mods
+[16:53:41] [Server thread/TRACE] [FML/]: Located mcmod.info file in file witchery-1.7.10-0.24.1.jar
+[16:53:41] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (com.emoniph.witchery.Witchery) - loading
+[16:53:41] [Server thread/TRACE] [witchery/]: Parsed dependency info : [Forge@[10.13.2.1277,)] [Forge@[10.13.2.1277,), MineFactoryReloaded, NotEnoughItems, Waila, ForgeMultipart, AWWayofTime] []
+[16:53:41] [Server thread/DEBUG] [FML/]: Examining file CodeChickenLib-1.7.10-1.1.3.138-universal.jar for potential mods
+[16:53:41] [Server thread/DEBUG] [FML/]: The mod container CodeChickenLib-1.7.10-1.1.3.138-universal.jar appears to be missing an mcmod.info file
+[16:53:41] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 38 mods to load
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.prefab.core (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.transmission (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.block (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.item (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.library (owned by BuildCraftAPI|core providing BuildCraftAPI|library) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.fuels (owned by BuildCraftAPI|core providing BuildCraftAPI|fuels) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.world (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.recipe (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.recipes (owned by BuildCraftAPI|core providing BuildCraftAPI|recipes) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blueprints (owned by BuildCraftAPI|core providing BuildCraftAPI|blueprints) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API thaumcraft.api (owned by Thaumcraft providing Thaumcraft|API) embedded in harvestcraft
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API net.geforcemods.securitycraft.api (owned by securitycraft providing SecurityCraftAPI) embedded in securitycraft
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.items (owned by BuildCraftAPI|core providing BuildCraftAPI|items) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API net.geforcemods.securitycraft.api (owned by securitycraft providing SecurityCraftAPI) embedded in securitycraft
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.crops (owned by BuildCraftAPI|Core providing BuildCraftAPI|crops) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.power (owned by BuildCraftAPI|core providing BuildCraftAPI|power) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.core (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.robots (owned by BuildCraftAPI|core providing BuildCraftAPI|robotics) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.entity (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.galaxies (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.filler (owned by BuildCraftAPI|core providing BuildCraftAPI|filler) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.lists (owned by BuildCraftAPI|core providing BuildCraftAPI|lists) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.boards (owned by BuildCraftAPI|core providing BuildCraftAPI|boards) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.prefab.entity (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api (owned by CoFHLib providing CoFHAPI) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API cofh.api.energy (owned by CoFHAPI providing CoFHAPI|energy) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.power (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.transmission.grid (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.prefab (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tools (owned by BuildCraftAPI|core providing BuildCraftAPI|tools) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API com.baubles.api (owned by Baubles providing Baubles|API) embedded in InventoryPets
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api (owned by BuildCraft|Core providing BuildCraftAPI|core) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tiles (owned by BuildCraftAPI|core providing BuildCraftAPI|tiles) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.transmission.tile (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.statements (owned by BuildCraftAPI|core providing BuildCraftAPI|statements) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.vector (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.events (owned by BuildCraftAPI|core providing BuildCraftAPI|events) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.transport (owned by BuildCraftAPI|core providing BuildCraftAPI|transport) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.tablet (owned by BuildCraftAPI|core providing BuildCraftAPI|tablet) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.prefab.world.gen (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.event.oxygen (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.gates (owned by BuildCraftAPI|core providing BuildCraftAPI|gates) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.facades (owned by BuildCraftAPI|core providing BuildCraftAPI|facades) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.tile (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.event.wgen (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API micdoodle8.mods.galacticraft.api.event.client (owned by GalacticraftCore providing Galacticraft API) embedded in GalacticraftCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Energy
+[16:53:41] [Server thread/DEBUG] [FML/]: Found API buildcraft.api.blocks (owned by BuildCraftAPI|core providing BuildCraftAPI|blocks) embedded in BuildCraft|Builders
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API SecurityCraftAPI: owner: securitycraft, dependents: []
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent CoFHLib from APIContainer{CoFHAPI|energy:1.7.10R1.0.2}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI|energy: owner: CoFHAPI, dependents: [BuildCraft|Core, BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API CoFHAPI: owner: CoFHLib, dependents: [BuildCraft|Core, BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|blocks:1.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|blocks: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|tablet:1.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|tablet: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|tools:1.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|tools: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|events:2.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|events: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|library:2.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|library: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|blueprints:1.5}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|blueprints: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|items:1.1}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|items: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|boards:2.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|boards: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|recipes:3.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|recipes: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|core: owner: BuildCraft|Core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|robotics:3.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|robotics: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Baubles|API: owner: Baubles, dependents: [InventoryPets]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|tiles:1.2}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|tiles: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|lists:1.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|lists: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|gates:4.1}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|gates: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|transport:4.1}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|transport: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Thaumcraft|API: owner: Thaumcraft, dependents: [harvestcraft]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|statements:1.1}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|statements: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|crops: owner: BuildCraftAPI|Core, dependents: [BuildCraft|Core, BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API Galacticraft API: owner: GalacticraftCore, dependents: []
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|power:1.3}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|power: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|facades:1.1}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|facades: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|fuels:2.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|fuels: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Removing upstream parent BuildCraft|Core from APIContainer{BuildCraftAPI|filler:4.0}
+[16:53:41] [Server thread/DEBUG] [FML/]: Creating API container dummy for API BuildCraftAPI|filler: owner: BuildCraftAPI|core, dependents: [BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders]
+[16:53:41] [Server thread/TRACE] [FML/]: Received a system property request ''
+[16:53:41] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[16:53:41] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in NotEnoughItems-1.7.10-1.0.5.120-universal.jar [cs_CZ, fr_FR, et_EE, zh_CN, it_IT, zh_TW, de_DE, tr_TR, ru_RU, pt_BR, sk_SK, ko_KR, pl_PL, en_US]
+[16:53:41] [Server thread/DEBUG] [securitycraft/]: Enabling mod securitycraft
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar [de_DE, en_US, fr_FR, pt_PT, ru_RU]
+[16:53:41] [Server thread/DEBUG] [bspkrsCore/]: Enabling mod bspkrsCore
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in [1.7.10]bspkrsCore-universal-6.15.jar [en_US, cs_CZ, de_DE, ru_RU]
+[16:53:41] [Server thread/DEBUG] [AnimationAPI/]: Enabling mod AnimationAPI
+[16:53:41] [Server thread/DEBUG] [ArchimedesShips/]: Enabling mod ArchimedesShips
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in ArchimedesShips-1.7.1.jar [en_US, nl_NL, ru_RU]
+[16:53:41] [Server thread/DEBUG] [BiblioCraft/]: Enabling mod BiblioCraft
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in BiblioCraft[v1.10.4][MC1.7.10].jar [es_ES, es_MX, es_UY, fi_FI, fr_CA, fr_FR, gr_EL, it_IT, ko_KR, lt_LT, lv_LV, nl_NL, no_NO, pl_PL, pt_BR, pt_PT, ru_RU, sv_SE, tr_TR, zh_CN, zh_HK, zh_TW, ar_SA, bg_BG, cs_CZ, da_DK, de_DE, en_US, es_AR]
+[16:53:41] [Server thread/DEBUG] [BuildCraft|Core/]: Enabling mod BuildCraft|Core
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.22.jar [es_AR, ru_RU, es_MX, lt_LT, sk_SK, fr_FR, sr_SP, es_ES, pt_PT, pl_PL, cs_CZ, tr_TR, et_EE, hr_HR, fr_CA, en_US, zh_TW, no_NO, ko_KR, ja_JP, da_DK, pt_BR, nl_NL, hu_HU, es_VE, zh_CN, de_DE, fi_FI, it_IT, sv_SE, es_UY]
+[16:53:41] [Server thread/DEBUG] [BuildCraft|Transport/]: Enabling mod BuildCraft|Transport
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.22.jar [es_AR, ru_RU, es_MX, lt_LT, sk_SK, fr_FR, sr_SP, es_ES, pt_PT, pl_PL, cs_CZ, tr_TR, et_EE, hr_HR, fr_CA, en_US, zh_TW, no_NO, ko_KR, ja_JP, da_DK, pt_BR, nl_NL, hu_HU, es_VE, zh_CN, de_DE, fi_FI, it_IT, sv_SE, es_UY]
+[16:53:41] [Server thread/DEBUG] [BuildCraft|Factory/]: Enabling mod BuildCraft|Factory
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.22.jar [es_AR, ru_RU, es_MX, lt_LT, sk_SK, fr_FR, sr_SP, es_ES, pt_PT, pl_PL, cs_CZ, tr_TR, et_EE, hr_HR, fr_CA, en_US, zh_TW, no_NO, ko_KR, ja_JP, da_DK, pt_BR, nl_NL, hu_HU, es_VE, zh_CN, de_DE, fi_FI, it_IT, sv_SE, es_UY]
+[16:53:41] [Server thread/DEBUG] [BuildCraft|Silicon/]: Enabling mod BuildCraft|Silicon
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.22.jar [es_AR, ru_RU, es_MX, lt_LT, sk_SK, fr_FR, sr_SP, es_ES, pt_PT, pl_PL, cs_CZ, tr_TR, et_EE, hr_HR, fr_CA, en_US, zh_TW, no_NO, ko_KR, ja_JP, da_DK, pt_BR, nl_NL, hu_HU, es_VE, zh_CN, de_DE, fi_FI, it_IT, sv_SE, es_UY]
+[16:53:41] [Server thread/DEBUG] [BuildCraft|Robotics/]: Enabling mod BuildCraft|Robotics
+[16:53:41] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.22.jar [es_AR, ru_RU, es_MX, lt_LT, sk_SK, fr_FR, sr_SP, es_ES, pt_PT, pl_PL, cs_CZ, tr_TR, et_EE, hr_HR, fr_CA, en_US, zh_TW, no_NO, ko_KR, ja_JP, da_DK, pt_BR, nl_NL, hu_HU, es_VE, zh_CN, de_DE, fi_FI, it_IT, sv_SE, es_UY]
+[16:53:41] [Server thread/DEBUG] [BuildCraft|Energy/]: Enabling mod BuildCraft|Energy
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.22.jar [es_AR, ru_RU, es_MX, lt_LT, sk_SK, fr_FR, sr_SP, es_ES, pt_PT, pl_PL, cs_CZ, tr_TR, et_EE, hr_HR, fr_CA, en_US, zh_TW, no_NO, ko_KR, ja_JP, da_DK, pt_BR, nl_NL, hu_HU, es_VE, zh_CN, de_DE, fi_FI, it_IT, sv_SE, es_UY]
+[16:53:42] [Server thread/DEBUG] [BuildCraft|Builders/]: Enabling mod BuildCraft|Builders
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in buildcraft-7.1.22.jar [es_AR, ru_RU, es_MX, lt_LT, sk_SK, fr_FR, sr_SP, es_ES, pt_PT, pl_PL, cs_CZ, tr_TR, et_EE, hr_HR, fr_CA, en_US, zh_TW, no_NO, ko_KR, ja_JP, da_DK, pt_BR, nl_NL, hu_HU, es_VE, zh_CN, de_DE, fi_FI, it_IT, sv_SE, es_UY]
+[16:53:42] [Server thread/DEBUG] [customnpcs/]: Enabling mod customnpcs
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in CustomNPCs_1.7.10d.jar [cs_CZ, de_DE, en_US, es_AR, es_MX, fr_FR, hu_HU, id_ID, ko_KR, nl_NL, pl_PL, pt_BR, ru_RU, sv_SE, zh_CN, zh_TW]
+[16:53:42] [Server thread/DEBUG] [DynamicTransport/]: Enabling mod DynamicTransport
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in DynamicTransport-0.1.2.0.jar [en_US]
+[16:53:42] [Server thread/DEBUG] [GalacticraftMars/]: Enabling mod GalacticraftMars
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in Galacticraft-Planets-1.7-3.0.12.430.jar [cs_CZ, cy_GB, de_DE, en_GB, en_US, es_ES, fi_FI, fr_CA, fr_FR, hr_HR, hu_HU, it_IT, ja_JP, ko_KR, nl_NL, pl_PL, pt_BR, pt_PT, ru_RU, sv_SE, th_TH, tr_TR, zh_CN, zh_TW, cs_CZ, cy_GB, de_DE, en_GB, en_US, es_ES, fi_FI, fr_CA, fr_FR, hr_HR, hu_HU, it_IT, ja_JP, ko_KR, nl_NL, pl_PL, pt_BR, pt_PT, ru_RU, sv_SE, th_TH, tr_TR, zh_CN, zh_TW]
+[16:53:42] [Server thread/DEBUG] [GalacticraftCore/]: Enabling mod GalacticraftCore
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in GalacticraftCore-1.7-3.0.12.430.jar [cs_CZ, cy_GB, de_DE, en_GB, en_US, es_ES, fi_FI, fr_CA, fr_FR, hr_HR, hu_HU, it_IT, ja_JP, ko_KR, nl_NL, pl_PL, pt_BR, pt_PT, ru_RU, sv_SE, th_TH, tr_TR, zh_CN, zh_TW, cs_CZ, cy_GB, de_DE, en_GB, en_US, es_ES, fi_FI, fr_CA, fr_FR, hr_HR, hu_HU, it_IT, ja_JP, ko_KR, nl_NL, pl_PL, pt_BR, pt_PT, ru_RU, sv_SE, th_TH, tr_TR, zh_CN, zh_TW]
+[16:53:42] [Server thread/DEBUG] [halocraft/]: Enabling mod halocraft
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in Halocraft-v0.7.6-(MC-1.7.10)-(KCWM-Weap-v1.3).jar [en_US]
+[16:53:42] [Server thread/DEBUG] [killerchief_halocraft/]: Enabling mod killerchief_halocraft
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in Halocraft-v0.7.6-(MC-1.7.10)-(KCWM-Weap-v1.3).jar [en_US]
+[16:53:42] [Server thread/DEBUG] [iChunUtil/]: Enabling mod iChunUtil
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in iChunUtil-4.2.3.jar [bg_BG, de_DE, en_US, es_ES, fr_FR, ru_RU]
+[16:53:42] [Server thread/DEBUG] [InventoryPets/]: Enabling mod InventoryPets
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in inventorypets-1.7.10-1.4.9.6-universal.jar [de_DE, en_US, es_ES, fr_FR, it_IT, ja_JP, pl_PL, ru_RU, uk_UA, zh_CN]
+[16:53:42] [Server thread/DEBUG] [IronChest/]: Enabling mod IronChest
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in Iron-Chests-Mod-1.7.10.jar [sv_SE, pl_PL, da_DK, en_US, et_EE, cs_CZ, pt_BR, en_PT, tr_TR, es_ES, fr_FR, ru_RU, nb_NO, el_GR, de_DE, zh_TW, it_IT, ko_KR, pt_PT, zh_CN, nl_NL]
+[16:53:42] [Server thread/DEBUG] [kcweaponmod/]: Enabling mod kcweaponmod
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in KCs-Weapon-Mod-v0.1.5-(MC-1.7.10)-(Weap-v1.3).jar [en_US]
+[16:53:42] [Server thread/DEBUG] [Mantle/]: Enabling mod Mantle
+[16:53:42] [Server thread/DEBUG] [MCA/]: Enabling mod MCA
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in MCA-1.7.10-5.1.1.0-universal.jar [ar_SA, de_DE, en_US, es_ES, fi_FI, fr_FR, it_IT, ja_JP, mt_MT, pt_PT, ru_RU, sv_SE, tr_TR, zh_CN]
+[16:53:42] [Server thread/DEBUG] [harvestcraft/]: Enabling mod harvestcraft
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in Pam's HarvestCraft 1.7.10f.jar [en_US, ru_RU]
+[16:53:42] [Server thread/DEBUG] [starwarsmod/]: Enabling mod starwarsmod
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in Parzi's Star Wars Mod v1.3.3.jar [en_US]
+[16:53:42] [Server thread/DEBUG] [PortalGun/]: Enabling mod PortalGun
+[16:53:42] [Server thread/DEBUG] [RadixCore/]: Enabling mod RadixCore
+[16:53:42] [Server thread/DEBUG] [SlimevoidLib/]: Enabling mod SlimevoidLib
+[16:53:42] [Server thread/DEBUG] [Sync/]: Enabling mod Sync
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in Sync-4.0.0.jar [da_DK, de_DE, en_US, es_AR, es_ES, et_EE, fi_FI, fr_FR, hr_HR, nb_NO, nl_NL, pl_PL, pt_BR, ru_RU, uk_UA, zh_CN, zh_TW]
+[16:53:42] [Server thread/DEBUG] [tts/]: Enabling mod tts
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in Tube-Transport-System-Mod-1.7.10.jar [en_US]
+[16:53:42] [Server thread/DEBUG] [witchery/]: Enabling mod witchery
+[16:53:42] [Server thread/DEBUG] [FML/]: Found translations in witchery-1.7.10-0.24.1.jar [de_DE, en_US, es_ES, it_IT, ru_RU, zh_CN]
+[16:53:42] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[16:53:42] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[16:53:42] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[16:53:42] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[16:53:42] [Server thread/DEBUG] [FML/]: Mod sorting data
+[16:53:42] [Server thread/DEBUG] [FML/]: 	securitycraft(SecurityCraft:v1.8.2.3-hotfix): [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar (required-after:Forge@[10.13.3.1420,);after:LookingGlass@[0.2.0.01,);)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	bspkrsCore(bspkrsCore:6.15): [1.7.10]bspkrsCore-universal-6.15.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	AnimationAPI(AnimationAPI:1.2.4): AnimationAPI-1.7.10-1.2.4.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	ArchimedesShips(Archimedes' Ships:1.7.10 v1.7.1): ArchimedesShips-1.7.1.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BiblioCraft(BiblioCraft:1.10.4): BiblioCraft[v1.10.4][MC1.7.10].jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	CoFHAPI(API: CoFHAPI:1.7.10R1.0.2): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	CoFHAPI|energy(API: CoFHAPI|energy:1.7.10R1.0.2): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|crops(API: BuildCraftAPI|crops:1.1): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraft|Core(BuildCraft:7.1.22): buildcraft-7.1.22.jar (required-after:Forge@[10.13.2.1236,))
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|core(API: BuildCraftAPI|core:2.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|blocks(API: BuildCraftAPI|blocks:1.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|tablet(API: BuildCraftAPI|tablet:1.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|tools(API: BuildCraftAPI|tools:1.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|events(API: BuildCraftAPI|events:2.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|library(API: BuildCraftAPI|library:2.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|blueprints(API: BuildCraftAPI|blueprints:1.5): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|items(API: BuildCraftAPI|items:1.1): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|boards(API: BuildCraftAPI|boards:2.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|recipes(API: BuildCraftAPI|recipes:3.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|robotics(API: BuildCraftAPI|robotics:3.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|tiles(API: BuildCraftAPI|tiles:1.2): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|lists(API: BuildCraftAPI|lists:1.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|gates(API: BuildCraftAPI|gates:4.1): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|transport(API: BuildCraftAPI|transport:4.1): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|statements(API: BuildCraftAPI|statements:1.1): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|power(API: BuildCraftAPI|power:1.3): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|facades(API: BuildCraftAPI|facades:1.1): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|fuels(API: BuildCraftAPI|fuels:2.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraftAPI|filler(API: BuildCraftAPI|filler:4.0): buildcraft-7.1.22.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraft|Transport(BC Transport:7.1.22): buildcraft-7.1.22.jar (required-after:BuildCraft|Core@7.1.22)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraft|Factory(BC Factory:7.1.22): buildcraft-7.1.22.jar (required-after:BuildCraft|Core@7.1.22)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraft|Silicon(BC Silicon:7.1.22): buildcraft-7.1.22.jar (required-after:BuildCraft|Core@7.1.22)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraft|Robotics(BC Robotics:7.1.22): buildcraft-7.1.22.jar (required-after:BuildCraft|Core@7.1.22)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraft|Energy(BC Energy:7.1.22): buildcraft-7.1.22.jar (required-after:BuildCraft|Core@7.1.22)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	BuildCraft|Builders(BC Builders:7.1.22): buildcraft-7.1.22.jar (required-after:BuildCraft|Core@7.1.22)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	customnpcs(CustomNpcs:1.7.10d): CustomNPCs_1.7.10d.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	SlimevoidLib(Slimevoid Library:2.0.4.7): SlimevoidLibrary-2.0.4.7.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	DynamicTransport(Dynamic Transport:0.1.2.0): DynamicTransport-0.1.2.0.jar (required-after:Forge@[10.12.2.1121,);required-after:SlimevoidLib@[2.0.4.6,))
+[16:53:42] [Server thread/DEBUG] [FML/]: 	GalacticraftCore(Galacticraft Core:3.0.12): GalacticraftCore-1.7-3.0.12.430.jar (required-after:Forge@[10.12.2.1147,); required-after:FML@[7.2.217.1147,); required-after:Micdoodlecore; after:IC2; after:BuildCraft|Core; after:BuildCraft|Energy; after:IC2)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	GalacticraftMars(Galacticraft Planets:3.0.12): Galacticraft-Planets-1.7-3.0.12.430.jar (required-after:GalacticraftCore;)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	kcweaponmod(KC's Weapon Mod v0.1.5:0.1.5): KCs-Weapon-Mod-v0.1.5-(MC-1.7.10)-(Weap-v1.3).jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	halocraft(Halocraft v0.7.6:0.7.6): Halocraft-v0.7.6-(MC-1.7.10)-(KCWM-Weap-v1.3).jar (required-after:kcweaponmod@[0.1.4,);)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	killerchief_halocraft(HalocraftOldIDUpdater:0.7.0): Halocraft-v0.7.6-(MC-1.7.10)-(KCWM-Weap-v1.3).jar (required-after:halocraft;)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	iChunUtil(iChunUtil:4.2.3): iChunUtil-4.2.3.jar (required-after:Forge@[10.13.2.1291,))
+[16:53:42] [Server thread/DEBUG] [FML/]: 	Baubles|API(API: Baubles|API:1.0.1.10): inventorypets-1.7.10-1.4.9.6-universal.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	InventoryPets(Inventory Pets:1.4.9.6): inventorypets-1.7.10-1.4.9.6-universal.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	IronChest(Iron Chest:6.0.60.741): Iron-Chests-Mod-1.7.10.jar (required-after:Forge@[10.10,);required-after:FML@[7.2,))
+[16:53:42] [Server thread/DEBUG] [FML/]: 	Mantle(Mantle:1.7.10-0.3.2.jenkins184): Mantle-1.7.10-0.3.2.jar (required-after:Forge@[10.13,))
+[16:53:42] [Server thread/DEBUG] [FML/]: 	RadixCore(RadixCore:2.1.1): RadixCore-1.7.10-2.1.1-universal.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	MCA(Minecraft Comes Alive:1.7.10-5.1.1.0): MCA-1.7.10-5.1.1.0-universal.jar (required-after:RadixCore@[2.1.1,))
+[16:53:42] [Server thread/DEBUG] [FML/]: 	Thaumcraft|API(API: Thaumcraft|API:4.2.0.0): Pam's HarvestCraft 1.7.10f.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	harvestcraft(Pam's HarvestCraft:1.7.10d): Pam's HarvestCraft 1.7.10f.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	starwarsmod(Parzi's Star Wars Mod:1.3.3): Parzi's Star Wars Mod v1.3.3.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	PortalGun(PortalGun:4.0.0-beta-2): Portal-Gun-Mod-1.7.10.jar (required-after:iChunUtil@[4.2.2,))
+[16:53:42] [Server thread/DEBUG] [FML/]: 	Sync(Sync:4.0.0): Sync-4.0.0.jar (required-after:iChunUtil@[4.0.0,);after:CoFHCore;after:Waila)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	tts(Tube Transport System:0.6): Tube-Transport-System-Mod-1.7.10.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	witchery(Witchery:0.24.1): witchery-1.7.10-0.24.1.jar (required-after:Forge@[10.13.2.1277,);after:MineFactoryReloaded;after:NotEnoughItems;after:Waila;after:ForgeMultipart;after:AWWayofTime)
+[16:53:42] [Server thread/DEBUG] [FML/]: 	SecurityCraftAPI(API: SecurityCraftAPI:1.2.1): [1.7.10] SecurityCraft v1.8.2.3-hotfix.jar ()
+[16:53:42] [Server thread/DEBUG] [FML/]: 	Galacticraft API(API: Galacticraft API:1.0): GalacticraftCore-1.7-3.0.12.430.jar ()
+[16:53:42] [Server thread/INFO] [FML/]: FML has found a non-mod file CodeChickenLib-1.7.10-1.1.3.138-universal.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[16:53:42] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[16:53:42] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[16:53:42] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[16:53:42] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[16:53:42] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[16:53:42] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[16:53:42] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, Micdoodlecore, NotEnoughItems, securitycraft, bspkrsCore, AnimationAPI, ArchimedesShips, BiblioCraft, BuildCraft|Core, BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders, customnpcs, DynamicTransport, GalacticraftMars, GalacticraftCore, halocraft, killerchief_halocraft, iChunUtil, InventoryPets, IronChest, kcweaponmod, Mantle, MCA, harvestcraft, starwarsmod, PortalGun, RadixCore, SlimevoidLib, Sync, tts, witchery] at CLIENT
+[16:53:42] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, CodeChickenCore, Micdoodlecore, NotEnoughItems, securitycraft, bspkrsCore, AnimationAPI, ArchimedesShips, BiblioCraft, BuildCraft|Core, BuildCraft|Transport, BuildCraft|Factory, BuildCraft|Silicon, BuildCraft|Robotics, BuildCraft|Energy, BuildCraft|Builders, customnpcs, DynamicTransport, GalacticraftMars, GalacticraftCore, halocraft, killerchief_halocraft, iChunUtil, InventoryPets, IronChest, kcweaponmod, Mantle, MCA, harvestcraft, starwarsmod, PortalGun, RadixCore, SlimevoidLib, Sync, tts, witchery] at SERVER
+[16:53:42] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.244s
+[16:53:42] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[16:53:42] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[16:53:42] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[16:53:42] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
+[16:53:42] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.007s
+[16:53:42] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLConstructionEvent to mod CodeChickenCore
+[16:53:42] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLConstructionEvent to mod CodeChickenCore
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CodeChicken Core took 0.000s
+[16:53:42] [Server thread/TRACE] [Micdoodlecore/Micdoodlecore]: Sending event FMLConstructionEvent to mod Micdoodlecore
+[16:53:42] [Server thread/TRACE] [Micdoodlecore/Micdoodlecore]: Sent event FMLConstructionEvent to mod Micdoodlecore
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Micdoodle8 Core took 0.000s
+[16:53:42] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLConstructionEvent to mod NotEnoughItems
+[16:53:42] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLConstructionEvent to mod NotEnoughItems
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Not Enough Items took 0.000s
+[16:53:42] [Server thread/TRACE] [securitycraft/securitycraft]: Sending event FMLConstructionEvent to mod securitycraft
+[16:53:42] [Server thread/TRACE] [FML/securitycraft]: Mod securitycraft is using network checker : Accepting version v1.8.2.3-hotfix
+[16:53:42] [Server thread/TRACE] [FML/securitycraft]: Testing mod securitycraft to verify it accepts its own version in a remote connection
+[16:53:42] [Server thread/TRACE] [FML/securitycraft]: The mod securitycraft accepts its own version (v1.8.2.3-hotfix)
+[16:53:42] [Server thread/DEBUG] [FML/securitycraft]: Attempting to inject @SidedProxy classes into securitycraft
+[16:53:42] [Server thread/TRACE] [securitycraft/securitycraft]: Sent event FMLConstructionEvent to mod securitycraft
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - SecurityCraft took 0.228s
+[16:53:42] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLConstructionEvent to mod bspkrsCore
+[16:53:42] [Server thread/TRACE] [FML/bspkrsCore]: Mod bspkrsCore is using network checker : Accepting version 6.15
+[16:53:42] [Server thread/TRACE] [FML/bspkrsCore]: Testing mod bspkrsCore to verify it accepts its own version in a remote connection
+[16:53:42] [Server thread/TRACE] [FML/bspkrsCore]: The mod bspkrsCore accepts its own version (6.15)
+[16:53:42] [Server thread/DEBUG] [FML/bspkrsCore]: Attempting to inject @SidedProxy classes into bspkrsCore
+[16:53:42] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLConstructionEvent to mod bspkrsCore
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - bspkrsCore took 0.011s
+[16:53:42] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLConstructionEvent to mod AnimationAPI
+[16:53:42] [Server thread/TRACE] [FML/AnimationAPI]: Mod AnimationAPI is using network checker : Accepting version 1.2.4
+[16:53:42] [Server thread/TRACE] [FML/AnimationAPI]: Testing mod AnimationAPI to verify it accepts its own version in a remote connection
+[16:53:42] [Server thread/TRACE] [FML/AnimationAPI]: The mod AnimationAPI accepts its own version (1.2.4)
+[16:53:42] [Server thread/DEBUG] [FML/AnimationAPI]: Attempting to inject @SidedProxy classes into AnimationAPI
+[16:53:42] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLConstructionEvent to mod AnimationAPI
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - AnimationAPI took 0.004s
+[16:53:42] [Server thread/TRACE] [ArchimedesShips/ArchimedesShips]: Sending event FMLConstructionEvent to mod ArchimedesShips
+[16:53:42] [Server thread/TRACE] [FML/ArchimedesShips]: Mod ArchimedesShips is using network checker : Accepting version 1.7.10 v1.7.1
+[16:53:42] [Server thread/TRACE] [FML/ArchimedesShips]: Testing mod ArchimedesShips to verify it accepts its own version in a remote connection
+[16:53:42] [Server thread/TRACE] [FML/ArchimedesShips]: The mod ArchimedesShips accepts its own version (1.7.10 v1.7.1)
+[16:53:42] [Server thread/DEBUG] [FML/ArchimedesShips]: Attempting to inject @SidedProxy classes into ArchimedesShips
+[16:53:42] [Server thread/TRACE] [ArchimedesShips/ArchimedesShips]: Sent event FMLConstructionEvent to mod ArchimedesShips
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Archimedes' Ships took 0.022s
+[16:53:42] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sending event FMLConstructionEvent to mod BiblioCraft
+[16:53:42] [Server thread/TRACE] [FML/BiblioCraft]: Mod BiblioCraft is using network checker : Accepting version 1.10.4
+[16:53:42] [Server thread/TRACE] [FML/BiblioCraft]: Testing mod BiblioCraft to verify it accepts its own version in a remote connection
+[16:53:42] [Server thread/TRACE] [FML/BiblioCraft]: The mod BiblioCraft accepts its own version (1.10.4)
+[16:53:42] [Server thread/DEBUG] [FML/BiblioCraft]: Attempting to inject @SidedProxy classes into BiblioCraft
+[16:53:42] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sent event FMLConstructionEvent to mod BiblioCraft
+[16:53:42] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BiblioCraft took 0.014s
+[16:53:42] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLConstructionEvent to mod BuildCraft|Core
+[16:53:42] [Server thread/TRACE] [FML/BuildCraft|Core]: Mod BuildCraft|Core is using network checker : Accepting version 7.1.22
+[16:53:42] [Server thread/TRACE] [FML/BuildCraft|Core]: Testing mod BuildCraft|Core to verify it accepts its own version in a remote connection
+[16:53:42] [Server thread/TRACE] [FML/BuildCraft|Core]: The mod BuildCraft|Core accepts its own version (7.1.22)
+[16:53:42] [Server thread/DEBUG] [FML/BuildCraft|Core]: Attempting to inject @SidedProxy classes into BuildCraft|Core
+[16:53:43] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLConstructionEvent to mod BuildCraft|Core
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BuildCraft took 0.458s
+[16:53:43] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLConstructionEvent to mod BuildCraft|Transport
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Transport]: Mod BuildCraft|Transport is using network checker : Accepting version 7.1.22
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Transport]: Testing mod BuildCraft|Transport to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Transport]: The mod BuildCraft|Transport accepts its own version (7.1.22)
+[16:53:43] [Server thread/DEBUG] [FML/BuildCraft|Transport]: Attempting to inject @SidedProxy classes into BuildCraft|Transport
+[16:53:43] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLConstructionEvent to mod BuildCraft|Transport
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Transport took 0.004s
+[16:53:43] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLConstructionEvent to mod BuildCraft|Factory
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Factory]: Mod BuildCraft|Factory is using network checker : Accepting version 7.1.22
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Factory]: Testing mod BuildCraft|Factory to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Factory]: The mod BuildCraft|Factory accepts its own version (7.1.22)
+[16:53:43] [Server thread/DEBUG] [FML/BuildCraft|Factory]: Attempting to inject @SidedProxy classes into BuildCraft|Factory
+[16:53:43] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLConstructionEvent to mod BuildCraft|Factory
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Factory took 0.001s
+[16:53:43] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLConstructionEvent to mod BuildCraft|Silicon
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Silicon]: Mod BuildCraft|Silicon is using network checker : Accepting version 7.1.22
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Silicon]: Testing mod BuildCraft|Silicon to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Silicon]: The mod BuildCraft|Silicon accepts its own version (7.1.22)
+[16:53:43] [Server thread/DEBUG] [FML/BuildCraft|Silicon]: Attempting to inject @SidedProxy classes into BuildCraft|Silicon
+[16:53:43] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLConstructionEvent to mod BuildCraft|Silicon
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Silicon took 0.003s
+[16:53:43] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLConstructionEvent to mod BuildCraft|Robotics
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Robotics]: Mod BuildCraft|Robotics is using network checker : Accepting version 7.1.22
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Robotics]: Testing mod BuildCraft|Robotics to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Robotics]: The mod BuildCraft|Robotics accepts its own version (7.1.22)
+[16:53:43] [Server thread/DEBUG] [FML/BuildCraft|Robotics]: Attempting to inject @SidedProxy classes into BuildCraft|Robotics
+[16:53:43] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLConstructionEvent to mod BuildCraft|Robotics
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Robotics took 0.001s
+[16:53:43] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLConstructionEvent to mod BuildCraft|Energy
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Energy]: Mod BuildCraft|Energy is using network checker : Accepting version 7.1.22
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Energy]: Testing mod BuildCraft|Energy to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Energy]: The mod BuildCraft|Energy accepts its own version (7.1.22)
+[16:53:43] [Server thread/DEBUG] [FML/BuildCraft|Energy]: Attempting to inject @SidedProxy classes into BuildCraft|Energy
+[16:53:43] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLConstructionEvent to mod BuildCraft|Energy
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Energy took 0.003s
+[16:53:43] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLConstructionEvent to mod BuildCraft|Builders
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Builders]: Mod BuildCraft|Builders is using network checker : Accepting version 7.1.22
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Builders]: Testing mod BuildCraft|Builders to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/BuildCraft|Builders]: The mod BuildCraft|Builders accepts its own version (7.1.22)
+[16:53:43] [Server thread/DEBUG] [FML/BuildCraft|Builders]: Attempting to inject @SidedProxy classes into BuildCraft|Builders
+[16:53:43] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLConstructionEvent to mod BuildCraft|Builders
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - BC Builders took 0.002s
+[16:53:43] [Server thread/TRACE] [customnpcs/customnpcs]: Sending event FMLConstructionEvent to mod customnpcs
+[16:53:43] [Server thread/TRACE] [FML/customnpcs]: Mod customnpcs is using network checker : Accepting version 1.7.10d
+[16:53:43] [Server thread/TRACE] [FML/customnpcs]: Testing mod customnpcs to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/customnpcs]: The mod customnpcs accepts its own version (1.7.10d)
+[16:53:43] [Server thread/DEBUG] [FML/customnpcs]: Attempting to inject @SidedProxy classes into customnpcs
+[16:53:43] [Server thread/TRACE] [customnpcs/customnpcs]: Sent event FMLConstructionEvent to mod customnpcs
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - CustomNpcs took 0.037s
+[16:53:43] [Server thread/TRACE] [SlimevoidLib/SlimevoidLib]: Sending event FMLConstructionEvent to mod SlimevoidLib
+[16:53:43] [Server thread/TRACE] [FML/SlimevoidLib]: Mod SlimevoidLib is using network checker : Accepting version 2.0.4.7
+[16:53:43] [Server thread/TRACE] [FML/SlimevoidLib]: Testing mod SlimevoidLib to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/SlimevoidLib]: The mod SlimevoidLib accepts its own version (2.0.4.7)
+[16:53:43] [Server thread/DEBUG] [FML/SlimevoidLib]: Attempting to inject @SidedProxy classes into SlimevoidLib
+[16:53:43] [Server thread/TRACE] [SlimevoidLib/SlimevoidLib]: Sent event FMLConstructionEvent to mod SlimevoidLib
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Slimevoid Library took 0.004s
+[16:53:43] [Server thread/TRACE] [DynamicTransport/DynamicTransport]: Sending event FMLConstructionEvent to mod DynamicTransport
+[16:53:43] [Server thread/TRACE] [FML/DynamicTransport]: Mod DynamicTransport is using network checker : Accepting version 0.1.2.0
+[16:53:43] [Server thread/TRACE] [FML/DynamicTransport]: Testing mod DynamicTransport to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/DynamicTransport]: The mod DynamicTransport accepts its own version (0.1.2.0)
+[16:53:43] [Server thread/DEBUG] [FML/DynamicTransport]: Attempting to inject @SidedProxy classes into DynamicTransport
+[16:53:43] [Server thread/TRACE] [DynamicTransport/DynamicTransport]: Sent event FMLConstructionEvent to mod DynamicTransport
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Dynamic Transport took 0.005s
+[16:53:43] [Server thread/TRACE] [GalacticraftCore/GalacticraftCore]: Sending event FMLConstructionEvent to mod GalacticraftCore
+[16:53:43] [Server thread/TRACE] [FML/GalacticraftCore]: Mod GalacticraftCore is using network checker : Accepting version 3.0.12
+[16:53:43] [Server thread/TRACE] [FML/GalacticraftCore]: Testing mod GalacticraftCore to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/GalacticraftCore]: The mod GalacticraftCore accepts its own version (3.0.12)
+[16:53:43] [Server thread/DEBUG] [FML/GalacticraftCore]: Attempting to inject @SidedProxy classes into GalacticraftCore
+[16:53:43] [Server thread/TRACE] [GalacticraftCore/GalacticraftCore]: Sent event FMLConstructionEvent to mod GalacticraftCore
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Galacticraft Core took 0.046s
+[16:53:43] [Server thread/TRACE] [GalacticraftMars/GalacticraftMars]: Sending event FMLConstructionEvent to mod GalacticraftMars
+[16:53:43] [Server thread/TRACE] [FML/GalacticraftMars]: Mod GalacticraftMars is using network checker : Accepting version 3.0.12
+[16:53:43] [Server thread/TRACE] [FML/GalacticraftMars]: Testing mod GalacticraftMars to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/GalacticraftMars]: The mod GalacticraftMars accepts its own version (3.0.12)
+[16:53:43] [Server thread/DEBUG] [FML/GalacticraftMars]: Attempting to inject @SidedProxy classes into GalacticraftMars
+[16:53:43] [Server thread/TRACE] [GalacticraftMars/GalacticraftMars]: Sent event FMLConstructionEvent to mod GalacticraftMars
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Galacticraft Planets took 0.011s
+[16:53:43] [Server thread/TRACE] [kcweaponmod/kcweaponmod]: Sending event FMLConstructionEvent to mod kcweaponmod
+[16:53:43] [Server thread/TRACE] [FML/kcweaponmod]: Mod kcweaponmod is using network checker : Accepting version 0.1.5
+[16:53:43] [Server thread/TRACE] [FML/kcweaponmod]: Testing mod kcweaponmod to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/kcweaponmod]: The mod kcweaponmod accepts its own version (0.1.5)
+[16:53:43] [Server thread/DEBUG] [FML/kcweaponmod]: Attempting to inject @SidedProxy classes into kcweaponmod
+[16:53:43] [Server thread/TRACE] [kcweaponmod/kcweaponmod]: Sent event FMLConstructionEvent to mod kcweaponmod
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - KC's Weapon Mod v0.1.5 took 0.018s
+[16:53:43] [Server thread/TRACE] [halocraft/halocraft]: Sending event FMLConstructionEvent to mod halocraft
+[16:53:43] [Server thread/TRACE] [FML/halocraft]: Mod halocraft is using network checker : Accepting version 0.7.6
+[16:53:43] [Server thread/TRACE] [FML/halocraft]: Testing mod halocraft to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/halocraft]: The mod halocraft accepts its own version (0.7.6)
+[16:53:43] [Server thread/DEBUG] [FML/halocraft]: Attempting to inject @SidedProxy classes into halocraft
+[16:53:43] [Server thread/TRACE] [halocraft/halocraft]: Sent event FMLConstructionEvent to mod halocraft
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Halocraft v0.7.6 took 0.016s
+[16:53:43] [Server thread/TRACE] [killerchief_halocraft/killerchief_halocraft]: Sending event FMLConstructionEvent to mod killerchief_halocraft
+[16:53:43] [Server thread/TRACE] [FML/killerchief_halocraft]: Mod killerchief_halocraft is using network checker : Accepting version 0.7.0
+[16:53:43] [Server thread/TRACE] [FML/killerchief_halocraft]: Testing mod killerchief_halocraft to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/killerchief_halocraft]: The mod killerchief_halocraft accepts its own version (0.7.0)
+[16:53:43] [Server thread/DEBUG] [FML/killerchief_halocraft]: Attempting to inject @SidedProxy classes into killerchief_halocraft
+[16:53:43] [Server thread/TRACE] [killerchief_halocraft/killerchief_halocraft]: Sent event FMLConstructionEvent to mod killerchief_halocraft
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - HalocraftOldIDUpdater took 0.001s
+[16:53:43] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sending event FMLConstructionEvent to mod iChunUtil
+[16:53:43] [Server thread/TRACE] [FML/iChunUtil]: Mod iChunUtil is using network checker : Accepting version 4.2.3
+[16:53:43] [Server thread/TRACE] [FML/iChunUtil]: Testing mod iChunUtil to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/iChunUtil]: The mod iChunUtil accepts its own version (4.2.3)
+[16:53:43] [Server thread/DEBUG] [FML/iChunUtil]: Attempting to inject @SidedProxy classes into iChunUtil
+[16:53:43] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sent event FMLConstructionEvent to mod iChunUtil
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - iChunUtil took 0.016s
+[16:53:43] [Server thread/TRACE] [InventoryPets/InventoryPets]: Sending event FMLConstructionEvent to mod InventoryPets
+[16:53:43] [Server thread/TRACE] [FML/InventoryPets]: Mod InventoryPets is using network checker : Accepting version 1.4.9.6
+[16:53:43] [Server thread/TRACE] [FML/InventoryPets]: Testing mod InventoryPets to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/InventoryPets]: The mod InventoryPets accepts its own version (1.4.9.6)
+[16:53:43] [Server thread/DEBUG] [FML/InventoryPets]: Attempting to inject @SidedProxy classes into InventoryPets
+[16:53:43] [Server thread/TRACE] [InventoryPets/InventoryPets]: Sent event FMLConstructionEvent to mod InventoryPets
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Inventory Pets took 0.055s
+[16:53:43] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLConstructionEvent to mod IronChest
+[16:53:43] [Server thread/TRACE] [FML/IronChest]: Mod IronChest is using network checker : Accepting version 6.0.60.741
+[16:53:43] [Server thread/TRACE] [FML/IronChest]: Testing mod IronChest to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/IronChest]: The mod IronChest accepts its own version (6.0.60.741)
+[16:53:43] [Server thread/DEBUG] [FML/IronChest]: Attempting to inject @SidedProxy classes into IronChest
+[16:53:43] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLConstructionEvent to mod IronChest
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Iron Chest took 0.008s
+[16:53:43] [Server thread/TRACE] [Mantle/Mantle]: Sending event FMLConstructionEvent to mod Mantle
+[16:53:43] [Server thread/TRACE] [FML/Mantle]: Mod Mantle is using network checker : Accepting version 1.7.10-0.3.2.jenkins184
+[16:53:43] [Server thread/TRACE] [FML/Mantle]: Testing mod Mantle to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/Mantle]: The mod Mantle accepts its own version (1.7.10-0.3.2.jenkins184)
+[16:53:43] [Server thread/DEBUG] [FML/Mantle]: Attempting to inject @SidedProxy classes into Mantle
+[16:53:43] [Server thread/TRACE] [Mantle/Mantle]: Sent event FMLConstructionEvent to mod Mantle
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Mantle took 0.009s
+[16:53:43] [Server thread/TRACE] [RadixCore/RadixCore]: Sending event FMLConstructionEvent to mod RadixCore
+[16:53:43] [Server thread/TRACE] [FML/RadixCore]: Mod RadixCore is using network checker : Accepting version 2.1.1
+[16:53:43] [Server thread/TRACE] [FML/RadixCore]: Testing mod RadixCore to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/RadixCore]: The mod RadixCore accepts its own version (2.1.1)
+[16:53:43] [Server thread/DEBUG] [FML/RadixCore]: Attempting to inject @SidedProxy classes into RadixCore
+[16:53:43] [Server thread/TRACE] [RadixCore/RadixCore]: Sent event FMLConstructionEvent to mod RadixCore
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - RadixCore took 0.007s
+[16:53:43] [Server thread/TRACE] [MCA/MCA]: Sending event FMLConstructionEvent to mod MCA
+[16:53:43] [Server thread/TRACE] [FML/MCA]: Mod MCA is using network checker : Accepting version 1.7.10-5.1.1.0
+[16:53:43] [Server thread/TRACE] [FML/MCA]: Testing mod MCA to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/MCA]: The mod MCA accepts its own version (1.7.10-5.1.1.0)
+[16:53:43] [Server thread/DEBUG] [FML/MCA]: Attempting to inject @SidedProxy classes into MCA
+[16:53:43] [Server thread/TRACE] [MCA/MCA]: Sent event FMLConstructionEvent to mod MCA
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Comes Alive took 0.216s
+[16:53:43] [Server thread/TRACE] [harvestcraft/harvestcraft]: Sending event FMLConstructionEvent to mod harvestcraft
+[16:53:43] [Server thread/TRACE] [FML/harvestcraft]: Mod harvestcraft is using network checker : Accepting version 1.7.10d
+[16:53:43] [Server thread/TRACE] [FML/harvestcraft]: Testing mod harvestcraft to verify it accepts its own version in a remote connection
+[16:53:43] [Server thread/TRACE] [FML/harvestcraft]: The mod harvestcraft accepts its own version (1.7.10d)
+[16:53:43] [Server thread/DEBUG] [FML/harvestcraft]: Attempting to inject @SidedProxy classes into harvestcraft
+[16:53:43] [Server thread/TRACE] [harvestcraft/harvestcraft]: Sent event FMLConstructionEvent to mod harvestcraft
+[16:53:43] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Pam's HarvestCraft took 0.015s
+[16:53:43] [Server thread/TRACE] [starwarsmod/starwarsmod]: Sending event FMLConstructionEvent to mod starwarsmod
+[16:53:43] [Server thread/INFO] [PSWM/starwarsmod]: ========== Begin Parzi's Star Wars Mod constructor ==========
+[16:53:43] [Server thread/INFO] [PSWM/starwarsmod]: Confirmed client using Java 1.8+
+[16:53:44] [Server thread/INFO] [PSWM/starwarsmod]: Launch log OK
+[16:53:44] [Server thread/INFO] [PSWM/starwarsmod]: ========== Begin Parzi's Star Wars Mod constructor ==========
+[16:53:44] [Server thread/TRACE] [FML/starwarsmod]: Mod starwarsmod is using network checker : Accepting version 1.3.3
+[16:53:44] [Server thread/TRACE] [FML/starwarsmod]: Testing mod starwarsmod to verify it accepts its own version in a remote connection
+[16:53:44] [Server thread/TRACE] [FML/starwarsmod]: The mod starwarsmod accepts its own version (1.3.3)
+[16:53:44] [Server thread/DEBUG] [FML/starwarsmod]: Attempting to inject @SidedProxy classes into starwarsmod
+[16:53:44] [Server thread/TRACE] [starwarsmod/starwarsmod]: Sent event FMLConstructionEvent to mod starwarsmod
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Parzi's Star Wars Mod took 0.549s
+[16:53:44] [Server thread/TRACE] [PortalGun/PortalGun]: Sending event FMLConstructionEvent to mod PortalGun
+[16:53:44] [Server thread/TRACE] [FML/PortalGun]: Mod PortalGun is using network checker : Accepting version 4.0.0-beta-2
+[16:53:44] [Server thread/TRACE] [FML/PortalGun]: Testing mod PortalGun to verify it accepts its own version in a remote connection
+[16:53:44] [Server thread/TRACE] [FML/PortalGun]: The mod PortalGun accepts its own version (4.0.0-beta-2)
+[16:53:44] [Server thread/DEBUG] [FML/PortalGun]: Attempting to inject @SidedProxy classes into PortalGun
+[16:53:44] [Server thread/TRACE] [PortalGun/PortalGun]: Sent event FMLConstructionEvent to mod PortalGun
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - PortalGun took 0.028s
+[16:53:44] [Server thread/TRACE] [Sync/Sync]: Sending event FMLConstructionEvent to mod Sync
+[16:53:44] [Server thread/TRACE] [FML/Sync]: Mod Sync is using network checker : Accepting range [4.0.0,4.1.0)
+[16:53:44] [Server thread/TRACE] [FML/Sync]: Testing mod Sync to verify it accepts its own version in a remote connection
+[16:53:44] [Server thread/TRACE] [FML/Sync]: The mod Sync accepts its own version (4.0.0)
+[16:53:44] [Server thread/DEBUG] [FML/Sync]: Attempting to inject @SidedProxy classes into Sync
+[16:53:44] [Server thread/TRACE] [Sync/Sync]: Sent event FMLConstructionEvent to mod Sync
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Sync took 0.007s
+[16:53:44] [Server thread/TRACE] [tts/tts]: Sending event FMLConstructionEvent to mod tts
+[16:53:44] [Server thread/TRACE] [FML/tts]: Mod tts is using network checker : Accepting version 0.6
+[16:53:44] [Server thread/TRACE] [FML/tts]: Testing mod tts to verify it accepts its own version in a remote connection
+[16:53:44] [Server thread/TRACE] [FML/tts]: The mod tts accepts its own version (0.6)
+[16:53:44] [Server thread/DEBUG] [FML/tts]: Attempting to inject @SidedProxy classes into tts
+[16:53:44] [Server thread/TRACE] [tts/tts]: Sent event FMLConstructionEvent to mod tts
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Tube Transport System took 0.014s
+[16:53:44] [Server thread/TRACE] [witchery/witchery]: Sending event FMLConstructionEvent to mod witchery
+[16:53:44] [Server thread/TRACE] [FML/witchery]: Mod witchery is using network checker : Accepting version 0.24.1
+[16:53:44] [Server thread/TRACE] [FML/witchery]: Testing mod witchery to verify it accepts its own version in a remote connection
+[16:53:44] [Server thread/TRACE] [FML/witchery]: The mod witchery accepts its own version (0.24.1)
+[16:53:44] [Server thread/DEBUG] [FML/witchery]: Attempting to inject @SidedProxy classes into witchery
+[16:53:44] [Server thread/TRACE] [witchery/witchery]: Sent event FMLConstructionEvent to mod witchery
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Witchery took 0.167s
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 2.234s
+[16:53:44] [Server thread/DEBUG] [FML/]: Mod signature data
+[16:53:44] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[16:53:44] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1558)	forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[16:53:44] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[16:53:44] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		CodeChickenCore	(CodeChicken Core	1.0.7.47)	minecraft.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		Micdoodlecore	(Micdoodle8 Core	)	minecraft.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		NotEnoughItems	(Not Enough Items	1.0.5.120)	NotEnoughItems-1.7.10-1.0.5.120-universal.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		securitycraft	(SecurityCraft	v1.8.2.3-hotfix)	[1.7.10] SecurityCraft v1.8.2.3-hotfix.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		bspkrsCore	(bspkrsCore	6.15)	[1.7.10]bspkrsCore-universal-6.15.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		AnimationAPI	(AnimationAPI	1.2.4)	AnimationAPI-1.7.10-1.2.4.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		ArchimedesShips	(Archimedes' Ships	1.7.10 v1.7.1)	ArchimedesShips-1.7.1.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		BiblioCraft	(BiblioCraft	1.10.4)	BiblioCraft[v1.10.4][MC1.7.10].jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		BuildCraft|Core	(BuildCraft	7.1.22)	buildcraft-7.1.22.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		BuildCraft|Transport	(BC Transport	7.1.22)	buildcraft-7.1.22.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		BuildCraft|Factory	(BC Factory	7.1.22)	buildcraft-7.1.22.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		BuildCraft|Silicon	(BC Silicon	7.1.22)	buildcraft-7.1.22.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		BuildCraft|Robotics	(BC Robotics	7.1.22)	buildcraft-7.1.22.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		BuildCraft|Energy	(BC Energy	7.1.22)	buildcraft-7.1.22.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		BuildCraft|Builders	(BC Builders	7.1.22)	buildcraft-7.1.22.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		customnpcs	(CustomNpcs	1.7.10d)	CustomNPCs_1.7.10d.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		SlimevoidLib	(Slimevoid Library	2.0.4.7)	SlimevoidLibrary-2.0.4.7.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		DynamicTransport	(Dynamic Transport	0.1.2.0)	DynamicTransport-0.1.2.0.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		GalacticraftCore	(Galacticraft Core	3.0.12)	GalacticraftCore-1.7-3.0.12.430.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		GalacticraftMars	(Galacticraft Planets	3.0.12)	Galacticraft-Planets-1.7-3.0.12.430.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		kcweaponmod	(KC's Weapon Mod v0.1.5	0.1.5)	KCs-Weapon-Mod-v0.1.5-(MC-1.7.10)-(Weap-v1.3).jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		halocraft	(Halocraft v0.7.6	0.7.6)	Halocraft-v0.7.6-(MC-1.7.10)-(KCWM-Weap-v1.3).jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		killerchief_halocraft	(HalocraftOldIDUpdater	0.7.0)	Halocraft-v0.7.6-(MC-1.7.10)-(KCWM-Weap-v1.3).jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		iChunUtil	(iChunUtil	4.2.3)	iChunUtil-4.2.3.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		InventoryPets	(Inventory Pets	1.4.9.6)	inventorypets-1.7.10-1.4.9.6-universal.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		IronChest	(Iron Chest	6.0.60.741)	Iron-Chests-Mod-1.7.10.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		Mantle	(Mantle	1.7.10-0.3.2.jenkins184)	Mantle-1.7.10-0.3.2.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		RadixCore	(RadixCore	2.1.1)	RadixCore-1.7.10-2.1.1-universal.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		MCA	(Minecraft Comes Alive	1.7.10-5.1.1.0)	MCA-1.7.10-5.1.1.0-universal.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		harvestcraft	(Pam's HarvestCraft	1.7.10d)	Pam's HarvestCraft 1.7.10f.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		starwarsmod	(Parzi's Star Wars Mod	1.3.3)	Parzi's Star Wars Mod v1.3.3.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		PortalGun	(PortalGun	4.0.0-beta-2)	Portal-Gun-Mod-1.7.10.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		Sync	(Sync	4.0.0)	Sync-4.0.0.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		tts	(Tube Transport System	0.6)	Tube-Transport-System-Mod-1.7.10.jar
+[16:53:44] [Server thread/DEBUG] [FML/]: 		witchery	(Witchery	0.24.1)	witchery-1.7.10-0.24.1.jar
+[16:53:44] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[16:53:44] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[16:53:44] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[16:53:44] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[16:53:44] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[16:53:44] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[16:53:44] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[16:53:44] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[16:53:44] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[16:53:44] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[16:53:44] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.177s
+[16:53:44] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLPreInitializationEvent to mod CodeChickenCore
+[16:53:44] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLPreInitializationEvent to mod CodeChickenCore
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - CodeChicken Core took 0.000s
+[16:53:44] [Server thread/TRACE] [Micdoodlecore/Micdoodlecore]: Sending event FMLPreInitializationEvent to mod Micdoodlecore
+[16:53:44] [Server thread/TRACE] [Micdoodlecore/Micdoodlecore]: Sent event FMLPreInitializationEvent to mod Micdoodlecore
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Micdoodle8 Core took 0.000s
+[16:53:44] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLPreInitializationEvent to mod NotEnoughItems
+[16:53:44] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLPreInitializationEvent to mod NotEnoughItems
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Not Enough Items took 0.002s
+[16:53:44] [Server thread/TRACE] [securitycraft/securitycraft]: Sending event FMLPreInitializationEvent to mod securitycraft
+[16:53:44] [Server thread/TRACE] [securitycraft/securitycraft]: Sent event FMLPreInitializationEvent to mod securitycraft
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - SecurityCraft took 0.173s
+[16:53:44] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLPreInitializationEvent to mod bspkrsCore
+[16:53:44] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLPreInitializationEvent to mod bspkrsCore
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - bspkrsCore took 0.007s
+[16:53:44] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLPreInitializationEvent to mod AnimationAPI
+[16:53:44] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLPreInitializationEvent to mod AnimationAPI
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - AnimationAPI took 0.000s
+[16:53:44] [Server thread/TRACE] [ArchimedesShips/ArchimedesShips]: Sending event FMLPreInitializationEvent to mod ArchimedesShips
+[16:53:44] [Server thread/TRACE] [ArchimedesShips/ArchimedesShips]: Sent event FMLPreInitializationEvent to mod ArchimedesShips
+[16:53:44] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Archimedes' Ships took 0.014s
+[16:53:44] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sending event FMLPreInitializationEvent to mod BiblioCraft
+[16:53:45] [Server thread/TRACE] [FML/BiblioCraft]: Automatically registered mod BiblioCraft entity SeatEntity as BiblioCraft.SeatEntity
+[16:53:45] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sent event FMLPreInitializationEvent to mod BiblioCraft
+[16:53:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BiblioCraft took 0.427s
+[16:53:45] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLPreInitializationEvent to mod BuildCraft|Core
+[16:53:45] [Server thread/INFO] [BuildCraft/BuildCraft|Core]: Starting BuildCraft 7.1.22
+[16:53:45] [Server thread/INFO] [BuildCraft/BuildCraft|Core]: Copyright (c) the BuildCraft team, 2011-2015
+[16:53:45] [Server thread/INFO] [BuildCraft/BuildCraft|Core]: http://www.mod-buildcraft.com
+[16:53:45] [Thread-11/INFO] [BuildCraft/BuildCraft|Core]: Beginning version check
+[16:53:45] [Thread-11/WARN] [BuildCraft/BuildCraft|Core]: Using outdated version [7.1.22] for Minecraft 1.7.10. Consider updating to 7.1.23.
+[16:53:45] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLPreInitializationEvent to mod BuildCraft|Core
+[16:53:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BuildCraft took 0.074s
+[16:53:45] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLPreInitializationEvent to mod BuildCraft|Transport
+[16:53:45] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLPreInitializationEvent to mod BuildCraft|Transport
+[16:53:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Transport took 0.340s
+[16:53:45] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLPreInitializationEvent to mod BuildCraft|Factory
+[16:53:45] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLPreInitializationEvent to mod BuildCraft|Factory
+[16:53:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Factory took 0.029s
+[16:53:45] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLPreInitializationEvent to mod BuildCraft|Silicon
+[16:53:45] [Server thread/TRACE] [FML/BuildCraft|Silicon]: Automatically registered mod BuildCraft|Silicon entity bcPackageThrowable as BuildCraft|Silicon.bcPackageThrowable
+[16:53:45] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLPreInitializationEvent to mod BuildCraft|Silicon
+[16:53:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Silicon took 0.022s
+[16:53:45] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLPreInitializationEvent to mod BuildCraft|Robotics
+[16:53:45] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLPreInitializationEvent to mod BuildCraft|Robotics
+[16:53:45] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Robotics took 0.061s
+[16:53:45] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLPreInitializationEvent to mod BuildCraft|Energy
+[16:53:46] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLPreInitializationEvent to mod BuildCraft|Energy
+[16:53:46] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Energy took 0.099s
+[16:53:46] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLPreInitializationEvent to mod BuildCraft|Builders
+[16:53:46] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLPreInitializationEvent to mod BuildCraft|Builders
+[16:53:46] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - BC Builders took 0.042s
+[16:53:46] [Server thread/TRACE] [customnpcs/customnpcs]: Sending event FMLPreInitializationEvent to mod customnpcs
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npchumanmale as customnpcs.npchumanmale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcvillager as customnpcs.npcvillager
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcpony as customnpcs.npcpony
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npchumanfemale as customnpcs.npchumanfemale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcdwarfmale as customnpcs.npcdwarfmale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcfurrymale as customnpcs.npcfurrymale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npczombiemale as customnpcs.npczombiemale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npczombiefemale as customnpcs.npczombiefemale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcskeleton as customnpcs.npcskeleton
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcdwarffemale as customnpcs.npcdwarffemale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcfurryfemale as customnpcs.npcfurryfemale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcorcfmale as customnpcs.npcorcfmale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcorcfemale as customnpcs.npcorcfemale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcelfmale as customnpcs.npcelfmale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcelffemale as customnpcs.npcelffemale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npccrystal as customnpcs.npccrystal
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcenderchibi as customnpcs.npcenderchibi
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcnagamale as customnpcs.npcnagamale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcnagafemale as customnpcs.npcnagafemale
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity NpcSlime as customnpcs.NpcSlime
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity NpcDragon as customnpcs.NpcDragon
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcEnderman as customnpcs.npcEnderman
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity npcGolem as customnpcs.npcGolem
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity CustomNpc as customnpcs.CustomNpc
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity CustomNpcChairMount as customnpcs.CustomNpcChairMount
+[16:53:46] [Server thread/TRACE] [FML/customnpcs]: Automatically registered mod customnpcs entity throwableitem as customnpcs.throwableitem
+[16:53:46] [Server thread/TRACE] [customnpcs/customnpcs]: Sent event FMLPreInitializationEvent to mod customnpcs
+[16:53:46] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - CustomNpcs took 0.434s
+[16:53:46] [Server thread/TRACE] [SlimevoidLib/SlimevoidLib]: Sending event FMLPreInitializationEvent to mod SlimevoidLib
+[16:53:46] [Server thread/TRACE] [SlimevoidLib/SlimevoidLib]: Sent event FMLPreInitializationEvent to mod SlimevoidLib
+[16:53:46] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Slimevoid Library took 0.004s
+[16:53:46] [Server thread/TRACE] [DynamicTransport/DynamicTransport]: Sending event FMLPreInitializationEvent to mod DynamicTransport
+[16:53:46] [Server thread/INFO] [FML/DynamicTransport]: [DynamicTransport] Registering names...
+[16:53:46] [Server thread/INFO] [STDOUT/DynamicTransport]: [net.slimevoid.library.data.Logger$LoggerWriter:<init>:170]: .\SVLib.log
+[16:53:46] [Server thread/INFO] [FML/DynamicTransport]: [DynamicTransport] Registering blocks...
+[16:53:46] [Server thread/INFO] [FML/DynamicTransport]: [DynamicTransport] Registering items...
+[16:53:46] [Server thread/TRACE] [DynamicTransport/DynamicTransport]: Sent event FMLPreInitializationEvent to mod DynamicTransport
+[16:53:46] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Dynamic Transport took 0.039s
+[16:53:46] [Server thread/TRACE] [GalacticraftCore/GalacticraftCore]: Sending event FMLPreInitializationEvent to mod GalacticraftCore
+[16:53:46] [Server thread/INFO] [Galacticraft/GalacticraftCore]: Galacticraft oil is not default, issues may occur.
+[16:53:46] [Server thread/INFO] [Galacticraft/GalacticraftCore]: Galacticraft fuel is not default, issues may occur.
+[16:53:47] [Server thread/TRACE] [GalacticraftCore/GalacticraftCore]: Sent event FMLPreInitializationEvent to mod GalacticraftCore
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Galacticraft Core took 0.448s
+[16:53:47] [Server thread/TRACE] [GalacticraftMars/GalacticraftMars]: Sending event FMLPreInitializationEvent to mod GalacticraftMars
+[16:53:47] [Server thread/TRACE] [GalacticraftMars/GalacticraftMars]: Sent event FMLPreInitializationEvent to mod GalacticraftMars
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Galacticraft Planets took 0.263s
+[16:53:47] [Server thread/TRACE] [kcweaponmod/kcweaponmod]: Sending event FMLPreInitializationEvent to mod kcweaponmod
+[16:53:47] [Server thread/INFO] [STDOUT/kcweaponmod]: [net.killerchief.kcweaponmod.KCWeaponMod:preInit:86]: KC's Weapon Mod: This mod version supports weapons of v1.3 only.
+[16:53:47] [Server thread/TRACE] [kcweaponmod/kcweaponmod]: Sent event FMLPreInitializationEvent to mod kcweaponmod
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - KC's Weapon Mod v0.1.5 took 0.009s
+[16:53:47] [Server thread/TRACE] [halocraft/halocraft]: Sending event FMLPreInitializationEvent to mod halocraft
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity EliteSword as halocraft.EliteSword
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity EliteCarbine as halocraft.EliteCarbine
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity ElitePlasmaRifle as halocraft.ElitePlasmaRifle
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity GruntPlasmaPistol as halocraft.GruntPlasmaPistol
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity GruntFlee as halocraft.GruntFlee
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity PassengerSeat as halocraft.PassengerSeat
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity MongooseDefault as halocraft.MongooseDefault
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity MongooseGreen as halocraft.MongooseGreen
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity MongooseBlue as halocraft.MongooseBlue
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity MongooseRed as halocraft.MongooseRed
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity Ghost as halocraft.Ghost
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity Warthog as halocraft.Warthog
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity WarthogBack as halocraft.WarthogBack
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity PassengerTurret as halocraft.PassengerTurret
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity WarthogChainGun as halocraft.WarthogChainGun
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity WarthogGauss as halocraft.WarthogGauss
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity WarthogRocket as halocraft.WarthogRocket
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity Banshee as halocraft.Banshee
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity WarthogGold as halocraft.WarthogGold
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity BansheeHeretic as halocraft.BansheeHeretic
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity DeployableGravityLift as halocraft.DeployableGravityLift
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity ClientTargeter as halocraft.ClientTargeter
+[16:53:47] [Server thread/TRACE] [FML/halocraft]: Automatically registered mod halocraft entity ClientEntityArrowIndicator as halocraft.ClientEntityArrowIndicator
+[16:53:47] [Server thread/INFO] [STDOUT/halocraft]: [net.killerchief.halocraft.config.InitHcWeapons:DefineAndSendWeapons:1182]: KCWeaponMod: Successfully Registered Halocraft Weapons
+[16:53:47] [Server thread/TRACE] [halocraft/halocraft]: Sent event FMLPreInitializationEvent to mod halocraft
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Halocraft v0.7.6 took 0.166s
+[16:53:47] [Server thread/TRACE] [killerchief_halocraft/killerchief_halocraft]: Sending event FMLPreInitializationEvent to mod killerchief_halocraft
+[16:53:47] [Server thread/TRACE] [killerchief_halocraft/killerchief_halocraft]: Sent event FMLPreInitializationEvent to mod killerchief_halocraft
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - HalocraftOldIDUpdater took 0.000s
+[16:53:47] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sending event FMLPreInitializationEvent to mod iChunUtil
+[16:53:47] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sent event FMLPreInitializationEvent to mod iChunUtil
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - iChunUtil took 0.022s
+[16:53:47] [Server thread/TRACE] [InventoryPets/InventoryPets]: Sending event FMLPreInitializationEvent to mod InventoryPets
+[16:53:47] [Server thread/TRACE] [InventoryPets/InventoryPets]: Sent event FMLPreInitializationEvent to mod InventoryPets
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Inventory Pets took 0.398s
+[16:53:47] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLPreInitializationEvent to mod IronChest
+[16:53:47] [Server thread/DEBUG] [IronChest/IronChest]: Attempting to load the file version.properties from Iron-Chests-Mod-1.7.10.jar to locate a version number for IronChest
+[16:53:47] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLPreInitializationEvent to mod IronChest
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Iron Chest took 0.012s
+[16:53:47] [Server thread/TRACE] [Mantle/Mantle]: Sending event FMLPreInitializationEvent to mod Mantle
+[16:53:47] [Server thread/INFO] [Mantle/Mantle]: Mantle (1.7.10-0.3.2.jenkins184) -- Preparing for launch.
+[16:53:47] [Server thread/INFO] [Mantle/Mantle]: Entering preinitialization phase.
+[16:53:47] [Server thread/INFO] [Mantle/Mantle]: Loading configuration from disk.
+[16:53:47] [Server thread/INFO] [Mantle/Mantle]: Configuration load completed.
+[16:53:47] [Server thread/TRACE] [Mantle/Mantle]: Sent event FMLPreInitializationEvent to mod Mantle
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Mantle took 0.008s
+[16:53:47] [Server thread/TRACE] [RadixCore/RadixCore]: Sending event FMLPreInitializationEvent to mod RadixCore
+[16:53:47] [Server thread/TRACE] [RadixCore/RadixCore]: Sent event FMLPreInitializationEvent to mod RadixCore
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - RadixCore took 0.011s
+[16:53:47] [Server thread/TRACE] [MCA/MCA]: Sending event FMLPreInitializationEvent to mod MCA
+[16:53:47] [Server thread/INFO] [RadixCore/MCA]: Loaded language en_US for mca.
+[16:53:47] [Server thread/TRACE] [MCA/MCA]: Sent event FMLPreInitializationEvent to mod MCA
+[16:53:47] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Comes Alive took 0.041s
+[16:53:47] [Server thread/TRACE] [harvestcraft/harvestcraft]: Sending event FMLPreInitializationEvent to mod harvestcraft
+[16:53:48] [Server thread/TRACE] [harvestcraft/harvestcraft]: Sent event FMLPreInitializationEvent to mod harvestcraft
+[16:53:48] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Pam's HarvestCraft took 0.141s
+[16:53:48] [Server thread/TRACE] [starwarsmod/starwarsmod]: Sending event FMLPreInitializationEvent to mod starwarsmod
+[16:53:48] [Server thread/INFO] [PSWM/starwarsmod]: ========== Begin Parzi's Star Wars Mod preInit() ==========
+[16:53:48] [Server thread/INFO] [PSWM/starwarsmod]: Network registered 34 packets!
+[16:53:48] [Server thread/INFO] [PSWM/starwarsmod]: Configuration loaded!
+[16:53:48] [Server thread/INFO] [PSWM/starwarsmod]: =========== End Parzi's Star Wars Mod preInit() ===========
+[16:53:48] [Server thread/TRACE] [starwarsmod/starwarsmod]: Sent event FMLPreInitializationEvent to mod starwarsmod
+[16:53:48] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Parzi's Star Wars Mod took 0.051s
+[16:53:48] [Server thread/TRACE] [PortalGun/PortalGun]: Sending event FMLPreInitializationEvent to mod PortalGun
+[16:53:48] [Server thread/INFO] [PortalGun/PortalGun]: [4.0.0-beta-2] Loading properties.
+[16:53:48] [Server thread/TRACE] [PortalGun/PortalGun]: Sent event FMLPreInitializationEvent to mod PortalGun
+[16:53:48] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - PortalGun took 0.230s
+[16:53:48] [Server thread/TRACE] [Sync/Sync]: Sending event FMLPreInitializationEvent to mod Sync
+[16:53:48] [Server thread/INFO] [STDOUT/Sync]: [micdoodle8.mods.miccore.MicdoodleTransformer:printLog:1989]: Galacticraft successfully injected bytecode into: sync/common/tileentity/TileEntityDualVertical (2 / 2)
+[16:53:48] [Server thread/TRACE] [Sync/Sync]: Sent event FMLPreInitializationEvent to mod Sync
+[16:53:48] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Sync took 0.025s
+[16:53:48] [Server thread/TRACE] [tts/tts]: Sending event FMLPreInitializationEvent to mod tts
+[16:53:48] [Server thread/TRACE] [tts/tts]: Sent event FMLPreInitializationEvent to mod tts
+[16:53:48] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Tube Transport System took 0.067s
+[16:53:48] [Server thread/TRACE] [witchery/witchery]: Sending event FMLPreInitializationEvent to mod witchery
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity demon as witchery.demon
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity broom as witchery.broom
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity brew as witchery.brew
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity familiar as witchery.familiar
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity mandrake as witchery.mandrake
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity treefyd as witchery.treefyd
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity hornedHuntsman as witchery.hornedHuntsman
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity spellEffect as witchery.spellEffect
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity ent as witchery.ent
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity illusionCreeper as witchery.illusionCreeper
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity illusionSpider as witchery.illusionSpider
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity illusionZombie as witchery.illusionZombie
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity owl as witchery.owl
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity toad as witchery.toad
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity cat as witchery.cat
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity louse as witchery.louse
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity eye as witchery.eye
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity babayaga as witchery.babayaga
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity covenwitch as witchery.covenwitch
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity corpse as witchery.corpse
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity nightmare as witchery.nightmare
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity spectre as witchery.spectre
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity poltergeist as witchery.poltergeist
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity banshee as witchery.banshee
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity spirit as witchery.spirit
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity death as witchery.death
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity bolt as witchery.bolt
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity witchhunter as witchery.witchhunter
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity deathhorse as witchery.deathhorse
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity lordoftorment as witchery.lordoftorment
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity soulfire as witchery.soulfire
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity imp as witchery.imp
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity darkmark as witchery.darkmark
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity mindrake as witchery.mindrake
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity goblin as witchery.goblin
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity goblinmog as witchery.goblinmog
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity goblingulg as witchery.goblingulg
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity brew2 as witchery.brew2
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity item as witchery.item
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity droplet as witchery.droplet
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity splatter as witchery.splatter
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity leonard as witchery.leonard
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity lostsoul as witchery.lostsoul
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity wolfman as witchery.wolfman
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity hellhound as witchery.hellhound
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity werevillager as witchery.werevillager
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity villageguard as witchery.villageguard
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity vampire as witchery.vampire
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity grenade as witchery.grenade
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity lilith as witchery.lilith
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity follower as witchery.follower
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity wingedmonkey as witchery.wingedmonkey
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity attackbat as witchery.attackbat
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity mirrorface as witchery.mirrorface
+[16:53:49] [Server thread/TRACE] [FML/witchery]: Automatically registered mod witchery entity reflection as witchery.reflection
+[16:53:49] [Server thread/TRACE] [witchery/witchery]: Sent event FMLPreInitializationEvent to mod witchery
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Witchery took 0.687s
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 4.523s
+[16:53:49] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:53:49] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:53:49] [Server thread/INFO] [FML/]: Injecting itemstacks
+[16:53:49] [Server thread/INFO] [FML/]: Itemstack injection complete
+[16:53:49] [Server thread/WARN] [FML/]: Can't revert to frozen GameData state without freezing first.
+[16:53:49] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[16:53:49] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[16:53:49] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[16:53:49] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[16:53:49] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[16:53:49] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.002s
+[16:53:49] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLModIdMappingEvent to mod CodeChickenCore
+[16:53:49] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLModIdMappingEvent to mod CodeChickenCore
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CodeChicken Core took 0.000s
+[16:53:49] [Server thread/TRACE] [Micdoodlecore/Micdoodlecore]: Sending event FMLModIdMappingEvent to mod Micdoodlecore
+[16:53:49] [Server thread/TRACE] [Micdoodlecore/Micdoodlecore]: Sent event FMLModIdMappingEvent to mod Micdoodlecore
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Micdoodle8 Core took 0.000s
+[16:53:49] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLModIdMappingEvent to mod NotEnoughItems
+[16:53:49] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLModIdMappingEvent to mod NotEnoughItems
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Not Enough Items took 0.000s
+[16:53:49] [Server thread/TRACE] [securitycraft/securitycraft]: Sending event FMLModIdMappingEvent to mod securitycraft
+[16:53:49] [Server thread/TRACE] [securitycraft/securitycraft]: Sent event FMLModIdMappingEvent to mod securitycraft
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - SecurityCraft took 0.000s
+[16:53:49] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLModIdMappingEvent to mod bspkrsCore
+[16:53:49] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLModIdMappingEvent to mod bspkrsCore
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - bspkrsCore took 0.000s
+[16:53:49] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLModIdMappingEvent to mod AnimationAPI
+[16:53:49] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLModIdMappingEvent to mod AnimationAPI
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - AnimationAPI took 0.000s
+[16:53:49] [Server thread/TRACE] [ArchimedesShips/ArchimedesShips]: Sending event FMLModIdMappingEvent to mod ArchimedesShips
+[16:53:49] [Server thread/TRACE] [ArchimedesShips/ArchimedesShips]: Sent event FMLModIdMappingEvent to mod ArchimedesShips
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Archimedes' Ships took 0.000s
+[16:53:49] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sending event FMLModIdMappingEvent to mod BiblioCraft
+[16:53:49] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sent event FMLModIdMappingEvent to mod BiblioCraft
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BiblioCraft took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLModIdMappingEvent to mod BuildCraft|Core
+[16:53:49] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLModIdMappingEvent to mod BuildCraft|Core
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BuildCraft took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLModIdMappingEvent to mod BuildCraft|Transport
+[16:53:49] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLModIdMappingEvent to mod BuildCraft|Transport
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Transport took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLModIdMappingEvent to mod BuildCraft|Factory
+[16:53:49] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLModIdMappingEvent to mod BuildCraft|Factory
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Factory took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLModIdMappingEvent to mod BuildCraft|Silicon
+[16:53:49] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLModIdMappingEvent to mod BuildCraft|Silicon
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Silicon took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLModIdMappingEvent to mod BuildCraft|Robotics
+[16:53:49] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLModIdMappingEvent to mod BuildCraft|Robotics
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Robotics took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLModIdMappingEvent to mod BuildCraft|Energy
+[16:53:49] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLModIdMappingEvent to mod BuildCraft|Energy
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Energy took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLModIdMappingEvent to mod BuildCraft|Builders
+[16:53:49] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLModIdMappingEvent to mod BuildCraft|Builders
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - BC Builders took 0.000s
+[16:53:49] [Server thread/TRACE] [customnpcs/customnpcs]: Sending event FMLModIdMappingEvent to mod customnpcs
+[16:53:49] [Server thread/TRACE] [customnpcs/customnpcs]: Sent event FMLModIdMappingEvent to mod customnpcs
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - CustomNpcs took 0.000s
+[16:53:49] [Server thread/TRACE] [SlimevoidLib/SlimevoidLib]: Sending event FMLModIdMappingEvent to mod SlimevoidLib
+[16:53:49] [Server thread/TRACE] [SlimevoidLib/SlimevoidLib]: Sent event FMLModIdMappingEvent to mod SlimevoidLib
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Slimevoid Library took 0.000s
+[16:53:49] [Server thread/TRACE] [DynamicTransport/DynamicTransport]: Sending event FMLModIdMappingEvent to mod DynamicTransport
+[16:53:49] [Server thread/TRACE] [DynamicTransport/DynamicTransport]: Sent event FMLModIdMappingEvent to mod DynamicTransport
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Dynamic Transport took 0.000s
+[16:53:49] [Server thread/TRACE] [GalacticraftCore/GalacticraftCore]: Sending event FMLModIdMappingEvent to mod GalacticraftCore
+[16:53:49] [Server thread/TRACE] [GalacticraftCore/GalacticraftCore]: Sent event FMLModIdMappingEvent to mod GalacticraftCore
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Galacticraft Core took 0.000s
+[16:53:49] [Server thread/TRACE] [GalacticraftMars/GalacticraftMars]: Sending event FMLModIdMappingEvent to mod GalacticraftMars
+[16:53:49] [Server thread/TRACE] [GalacticraftMars/GalacticraftMars]: Sent event FMLModIdMappingEvent to mod GalacticraftMars
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Galacticraft Planets took 0.000s
+[16:53:49] [Server thread/TRACE] [kcweaponmod/kcweaponmod]: Sending event FMLModIdMappingEvent to mod kcweaponmod
+[16:53:49] [Server thread/TRACE] [kcweaponmod/kcweaponmod]: Sent event FMLModIdMappingEvent to mod kcweaponmod
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - KC's Weapon Mod v0.1.5 took 0.000s
+[16:53:49] [Server thread/TRACE] [halocraft/halocraft]: Sending event FMLModIdMappingEvent to mod halocraft
+[16:53:49] [Server thread/TRACE] [halocraft/halocraft]: Sent event FMLModIdMappingEvent to mod halocraft
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Halocraft v0.7.6 took 0.000s
+[16:53:49] [Server thread/TRACE] [killerchief_halocraft/killerchief_halocraft]: Sending event FMLModIdMappingEvent to mod killerchief_halocraft
+[16:53:49] [Server thread/TRACE] [killerchief_halocraft/killerchief_halocraft]: Sent event FMLModIdMappingEvent to mod killerchief_halocraft
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - HalocraftOldIDUpdater took 0.000s
+[16:53:49] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sending event FMLModIdMappingEvent to mod iChunUtil
+[16:53:49] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sent event FMLModIdMappingEvent to mod iChunUtil
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - iChunUtil took 0.000s
+[16:53:49] [Server thread/TRACE] [InventoryPets/InventoryPets]: Sending event FMLModIdMappingEvent to mod InventoryPets
+[16:53:49] [Server thread/TRACE] [InventoryPets/InventoryPets]: Sent event FMLModIdMappingEvent to mod InventoryPets
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Inventory Pets took 0.000s
+[16:53:49] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLModIdMappingEvent to mod IronChest
+[16:53:49] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLModIdMappingEvent to mod IronChest
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Iron Chest took 0.000s
+[16:53:49] [Server thread/TRACE] [Mantle/Mantle]: Sending event FMLModIdMappingEvent to mod Mantle
+[16:53:49] [Server thread/TRACE] [Mantle/Mantle]: Sent event FMLModIdMappingEvent to mod Mantle
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Mantle took 0.000s
+[16:53:49] [Server thread/TRACE] [RadixCore/RadixCore]: Sending event FMLModIdMappingEvent to mod RadixCore
+[16:53:49] [Server thread/TRACE] [RadixCore/RadixCore]: Sent event FMLModIdMappingEvent to mod RadixCore
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - RadixCore took 0.000s
+[16:53:49] [Server thread/TRACE] [MCA/MCA]: Sending event FMLModIdMappingEvent to mod MCA
+[16:53:49] [Server thread/TRACE] [MCA/MCA]: Sent event FMLModIdMappingEvent to mod MCA
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Comes Alive took 0.000s
+[16:53:49] [Server thread/TRACE] [harvestcraft/harvestcraft]: Sending event FMLModIdMappingEvent to mod harvestcraft
+[16:53:49] [Server thread/TRACE] [harvestcraft/harvestcraft]: Sent event FMLModIdMappingEvent to mod harvestcraft
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Pam's HarvestCraft took 0.000s
+[16:53:49] [Server thread/TRACE] [starwarsmod/starwarsmod]: Sending event FMLModIdMappingEvent to mod starwarsmod
+[16:53:49] [Server thread/TRACE] [starwarsmod/starwarsmod]: Sent event FMLModIdMappingEvent to mod starwarsmod
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Parzi's Star Wars Mod took 0.000s
+[16:53:49] [Server thread/TRACE] [PortalGun/PortalGun]: Sending event FMLModIdMappingEvent to mod PortalGun
+[16:53:49] [Server thread/TRACE] [PortalGun/PortalGun]: Sent event FMLModIdMappingEvent to mod PortalGun
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - PortalGun took 0.000s
+[16:53:49] [Server thread/TRACE] [Sync/Sync]: Sending event FMLModIdMappingEvent to mod Sync
+[16:53:49] [Server thread/TRACE] [Sync/Sync]: Sent event FMLModIdMappingEvent to mod Sync
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Sync took 0.000s
+[16:53:49] [Server thread/TRACE] [tts/tts]: Sending event FMLModIdMappingEvent to mod tts
+[16:53:49] [Server thread/TRACE] [tts/tts]: Sent event FMLModIdMappingEvent to mod tts
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Tube Transport System took 0.000s
+[16:53:49] [Server thread/TRACE] [witchery/witchery]: Sending event FMLModIdMappingEvent to mod witchery
+[16:53:49] [Server thread/TRACE] [witchery/witchery]: Sent event FMLModIdMappingEvent to mod witchery
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Witchery took 0.000s
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.007s
+[16:53:49] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:53:49] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:53:49] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[16:53:49] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[16:53:49] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[16:53:49] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[16:53:49] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[16:53:49] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[16:53:49] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sending event FMLServerStoppedEvent to mod CodeChickenCore
+[16:53:49] [Server thread/TRACE] [CodeChickenCore/CodeChickenCore]: Sent event FMLServerStoppedEvent to mod CodeChickenCore
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CodeChicken Core took 0.000s
+[16:53:49] [Server thread/TRACE] [Micdoodlecore/Micdoodlecore]: Sending event FMLServerStoppedEvent to mod Micdoodlecore
+[16:53:49] [Server thread/TRACE] [Micdoodlecore/Micdoodlecore]: Sent event FMLServerStoppedEvent to mod Micdoodlecore
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Micdoodle8 Core took 0.000s
+[16:53:49] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sending event FMLServerStoppedEvent to mod NotEnoughItems
+[16:53:49] [Server thread/TRACE] [NotEnoughItems/NotEnoughItems]: Sent event FMLServerStoppedEvent to mod NotEnoughItems
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Not Enough Items took 0.000s
+[16:53:49] [Server thread/TRACE] [securitycraft/securitycraft]: Sending event FMLServerStoppedEvent to mod securitycraft
+[16:53:49] [Server thread/TRACE] [securitycraft/securitycraft]: Sent event FMLServerStoppedEvent to mod securitycraft
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - SecurityCraft took 0.000s
+[16:53:49] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sending event FMLServerStoppedEvent to mod bspkrsCore
+[16:53:49] [Server thread/TRACE] [bspkrsCore/bspkrsCore]: Sent event FMLServerStoppedEvent to mod bspkrsCore
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - bspkrsCore took 0.000s
+[16:53:49] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sending event FMLServerStoppedEvent to mod AnimationAPI
+[16:53:49] [Server thread/TRACE] [AnimationAPI/AnimationAPI]: Sent event FMLServerStoppedEvent to mod AnimationAPI
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - AnimationAPI took 0.000s
+[16:53:49] [Server thread/TRACE] [ArchimedesShips/ArchimedesShips]: Sending event FMLServerStoppedEvent to mod ArchimedesShips
+[16:53:49] [Server thread/TRACE] [ArchimedesShips/ArchimedesShips]: Sent event FMLServerStoppedEvent to mod ArchimedesShips
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Archimedes' Ships took 0.000s
+[16:53:49] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sending event FMLServerStoppedEvent to mod BiblioCraft
+[16:53:49] [Server thread/TRACE] [BiblioCraft/BiblioCraft]: Sent event FMLServerStoppedEvent to mod BiblioCraft
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BiblioCraft took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sending event FMLServerStoppedEvent to mod BuildCraft|Core
+[16:53:49] [Server thread/TRACE] [BuildCraft|Core/BuildCraft|Core]: Sent event FMLServerStoppedEvent to mod BuildCraft|Core
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BuildCraft took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sending event FMLServerStoppedEvent to mod BuildCraft|Transport
+[16:53:49] [Server thread/TRACE] [BuildCraft|Transport/BuildCraft|Transport]: Sent event FMLServerStoppedEvent to mod BuildCraft|Transport
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Transport took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sending event FMLServerStoppedEvent to mod BuildCraft|Factory
+[16:53:49] [Server thread/TRACE] [BuildCraft|Factory/BuildCraft|Factory]: Sent event FMLServerStoppedEvent to mod BuildCraft|Factory
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Factory took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sending event FMLServerStoppedEvent to mod BuildCraft|Silicon
+[16:53:49] [Server thread/TRACE] [BuildCraft|Silicon/BuildCraft|Silicon]: Sent event FMLServerStoppedEvent to mod BuildCraft|Silicon
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Silicon took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sending event FMLServerStoppedEvent to mod BuildCraft|Robotics
+[16:53:49] [Server thread/TRACE] [BuildCraft|Robotics/BuildCraft|Robotics]: Sent event FMLServerStoppedEvent to mod BuildCraft|Robotics
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Robotics took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sending event FMLServerStoppedEvent to mod BuildCraft|Energy
+[16:53:49] [Server thread/TRACE] [BuildCraft|Energy/BuildCraft|Energy]: Sent event FMLServerStoppedEvent to mod BuildCraft|Energy
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Energy took 0.000s
+[16:53:49] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sending event FMLServerStoppedEvent to mod BuildCraft|Builders
+[16:53:49] [Server thread/TRACE] [BuildCraft|Builders/BuildCraft|Builders]: Sent event FMLServerStoppedEvent to mod BuildCraft|Builders
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - BC Builders took 0.000s
+[16:53:49] [Server thread/TRACE] [customnpcs/customnpcs]: Sending event FMLServerStoppedEvent to mod customnpcs
+[16:53:49] [Server thread/TRACE] [customnpcs/customnpcs]: Sent event FMLServerStoppedEvent to mod customnpcs
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - CustomNpcs took 0.002s
+[16:53:49] [Server thread/TRACE] [SlimevoidLib/SlimevoidLib]: Sending event FMLServerStoppedEvent to mod SlimevoidLib
+[16:53:49] [Server thread/TRACE] [SlimevoidLib/SlimevoidLib]: Sent event FMLServerStoppedEvent to mod SlimevoidLib
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Slimevoid Library took 0.000s
+[16:53:49] [Server thread/TRACE] [DynamicTransport/DynamicTransport]: Sending event FMLServerStoppedEvent to mod DynamicTransport
+[16:53:49] [Server thread/TRACE] [DynamicTransport/DynamicTransport]: Sent event FMLServerStoppedEvent to mod DynamicTransport
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Dynamic Transport took 0.000s
+[16:53:49] [Server thread/TRACE] [GalacticraftCore/GalacticraftCore]: Sending event FMLServerStoppedEvent to mod GalacticraftCore
+[16:53:49] [Server thread/TRACE] [GalacticraftCore/GalacticraftCore]: Sent event FMLServerStoppedEvent to mod GalacticraftCore
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Galacticraft Core took 0.014s
+[16:53:49] [Server thread/TRACE] [GalacticraftMars/GalacticraftMars]: Sending event FMLServerStoppedEvent to mod GalacticraftMars
+[16:53:49] [Server thread/TRACE] [GalacticraftMars/GalacticraftMars]: Sent event FMLServerStoppedEvent to mod GalacticraftMars
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Galacticraft Planets took 0.003s
+[16:53:49] [Server thread/TRACE] [kcweaponmod/kcweaponmod]: Sending event FMLServerStoppedEvent to mod kcweaponmod
+[16:53:49] [Server thread/TRACE] [kcweaponmod/kcweaponmod]: Sent event FMLServerStoppedEvent to mod kcweaponmod
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - KC's Weapon Mod v0.1.5 took 0.000s
+[16:53:49] [Server thread/TRACE] [halocraft/halocraft]: Sending event FMLServerStoppedEvent to mod halocraft
+[16:53:49] [Server thread/TRACE] [halocraft/halocraft]: Sent event FMLServerStoppedEvent to mod halocraft
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Halocraft v0.7.6 took 0.000s
+[16:53:49] [Server thread/TRACE] [killerchief_halocraft/killerchief_halocraft]: Sending event FMLServerStoppedEvent to mod killerchief_halocraft
+[16:53:49] [Server thread/TRACE] [killerchief_halocraft/killerchief_halocraft]: Sent event FMLServerStoppedEvent to mod killerchief_halocraft
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - HalocraftOldIDUpdater took 0.000s
+[16:53:49] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sending event FMLServerStoppedEvent to mod iChunUtil
+[16:53:49] [Server thread/TRACE] [iChunUtil/iChunUtil]: Sent event FMLServerStoppedEvent to mod iChunUtil
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - iChunUtil took 0.000s
+[16:53:49] [Server thread/TRACE] [InventoryPets/InventoryPets]: Sending event FMLServerStoppedEvent to mod InventoryPets
+[16:53:49] [Server thread/TRACE] [InventoryPets/InventoryPets]: Sent event FMLServerStoppedEvent to mod InventoryPets
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Inventory Pets took 0.000s
+[16:53:49] [Server thread/TRACE] [IronChest/IronChest]: Sending event FMLServerStoppedEvent to mod IronChest
+[16:53:49] [Server thread/TRACE] [IronChest/IronChest]: Sent event FMLServerStoppedEvent to mod IronChest
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Iron Chest took 0.000s
+[16:53:49] [Server thread/TRACE] [Mantle/Mantle]: Sending event FMLServerStoppedEvent to mod Mantle
+[16:53:49] [Server thread/TRACE] [Mantle/Mantle]: Sent event FMLServerStoppedEvent to mod Mantle
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Mantle took 0.000s
+[16:53:49] [Server thread/TRACE] [RadixCore/RadixCore]: Sending event FMLServerStoppedEvent to mod RadixCore
+[16:53:49] [Server thread/TRACE] [RadixCore/RadixCore]: Sent event FMLServerStoppedEvent to mod RadixCore
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - RadixCore took 0.000s
+[16:53:49] [Server thread/TRACE] [MCA/MCA]: Sending event FMLServerStoppedEvent to mod MCA
+[16:53:49] [Server thread/TRACE] [MCA/MCA]: Sent event FMLServerStoppedEvent to mod MCA
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Comes Alive took 0.000s
+[16:53:49] [Server thread/TRACE] [harvestcraft/harvestcraft]: Sending event FMLServerStoppedEvent to mod harvestcraft
+[16:53:49] [Server thread/TRACE] [harvestcraft/harvestcraft]: Sent event FMLServerStoppedEvent to mod harvestcraft
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Pam's HarvestCraft took 0.000s
+[16:53:49] [Server thread/TRACE] [starwarsmod/starwarsmod]: Sending event FMLServerStoppedEvent to mod starwarsmod
+[16:53:49] [Server thread/TRACE] [starwarsmod/starwarsmod]: Sent event FMLServerStoppedEvent to mod starwarsmod
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Parzi's Star Wars Mod took 0.000s
+[16:53:49] [Server thread/TRACE] [PortalGun/PortalGun]: Sending event FMLServerStoppedEvent to mod PortalGun
+[16:53:49] [Server thread/TRACE] [PortalGun/PortalGun]: Sent event FMLServerStoppedEvent to mod PortalGun
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - PortalGun took 0.000s
+[16:53:49] [Server thread/TRACE] [Sync/Sync]: Sending event FMLServerStoppedEvent to mod Sync
+[16:53:49] [Server thread/TRACE] [Sync/Sync]: Sent event FMLServerStoppedEvent to mod Sync
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Sync took 0.003s
+[16:53:49] [Server thread/TRACE] [tts/tts]: Sending event FMLServerStoppedEvent to mod tts
+[16:53:49] [Server thread/TRACE] [tts/tts]: Sent event FMLServerStoppedEvent to mod tts
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Tube Transport System took 0.000s
+[16:53:49] [Server thread/TRACE] [witchery/witchery]: Sending event FMLServerStoppedEvent to mod witchery
+[16:53:49] [Server thread/TRACE] [witchery/witchery]: Sent event FMLServerStoppedEvent to mod witchery
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Witchery took 0.000s
+[16:53:49] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.027s
+[16:53:49] [Server thread/INFO] [FML/]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.
