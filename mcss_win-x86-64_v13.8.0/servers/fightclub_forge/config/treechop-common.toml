@@ -16,9 +16,9 @@
 		canBeTrue = true
 
 	[permissions.sneakBehavior]
-		canBeInvertChopping = true
 		canBeInvertFelling = true
 		canBeNone = true
+		canBeInvertChopping = true
 
 	[permissions.treeMustHaveLeaves]
 		canBeFalse = true
@@ -139,6 +139,27 @@
 			fellingEnabled = true
 			treesMustHaveLeaves = true
 
+	#A set of alternate tree detection strategies for oddly shaped trees
+	#For block lists, specify using registry names (mod:block), tags (#mod:tag), namespaces (@mod), and Java-style regular expressions
+	#Regular expressions must match the whole resource name, including the colon. Some simple examples are:
+	# - To match any block ending in _log: ".*_log", where .* is a wildcard
+	# - You can also specify a mod: "treemod:.*_log"
+	# - To also match stripped versions: ".*_log(_stripped)?", where ? means that the text in the parenthesis is optional
+	#For more help, see https://github.com/hammertater/treechop/wiki/Configuration
+	[compatibility.trees]
+
+		[compatibility.trees.hugeMushrooms]
+			logs = ["#forge:mushroom_stems"]
+			leaves = ["#forge:mushroom_caps"]
+
+		[compatibility.trees.hugeFungi]
+			logs = ["#minecraft:crimson_stems", "#minecraft:warped_stems"]
+			leaves = ["#minecraft:wart_blocks", "minecraft:shroomlight"]
+
+		[compatibility.trees.problematicLeavesTrees]
+			logs = ["tropicraft:.*_log(_.*)?", "mysticbiomes:.*_log", "betternether:.*_bark", "betternether:.*_log"]
+			leaves = ["tropicraft:.*_leaves(_.*)?", "betternether:.*_leaves"]
+
 	[compatibility.silentgear]
 		#https://www.curseforge.com/minecraft/mc-mods/tinkers-construct
 		#https://modrinth.com/mod/tinkers-construct
@@ -166,25 +187,4 @@
 	[compatibility.API]
 		#Log information about TreeChop API usage. May be useful for debugging mod compatibility issues.
 		verbose = false
-
-	#A set of alternate tree detection strategies for oddly shaped trees
-	#For block lists, specify using registry names (mod:block), tags (#mod:tag), namespaces (@mod), and Java-style regular expressions
-	#Regular expressions must match the whole resource name, including the colon. Some simple examples are:
-	# - To match any block ending in _log: ".*_log", where .* is a wildcard
-	# - You can also specify a mod: "treemod:.*_log"
-	# - To also match stripped versions: ".*_log(_stripped)?", where ? means that the text in the parenthesis is optional
-	#For more help, see https://github.com/hammertater/treechop/wiki/Configuration
-	[compatibility.trees]
-
-		[compatibility.trees.hugeMushrooms]
-			logs = ["#forge:mushroom_stems"]
-			leaves = ["#forge:mushroom_caps"]
-
-		[compatibility.trees.hugeFungi]
-			logs = ["#minecraft:crimson_stems", "#minecraft:warped_stems"]
-			leaves = ["#minecraft:wart_blocks", "minecraft:shroomlight"]
-
-		[compatibility.trees.problematicLeavesTrees]
-			logs = ["tropicraft:.*_log(_.*)?", "mysticbiomes:.*_log", "betternether:.*_bark", "betternether:.*_log"]
-			leaves = ["tropicraft:.*_leaves(_.*)?", "betternether:.*_leaves"]
 

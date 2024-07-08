@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/oak/oak_pressure_plate_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/birch/birch_stairs_from_birch_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 00:37:15 -0400"
@@ -17,12 +23,11 @@
     },
     "done": true
   },
-  "dnl:util/entity_hit_matching/on_hit": {
+  "minecraft:recipes/woodcutting/oak/oak_sign_from_oak_slab_woodcutting": {
     "criteria": {
-      "not_projectile": "2024-07-02 16:38:07 -0400",
-      "not_magic": "2024-07-02 16:38:07 -0400"
+      "give_recipe": "2024-07-06 18:35:26 -0400"
     },
-    "done": false
+    "done": true
   },
   "naturescompass:natures_compass": {
     "criteria": {
@@ -39,6 +44,12 @@
   "minecraft:recipes/woodcutting/birch/birch_planks_from_birch_log_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 00:37:02 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_fence_gate_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
     },
     "done": true
   },
@@ -66,9 +77,27 @@
     },
     "done": true
   },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-07-07 23:08:32 -0400"
+    },
+    "done": true
+  },
+  "bygonenether:root": {
+    "criteria": {
+      "entered_nether": "2024-07-07 23:08:32 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/oak/oak_fence_gate_from_oak_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 00:44:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2024-07-07 23:38:58 -0400"
     },
     "done": true
   },
@@ -105,6 +134,12 @@
   "dnl:story/structures/pillager_camp/locate": {
     "criteria": {
       "locate_pillager_camp": "2024-07-02 16:35:31 -0400"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_chestplate": "2024-07-06 17:32:47 -0400"
     },
     "done": true
   },
@@ -168,6 +203,24 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/oak/oak_trapdoor_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
+    },
+    "done": true
+  },
+  "betterdungeons:all_dungeons": {
+    "criteria": {
+      "in_better_zombie_dungeon": "2024-07-08 00:01:00 -0400"
+    },
+    "done": false
+  },
+  "betterdungeons:zombie_dungeon": {
+    "criteria": {
+      "in_better_zombie_dungeon": "2024-07-08 00:01:00 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/spruce/spruce_stairs_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 01:41:02 -0400"
@@ -183,6 +236,12 @@
   "ancient_manuscripts:items/jungle_binding_table": {
     "criteria": {
       "has_recipe": "2024-07-01 00:34:38 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/chest_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
     },
     "done": true
   },
@@ -203,6 +262,12 @@
       "give_recipe": "2024-07-01 01:41:02 -0400"
     },
     "done": true
+  },
+  "repurposed_structures:temples": {
+    "criteria": {
+      "in_temple_taiga": "2024-07-06 17:41:36 -0400"
+    },
+    "done": false
   },
   "minecraft:recipes/woodcutting/oak/crafting_table_from_oak_planks_woodcutting": {
     "criteria": {
@@ -240,18 +305,28 @@
     "criteria": {
       "silver_birch_forest": "2024-07-02 15:45:12 -0400",
       "shrubland": "2024-07-01 00:46:09 -0400",
+      "redstone_abyss": "2024-07-07 23:33:12 -0400",
+      "fen": "2024-07-07 17:43:08 -0400",
+      "pine_taiga": "2024-07-06 18:18:17 -0400",
+      "bayou": "2024-07-06 18:18:21 -0400",
       "autumnal_maple_forest": "2024-07-02 14:21:43 -0400",
       "muddy_river": "2024-07-02 15:38:02 -0400",
       "willow_forest": "2024-07-02 15:59:35 -0400",
+      "poppy_fields": "2024-07-07 17:51:51 -0400",
       "grassy_beach": "2024-07-01 00:51:38 -0400",
       "rocky_meadow": "2024-07-01 02:24:24 -0400",
+      "mycotoxic_undergrowth": "2024-07-07 23:18:44 -0400",
       "highland_fields": "2024-07-02 16:01:05 -0400",
       "maple_forest": "2024-07-02 00:50:02 -0400",
       "magnolia_highlands": "2024-07-02 15:56:28 -0400",
       "deciduous_forest": "2024-07-02 16:02:06 -0400",
       "boreal_forest": "2024-07-01 15:07:33 -0400",
+      "glistering_meadow": "2024-07-07 23:20:45 -0400",
+      "blackstone_basin": "2024-07-07 23:08:32 -0400",
+      "towering_cliffs": "2024-07-07 18:21:00 -0400",
       "temperate_grove": "2024-07-02 15:50:47 -0400",
       "cold_river": "2024-07-02 14:21:39 -0400",
+      "pumpkin_fields": "2024-07-07 17:54:51 -0400",
       "grassland": "2024-07-02 16:15:13 -0400",
       "prairie": "2024-07-02 16:02:16 -0400",
       "gravel_beach": "2024-07-02 14:24:49 -0400",
@@ -284,6 +359,12 @@
     },
     "done": true
   },
+  "graveyard:graveyard/medium_graveyard": {
+    "criteria": {
+      "medium_graveyard": "2024-07-06 18:08:05 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/oak/oak_planks_from_oak_log_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 00:38:11 -0400"
@@ -299,6 +380,12 @@
   "undead_unleashed:boo": {
     "criteria": {
       "boo": "2024-07-01 14:55:01 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_fence_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
     },
     "done": true
   },
@@ -320,6 +407,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/spruce/spruce_planks_from_stripped_spruce_log_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:54:44 -0400"
+    },
+    "done": true
+  },
   "ancient_manuscripts:items/oak_binding_table": {
     "criteria": {
       "has_recipe": "2024-07-01 00:34:38 -0400"
@@ -332,13 +425,23 @@
     },
     "done": true
   },
+  "graveyard:graveyard/corruption": {
+    "criteria": {
+      "corruption": "2024-07-07 18:30:02 -0400"
+    },
+    "done": true
+  },
   "regions_unexplored:pioneer": {
     "criteria": {
       "silver_birch_forest": "2024-07-02 15:45:12 -0400",
       "shrubland": "2024-07-01 00:46:09 -0400",
+      "fen": "2024-07-07 17:43:08 -0400",
+      "pine_taiga": "2024-07-06 18:18:17 -0400",
+      "bayou": "2024-07-06 18:18:21 -0400",
       "autumnal_maple_forest": "2024-07-02 14:21:43 -0400",
       "muddy_river": "2024-07-02 15:38:02 -0400",
       "willow_forest": "2024-07-02 15:59:35 -0400",
+      "poppy_fields": "2024-07-07 17:51:51 -0400",
       "grassy_beach": "2024-07-01 00:51:38 -0400",
       "rocky_meadow": "2024-07-01 02:24:24 -0400",
       "highland_fields": "2024-07-02 16:01:05 -0400",
@@ -346,8 +449,10 @@
       "magnolia_highlands": "2024-07-02 15:56:28 -0400",
       "deciduous_forest": "2024-07-02 16:02:06 -0400",
       "boreal_forest": "2024-07-01 15:07:33 -0400",
+      "towering_cliffs": "2024-07-07 18:21:00 -0400",
       "temperate_grove": "2024-07-02 15:50:47 -0400",
       "cold_river": "2024-07-02 14:21:39 -0400",
+      "pumpkin_fields": "2024-07-07 17:54:51 -0400",
       "grassland": "2024-07-02 16:15:13 -0400",
       "prairie": "2024-07-02 16:02:16 -0400",
       "gravel_beach": "2024-07-02 14:24:49 -0400",
@@ -376,6 +481,12 @@
   "ancient_manuscripts:items/empty_glue_bottle": {
     "criteria": {
       "has_recipe": "2024-07-01 00:34:38 -0400"
+    },
+    "done": true
+  },
+  "dnl:story/themes/hidden/locate": {
+    "criteria": {
+      "locate_slime_sinkhole": "2024-07-06 18:25:20 -0400"
     },
     "done": true
   },
@@ -442,16 +553,21 @@
     },
     "done": true
   },
-  "dnl:util/entity_hit_matching/on_hurt": {
+  "dnl:story/general/locate_dungeon": {
     "criteria": {
-      "not_projectile": "2024-07-02 16:37:47 -0400",
-      "blocked_false": "2024-07-02 16:37:47 -0400"
+      "locate_sinkhole": "2024-07-06 18:25:20 -0400"
     },
-    "done": false
+    "done": true
   },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_chestplate": "2024-07-01 01:18:52 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/crafting_table_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
     },
     "done": true
   },
@@ -489,21 +605,33 @@
     "criteria": {
       "minecraft:taiga": "2024-07-01 15:03:24 -0400",
       "minecraft:birch_forest": "2024-07-02 16:27:44 -0400",
+      "minecraft:windswept_hills": "2024-07-07 17:45:41 -0400",
       "minecraft:bamboo_jungle": "2024-07-02 16:19:55 -0400",
       "minecraft:beach": "2024-07-01 00:49:56 -0400",
+      "minecraft:dark_forest": "2024-07-07 18:56:33 -0400",
       "minecraft:sparse_jungle": "2024-07-02 16:19:02 -0400",
       "minecraft:river": "2024-07-01 00:35:25 -0400",
+      "minecraft:dripstone_caves": "2024-07-06 18:47:27 -0400",
+      "minecraft:swamp": "2024-07-06 18:20:30 -0400",
       "minecraft:cold_ocean": "2024-07-02 14:40:04 -0400",
       "minecraft:forest": "2024-07-01 00:35:34 -0400",
       "minecraft:lush_caves": "2024-07-01 14:39:19 -0400",
       "minecraft:ocean": "2024-07-02 01:32:30 -0400",
       "minecraft:jungle": "2024-07-02 16:18:27 -0400",
       "minecraft:old_growth_spruce_taiga": "2024-07-01 15:07:27 -0400",
+      "minecraft:windswept_savanna": "2024-07-07 18:19:48 -0400",
       "minecraft:flower_forest": "2024-07-02 16:36:00 -0400",
       "minecraft:old_growth_birch_forest": "2024-07-02 16:22:00 -0400",
+      "minecraft:meadow": "2024-07-07 18:00:10 -0400",
       "minecraft:plains": "2024-07-01 00:34:38 -0400"
     },
     "done": false
+  },
+  "minecraft:recipes/woodcutting/oak/oak_boat_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
+    },
+    "done": true
   },
   "undead_unleashed:undead_unleashed": {
     "criteria": {
@@ -553,9 +681,27 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/oak/barrel_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/spruce/spruce_trapdoor_from_spruce_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 01:39:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-07-07 23:15:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_planks_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
     },
     "done": true
   },
@@ -574,6 +720,12 @@
   "minecraft:adventure/root": {
     "criteria": {
       "killed_something": "2024-07-01 00:40:13 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-07-07 23:12:59 -0400"
     },
     "done": true
   },
@@ -598,6 +750,12 @@
   "minecraft:adventure/shoot_arrow": {
     "criteria": {
       "shot_arrow": "2024-07-01 01:52:56 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_button_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
     },
     "done": true
   },
@@ -646,15 +804,27 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-07-02 16:35:29 -0400",
+      "minecraft:blaze": "2024-07-07 23:42:16 -0400",
       "minecraft:skeleton": "2024-07-01 01:02:55 -0400",
+      "minecraft:magma_cube": "2024-07-07 23:18:53 -0400",
       "minecraft:spider": "2024-07-01 01:03:22 -0400",
       "minecraft:creeper": "2024-07-01 02:21:04 -0400",
+      "minecraft:slime": "2024-07-06 18:29:56 -0400",
+      "minecraft:zombified_piglin": "2024-07-07 19:08:48 -0400",
       "minecraft:witch": "2024-07-01 14:34:26 -0400",
       "minecraft:wither_skeleton": "2024-07-01 15:24:24 -0400",
       "minecraft:enderman": "2024-07-01 02:06:55 -0400",
-      "minecraft:zombie": "2024-07-01 00:58:59 -0400"
+      "minecraft:silverfish": "2024-07-07 18:51:34 -0400",
+      "minecraft:zombie": "2024-07-01 00:58:59 -0400",
+      "minecraft:drowned": "2024-07-06 18:30:07 -0400"
     },
     "done": false
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-07-07 23:08:32 -0400"
+    },
+    "done": true
   },
   "minecraft:recipes/woodcutting/spruce/spruce_trapdoor_from_spruce_slab_woodcutting": {
     "criteria": {
@@ -698,6 +868,14 @@
     },
     "done": true
   },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-07-07 23:22:44 -0400",
+      "minecraft:basalt_deltas": "2024-07-07 23:22:55 -0400",
+      "minecraft:warped_forest": "2024-07-07 23:37:02 -0400"
+    },
+    "done": false
+  },
   "dnl:story/structures/plains_castle/locate": {
     "criteria": {
       "locate_plains_castle": "2024-07-01 00:51:59 -0400"
@@ -734,9 +912,36 @@
     },
     "done": true
   },
+  "regions_unexplored:eternal_expedition": {
+    "criteria": {
+      "mycotoxic_undergrowth": "2024-07-07 23:18:44 -0400",
+      "blackstone_basin": "2024-07-07 23:08:32 -0400",
+      "redstone_abyss": "2024-07-07 23:33:12 -0400",
+      "glistering_meadow": "2024-07-07 23:20:45 -0400"
+    },
+    "done": false
+  },
   "ancient_manuscripts:items/warped_binding_table": {
     "criteria": {
       "has_recipe": "2024-07-01 00:34:38 -0400"
+    },
+    "done": true
+  },
+  "dnl:story/structures/sinkhole/locate": {
+    "criteria": {
+      "locate_sinkhole": "2024-07-06 18:25:20 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_stairs_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_door_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
     },
     "done": true
   },
@@ -779,6 +984,12 @@
   "undead_unleashed:nerves_of_steel": {
     "criteria": {
       "nerves_of_steel": "2024-07-01 15:22:22 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/oak/oak_chest_boat_from_oak_slab_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:35:26 -0400"
     },
     "done": true
   },

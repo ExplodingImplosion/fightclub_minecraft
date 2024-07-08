@@ -1,0 +1,219 @@
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Native memory allocation (mmap) failed to map 2147483648 bytes for G1 virtual space
+# Possible reasons:
+#   The system is out of physical RAM or swap space
+#   The process is running with CompressedOops enabled, and the Java Heap may be blocking the growth of the native heap
+# Possible solutions:
+#   Reduce memory load on the system
+#   Increase physical memory or swap space
+#   Check if swap backing store is full
+#   Decrease Java heap size (-Xmx/-Xms)
+#   Decrease number of Java threads
+#   Decrease Java thread stack sizes (-Xss)
+#   Set larger code cache with -XX:ReservedCodeCacheSize=
+#   JVM is running with Unscaled Compressed Oops mode in which the Java heap is
+#     placed in the first 4GB address space. The Java Heap base address is the
+#     maximum limit for the native heap growth. Please use -XX:HeapBaseMinAddress
+#     to set the Java Heap base and to place the Java Heap above 4GB virtual address.
+# This output file may be truncated or incomplete.
+#
+#  Out of Memory Error (os_windows.cpp:3530), pid=7948, tid=688
+#
+# JRE version:  (18.0.2.1+1) (build )
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (18.0.2.1+1-1, mixed mode, sharing, tiered, compressed oops, compressed class ptrs, g1 gc, windows-amd64)
+# No core dump will be written. Minidumps are not enabled by default on client versions of Windows
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Dlog4j2.formatMsgNoLookups=true -Xmx2G -Xms2G --module-path=libraries/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar;libraries/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar;libraries/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar;libraries/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar;libraries/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar;libraries/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar;libraries/org/ow2/asm/asm/9.5/asm-9.5.jar;libraries/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar --add-modules=ALL-MODULE-PATH --add-opens=java.base/java.util.jar=cpw.mods.securejarhandler --add-opens=java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports=java.base/sun.security.util=cpw.mods.securejarhandler --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming -Djava.net.preferIPv6Addresses=system -DignoreList=bootstraplauncher-1.1.2.jar,securejarhandler-2.1.4.jar,asm-commons-9.5.jar,asm-util-9.5.jar,asm-analysis-9.5.jar,asm-tree-9.5.jar,asm-9.5.jar,JarJarFileSystems-0.3.16.jar -DlibraryDirectory=libraries -DlegacyClassPath=libraries/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar;libraries/org/ow2/asm/asm/9.5/asm-9.5.jar;libraries/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar;libraries/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar;libraries/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar;libraries/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar;libraries/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar;libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar;libraries/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar;libraries/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar;libraries/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar;libraries/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar;libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar;libraries/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar;libraries/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar;libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar;libraries/net/jodah/typetools/0.8.3/typetools-0.8.3.jar;libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar;libraries/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar;libraries/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar;libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar;libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar;libraries/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar;libraries/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar;libraries/net/minecraftforge/fmlloader/1.19.2-43.3.5/fmlloader-1.19.2-43.3.5.jar;libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-extra.jar;libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar;libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar;libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jarcpw.mods.bootstraplauncher.BootstrapLauncher --launchTarget forgeserver --fml.forgeVersion 43.3.5 --fml.mcVersion 1.19.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220805.130853
+
+Host: Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz, 6 cores, 7G,  Windows 10 , 64 bit Build 19041 (10.0.19041.3636)
+Time: Sun Jul  7 00:38:39 2024 Eastern Daylight Time elapsed time: 2.680113 seconds (0d 0h 0m 2s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x000001a10865a510):  JavaThread "Unknown thread" [_thread_in_vm, id=688, stack(0x0000003298100000,0x0000003298200000)]
+
+Stack: [0x0000003298100000,0x0000003298200000]
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x6993aa]
+V  [jvm.dll+0x7f46dd]
+V  [jvm.dll+0x7f5fee]
+V  [jvm.dll+0x7f66a3]
+V  [jvm.dll+0x25cf1f]
+V  [jvm.dll+0x6962f9]
+V  [jvm.dll+0x68ae2a]
+V  [jvm.dll+0x32255b]
+V  [jvm.dll+0x329f36]
+V  [jvm.dll+0x37eade]
+V  [jvm.dll+0x37ed0f]
+V  [jvm.dll+0x2fa2da]
+V  [jvm.dll+0x2fb33d]
+V  [jvm.dll+0x7c3310]
+V  [jvm.dll+0x38be61]
+V  [jvm.dll+0x7a2023]
+V  [jvm.dll+0x40dc3f]
+V  [jvm.dll+0x40f611]
+C  [jli.dll+0x526b]
+C  [ucrtbase.dll+0x21bb2]
+C  [KERNEL32.DLL+0x17344]
+C  [ntdll.dll+0x526b1]
+
+
+---------------  P R O C E S S  ---------------
+
+Threads class SMR info:
+_java_thread_list=0x00007ffe939be550, length=0, elements={
+}
+
+Java Threads: ( => current thread )
+
+Other Threads:
+  0x000001a1086bc3b0 WorkerThread "GC Thread#0" [stack: 0x0000003298200000,0x0000003298300000] [id=448]
+  0x000001a1086cd1f0 ConcurrentGCThread "G1 Main Marker" [stack: 0x0000003298300000,0x0000003298400000] [id=6728]
+  0x000001a1086cdaf0 WorkerThread "G1 Conc#0" [stack: 0x0000003298400000,0x0000003298500000] [id=10180]
+
+[error occurred during error reporting (printing all threads), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffe931ea877]
+
+VM state: not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x000001a108657710] Heap_lock - owner thread: 0x000001a10865a510
+
+Heap address: 0x0000000080000000, size: 2048 MB, Compressed Oops mode: 32-bit
+
+CDS archive(s) mapped at: [0x0000000000000000-0x0000000000000000-0x0000000000000000), size 0, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+Narrow klass base: 0x0000000000000000, Narrow klass shift: 0, Narrow klass range: 0x0
+
+GC Precious Log:
+ CardTable entry size: 512
+ Card Set container configuration: InlinePtr #cards 5 size 8 Array Of Cards #cards 12 size 40 Howl #buckets 4 coarsen threshold 1843 Howl Bitmap #cards 512 size 80 coarsen threshold 460 Card regions per heap region 1 cards per card region 2048
+
+Heap:
+ garbage-first heap   total 0K, used 0K [0x0000000080000000, 0x0000000100000000)
+  region size 1024K, 0 young (0K), 0 survivors (0K)
+
+[error occurred during error reporting (printing heap information), id 0xc0000005, EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00007ffe935d1839]
+
+GC Heap History (0 events):
+No events
+
+Deoptimization events (0 events):
+No events
+
+Classes loaded (0 events):
+No events
+
+Classes unloaded (0 events):
+No events
+
+Classes redefined (0 events):
+No events
+
+Internal exceptions (0 events):
+No events
+
+VM Operations (0 events):
+No events
+
+Events (1 events):
+Event: 0.086 Loaded shared library C:\Program Files\Java\jdk-18.0.2.1\bin\java.dll
+
+
+Dynamic libraries:
+0x00007ff60ecc0000 - 0x00007ff60ecd0000 	C:\Program Files\Java\jdk-18.0.2.1\bin\java.exe
+0x00007ffef1b30000 - 0x00007ffef1d28000 	C:\WINDOWS\SYSTEM32\ntdll.dll
+0x00007ffef02e0000 - 0x00007ffef039d000 	C:\WINDOWS\System32\KERNEL32.DLL
+0x00007ffeef410000 - 0x00007ffeef706000 	C:\WINDOWS\System32\KERNELBASE.dll
+0x00007ffeef710000 - 0x00007ffeef810000 	C:\WINDOWS\System32\ucrtbase.dll
+0x00007ffed4520000 - 0x00007ffed4538000 	C:\Program Files\Java\jdk-18.0.2.1\bin\jli.dll
+0x00007ffef0750000 - 0x00007ffef0800000 	C:\WINDOWS\System32\ADVAPI32.dll
+0x00007ffef0a80000 - 0x00007ffef0b1e000 	C:\WINDOWS\System32\msvcrt.dll
+0x00007ffef03a0000 - 0x00007ffef0440000 	C:\WINDOWS\System32\sechost.dll
+0x00007ffef0940000 - 0x00007ffef0a65000 	C:\WINDOWS\System32\RPCRT4.dll
+0x00007ffeef880000 - 0x00007ffeef8a7000 	C:\WINDOWS\System32\bcrypt.dll
+0x00007ffeefb60000 - 0x00007ffeefcfe000 	C:\WINDOWS\System32\USER32.dll
+0x00007ffeef8b0000 - 0x00007ffeef8d2000 	C:\WINDOWS\System32\win32u.dll
+0x00007ffef04a0000 - 0x00007ffef04cb000 	C:\WINDOWS\System32\GDI32.dll
+0x00007ffeef8e0000 - 0x00007ffeef9f7000 	C:\WINDOWS\System32\gdi32full.dll
+0x00007ffeef1e0000 - 0x00007ffeef27d000 	C:\WINDOWS\System32\msvcp_win.dll
+0x00007ffed13c0000 - 0x00007ffed165a000 	C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.3636_none_60b6a03d71f818d5\COMCTL32.dll
+0x00007ffee9ee0000 - 0x00007ffee9eea000 	C:\WINDOWS\SYSTEM32\VERSION.dll
+0x00007ffed70f0000 - 0x00007ffed710a000 	C:\Program Files\Java\jdk-18.0.2.1\bin\VCRUNTIME140.dll
+0x00007ffeefd00000 - 0x00007ffeefd32000 	C:\WINDOWS\System32\IMM32.DLL
+0x00007ffee9a80000 - 0x00007ffee9a8c000 	C:\Program Files\Java\jdk-18.0.2.1\bin\vcruntime140_1.dll
+0x00007ffed4490000 - 0x00007ffed451d000 	C:\Program Files\Java\jdk-18.0.2.1\bin\msvcp140.dll
+0x00007ffe92ee0000 - 0x00007ffe93af1000 	C:\Program Files\Java\jdk-18.0.2.1\bin\server\jvm.dll
+0x00007ffef0b20000 - 0x00007ffef0b28000 	C:\WINDOWS\System32\PSAPI.DLL
+0x00007ffed70e0000 - 0x00007ffed70e9000 	C:\WINDOWS\SYSTEM32\WSOCK32.dll
+0x00007ffef0530000 - 0x00007ffef059b000 	C:\WINDOWS\System32\WS2_32.dll
+0x00007ffee7240000 - 0x00007ffee7267000 	C:\WINDOWS\SYSTEM32\WINMM.dll
+0x00007ffeeda40000 - 0x00007ffeeda52000 	C:\WINDOWS\SYSTEM32\kernel.appcore.dll
+0x00007ffed4480000 - 0x00007ffed448a000 	C:\Program Files\Java\jdk-18.0.2.1\bin\jimage.dll
+0x00007ffeed080000 - 0x00007ffeed264000 	C:\WINDOWS\SYSTEM32\DBGHELP.DLL
+0x00007ffee9910000 - 0x00007ffee9944000 	C:\WINDOWS\SYSTEM32\dbgcore.DLL
+0x00007ffeef330000 - 0x00007ffeef3b2000 	C:\WINDOWS\System32\bcryptPrimitives.dll
+0x00007ffecb520000 - 0x00007ffecb545000 	C:\Program Files\Java\jdk-18.0.2.1\bin\java.dll
+
+dbghelp: loaded successfully - version: 4.0.5 - missing functions: none
+symbol engine: initialized successfully - sym options: 0x614 - pdb path: .;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\SYSTEM32;C:\WINDOWS\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.19041.3636_none_60b6a03d71f818d5;C:\Program Files\Java\jdk-18.0.2.1\bin\server
+
+VM Arguments:
+jvm_args: -Dlog4j2.formatMsgNoLookups=true -Xmx2G -Xms2G --module-path=libraries/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar;libraries/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar;libraries/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar;libraries/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar;libraries/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar;libraries/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar;libraries/org/ow2/asm/asm/9.5/asm-9.5.jar;libraries/net/minecraftforge/JarJarFileSystems/0.3.16/JarJarFileSystems-0.3.16.jar --add-modules=ALL-MODULE-PATH --add-opens=java.base/java.util.jar=cpw.mods.securejarhandler --add-opens=java.base/java.lang.invoke=cpw.mods.securejarhandler --add-exports=java.base/sun.security.util=cpw.mods.securejarhandler --add-exports=jdk.naming.dns/com.sun.jndi.dns=java.naming -Djava.net.preferIPv6Addresses=system -DignoreList=bootstraplauncher-1.1.2.jar,securejarhandler-2.1.4.jar,asm-commons-9.5.jar,asm-util-9.5.jar,asm-analysis-9.5.jar,asm-tree-9.5.jar,asm-9.5.jar,JarJarFileSystems-0.3.16.jar -DlibraryDirectory=libraries -DlegacyClassPath=libraries/cpw/mods/securejarhandler/2.1.4/securejarhandler-2.1.4.jar;libraries/org/ow2/asm/asm/9.5/asm-9.5.jar;libraries/org/ow2/asm/asm-commons/9.5/asm-commons-9.5.jar;libraries/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar;libraries/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar;libraries/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar;libraries/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar;libraries/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar;libraries/net/minecraftforge/eventbus/6.0.3/eventbus-6.0.3.jar;libraries/net/minecraftforge/forgespi/6.0.0/forgespi-6.0.0.jar;libraries/net/minecraftforge/coremods/5.0.1/coremods-5.0.1.jar;libraries/cpw/mods/modlauncher/10.0.8/modlauncher-10.0.8.jar;libraries/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar;libraries/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar;libraries/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar;libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar;libraries/net/jodah/typetools/0.8.3/typetools-0.8.3.jar;libraries/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar;libraries/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar;libraries/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar;libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar;libraries/org/openjdk/nashorn/nashorn-core/15.3/nashorn-core-15.3.jar;libraries/net/minecraftforge/JarJarSelector/0.3.16/JarJarSelector-0.3.16.jar;libraries/net/minecraftforge/JarJarMetadata/0.3.16/JarJarMetadata-0.3.16.jar;libraries/net/minecraftforge/fmlloader/1.19.2-43.3.5/fmlloader-1.19.2-43.3.5.jar;libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-extra.jar;libraries/com/github/oshi/oshi-core/5.8.5/oshi-core-5.8.5.jar;libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar;libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar;libraries/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+java_command: cpw.mods.bootstraplauncher.BootstrapLauncher --launchTarget forgeserver --fml.forgeVersion 43.3.5 --fml.mcVersion 1.19.2 --fml.forgeGroup net.minecraftforge --fml.mcpVersion 20220805.130853
+java_class_path (initial): .
+Launcher Type: SUN_STANDARD
+
+[Global flags]
+     intx CICompilerCount                          = 3                                         {product} {ergonomic}
+     uint ConcGCThreads                            = 2                                         {product} {ergonomic}
+     uint G1ConcRefinementThreads                  = 6                                         {product} {ergonomic}
+   size_t G1HeapRegionSize                         = 1048576                                   {product} {ergonomic}
+    uintx GCDrainStackTargetSize                   = 64                                        {product} {ergonomic}
+   size_t InitialHeapSize                          = 2147483648                                {product} {command line}
+   size_t MarkStackSize                            = 4194304                                   {product} {ergonomic}
+   size_t MaxHeapSize                              = 2147483648                                {product} {command line}
+   size_t MinHeapDeltaBytes                        = 1048576                                   {product} {ergonomic}
+   size_t MinHeapSize                              = 2147483648                                {product} {command line}
+    uintx NonNMethodCodeHeapSize                   = 5832780                                {pd product} {ergonomic}
+    uintx NonProfiledCodeHeapSize                  = 122912730                              {pd product} {ergonomic}
+    uintx ProfiledCodeHeapSize                     = 122912730                              {pd product} {ergonomic}
+    uintx ReservedCodeCacheSize                    = 251658240                              {pd product} {ergonomic}
+     bool SegmentedCodeCache                       = true                                      {product} {ergonomic}
+   size_t SoftMaxHeapSize                          = 2147483648                             {manageable} {ergonomic}
+     bool UseCompressedClassPointers               = true                           {product lp64_product} {ergonomic}
+     bool UseCompressedOops                        = true                           {product lp64_product} {ergonomic}
+     bool UseG1GC                                  = true                                      {product} {ergonomic}
+     bool UseLargePagesIndividualAllocation        = false                                  {pd product} {ergonomic}
+
+Logging:
+Log output configuration:
+ #0: stdout all=warning uptime,level,tags foldmultilines=false
+ #1: stderr all=off uptime,level,tags foldmultilines=false
+
+Environment Variables:
+PATH=C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;D:\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\Owner\AppData\Local\Microsoft\WindowsApps;C:\Users\Owner\AppData\Local\GitHubDesktop\bin
+USERNAME=Owner
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 158 Stepping 12, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS:
+ Windows 10 , 64 bit Build 19041 (10.0.19041.3636)
+OS uptime: 6 days 0:42 hours
+
+CPU: total 6 (initial active 6) (6 cores per cpu, 1 threads per core) family 6 model 158 stepping 12 microcode 0xae, cx8, cmov, fxsr, mmx, 3dnowpref, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, lzcnt, tsc, tscinvbit, avx, avx2, aes, erms, clmul, bmi1, bmi2, rtm, adx, fma, vzeroupper, clflush, clflushopt
+
+Memory: 4k page, system-wide physical 8126M (3575M free)
+TotalPageFile size 32552M (AvailPageFile size 921M)
+current process WorkingSet (physical memory assigned to process): 10M, peak: 10M
+current process commit charge ("private bytes"): 56M, peak: 2104M
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (18.0.2.1+1-1) for windows-amd64 JRE (18.0.2.1+1-1), built on Aug 16 2022 01:46:33 by "mach5one" with MS VC++ 16.8 / 16.9 (VS2019)
+
+END.

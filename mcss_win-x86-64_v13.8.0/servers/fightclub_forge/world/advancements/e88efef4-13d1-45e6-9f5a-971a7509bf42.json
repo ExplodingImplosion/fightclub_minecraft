@@ -5,6 +5,13 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/spruce/spruce_slab_from_spruce_stairs_woodcutting_combine": {
+    "criteria": {
+      "give_recipe": "2024-07-06 17:44:44 -0400",
+      "has_block": "2024-07-06 17:44:44 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/oak/oak_pressure_plate_from_oak_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:35:33 -0400"
@@ -20,6 +27,18 @@
   "minecraft:recipes/woodcutting/oak/oak_sign_from_oak_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:35:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_planks_from_dark_oak_stairs_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:07:14 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_boat_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
     },
     "done": true
   },
@@ -113,6 +132,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_sign_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
+    },
+    "done": true
+  },
+  "biomancy:biomancy/bio_forge": {
+    "criteria": {
+      "has_bio_forge": "2024-07-07 22:39:15 -0400"
+    },
+    "done": true
+  },
   "repurposed_structures:witch_huts": {
     "criteria": {
       "in_witch_hut_taiga": "2024-07-02 20:58:51 -0400"
@@ -122,6 +153,12 @@
   "cotw:theharvstersharvester": {
     "criteria": {
       "theharvstersharvester": "2024-07-02 22:23:22 -0400"
+    },
+    "done": true
+  },
+  "biomancy:biomancy/cradle": {
+    "criteria": {
+      "has_placed_cradle": "2024-07-07 18:19:35 -0400"
     },
     "done": true
   },
@@ -169,9 +206,16 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
-      "in_better_zombie_dungeon": "2024-07-01 21:30:41 -0400"
+      "in_better_zombie_dungeon": "2024-07-01 21:30:41 -0400",
+      "in_better_monster_room": "2024-07-07 21:34:40 -0400"
     },
     "done": false
+  },
+  "biomancy:biomancy/decomposer": {
+    "criteria": {
+      "has_decomposer": "2024-07-07 22:47:55 -0400"
+    },
+    "done": true
   },
   "ancient_manuscripts:items/jungle_binding_table": {
     "criteria": {
@@ -227,11 +271,13 @@
       "cooked_beef": "2024-07-03 17:17:27 -0400",
       "apple": "2024-07-01 19:27:40 -0400",
       "potato": "2024-07-05 18:15:01 -0400",
+      "cooked_cod": "2024-07-07 15:48:29 -0400",
       "pumpkin_pie": "2024-07-03 15:45:53 -0400",
       "bread": "2024-07-01 22:39:28 -0400",
       "rotten_flesh": "2024-07-01 19:40:19 -0400",
       "cookie": "2024-07-03 18:52:01 -0400",
       "cooked_chicken": "2024-07-01 22:27:35 -0400",
+      "mushroom_stew": "2024-07-06 18:35:23 -0400",
       "cooked_salmon": "2024-07-01 21:43:26 -0400",
       "carrot": "2024-07-02 20:00:42 -0400"
     },
@@ -254,19 +300,26 @@
       "silver_birch_forest": "2024-07-01 22:19:40 -0400",
       "shrubland": "2024-07-01 19:25:09 -0400",
       "pine_taiga": "2024-07-03 19:38:51 -0400",
+      "bayou": "2024-07-06 18:19:11 -0400",
       "autumnal_maple_forest": "2024-07-01 21:38:25 -0400",
       "muddy_river": "2024-07-02 21:53:38 -0400",
       "willow_forest": "2024-07-02 22:30:30 -0400",
+      "poppy_fields": "2024-07-07 17:52:57 -0400",
       "grassy_beach": "2024-07-01 19:46:38 -0400",
       "rocky_meadow": "2024-07-01 17:04:31 -0400",
+      "mycotoxic_undergrowth": "2024-07-07 23:18:40 -0400",
       "ochard": "2024-07-03 19:22:57 -0400",
       "maple_forest": "2024-07-01 22:19:42 -0400",
       "magnolia_highlands": "2024-07-01 21:22:50 -0400",
       "boreal_forest": "2024-07-02 20:25:17 -0400",
+      "glistering_meadow": "2024-07-07 23:20:54 -0400",
       "blackstone_basin": "2024-07-05 20:55:01 -0400",
       "temperate_grove": "2024-07-03 19:38:01 -0400",
       "cold_river": "2024-07-01 21:38:20 -0400",
+      "pumpkin_fields": "2024-07-07 17:55:17 -0400",
+      "grassland": "2024-07-07 18:32:28 -0400",
       "gravel_beach": "2024-07-02 21:43:22 -0400",
+      "redwoods": "2024-07-07 18:24:13 -0400",
       "bioshroom_caves": "2024-07-02 20:27:34 -0400"
     },
     "done": false
@@ -286,6 +339,18 @@
   "minecraft:recipes/woodcutting/mahogany/mahogany_boat_from_mahogany_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:54:12 -0400"
+    },
+    "done": true
+  },
+  "graveyard:graveyard/medium_graveyard": {
+    "criteria": {
+      "medium_graveyard": "2024-07-06 18:08:06 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/barrel_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
     },
     "done": true
   },
@@ -319,6 +384,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/spruce/spruce_planks_from_stripped_spruce_log_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 18:42:48 -0400"
+    },
+    "done": true
+  },
   "ancient_manuscripts:items/oak_binding_table": {
     "criteria": {
       "has_recipe": "2024-07-01 13:12:36 -0400"
@@ -330,9 +401,11 @@
       "silver_birch_forest": "2024-07-01 22:19:40 -0400",
       "shrubland": "2024-07-01 19:25:09 -0400",
       "pine_taiga": "2024-07-03 19:38:51 -0400",
+      "bayou": "2024-07-06 18:19:11 -0400",
       "autumnal_maple_forest": "2024-07-01 21:38:25 -0400",
       "muddy_river": "2024-07-02 21:53:38 -0400",
       "willow_forest": "2024-07-02 22:30:30 -0400",
+      "poppy_fields": "2024-07-07 17:52:57 -0400",
       "grassy_beach": "2024-07-01 19:46:38 -0400",
       "rocky_meadow": "2024-07-01 17:04:31 -0400",
       "ochard": "2024-07-03 19:22:57 -0400",
@@ -341,9 +414,18 @@
       "boreal_forest": "2024-07-02 20:25:17 -0400",
       "temperate_grove": "2024-07-03 19:38:01 -0400",
       "cold_river": "2024-07-01 21:38:20 -0400",
-      "gravel_beach": "2024-07-02 21:43:22 -0400"
+      "pumpkin_fields": "2024-07-07 17:55:17 -0400",
+      "grassland": "2024-07-07 18:32:28 -0400",
+      "gravel_beach": "2024-07-02 21:43:22 -0400",
+      "redwoods": "2024-07-07 18:24:13 -0400"
     },
     "done": false
+  },
+  "minecraft:recipes/woodcutting/dark_oak/chest_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
+    },
+    "done": true
   },
   "minecraft:recipes/woodcutting/mahogany/polished_mahogany_layered_from_mahogany_log_woodcutting": {
     "criteria": {
@@ -380,6 +462,13 @@
   "minecraft:recipes/woodcutting/spruce/spruce_button_from_spruce_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:49:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_slab_from_dark_oak_stairs_woodcutting_combine": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:07:14 -0400",
+      "has_block": "2024-07-07 17:07:14 -0400"
     },
     "done": true
   },
@@ -425,16 +514,29 @@
     },
     "done": true
   },
+  "cotw:thebeginningoftheend": {
+    "criteria": {
+      "thebeginningoftheend": "2024-07-07 22:21:37 -0400"
+    },
+    "done": true
+  },
   "dnl:util/entity_hit_matching/on_hurt": {
     "criteria": {
-      "not_projectile": "2024-07-05 23:43:38 -0400",
-      "blocked_false": "2024-07-05 23:43:38 -0400"
+      "not_projectile": "2024-07-07 23:17:30 -0400",
+      "is_projectile": "2024-07-07 23:23:56 -0400",
+      "blocked_false": "2024-07-07 23:17:30 -0400"
     },
     "done": false
   },
   "minecraft:recipes/woodcutting/mahogany/mahogany_planks_from_mahogany_log_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:52:27 -0400"
+    },
+    "done": true
+  },
+  "dnl:story/general/locate_dungeon": {
+    "criteria": {
+      "locate_sinkhole": "2024-07-06 18:26:40 -0400"
     },
     "done": true
   },
@@ -471,6 +573,12 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2024-07-02 20:24:48 -0400"
+    },
+    "done": true
+  },
+  "dnl:story/structures/plains_castle/knighlty_sword": {
+    "criteria": {
+      "knightly_sword": "2024-07-07 16:02:50 -0400"
     },
     "done": true
   },
@@ -588,6 +696,12 @@
     },
     "done": true
   },
+  "biomancy:biomancy/healing_activator_sacrifice": {
+    "criteria": {
+      "has_sacrificed_healing_activator": "2024-07-07 20:22:45 -0400"
+    },
+    "done": true
+  },
   "graveyard:graveyard/kill_graveyard_mob": {
     "criteria": {
       "ghoul": "2024-07-02 20:26:17 -0400"
@@ -606,18 +720,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/spruce/spruce_planks_from_stripped_spruce_wood_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 17:54:28 -0400"
+    },
+    "done": true
+  },
+  "biomancy:biomancy/raw_meat_sacrifice": {
+    "criteria": {
+      "has_sacrificed_raw_meat": "2024-07-07 20:09:58 -0400"
+    },
+    "done": true
+  },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-07-05 21:06:22 -0400",
+      "minecraft:pillager": "2024-07-07 18:25:40 -0400",
       "minecraft:skeleton": "2024-07-01 19:39:43 -0400",
+      "minecraft:ghast": "2024-07-07 23:23:04 -0400",
+      "minecraft:magma_cube": "2024-07-07 23:18:46 -0400",
       "minecraft:spider": "2024-07-01 19:05:04 -0400",
       "minecraft:piglin_brute": "2024-07-05 21:15:41 -0400",
       "minecraft:creeper": "2024-07-01 19:26:25 -0400",
+      "minecraft:slime": "2024-07-06 18:30:11 -0400",
       "minecraft:zombified_piglin": "2024-07-05 23:14:13 -0400",
       "minecraft:witch": "2024-07-03 17:25:43 -0400",
       "minecraft:wither_skeleton": "2024-07-03 20:37:29 -0400",
       "minecraft:cave_spider": "2024-07-03 19:30:29 -0400",
+      "minecraft:piglin": "2024-07-07 23:13:43 -0400",
       "minecraft:enderman": "2024-07-05 21:17:28 -0400",
+      "minecraft:silverfish": "2024-07-07 18:51:40 -0400",
       "minecraft:vex": "2024-07-05 23:09:02 -0400",
       "minecraft:zombie": "2024-07-01 19:44:21 -0400",
       "minecraft:drowned": "2024-07-05 18:47:39 -0400",
@@ -685,6 +817,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_fence_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/mahogany/polished_mahogany_boat_from_mahogany_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:54:12 -0400"
@@ -715,6 +853,12 @@
     },
     "done": true
   },
+  "dnl:story/general/craft_with_monolith": {
+    "criteria": {
+      "locate watcher camp": "2024-07-07 16:02:49 -0400"
+    },
+    "done": true
+  },
   "naturescompass:natures_compass_log": {
     "criteria": {
       "has_recipe": "2024-07-01 13:12:36 -0400"
@@ -733,6 +877,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_door_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
+    },
+    "done": true
+  },
   "supplementaries:adventure/way_sign": {
     "criteria": {
       "bastion": "2024-07-05 19:17:06 -0400"
@@ -748,6 +898,12 @@
   "undead_unleashed:nerves_of_steel": {
     "criteria": {
       "nerves_of_steel": "2024-07-03 16:38:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_stairs_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
     },
     "done": true
   },
@@ -805,6 +961,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_button_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/birch/birch_stairs_from_birch_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:28:09 -0400"
@@ -835,9 +997,23 @@
     },
     "done": true
   },
+  "dnl:util/entity_hit_matching/on_hit": {
+    "criteria": {
+      "not_projectile": "2024-07-07 23:23:25 -0400",
+      "is_projectile": "2024-07-07 23:23:51 -0400",
+      "not_magic": "2024-07-07 23:23:25 -0400"
+    },
+    "done": false
+  },
   "dungeons_enhanced:root": {
     "criteria": {
       "entered_large_dungeon": "2024-07-01 21:28:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "cod_bucket": "2024-07-07 16:31:37 -0400"
     },
     "done": true
   },
@@ -868,6 +1044,12 @@
   "minecraft:recipes/woodcutting/mahogany/crafting_table_from_mahogany_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:54:12 -0400"
+    },
+    "done": true
+  },
+  "dnl:story/general/checkpoint": {
+    "criteria": {
+      "find player head": "2024-07-07 15:51:13 -0400"
     },
     "done": true
   },
@@ -910,6 +1092,12 @@
   "minecraft:recipes/woodcutting/mahogany/mahogany_button_from_mahogany_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:52:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_slab_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
     },
     "done": true
   },
@@ -979,6 +1167,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_fence_gate_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
+    },
+    "done": true
+  },
   "betterdungeons:zombie_dungeon": {
     "criteria": {
       "in_better_zombie_dungeon": "2024-07-01 21:30:41 -0400"
@@ -1026,6 +1220,12 @@
       "give_recipe": "2024-07-01 19:06:20 -0400"
     },
     "done": true
+  },
+  "repurposed_structures:temples": {
+    "criteria": {
+      "in_temple_taiga": "2024-07-06 17:42:23 -0400"
+    },
+    "done": false
   },
   "minecraft:recipes/woodcutting/oak/crafting_table_from_oak_planks_woodcutting": {
     "criteria": {
@@ -1081,6 +1281,12 @@
     },
     "done": true
   },
+  "biomancy:biomancy/greedy_butcher": {
+    "criteria": {
+      "has_despoil_sickle": "2024-07-07 16:00:11 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2024-07-01 19:28:11 -0400"
@@ -1102,6 +1308,12 @@
   "ancient_manuscripts:items/birch_binding_table": {
     "criteria": {
       "has_recipe": "2024-07-01 13:12:36 -0400"
+    },
+    "done": true
+  },
+  "betterdungeons:small_dungeon": {
+    "criteria": {
+      "in_better_monster_room": "2024-07-07 21:34:40 -0400"
     },
     "done": true
   },
@@ -1129,9 +1341,30 @@
     },
     "done": true
   },
+  "dnl:story/themes/hidden/locate": {
+    "criteria": {
+      "locate_slime_sinkhole": "2024-07-06 18:26:40 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2024-07-03 19:24:14 -0400"
+    },
+    "done": true
+  },
+  "biomancy:biomancy/predator_killer": {
+    "criteria": {
+      "has_killed_fangs_mob": "2024-07-07 21:47:24 -0400",
+      "has_mob_fang": "2024-07-07 17:56:59 -0400",
+      "has_killed_claws_mob": "2024-07-07 21:47:24 -0400",
+      "has_mob_claw": "2024-07-07 21:49:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_planks_from_spruce_stairs_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 17:44:44 -0400"
     },
     "done": true
   },
@@ -1150,6 +1383,12 @@
   "betterdungeons:root": {
     "criteria": {
       "always": "2024-07-01 13:12:36 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/spruce/spruce_planks_from_spruce_wood_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-06 17:46:22 -0400"
     },
     "done": true
   },
@@ -1175,6 +1414,12 @@
   "minecraft:recipes/woodcutting/mahogany/barrel_from_mahogany_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:54:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/crafting_table_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
     },
     "done": true
   },
@@ -1226,7 +1471,11 @@
       "minecraft:deep_ocean": "2024-07-03 16:54:48 -0400",
       "minecraft:birch_forest": "2024-07-03 18:28:28 -0400",
       "minecraft:beach": "2024-07-01 21:37:30 -0400",
+      "minecraft:dark_forest": "2024-07-07 18:58:22 -0400",
+      "minecraft:sparse_jungle": "2024-07-07 18:29:25 -0400",
       "minecraft:river": "2024-07-01 18:59:01 -0400",
+      "minecraft:dripstone_caves": "2024-07-07 18:00:19 -0400",
+      "minecraft:swamp": "2024-07-06 18:20:56 -0400",
       "minecraft:cold_ocean": "2024-07-01 21:37:06 -0400",
       "minecraft:forest": "2024-07-01 18:59:27 -0400",
       "minecraft:lush_caves": "2024-07-03 17:38:14 -0400",
@@ -1285,6 +1534,12 @@
     },
     "done": true
   },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-07-07 20:19:03 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/birch/birch_chest_boat_from_birch_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:28:09 -0400"
@@ -1294,6 +1549,12 @@
   "immersiveengineering:main/main_root": {
     "criteria": {
       "has_item": "2024-07-01 21:32:48 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-07-07 23:14:40 -0400"
     },
     "done": true
   },
@@ -1324,6 +1585,18 @@
   "minecraft:recipes/woodcutting/mahogany/crafting_table_from_mahogany_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:52:43 -0400"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "nether_wart": "2024-07-07 18:17:09 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-07-07 23:12:40 -0400"
     },
     "done": true
   },
@@ -1399,6 +1672,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_chest_boat_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/mahogany/mahogany_connected_from_mahogany_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:54:12 -0400"
@@ -1410,6 +1689,13 @@
       "give_recipe": "2024-07-01 19:18:34 -0400"
     },
     "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-07-07 23:22:03 -0400",
+      "minecraft:basalt_deltas": "2024-07-07 23:22:56 -0400"
+    },
+    "done": false
   },
   "dnl:story/structures/plains_castle/locate": {
     "criteria": {
@@ -1449,7 +1735,9 @@
   },
   "regions_unexplored:eternal_expedition": {
     "criteria": {
-      "blackstone_basin": "2024-07-05 20:55:01 -0400"
+      "mycotoxic_undergrowth": "2024-07-07 23:18:40 -0400",
+      "blackstone_basin": "2024-07-05 20:55:01 -0400",
+      "glistering_meadow": "2024-07-07 23:20:54 -0400"
     },
     "done": false
   },
@@ -1465,6 +1753,12 @@
     },
     "done": true
   },
+  "dnl:story/structures/sinkhole/locate": {
+    "criteria": {
+      "locate_sinkhole": "2024-07-06 18:26:40 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/oak/oak_door_from_oak_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:35:33 -0400"
@@ -1477,6 +1771,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_trapdoor_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/mahogany/mahogany_connected_from_mahogany_log_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:52:27 -0400"
@@ -1486,6 +1786,12 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2024-07-01 19:06:33 -0400"
+    },
+    "done": true
+  },
+  "minecraft:recipes/woodcutting/dark_oak/dark_oak_pressure_plate_from_dark_oak_planks_woodcutting": {
+    "criteria": {
+      "give_recipe": "2024-07-07 17:04:40 -0400"
     },
     "done": true
   },

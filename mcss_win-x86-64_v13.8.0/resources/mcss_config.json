@@ -4,41 +4,25 @@
     "autoScrollConsole": true,
     "showConsoleStartupHelp": true,
     "switchToConsole": true,
-<<<<<<< HEAD
     "serverTabsOrder": "Custom",
     "customServerTabsOrder": [
       "5870d283-ae74-4829-bc21-2d450defe3a7",
-      "18529e65-afba-448a-af3f-9479d6a42c0a",
-      "d709e5a0-8f4a-462d-a3ae-9bc8ae46de78"
+      "18529e65-afba-448a-af3f-9479d6a42c0a"
     ],
-=======
-    "serverTabsOrder": "NameAscending",
-    "customServerTabsOrder": [],
->>>>>>> 831f40ecc140d8e5b216126f8eda88bfe32eac32
     "suppresPingLogs": true,
     "hideDuplicateLines": false,
     "autoResetConsole": true,
     "autoLoadConsole": true,
-<<<<<<< HEAD
-    "lastUpdateCheck": "2024-07-03T15:50:26.6533911Z",
+    "lastUpdateCheck": "2024-07-01T19:55:30.1340936Z",
     "serverInactivityKillCounter": -1,
-=======
-    "lastUpdateCheck": "0001-01-01T00:00:00",
-    "serverInactivityKillCounter": 300,
->>>>>>> 831f40ecc140d8e5b216126f8eda88bfe32eac32
     "maxTrackedConsoleLines": 250,
     "consoleFont": "Consolas, 10pt",
     "consoleFontColor": "244, 244, 244",
     "customColors": null,
     "consoleTextEncoding": "SystemDefault",
     "mcssClosePreference": "HideToSystemTray",
-<<<<<<< HEAD
     "enableUpdates": false,
     "collapseMainNavigation": true,
-=======
-    "enableUpdates": true,
-    "collapseMainNavigation": false,
->>>>>>> 831f40ecc140d8e5b216126f8eda88bfe32eac32
     "dynamicGraphScaling": false,
     "graphDisplayDuration": "OneMinute",
     "serverTabDisplayIcon": true,
@@ -50,30 +34,18 @@
     "usePlayerHelmHeads": true,
     "queryPlayerHeadsByUsername": false,
     "displayIpAsIPv6": false,
-<<<<<<< HEAD
     "telemetry": false,
     "customZipFileFormat": "[backupname]_[unix]",
     "globalJavaPathOverride": "",
     "previousBackupLocation": "D:\\Gaming\\fightclub_minecraft\\mcss_win-x86-64_v13.8.0\\backups",
-    "certificateSecret": "Ã 8j-w$Yo$M.mtj,6!U(W6c2p8ctfNb$J-nÂµ34k'S7Ã¹4!8:Â¨*H,8iGT.%D;u*",
+    "certificateSecret": "à8j-w$Yo$M.mtj,6!U(W6c2p8ctfNb$J-nµ34k'S7ù4!8:¨*H,8iGT.%D;u*",
     "deleteOldBackupsThreshold": 15,
     "previousSelectServerFileLocation": null,
     "serverTelemetryGUID": "8ce791a0-42c7-44ef-9d19-7acfdf83cb6b",
-=======
-    "telemetry": true,
-    "customZipFileFormat": "[backupname]_[unix]",
-    "globalJavaPathOverride": "",
-    "previousBackupLocation": "D:\\Gaming\\fightclub_minecraft\\mcss_win-x86-64_v13.8.0\\backups",
-    "certificateSecret": "",
-    "deleteOldBackupsThreshold": 15,
-    "previousSelectServerFileLocation": null,
-    "serverTelemetryGUID": "57be6b64-9689-416c-865a-eef4ac58be64",
->>>>>>> 831f40ecc140d8e5b216126f8eda88bfe32eac32
     "runOnStartup": false,
     "runSilentlyOnStartup": false,
     "wrapConsole": false,
     "enableWebApi": true,
-<<<<<<< HEAD
     "enableWebPanel": true,
     "enableWebSsl": true,
     "showRemotePageOnStartup": true,
@@ -185,14 +157,6 @@
         "customServerAuthorizationCatalog": {}
       }
     ],
-=======
-    "enableWebPanel": false,
-    "enableWebSsl": false,
-    "showRemotePageOnStartup": false,
-    "hideWebApiIntroPage": false,
-    "remoteAccessPort": 25560,
-    "webApiUsers": [],
->>>>>>> 831f40ecc140d8e5b216126f8eda88bfe32eac32
     "apiKey": [],
     "potentialInstalledJavaLocations": []
   },
