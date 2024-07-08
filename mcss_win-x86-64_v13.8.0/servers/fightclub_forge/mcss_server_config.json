@@ -31,19 +31,6 @@
         }
       },
       {
-        "guid": "e313de76-7a88-425c-922d-8e2800eb59d0",
-        "name": "start",
-        "enabled": true,
-        "playerRequirement": "None",
-        "timing": {
-          "time": "07:55:00",
-          "repeat": true
-        },
-        "job": {
-          "action": "Start"
-        }
-      },
-      {
         "guid": "5ddcecc5-c83c-4f60-a58c-33ef322e9ebd",
         "name": "restart reminder",
         "enabled": true,
@@ -64,7 +51,7 @@
         "enabled": true,
         "playerRequirement": "None",
         "timing": {
-          "interval": 21600,
+          "interval": 2160,
           "repeat": true
         },
         "job": {
