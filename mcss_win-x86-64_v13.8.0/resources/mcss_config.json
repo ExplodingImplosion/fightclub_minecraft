@@ -23,7 +23,7 @@
     "consoleTextEncoding": "SystemDefault",
     "mcssClosePreference": "HideToSystemTray",
     "enableUpdates": false,
-    "collapseMainNavigation": false,
+    "collapseMainNavigation": true,
     "dynamicGraphScaling": false,
     "graphDisplayDuration": "OneMinute",
     "serverTabDisplayIcon": true,
