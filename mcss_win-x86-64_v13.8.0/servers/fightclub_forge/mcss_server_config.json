@@ -31,6 +31,21 @@
         }
       },
       {
+        "guid": "a3410133-83c4-452c-a46d-717eb30577b6",
+        "name": "behind you",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "interval": 1080,
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "msg @r HOLY SHIT BEHIND YOU!"
+          ]
+        }
+      },
+      {
         "guid": "5ddcecc5-c83c-4f60-a58c-33ef322e9ebd",
         "name": "restart reminder",
         "enabled": true,

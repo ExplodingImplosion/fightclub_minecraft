@@ -267,6 +267,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-07-08 20:36:09 -0400",
       "cooked_mutton": "2024-07-02 22:31:44 -0400",
       "cooked_beef": "2024-07-03 17:17:27 -0400",
       "apple": "2024-07-01 19:27:40 -0400",
@@ -306,6 +307,7 @@
       "willow_forest": "2024-07-02 22:30:30 -0400",
       "poppy_fields": "2024-07-07 17:52:57 -0400",
       "grassy_beach": "2024-07-01 19:46:38 -0400",
+      "scorching_caves": "2024-07-08 20:41:24 -0400",
       "rocky_meadow": "2024-07-01 17:04:31 -0400",
       "mycotoxic_undergrowth": "2024-07-07 23:18:40 -0400",
       "ochard": "2024-07-03 19:22:57 -0400",
@@ -522,9 +524,8 @@
   },
   "dnl:util/entity_hit_matching/on_hurt": {
     "criteria": {
-      "not_projectile": "2024-07-07 23:17:30 -0400",
-      "is_projectile": "2024-07-07 23:23:56 -0400",
-      "blocked_false": "2024-07-07 23:17:30 -0400"
+      "not_projectile": "2024-07-08 21:58:08 -0400",
+      "blocked_false": "2024-07-08 21:58:08 -0400"
     },
     "done": false
   },
@@ -781,6 +782,12 @@
     },
     "done": true
   },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-07-08 20:46:12 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/mahogany/polished_mahogany_planks_from_mahogany_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:52:43 -0400"
@@ -999,9 +1006,14 @@
   },
   "dnl:util/entity_hit_matching/on_hit": {
     "criteria": {
-      "not_projectile": "2024-07-07 23:23:25 -0400",
-      "is_projectile": "2024-07-07 23:23:51 -0400",
-      "not_magic": "2024-07-07 23:23:25 -0400"
+      "not_projectile": "2024-07-08 21:59:06 -0400",
+      "not_magic": "2024-07-08 21:59:06 -0400"
+    },
+    "done": false
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_birch": "2024-07-08 18:02:19 -0400"
     },
     "done": false
   },
@@ -1089,6 +1101,12 @@
     },
     "done": true
   },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2024-07-08 21:55:52 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/mahogany/mahogany_button_from_mahogany_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:52:43 -0400"
@@ -1116,6 +1134,12 @@
   "minecraft:recipes/woodcutting/spruce/chest_from_spruce_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:49:16 -0400"
+    },
+    "done": true
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2024-07-08 17:37:08 -0400"
     },
     "done": true
   },
@@ -1157,7 +1181,9 @@
   },
   "quark:get_all_corundum": {
     "criteria": {
-      "red": "2024-07-02 22:43:23 -0400"
+      "red": "2024-07-02 22:43:23 -0400",
+      "orange": "2024-07-08 18:22:47 -0400",
+      "indigo": "2024-07-08 18:22:58 -0400"
     },
     "done": false
   },
@@ -1620,6 +1646,7 @@
   },
   "regions_unexplored:spelunker": {
     "criteria": {
+      "scorching_caves": "2024-07-08 20:41:24 -0400",
       "bioshroom_caves": "2024-07-02 20:27:34 -0400"
     },
     "done": false
@@ -1692,6 +1719,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-07-08 17:29:09 -0400",
       "minecraft:nether_wastes": "2024-07-07 23:22:03 -0400",
       "minecraft:basalt_deltas": "2024-07-07 23:22:56 -0400"
     },
@@ -1834,6 +1862,12 @@
   "repurposed_structures:root": {
     "criteria": {
       "always": "2024-07-01 13:12:36 -0400"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2024-07-08 17:37:08 -0400"
     },
     "done": true
   },
