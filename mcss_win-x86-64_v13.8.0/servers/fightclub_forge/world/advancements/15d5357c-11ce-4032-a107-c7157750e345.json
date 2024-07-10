@@ -29,6 +29,13 @@
     },
     "done": true
   },
+  "dnl:util/entity_hit_matching/on_hit": {
+    "criteria": {
+      "not_projectile": "2024-07-09 21:39:19 -0400",
+      "not_magic": "2024-07-09 21:39:19 -0400"
+    },
+    "done": false
+  },
   "naturescompass:natures_compass": {
     "criteria": {
       "has_recipe": "2024-07-01 00:34:38 -0400"
@@ -211,7 +218,8 @@
   },
   "betterdungeons:all_dungeons": {
     "criteria": {
-      "in_better_zombie_dungeon": "2024-07-08 00:01:00 -0400"
+      "in_better_zombie_dungeon": "2024-07-08 00:01:00 -0400",
+      "in_better_spider_dungeon": "2024-07-09 21:21:50 -0400"
     },
     "done": false
   },
@@ -553,6 +561,13 @@
     },
     "done": true
   },
+  "dnl:util/entity_hit_matching/on_hurt": {
+    "criteria": {
+      "not_projectile": "2024-07-09 21:39:13 -0400",
+      "blocked_false": "2024-07-09 21:39:13 -0400"
+    },
+    "done": false
+  },
   "dnl:story/general/locate_dungeon": {
     "criteria": {
       "locate_sinkhole": "2024-07-06 18:25:20 -0400"
@@ -813,6 +828,7 @@
       "minecraft:zombified_piglin": "2024-07-07 19:08:48 -0400",
       "minecraft:witch": "2024-07-01 14:34:26 -0400",
       "minecraft:wither_skeleton": "2024-07-01 15:24:24 -0400",
+      "minecraft:cave_spider": "2024-07-09 20:50:24 -0400",
       "minecraft:enderman": "2024-07-01 02:06:55 -0400",
       "minecraft:silverfish": "2024-07-07 18:51:34 -0400",
       "minecraft:zombie": "2024-07-01 00:58:59 -0400",
@@ -969,6 +985,13 @@
     },
     "done": true
   },
+  "regions_unexplored:mycologist": {
+    "criteria": {
+      "blue_bioshroom": "2024-07-09 21:34:01 -0400",
+      "green_bioshroom": "2024-07-09 21:34:01 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/woodcutting/birch/birch_boat_from_birch_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 00:37:15 -0400"
@@ -984,6 +1007,12 @@
   "undead_unleashed:nerves_of_steel": {
     "criteria": {
       "nerves_of_steel": "2024-07-01 15:22:22 -0400"
+    },
+    "done": true
+  },
+  "betterdungeons:spider_dungeon": {
+    "criteria": {
+      "in_better_spider_dungeon": "2024-07-09 21:21:50 -0400"
     },
     "done": true
   },

@@ -23,6 +23,12 @@
     },
     "done": true
   },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_mushroom": "2024-07-09 21:42:15 -0400"
+    },
+    "done": false
+  },
   "dungeons_enhanced:root": {
     "criteria": {
       "entered_watch_tower": "2024-07-02 14:00:14 -0400"
@@ -265,17 +271,22 @@
       "redstone_abyss": "2024-07-07 23:33:19 -0400",
       "autumnal_maple_forest": "2024-07-02 14:00:11 -0400",
       "muddy_river": "2024-07-02 15:43:46 -0400",
+      "willow_forest": "2024-07-09 21:58:30 -0400",
       "grassy_beach": "2024-07-01 01:07:04 -0400",
       "rocky_meadow": "2024-06-30 23:27:52 -0400",
+      "blackwood_taiga": "2024-07-09 21:42:56 -0400",
       "mycotoxic_undergrowth": "2024-07-07 23:18:25 -0400",
+      "ochard": "2024-07-09 21:34:27 -0400",
       "maple_forest": "2024-07-02 00:49:26 -0400",
       "magnolia_highlands": "2024-07-02 14:12:45 -0400",
       "boreal_forest": "2024-07-02 00:50:19 -0400",
       "glistering_meadow": "2024-07-07 23:21:12 -0400",
       "blackstone_basin": "2024-07-04 17:54:48 -0400",
+      "temperate_grove": "2024-07-09 21:39:05 -0400",
       "cold_river": "2024-07-02 14:00:06 -0400",
       "gravel_beach": "2024-07-02 14:12:09 -0400",
-      "bioshroom_caves": "2024-07-02 00:56:51 -0400"
+      "bioshroom_caves": "2024-07-02 00:56:51 -0400",
+      "lupine_plains": "2024-07-09 21:42:14 -0400"
     },
     "done": false
   },
@@ -357,13 +368,18 @@
       "shrubland": "2024-07-01 00:58:32 -0400",
       "autumnal_maple_forest": "2024-07-02 14:00:11 -0400",
       "muddy_river": "2024-07-02 15:43:46 -0400",
+      "willow_forest": "2024-07-09 21:58:30 -0400",
       "grassy_beach": "2024-07-01 01:07:04 -0400",
       "rocky_meadow": "2024-06-30 23:27:52 -0400",
+      "blackwood_taiga": "2024-07-09 21:42:56 -0400",
+      "ochard": "2024-07-09 21:34:27 -0400",
       "maple_forest": "2024-07-02 00:49:26 -0400",
       "magnolia_highlands": "2024-07-02 14:12:45 -0400",
       "boreal_forest": "2024-07-02 00:50:19 -0400",
+      "temperate_grove": "2024-07-09 21:39:05 -0400",
       "cold_river": "2024-07-02 14:00:06 -0400",
-      "gravel_beach": "2024-07-02 14:12:09 -0400"
+      "gravel_beach": "2024-07-02 14:12:09 -0400",
+      "lupine_plains": "2024-07-09 21:42:14 -0400"
     },
     "done": false
   },
@@ -453,6 +469,13 @@
     },
     "done": true
   },
+  "dnl:util/entity_hit_matching/on_hurt": {
+    "criteria": {
+      "not_projectile": "2024-07-09 21:27:21 -0400",
+      "blocked_false": "2024-07-09 21:27:21 -0400"
+    },
+    "done": false
+  },
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_helmet": "2024-07-01 01:42:49 -0400"
@@ -494,7 +517,9 @@
       "minecraft:taiga": "2024-07-02 00:52:55 -0400",
       "minecraft:birch_forest": "2024-07-02 16:24:45 -0400",
       "minecraft:beach": "2024-07-01 00:50:15 -0400",
+      "minecraft:dark_forest": "2024-07-09 21:45:51 -0400",
       "minecraft:river": "2024-06-30 23:27:34 -0400",
+      "minecraft:stony_shore": "2024-07-09 22:01:04 -0400",
       "minecraft:cold_ocean": "2024-07-02 13:59:21 -0400",
       "minecraft:forest": "2024-06-30 23:27:35 -0400",
       "minecraft:lush_caves": "2024-07-02 00:56:54 -0400",
@@ -670,6 +695,7 @@
       "minecraft:zombified_piglin": "2024-07-06 17:23:33 -0400",
       "minecraft:witch": "2024-07-02 00:54:38 -0400",
       "minecraft:wither_skeleton": "2024-07-04 17:55:06 -0400",
+      "minecraft:cave_spider": "2024-07-09 21:22:06 -0400",
       "minecraft:enderman": "2024-07-06 00:06:39 -0400",
       "minecraft:zombie": "2024-07-01 00:27:31 -0400",
       "minecraft:zombie_villager": "2024-07-07 19:53:42 -0400"
@@ -796,6 +822,12 @@
       "pink_bioshroom": "2024-07-02 00:57:25 -0400"
     },
     "done": false
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-07-09 21:39:05 -0400"
+    },
+    "done": true
   },
   "minecraft:recipes/woodcutting/oak/oak_button_from_oak_planks_woodcutting": {
     "criteria": {

@@ -1,0 +1,22 @@
+{
+	id: "8f570e16-5f99-495d-85cf-dc2ce03c3699"
+	type: "party"
+	owner: "e88efef4-13d1-45e6-9f5a-971a7509bf42"
+	ranks: {
+		15d5357c-11ce-4032-a107-c7157750e345: "member"
+		e88efef4-13d1-45e6-9f5a-971a7509bf42: "owner"
+	}
+	properties: {
+		"ftbteams:display_name": "Jezzums's Party"
+		"ftbteams:description": ""
+		"ftbteams:color": "#59FFEF"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1720568276533L, text: "{\"color\":\"yellow\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Jezzums\"}]}" }
+		{ from: "e88efef4-13d1-45e6-9f5a-971a7509bf42", date: 1720568276537L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.invited\",\"with\":[{\"color\":\"yellow\",\"text\":\"Zonkai__\"}]}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1720568280250L, text: "{\"color\":\"green\",\"translate\":\"ftbteams.message.joined\",\"with\":[{\"text\":\"Zonkai__\"}]}" }
+	]
+	extra: { }
+}
