@@ -29,13 +29,6 @@
     },
     "done": true
   },
-  "dnl:util/entity_hit_matching/on_hit": {
-    "criteria": {
-      "not_projectile": "2024-07-09 21:39:19 -0400",
-      "not_magic": "2024-07-09 21:39:19 -0400"
-    },
-    "done": false
-  },
   "naturescompass:natures_compass": {
     "criteria": {
       "has_recipe": "2024-07-01 00:34:38 -0400"
@@ -305,7 +298,8 @@
       "cooked_cod": "2024-07-01 14:23:31 -0400",
       "bread": "2024-07-01 01:28:19 -0400",
       "golden_apple": "2024-07-02 16:39:16 -0400",
-      "rotten_flesh": "2024-07-01 01:23:31 -0400"
+      "rotten_flesh": "2024-07-01 01:23:31 -0400",
+      "golden_carrot": "2024-07-10 18:29:51 -0400"
     },
     "done": false
   },
@@ -560,13 +554,6 @@
       "minecraft:zombie": "2024-07-01 00:58:59 -0400"
     },
     "done": true
-  },
-  "dnl:util/entity_hit_matching/on_hurt": {
-    "criteria": {
-      "not_projectile": "2024-07-09 21:39:13 -0400",
-      "blocked_false": "2024-07-09 21:39:13 -0400"
-    },
-    "done": false
   },
   "dnl:story/general/locate_dungeon": {
     "criteria": {

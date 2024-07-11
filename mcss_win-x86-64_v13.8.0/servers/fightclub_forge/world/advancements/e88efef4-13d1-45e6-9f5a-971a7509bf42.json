@@ -538,14 +538,6 @@
     },
     "done": true
   },
-  "dnl:util/entity_hit_matching/on_hurt": {
-    "criteria": {
-      "blocked_true": "2024-07-09 22:00:07 -0400",
-      "not_projectile": "2024-07-09 21:52:23 -0400",
-      "blocked_false": "2024-07-09 21:52:23 -0400"
-    },
-    "done": false
-  },
   "minecraft:recipes/woodcutting/mahogany/mahogany_planks_from_mahogany_log_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:52:27 -0400"
@@ -1032,13 +1024,6 @@
       "upper_bone_staff": "2024-07-02 20:57:03 -0400"
     },
     "done": true
-  },
-  "dnl:util/entity_hit_matching/on_hit": {
-    "criteria": {
-      "not_projectile": "2024-07-09 22:00:05 -0400",
-      "not_magic": "2024-07-09 22:00:05 -0400"
-    },
-    "done": false
   },
   "repurposed_structures:villages": {
     "criteria": {
