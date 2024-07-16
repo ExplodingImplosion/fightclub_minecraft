@@ -29,11 +29,30 @@
     },
     "done": true
   },
+  "dnl:story/structures/hivenest/locate": {
+    "criteria": {
+      "locate_hivenest": "2024-07-15 14:24:44 -0400"
+    },
+    "done": true
+  },
+  "dnl:util/entity_hit_matching/on_hit": {
+    "criteria": {
+      "not_projectile": "2024-07-15 15:03:57 -0400",
+      "not_magic": "2024-07-15 15:03:57 -0400"
+    },
+    "done": false
+  },
   "naturescompass:natures_compass": {
     "criteria": {
       "has_recipe": "2024-07-01 00:34:38 -0400"
     },
     "done": true
+  },
+  "repurposed_structures:villages": {
+    "criteria": {
+      "in_village_mushroom": "2024-07-15 14:20:59 -0400"
+    },
+    "done": false
   },
   "dungeons_enhanced:root": {
     "criteria": {
@@ -154,6 +173,12 @@
       "in_witch_hut_taiga": "2024-07-01 15:10:00 -0400"
     },
     "done": false
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2024-07-15 15:03:35 -0400"
+    },
+    "done": true
   },
   "regions_unexplored:got_wood": {
     "criteria": {
@@ -299,7 +324,8 @@
       "bread": "2024-07-01 01:28:19 -0400",
       "golden_apple": "2024-07-02 16:39:16 -0400",
       "rotten_flesh": "2024-07-01 01:23:31 -0400",
-      "golden_carrot": "2024-07-10 18:29:51 -0400"
+      "golden_carrot": "2024-07-10 18:29:51 -0400",
+      "mushroom_stew": "2024-07-15 14:50:44 -0400"
     },
     "done": false
   },
@@ -317,6 +343,7 @@
       "poppy_fields": "2024-07-07 17:51:51 -0400",
       "grassy_beach": "2024-07-01 00:51:38 -0400",
       "rocky_meadow": "2024-07-01 02:24:24 -0400",
+      "blackwood_taiga": "2024-07-15 14:21:06 -0400",
       "mycotoxic_undergrowth": "2024-07-07 23:18:44 -0400",
       "highland_fields": "2024-07-02 16:01:05 -0400",
       "maple_forest": "2024-07-02 00:50:02 -0400",
@@ -446,6 +473,7 @@
       "poppy_fields": "2024-07-07 17:51:51 -0400",
       "grassy_beach": "2024-07-01 00:51:38 -0400",
       "rocky_meadow": "2024-07-01 02:24:24 -0400",
+      "blackwood_taiga": "2024-07-15 14:21:06 -0400",
       "highland_fields": "2024-07-02 16:01:05 -0400",
       "maple_forest": "2024-07-02 00:50:02 -0400",
       "magnolia_highlands": "2024-07-02 15:56:28 -0400",
@@ -554,6 +582,14 @@
       "minecraft:zombie": "2024-07-01 00:58:59 -0400"
     },
     "done": true
+  },
+  "dnl:util/entity_hit_matching/on_hurt": {
+    "criteria": {
+      "not_projectile": "2024-07-15 14:54:40 -0400",
+      "is_projectile": "2024-07-15 15:05:35 -0400",
+      "blocked_false": "2024-07-15 14:54:40 -0400"
+    },
+    "done": false
   },
   "dnl:story/general/locate_dungeon": {
     "criteria": {
@@ -823,6 +859,12 @@
     },
     "done": false
   },
+  "graveyard:graveyard/dead_tree": {
+    "criteria": {
+      "dead_tree": "2024-07-15 14:27:54 -0400"
+    },
+    "done": true
+  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-07-07 23:08:32 -0400"
@@ -873,6 +915,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-07-15 14:52:20 -0400",
       "minecraft:nether_wastes": "2024-07-07 23:22:44 -0400",
       "minecraft:basalt_deltas": "2024-07-07 23:22:55 -0400",
       "minecraft:warped_forest": "2024-07-07 23:37:02 -0400"
@@ -1024,6 +1067,12 @@
   "repurposed_structures:root": {
     "criteria": {
       "always": "2024-07-01 00:34:38 -0400"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2024-07-15 15:03:35 -0400"
     },
     "done": true
   },

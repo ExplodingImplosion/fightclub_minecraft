@@ -18,6 +18,12 @@
     },
     "done": true
   },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_nether": "2024-07-15 12:27:20 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/woodcutting/mahogany/mahogany_button_from_mahogany_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:54:12 -0400"
@@ -39,6 +45,12 @@
   "minecraft:recipes/woodcutting/dark_oak/dark_oak_planks_from_dark_oak_stairs_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-07 17:07:14 -0400"
+    },
+    "done": true
+  },
+  "dnl:story/structures/hivenest/locate": {
+    "criteria": {
+      "locate_hivenest": "2024-07-15 14:25:38 -0400"
     },
     "done": true
   },
@@ -326,6 +338,7 @@
     "criteria": {
       "silver_birch_forest": "2024-07-01 22:19:40 -0400",
       "shrubland": "2024-07-01 19:25:09 -0400",
+      "redstone_abyss": "2024-07-15 12:40:26 -0400",
       "fen": "2024-07-14 20:54:22 -0400",
       "pine_taiga": "2024-07-03 19:38:51 -0400",
       "bayou": "2024-07-06 18:19:11 -0400",
@@ -345,6 +358,7 @@
       "boreal_forest": "2024-07-02 20:25:17 -0400",
       "glistering_meadow": "2024-07-07 23:20:54 -0400",
       "blackstone_basin": "2024-07-05 20:55:01 -0400",
+      "infernal_holt": "2024-07-15 19:33:25 -0400",
       "temperate_grove": "2024-07-03 19:38:01 -0400",
       "cold_river": "2024-07-01 21:38:20 -0400",
       "pumpkin_fields": "2024-07-07 17:55:17 -0400",
@@ -376,6 +390,12 @@
   "minecraft:recipes/woodcutting/mahogany/mahogany_boat_from_mahogany_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 22:54:12 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2024-07-15 18:57:12 -0400"
     },
     "done": true
   },
@@ -562,9 +582,8 @@
   },
   "dnl:util/entity_hit_matching/on_hurt": {
     "criteria": {
-      "blocked_true": "2024-07-14 22:02:35 -0400",
-      "not_projectile": "2024-07-14 22:00:31 -0400",
-      "blocked_false": "2024-07-14 22:00:31 -0400"
+      "not_projectile": "2024-07-15 22:58:09 -0400",
+      "blocked_false": "2024-07-15 22:58:09 -0400"
     },
     "done": false
   },
@@ -804,6 +823,12 @@
     },
     "done": true
   },
+  "graveyard:graveyard/dead_tree": {
+    "criteria": {
+      "dead_tree": "2024-07-15 14:27:49 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/jungle/barrel_from_jungle_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 21:22:57 -0400"
@@ -1026,6 +1051,12 @@
     },
     "done": true
   },
+  "repurposed_structures:shipwrecks": {
+    "criteria": {
+      "in_shipwreck_crimson": "2024-07-15 15:53:37 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/woodcutting/birch/birch_stairs_from_birch_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:28:09 -0400"
@@ -1058,9 +1089,8 @@
   },
   "dnl:util/entity_hit_matching/on_hit": {
     "criteria": {
-      "not_projectile": "2024-07-14 22:00:32 -0400",
-      "not_magic": "2024-07-14 22:02:25 -0400",
-      "bit_2_0": "2024-07-14 22:00:31 -0400"
+      "not_projectile": "2024-07-15 22:58:15 -0400",
+      "not_magic": "2024-07-15 22:58:15 -0400"
     },
     "done": false
   },
@@ -1515,6 +1545,12 @@
     },
     "done": true
   },
+  "graveyard:graveyard/dark_iron": {
+    "criteria": {
+      "dark_iron": "2024-07-15 14:34:20 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/woodcutting/spruce/spruce_sign_from_spruce_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:49:16 -0400"
@@ -1561,6 +1597,7 @@
       "minecraft:forest": "2024-07-01 18:59:27 -0400",
       "minecraft:lush_caves": "2024-07-03 17:38:14 -0400",
       "minecraft:ocean": "2024-07-01 21:29:19 -0400",
+      "minecraft:jungle": "2024-07-15 14:27:49 -0400",
       "minecraft:old_growth_spruce_taiga": "2024-07-02 20:45:58 -0400",
       "minecraft:old_growth_birch_forest": "2024-07-03 18:28:58 -0400",
       "minecraft:windswept_gravelly_hills": "2024-07-14 20:55:03 -0400",
@@ -1610,6 +1647,12 @@
     },
     "done": true
   },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_nether_brick": "2024-07-15 15:58:26 -0400"
+    },
+    "done": false
+  },
   "minecraft:recipes/woodcutting/spruce/spruce_door_from_spruce_slab_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:06:20 -0400"
@@ -1633,6 +1676,12 @@
       "has_item": "2024-07-01 21:32:48 -0400"
     },
     "done": true
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_nether": "2024-07-15 12:35:26 -0400"
+    },
+    "done": false
   },
   "minecraft:nether/loot_bastion": {
     "criteria": {
@@ -1691,6 +1740,12 @@
   "minecraft:recipes/woodcutting/spruce/spruce_chest_boat_from_spruce_planks_woodcutting": {
     "criteria": {
       "give_recipe": "2024-07-01 19:49:16 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-07-15 18:23:51 -0400"
     },
     "done": true
   },
@@ -1777,9 +1832,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-07-08 17:29:09 -0400",
       "minecraft:nether_wastes": "2024-07-07 23:22:03 -0400",
-      "minecraft:basalt_deltas": "2024-07-07 23:22:56 -0400"
+      "minecraft:soul_sand_valley": "2024-07-15 18:30:42 -0400",
+      "minecraft:basalt_deltas": "2024-07-07 23:22:56 -0400",
+      "minecraft:warped_forest": "2024-07-15 14:52:27 -0400"
     },
-    "done": false
+    "done": true
   },
   "dnl:story/structures/plains_castle/locate": {
     "criteria": {
@@ -1821,9 +1878,11 @@
     "criteria": {
       "mycotoxic_undergrowth": "2024-07-07 23:18:40 -0400",
       "blackstone_basin": "2024-07-05 20:55:01 -0400",
+      "infernal_holt": "2024-07-15 19:33:25 -0400",
+      "redstone_abyss": "2024-07-15 12:40:26 -0400",
       "glistering_meadow": "2024-07-07 23:20:54 -0400"
     },
-    "done": false
+    "done": true
   },
   "ancient_manuscripts:items/warped_binding_table": {
     "criteria": {

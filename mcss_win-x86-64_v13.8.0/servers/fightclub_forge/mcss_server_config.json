@@ -104,6 +104,18 @@
             "/say server stops for the night in 30 minutes. the server will come back online at 8am EST."
           ]
         }
+      },
+      {
+        "guid": "9be32773-c8b9-4da7-82d2-1df5ea04885f",
+        "name": "start",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "repeat": false
+        },
+        "job": {
+          "action": "Start"
+        }
       }
     ]
   },
