@@ -1,0 +1,26 @@
+{
+  "guid": "4fa1b82f-ace4-4f3c-bb0c-f98b9ea182c6",
+  "serverTypeGuid": "c45acfcf-b4a1-4733-aab0-f78e1091ae16",
+  "name": "UVM improv club server",
+  "description": "",
+  "creationDate": "2024-12-15T23:43:25.8251547-05:00",
+  "autostart": false,
+  "forceSaveOnStop": true,
+  "stopPrevention": "Elevated",
+  "startupMethode": "BatFile",
+  "allocatedMemory": 4096,
+  "allocatedMemorySuffix": "GB",
+  "startupLine": "java -Xms256M -Xmx[RAM]M -jar [SERVERTYPE.NAME].jar",
+  "startupBatFilename": "startserver.bat",
+  "serverFileChecksum": "",
+  "serverFileVersion": "",
+  "javaPathOverride": "",
+  "tasks": {
+    "scheduledTasks": []
+  },
+  "backups": {
+    "backupTemplates": [],
+    "backupHistory": []
+  },
+  "subServers": []
+}

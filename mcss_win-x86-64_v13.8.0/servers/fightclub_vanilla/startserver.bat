@@ -6,7 +6,7 @@ echo (%time%) committing changes to GitHub repo...
 
 For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set datenow=%%c-%%a-%%b)
 git add --all
-git commit -m %%datenow%%
+git commit -m %datenow%
 git push
 git pull
 echo finished!
