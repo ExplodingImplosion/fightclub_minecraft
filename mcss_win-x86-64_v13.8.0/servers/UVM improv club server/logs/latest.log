@@ -1,34 +1,48 @@
-[23:50:25] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[23:50:25] [main/INFO]: Loading 4 mods:
+[19:30:22] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[19:30:22] [main/INFO]: Loading 6 mods:
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
-	- java 21
+	- ferritecore 7.1.1
+	- java 22
+	- lithium 0.14.3+mc1.21.4
 	- minecraft 1.21.4
-[23:50:25] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/D:/Gaming/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[23:50:29] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[23:50:31] [main/INFO]: Loaded 1370 recipes
-[23:50:31] [main/INFO]: Loaded 1481 advancements
-[23:50:31] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[23:50:31] [Server thread/INFO]: Loading properties
-[23:50:31] [Server thread/INFO]: Default game type: SURVIVAL
-[23:50:31] [Server thread/INFO]: Generating keypair
-[23:50:31] [Server thread/INFO]: Starting Minecraft server on *:25565
-[23:50:31] [Server thread/INFO]: Using default channel type
-[23:50:32] [Server thread/INFO]: Preparing level "world"
-[23:50:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[23:50:33] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[23:50:33] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[23:50:33] [Worker-Main-11/INFO]: Preparing spawn area: 0%
-[23:50:33] [Server thread/INFO]: Time elapsed: 1148 ms
-[23:50:33] [Server thread/INFO]: Done (1.393s)! For help, type "help"
-[23:50:51] [Server thread/INFO]: Stopping the server
-[23:50:51] [Server thread/INFO]: Stopping server
-[23:50:51] [Server thread/INFO]: Saving players
-[23:50:51] [Server thread/INFO]: Saving worlds
-[23:50:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:50:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:50:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:50:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:50:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:50:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:50:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:30:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:30:22] [main/INFO]: Compatibility level set to JAVA_17
+[19:30:22] [main/INFO]: Compatibility level set to JAVA_21
+[19:30:23] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[19:30:23] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[19:30:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[19:30:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[19:30:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[19:30:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[19:30:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[19:30:23] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
+[19:30:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[19:30:32] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:30:34] [main/INFO]: Loaded 1370 recipes
+[19:30:34] [main/INFO]: Loaded 1481 advancements
+[19:30:35] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[19:30:35] [Server thread/INFO]: Loading properties
+[19:30:35] [Server thread/INFO]: Default game type: SURVIVAL
+[19:30:35] [Server thread/INFO]: Generating keypair
+[19:30:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:30:35] [Server thread/INFO]: Using default channel type
+[19:30:35] [Server thread/INFO]: Preparing level "world"
+[19:30:36] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:30:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:30:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:30:37] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[19:30:37] [Worker-Main-1/INFO]: Preparing spawn area: 53%
+[19:30:37] [Server thread/INFO]: Time elapsed: 1556 ms
+[19:30:37] [Server thread/INFO]: Done (1.988s)! For help, type "help"
+[19:31:32] [Server thread/INFO]: Stopping the server
+[19:31:32] [Server thread/INFO]: Stopping server
+[19:31:32] [Server thread/INFO]: Saving players
+[19:31:32] [Server thread/INFO]: Saving worlds
+[19:31:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:31:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:31:32] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:31:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:31:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:31:32] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:31:32] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
