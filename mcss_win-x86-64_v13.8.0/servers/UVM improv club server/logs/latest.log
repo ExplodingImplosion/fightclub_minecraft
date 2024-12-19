@@ -1,5 +1,5 @@
-[19:54:57] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[19:54:57] [main/INFO]: Loading 12 mods:
+[20:10:39] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[20:10:39] [main/INFO]: Loading 12 mods:
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
 	- ferritecore 7.1.1
@@ -13,89 +13,80 @@
 	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
 	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
 	   \-- fabric-resource-loader-v0 3.0.9+203e6b2382
-[19:54:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:54:57] [main/INFO]: Compatibility level set to JAVA_21
-[19:54:57] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[19:54:57] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[19:54:57] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[19:54:57] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[19:54:57] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[19:54:57] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[19:54:57] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[19:54:57] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
-[19:54:58] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:55:03] [main/INFO]: [voicechat] Compatibility version 18
-[19:55:03] [main/INFO]: [voicechat] Loading plugins
-[19:55:03] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[19:55:03] [main/INFO]: [voicechat] Initializing plugins
-[19:55:03] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[19:55:03] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:55:04] [main/INFO]: Found new data pack fabric, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/afk display v1.1.10 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/anti enderman grief v1.1.10 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/confetti creepers v2.2.11 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/coordinates hud v1.2.11 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/double shulker shells v1.3.10 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/more mob heads v2.15.0 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/multiplayer sleep v2.6.10 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/name colors v1.0.8 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/player head drops v1.1.10 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/silence mobs v1.2.4 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/track raw statistics v1.7.6 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/track statistics v1.1.12 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/unlock all recipes v2.0.11 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [main/INFO]: Found new data pack file/wandering trades v1.7.9 (MC 1.21-1.21.4).zip, loading it automatically
-[19:55:04] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[19:55:04] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[19:55:04] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[19:55:04] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
-[19:55:05] [main/INFO]: Loaded 1370 recipes
-[19:55:05] [main/INFO]: Loaded 1498 advancements
-[19:55:05] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[19:55:05] [Server thread/INFO]: Loading properties
-[19:55:05] [Server thread/INFO]: Default game type: SURVIVAL
-[19:55:05] [Server thread/INFO]: Generating keypair
-[19:55:06] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[19:55:06] [Server thread/INFO]: Using default channel type
-[19:55:06] [Server thread/INFO]: Preparing level "world"
-[19:55:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:55:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:55:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:55:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:55:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:55:08] [Server thread/INFO]: Time elapsed: 1715 ms
-[19:55:08] [Server thread/INFO]: Done (2.036s)! For help, type "help"
-[19:55:08] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[19:55:08] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:24454
-[19:55:08] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[19:55:13] [User Authenticator #1/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[19:55:13] [Server thread/INFO]: FrozenJarate[/192.168.86.70:60104] logged in with entity id 57 at (16.400210720994025, 94.0, -0.9882248562178447)
-[19:55:13] [Server thread/INFO]: FrozenJarate joined the game
-[19:55:13] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
-[19:55:13] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
-[19:55:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[19:55:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[19:55:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
-[19:55:44] [Server thread/INFO]: [FrozenJarate: Set own game mode to Survival Mode]
-[19:55:46] [Server thread/INFO]: FrozenJarate fell from a high place
-[19:55:53] [Server thread/INFO]: [FrozenJarate: Set own game mode to Creative Mode]
-[19:56:10] [Server thread/INFO]: [FrozenJarate: Set own game mode to Survival Mode]
-[19:56:12] [Server thread/INFO]: FrozenJarate fell from a high place
-[19:56:18] [Server thread/INFO]: [FrozenJarate: Set own game mode to Creative Mode]
-[19:57:00] [Server thread/INFO]: [FrozenJarate: Set own game mode to Survival Mode]
-[19:57:44] [Server thread/INFO]: FrozenJarate has made the advancement [Take Aim]
-[19:58:29] [Server thread/INFO]: [FrozenJarate: Set own game mode to Creative Mode]
-[20:03:34] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
-[20:03:34] [Server thread/INFO]: FrozenJarate left the game
-[20:03:34] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
-[20:04:08] [Server thread/INFO]: Stopping the server
-[20:04:08] [Server thread/INFO]: Stopping server
-[20:04:08] [Server thread/INFO]: Saving players
-[20:04:08] [Server thread/INFO]: Saving worlds
-[20:04:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:04:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:04:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:04:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:04:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:04:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:04:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[20:10:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[20:10:39] [main/INFO]: Compatibility level set to JAVA_21
+[20:10:39] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[20:10:39] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[20:10:39] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[20:10:39] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[20:10:39] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[20:10:39] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[20:10:39] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[20:10:39] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
+[20:10:40] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[20:10:45] [main/INFO]: [voicechat] Compatibility version 18
+[20:10:45] [main/INFO]: [voicechat] Loading plugins
+[20:10:45] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[20:10:45] [main/INFO]: [voicechat] Initializing plugins
+[20:10:45] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[20:10:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:10:46] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[20:10:46] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[20:10:46] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[20:10:46] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[20:10:47] [main/INFO]: Loaded 1370 recipes
+[20:10:47] [main/INFO]: Loaded 1498 advancements
+[20:10:47] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[20:10:47] [Server thread/INFO]: Loading properties
+[20:10:47] [Server thread/INFO]: Default game type: SURVIVAL
+[20:10:47] [Server thread/INFO]: Generating keypair
+[20:10:47] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[20:10:47] [Server thread/INFO]: Using default channel type
+[20:10:48] [Server thread/INFO]: Preparing level "world"
+[20:10:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:10:49] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:10:49] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:10:49] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:10:49] [Server thread/INFO]: Time elapsed: 1443 ms
+[20:10:49] [Server thread/INFO]: Done (1.785s)! For help, type "help"
+[20:10:49] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[20:10:49] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:24454
+[20:10:50] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[20:11:45] [User Authenticator #1/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[20:11:46] [Server thread/INFO]: FrozenJarate[/192.168.86.1:60816] logged in with entity id 35 at (7.679810847665051, 94.0, 8.517370407668812)
+[20:11:46] [Server thread/INFO]: FrozenJarate joined the game
+[20:11:47] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
+[20:11:47] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
+[20:12:07] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
+[20:12:07] [Server thread/INFO]: FrozenJarate left the game
+[20:12:07] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
+[20:12:09] [User Authenticator #2/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[20:12:09] [Server thread/INFO]: FrozenJarate[/192.168.86.1:60835] logged in with entity id 269 at (7.679810847665051, 94.0, 8.517370407668812)
+[20:12:09] [Server thread/INFO]: FrozenJarate joined the game
+[20:12:09] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
+[20:12:09] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
+[20:12:15] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
+[20:12:15] [Server thread/INFO]: FrozenJarate left the game
+[20:12:15] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
+[20:12:35] [User Authenticator #3/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[20:12:35] [Server thread/INFO]: FrozenJarate[/192.168.86.70:60852] logged in with entity id 499 at (7.679810847665051, 94.0, 8.517370407668812)
+[20:12:35] [Server thread/INFO]: FrozenJarate joined the game
+[20:12:35] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
+[20:12:35] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
+[20:12:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[20:12:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[20:12:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
+[20:13:15] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
+[20:13:15] [Server thread/INFO]: FrozenJarate left the game
+[20:13:15] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
+[20:13:49] [Server thread/INFO]: Stopping the server
+[20:13:49] [Server thread/INFO]: Stopping server
+[20:13:49] [Server thread/INFO]: Saving players
+[20:13:49] [Server thread/INFO]: Saving worlds
+[20:13:49] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:13:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:13:50] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:13:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:13:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:13:50] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:13:50] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

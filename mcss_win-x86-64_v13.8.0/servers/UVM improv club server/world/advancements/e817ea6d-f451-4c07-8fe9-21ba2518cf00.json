@@ -11,6 +11,96 @@
     },
     "done": false
   },
+  "vanillatweaks:root": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:player_head_drops": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:track_raw_stats": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:coordinates_hud": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:wandering_trades": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:afk_display": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:confetti_creepers": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:multiplayer_sleep": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:silence_mobs": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:unlock_all_recipes": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:track_stats": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:anti_enderman_grief": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:double_shulker_shells": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:more_mob_heads": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:name_colors": {
+    "criteria": {
+      "tick": "2024-12-18 19:55:13 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/waxed_cut_copper_stairs_from_honeycomb": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
@@ -452,12 +542,6 @@
   "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
-    },
-    "done": true
-  },
-  "vanillatweaks:root": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
     },
     "done": true
   },
@@ -941,12 +1025,6 @@
     },
     "done": true
   },
-  "vanillatweaks:player_head_drops": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/stone_brick_wall": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
@@ -1154,12 +1232,6 @@
   "minecraft:recipes/building_blocks/oak_slab": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
-    },
-    "done": true
-  },
-  "vanillatweaks:track_raw_stats": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
     },
     "done": true
   },
@@ -1385,12 +1457,6 @@
     },
     "done": true
   },
-  "vanillatweaks:coordinates_hud": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/oxidized_chiseled_copper_from_oxidized_cut_copper_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
@@ -1511,12 +1577,6 @@
     },
     "done": true
   },
-  "vanillatweaks:wandering_trades": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/jungle_planks": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
@@ -1610,12 +1670,6 @@
   "minecraft:recipes/decorations/polished_tuff_wall_from_tuff_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
-    },
-    "done": true
-  },
-  "vanillatweaks:afk_display": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
     },
     "done": true
   },
@@ -2528,12 +2582,6 @@
   "minecraft:recipes/decorations/granite_wall": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
-    },
-    "done": true
-  },
-  "vanillatweaks:confetti_creepers": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
     },
     "done": true
   },
@@ -3707,12 +3755,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2024-12-18 19:57:44 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
@@ -3770,12 +3812,6 @@
   "minecraft:recipes/redstone/jungle_door": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
-    },
-    "done": true
-  },
-  "vanillatweaks:multiplayer_sleep": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
     },
     "done": true
   },
@@ -4205,12 +4241,6 @@
     },
     "done": true
   },
-  "vanillatweaks:silence_mobs": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/crimson_pressure_plate": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
@@ -4226,12 +4256,6 @@
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
-    },
-    "done": true
-  },
-  "vanillatweaks:unlock_all_recipes": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
     },
     "done": true
   },
@@ -5171,12 +5195,6 @@
     },
     "done": true
   },
-  "vanillatweaks:track_stats": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/exposed_copper_grate_from_exposed_copper_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
@@ -5897,12 +5915,6 @@
     },
     "done": true
   },
-  "vanillatweaks:anti_enderman_grief": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/flower_pot": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
@@ -6416,12 +6428,6 @@
   "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
-    },
-    "done": true
-  },
-  "vanillatweaks:double_shulker_shells": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
     },
     "done": true
   },
@@ -7457,12 +7463,6 @@
     },
     "done": true
   },
-  "vanillatweaks:more_mob_heads": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_copper_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
@@ -7937,12 +7937,6 @@
     },
     "done": true
   },
-  "vanillatweaks:name_colors": {
-    "criteria": {
-      "tick": "2024-12-18 19:55:13 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
@@ -8246,6 +8240,12 @@
   "minecraft:recipes/building_blocks/bone_block": {
     "criteria": {
       "has_the_recipe": "2024-12-18 19:55:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-18 19:57:44 -0500"
     },
     "done": true
   },
