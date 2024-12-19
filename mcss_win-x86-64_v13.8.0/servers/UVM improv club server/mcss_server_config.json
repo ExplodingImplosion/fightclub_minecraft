@@ -8,7 +8,7 @@
   "forceSaveOnStop": true,
   "stopPrevention": "Elevated",
   "startupMethode": "BatFile",
-  "allocatedMemory": 4096,
+  "allocatedMemory": 5120,
   "allocatedMemorySuffix": "GB",
   "startupLine": "java -Xms256M -Xmx[RAM]M -jar [SERVERTYPE.NAME].jar",
   "startupBatFilename": "startserver.bat",
@@ -16,7 +16,106 @@
   "serverFileVersion": "",
   "javaPathOverride": "",
   "tasks": {
-    "scheduledTasks": []
+    "scheduledTasks": [
+      {
+        "guid": "a8c28e7b-0e9b-4dfe-8478-99375bd89536",
+        "name": "stop on no one in server",
+        "enabled": true,
+        "playerRequirement": "Empty",
+        "timing": {
+          "interval": 60,
+          "repeat": true
+        },
+        "job": {
+          "action": "Stop"
+        }
+      },
+      {
+        "guid": "f6bd4f86-64d3-478d-be22-f53213d4caa6",
+        "name": "restart every 6 hours",
+        "enabled": true,
+        "playerRequirement": "None",
+        "timing": {
+          "interval": 21600,
+          "repeat": true
+        },
+        "job": {
+          "action": "Restart"
+        }
+      },
+      {
+        "guid": "828f2585-6a59-4829-bb56-f384cae75352",
+        "name": "behind you",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "interval": 14400,
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/msg @r HOLY SHIT BEHIND YOU!"
+          ]
+        }
+      },
+      {
+        "guid": "5448c05e-d174-467f-8ba1-2a6475eaec40",
+        "name": "restart reminder 5m",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "interval": 21300,
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/say the server is gonna restart in 5 mins"
+          ]
+        }
+      },
+      {
+        "guid": "1ee33afd-aa7e-49aa-8e79-38e1968e9e3c",
+        "name": "restart reminder 1m",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "interval": 21540,
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/say the server is gonna restart in 1 minute"
+          ]
+        }
+      },
+      {
+        "guid": "4615b8ae-6bc0-42f3-90fe-4a795d0767a1",
+        "name": "server restart reminder 10 seconds",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "interval": 21590,
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "/say the server is gonna restart in 10 seconds"
+          ]
+        }
+      },
+      {
+        "guid": "db345bf5-816e-421b-a46a-42aa8dec6a2a",
+        "name": "start server",
+        "enabled": true,
+        "playerRequirement": "Empty",
+        "timing": {
+          "repeat": false
+        },
+        "job": {
+          "action": "Start"
+        }
+      }
+    ]
   },
   "backups": {
     "backupTemplates": [],
