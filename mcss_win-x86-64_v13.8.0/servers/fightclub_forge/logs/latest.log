@@ -1,0 +1,27 @@
+[19Dec2024 17:03:20.725] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.3.5, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[19Dec2024 17:03:20.732] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 18.0.2.1 by Oracle Corporation; OS Windows 10 arch amd64 version 10.0
+[19Dec2024 17:03:22.116] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/fightclub_forge/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[19Dec2024 17:03:22.912] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\libraries\net\minecraftforge\fmlcore\1.19.2-43.3.5\fmlcore-1.19.2-43.3.5.jar is missing mods.toml file
+[19Dec2024 17:03:22.917] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\libraries\net\minecraftforge\javafmllanguage\1.19.2-43.3.5\javafmllanguage-1.19.2-43.3.5.jar is missing mods.toml file
+[19Dec2024 17:03:22.921] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\libraries\net\minecraftforge\lowcodelanguage\1.19.2-43.3.5\lowcodelanguage-1.19.2-43.3.5.jar is missing mods.toml file
+[19Dec2024 17:03:22.925] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\libraries\net\minecraftforge\mclanguage\1.19.2-43.3.5\mclanguage-1.19.2-43.3.5.jar is missing mods.toml file
+[19Dec2024 17:03:23.116] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[19Dec2024 17:03:23.118] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: terrablender. Using Mod File: C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\mods\TerraBlender-forge-1.19.2-2.0.1.166.jar
+[19Dec2024 17:03:23.118] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: curios. Using Mod File: C:\Users\Owner\Desktop\fightclub_minecraft\mcss_win-x86-64_v13.8.0\servers\fightclub_forge\mods\curios-forge-1.19.2-5.1.4.3.jar
+[19Dec2024 17:03:23.118] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 12 dependencies adding them to mods collection
+[19Dec2024 17:03:25.015] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[19Dec2024 17:03:25.168] [main/ERROR] [mixin/]: Mixin config necronomicon.forge.mixins.json does not specify "minVersion" property
+[19Dec2024 17:03:25.198] [main/ERROR] [mixin/]: Mixin config spruceui.mixins.json does not specify "minVersion" property
+[19Dec2024 17:03:25.288] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [com.sonicether.soundphysics.MixinConnector]
+[19Dec2024 17:03:25.290] [main/INFO] [mixin/]: Successfully loaded Mixin Connector [ca.spottedleaf.starlight.mixin.MixinConnector]
+[19Dec2024 17:03:25.291] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[19Dec2024 17:03:25.315] [main/WARN] [mixin/]: Reference map 'insanelib.refmap.json' for insanelib.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2024 17:03:25.376] [main/INFO] [ModernFix/]: Loaded configuration file for ModernFix 5.16.1+mc1.19.2: 84 options available, 0 override(s) found
+[19Dec2024 17:03:25.377] [main/INFO] [ModernFix/]: Applying Nashorn fix
+[19Dec2024 17:03:25.387] [main/INFO] [ModernFix/]: Applied Forge config corruption patch
+[19Dec2024 17:03:25.458] [main/WARN] [mixin/]: Reference map 'lmft-forge-refmap.json' for lmft.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2024 17:03:25.465] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-common-refmap.json' for mysticaloaktree-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2024 17:03:25.466] [main/WARN] [mixin/]: Reference map 'mysticaloaktree-forge-refmap.json' for mysticaloaktree.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2024 17:03:25.486] [main/WARN] [mixin/]: Reference map 'ysnsforge.refmap.json' for ysns.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2024 17:03:25.494] [main/WARN] [mixin/]: Reference map 'nitrogen_internals.refmap.json' for nitrogen_internals.mixins.json could not be read. If this is a development environment you can ignore this message
+[19Dec2024 17:03:25.511] [main/WARN] [mixin/]: Reference map 'EpheroLib-refmap.json' for epherolib.mixins.json could not be read. If this is a development environment you can ignore this message
