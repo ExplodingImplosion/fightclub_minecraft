@@ -1,67 +1,164 @@
-[17:01:36] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[17:01:36] [main/INFO]: Loading 12 mods:
-	- fabricloader 0.16.9
-	   \-- mixinextras 0.4.1
-	- ferritecore 7.1.1
-	- java 22
-	- lithium 0.14.3+mc1.21.4
-	- minecraft 1.21.4
-	- voicechat 1.21.4-2.5.26
-	   |-- fabric-api-base 0.4.52+8ca5486f82
-	   |-- fabric-command-api-v2 2.2.39+e496eb1582
-	   |-- fabric-key-binding-api-v1 1.0.55+7feeb73382
-	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
-	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
-	   \-- fabric-resource-loader-v0 3.0.9+203e6b2382
-[17:01:36] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:01:36] [main/INFO]: Compatibility level set to JAVA_21
-[17:01:36] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[17:01:36] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[17:01:36] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[17:01:36] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[17:01:36] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[17:01:36] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[17:01:36] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[17:01:36] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
-[17:01:37] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[17:01:42] [main/INFO]: [voicechat] Compatibility version 18
-[17:01:42] [main/INFO]: [voicechat] Loading plugins
-[17:01:42] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[17:01:42] [main/INFO]: [voicechat] Initializing plugins
-[17:01:42] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[17:01:42] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:01:42] [main/INFO]: Found new data pack fabric, loading it automatically
-[17:01:43] [main/INFO]: No existing world data, creating new world
-[17:01:43] [main/WARN]: Failed to parse level-type default, defaulting to minecraft:normal
-[17:01:44] [main/INFO]: Loaded 1370 recipes
-[17:01:44] [main/INFO]: Loaded 1481 advancements
-[17:01:44] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[17:01:44] [Server thread/INFO]: Loading properties
-[17:01:44] [Server thread/INFO]: Default game type: SURVIVAL
-[17:01:44] [Server thread/INFO]: Generating keypair
-[17:01:44] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[17:01:44] [Server thread/INFO]: Using default channel type
-[17:01:45] [Server thread/INFO]: Preparing level "world"
-[17:01:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:01:48] [Worker-Main-2/INFO]: Preparing spawn area: 2%
-[17:01:48] [Worker-Main-5/INFO]: Preparing spawn area: 2%
-[17:01:49] [Worker-Main-5/INFO]: Preparing spawn area: 18%
-[17:01:49] [Worker-Main-3/INFO]: Preparing spawn area: 20%
-[17:01:50] [Worker-Main-5/INFO]: Preparing spawn area: 51%
-[17:01:50] [Server thread/INFO]: Time elapsed: 2359 ms
-[17:01:50] [Server thread/INFO]: Done (5.448s)! For help, type "help"
-[17:01:50] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[17:01:50] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[17:01:50] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[17:01:50] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[17:02:00] [Server thread/INFO]: Stopping the server
-[17:02:00] [Server thread/INFO]: Stopping server
-[17:02:00] [Server thread/INFO]: Saving players
-[17:02:00] [Server thread/INFO]: Saving worlds
-[17:02:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:02:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[17:02:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[17:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:02:01] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:00:10] [Server thread/INFO]: BlockBearz has made the advancement [We Need to Go Deeper]
+[00:00:15] [Server thread/INFO]: GunYoshi has made the advancement [We Need to Go Deeper]
+[00:00:38] [Server thread/INFO]: <BlockBearz> :)
+[00:02:16] [Server thread/INFO]: Mosshroom_ has made the advancement [Ice Bucket Challenge]
+[00:03:38] [User Authenticator #57/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[00:03:38] [Server thread/INFO]: Bemf[/130.64.64.38:61841] logged in with entity id 416611 at (-274.2132253095584, 62.0, -1894.5231709185061)
+[00:03:38] [Server thread/INFO]: Bemf joined the game
+[00:03:38] [Server thread/INFO]: [voicechat] Received secret request of Bemf (18)
+[00:03:38] [Server thread/INFO]: [voicechat] Sent secret to Bemf
+[00:03:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 258fbffa-8298-496c-b36b-2e67556655e5
+[00:03:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 258fbffa-8298-496c-b36b-2e67556655e5
+[00:03:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Bemf (258fbffa-8298-496c-b36b-2e67556655e5) successfully connected to voice chat
+[00:03:41] [Server thread/INFO]: Bemf lost connection: Disconnected
+[00:03:41] [Server thread/INFO]: Bemf left the game
+[00:03:41] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[00:04:12] [Server thread/INFO]: <Lemon_Frog> Hi!!!
+[00:04:17] [Server thread/INFO]: BlockBearz was slain by _scasey
+[00:04:19] [Server thread/INFO]: Mosshroom_ has made the advancement [Enchanter]
+[00:04:23] [Server thread/INFO]: <King_Orion> food and/or pale saplings?
+[00:04:31] [Server thread/INFO]: <King_Orion> for a poor starving boy
+[00:04:35] [Server thread/INFO]: <GunYoshi> wya
+[00:04:39] [Server thread/INFO]: <King_Orion> thank u
+[00:04:42] [Server thread/INFO]: <Lemon_Frog> <3
+[00:05:07] [Server thread/INFO]: <King_Orion> can i break this tree if i replant it? @lemon_frog
+[00:05:10] [Server thread/INFO]: <Lemon_Frog> yes
+[00:05:11] [Server thread/INFO]: emilysoupp has made the advancement [We Need to Go Deeper]
+[00:05:15] [Server thread/INFO]: <King_Orion> yipppee!
+[00:05:31] [Server thread/INFO]: <emilysoupp> -2 -57
+[00:07:17] [Server thread/INFO]: TheSamuraiSloth discovered the floor was lava
+[00:07:21] [Server thread/INFO]: Frogulous49 was shot by Skeleton
+[00:07:35] [Server thread/INFO]: <BlockBearz> gnight!
+[00:07:38] [Server thread/INFO]: _scasey lost connection: Disconnected
+[00:07:38] [Server thread/INFO]: _scasey left the game
+[00:07:38] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[00:07:46] [Server thread/INFO]: Frogulous49 was shot by Skeleton
+[00:08:08] [Server thread/INFO]: Frogulous49 was shot by Skeleton
+[00:10:33] [Server thread/INFO]: BlockBearz drowned
+[00:10:57] [Server thread/INFO]: Frogulous49 was slain by Spider
+[00:12:34] [Server thread/INFO]: emilysoupp lost connection: Disconnected
+[00:12:34] [Server thread/INFO]: emilysoupp left the game
+[00:12:34] [Server thread/INFO]: [voicechat] Disconnecting client emilysoupp
+[00:12:47] [Server thread/INFO]: 17sk has completed the challenge [Return to Sender]
+[00:12:53] [Server thread/WARN]: King_Orion moved too quickly! 7.861292900715512,-2.8971759102604295,5.580310264120101
+[00:14:02] [Server thread/INFO]: Frogulous49 has made the advancement [Getting an Upgrade]
+[00:14:38] [Server thread/INFO]: BlockBearz drowned
+[00:14:59] [Server thread/INFO]: Frogulous49 was shot by Skeleton
+[00:15:13] [Server thread/INFO]: Frogulous49 was shot by Skeleton
+[00:15:27] [Server thread/INFO]: Frogulous49 was shot by Skeleton
+[00:15:40] [Server thread/INFO]: Frogulous49 was shot by Skeleton
+[00:16:27] [User Authenticator #58/INFO]: UUID of player emilysoupp is 566a49eb-94ba-4465-aa50-9a7a69e8d15f
+[00:16:27] [Server thread/INFO]: emilysoupp[/66.31.252.142:52627] logged in with entity id 431006 at (50.59844240191727, 75.0, -38.03197329316019)
+[00:16:27] [Server thread/INFO]: emilysoupp joined the game
+[00:16:35] [User Authenticator #59/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[00:16:35] [Server thread/INFO]: Bemf[/130.64.64.38:63081] logged in with entity id 431455 at (-274.2132253095584, 62.0, -1894.5231709185061)
+[00:16:35] [Server thread/INFO]: Bemf joined the game
+[00:16:44] [Server thread/INFO]: <17sk> spare cane?
+[00:16:47] [Server thread/INFO]: Bemf was slain by Enderman
+[00:17:02] [Server thread/INFO]: <Mosshroom_> sorry, trying to start a farm
+[00:17:07] [Server thread/INFO]: <Mosshroom_> gotta stockpile
+[00:17:11] [Server thread/INFO]: <Mosshroom_> felix might
+[00:17:15] [Server thread/INFO]: <17sk> understand, dw
+[00:17:19] [Server thread/INFO]: <Mosshroom_> <3
+[00:17:43] [Server thread/INFO]: <emilysoupp> -2 58
+[00:17:44] [Server thread/INFO]: <GunYoshi> -2, -57
+[00:17:55] [Server thread/INFO]: <emilysoupp> thank you
+[00:19:12] [Server thread/INFO]: BlockBearz drowned
+[00:20:53] [Server thread/WARN]: King_Orion moved too quickly! 10.20683990900568,0.7531999805212024,0.49501141577252383
+[00:21:16] [Server thread/WARN]: King_Orion moved too quickly! -0.3411439836753516,2.747796659746271,-9.715892742745837
+[00:22:23] [Server thread/INFO]: <Bemf> hi
+[00:22:25] [Server thread/INFO]: <emilysoupp> hi
+[00:24:18] [Server thread/INFO]: BlockBearz drowned
+[00:24:49] [Server thread/INFO]: emilysoupp was blown up by Ghast
+[00:25:30] [Server thread/INFO]: <GunYoshi> 1000, 1500
+[00:26:41] [User Authenticator #60/INFO]: UUID of player Zumquirelle is 0656d51b-fc45-439f-8850-f95f9f205cc5
+[00:26:41] [Server thread/INFO]: Zumquirelle[/24.60.30.191:51516] logged in with entity id 451924 at (-352.4472992203823, 20.823103620177953, -1842.3138831193435)
+[00:26:41] [Server thread/INFO]: Zumquirelle joined the game
+[00:26:41] [Server thread/INFO]: [voicechat] Received secret request of Zumquirelle (18)
+[00:26:41] [Server thread/INFO]: [voicechat] Sent secret to Zumquirelle
+[00:26:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[00:26:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[00:26:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zumquirelle (0656d51b-fc45-439f-8850-f95f9f205cc5) successfully connected to voice chat
+[00:27:18] [Server thread/INFO]: emilysoupp burned to death
+[00:27:40] [Server thread/INFO]: BlockBearz has made the advancement [Suit Up]
+[00:28:39] [Server thread/INFO]: GunYoshi has made the advancement [The Cutest Predator]
+[00:28:44] [Server thread/INFO]: <Lemon_Frog> WHERE
+[00:28:50] [Server thread/INFO]: <Lemon_Frog> WHERE DID YOU GET IT
+[00:29:00] [Server thread/INFO]: <GunYoshi> ccave
+[00:29:11] [Server thread/INFO]: BlockBearz drowned
+[00:29:12] [Server thread/INFO]: <Lemon_Frog> im gonna rob you in an allyway
+[00:29:14] [Server thread/INFO]: <GunYoshi> ok
+[00:29:59] [Server thread/INFO]: <emilysoupp> i have so much bone meal now if anyone needs any
+[00:29:59] [Server thread/INFO]: Frogulous49 lost connection: Disconnected
+[00:29:59] [Server thread/INFO]: Frogulous49 left the game
+[00:29:59] [Server thread/INFO]: [voicechat] Disconnecting client Frogulous49
+[00:30:59] [Server thread/INFO]: King_Orion has made the advancement [Getting an Upgrade]
+[00:31:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-426, y=58, z=-430} class_2338{x=-427, y=56, z=-432}
+[00:31:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-426, y=58, z=-430} class_2338{x=-427, y=56, z=-432}
+[00:32:57] [Server thread/INFO]: BlockBearz drowned
+[00:37:50] [Server thread/INFO]: <King_Orion> i'll brb
+[00:37:52] [Server thread/INFO]: King_Orion lost connection: Disconnected
+[00:37:52] [Server thread/INFO]: King_Orion left the game
+[00:37:52] [Server thread/INFO]: [voicechat] Disconnecting client King_Orion
+[00:37:58] [Server thread/INFO]: <FrozenJarate> o7
+[00:41:00] [Server thread/INFO]: BlockBearz drowned
+[00:43:14] [Server thread/INFO]: <Bemf> -550 -200
+[00:44:17] [Server thread/INFO]: <Bemf> anyone seen a swamp?
+[00:44:29] [Server thread/INFO]: <Bemf> or more specifically a witch hut?
+[00:44:31] [Server thread/INFO]: 17sk has made the advancement [Fishy Business]
+[00:45:43] [Server thread/INFO]: Bemf has made the advancement [Cover Me with Diamonds]
+[00:46:25] [Server thread/INFO]: AwesomeSauceHFG has made the advancement [Sweet Dreams]
+[00:47:46] [Server thread/INFO]: Bemf has made the advancement [Diamonds!]
+[00:49:18] [Server thread/INFO]: AwesomeSauceHFG has made the advancement [Ice Bucket Challenge]
+[00:49:55] [Server thread/INFO]: <emilysoupp> 948 -1320
+[00:50:09] [Server thread/INFO]: <GunYoshi> mangrove swamp ^
+[00:53:23] [Server thread/INFO]: BlockBearz has made the advancement [Ice Bucket Challenge]
+[00:53:39] [Server thread/INFO]: AwesomeSauceHFG burned to death
+[00:54:13] [User Authenticator #61/INFO]: UUID of player King_Orion is 9438c271-6781-41d2-a23c-ae87f86eefcc
+[00:54:15] [Server thread/INFO]: King_Orion[/62.106.78.141:41158] logged in with entity id 492959 at (1945.9540476869893, 97.0, 1723.201382032482)
+[00:54:15] [Server thread/INFO]: King_Orion joined the game
+[00:55:13] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 5 mins
+[00:55:23] [Server thread/INFO]: <GunYoshi> o7
+[00:55:27] [Server thread/INFO]: <GunYoshi> can we get back on after?
+[00:55:38] [Server thread/INFO]: <FrozenJarate> read #mc-server-info
+[00:55:41] [Server thread/INFO]: <GunYoshi> yessir
+[00:59:12] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 1 minute
+[00:59:14] [Server thread/WARN]: Lemon_Frog moved too quickly! 3.3505978023678153,4.248135998590939,8.456916011343083
+[00:59:19] [Server thread/INFO]: <King_Orion> FUCK
+[00:59:22] [Server thread/INFO]: <BlockBearz> not if i have anything to say about it!
+[00:59:24] [Server thread/INFO]: <FrozenJarate> yippee
+[00:59:37] [Server thread/INFO]: <FrozenJarate> server cant stop me
+[00:59:41] [Server thread/INFO]: <FrozenJarate> im my own person
+[01:00:02] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 10 seconds
+[01:00:06] [Server thread/INFO]: Sierrupd lost connection: Disconnected
+[01:00:06] [Server thread/INFO]: Sierrupd left the game
+[01:00:06] [Server thread/INFO]: [voicechat] Disconnecting client Sierrupd
+[01:00:06] [Server thread/INFO]: <GunYoshi> AHHH!
+[01:00:09] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[01:00:09] [Server thread/INFO]: GunYoshi left the game
+[01:00:09] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[01:00:11] [Server thread/INFO]: <madb0nes> o7
+[01:00:11] [Server thread/INFO]: <FrozenJarate> ASJKHFGOIJASGhkijabhvhavgb
+[01:00:13] [Server thread/INFO]: Stopping the server
+[01:00:13] [Server thread/INFO]: Stopping server
+[01:00:13] [Server thread/INFO]: Saving players
+[01:00:13] [Server thread/INFO]: Mosshroom_ lost connection: Server closed
+[01:00:13] [Server thread/INFO]: Mosshroom_ left the game
+[01:00:13] [Server thread/INFO]: FrozenJarate lost connection: Server closed
+[01:00:13] [Server thread/INFO]: FrozenJarate left the game
+[01:00:13] [Server thread/INFO]: Lemon_Frog lost connection: Server closed
+[01:00:13] [Server thread/INFO]: Lemon_Frog left the game
+[01:00:13] [Server thread/INFO]: Bemf lost connection: Server closed
+[01:00:13] [Server thread/INFO]: Bemf left the game
+[01:00:13] [Server thread/INFO]: emilysoupp lost connection: Server closed
+[01:00:13] [Server thread/INFO]: emilysoupp left the game
+[01:00:13] [Server thread/INFO]: AwesomeSauceHFG lost connection: Server closed
+[01:00:13] [Server thread/INFO]: AwesomeSauceHFG left the game
+[01:00:13] [Server thread/INFO]: Saving worlds
+[01:00:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[01:00:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[01:00:16] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[01:00:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[01:00:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[01:00:16] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[01:00:16] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
