@@ -97,6 +97,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:flower_forest": "2024-12-20 15:20:26 -0500",
       "minecraft:beach": "2024-12-19 21:21:42 -0500",
       "minecraft:dark_forest": "2024-12-19 21:12:42 -0500",
       "minecraft:forest": "2024-12-19 19:09:49 -0500",
@@ -8289,13 +8290,15 @@
       "minecraft:pillager": "2024-12-19 22:58:30 -0500",
       "minecraft:skeleton": "2024-12-19 19:09:07 -0500",
       "minecraft:zombified_piglin": "2024-12-19 19:53:51 -0500",
+      "minecraft:ghast": "2024-12-19 19:31:54 -0500",
+      "minecraft:shulker": "2024-12-19 22:16:41 -0500",
       "minecraft:enderman": "2024-12-19 21:44:12 -0500",
       "minecraft:silverfish": "2024-12-19 21:32:17 -0500",
       "minecraft:magma_cube": "2024-12-19 19:48:03 -0500",
+      "minecraft:spider": "2024-12-20 12:38:50 -0500",
       "minecraft:zombie": "2024-12-19 19:17:22 -0500",
       "minecraft:creeper": "2024-12-19 19:12:59 -0500",
-      "minecraft:ghast": "2024-12-19 19:31:54 -0500",
-      "minecraft:shulker": "2024-12-19 22:16:41 -0500"
+      "minecraft:slime": "2024-12-20 12:59:27 -0500"
     },
     "done": false
   },
@@ -8446,6 +8449,36 @@
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2024-12-19 23:31:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-20 12:26:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-12-20 13:09:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-12-20 14:31:45 -0500"
+    },
+    "done": false
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-12-20 14:49:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-12-20 14:31:45 -0500"
     },
     "done": true
   },

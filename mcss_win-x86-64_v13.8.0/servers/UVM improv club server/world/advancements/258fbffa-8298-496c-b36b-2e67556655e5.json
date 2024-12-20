@@ -8496,7 +8496,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2024-12-19 23:35:22 -0500"
+      "minecraft:cow": "2024-12-19 23:35:22 -0500",
+      "minecraft:sheep": "2024-12-20 15:13:17 -0500"
     },
     "done": false
   },
@@ -8518,12 +8519,6 @@
     },
     "done": true
   },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2024-12-20 02:38:10 -0500"
-    },
-    "done": true
-  },
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2024-12-20 01:55:33 -0500"
@@ -8533,6 +8528,18 @@
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2024-12-20 02:28:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-20 02:38:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-12-20 15:07:24 -0500"
     },
     "done": true
   },
