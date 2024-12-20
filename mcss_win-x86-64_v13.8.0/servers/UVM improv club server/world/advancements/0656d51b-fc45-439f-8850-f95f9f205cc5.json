@@ -98,24 +98,35 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:snowy_slopes": "2024-12-19 19:41:40 -0500",
+      "minecraft:old_growth_pine_taiga": "2024-12-20 02:08:38 -0500",
+      "minecraft:forest": "2024-12-19 19:42:24 -0500",
+      "minecraft:taiga": "2024-12-20 02:08:52 -0500",
+      "minecraft:deep_ocean": "2024-12-19 19:19:01 -0500",
+      "minecraft:desert": "2024-12-20 02:04:09 -0500",
+      "minecraft:windswept_forest": "2024-12-20 02:08:41 -0500",
+      "minecraft:jungle": "2024-12-19 19:03:46 -0500",
+      "minecraft:ocean": "2024-12-20 02:05:36 -0500",
+      "minecraft:cherry_grove": "2024-12-19 19:39:26 -0500",
+      "minecraft:sunflower_plains": "2024-12-19 19:24:12 -0500",
+      "minecraft:birch_forest": "2024-12-19 19:00:16 -0500",
+      "minecraft:windswept_hills": "2024-12-20 02:11:26 -0500",
+      "minecraft:old_growth_spruce_taiga": "2024-12-20 02:08:45 -0500",
+      "minecraft:warm_ocean": "2024-12-20 02:04:10 -0500",
+      "minecraft:deep_lukewarm_ocean": "2024-12-19 19:16:32 -0500",
       "minecraft:beach": "2024-12-19 19:14:25 -0500",
       "minecraft:dark_forest": "2024-12-19 19:45:48 -0500",
-      "minecraft:forest": "2024-12-19 19:42:24 -0500",
+      "minecraft:mangrove_swamp": "2024-12-20 02:04:48 -0500",
       "minecraft:sparse_jungle": "2024-12-19 19:03:00 -0500",
-      "minecraft:deep_ocean": "2024-12-19 19:19:01 -0500",
       "minecraft:river": "2024-12-19 19:02:53 -0500",
       "minecraft:lukewarm_ocean": "2024-12-19 19:14:27 -0500",
       "minecraft:dripstone_caves": "2024-12-19 19:48:36 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-19 19:46:42 -0500",
-      "minecraft:jungle": "2024-12-19 19:03:46 -0500",
-      "minecraft:cherry_grove": "2024-12-19 19:39:26 -0500",
-      "minecraft:sunflower_plains": "2024-12-19 19:24:12 -0500",
       "minecraft:grove": "2024-12-19 19:49:52 -0500",
+      "minecraft:swamp": "2024-12-20 02:08:56 -0500",
       "minecraft:meadow": "2024-12-19 19:45:15 -0500",
-      "minecraft:birch_forest": "2024-12-19 19:00:16 -0500",
+      "minecraft:windswept_gravelly_hills": "2024-12-20 02:51:37 -0500",
       "minecraft:savanna": "2024-12-19 19:21:54 -0500",
       "minecraft:plains": "2024-12-19 19:24:39 -0500",
-      "minecraft:deep_lukewarm_ocean": "2024-12-19 19:16:32 -0500",
       "minecraft:pale_garden": "2024-12-19 19:48:18 -0500"
     },
     "done": false
@@ -8291,6 +8302,8 @@
       "bread": "2024-12-19 19:29:41 -0500",
       "golden_apple": "2024-12-19 21:42:32 -0500",
       "cooked_mutton": "2024-12-19 21:55:30 -0500",
+      "potato": "2024-12-20 01:30:59 -0500",
+      "cooked_cod": "2024-12-20 02:10:40 -0500",
       "salmon": "2024-12-19 19:06:54 -0500",
       "cooked_beef": "2024-12-19 22:10:17 -0500",
       "chorus_fruit": "2024-12-19 22:35:38 -0500",
@@ -8338,14 +8351,20 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:cave_spider": "2024-12-19 19:36:52 -0500",
+      "minecraft:pillager": "2024-12-20 04:26:10 -0500",
       "minecraft:skeleton": "2024-12-19 19:36:07 -0500",
+      "minecraft:witch": "2024-12-20 02:10:27 -0500",
+      "minecraft:wither_skeleton": "2024-12-19 20:42:58 -0500",
+      "minecraft:ghast": "2024-12-20 01:21:17 -0500",
+      "minecraft:hoglin": "2024-12-20 03:15:17 -0500",
+      "minecraft:shulker": "2024-12-19 22:42:06 -0500",
+      "minecraft:cave_spider": "2024-12-19 19:36:52 -0500",
       "minecraft:enderman": "2024-12-19 20:44:16 -0500",
       "minecraft:silverfish": "2024-12-19 21:27:52 -0500",
-      "minecraft:wither_skeleton": "2024-12-19 20:42:58 -0500",
+      "minecraft:magma_cube": "2024-12-20 02:57:40 -0500",
+      "minecraft:spider": "2024-12-20 01:12:10 -0500",
       "minecraft:zombie": "2024-12-19 19:38:19 -0500",
-      "minecraft:creeper": "2024-12-19 21:20:27 -0500",
-      "minecraft:shulker": "2024-12-19 22:42:06 -0500"
+      "minecraft:creeper": "2024-12-19 21:20:27 -0500"
     },
     "done": false
   },
@@ -8381,12 +8400,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-12-20 02:41:24 -0500",
       "minecraft:soul_sand_valley": "2024-12-19 20:08:51 -0500",
       "minecraft:nether_wastes": "2024-12-19 20:34:44 -0500",
       "minecraft:basalt_deltas": "2024-12-19 20:59:57 -0500",
       "minecraft:warped_forest": "2024-12-19 20:38:47 -0500"
     },
-    "done": false
+    "done": true
   },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
@@ -8481,6 +8501,24 @@
   "minecraft:end/elytra": {
     "criteria": {
       "elytra": "2024-12-19 23:36:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-12-20 01:21:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-12-20 04:26:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-12-20 04:47:07 -0500"
     },
     "done": true
   },

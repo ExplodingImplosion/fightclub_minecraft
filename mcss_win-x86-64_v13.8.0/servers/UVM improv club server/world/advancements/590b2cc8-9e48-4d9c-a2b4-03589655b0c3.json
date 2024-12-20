@@ -8359,18 +8359,6 @@
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:basalt_deltas": "2024-12-20 00:00:16 -0500"
-    },
-    "done": false
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2024-12-20 00:00:15 -0500"
-    },
-    "done": true
-  },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2024-12-19 22:11:30 -0500",
@@ -8378,9 +8366,9 @@
     },
     "done": false
   },
-  "minecraft:story/enter_the_nether": {
+  "minecraft:husbandry/breed_an_animal": {
     "criteria": {
-      "entered_nether": "2024-12-20 00:00:15 -0500"
+      "bred": "2024-12-19 22:11:30 -0500"
     },
     "done": true
   },
@@ -8390,15 +8378,27 @@
     },
     "done": true
   },
-  "minecraft:husbandry/axolotl_in_a_bucket": {
+  "minecraft:nether/root": {
     "criteria": {
-      "axolotl_bucket": "2024-12-20 00:28:39 -0500"
+      "entered_nether": "2024-12-20 00:00:15 -0500"
     },
     "done": true
   },
-  "minecraft:husbandry/breed_an_animal": {
+  "minecraft:story/enter_the_nether": {
     "criteria": {
-      "bred": "2024-12-19 22:11:30 -0500"
+      "entered_nether": "2024-12-20 00:00:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2024-12-20 00:00:16 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2024-12-20 00:28:39 -0500"
     },
     "done": true
   },

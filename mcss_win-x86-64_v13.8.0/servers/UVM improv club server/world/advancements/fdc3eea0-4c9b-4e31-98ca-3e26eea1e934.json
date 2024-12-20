@@ -8288,6 +8288,7 @@
       "cooked_chicken": "2024-12-19 20:35:00 -0500",
       "cooked_mutton": "2024-12-19 19:38:02 -0500",
       "cooked_beef": "2024-12-19 19:25:06 -0500",
+      "melon_slice": "2024-12-20 02:04:41 -0500",
       "cooked_salmon": "2024-12-19 19:20:25 -0500"
     },
     "done": false
@@ -8302,6 +8303,7 @@
     "criteria": {
       "minecraft:pillager": "2024-12-19 23:52:40 -0500",
       "minecraft:skeleton": "2024-12-19 19:40:39 -0500",
+      "minecraft:spider": "2024-12-20 01:12:20 -0500",
       "minecraft:zombie": "2024-12-19 19:22:33 -0500"
     },
     "done": false
@@ -8348,15 +8350,21 @@
     },
     "done": true
   },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-12-19 22:05:18 -0500"
+    },
+    "done": true
+  },
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2024-12-19 23:48:25 -0500"
     },
     "done": true
   },
-  "minecraft:story/mine_diamond": {
+  "minecraft:adventure/sleep_in_bed": {
     "criteria": {
-      "diamond": "2024-12-19 22:05:18 -0500"
+      "slept_in_bed": "2024-12-20 01:33:03 -0500"
     },
     "done": true
   },

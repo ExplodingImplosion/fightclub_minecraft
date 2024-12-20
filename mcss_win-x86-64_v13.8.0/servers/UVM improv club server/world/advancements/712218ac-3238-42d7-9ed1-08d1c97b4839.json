@@ -107,6 +107,7 @@
       "minecraft:stony_shore": "2024-12-20 00:19:28 -0500",
       "minecraft:dripstone_caves": "2024-12-19 19:14:22 -0500",
       "minecraft:frozen_peaks": "2024-12-19 19:36:21 -0500",
+      "minecraft:old_growth_birch_forest": "2024-12-20 03:22:30 -0500",
       "minecraft:ocean": "2024-12-20 00:02:04 -0500",
       "minecraft:cherry_grove": "2024-12-19 19:37:28 -0500",
       "minecraft:sunflower_plains": "2024-12-19 19:37:56 -0500",
@@ -8286,7 +8287,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:zombie": "2024-12-19 19:16:34 -0500"
+      "minecraft:zombie": "2024-12-19 19:16:34 -0500",
+      "minecraft:ghast": "2024-12-20 01:15:35 -0500"
     },
     "done": false
   },
@@ -8304,6 +8306,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "apple": "2024-12-20 03:04:01 -0500",
       "cooked_beef": "2024-12-19 19:44:03 -0500"
     },
     "done": false
@@ -8332,15 +8335,47 @@
     },
     "done": true
   },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-20 00:46:25 -0500"
+    },
+    "done": true
+  },
   "minecraft:story/form_obsidian": {
     "criteria": {
       "obsidian": "2024-12-20 00:49:18 -0500"
     },
     "done": true
   },
-  "minecraft:adventure/sleep_in_bed": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "slept_in_bed": "2024-12-20 00:46:25 -0500"
+      "minecraft:nether_wastes": "2024-12-20 01:14:58 -0500",
+      "minecraft:soul_sand_valley": "2024-12-20 01:15:01 -0500",
+      "minecraft:basalt_deltas": "2024-12-20 02:13:58 -0500"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-12-20 01:14:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-12-20 01:14:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-12-20 01:15:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-12-20 01:23:35 -0500"
     },
     "done": true
   },

@@ -8372,6 +8372,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-12-19 22:12:26 -0500"
+    },
+    "done": true
+  },
   "minecraft:story/deflect_arrow": {
     "criteria": {
       "deflected_projectile": "2024-12-19 23:41:29 -0500"
@@ -8387,12 +8393,6 @@
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2024-12-20 00:04:19 -0500"
-    },
-    "done": true
-  },
-  "minecraft:adventure/trade": {
-    "criteria": {
-      "traded": "2024-12-19 22:12:26 -0500"
     },
     "done": true
   },

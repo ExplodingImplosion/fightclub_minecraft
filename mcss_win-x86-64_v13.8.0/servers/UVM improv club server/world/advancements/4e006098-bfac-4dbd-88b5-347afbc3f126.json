@@ -5743,6 +5743,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:flower_forest": "2024-12-20 02:36:08 -0500",
       "minecraft:beach": "2024-12-19 23:17:31 -0500",
       "minecraft:dark_forest": "2024-12-20 00:28:55 -0500",
       "minecraft:forest": "2024-12-19 23:21:34 -0500",
@@ -8292,6 +8293,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:skeleton": "2024-12-19 21:33:34 -0500",
+      "minecraft:spider": "2024-12-20 01:48:50 -0500",
       "minecraft:zombie": "2024-12-19 22:32:19 -0500",
       "minecraft:creeper": "2024-12-19 21:47:13 -0500"
     },
@@ -8305,9 +8307,12 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "golden_apple": "2024-12-20 02:39:19 -0500",
+      "bread": "2024-12-20 01:53:52 -0500",
       "cooked_mutton": "2024-12-20 00:59:32 -0500",
       "potato": "2024-12-19 23:26:27 -0500",
       "glow_berries": "2024-12-19 22:04:12 -0500",
+      "cooked_beef": "2024-12-20 01:12:05 -0500",
       "melon_slice": "2024-12-19 21:33:40 -0500",
       "carrot": "2024-12-20 00:16:46 -0500"
     },
@@ -8370,6 +8375,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-12-19 23:50:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-20 01:11:41 -0500"
     },
     "done": true
   },

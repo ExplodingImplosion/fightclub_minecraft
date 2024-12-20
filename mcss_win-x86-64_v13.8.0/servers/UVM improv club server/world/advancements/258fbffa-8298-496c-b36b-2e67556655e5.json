@@ -97,20 +97,29 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:forest": "2024-12-19 19:08:42 -0500",
+      "minecraft:taiga": "2024-12-20 02:06:46 -0500",
+      "minecraft:desert": "2024-12-20 02:04:56 -0500",
+      "minecraft:jungle": "2024-12-19 19:07:33 -0500",
+      "minecraft:birch_forest": "2024-12-19 19:00:15 -0500",
+      "minecraft:windswept_hills": "2024-12-20 03:06:13 -0500",
+      "minecraft:bamboo_jungle": "2024-12-19 19:11:32 -0500",
+      "minecraft:windswept_savanna": "2024-12-20 02:04:52 -0500",
+      "minecraft:deep_lukewarm_ocean": "2024-12-20 02:04:39 -0500",
       "minecraft:savanna_plateau": "2024-12-19 21:24:38 -0500",
       "minecraft:beach": "2024-12-19 19:57:13 -0500",
       "minecraft:dark_forest": "2024-12-19 21:16:43 -0500",
-      "minecraft:forest": "2024-12-19 19:08:42 -0500",
       "minecraft:sparse_jungle": "2024-12-19 19:07:35 -0500",
       "minecraft:river": "2024-12-19 19:07:41 -0500",
       "minecraft:lukewarm_ocean": "2024-12-19 20:18:36 -0500",
+      "minecraft:dripstone_caves": "2024-12-20 04:05:16 -0500",
       "minecraft:frozen_peaks": "2024-12-19 21:19:39 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-19 20:21:20 -0500",
-      "minecraft:jungle": "2024-12-19 19:07:33 -0500",
       "minecraft:grove": "2024-12-19 21:19:24 -0500",
-      "minecraft:birch_forest": "2024-12-19 19:00:15 -0500",
+      "minecraft:swamp": "2024-12-20 02:09:11 -0500",
+      "minecraft:meadow": "2024-12-20 02:06:26 -0500",
+      "minecraft:windswept_gravelly_hills": "2024-12-20 02:19:40 -0500",
       "minecraft:savanna": "2024-12-19 21:23:21 -0500",
-      "minecraft:bamboo_jungle": "2024-12-19 19:11:32 -0500",
       "minecraft:plains": "2024-12-19 19:27:43 -0500",
       "minecraft:pale_garden": "2024-12-19 21:19:11 -0500"
     },
@@ -8285,11 +8294,13 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-12-19 19:27:01 -0500",
+      "bread": "2024-12-20 02:30:54 -0500",
       "cooked_mutton": "2024-12-19 20:19:46 -0500",
       "dried_kelp": "2024-12-19 22:54:00 -0500",
       "cooked_beef": "2024-12-19 19:11:58 -0500",
       "chorus_fruit": "2024-12-19 22:49:50 -0500",
-      "cooked_salmon": "2024-12-19 23:13:11 -0500"
+      "cooked_salmon": "2024-12-19 23:13:11 -0500",
+      "golden_carrot": "2024-12-20 05:00:59 -0500"
     },
     "done": false
   },
@@ -8303,15 +8314,17 @@
     "criteria": {
       "minecraft:blaze": "2024-12-19 19:48:13 -0500",
       "minecraft:skeleton": "2024-12-19 19:12:49 -0500",
+      "minecraft:ghast": "2024-12-19 20:46:52 -0500",
+      "minecraft:ender_dragon": "2024-12-19 21:50:28 -0500",
+      "minecraft:hoglin": "2024-12-20 03:26:27 -0500",
+      "minecraft:shulker": "2024-12-19 22:19:36 -0500",
       "minecraft:piglin": "2024-12-19 19:33:52 -0500",
       "minecraft:enderman": "2024-12-19 20:39:31 -0500",
       "minecraft:silverfish": "2024-12-19 21:30:20 -0500",
       "minecraft:magma_cube": "2024-12-19 19:33:02 -0500",
       "minecraft:spider": "2024-12-19 21:14:00 -0500",
       "minecraft:zombie": "2024-12-19 21:13:34 -0500",
-      "minecraft:ghast": "2024-12-19 20:46:52 -0500",
-      "minecraft:ender_dragon": "2024-12-19 21:50:28 -0500",
-      "minecraft:shulker": "2024-12-19 22:19:36 -0500"
+      "minecraft:creeper": "2024-12-20 03:36:09 -0500"
     },
     "done": false
   },
@@ -8502,6 +8515,24 @@
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2024-12-20 00:47:46 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2024-12-20 02:38:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-12-20 01:55:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-12-20 02:28:55 -0500"
     },
     "done": true
   },

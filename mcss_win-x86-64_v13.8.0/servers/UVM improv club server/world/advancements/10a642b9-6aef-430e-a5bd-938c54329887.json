@@ -8291,33 +8291,9 @@
     },
     "done": true
   },
-  "minecraft:story/obtain_armor": {
+  "minecraft:adventure/sleep_in_bed": {
     "criteria": {
-      "iron_helmet": "2024-12-20 00:27:40 -0500"
-    },
-    "done": true
-  },
-  "minecraft:story/iron_tools": {
-    "criteria": {
-      "iron_pickaxe": "2024-12-19 23:20:23 -0500"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:basalt_deltas": "2024-12-20 00:00:11 -0500"
-    },
-    "done": false
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2024-12-20 00:00:10 -0500"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2024-12-20 00:00:10 -0500"
+      "slept_in_bed": "2024-12-19 22:42:46 -0500"
     },
     "done": true
   },
@@ -8327,21 +8303,21 @@
     },
     "done": true
   },
-  "minecraft:story/form_obsidian": {
+  "minecraft:husbandry/plant_seed": {
     "criteria": {
-      "obsidian": "2024-12-20 00:53:23 -0500"
+      "melon_stem": "2024-12-19 22:55:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-12-19 23:20:23 -0500"
     },
     "done": true
   },
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2024-12-19 23:20:43 -0500"
-    },
-    "done": true
-  },
-  "minecraft:adventure/sleep_in_bed": {
-    "criteria": {
-      "slept_in_bed": "2024-12-19 22:42:46 -0500"
     },
     "done": true
   },
@@ -8357,22 +8333,53 @@
     },
     "done": true
   },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "melon_stem": "2024-12-19 22:55:13 -0500"
-    },
-    "done": true
-  },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "salmon": "2024-12-19 23:42:55 -0500",
-      "cooked_beef": "2024-12-20 00:48:17 -0500"
+      "cooked_beef": "2024-12-20 00:48:17 -0500",
+      "cooked_salmon": "2024-12-20 01:05:18 -0500"
     },
     "done": false
   },
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2024-12-19 23:42:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-12-20 00:00:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-12-20 00:00:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:basalt_deltas": "2024-12-20 00:00:11 -0500"
+    },
+    "done": false
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2024-12-20 00:27:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-12-20 00:53:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2024-12-20 01:11:35 -0500"
     },
     "done": true
   },
