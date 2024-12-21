@@ -8313,6 +8313,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-12-19 22:43:37 -0500",
+      "minecraft:cave_spider": "2024-12-20 15:34:15 -0500",
       "minecraft:skeleton": "2024-12-19 20:34:23 -0500",
       "minecraft:spider": "2024-12-20 15:21:20 -0500",
       "minecraft:zombie": "2024-12-19 19:30:33 -0500"
@@ -8402,6 +8403,12 @@
   "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
       "axolotl_bucket": "2024-12-20 00:28:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-20 15:58:43 -0500"
     },
     "done": true
   },

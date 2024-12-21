@@ -106,6 +106,7 @@
       "minecraft:lush_caves": "2024-12-19 22:45:55 -0500",
       "minecraft:dripstone_caves": "2024-12-19 23:26:27 -0500",
       "minecraft:desert": "2024-12-20 00:45:38 -0500",
+      "minecraft:deep_dark": "2024-12-20 17:55:58 -0500",
       "minecraft:jungle": "2024-12-19 21:01:26 -0500",
       "minecraft:ocean": "2024-12-20 00:59:39 -0500",
       "minecraft:meadow": "2024-12-19 20:51:14 -0500",
@@ -8323,7 +8324,11 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "minecraft:spider": "2024-12-19 23:24:57 -0500"
+      "minecraft:skeleton": "2024-12-20 18:04:08 -0500",
+      "minecraft:witch": "2024-12-20 18:07:10 -0500",
+      "minecraft:spider": "2024-12-19 23:24:57 -0500",
+      "minecraft:zombie": "2024-12-20 17:46:57 -0500",
+      "minecraft:creeper": "2024-12-20 18:16:24 -0500"
     },
     "done": false
   },
@@ -8337,7 +8342,9 @@
     "criteria": {
       "salmon": "2024-12-19 23:42:55 -0500",
       "cooked_beef": "2024-12-20 00:48:17 -0500",
-      "cooked_salmon": "2024-12-20 01:05:18 -0500"
+      "melon_slice": "2024-12-20 20:14:09 -0500",
+      "cooked_salmon": "2024-12-20 01:05:18 -0500",
+      "pumpkin_pie": "2024-12-20 18:16:13 -0500"
     },
     "done": false
   },
@@ -8382,6 +8389,12 @@
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2024-12-20 01:11:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-12-20 20:19:17 -0500"
     },
     "done": true
   },

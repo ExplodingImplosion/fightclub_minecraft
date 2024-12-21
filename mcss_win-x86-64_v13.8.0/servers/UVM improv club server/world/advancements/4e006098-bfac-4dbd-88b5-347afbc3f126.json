@@ -5744,11 +5744,14 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:forest": "2024-12-19 23:21:34 -0500",
+      "minecraft:taiga": "2024-12-20 16:40:42 -0500",
       "minecraft:deep_ocean": "2024-12-19 23:19:00 -0500",
       "minecraft:lush_caves": "2024-12-19 21:45:27 -0500",
       "minecraft:desert": "2024-12-19 23:34:10 -0500",
+      "minecraft:windswept_forest": "2024-12-20 16:43:53 -0500",
       "minecraft:ocean": "2024-12-19 23:19:01 -0500",
       "minecraft:jungle": "2024-12-19 21:28:56 -0500",
+      "minecraft:sunflower_plains": "2024-12-20 17:44:24 -0500",
       "minecraft:birch_forest": "2024-12-19 21:22:05 -0500",
       "minecraft:windswept_hills": "2024-12-20 14:31:56 -0500",
       "minecraft:old_growth_spruce_taiga": "2024-12-20 14:33:59 -0500",
@@ -5762,6 +5765,7 @@
       "minecraft:sparse_jungle": "2024-12-19 21:22:28 -0500",
       "minecraft:river": "2024-12-19 21:22:26 -0500",
       "minecraft:lukewarm_ocean": "2024-12-19 23:17:34 -0500",
+      "minecraft:stony_shore": "2024-12-20 17:16:57 -0500",
       "minecraft:dripstone_caves": "2024-12-19 21:23:47 -0500",
       "minecraft:frozen_peaks": "2024-12-20 00:52:14 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-19 22:34:09 -0500",
@@ -8315,15 +8319,19 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "mutton": "2024-12-20 14:43:43 -0500",
-      "apple": "2024-12-20 14:26:49 -0500",
       "golden_apple": "2024-12-20 02:39:19 -0500",
       "bread": "2024-12-20 01:53:52 -0500",
+      "rotten_flesh": "2024-12-20 15:57:24 -0500",
+      "suspicious_stew": "2024-12-20 16:49:20 -0500",
       "cooked_mutton": "2024-12-20 00:59:32 -0500",
-      "potato": "2024-12-19 23:26:27 -0500",
       "glow_berries": "2024-12-19 22:04:12 -0500",
       "cooked_beef": "2024-12-20 01:12:05 -0500",
       "beef": "2024-12-20 14:41:21 -0500",
       "melon_slice": "2024-12-19 21:33:40 -0500",
+      "apple": "2024-12-20 14:26:49 -0500",
+      "potato": "2024-12-19 23:26:27 -0500",
+      "cooked_cod": "2024-12-20 17:18:10 -0500",
+      "cooked_salmon": "2024-12-20 17:13:26 -0500",
       "carrot": "2024-12-20 00:16:46 -0500"
     },
     "done": false
@@ -8396,12 +8404,6 @@
     },
     "done": true
   },
-  "minecraft:nether/loot_bastion": {
-    "criteria": {
-      "loot_bastion_other": "2024-12-20 14:44:38 -0500"
-    },
-    "done": true
-  },
   "minecraft:nether/return_to_sender": {
     "criteria": {
       "killed_ghast": "2024-12-20 14:38:10 -0500"
@@ -8411,6 +8413,18 @@
   "minecraft:nether/find_bastion": {
     "criteria": {
       "bastion": "2024-12-20 14:41:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_other": "2024-12-20 14:44:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-12-20 16:36:16 -0500"
     },
     "done": true
   },

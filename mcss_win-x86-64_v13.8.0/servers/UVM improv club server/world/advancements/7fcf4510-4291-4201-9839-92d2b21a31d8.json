@@ -97,6 +97,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2024-12-20 16:23:12 -0500",
       "minecraft:beach": "2024-12-19 20:00:20 -0500",
       "minecraft:dark_forest": "2024-12-19 21:12:46 -0500",
       "minecraft:forest": "2024-12-19 21:12:08 -0500",
@@ -105,8 +106,10 @@
       "minecraft:lukewarm_ocean": "2024-12-19 23:04:58 -0500",
       "minecraft:lush_caves": "2024-12-20 15:15:27 -0500",
       "minecraft:dripstone_caves": "2024-12-19 21:14:56 -0500",
+      "minecraft:frozen_peaks": "2024-12-20 16:24:01 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-19 21:12:18 -0500",
       "minecraft:jungle": "2024-12-19 19:08:53 -0500",
+      "minecraft:cherry_grove": "2024-12-20 16:26:25 -0500",
       "minecraft:grove": "2024-12-19 22:54:05 -0500",
       "minecraft:meadow": "2024-12-19 22:52:14 -0500",
       "minecraft:birch_forest": "2024-12-19 19:00:14 -0500",
@@ -8373,6 +8376,7 @@
     "criteria": {
       "minecraft:skeleton": "2024-12-20 00:08:17 -0500",
       "minecraft:enderman": "2024-12-19 21:41:22 -0500",
+      "minecraft:silverfish": "2024-12-20 16:24:08 -0500",
       "minecraft:spider": "2024-12-20 00:11:41 -0500",
       "minecraft:zombie": "2024-12-20 14:12:18 -0500"
     },
@@ -8424,6 +8428,12 @@
   "minecraft:story/obtain_armor": {
     "criteria": {
       "iron_leggings": "2024-12-20 14:32:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2024-12-20 15:27:59 -0500"
     },
     "done": true
   },

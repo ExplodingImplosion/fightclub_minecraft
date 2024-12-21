@@ -8275,10 +8275,13 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "apple": "2024-12-20 20:10:28 -0500",
       "bread": "2024-12-19 21:50:15 -0500",
       "cooked_chicken": "2024-12-19 20:38:05 -0500",
       "cooked_mutton": "2024-12-19 19:39:26 -0500",
+      "glow_berries": "2024-12-20 17:25:29 -0500",
       "cooked_beef": "2024-12-19 19:22:40 -0500",
+      "melon_slice": "2024-12-20 15:29:54 -0500",
       "cooked_salmon": "2024-12-19 21:53:47 -0500"
     },
     "done": false
@@ -8356,6 +8359,12 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2024-12-20 13:24:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-12-20 20:30:45 -0500"
     },
     "done": true
   },

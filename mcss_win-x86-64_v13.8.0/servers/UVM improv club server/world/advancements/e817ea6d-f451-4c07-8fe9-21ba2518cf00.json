@@ -110,6 +110,7 @@
       "minecraft:cherry_grove": "2024-12-19 22:56:14 -0500",
       "minecraft:sunflower_plains": "2024-12-19 22:55:15 -0500",
       "minecraft:grove": "2024-12-19 22:59:47 -0500",
+      "minecraft:swamp": "2024-12-20 16:38:32 -0500",
       "minecraft:meadow": "2024-12-19 23:00:13 -0500",
       "minecraft:birch_forest": "2024-12-19 19:00:14 -0500",
       "minecraft:savanna": "2024-12-19 21:18:56 -0500",
@@ -8470,15 +8471,21 @@
     },
     "done": false
   },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-12-20 14:31:45 -0500"
+    },
+    "done": true
+  },
   "minecraft:story/enchant_item": {
     "criteria": {
       "enchanted_item": "2024-12-20 14:49:31 -0500"
     },
     "done": true
   },
-  "minecraft:husbandry/breed_an_animal": {
+  "minecraft:husbandry/make_a_sign_glow": {
     "criteria": {
-      "bred": "2024-12-20 14:31:45 -0500"
+      "make_a_sign_glow": "2024-12-20 18:29:10 -0500"
     },
     "done": true
   },
