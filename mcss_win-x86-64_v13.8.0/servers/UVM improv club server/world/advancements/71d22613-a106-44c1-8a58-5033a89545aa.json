@@ -97,19 +97,30 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-12-20 21:43:33 -0500",
       "minecraft:flower_forest": "2024-12-19 21:42:27 -0500",
+      "minecraft:snowy_slopes": "2024-12-20 22:33:05 -0500",
+      "minecraft:beach": "2024-12-20 21:57:42 -0500",
       "minecraft:forest": "2024-12-19 19:16:40 -0500",
+      "minecraft:taiga": "2024-12-20 23:00:54 -0500",
       "minecraft:sparse_jungle": "2024-12-19 19:12:19 -0500",
+      "minecraft:deep_ocean": "2024-12-20 21:38:31 -0500",
       "minecraft:river": "2024-12-19 19:10:41 -0500",
+      "minecraft:lukewarm_ocean": "2024-12-20 21:36:18 -0500",
+      "minecraft:stony_shore": "2024-12-20 21:42:26 -0500",
       "minecraft:dripstone_caves": "2024-12-19 19:12:25 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-19 19:21:01 -0500",
+      "minecraft:deep_dark": "2024-12-20 22:33:10 -0500",
       "minecraft:jungle": "2024-12-19 19:18:09 -0500",
+      "minecraft:ocean": "2024-12-20 21:41:01 -0500",
       "minecraft:cherry_grove": "2024-12-19 19:31:37 -0500",
       "minecraft:sunflower_plains": "2024-12-19 19:38:16 -0500",
       "minecraft:meadow": "2024-12-19 19:26:52 -0500",
       "minecraft:birch_forest": "2024-12-19 19:01:01 -0500",
+      "minecraft:savanna": "2024-12-20 23:37:12 -0500",
       "minecraft:bamboo_jungle": "2024-12-19 22:27:49 -0500",
-      "minecraft:plains": "2024-12-19 19:25:07 -0500"
+      "minecraft:plains": "2024-12-19 19:25:07 -0500",
+      "minecraft:deep_lukewarm_ocean": "2024-12-20 21:36:37 -0500"
     },
     "done": false
   },
@@ -8280,6 +8291,7 @@
       "cooked_chicken": "2024-12-19 20:38:05 -0500",
       "cooked_mutton": "2024-12-19 19:39:26 -0500",
       "glow_berries": "2024-12-20 17:25:29 -0500",
+      "cooked_cod": "2024-12-20 23:38:34 -0500",
       "cooked_beef": "2024-12-19 19:22:40 -0500",
       "melon_slice": "2024-12-20 15:29:54 -0500",
       "cooked_salmon": "2024-12-19 21:53:47 -0500"
@@ -8318,7 +8330,9 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:cave_spider": "2024-12-20 22:44:13 -0500",
       "minecraft:skeleton": "2024-12-19 19:53:41 -0500",
+      "minecraft:silverfish": "2024-12-20 22:38:07 -0500",
       "minecraft:spider": "2024-12-19 21:38:07 -0500",
       "minecraft:zombie": "2024-12-19 20:10:26 -0500",
       "minecraft:creeper": "2024-12-19 21:30:45 -0500",
@@ -8365,6 +8379,12 @@
   "minecraft:husbandry/plant_seed": {
     "criteria": {
       "wheat": "2024-12-20 20:30:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-12-20 23:08:31 -0500"
     },
     "done": true
   },

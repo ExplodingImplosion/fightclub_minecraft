@@ -5744,6 +5744,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:flower_forest": "2024-12-19 21:43:23 -0500",
+      "minecraft:dark_forest": "2024-12-20 23:20:26 -0500",
       "minecraft:forest": "2024-12-19 19:14:49 -0500",
       "minecraft:sparse_jungle": "2024-12-19 19:13:48 -0500",
       "minecraft:river": "2024-12-19 19:13:55 -0500",
@@ -5756,7 +5757,8 @@
       "minecraft:meadow": "2024-12-19 21:14:05 -0500",
       "minecraft:birch_forest": "2024-12-19 19:08:32 -0500",
       "minecraft:bamboo_jungle": "2024-12-19 19:15:21 -0500",
-      "minecraft:plains": "2024-12-19 21:16:59 -0500"
+      "minecraft:plains": "2024-12-19 21:16:59 -0500",
+      "minecraft:pale_garden": "2024-12-20 23:23:47 -0500"
     },
     "done": false
   },
@@ -8382,6 +8384,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-12-20 00:05:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-12-20 23:29:23 -0500"
     },
     "done": true
   },

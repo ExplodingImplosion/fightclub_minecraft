@@ -97,24 +97,31 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:flower_forest": "2024-12-19 23:06:47 -0500",
-      "minecraft:beach": "2024-12-19 22:39:09 -0500",
-      "minecraft:dark_forest": "2024-12-19 19:25:22 -0500",
+      "minecraft:cold_ocean": "2024-12-20 21:43:33 -0500",
+      "minecraft:snowy_slopes": "2024-12-20 22:32:50 -0500",
       "minecraft:forest": "2024-12-19 19:16:37 -0500",
-      "minecraft:river": "2024-12-19 22:39:03 -0500",
+      "minecraft:taiga": "2024-12-20 23:07:21 -0500",
+      "minecraft:deep_ocean": "2024-12-20 21:38:32 -0500",
       "minecraft:lush_caves": "2024-12-19 19:35:09 -0500",
-      "minecraft:dripstone_caves": "2024-12-20 21:07:07 -0500",
-      "minecraft:old_growth_birch_forest": "2024-12-19 19:15:56 -0500",
-      "minecraft:deep_dark": "2024-12-19 19:38:27 -0500",
       "minecraft:jungle": "2024-12-19 19:14:37 -0500",
       "minecraft:ocean": "2024-12-19 23:12:53 -0500",
       "minecraft:cherry_grove": "2024-12-19 20:10:23 -0500",
       "minecraft:sunflower_plains": "2024-12-19 20:20:29 -0500",
+      "minecraft:birch_forest": "2024-12-19 19:00:56 -0500",
+      "minecraft:bamboo_jungle": "2024-12-19 23:39:25 -0500",
+      "minecraft:deep_lukewarm_ocean": "2024-12-20 21:36:37 -0500",
+      "minecraft:flower_forest": "2024-12-19 23:06:47 -0500",
+      "minecraft:beach": "2024-12-19 22:39:09 -0500",
+      "minecraft:dark_forest": "2024-12-19 19:25:22 -0500",
+      "minecraft:river": "2024-12-19 22:39:03 -0500",
+      "minecraft:lukewarm_ocean": "2024-12-20 21:36:18 -0500",
+      "minecraft:stony_shore": "2024-12-20 21:42:26 -0500",
+      "minecraft:dripstone_caves": "2024-12-20 21:07:07 -0500",
+      "minecraft:old_growth_birch_forest": "2024-12-19 19:15:56 -0500",
+      "minecraft:deep_dark": "2024-12-19 19:38:27 -0500",
       "minecraft:grove": "2024-12-19 20:10:16 -0500",
       "minecraft:meadow": "2024-12-20 21:09:14 -0500",
-      "minecraft:birch_forest": "2024-12-19 19:00:56 -0500",
       "minecraft:savanna": "2024-12-19 23:06:50 -0500",
-      "minecraft:bamboo_jungle": "2024-12-19 23:39:25 -0500",
       "minecraft:plains": "2024-12-19 19:23:35 -0500",
       "minecraft:pale_garden": "2024-12-19 19:53:06 -0500"
     },
@@ -8290,10 +8297,12 @@
     "criteria": {
       "cooked_porkchop": "2024-12-19 19:37:32 -0500",
       "apple": "2024-12-20 02:10:13 -0500",
+      "bread": "2024-12-20 23:31:31 -0500",
       "cooked_chicken": "2024-12-19 20:03:14 -0500",
       "cooked_mutton": "2024-12-19 19:30:28 -0500",
       "cooked_beef": "2024-12-19 19:21:58 -0500",
-      "porkchop": "2024-12-19 19:59:36 -0500"
+      "porkchop": "2024-12-19 19:59:36 -0500",
+      "cooked_salmon": "2024-12-20 22:53:38 -0500"
     },
     "done": false
   },
@@ -8324,11 +8333,13 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-12-20 02:22:54 -0500",
+      "minecraft:cave_spider": "2024-12-20 22:43:56 -0500",
       "minecraft:skeleton": "2024-12-19 20:24:28 -0500",
       "minecraft:witch": "2024-12-19 19:52:10 -0500",
       "minecraft:spider": "2024-12-19 20:30:19 -0500",
       "minecraft:zombie": "2024-12-19 19:41:52 -0500",
-      "minecraft:creeper": "2024-12-19 20:33:09 -0500"
+      "minecraft:creeper": "2024-12-19 20:33:09 -0500",
+      "minecraft:drowned": "2024-12-20 21:49:40 -0500"
     },
     "done": false
   },
@@ -8385,6 +8396,12 @@
       "minecraft:woods": "2024-12-19 23:49:27 -0500"
     },
     "done": false
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-12-20 22:38:21 -0500"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }
