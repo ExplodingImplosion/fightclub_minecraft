@@ -8363,6 +8363,7 @@
       "minecraft:pillager": "2024-12-20 04:26:10 -0500",
       "minecraft:blaze": "2024-12-21 04:48:00 -0500",
       "minecraft:skeleton": "2024-12-19 19:36:07 -0500",
+      "minecraft:zombified_piglin": "2024-12-21 06:12:40 -0500",
       "minecraft:witch": "2024-12-20 02:10:27 -0500",
       "minecraft:wither_skeleton": "2024-12-19 20:42:58 -0500",
       "minecraft:ghast": "2024-12-20 01:21:17 -0500",
@@ -8544,12 +8545,6 @@
     },
     "done": true
   },
-  "minecraft:nether/get_wither_skull": {
-    "criteria": {
-      "wither_skull": "2024-12-21 05:33:23 -0500"
-    },
-    "done": true
-  },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2024-12-21 03:33:57 -0500"
@@ -8559,6 +8554,12 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2024-12-21 03:33:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-12-21 05:33:23 -0500"
     },
     "done": true
   },
