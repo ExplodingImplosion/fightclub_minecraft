@@ -98,29 +98,30 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:cold_ocean": "2024-12-20 01:37:19 -0500",
-      "minecraft:flower_forest": "2024-12-20 00:29:15 -0500",
       "minecraft:snowy_slopes": "2024-12-20 00:34:31 -0500",
-      "minecraft:beach": "2024-12-20 00:20:36 -0500",
       "minecraft:old_growth_pine_taiga": "2024-12-20 01:09:12 -0500",
       "minecraft:forest": "2024-12-19 23:30:38 -0500",
       "minecraft:taiga": "2024-12-20 00:54:33 -0500",
-      "minecraft:sparse_jungle": "2024-12-19 23:29:41 -0500",
       "minecraft:deep_ocean": "2024-12-20 01:33:56 -0500",
-      "minecraft:river": "2024-12-19 23:31:20 -0500",
-      "minecraft:lukewarm_ocean": "2024-12-20 01:30:03 -0500",
-      "minecraft:stony_shore": "2024-12-20 00:26:28 -0500",
-      "minecraft:old_growth_birch_forest": "2024-12-20 00:15:04 -0500",
       "minecraft:ocean": "2024-12-20 00:23:26 -0500",
       "minecraft:jungle": "2024-12-19 23:29:37 -0500",
       "minecraft:cherry_grove": "2024-12-20 00:00:59 -0500",
       "minecraft:sunflower_plains": "2024-12-20 00:01:48 -0500",
-      "minecraft:grove": "2024-12-20 02:43:08 -0500",
-      "minecraft:meadow": "2024-12-19 23:59:07 -0500",
       "minecraft:birch_forest": "2024-12-19 23:28:17 -0500",
       "minecraft:old_growth_spruce_taiga": "2024-12-20 01:09:44 -0500",
       "minecraft:bamboo_jungle": "2024-12-19 23:32:50 -0500",
-      "minecraft:plains": "2024-12-20 00:00:58 -0500",
-      "minecraft:deep_lukewarm_ocean": "2024-12-20 01:31:48 -0500"
+      "minecraft:deep_lukewarm_ocean": "2024-12-20 01:31:48 -0500",
+      "minecraft:flower_forest": "2024-12-20 00:29:15 -0500",
+      "minecraft:beach": "2024-12-20 00:20:36 -0500",
+      "minecraft:sparse_jungle": "2024-12-19 23:29:41 -0500",
+      "minecraft:river": "2024-12-19 23:31:20 -0500",
+      "minecraft:lukewarm_ocean": "2024-12-20 01:30:03 -0500",
+      "minecraft:stony_shore": "2024-12-20 00:26:28 -0500",
+      "minecraft:dripstone_caves": "2024-12-21 04:13:51 -0500",
+      "minecraft:old_growth_birch_forest": "2024-12-20 00:15:04 -0500",
+      "minecraft:grove": "2024-12-20 02:43:08 -0500",
+      "minecraft:meadow": "2024-12-19 23:59:07 -0500",
+      "minecraft:plains": "2024-12-20 00:00:58 -0500"
     },
     "done": false
   },
@@ -8271,6 +8272,7 @@
       "cooked_porkchop": "2024-12-20 00:04:36 -0500",
       "apple": "2024-12-19 23:33:11 -0500",
       "bread": "2024-12-19 23:34:38 -0500",
+      "baked_potato": "2024-12-21 03:46:26 -0500",
       "porkchop": "2024-12-20 00:23:00 -0500",
       "cooked_salmon": "2024-12-20 01:31:24 -0500"
     },
@@ -8308,6 +8310,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-12-21 04:09:48 -0500",
       "minecraft:magma_cube": "2024-12-20 22:40:52 -0500",
       "minecraft:zombie": "2024-12-20 21:12:14 -0500",
       "minecraft:zombie_villager": "2024-12-20 01:18:47 -0500"
@@ -8371,6 +8374,12 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-12-20 22:39:57 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-12-21 04:09:35 -0500"
     },
     "done": true
   },

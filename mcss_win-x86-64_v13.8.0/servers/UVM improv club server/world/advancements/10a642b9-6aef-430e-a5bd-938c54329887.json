@@ -8340,6 +8340,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "honey_bottle": "2024-12-21 00:59:09 -0500",
       "salmon": "2024-12-19 23:42:55 -0500",
       "cooked_beef": "2024-12-20 00:48:17 -0500",
       "melon_slice": "2024-12-20 20:14:09 -0500",
@@ -8401,6 +8402,12 @@
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2024-12-20 23:13:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/safely_harvest_honey": {
+    "criteria": {
+      "safely_harvest_honey": "2024-12-21 00:58:47 -0500"
     },
     "done": true
   },

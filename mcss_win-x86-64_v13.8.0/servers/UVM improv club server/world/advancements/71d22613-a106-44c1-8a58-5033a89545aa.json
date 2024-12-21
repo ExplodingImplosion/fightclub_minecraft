@@ -8292,6 +8292,7 @@
       "cooked_mutton": "2024-12-19 19:39:26 -0500",
       "glow_berries": "2024-12-20 17:25:29 -0500",
       "cooked_cod": "2024-12-20 23:38:34 -0500",
+      "sweet_berries": "2024-12-21 00:08:42 -0500",
       "cooked_beef": "2024-12-19 19:22:40 -0500",
       "melon_slice": "2024-12-20 15:29:54 -0500",
       "cooked_salmon": "2024-12-19 21:53:47 -0500"
@@ -8387,6 +8388,26 @@
       "avoid_vibration": "2024-12-20 23:08:31 -0500"
     },
     "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-12-20 23:58:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-12-20 23:58:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-12-20 23:58:35 -0500",
+      "minecraft:soul_sand_valley": "2024-12-20 23:59:58 -0500",
+      "minecraft:basalt_deltas": "2024-12-20 23:59:00 -0500"
+    },
+    "done": false
   },
   "DataVersion": 4189
 }

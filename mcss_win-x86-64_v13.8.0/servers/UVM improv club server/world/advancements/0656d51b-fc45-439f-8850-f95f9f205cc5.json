@@ -99,6 +99,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2024-12-19 19:41:40 -0500",
       "minecraft:old_growth_pine_taiga": "2024-12-20 02:08:38 -0500",
+      "minecraft:mushroom_fields": "2024-12-21 04:34:42 -0500",
       "minecraft:forest": "2024-12-19 19:42:24 -0500",
       "minecraft:taiga": "2024-12-20 02:08:52 -0500",
       "minecraft:deep_ocean": "2024-12-19 19:19:01 -0500",
@@ -122,6 +123,7 @@
       "minecraft:sparse_jungle": "2024-12-19 19:03:00 -0500",
       "minecraft:river": "2024-12-19 19:02:53 -0500",
       "minecraft:lukewarm_ocean": "2024-12-19 19:14:27 -0500",
+      "minecraft:stony_shore": "2024-12-21 02:21:54 -0500",
       "minecraft:dripstone_caves": "2024-12-19 19:48:36 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-19 19:46:42 -0500",
       "minecraft:grove": "2024-12-19 19:49:52 -0500",
@@ -8312,6 +8314,7 @@
       "melon_slice": "2024-12-19 19:17:02 -0500",
       "porkchop": "2024-12-20 23:06:08 -0500",
       "golden_carrot": "2024-12-20 14:51:29 -0500",
+      "apple": "2024-12-21 00:59:25 -0500",
       "potato": "2024-12-20 01:30:59 -0500",
       "cooked_cod": "2024-12-20 02:10:40 -0500",
       "cooked_salmon": "2024-12-20 00:31:52 -0500",
@@ -8358,6 +8361,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-12-20 04:26:10 -0500",
+      "minecraft:blaze": "2024-12-21 04:48:00 -0500",
       "minecraft:skeleton": "2024-12-19 19:36:07 -0500",
       "minecraft:witch": "2024-12-20 02:10:27 -0500",
       "minecraft:wither_skeleton": "2024-12-19 20:42:58 -0500",
@@ -8537,6 +8541,24 @@
   "minecraft:nether/loot_bastion": {
     "criteria": {
       "loot_bastion_other": "2024-12-20 15:47:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-12-21 05:33:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-12-21 03:33:57 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-12-21 03:33:57 -0500"
     },
     "done": true
   },

@@ -109,6 +109,7 @@
       "minecraft:frozen_peaks": "2024-12-19 19:36:21 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-20 03:22:30 -0500",
       "minecraft:ocean": "2024-12-20 00:02:04 -0500",
+      "minecraft:jungle": "2024-12-20 23:44:58 -0500",
       "minecraft:cherry_grove": "2024-12-19 19:37:28 -0500",
       "minecraft:sunflower_plains": "2024-12-19 19:37:56 -0500",
       "minecraft:grove": "2024-12-19 19:36:04 -0500",
@@ -8289,6 +8290,7 @@
     "criteria": {
       "minecraft:magma_cube": "2024-12-20 16:05:55 -0500",
       "minecraft:piglin_brute": "2024-12-20 15:59:33 -0500",
+      "minecraft:spider": "2024-12-21 00:44:43 -0500",
       "minecraft:zombie": "2024-12-19 19:16:34 -0500",
       "minecraft:ghast": "2024-12-20 01:15:35 -0500"
     },
@@ -8393,6 +8395,24 @@
   "minecraft:nether/loot_bastion": {
     "criteria": {
       "loot_bastion_other": "2024-12-20 16:00:31 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_helmet": "2024-12-20 23:59:22 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-12-20 23:55:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-12-21 00:14:23 -0500"
     },
     "done": true
   },
