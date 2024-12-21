@@ -97,29 +97,30 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:beach": "2024-12-19 20:55:06 -0500",
-      "minecraft:dark_forest": "2024-12-20 16:02:11 -0500",
       "minecraft:forest": "2024-12-19 19:38:00 -0500",
       "minecraft:taiga": "2024-12-20 13:51:21 -0500",
-      "minecraft:mangrove_swamp": "2024-12-20 10:04:42 -0500",
-      "minecraft:sparse_jungle": "2024-12-19 20:53:56 -0500",
       "minecraft:deep_ocean": "2024-12-20 13:45:39 -0500",
-      "minecraft:river": "2024-12-19 19:42:13 -0500",
-      "minecraft:lukewarm_ocean": "2024-12-20 00:31:12 -0500",
       "minecraft:lush_caves": "2024-12-19 23:20:54 -0500",
-      "minecraft:old_growth_birch_forest": "2024-12-19 19:15:27 -0500",
-      "minecraft:deep_dark": "2024-12-19 22:53:43 -0500",
       "minecraft:jungle": "2024-12-19 19:28:40 -0500",
       "minecraft:ocean": "2024-12-20 13:45:45 -0500",
       "minecraft:cherry_grove": "2024-12-19 19:43:07 -0500",
-      "minecraft:grove": "2024-12-20 15:44:08 -0500",
-      "minecraft:meadow": "2024-12-19 19:40:52 -0500",
       "minecraft:birch_forest": "2024-12-19 19:02:35 -0500",
-      "minecraft:savanna": "2024-12-20 10:09:46 -0500",
       "minecraft:bamboo_jungle": "2024-12-19 21:24:42 -0500",
       "minecraft:windswept_savanna": "2024-12-20 13:46:08 -0500",
-      "minecraft:plains": "2024-12-19 19:43:05 -0500",
       "minecraft:deep_lukewarm_ocean": "2024-12-20 10:02:30 -0500",
+      "minecraft:beach": "2024-12-19 20:55:06 -0500",
+      "minecraft:dark_forest": "2024-12-20 16:02:11 -0500",
+      "minecraft:mangrove_swamp": "2024-12-20 10:04:42 -0500",
+      "minecraft:sparse_jungle": "2024-12-19 20:53:56 -0500",
+      "minecraft:river": "2024-12-19 19:42:13 -0500",
+      "minecraft:lukewarm_ocean": "2024-12-20 00:31:12 -0500",
+      "minecraft:dripstone_caves": "2024-12-21 14:29:16 -0500",
+      "minecraft:old_growth_birch_forest": "2024-12-19 19:15:27 -0500",
+      "minecraft:deep_dark": "2024-12-19 22:53:43 -0500",
+      "minecraft:grove": "2024-12-20 15:44:08 -0500",
+      "minecraft:meadow": "2024-12-19 19:40:52 -0500",
+      "minecraft:savanna": "2024-12-20 10:09:46 -0500",
+      "minecraft:plains": "2024-12-19 19:43:05 -0500",
       "minecraft:pale_garden": "2024-12-20 16:06:53 -0500"
     },
     "done": false
@@ -8327,7 +8328,8 @@
       "cooked_cod": "2024-12-20 18:27:57 -0500",
       "cooked_beef": "2024-12-20 10:15:18 -0500",
       "melon_slice": "2024-12-20 16:23:54 -0500",
-      "cooked_salmon": "2024-12-19 19:48:45 -0500"
+      "cooked_salmon": "2024-12-19 19:48:45 -0500",
+      "pumpkin_pie": "2024-12-21 14:28:36 -0500"
     },
     "done": false
   },
@@ -8508,6 +8510,18 @@
   "minecraft:adventure/brush_armadillo": {
     "criteria": {
       "brush_armadillo": "2024-12-20 20:10:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-12-21 14:40:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-12-21 10:44:51 -0500"
     },
     "done": true
   },

@@ -1,5 +1,5 @@
-[05:48:31] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[05:48:31] [main/INFO]: Loading 12 mods:
+[09:14:04] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[09:14:04] [main/INFO]: Loading 12 mods:
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
 	- ferritecore 7.1.1
@@ -13,77 +13,375 @@
 	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
 	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
 	   \-- fabric-resource-loader-v0 3.0.9+203e6b2382
-[05:48:31] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:48:31] [main/INFO]: Compatibility level set to JAVA_21
-[05:48:31] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[05:48:31] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[05:48:31] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[05:48:31] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[05:48:31] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[05:48:31] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[05:48:31] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[05:48:31] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
-[05:48:32] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[05:48:37] [main/INFO]: [voicechat] Compatibility version 18
-[05:48:37] [main/INFO]: [voicechat] Loading plugins
-[05:48:37] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[05:48:37] [main/INFO]: [voicechat] Initializing plugins
-[05:48:37] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[05:48:37] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:48:38] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[05:48:38] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[05:48:38] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[05:48:38] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
-[05:48:39] [main/INFO]: Loaded 1370 recipes
-[05:48:39] [main/INFO]: Loaded 1498 advancements
-[05:48:40] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[05:48:40] [Server thread/INFO]: Loading properties
-[05:48:40] [Server thread/INFO]: Default game type: SURVIVAL
-[05:48:40] [Server thread/INFO]: Generating keypair
-[05:48:40] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[05:48:40] [Server thread/INFO]: Using default channel type
-[05:48:40] [Server thread/INFO]: Preparing level "world"
-[05:48:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:48:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:48:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:48:42] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:48:42] [Server thread/INFO]: Time elapsed: 1520 ms
-[05:48:42] [Server thread/INFO]: Done (1.899s)! For help, type "help"
-[05:48:42] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[05:48:42] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[05:48:42] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[05:49:15] [User Authenticator #1/INFO]: UUID of player Zumquirelle is 0656d51b-fc45-439f-8850-f95f9f205cc5
-[05:49:15] [Server thread/INFO]: Zumquirelle[/24.60.30.191:52908] logged in with entity id 6 at (-805.0967582058769, 71.0, 1412.919385688705)
-[05:49:15] [Server thread/INFO]: Zumquirelle joined the game
-[05:49:15] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[05:49:16] [Server thread/INFO]: [voicechat] Received secret request of Zumquirelle (18)
-[05:49:16] [Server thread/INFO]: [voicechat] Sent secret to Zumquirelle
-[05:49:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0656d51b-fc45-439f-8850-f95f9f205cc5
-[05:49:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0656d51b-fc45-439f-8850-f95f9f205cc5
-[05:49:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zumquirelle (0656d51b-fc45-439f-8850-f95f9f205cc5) successfully connected to voice chat
-[06:37:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-67, y=60, z=329} class_2338{x=-67, y=61, z=329}
-[06:44:15] [Server thread/INFO]: Zumquirelle lost connection: Disconnected
-[06:44:15] [Server thread/INFO]: Zumquirelle left the game
-[06:44:15] [Server thread/INFO]: [voicechat] Disconnecting client Zumquirelle
-[06:44:19] [User Authenticator #2/INFO]: UUID of player Zumquirelle is 0656d51b-fc45-439f-8850-f95f9f205cc5
-[06:44:19] [Server thread/INFO]: Zumquirelle[/24.60.30.191:53047] logged in with entity id 5844 at (-69.4969067931038, 70.0, 273.7030636762006)
-[06:44:19] [Server thread/INFO]: Zumquirelle joined the game
-[06:44:19] [Server thread/INFO]: [voicechat] Received secret request of Zumquirelle (18)
-[06:44:19] [Server thread/INFO]: [voicechat] Sent secret to Zumquirelle
-[06:44:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0656d51b-fc45-439f-8850-f95f9f205cc5
-[06:44:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0656d51b-fc45-439f-8850-f95f9f205cc5
-[06:44:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zumquirelle (0656d51b-fc45-439f-8850-f95f9f205cc5) successfully connected to voice chat
-[06:49:45] [Server thread/INFO]: Zumquirelle lost connection: Disconnected
-[06:49:45] [Server thread/INFO]: Zumquirelle left the game
-[06:49:45] [Server thread/INFO]: [voicechat] Disconnecting client Zumquirelle
-[06:50:42] [Server thread/INFO]: Stopping the server
-[06:50:43] [Server thread/INFO]: Stopping server
-[06:50:43] [Server thread/INFO]: Saving players
-[06:50:43] [Server thread/INFO]: Saving worlds
-[06:50:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06:50:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06:50:43] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06:50:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06:50:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06:50:43] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06:50:43] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:14:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[09:14:04] [main/INFO]: Compatibility level set to JAVA_21
+[09:14:04] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[09:14:04] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[09:14:04] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[09:14:04] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[09:14:04] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[09:14:04] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[09:14:04] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[09:14:04] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
+[09:14:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09:14:10] [main/INFO]: [voicechat] Compatibility version 18
+[09:14:10] [main/INFO]: [voicechat] Loading plugins
+[09:14:10] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[09:14:10] [main/INFO]: [voicechat] Initializing plugins
+[09:14:10] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[09:14:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:14:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[09:14:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[09:14:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[09:14:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[09:14:11] [main/INFO]: Loaded 1370 recipes
+[09:14:11] [main/INFO]: Loaded 1498 advancements
+[09:14:12] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[09:14:12] [Server thread/INFO]: Loading properties
+[09:14:12] [Server thread/INFO]: Default game type: SURVIVAL
+[09:14:12] [Server thread/INFO]: Generating keypair
+[09:14:12] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[09:14:12] [Server thread/INFO]: Using default channel type
+[09:14:12] [Server thread/INFO]: Preparing level "world"
+[09:14:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:14:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[09:14:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[09:14:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[09:14:14] [Server thread/INFO]: Time elapsed: 1451 ms
+[09:14:14] [Server thread/INFO]: Done (1.864s)! For help, type "help"
+[09:14:14] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[09:14:14] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[09:14:14] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[09:14:17] [User Authenticator #1/INFO]: UUID of player Mosshroom_ is dc7e2ddf-9c53-4b85-a6eb-4c391086470b
+[09:14:18] [Server thread/INFO]: Mosshroom_[/71.232.16.38:51910] logged in with entity id 6 at (-464.21296162087197, 72.0, -322.21609231685244)
+[09:14:18] [Server thread/INFO]: Mosshroom_ joined the game
+[09:14:18] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[09:43:07] [User Authenticator #2/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:43:07] [Server thread/INFO]: _scasey[/100.14.20.111:58911] logged in with entity id 3677 at (-115.04612620132127, 73.0, -249.65763829264787)
+[09:43:07] [Server thread/INFO]: _scasey joined the game
+[09:43:07] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[09:43:07] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[09:43:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:43:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:43:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[09:43:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
+[09:43:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
+[09:43:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
+[09:43:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:43:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:43:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[09:45:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
+[09:45:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
+[09:45:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
+[09:45:26] [Server thread/INFO]: _scasey lost connection: Disconnected
+[09:45:26] [Server thread/INFO]: _scasey left the game
+[09:45:26] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[09:45:29] [User Authenticator #3/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:45:29] [Server thread/INFO]: _scasey[/100.14.20.111:59327] logged in with entity id 4368 at (-113.0484041884081, 73.0, -251.946521838355)
+[09:45:29] [Server thread/INFO]: _scasey joined the game
+[09:45:29] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[09:45:29] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[09:45:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:45:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:45:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[09:48:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
+[09:48:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
+[09:48:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
+[09:48:22] [Server thread/INFO]: _scasey lost connection: Disconnected
+[09:48:22] [Server thread/INFO]: _scasey left the game
+[09:48:22] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[09:48:47] [User Authenticator #4/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:48:48] [Server thread/INFO]: _scasey[/100.14.20.111:59381] logged in with entity id 5156 at (-97.11422199247804, 64.0, -294.47138090283306)
+[09:48:48] [Server thread/INFO]: _scasey joined the game
+[09:48:48] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[09:48:48] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[09:48:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:48:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[09:48:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[09:59:30] [Server thread/WARN]: _scasey moved too quickly! 6.73772744520781,0.8232407249357578,7.756839898783085
+[09:59:35] [Server thread/INFO]: <Mosshroom_> hi casey
+[09:59:45] [Server thread/INFO]: <_scasey> hai!
+[10:05:20] [User Authenticator #5/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[10:05:20] [Server thread/INFO]: Indicte[/209.6.169.219:53913] logged in with entity id 9017 at (-546.1766448226374, 63.0, -228.52430814508915)
+[10:05:20] [Server thread/INFO]: Indicte joined the game
+[10:10:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
+[10:10:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
+[10:10:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
+[10:10:55] [Server thread/INFO]: _scasey lost connection: Disconnected
+[10:10:55] [Server thread/INFO]: _scasey left the game
+[10:10:55] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[10:11:05] [User Authenticator #6/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[10:11:06] [Server thread/INFO]: _scasey[/100.14.20.111:59447] logged in with entity id 11050 at (-97.34602792816514, 64.0, -294.2782697762249)
+[10:11:06] [Server thread/INFO]: _scasey joined the game
+[10:11:06] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[10:11:06] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[10:11:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[10:11:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[10:11:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
+[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
+[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
+[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
+[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
+[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
+[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
+[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
+[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
+[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
+[10:13:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=63, z=-212} class_2338{x=-595, y=64, z=-211}
+[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
+[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
+[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
+[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
+[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
+[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
+[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
+[10:38:47] [Server thread/INFO]: 17sk (/24.253.191.140:55607) lost connection: Disconnected
+[10:40:42] [User Authenticator #7/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[10:40:43] [Server thread/INFO]: 17sk[/24.253.191.140:55906] logged in with entity id 19137 at (-173.05631162698853, 68.9375, -295.84659017521926)
+[10:40:43] [Server thread/INFO]: 17sk joined the game
+[10:40:44] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[10:40:44] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[10:40:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[10:40:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[10:40:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[10:44:02] [Server thread/INFO]: _scasey lost connection: Disconnected
+[10:44:02] [Server thread/INFO]: _scasey left the game
+[10:44:02] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[10:44:51] [Server thread/INFO]: 17sk has made the advancement [What a Deal!]
+[10:50:44] [Server thread/INFO]: <Mosshroom_> bamboo autocrafter works!
+[10:54:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-316, y=71, z=-381} class_2338{x=-316, y=70, z=-380}
+[11:05:05] [User Authenticator #8/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[11:05:05] [Server thread/INFO]: _scasey[/100.14.20.111:59529] logged in with entity id 24906 at (-97.52639500853516, 64.0, -293.94777648631174)
+[11:05:05] [Server thread/INFO]: _scasey joined the game
+[11:05:05] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[11:05:05] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[11:05:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[11:05:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[11:05:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[11:05:14] [Server thread/INFO]: Villager class_1646['Farmer'/15, l='ServerLevel[world]', x=-424.49, y=72.94, z=-309.31] died, message: 'Farmer was slain by Mosshroom_ using [Gen 1 Hyper Beam]'
+[11:08:10] [Server thread/INFO]: Indicte lost connection: Disconnected
+[11:08:10] [Server thread/INFO]: Indicte left the game
+[11:08:10] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[11:20:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
+[11:20:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
+[11:20:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
+[11:21:20] [Server thread/INFO]: _scasey lost connection: Disconnected
+[11:21:20] [Server thread/INFO]: _scasey left the game
+[11:21:20] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[11:22:22] [User Authenticator #9/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[11:22:24] [Server thread/INFO]: _scasey[/100.14.20.111:59564] logged in with entity id 28336 at (-97.48059568292226, 64.0, -294.02518873981546)
+[11:22:24] [Server thread/INFO]: _scasey joined the game
+[11:22:24] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[11:22:24] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[11:22:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[11:22:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[11:22:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[11:22:41] [Server thread/INFO]: <_scasey> shout out to my internet fr
+[11:58:04] [Server thread/INFO]: /advancement (grant|revoke)
+[11:58:04] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[11:58:04] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[11:58:04] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[11:58:04] [Server thread/INFO]: /clear [<targets>]
+[11:58:04] [Server thread/INFO]: /clone (<begin>|from)
+[11:58:04] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[11:58:04] [Server thread/INFO]: /data (merge|get|remove|modify)
+[11:58:04] [Server thread/INFO]: /datapack (enable|disable|list)
+[11:58:04] [Server thread/INFO]: /debug (start|stop|function)
+[11:58:04] [Server thread/INFO]: /defaultgamemode <gamemode>
+[11:58:04] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[11:58:04] [Server thread/INFO]: /effect (clear|give)
+[11:58:04] [Server thread/INFO]: /me <action>
+[11:58:04] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[11:58:04] [Server thread/INFO]: /experience (add|set|query)
+[11:58:04] [Server thread/INFO]: /xp -> experience
+[11:58:04] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[11:58:04] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[11:58:04] [Server thread/INFO]: /forceload (add|remove|query)
+[11:58:04] [Server thread/INFO]: /function <name> [<arguments>|with]
+[11:58:04] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[11:58:04] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[11:58:04] [Server thread/INFO]: /give <targets> <item> [<count>]
+[11:58:04] [Server thread/INFO]: /help [<command>]
+[11:58:04] [Server thread/INFO]: /item (replace|modify)
+[11:58:04] [Server thread/INFO]: /kick <targets> [<reason>]
+[11:58:04] [Server thread/INFO]: /kill [<targets>]
+[11:58:04] [Server thread/INFO]: /list [uuids]
+[11:58:04] [Server thread/INFO]: /locate (structure|biome|poi)
+[11:58:04] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[11:58:04] [Server thread/INFO]: /msg <targets> <message>
+[11:58:04] [Server thread/INFO]: /tell -> msg
+[11:58:04] [Server thread/INFO]: /w -> msg
+[11:58:04] [Server thread/INFO]: /particle <name> [<pos>]
+[11:58:04] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[11:58:04] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[11:58:04] [Server thread/INFO]: /random (value|roll|reset)
+[11:58:04] [Server thread/INFO]: /reload
+[11:58:04] [Server thread/INFO]: /recipe (give|take)
+[11:58:04] [Server thread/INFO]: /return (<value>|fail|run)
+[11:58:04] [Server thread/INFO]: /ride <target> (mount|dismount)
+[11:58:04] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
+[11:58:04] [Server thread/INFO]: /say <message>
+[11:58:04] [Server thread/INFO]: /schedule (function|clear)
+[11:58:04] [Server thread/INFO]: /scoreboard (objectives|players)
+[11:58:04] [Server thread/INFO]: /seed
+[11:58:04] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[11:58:04] [Server thread/INFO]: /spawnpoint [<targets>]
+[11:58:04] [Server thread/INFO]: /setworldspawn [<pos>]
+[11:58:04] [Server thread/INFO]: /spectate [<target>]
+[11:58:04] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[11:58:04] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[11:58:04] [Server thread/INFO]: /summon <entity> [<pos>]
+[11:58:04] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[11:58:04] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[11:58:04] [Server thread/INFO]: /teammsg <message>
+[11:58:04] [Server thread/INFO]: /tm -> teammsg
+[11:58:04] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[11:58:04] [Server thread/INFO]: /tp -> teleport
+[11:58:04] [Server thread/INFO]: /tellraw <targets> <message>
+[11:58:04] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[11:58:04] [Server thread/INFO]: /time (set|add|query)
+[11:58:04] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[11:58:04] [Server thread/INFO]: /trigger <objective> [add|set]
+[11:58:04] [Server thread/INFO]: /weather (clear|rain|thunder)
+[11:58:04] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[11:58:04] [Server thread/INFO]: /jfr (start|stop)
+[11:58:04] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[11:58:04] [Server thread/INFO]: /banlist [ips|players]
+[11:58:04] [Server thread/INFO]: /ban <targets> [<reason>]
+[11:58:04] [Server thread/INFO]: /deop <targets>
+[11:58:04] [Server thread/INFO]: /op <targets>
+[11:58:04] [Server thread/INFO]: /pardon <targets>
+[11:58:04] [Server thread/INFO]: /pardon-ip <target>
+[11:58:04] [Server thread/INFO]: /perf (start|stop)
+[11:58:04] [Server thread/INFO]: /save-all [flush]
+[11:58:04] [Server thread/INFO]: /save-off
+[11:58:04] [Server thread/INFO]: /save-on
+[11:58:04] [Server thread/INFO]: /setidletimeout <minutes>
+[11:58:04] [Server thread/INFO]: /stop
+[11:58:04] [Server thread/INFO]: /transfer <hostname> [<port>]
+[11:58:04] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[11:58:04] [Server thread/INFO]: /voicechat [help|test|invite|join|leave]
+[11:58:42] [Server thread/INFO]: There are 3 of a max of 69 players online: Mosshroom_, 17sk, _scasey
+[11:59:23] [Server thread/INFO]: [Not Secure] [Server] omg hi June!!
+[11:59:29] [Server thread/INFO]: [Not Secure] [Server] you�re so cool
+[11:59:40] [Server thread/INFO]: [Not Secure] [Server] I�m so glad you�re on the server!! 
+[12:15:55] [User Authenticator #10/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[12:15:55] [Server thread/INFO]: FrozenJarate[/192.168.86.1:51831] logged in with entity id 36220 at (244.20751914224206, 104.0, 632.6509519156505)
+[12:15:55] [Server thread/INFO]: FrozenJarate joined the game
+[12:15:55] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
+[12:15:55] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
+[12:15:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[12:15:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[12:15:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
+[12:15:59] [Server thread/INFO]: <_scasey> yooooo
+[12:16:02] [Server thread/INFO]: <FrozenJarate> yoooo
+[12:16:08] [Server thread/INFO]: <FrozenJarate> hey i have a question about jungle town
+[12:16:15] [Server thread/INFO]: <_scasey> yes
+[12:16:19] [Server thread/INFO]: <FrozenJarate> y'all have that awesome sauce nether portal
+[12:16:33] [Server thread/INFO]: <FrozenJarate> do you want it to stay connected to regular nether or can I relink it to above bedrock for a highway
+[12:17:05] [Server thread/INFO]: <_scasey> my vote is for the roof but idk what the others thoughts are
+[12:17:28] [Server thread/INFO]: <FrozenJarate> i imagine they'd want the nice portal to be for the highway
+[12:17:37] [Server thread/INFO]: <FrozenJarate> if folks get mad we can just make new ones and relink but imma try to do that today
+[12:18:26] [Server thread/INFO]: <_scasey> can i give you a spot to link the highway to then
+[12:18:37] [Server thread/INFO]: <_scasey> so we can keep the one on the bridge to the main nether
+[12:18:45] [Server thread/INFO]: <FrozenJarate> sure
+[12:19:02] [Server thread/INFO]: <FrozenJarate> but i havent even made fairyville's entrance yet so imma work on that first
+[12:19:24] [Server thread/INFO]: <_scasey> kk i'm gonna actually get off in a bit to do errands but i should be back on later tonight
+[12:19:37] [Server thread/INFO]: <FrozenJarate> sounds good
+[12:19:46] [Server thread/INFO]: <FrozenJarate> imma leave to drive my brother into the city in a bit anyway
+[12:22:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=244, y=98, z=614} class_2338{x=244, y=99, z=615}
+[12:26:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=242, y=104, z=656} class_2338{x=243, y=103, z=641}
+[12:26:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=242, y=104, z=656} class_2338{x=243, y=103, z=642}
+[12:29:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=245, y=104, z=658} class_2338{x=247, y=103, z=656}
+[12:33:02] [Server thread/INFO]: _scasey lost connection: Disconnected
+[12:33:02] [Server thread/INFO]: _scasey left the game
+[12:33:02] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[12:37:19] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
+[12:37:19] [Server thread/INFO]: FrozenJarate left the game
+[12:37:19] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
+[13:14:14] [Server thread/INFO]: You whisper to Mosshroom_: HOLY SHIT BEHIND YOU!
+[13:43:12] [User Authenticator #11/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[13:43:12] [Server thread/INFO]: FrozenJarate[/192.168.86.1:52755] logged in with entity id 47922 at (245.7178502296737, 103.0, 627.2811155342437)
+[13:43:12] [Server thread/INFO]: FrozenJarate joined the game
+[13:43:13] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
+[13:43:13] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
+[13:43:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[13:43:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[13:43:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
+[13:51:40] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
+[13:51:40] [Server thread/INFO]: FrozenJarate left the game
+[13:51:40] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
+[14:00:51] [User Authenticator #12/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[14:00:52] [Server thread/INFO]: GunYoshi[/98.214.164.251:50123] logged in with entity id 51229 at (-104.10461171121317, 64.0, -272.69062005748356)
+[14:00:52] [Server thread/INFO]: GunYoshi joined the game
+[14:00:58] [Server thread/INFO]: <17sk> hi!
+[14:01:00] [Server thread/INFO]: <GunYoshi> hi!
+[14:01:04] [Server thread/INFO]: <GunYoshi> only on for like a couple min
+[14:01:07] [Server thread/INFO]: <17sk> real
+[14:01:47] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[14:01:47] [Server thread/INFO]: GunYoshi left the game
+[14:01:47] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[14:02:25] [User Authenticator #13/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[14:02:25] [Server thread/INFO]: FrozenJarate[/192.168.86.1:53210] logged in with entity id 51717 at (291.1637479290666, -15.0, 501.4112502895367)
+[14:02:25] [Server thread/INFO]: FrozenJarate joined the game
+[14:02:25] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
+[14:02:25] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
+[14:02:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[14:02:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[14:02:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
+[14:05:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=353, y=-52, z=419} class_2338{x=353, y=-53, z=419}
+[14:05:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=353, y=-52, z=419} class_2338{x=353, y=-53, z=419}
+[14:05:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=353, y=-52, z=419} class_2338{x=353, y=-53, z=419}
+[14:11:38] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
+[14:11:38] [Server thread/INFO]: FrozenJarate left the game
+[14:11:38] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
+[14:22:33] [User Authenticator #14/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[14:22:34] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:58253] logged in with entity id 60282 at (172.34434313778124, 98.0, 513.2620735762898)
+[14:22:34] [Server thread/INFO]: Lemon_Frog joined the game
+[14:22:35] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
+[14:22:35] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[14:22:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[14:22:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[14:22:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
+[14:24:58] [User Authenticator #15/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[14:24:58] [Server thread/INFO]: GunYoshi[/98.214.164.251:50140] logged in with entity id 61146 at (-45.68226534194476, 64.0, -257.46558622479563)
+[14:24:58] [Server thread/INFO]: GunYoshi joined the game
+[14:25:07] [Server thread/INFO]: <Lemon_Frog> hey!
+[14:25:10] [Server thread/INFO]: <GunYoshi> hello!
+[14:30:01] [Server thread/INFO]: <GunYoshi> oh my god i think nick grew a jungle tree pn top of my house
+[14:30:13] [Server thread/INFO]: <Lemon_Frog> classic he/him nick
+[14:35:32] [Server thread/INFO]: <GunYoshi> brb
+[14:35:33] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[14:35:33] [Server thread/INFO]: GunYoshi left the game
+[14:35:33] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[14:37:07] [User Authenticator #16/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[14:37:07] [Server thread/INFO]: FrozenJarate[/192.168.86.1:53964] logged in with entity id 66032 at (232.307303385974, 96.0, 475.1585060623663)
+[14:37:07] [Server thread/INFO]: FrozenJarate joined the game
+[14:37:07] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
+[14:37:07] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
+[14:37:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[14:37:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[14:37:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
+[14:37:13] [Server thread/INFO]: <Lemon_Frog> hi :D
+[14:39:07] [Server thread/INFO]: <17sk> accidentally think i spawned a warden
+[14:39:14] [Server thread/INFO]: <FrozenJarate> ruh roh raggy
+[14:39:15] [Server thread/INFO]: <FrozenJarate> hi!
+[14:39:37] [Server thread/INFO]: <17sk> nvm we chillin
+[14:39:42] [Server thread/INFO]: <17sk> i have one more chance until it spawns
+[14:40:35] [Server thread/INFO]: <FrozenJarate> 229 472
+[14:40:37] [Server thread/INFO]: 17sk has completed the challenge [It Spreads]
+[14:44:50] [Server thread/INFO]: Stopping server
+[14:44:50] [Server thread/INFO]: Saving players
+[14:44:50] [Server thread/INFO]: Mosshroom_ lost connection: Server closed
+[14:44:50] [Server thread/INFO]: Mosshroom_ left the game
+[14:44:50] [Server thread/INFO]: Lemon_Frog lost connection: Server closed
+[14:44:50] [Server thread/INFO]: Lemon_Frog left the game
+[14:44:50] [Server thread/INFO]: Saving worlds
+[14:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
