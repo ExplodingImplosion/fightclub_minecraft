@@ -1,5 +1,5 @@
-[10:18:16] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[10:18:16] [main/INFO]: Loading 12 mods:
+[16:19:02] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[16:19:02] [main/INFO]: Loading 12 mods:
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
 	- ferritecore 7.1.1
@@ -13,412 +13,55 @@
 	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
 	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
 	   \-- fabric-resource-loader-v0 3.0.9+203e6b2382
-[10:18:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[10:18:16] [main/INFO]: Compatibility level set to JAVA_21
-[10:18:16] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[10:18:16] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[10:18:16] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[10:18:16] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[10:18:16] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[10:18:16] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[10:18:16] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[10:18:16] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
-[10:18:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[10:18:22] [main/INFO]: [voicechat] Compatibility version 18
-[10:18:22] [main/INFO]: [voicechat] Loading plugins
-[10:18:22] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[10:18:22] [main/INFO]: [voicechat] Initializing plugins
-[10:18:22] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[10:18:22] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[10:18:23] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[10:18:23] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[10:18:23] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[10:18:23] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
-[10:18:23] [main/INFO]: Loaded 1370 recipes
-[10:18:23] [main/INFO]: Loaded 1498 advancements
-[10:18:24] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[10:18:24] [Server thread/INFO]: Loading properties
-[10:18:24] [Server thread/INFO]: Default game type: SURVIVAL
-[10:18:24] [Server thread/INFO]: Generating keypair
-[10:18:24] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[10:18:24] [Server thread/INFO]: Using default channel type
-[10:18:24] [Server thread/INFO]: Preparing level "world"
-[10:18:24] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[10:18:25] [User Authenticator #1/INFO]: UUID of player Zumquirelle is 0656d51b-fc45-439f-8850-f95f9f205cc5
-[10:18:25] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[10:18:25] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[10:18:25] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[10:18:26] [Server thread/INFO]: Time elapsed: 1479 ms
-[10:18:26] [Server thread/INFO]: Done (1.783s)! For help, type "help"
-[10:18:26] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[10:18:26] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[10:18:26] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[10:18:26] [Server thread/INFO]: Zumquirelle[/24.60.30.191:52710] logged in with entity id 2 at (2624.4494685289887, 146.875, -3597.6979424956776)
-[10:18:26] [Server thread/INFO]: Zumquirelle joined the game
-[10:18:27] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[10:18:27] [Server thread/INFO]: [voicechat] Received secret request of Zumquirelle (18)
-[10:18:27] [Server thread/INFO]: [voicechat] Sent secret to Zumquirelle
-[10:18:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0656d51b-fc45-439f-8850-f95f9f205cc5
-[10:18:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0656d51b-fc45-439f-8850-f95f9f205cc5
-[10:18:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zumquirelle (0656d51b-fc45-439f-8850-f95f9f205cc5) successfully connected to voice chat
-[10:34:38] [User Authenticator #2/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[10:34:39] [Server thread/INFO]: FrozenJarate[/192.168.86.1:53132] logged in with entity id 1503 at (922.48000111665, 97.0, 424.20901435361964)
-[10:34:39] [Server thread/INFO]: FrozenJarate joined the game
-[10:34:39] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
-[10:34:39] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
-[10:34:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[10:34:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[10:34:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
-[10:42:18] [User Authenticator #3/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[10:42:19] [Server thread/INFO]: 17sk[/24.253.191.140:62381] logged in with entity id 2586 at (-332.23750001192093, -37.0, -409.50293694122826)
-[10:42:19] [Server thread/INFO]: 17sk joined the game
-[10:42:19] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[10:42:19] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[10:42:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[10:42:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[10:42:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[10:42:24] [Server thread/INFO]: <FrozenJarate> Hi!
-[10:42:27] [Server thread/INFO]: <17sk> whatup dawgs
-[10:42:52] [Server thread/INFO]: <FrozenJarate> oh y'know, just working on my huge creeper farm :D
-[10:43:00] [Server thread/INFO]: <17sk> oh sumblime
-[11:03:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=525, y=63, z=350} class_2338{x=525, y=62, z=349}
-[11:16:01] [Server thread/INFO]: There are 3 of a max of 69 players online: Zumquirelle, FrozenJarate, 17sk
-[11:16:38] [Server thread/INFO]: <FrozenJarate> the phantoms are coming!!! KJSlkhj
-[11:17:08] [Server thread/INFO]: [Not Secure] [Server] chat what coffee do I get at caffe nero 
-[11:17:10] [Server thread/INFO]: <FrozenJarate> plz lemme be the 1 to sleep
-[11:17:18] [Server thread/INFO]: <FrozenJarate> black coffee
-[11:34:10] [Server thread/INFO]: FrozenJarate fell from a high place
-[11:34:14] [Server thread/INFO]: <FrozenJarate> FUCK
-[11:34:49] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
-[11:34:49] [Server thread/INFO]: FrozenJarate left the game
-[11:34:49] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
-[11:34:50] [User Authenticator #4/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[11:34:51] [Server thread/INFO]: FrozenJarate[/192.168.86.1:55370] logged in with entity id 23643 at (245.19894555813863, 98.0, 645.0094325218666)
-[11:34:51] [Server thread/INFO]: FrozenJarate joined the game
-[11:34:51] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
-[11:34:51] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
-[11:34:51] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[11:34:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[11:34:52] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
-[11:35:14] [Server thread/INFO]: <17sk> when is next reset
-[11:35:18] [Server thread/INFO]: <FrozenJarate> idk
-[11:35:22] [Server thread/INFO]: <17sk> cuz im gonna be out for like 2 hours
-[11:35:34] [Server thread/INFO]: <FrozenJarate> really just depends on the last 1
-[11:35:44] [Server thread/INFO]: <17sk> eh i'll hopefully be fine im just tring get slime
-[11:35:47] [Server thread/INFO]: <17sk> for a door]
-[11:38:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=920, y=118, z=421} class_2338{x=919, y=118, z=432}
-[11:43:08] [User Authenticator #5/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[11:43:09] [Server thread/INFO]: madb0nes[/72.70.38.62:60658] logged in with entity id 26516 at (264.5085522254462, 93.0625, 552.8174527354365)
-[11:43:09] [Server thread/INFO]: madb0nes joined the game
-[11:43:10] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
-[11:43:10] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
-[11:43:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[11:43:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[11:43:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
-[11:49:23] [Server thread/INFO]: <FrozenJarate> yo mads my goat any chance you could sleep?
-[11:49:31] [Server thread/INFO]: <madb0nes> o7
-[11:49:41] [Server thread/INFO]: <FrozenJarate> my mob farm is proving too effective while im building it D:
-[11:49:51] [Server thread/INFO]: <madb0nes> lmao suffering from success
-[11:50:04] [Server thread/INFO]: <FrozenJarate> god everything is going my way, this sucks!
-[11:51:21] [Server thread/INFO]: <FrozenJarate> holy shit
-[11:51:31] [Server thread/INFO]: <FrozenJarate> when i died everything was fine except my dispenser
-[11:51:48] [Server thread/INFO]: <madb0nes> god works in mysterious ways
-[12:01:12] [Server thread/INFO]: <FrozenJarate> can you sleep again <3
-[12:01:21] [Server thread/INFO]: <FrozenJarate> its so dark i cant see where im placing stuff lol
-[12:01:25] [Server thread/INFO]: <madb0nes> yeah one sec
-[12:02:20] [Server thread/INFO]: <FrozenJarate> ty <3
-[12:12:32] [Server thread/INFO]: madb0nes lost connection: Disconnected
-[12:12:32] [Server thread/INFO]: madb0nes left the game
-[12:12:32] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
-[12:22:08] [User Authenticator #6/INFO]: UUID of player emilysoupp is 566a49eb-94ba-4465-aa50-9a7a69e8d15f
-[12:22:09] [Server thread/INFO]: emilysoupp[/66.31.252.142:58150] logged in with entity id 41352 at (-118.11374998655654, 64.0, -280.4129224507819)
-[12:22:09] [Server thread/INFO]: emilysoupp joined the game
-[12:22:13] [Server thread/INFO]: <FrozenJarate> hiii!
-[12:22:17] [Server thread/INFO]: <emilysoupp> hi!!
-[12:22:27] [Server thread/INFO]: <FrozenJarate> how are you?
-[12:22:39] [Server thread/INFO]: <emilysoupp> pretty good! how are you?
-[12:22:51] [Server thread/INFO]: <FrozenJarate> im doing well :)
-[12:23:21] [Server thread/INFO]: <emilysoupp> happy to hear it! :)
-[12:24:49] [Server thread/INFO]: <FrozenJarate> GUYS ITS WORKING
-[12:25:13] [Server thread/INFO]: <emilysoupp> the nether portal links?
-[12:25:21] [Server thread/INFO]: <FrozenJarate> no my creeper farm
-[12:25:26] [Server thread/INFO]: <emilysoupp> oh exciting!
-[12:35:37] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
-[12:35:37] [Server thread/INFO]: FrozenJarate left the game
-[12:35:37] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
-[12:36:04] [User Authenticator #7/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[12:36:04] [Server thread/INFO]: FrozenJarate[/192.168.86.1:57737] logged in with entity id 48727 at (919.5288601884396, 200.0, 422.47168688450944)
-[12:36:04] [Server thread/INFO]: FrozenJarate joined the game
-[12:36:04] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
-[12:36:04] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
-[12:36:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[12:36:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[12:36:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
-[12:59:47] [Server thread/INFO]: <17sk> hi emily
-[12:59:52] [Server thread/INFO]: <17sk> or emsoup i should say
-[13:00:17] [Server thread/INFO]: <emilysoupp> hi declan!
-[13:00:26] [Server thread/INFO]: <17sk> how are you friend :D
-[13:00:41] [Server thread/INFO]: <emilysoupp> doing good! how are you? :)
-[13:01:05] [Server thread/INFO]: <17sk> i am good, im about t go rock climbing with my brother! while i afk these dang slimes
-[13:01:20] [Server thread/INFO]: <emilysoupp> hell yeah that sounds awesome
-[13:11:01] [Server thread/INFO]: Villager class_1646['Villager'/25, l='ServerLevel[world]', x=2589.97, y=70.00, z=-3632.26] died, message: 'Villager was shot by Pillager'
-[13:11:02] [Server thread/INFO]: Zumquirelle was shot by Pillager
-[13:11:39] [Server thread/INFO]: Villager class_1646['Villager'/59216, l='ServerLevel[world]', x=2594.15, y=62.51, z=-3611.60] died, message: 'Villager was shot by Pillager'
-[13:11:51] [Server thread/INFO]: Villager class_1646['Villager'/59184, l='ServerLevel[world]', x=2593.13, y=62.59, z=-3610.38] died, message: 'Villager was shot by Pillager'
-[13:13:28] [Server thread/INFO]: Zumquirelle was shot by Pillager
-[13:13:46] [Server thread/INFO]: Zumquirelle was shot by Pillager
-[13:17:28] [Server thread/INFO]: Villager class_1646['Villager'/61706, l='ServerLevel[world]', x=2598.70, y=64.90, z=-3607.04] died, message: 'Villager tried to swim in lava'
-[13:17:52] [Server thread/INFO]: Villager class_1646['Villager'/61705, l='ServerLevel[world]', x=2598.69, y=64.58, z=-3607.04] died, message: 'Villager tried to swim in lava'
-[13:18:31] [Server thread/INFO]: Zumquirelle was doomed to fall by Pillager
-[13:20:16] [Server thread/INFO]: Villager class_1646['Villager'/63764, l='ServerLevel[world]', x=2574.47, y=69.00, z=-3646.87] died, message: 'Villager was shot by Pillager'
-[13:20:30] [Server thread/INFO]: Villager class_1646['Villager'/63763, l='ServerLevel[world]', x=2632.32, y=64.00, z=-3607.44] died, message: 'Villager was shot by Pillager'
-[13:23:30] [Server thread/INFO]: Villager class_1646['Villager'/63765, l='ServerLevel[world]', x=2597.71, y=65.44, z=-3607.35] died, message: 'Villager tried to swim in lava'
-[13:24:28] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[13:24:28] [Server thread/INFO]: does it highlight u if it says @a<--[HERE]
-[13:24:35] [Server thread/INFO]: [Not Secure] [Server] does it highlight u if it says 17sk, emilysoupp, FrozenJarate, Zumquirelle
-[13:24:44] [Server thread/INFO]: [Not Secure] [Server] LMFAO it does
-[13:25:15] [Server thread/INFO]: You whisper to 17sk: hey yall pleased to announce the server will have graves after its next restart (scheduled for 4:18pm)
-[13:25:15] [Server thread/INFO]: You whisper to emilysoupp: hey yall pleased to announce the server will have graves after its next restart (scheduled for 4:18pm)
-[13:25:15] [Server thread/INFO]: You whisper to FrozenJarate: hey yall pleased to announce the server will have graves after its next restart (scheduled for 4:18pm)
-[13:25:15] [Server thread/INFO]: You whisper to Zumquirelle: hey yall pleased to announce the server will have graves after its next restart (scheduled for 4:18pm)
-[13:25:20] [Server thread/INFO]: You whisper to 17sk: (est)
-[13:25:20] [Server thread/INFO]: You whisper to emilysoupp: (est)
-[13:25:20] [Server thread/INFO]: You whisper to FrozenJarate: (est)
-[13:25:20] [Server thread/INFO]: You whisper to Zumquirelle: (est)
-[13:26:00] [Server thread/INFO]: <emilysoupp> YEAHHH HUGE NEWS
-[13:26:37] [Server thread/INFO]: [Not Secure] [Server] who the fuck got the villagers killed by pillagers dawg LMFAO
-[13:27:44] [Server thread/INFO]: Villager class_1646['Villager'/63766, l='ServerLevel[world]', x=2597.84, y=65.36, z=-3607.36] died, message: 'Villager tried to swim in lava'
-[13:30:12] [User Authenticator #8/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
-[13:30:13] [Server thread/INFO]: razeyrainbows[/146.115.92.123:63967] logged in with entity id 69259 at (131.15306810033925, 111.0, 596.4468898120217)
-[13:30:13] [Server thread/INFO]: razeyrainbows joined the game
-[13:30:14] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
-[13:30:14] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
-[13:30:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
-[13:30:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
-[13:30:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
-[13:30:24] [Server thread/INFO]: <razeyrainbows> HI EMILY
-[13:30:51] [Server thread/INFO]: [Not Secure] [Server] hey 17sk, emilysoupp, FrozenJarate, Zumquirelle, razeyrainbows villager tried to swim in lava
-[13:31:05] [Server thread/INFO]: [Not Secure] [Server] any clue why that happened?
-[13:31:06] [Server thread/INFO]: [Not Secure] [Server] lmao
-[13:31:35] [Server thread/INFO]: <razeyrainbows> sometimes when someone is very sad they do things they wouldnt do normally
-[13:32:03] [Server thread/INFO]: <emilysoupp> HI YERAZ
-[13:32:19] [Server thread/INFO]: <emilysoupp> sorry i was in the bathroom haha i am not sure what happened
-[13:32:37] [Server thread/INFO]: <razeyrainbows> no yeah i have no clue i just got here
-[13:36:19] [Server thread/INFO]: [Not Secure] [Server] yeah its just funny is all
-[13:36:35] [Server thread/INFO]: [Not Secure] [Server] cuz i can only see it in the console and like i have no idea what the context is lol
-[13:39:39] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
-[13:39:39] [Server thread/INFO]: razeyrainbows left the game
-[13:39:39] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
-[13:41:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player e95834af-1c1b-4130-afd5-d649cae36b67 timed out
-[13:41:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player 17sk
-[13:41:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to 17sk
-[13:41:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[13:41:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[13:41:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[13:41:44] [Server thread/INFO]: Villager class_1646['Villager'/65853, l='ServerLevel[world]', x=2597.88, y=65.13, z=-3607.09] died, message: 'Villager tried to swim in lava'
-[13:49:10] [Server thread/INFO]: You whisper to emilysoupp: HOLY SHIT BEHIND YOU!
-[13:49:31] [Server thread/INFO]: <emilysoupp> damn i jumped so bad
-[13:52:38] [Server thread/INFO]: Incorrect argument for command
-[13:52:38] [Server thread/INFO]: execute FrozenJarate ~ ~5 ~ /summon minecraft:villager ~ ~ ~<--[HERE]
-[13:53:02] [Server thread/INFO]: Incorrect argument for command
-[13:53:02] [Server thread/INFO]: execute FrozenJarate ~ ~ ~ /summon minecraft:villager ~ ~5 ~<--[HERE]
-[13:55:41] [Server thread/INFO]: Incorrect argument for command
-[13:55:41] [Server thread/INFO]: execute FrozenJarate ~ ~ ~ /summon villager ~ ~5 ~<--[HERE]
-[13:56:05] [Server thread/INFO]: Incorrect argument for command
-[13:56:05] [Server thread/INFO]: execute FrozenJarate ~ ~ ~ summon minecraft:villager ~ ~50 ~<--[HERE]
-[13:58:47] [Server thread/INFO]: Unknown command or insufficient permissions
-[13:58:50] [Server thread/INFO]: /execute run ...
-[13:58:50] [Server thread/INFO]: /execute if (block|biome|loaded|dimension|score|blocks|entity|predicate|function|items|data)
-[13:58:50] [Server thread/INFO]: /execute unless (block|biome|loaded|dimension|score|blocks|entity|predicate|function|items|data)
-[13:58:50] [Server thread/INFO]: /execute as <targets> -> execute
-[13:58:50] [Server thread/INFO]: /execute at <targets> -> execute
-[13:58:50] [Server thread/INFO]: /execute store (result|success)
-[13:58:50] [Server thread/INFO]: /execute positioned (<pos>|as|over)
-[13:58:50] [Server thread/INFO]: /execute rotated (<rot>|as)
-[13:58:50] [Server thread/INFO]: /execute facing (entity|<pos>)
-[13:58:50] [Server thread/INFO]: /execute align <axes> -> execute
-[13:58:50] [Server thread/INFO]: /execute anchored <anchor> -> execute
-[13:58:50] [Server thread/INFO]: /execute in <dimension> -> execute
-[13:58:50] [Server thread/INFO]: /execute summon <entity> -> execute
-[13:58:50] [Server thread/INFO]: /execute on (owner|leasher|target|attacker|vehicle|controller|origin|passengers)
-[14:00:15] [Server thread/INFO]: Incorrect argument for command
-[14:00:15] [Server thread/INFO]: execute FrozenJarate /summon villager ~ 50 ~ {VillagerData:{type:plains,profession:nitwit,level:99}}<--[HERE]
-[14:00:33] [Server thread/INFO]: Incorrect argument for command
-[14:00:33] [Server thread/INFO]: ... villager ~ 999 ~ {VillagerData:{type:plains,profession:nitwit,level:99}}<--[HERE]
-[14:00:49] [Server thread/INFO]: Villager class_1646['Villager'/71728, l='ServerLevel[world]', x=2597.80, y=65.22, z=-3607.31] died, message: 'Villager tried to swim in lava'
-[14:01:22] [Server thread/INFO]: Incorrect argument for command
-[14:01:22] [Server thread/INFO]: ...zenJarate /summon villager ~ ~999 ~<--[HERE]
-[14:03:11] [Server thread/INFO]: Summoned new Villager
-[14:05:20] [Server thread/INFO]: Villager class_1646['Villager'/77348, l='ServerLevel[world]', x=0.50, y=92.00, z=0.50] died, message: 'Villager hit the ground too hard'
-[14:10:24] [Server thread/INFO]: You whisper to 17sk: hey everyone, please check the discord general at some point! i have a proposed rough railway layout
-[14:10:24] [Server thread/INFO]: You whisper to emilysoupp: hey everyone, please check the discord general at some point! i have a proposed rough railway layout
-[14:10:24] [Server thread/INFO]: You whisper to FrozenJarate: hey everyone, please check the discord general at some point! i have a proposed rough railway layout
-[14:10:24] [Server thread/INFO]: You whisper to Zumquirelle: hey everyone, please check the discord general at some point! i have a proposed rough railway layout
-[14:10:40] [Server thread/INFO]: <emilysoupp> o7
-[14:12:34] [Server thread/INFO]: Villager class_1646['Villager'/75120, l='ServerLevel[world]', x=2597.66, y=64.00, z=-3607.43] died, message: 'Villager burned to death'
-[14:18:26] [Server thread/INFO]: You whisper to FrozenJarate: HOLY SHIT BEHIND YOU!
-[14:18:58] [Server thread/INFO]: Summoned new Villager
-[14:19:12] [Server thread/INFO]: Villager class_1646['Villager'/79250, l='ServerLevel[world]', x=0.50, y=92.00, z=0.50] died, message: 'Villager hit the ground too hard'
-[14:19:20] [Server thread/INFO]: Incorrect argument for command
-[14:19:20] [Server thread/INFO]: ... villager 0 999 0<--[HERE]
-[14:19:31] [Server thread/INFO]: Incorrect argument for command
-[14:19:31] [Server thread/INFO]: execute /summon villager 0 999 0<--[HERE]
-[14:19:41] [Server thread/INFO]: Incorrect argument for command
-[14:19:41] [Server thread/INFO]: execute "/summon villager 0 999 0"<--[HERE]
-[14:20:20] [Server thread/INFO]: Summoned new Villager
-[14:20:34] [Server thread/INFO]: Villager class_1646['Villager'/79373, l='ServerLevel[world]', x=920.70, y=148.00, z=423.70] died, message: 'Villager hit the ground too hard'
-[14:21:27] [Server thread/INFO]: Summoned new Villager
-[14:21:42] [Server thread/INFO]: Villager class_1646['Villager'/79471, l='ServerLevel[world]', x=920.70, y=148.00, z=423.70] died, message: 'Villager hit the ground too hard'
-[14:22:04] [Server thread/INFO]: Summoned new Villager
-[14:22:04] [Server thread/INFO]: Summoned new Villager
-[14:22:05] [Server thread/INFO]: Summoned new Villager
-[14:22:19] [Server thread/INFO]: Villager class_1646['Villager'/79542, l='ServerLevel[world]', x=920.70, y=148.00, z=423.70] died, message: 'Villager hit the ground too hard'
-[14:22:19] [Server thread/INFO]: Villager class_1646['Villager'/79543, l='ServerLevel[world]', x=920.70, y=148.00, z=423.70] died, message: 'Villager hit the ground too hard'
-[14:22:20] [Server thread/INFO]: Villager class_1646['Villager'/79544, l='ServerLevel[world]', x=920.70, y=148.00, z=423.70] died, message: 'Villager hit the ground too hard'
-[14:22:32] [Server thread/INFO]: Summoned new Villager
-[14:22:32] [Server thread/INFO]: Summoned new Villager
-[14:22:32] [Server thread/INFO]: Summoned new Villager
-[14:22:33] [Server thread/INFO]: Summoned new Villager
-[14:22:33] [Server thread/INFO]: Summoned new Villager
-[14:22:33] [Server thread/INFO]: Summoned new Villager
-[14:22:34] [Server thread/INFO]: Summoned new Villager
-[14:22:34] [Server thread/INFO]: Summoned new Villager
-[14:22:47] [Server thread/INFO]: Villager class_1646['Villager'/79583, l='ServerLevel[world]', x=920.70, y=148.00, z=423.70] died, message: 'Villager hit the ground too hard'
-[14:22:47] [Server thread/INFO]: Villager class_1646['Villager'/79585, l='ServerLevel[world]', x=-215.56, y=152.00, z=-392.43] died, message: 'Villager hit the ground too hard'
-[14:22:48] [Server thread/INFO]: Villager class_1646['Villager'/79587, l='ServerLevel[world]', x=-122.34, y=66.50, z=-285.30] died, message: 'Villager hit the ground too hard'
-[14:22:48] [Server thread/INFO]: Villager class_1646['Villager'/79588, l='ServerLevel[world]', x=920.70, y=148.00, z=423.70] died, message: 'Villager hit the ground too hard'
-[14:22:48] [Server thread/INFO]: Villager class_1646['Villager'/79589, l='ServerLevel[world]', x=-122.34, y=66.50, z=-285.30] died, message: 'Villager hit the ground too hard'
-[14:22:49] [Server thread/INFO]: Villager class_1646['Villager'/79590, l='ServerLevel[world]', x=-215.56, y=152.00, z=-392.43] died, message: 'Villager hit the ground too hard'
-[14:22:49] [Server thread/INFO]: Villager class_1646['Villager'/79591, l='ServerLevel[world]', x=2624.51, y=150.00, z=-3597.70] died, message: 'Villager hit the ground too hard'
-[14:22:49] [Server thread/INFO]: Villager class_1646['Villager'/79592, l='ServerLevel[world]', x=-121.95, y=64.00, z=-288.55] died, message: 'Villager hit the ground too hard'
-[14:27:27] [Server thread/INFO]: Villager class_1646['Villager'/77952, l='ServerLevel[world]', x=2597.74, y=65.08, z=-3607.09] died, message: 'Villager tried to swim in lava'
-[14:29:25] [Server thread/INFO]: Villager class_1646['Villager'/63733, l='ServerLevel[world]', x=2555.38, y=63.00, z=-3619.78] died, message: 'Villager was slain by Zombie'
-[14:29:37] [Server thread/INFO]: Villager class_1646['Armorer'/63734, l='ServerLevel[world]', x=2568.69, y=63.00, z=-3611.08] died, message: 'Armorer was slain by Zombie'
-[14:29:51] [Server thread/INFO]: Villager class_1646['Cleric'/63723, l='ServerLevel[world]', x=2570.11, y=63.00, z=-3624.62] died, message: 'Cleric was slain by Zombie Villager'
-[14:38:40] [Server thread/INFO]: Villager class_1646['Villager'/79210, l='ServerLevel[world]', x=2597.83, y=65.10, z=-3607.09] died, message: 'Villager tried to swim in lava'
-[14:49:38] [User Authenticator #9/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[14:49:39] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:57461] logged in with entity id 84647 at (394.2663239979394, 72.0, 500.02395158611773)
-[14:49:39] [Server thread/INFO]: ASFJASJHALALF joined the game
-[14:49:41] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
-[14:49:41] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
-[14:49:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[14:49:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[14:49:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
-[14:49:50] [Server thread/INFO]: [ASFJASJHALALF: Set own game mode to Spectator Mode]
-[14:50:50] [Server thread/INFO]: [ASFJASJHALALF: Set own game mode to Creative Mode]
-[14:50:59] [Server thread/INFO]: <ASFJASJHALALF> hey its me god
-[14:51:03] [Server thread/INFO]: <ASFJASJHALALF> have a nice day
-[14:51:05] [Server thread/INFO]: [ASFJASJHALALF: Set own game mode to Spectator Mode]
-[14:51:05] [Server thread/INFO]: <emilysoupp> oh hey!
-[14:51:24] [Server thread/INFO]: Villager class_1646['Villager'/80588, l='ServerLevel[world]', x=2597.78, y=64.99, z=-3607.10] died, message: 'Villager tried to swim in lava'
-[15:01:54] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.12620684043326946,0.0,-10.78036118161377
-[15:03:37] [Server thread/INFO]: Villager class_1646['Villager'/83116, l='ServerLevel[world]', x=2597.87, y=64.72, z=-3607.09] died, message: 'Villager tried to swim in lava'
-[15:09:08] [Server thread/INFO]: emilysoupp lost connection: Disconnected
-[15:09:08] [Server thread/INFO]: emilysoupp left the game
-[15:09:08] [Server thread/INFO]: [voicechat] Disconnecting client emilysoupp
-[15:17:27] [User Authenticator #10/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[15:17:28] [Server thread/INFO]: madb0nes[/72.70.38.62:51313] logged in with entity id 110605 at (206.45462732455223, 32.0, 1149.300000011921)
-[15:17:28] [Server thread/INFO]: madb0nes joined the game
-[15:17:28] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
-[15:17:28] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
-[15:17:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[15:17:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[15:17:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
-[15:25:20] [Server thread/INFO]: Villager class_1646['Villager'/101319, l='ServerLevel[world]', x=2597.73, y=64.93, z=-3607.31] died, message: 'Villager tried to swim in lava'
-[15:27:48] [Server thread/INFO]: [ASFJASJHALALF: Set own game mode to Creative Mode]
-[15:27:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7282ms or 145 ticks behind
-[15:27:56] [Server thread/INFO]: [ASFJASJHALALF: Set own game mode to Survival Mode]
-[15:30:03] [Server thread/INFO]: Villager class_1646['Villager'/106929, l='ServerLevel[world]', x=2597.99, y=65.36, z=-3607.40] died, message: 'Villager tried to swim in lava'
-[15:32:15] [Server thread/INFO]: [ASFJASJHALALF: Teleported Allay to ASFJASJHALALF]
-[15:35:09] [Server thread/INFO]: [ASFJASJHALALF: Set own game mode to Spectator Mode]
-[15:35:23] [Server thread/INFO]: [ASFJASJHALALF: Set own game mode to Survival Mode]
-[15:38:48] [Server thread/INFO]: ASFJASJHALALF has made the advancement [Best Friends Forever]
-[15:43:04] [Server thread/INFO]: Villager class_1646['Villager'/114249, l='ServerLevel[world]', x=2597.85, y=64.87, z=-3607.05] died, message: 'Villager tried to swim in lava'
-[15:43:26] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:44:08] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:45:00] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:45:58] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:46:07] [Server thread/INFO]: <ASFJASJHALALF> hey its me god
-[15:46:12] [Server thread/INFO]: <madb0nes> hi god
-[15:46:14] [Server thread/INFO]: <ASFJASJHALALF> the opps are outside
-[15:46:17] [Server thread/INFO]: <ASFJASJHALALF> theyre gonna fuck me up
-[15:46:27] [Server thread/INFO]: <madb0nes> yeah they keep trying to steal my turf
-[15:46:32] [Server thread/INFO]: <ASFJASJHALALF> thats fucked
-[15:46:43] [Server thread/INFO]: <ASFJASJHALALF> is it cool if i leave myboys with u
-[15:46:50] [Server thread/INFO]: <madb0nes> yeah
-[15:46:53] [Server thread/INFO]: <ASFJASJHALALF> thanks goat
-[15:46:59] [Server thread/INFO]: <madb0nes> o7
-[15:47:00] [Server thread/INFO]: <ASFJASJHALALF> is there a place where they wont go outside cuz of pressure platesd
-[15:47:12] [Server thread/INFO]: <madb0nes> uhm the chicken coop lol
-[15:47:24] [Server thread/INFO]: <ASFJASJHALALF> is there a place where they wont go outside cuz of pressure platesd
-[15:47:28] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:47:31] [Server thread/INFO]: <ASFJASJHALALF> wrong spot
-[15:47:36] [Server thread/INFO]: <ASFJASJHALALF> wrong message*
-[15:47:37] [Server thread/INFO]: <ASFJASJHALALF> not spot
-[15:47:38] [Server thread/INFO]: <ASFJASJHALALF> burh
-[15:47:39] [Server thread/INFO]: <ASFJASJHALALF> bruh
-[15:47:42] [Server thread/INFO]: <madb0nes> lol
-[15:47:44] [Server thread/INFO]: <ASFJASJHALALF> spelling is hard i hate this
-[15:48:01] [Server thread/INFO]: <ASFJASJHALALF> spelling is hard i hate this
-[15:48:02] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:48:19] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:48:27] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:48:48] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:48:57] [Server thread/INFO]: <madb0nes> they want you so bad
-[15:48:58] [User Authenticator #11/INFO]: UUID of player emilysoupp is 566a49eb-94ba-4465-aa50-9a7a69e8d15f
-[15:48:59] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:48:59] [Server thread/INFO]: emilysoupp[/66.31.252.142:60320] logged in with entity id 127804 at (-118.53563473744228, 68.0, -285.7395547102403)
-[15:48:59] [Server thread/INFO]: emilysoupp joined the game
-[15:49:07] [Server thread/INFO]: [ASFJASJHALALF: Teleported 2 entities to ASFJASJHALALF]
-[15:49:14] [Server thread/INFO]: <ASFJASJHALALF> yeah im cool
-[15:49:30] [Server thread/INFO]: <ASFJASJHALALF> rip i feel so bad for them
-[15:49:43] [Server thread/INFO]: <madb0nes> its like ur dropping them off at daycare
-[15:49:47] [Server thread/INFO]: <ASFJASJHALALF> also theres a few that flew off so im gonna have to cheater them back to me at some point by loading in their chunks
-[15:49:55] [Server thread/INFO]: <madb0nes> rip
-[15:49:55] [Server thread/INFO]: <ASFJASJHALALF> yeah it is
-[15:50:01] [Server thread/INFO]: <ASFJASJHALALF> ill find them evntually
-[15:50:10] [Server thread/INFO]: <madb0nes> gl soldier
-[15:50:15] [Server thread/INFO]: <ASFJASJHALALF> oh also i have sojmetHing for u
-[15:50:21] [Server thread/INFO]: <ASFJASJHALALF> welp
-[15:50:27] [Server thread/INFO]: <ASFJASJHALALF> im so glad that we have that datapack
-[15:50:30] [Server thread/INFO]: <madb0nes> same
-[15:50:37] [Server thread/INFO]: <ASFJASJHALALF> HE was fucking posted up RIGHT outside LMFAO
-[15:50:49] [Server thread/INFO]: <madb0nes> im telling you they want my property
-[15:51:15] [Server thread/INFO]: <ASFJASJHALALF> are u guys gonna do torches on the ground or some moss + shroomlights
-[15:51:33] [Server thread/INFO]: <madb0nes> probably the second and some lanterns
-[15:51:41] [Server thread/INFO]: <ASFJASJHALALF> sick
-[15:51:47] [Server thread/INFO]: <ASFJASJHALALF> yeah i saw the lanterns and those are fire
-[15:51:57] [Server thread/INFO]: <madb0nes> ikr
-[15:52:06] [Server thread/INFO]: <ASFJASJHALALF> also lowkey
-[15:52:16] [Server thread/INFO]: <ASFJASJHALALF> is it cool if i steal some iron ingots from u for an axe
-[15:52:28] [Server thread/INFO]: <madb0nes> sure i just got a shit ton of iron
-[15:52:32] [Server thread/INFO]: <ASFJASJHALALF> thanks goat
-[15:53:47] [Server thread/INFO]: Villager class_1646['Villager'/121913, l='ServerLevel[world]', x=2597.90, y=65.30, z=-3607.33] died, message: 'Villager tried to swim in lava'
-[16:13:26] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 5 mins
-[16:13:37] [Server thread/INFO]: Villager class_1646['Villager'/129460, l='ServerLevel[world]', x=2597.76, y=65.44, z=-3606.85] died, message: 'Villager tried to swim in lava'
-[16:13:38] [Server thread/INFO]: <emilysoupp> o7
-[16:13:48] [Server thread/INFO]: <madb0nes> aw carp
-[16:17:26] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 1 minute
-[16:17:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=373, y=75, z=516} class_2338{x=368, y=75, z=518}
-[16:17:49] [Server thread/INFO]: madb0nes lost connection: Disconnected
-[16:17:49] [Server thread/INFO]: madb0nes left the game
-[16:17:49] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
-[16:18:16] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 10 seconds
-[16:18:19] [Server thread/INFO]: emilysoupp lost connection: Disconnected
-[16:18:19] [Server thread/INFO]: emilysoupp left the game
-[16:18:19] [Server thread/INFO]: [voicechat] Disconnecting client emilysoupp
-[16:18:26] [Server thread/INFO]: Stopping the server
-[16:18:26] [Server thread/INFO]: Stopping server
-[16:18:26] [Server thread/INFO]: Saving players
-[16:18:26] [Server thread/INFO]: 17sk lost connection: Server closed
-[16:18:26] [Server thread/INFO]: 17sk left the game
-[16:18:26] [Server thread/INFO]: Zumquirelle lost connection: Server closed
-[16:18:26] [Server thread/INFO]: Zumquirelle left the game
-[16:18:26] [Server thread/INFO]: Saving worlds
-[16:18:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[16:18:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[16:18:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[16:18:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[16:18:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[16:18:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[16:18:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:19:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:19:03] [main/INFO]: Compatibility level set to JAVA_21
+[16:19:03] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[16:19:03] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[16:19:03] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[16:19:03] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[16:19:03] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[16:19:03] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[16:19:03] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[16:19:03] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
+[16:19:03] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:19:09] [main/INFO]: [voicechat] Compatibility version 18
+[16:19:09] [main/INFO]: [voicechat] Loading plugins
+[16:19:09] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[16:19:09] [main/INFO]: [voicechat] Initializing plugins
+[16:19:09] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[16:19:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:19:09] [main/INFO]: Found new data pack file/graves v3.0.7 (MC 1.21-1.21.4).zip, loading it automatically
+[16:19:10] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[16:19:10] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[16:19:10] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[16:19:10] [main/INFO]: Loaded 1370 recipes
+[16:19:10] [main/INFO]: Loaded 1503 advancements
+[16:19:11] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[16:19:11] [Server thread/INFO]: Loading properties
+[16:19:11] [Server thread/INFO]: Default game type: SURVIVAL
+[16:19:11] [Server thread/INFO]: Generating keypair
+[16:19:11] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[16:19:11] [Server thread/INFO]: Using default channel type
+[16:19:11] [Server thread/INFO]: Preparing level "world"
+[16:19:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:19:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:19:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:19:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:19:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[16:19:13] [Server thread/INFO]: Time elapsed: 1561 ms
+[16:19:13] [Server thread/INFO]: Done (1.895s)! For help, type "help"
+[16:19:13] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[16:19:13] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[16:19:13] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[16:20:13] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[16:20:13] [Server thread/INFO]: Stopping the server
+[16:20:13] [Server thread/INFO]: Stopping server
+[16:20:13] [Server thread/INFO]: Saving players
+[16:20:13] [Server thread/INFO]: Saving worlds
+[16:20:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:20:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:20:14] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:20:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:20:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:20:14] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:20:14] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
