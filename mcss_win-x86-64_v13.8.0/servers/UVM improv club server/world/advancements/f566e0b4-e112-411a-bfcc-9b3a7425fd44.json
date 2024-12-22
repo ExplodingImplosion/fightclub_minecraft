@@ -8336,17 +8336,20 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-12-20 02:22:54 -0500",
-      "minecraft:cave_spider": "2024-12-20 22:43:56 -0500",
+      "minecraft:blaze": "2024-12-22 02:10:30 -0500",
       "minecraft:skeleton": "2024-12-19 20:24:28 -0500",
+      "minecraft:phantom": "2024-12-22 00:16:52 -0500",
+      "minecraft:witch": "2024-12-19 19:52:10 -0500",
+      "minecraft:shulker": "2024-12-21 17:18:10 -0500",
+      "minecraft:cave_spider": "2024-12-20 22:43:56 -0500",
       "minecraft:silverfish": "2024-12-21 14:52:47 -0500",
       "minecraft:enderman": "2024-12-21 17:02:38 -0500",
-      "minecraft:witch": "2024-12-19 19:52:10 -0500",
+      "minecraft:magma_cube": "2024-12-22 01:04:27 -0500",
       "minecraft:spider": "2024-12-19 20:30:19 -0500",
       "minecraft:zombie": "2024-12-19 19:41:52 -0500",
       "minecraft:creeper": "2024-12-19 20:33:09 -0500",
       "minecraft:drowned": "2024-12-20 21:49:40 -0500",
-      "minecraft:zombie_villager": "2024-12-21 15:13:01 -0500",
-      "minecraft:shulker": "2024-12-21 17:18:10 -0500"
+      "minecraft:zombie_villager": "2024-12-21 15:13:01 -0500"
     },
     "done": false
   },
@@ -8376,10 +8379,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-12-22 01:08:50 -0500",
       "minecraft:soul_sand_valley": "2024-12-19 23:11:58 -0500",
-      "minecraft:basalt_deltas": "2024-12-21 16:24:08 -0500"
+      "minecraft:nether_wastes": "2024-12-22 01:07:54 -0500",
+      "minecraft:basalt_deltas": "2024-12-21 16:24:08 -0500",
+      "minecraft:warped_forest": "2024-12-22 01:46:14 -0500"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/root": {
     "criteria": {
@@ -8486,6 +8492,24 @@
   "minecraft:husbandry/breed_an_animal": {
     "criteria": {
       "bred": "2024-12-21 21:05:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-12-22 02:11:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-12-22 01:41:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-12-22 02:08:46 -0500"
     },
     "done": true
   },

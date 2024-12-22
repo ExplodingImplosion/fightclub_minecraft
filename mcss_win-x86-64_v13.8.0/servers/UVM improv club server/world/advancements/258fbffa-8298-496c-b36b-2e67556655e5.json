@@ -8319,15 +8319,19 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-12-19 19:48:13 -0500",
+      "minecraft:pillager": "2024-12-21 23:48:22 -0500",
       "minecraft:skeleton": "2024-12-19 19:12:49 -0500",
       "minecraft:phantom": "2024-12-21 19:12:04 -0500",
       "minecraft:zombified_piglin": "2024-12-20 16:00:21 -0500",
       "minecraft:wither_skeleton": "2024-12-21 17:11:12 -0500",
+      "minecraft:bogged": "2024-12-22 01:09:15 -0500",
       "minecraft:ghast": "2024-12-19 20:46:52 -0500",
       "minecraft:ender_dragon": "2024-12-19 21:50:28 -0500",
       "minecraft:hoglin": "2024-12-20 03:26:27 -0500",
       "minecraft:shulker": "2024-12-19 22:19:36 -0500",
+      "minecraft:cave_spider": "2024-12-22 00:20:02 -0500",
       "minecraft:piglin": "2024-12-19 19:33:52 -0500",
+      "minecraft:breeze": "2024-12-22 00:30:58 -0500",
       "minecraft:enderman": "2024-12-19 20:39:31 -0500",
       "minecraft:silverfish": "2024-12-19 21:30:20 -0500",
       "minecraft:magma_cube": "2024-12-19 19:33:02 -0500",
@@ -8335,7 +8339,9 @@
       "minecraft:spider": "2024-12-19 21:14:00 -0500",
       "minecraft:piglin_brute": "2024-12-20 15:59:43 -0500",
       "minecraft:zombie": "2024-12-19 21:13:34 -0500",
-      "minecraft:creeper": "2024-12-20 03:36:09 -0500"
+      "minecraft:creeper": "2024-12-20 03:36:09 -0500",
+      "minecraft:drowned": "2024-12-22 02:02:55 -0500",
+      "minecraft:slime": "2024-12-22 00:20:52 -0500"
     },
     "done": false
   },
@@ -8581,6 +8587,36 @@
   "minecraft:nether/netherite_armor": {
     "criteria": {
       "netherite_armor": "2024-12-21 19:12:51 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-12-21 23:48:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2024-12-22 00:12:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2024-12-22 00:18:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2024-12-22 00:24:31 -0500"
+    },
+    "done": false
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:flow_armor_trim_smithing_template_smithing_trim": "2024-12-22 01:22:08 -0500"
     },
     "done": true
   },

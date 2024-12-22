@@ -8295,6 +8295,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-12-22 03:31:20 -0500",
       "bread": "2024-12-19 21:28:33 -0500",
       "cooked_chicken": "2024-12-21 15:07:17 -0500",
       "cooked_mutton": "2024-12-19 19:12:16 -0500",
@@ -8328,10 +8329,16 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-12-19 22:43:37 -0500",
-      "minecraft:cave_spider": "2024-12-20 15:34:15 -0500",
+      "minecraft:blaze": "2024-12-22 02:09:45 -0500",
       "minecraft:skeleton": "2024-12-19 20:34:23 -0500",
+      "minecraft:phantom": "2024-12-22 00:17:12 -0500",
+      "minecraft:wither_skeleton": "2024-12-22 02:09:11 -0500",
+      "minecraft:ghast": "2024-12-22 01:45:38 -0500",
+      "minecraft:hoglin": "2024-12-22 01:10:02 -0500",
+      "minecraft:cave_spider": "2024-12-20 15:34:15 -0500",
       "minecraft:enderman": "2024-12-21 17:23:57 -0500",
       "minecraft:silverfish": "2024-12-21 21:18:16 -0500",
+      "minecraft:magma_cube": "2024-12-22 01:04:07 -0500",
       "minecraft:spider": "2024-12-20 15:21:20 -0500",
       "minecraft:zombie": "2024-12-19 19:30:33 -0500",
       "minecraft:creeper": "2024-12-21 15:46:17 -0500",
@@ -8415,10 +8422,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-12-22 01:08:41 -0500",
       "minecraft:soul_sand_valley": "2024-12-21 16:48:31 -0500",
-      "minecraft:basalt_deltas": "2024-12-20 00:00:16 -0500"
+      "minecraft:nether_wastes": "2024-12-22 01:07:54 -0500",
+      "minecraft:basalt_deltas": "2024-12-20 00:00:16 -0500",
+      "minecraft:warped_forest": "2024-12-22 01:46:20 -0500"
     },
-    "done": false
+    "done": true
   },
   "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
@@ -8483,6 +8493,30 @@
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2024-12-21 20:38:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-12-22 00:45:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-12-22 01:45:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-12-22 02:08:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-12-22 02:09:45 -0500"
     },
     "done": true
   },
