@@ -1,5 +1,5 @@
-[09:14:04] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[09:14:04] [main/INFO]: Loading 12 mods:
+[14:45:59] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[14:45:59] [main/INFO]: Loading 12 mods:
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
 	- ferritecore 7.1.1
@@ -13,375 +13,1497 @@
 	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
 	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
 	   \-- fabric-resource-loader-v0 3.0.9+203e6b2382
-[09:14:04] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[09:14:04] [main/INFO]: Compatibility level set to JAVA_21
-[09:14:04] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[09:14:04] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[09:14:04] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[09:14:04] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[09:14:04] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[09:14:04] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[09:14:04] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[09:14:04] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
-[09:14:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[09:14:10] [main/INFO]: [voicechat] Compatibility version 18
-[09:14:10] [main/INFO]: [voicechat] Loading plugins
-[09:14:10] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[09:14:10] [main/INFO]: [voicechat] Initializing plugins
-[09:14:10] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[09:14:10] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[09:14:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[09:14:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[09:14:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[09:14:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
-[09:14:11] [main/INFO]: Loaded 1370 recipes
-[09:14:11] [main/INFO]: Loaded 1498 advancements
-[09:14:12] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[09:14:12] [Server thread/INFO]: Loading properties
-[09:14:12] [Server thread/INFO]: Default game type: SURVIVAL
-[09:14:12] [Server thread/INFO]: Generating keypair
-[09:14:12] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[09:14:12] [Server thread/INFO]: Using default channel type
-[09:14:12] [Server thread/INFO]: Preparing level "world"
-[09:14:12] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:14:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[09:14:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[09:14:14] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[09:14:14] [Server thread/INFO]: Time elapsed: 1451 ms
-[09:14:14] [Server thread/INFO]: Done (1.864s)! For help, type "help"
-[09:14:14] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[09:14:14] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[09:14:14] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[09:14:17] [User Authenticator #1/INFO]: UUID of player Mosshroom_ is dc7e2ddf-9c53-4b85-a6eb-4c391086470b
-[09:14:18] [Server thread/INFO]: Mosshroom_[/71.232.16.38:51910] logged in with entity id 6 at (-464.21296162087197, 72.0, -322.21609231685244)
-[09:14:18] [Server thread/INFO]: Mosshroom_ joined the game
-[09:14:18] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[09:43:07] [User Authenticator #2/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:43:07] [Server thread/INFO]: _scasey[/100.14.20.111:58911] logged in with entity id 3677 at (-115.04612620132127, 73.0, -249.65763829264787)
-[09:43:07] [Server thread/INFO]: _scasey joined the game
-[09:43:07] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
-[09:43:07] [Server thread/INFO]: [voicechat] Sent secret to _scasey
-[09:43:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:43:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:43:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
-[09:43:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
-[09:43:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
-[09:43:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
-[09:43:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:43:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:43:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
-[09:45:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
-[09:45:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
-[09:45:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
-[09:45:26] [Server thread/INFO]: _scasey lost connection: Disconnected
-[09:45:26] [Server thread/INFO]: _scasey left the game
-[09:45:26] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
-[09:45:29] [User Authenticator #3/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:45:29] [Server thread/INFO]: _scasey[/100.14.20.111:59327] logged in with entity id 4368 at (-113.0484041884081, 73.0, -251.946521838355)
-[09:45:29] [Server thread/INFO]: _scasey joined the game
-[09:45:29] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
-[09:45:29] [Server thread/INFO]: [voicechat] Sent secret to _scasey
-[09:45:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:45:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:45:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
-[09:48:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
-[09:48:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
-[09:48:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
-[09:48:22] [Server thread/INFO]: _scasey lost connection: Disconnected
-[09:48:22] [Server thread/INFO]: _scasey left the game
-[09:48:22] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
-[09:48:47] [User Authenticator #4/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:48:48] [Server thread/INFO]: _scasey[/100.14.20.111:59381] logged in with entity id 5156 at (-97.11422199247804, 64.0, -294.47138090283306)
-[09:48:48] [Server thread/INFO]: _scasey joined the game
-[09:48:48] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
-[09:48:48] [Server thread/INFO]: [voicechat] Sent secret to _scasey
-[09:48:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:48:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[09:48:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
-[09:59:30] [Server thread/WARN]: _scasey moved too quickly! 6.73772744520781,0.8232407249357578,7.756839898783085
-[09:59:35] [Server thread/INFO]: <Mosshroom_> hi casey
-[09:59:45] [Server thread/INFO]: <_scasey> hai!
-[10:05:20] [User Authenticator #5/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
-[10:05:20] [Server thread/INFO]: Indicte[/209.6.169.219:53913] logged in with entity id 9017 at (-546.1766448226374, 63.0, -228.52430814508915)
-[10:05:20] [Server thread/INFO]: Indicte joined the game
-[10:10:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
-[10:10:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
-[10:10:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
-[10:10:55] [Server thread/INFO]: _scasey lost connection: Disconnected
-[10:10:55] [Server thread/INFO]: _scasey left the game
-[10:10:55] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
-[10:11:05] [User Authenticator #6/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
-[10:11:06] [Server thread/INFO]: _scasey[/100.14.20.111:59447] logged in with entity id 11050 at (-97.34602792816514, 64.0, -294.2782697762249)
-[10:11:06] [Server thread/INFO]: _scasey joined the game
-[10:11:06] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
-[10:11:06] [Server thread/INFO]: [voicechat] Sent secret to _scasey
-[10:11:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[10:11:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[10:11:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
-[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
-[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
-[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
-[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
-[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
-[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
-[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
-[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
-[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
-[10:12:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=64, z=-212} class_2338{x=-599, y=65, z=-228}
-[10:13:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-592, y=63, z=-212} class_2338{x=-595, y=64, z=-211}
-[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
-[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
-[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
-[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
-[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
-[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
-[10:13:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-601, y=65, z=-224} class_2338{x=-602, y=65, z=-223}
-[10:38:47] [Server thread/INFO]: 17sk (/24.253.191.140:55607) lost connection: Disconnected
-[10:40:42] [User Authenticator #7/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[10:40:43] [Server thread/INFO]: 17sk[/24.253.191.140:55906] logged in with entity id 19137 at (-173.05631162698853, 68.9375, -295.84659017521926)
-[10:40:43] [Server thread/INFO]: 17sk joined the game
-[10:40:44] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[10:40:44] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[10:40:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[10:40:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[10:40:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[10:44:02] [Server thread/INFO]: _scasey lost connection: Disconnected
-[10:44:02] [Server thread/INFO]: _scasey left the game
-[10:44:02] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
-[10:44:51] [Server thread/INFO]: 17sk has made the advancement [What a Deal!]
-[10:50:44] [Server thread/INFO]: <Mosshroom_> bamboo autocrafter works!
-[10:54:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-316, y=71, z=-381} class_2338{x=-316, y=70, z=-380}
-[11:05:05] [User Authenticator #8/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
-[11:05:05] [Server thread/INFO]: _scasey[/100.14.20.111:59529] logged in with entity id 24906 at (-97.52639500853516, 64.0, -293.94777648631174)
-[11:05:05] [Server thread/INFO]: _scasey joined the game
-[11:05:05] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
-[11:05:05] [Server thread/INFO]: [voicechat] Sent secret to _scasey
-[11:05:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[11:05:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[11:05:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
-[11:05:14] [Server thread/INFO]: Villager class_1646['Farmer'/15, l='ServerLevel[world]', x=-424.49, y=72.94, z=-309.31] died, message: 'Farmer was slain by Mosshroom_ using [Gen 1 Hyper Beam]'
-[11:08:10] [Server thread/INFO]: Indicte lost connection: Disconnected
-[11:08:10] [Server thread/INFO]: Indicte left the game
-[11:08:10] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
-[11:20:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
-[11:20:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
-[11:20:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
-[11:21:20] [Server thread/INFO]: _scasey lost connection: Disconnected
-[11:21:20] [Server thread/INFO]: _scasey left the game
-[11:21:20] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
-[11:22:22] [User Authenticator #9/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
-[11:22:24] [Server thread/INFO]: _scasey[/100.14.20.111:59564] logged in with entity id 28336 at (-97.48059568292226, 64.0, -294.02518873981546)
-[11:22:24] [Server thread/INFO]: _scasey joined the game
-[11:22:24] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
-[11:22:24] [Server thread/INFO]: [voicechat] Sent secret to _scasey
-[11:22:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[11:22:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
-[11:22:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
-[11:22:41] [Server thread/INFO]: <_scasey> shout out to my internet fr
-[11:58:04] [Server thread/INFO]: /advancement (grant|revoke)
-[11:58:04] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[11:58:04] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[11:58:04] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[11:58:04] [Server thread/INFO]: /clear [<targets>]
-[11:58:04] [Server thread/INFO]: /clone (<begin>|from)
-[11:58:04] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[11:58:04] [Server thread/INFO]: /data (merge|get|remove|modify)
-[11:58:04] [Server thread/INFO]: /datapack (enable|disable|list)
-[11:58:04] [Server thread/INFO]: /debug (start|stop|function)
-[11:58:04] [Server thread/INFO]: /defaultgamemode <gamemode>
-[11:58:04] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[11:58:04] [Server thread/INFO]: /effect (clear|give)
-[11:58:04] [Server thread/INFO]: /me <action>
-[11:58:04] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[11:58:04] [Server thread/INFO]: /experience (add|set|query)
-[11:58:04] [Server thread/INFO]: /xp -> experience
-[11:58:04] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
-[11:58:04] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[11:58:04] [Server thread/INFO]: /forceload (add|remove|query)
-[11:58:04] [Server thread/INFO]: /function <name> [<arguments>|with]
-[11:58:04] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[11:58:04] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[11:58:04] [Server thread/INFO]: /give <targets> <item> [<count>]
-[11:58:04] [Server thread/INFO]: /help [<command>]
-[11:58:04] [Server thread/INFO]: /item (replace|modify)
-[11:58:04] [Server thread/INFO]: /kick <targets> [<reason>]
-[11:58:04] [Server thread/INFO]: /kill [<targets>]
-[11:58:04] [Server thread/INFO]: /list [uuids]
-[11:58:04] [Server thread/INFO]: /locate (structure|biome|poi)
-[11:58:04] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[11:58:04] [Server thread/INFO]: /msg <targets> <message>
-[11:58:04] [Server thread/INFO]: /tell -> msg
-[11:58:04] [Server thread/INFO]: /w -> msg
-[11:58:04] [Server thread/INFO]: /particle <name> [<pos>]
-[11:58:04] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[11:58:04] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[11:58:04] [Server thread/INFO]: /random (value|roll|reset)
-[11:58:04] [Server thread/INFO]: /reload
-[11:58:04] [Server thread/INFO]: /recipe (give|take)
-[11:58:04] [Server thread/INFO]: /return (<value>|fail|run)
-[11:58:04] [Server thread/INFO]: /ride <target> (mount|dismount)
-[11:58:04] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
-[11:58:04] [Server thread/INFO]: /say <message>
-[11:58:04] [Server thread/INFO]: /schedule (function|clear)
-[11:58:04] [Server thread/INFO]: /scoreboard (objectives|players)
-[11:58:04] [Server thread/INFO]: /seed
-[11:58:04] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
-[11:58:04] [Server thread/INFO]: /spawnpoint [<targets>]
-[11:58:04] [Server thread/INFO]: /setworldspawn [<pos>]
-[11:58:04] [Server thread/INFO]: /spectate [<target>]
-[11:58:04] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[11:58:04] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[11:58:04] [Server thread/INFO]: /summon <entity> [<pos>]
-[11:58:04] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[11:58:04] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[11:58:04] [Server thread/INFO]: /teammsg <message>
-[11:58:04] [Server thread/INFO]: /tm -> teammsg
-[11:58:04] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[11:58:04] [Server thread/INFO]: /tp -> teleport
-[11:58:04] [Server thread/INFO]: /tellraw <targets> <message>
-[11:58:04] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
-[11:58:04] [Server thread/INFO]: /time (set|add|query)
-[11:58:04] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[11:58:04] [Server thread/INFO]: /trigger <objective> [add|set]
-[11:58:04] [Server thread/INFO]: /weather (clear|rain|thunder)
-[11:58:04] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[11:58:04] [Server thread/INFO]: /jfr (start|stop)
-[11:58:04] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[11:58:04] [Server thread/INFO]: /banlist [ips|players]
-[11:58:04] [Server thread/INFO]: /ban <targets> [<reason>]
-[11:58:04] [Server thread/INFO]: /deop <targets>
-[11:58:04] [Server thread/INFO]: /op <targets>
-[11:58:04] [Server thread/INFO]: /pardon <targets>
-[11:58:04] [Server thread/INFO]: /pardon-ip <target>
-[11:58:04] [Server thread/INFO]: /perf (start|stop)
-[11:58:04] [Server thread/INFO]: /save-all [flush]
-[11:58:04] [Server thread/INFO]: /save-off
-[11:58:04] [Server thread/INFO]: /save-on
-[11:58:04] [Server thread/INFO]: /setidletimeout <minutes>
-[11:58:04] [Server thread/INFO]: /stop
-[11:58:04] [Server thread/INFO]: /transfer <hostname> [<port>]
-[11:58:04] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[11:58:04] [Server thread/INFO]: /voicechat [help|test|invite|join|leave]
-[11:58:42] [Server thread/INFO]: There are 3 of a max of 69 players online: Mosshroom_, 17sk, _scasey
-[11:59:23] [Server thread/INFO]: [Not Secure] [Server] omg hi June!!
-[11:59:29] [Server thread/INFO]: [Not Secure] [Server] you�re so cool
-[11:59:40] [Server thread/INFO]: [Not Secure] [Server] I�m so glad you�re on the server!! 
-[12:15:55] [User Authenticator #10/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[12:15:55] [Server thread/INFO]: FrozenJarate[/192.168.86.1:51831] logged in with entity id 36220 at (244.20751914224206, 104.0, 632.6509519156505)
-[12:15:55] [Server thread/INFO]: FrozenJarate joined the game
-[12:15:55] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
-[12:15:55] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
-[12:15:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[12:15:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[12:15:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
-[12:15:59] [Server thread/INFO]: <_scasey> yooooo
-[12:16:02] [Server thread/INFO]: <FrozenJarate> yoooo
-[12:16:08] [Server thread/INFO]: <FrozenJarate> hey i have a question about jungle town
-[12:16:15] [Server thread/INFO]: <_scasey> yes
-[12:16:19] [Server thread/INFO]: <FrozenJarate> y'all have that awesome sauce nether portal
-[12:16:33] [Server thread/INFO]: <FrozenJarate> do you want it to stay connected to regular nether or can I relink it to above bedrock for a highway
-[12:17:05] [Server thread/INFO]: <_scasey> my vote is for the roof but idk what the others thoughts are
-[12:17:28] [Server thread/INFO]: <FrozenJarate> i imagine they'd want the nice portal to be for the highway
-[12:17:37] [Server thread/INFO]: <FrozenJarate> if folks get mad we can just make new ones and relink but imma try to do that today
-[12:18:26] [Server thread/INFO]: <_scasey> can i give you a spot to link the highway to then
-[12:18:37] [Server thread/INFO]: <_scasey> so we can keep the one on the bridge to the main nether
-[12:18:45] [Server thread/INFO]: <FrozenJarate> sure
-[12:19:02] [Server thread/INFO]: <FrozenJarate> but i havent even made fairyville's entrance yet so imma work on that first
-[12:19:24] [Server thread/INFO]: <_scasey> kk i'm gonna actually get off in a bit to do errands but i should be back on later tonight
-[12:19:37] [Server thread/INFO]: <FrozenJarate> sounds good
-[12:19:46] [Server thread/INFO]: <FrozenJarate> imma leave to drive my brother into the city in a bit anyway
-[12:22:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=244, y=98, z=614} class_2338{x=244, y=99, z=615}
-[12:26:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=242, y=104, z=656} class_2338{x=243, y=103, z=641}
-[12:26:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=242, y=104, z=656} class_2338{x=243, y=103, z=642}
-[12:29:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=245, y=104, z=658} class_2338{x=247, y=103, z=656}
-[12:33:02] [Server thread/INFO]: _scasey lost connection: Disconnected
-[12:33:02] [Server thread/INFO]: _scasey left the game
-[12:33:02] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
-[12:37:19] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
-[12:37:19] [Server thread/INFO]: FrozenJarate left the game
-[12:37:19] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
-[13:14:14] [Server thread/INFO]: You whisper to Mosshroom_: HOLY SHIT BEHIND YOU!
-[13:43:12] [User Authenticator #11/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[13:43:12] [Server thread/INFO]: FrozenJarate[/192.168.86.1:52755] logged in with entity id 47922 at (245.7178502296737, 103.0, 627.2811155342437)
-[13:43:12] [Server thread/INFO]: FrozenJarate joined the game
-[13:43:13] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
-[13:43:13] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
-[13:43:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[13:43:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[13:43:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
-[13:51:40] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
-[13:51:40] [Server thread/INFO]: FrozenJarate left the game
-[13:51:40] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
-[14:00:51] [User Authenticator #12/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
-[14:00:52] [Server thread/INFO]: GunYoshi[/98.214.164.251:50123] logged in with entity id 51229 at (-104.10461171121317, 64.0, -272.69062005748356)
-[14:00:52] [Server thread/INFO]: GunYoshi joined the game
-[14:00:58] [Server thread/INFO]: <17sk> hi!
-[14:01:00] [Server thread/INFO]: <GunYoshi> hi!
-[14:01:04] [Server thread/INFO]: <GunYoshi> only on for like a couple min
-[14:01:07] [Server thread/INFO]: <17sk> real
-[14:01:47] [Server thread/INFO]: GunYoshi lost connection: Disconnected
-[14:01:47] [Server thread/INFO]: GunYoshi left the game
-[14:01:47] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
-[14:02:25] [User Authenticator #13/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[14:02:25] [Server thread/INFO]: FrozenJarate[/192.168.86.1:53210] logged in with entity id 51717 at (291.1637479290666, -15.0, 501.4112502895367)
-[14:02:25] [Server thread/INFO]: FrozenJarate joined the game
-[14:02:25] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
-[14:02:25] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
-[14:02:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[14:02:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[14:02:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
-[14:05:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=353, y=-52, z=419} class_2338{x=353, y=-53, z=419}
-[14:05:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=353, y=-52, z=419} class_2338{x=353, y=-53, z=419}
-[14:05:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=353, y=-52, z=419} class_2338{x=353, y=-53, z=419}
-[14:11:38] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
-[14:11:38] [Server thread/INFO]: FrozenJarate left the game
-[14:11:38] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
-[14:22:33] [User Authenticator #14/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
-[14:22:34] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:58253] logged in with entity id 60282 at (172.34434313778124, 98.0, 513.2620735762898)
-[14:22:34] [Server thread/INFO]: Lemon_Frog joined the game
-[14:22:35] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
-[14:22:35] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
-[14:22:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
-[14:22:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
-[14:22:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
-[14:24:58] [User Authenticator #15/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
-[14:24:58] [Server thread/INFO]: GunYoshi[/98.214.164.251:50140] logged in with entity id 61146 at (-45.68226534194476, 64.0, -257.46558622479563)
-[14:24:58] [Server thread/INFO]: GunYoshi joined the game
-[14:25:07] [Server thread/INFO]: <Lemon_Frog> hey!
-[14:25:10] [Server thread/INFO]: <GunYoshi> hello!
-[14:30:01] [Server thread/INFO]: <GunYoshi> oh my god i think nick grew a jungle tree pn top of my house
-[14:30:13] [Server thread/INFO]: <Lemon_Frog> classic he/him nick
-[14:35:32] [Server thread/INFO]: <GunYoshi> brb
-[14:35:33] [Server thread/INFO]: GunYoshi lost connection: Disconnected
-[14:35:33] [Server thread/INFO]: GunYoshi left the game
-[14:35:33] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
-[14:37:07] [User Authenticator #16/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[14:37:07] [Server thread/INFO]: FrozenJarate[/192.168.86.1:53964] logged in with entity id 66032 at (232.307303385974, 96.0, 475.1585060623663)
-[14:37:07] [Server thread/INFO]: FrozenJarate joined the game
-[14:37:07] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
-[14:37:07] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
-[14:37:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[14:37:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[14:37:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
-[14:37:13] [Server thread/INFO]: <Lemon_Frog> hi :D
-[14:39:07] [Server thread/INFO]: <17sk> accidentally think i spawned a warden
-[14:39:14] [Server thread/INFO]: <FrozenJarate> ruh roh raggy
-[14:39:15] [Server thread/INFO]: <FrozenJarate> hi!
-[14:39:37] [Server thread/INFO]: <17sk> nvm we chillin
-[14:39:42] [Server thread/INFO]: <17sk> i have one more chance until it spawns
-[14:40:35] [Server thread/INFO]: <FrozenJarate> 229 472
-[14:40:37] [Server thread/INFO]: 17sk has completed the challenge [It Spreads]
-[14:44:50] [Server thread/INFO]: Stopping server
-[14:44:50] [Server thread/INFO]: Saving players
-[14:44:50] [Server thread/INFO]: Mosshroom_ lost connection: Server closed
-[14:44:50] [Server thread/INFO]: Mosshroom_ left the game
-[14:44:50] [Server thread/INFO]: Lemon_Frog lost connection: Server closed
-[14:44:50] [Server thread/INFO]: Lemon_Frog left the game
-[14:44:50] [Server thread/INFO]: Saving worlds
-[14:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14:44:51] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:44:51] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:45:59] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:46:00] [main/INFO]: Compatibility level set to JAVA_21
+[14:46:00] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[14:46:00] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[14:46:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[14:46:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[14:46:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[14:46:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[14:46:00] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[14:46:00] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
+[14:46:00] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14:46:05] [main/INFO]: [voicechat] Compatibility version 18
+[14:46:05] [main/INFO]: [voicechat] Loading plugins
+[14:46:05] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[14:46:05] [main/INFO]: [voicechat] Initializing plugins
+[14:46:05] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[14:46:06] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:46:06] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[14:46:06] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[14:46:06] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[14:46:06] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/player}.pools[1].entries[0]: Unknown loot table called graves:entities/player
+[14:46:07] [main/INFO]: Loaded 1370 recipes
+[14:46:07] [main/INFO]: Loaded 1498 advancements
+[14:46:08] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[14:46:08] [Server thread/INFO]: Loading properties
+[14:46:08] [Server thread/INFO]: Default game type: SURVIVAL
+[14:46:08] [Server thread/INFO]: Generating keypair
+[14:46:08] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[14:46:08] [Server thread/INFO]: Using default channel type
+[14:46:08] [Server thread/INFO]: Preparing level "world"
+[14:46:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:46:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:46:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:46:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:46:10] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[14:46:10] [Server thread/INFO]: Time elapsed: 1577 ms
+[14:46:10] [Server thread/INFO]: Done (1.928s)! For help, type "help"
+[14:46:10] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[14:46:10] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[14:46:10] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[14:46:13] [User Authenticator #1/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[14:46:13] [User Authenticator #2/INFO]: UUID of player TheSamuraiSloth is 4e006098-bfac-4dbd-88b5-347afbc3f126
+[14:46:13] [Server thread/INFO]: 17sk[/24.253.191.140:59536] logged in with entity id 6 at (-1129.108277713557, 97.41999998688698, 502.61199130840566)
+[14:46:14] [Server thread/INFO]: 17sk joined the game
+[14:46:14] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[14:46:14] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[14:46:14] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[14:46:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[14:46:15] [Server thread/INFO]: TheSamuraiSloth[/98.216.48.124:61120] logged in with entity id 256 at (2213.2441026286015, 63.0, -2742.469757280458)
+[14:46:15] [Server thread/INFO]: TheSamuraiSloth joined the game
+[14:46:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[14:46:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[14:46:24] [Server thread/INFO]: <TheSamuraiSloth> hello
+[14:46:25] [Server thread/INFO]: <17sk> hi!
+[14:47:28] [User Authenticator #3/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[14:47:29] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:58409] logged in with entity id 1400 at (114.03812116951697, 44.0, 509.6842018264139)
+[14:47:29] [Server thread/INFO]: Lemon_Frog joined the game
+[14:47:29] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
+[14:47:29] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[14:47:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[14:47:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[14:47:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
+[14:47:39] [User Authenticator #4/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[14:47:39] [Server thread/INFO]: FrozenJarate[/192.168.86.1:54428] logged in with entity id 1821 at (32.35175879577627, 124.0, 75.30000001192093)
+[14:47:39] [Server thread/INFO]: FrozenJarate joined the game
+[14:47:39] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
+[14:47:39] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
+[14:47:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[14:47:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[14:47:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
+[14:47:48] [Server thread/INFO]: <TheSamuraiSloth> hiii
+[14:47:51] [Server thread/INFO]: <FrozenJarate> hey!
+[14:48:05] [Server thread/INFO]: <17sk> mr sloth are you near jtown? like residence wise?
+[14:48:15] [Server thread/INFO]: <TheSamuraiSloth> nah I'm near the witch farm
+[14:48:22] [Server thread/INFO]: <17sk> i see i see
+[14:48:44] [Server thread/INFO]: <17sk> do you happen to have any hand in villager trading? I want a fletcher but the only village near j town is run by moss
+[14:49:06] [Server thread/INFO]: <TheSamuraiSloth> unfortunately I do not
+[14:49:18] [Server thread/INFO]: <17sk> darn! thats ok thank you regardless :)
+[14:49:53] [Server thread/INFO]: <FrozenJarate> 29 59
+[14:50:44] [Server thread/INFO]: <FrozenJarate> YOOOOO
+[14:50:55] [Server thread/INFO]: <FrozenJarate> we got nether highway portal at fairyville
+[14:50:59] [Server thread/INFO]: <17sk> ay!
+[14:52:10] [Server thread/INFO]: <FrozenJarate> FUCK
+[14:52:18] [User Authenticator #5/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[14:52:19] [Server thread/INFO]: Indicte[/209.6.169.219:59031] logged in with entity id 6540 at (-546.8148842119316, 63.0, -226.8717010635506)
+[14:52:19] [Server thread/INFO]: Indicte joined the game
+[14:52:21] [Server thread/INFO]: <FrozenJarate> someone made one that goes to the end portal but it isnt linked up properly
+[14:58:51] [User Authenticator #6/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[14:58:51] [Server thread/INFO]: GunYoshi[/98.214.164.251:50162] logged in with entity id 12626 at (-62.08971309682617, 64.0, -256.0314700324962)
+[14:58:51] [Server thread/INFO]: GunYoshi joined the game
+[14:58:56] [Server thread/WARN]: Oak Boat (vehicle of FrozenJarate) moved too quickly! -5.502979289965111,0.0,-8.821600386523187
+[14:58:57] [Server thread/WARN]: Oak Boat (vehicle of FrozenJarate) moved wrongly! 2.580600884287378
+[14:58:57] [Server thread/WARN]: Oak Boat (vehicle of FrozenJarate) moved wrongly! 2.2632441093552416
+[14:58:57] [Server thread/WARN]: Oak Boat (vehicle of FrozenJarate) moved wrongly! 1.946124587323311
+[14:58:57] [Server thread/WARN]: Oak Boat (vehicle of FrozenJarate) moved wrongly! 1.6293062489766044
+[14:59:08] [Server thread/INFO]: <FrozenJarate> hi ben!
+[14:59:11] [Server thread/INFO]: <GunYoshi> hi!1
+[14:59:13] [Server thread/INFO]: <Lemon_Frog> he returns
+[15:00:28] [Server thread/INFO]: <GunYoshi> what are yall up to
+[15:00:32] [Server thread/INFO]: <17sk> pillager
+[15:00:33] [Server thread/INFO]: <Lemon_Frog> mining
+[15:00:34] [Server thread/INFO]: <17sk> but also mining
+[15:00:39] [Server thread/INFO]: <Indicte> im being super evil rn
+[15:00:40] [Server thread/INFO]: <17sk> im broke
+[15:00:44] [Server thread/INFO]: <Lemon_Frog> realllll
+[15:00:48] [Server thread/INFO]: <FrozenJarate> just made nether portal above bedrock for fairyville, about to afk while i clean the kitchen
+[15:00:58] [Server thread/INFO]: <GunYoshi> real, maybe i should mine. i have four diamonds to my name loll
+[15:01:09] [Server thread/INFO]: <GunYoshi> dash, ive been in that kitchen. wow
+[15:01:15] [Server thread/INFO]: <FrozenJarate> IKR
+[15:01:23] [Server thread/INFO]: <GunYoshi> i can perfectly picture you cleaning it
+[15:01:59] [Server thread/INFO]: Lemon_Frog has completed the challenge [It Spreads]
+[15:02:08] [Server thread/INFO]: <GunYoshi> woah
+[15:02:23] [Server thread/INFO]: 17sk has made the advancement [Ol' Betsy]
+[15:02:45] [Server thread/INFO]: <Lemon_Frog> i hate to make myself look lame but i totally just hit a zombie off a cliff and thats where it fell lol
+[15:02:58] [Server thread/INFO]: <GunYoshi> coords? would love to get some skulk
+[15:03:15] [Server thread/INFO]: Indicte has made the advancement [What a Deal!]
+[15:03:18] [Server thread/INFO]: <Lemon_Frog> if you come to fairy ville, its in the mine behind my house
+[15:03:21] [Server thread/INFO]: <GunYoshi> okay sickl
+[15:07:36] [Server thread/INFO]: Indicte has made the advancement [Enchanter]
+[15:08:08] [Server thread/INFO]: <GunYoshi> is anyine able to sleep?
+[15:08:21] [Server thread/INFO]: <GunYoshi> thanks!
+[15:10:18] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[15:10:18] [Server thread/INFO]: GunYoshi left the game
+[15:10:18] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[15:11:02] [Server thread/INFO]: FrozenJarate has made the advancement [What a Deal!]
+[15:11:27] [Server thread/INFO]: <Lemon_Frog> oh god
+[15:12:11] [Server thread/INFO]: <Lemon_Frog> i fear i almost summoned a warden
+[15:12:16] [Server thread/INFO]: TheSamuraiSloth was shot by Skeleton
+[15:14:49] [User Authenticator #7/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[15:14:49] [Server thread/INFO]: GunYoshi[/98.214.164.251:50179] logged in with entity id 34383 at (283.66818173049046, 40.0, -484.0987124721212)
+[15:14:49] [Server thread/INFO]: GunYoshi joined the game
+[15:15:43] [Server thread/INFO]: TheSamuraiSloth was shot by Skeleton
+[15:21:40] [Server thread/INFO]: <17sk> how often do the trial chambers reset
+[15:21:48] [Server thread/INFO]: <GunYoshi> 20 min i think?
+[15:21:50] [Server thread/INFO]: <17sk> like if i jsut stand here for 15-20 minutes can i get another key?
+[15:21:58] [Server thread/INFO]: <GunYoshi> the ominous vaults can only be used b yeach player once tho
+[15:22:09] [Server thread/INFO]: <GunYoshi> u should look it up tho, its smthn like that i think
+[15:22:14] [Server thread/INFO]: <17sk> ok cool thank you!
+[15:23:01] [Server thread/INFO]: <FrozenJarate> keys can be infinitely farmed from a trial chamber but vaults can only be opened once per player; i.e. you can farm a trial chamber for keys but have to take those keys to other trial chambers
+[15:23:08] [Server thread/INFO]: <FrozenJarate> anyway im going afk now, gl goat <3
+[15:23:10] [Server thread/INFO]: <17sk> oh sick ok
+[15:23:26] [Server thread/INFO]: <17sk> there are like 3 vaults in here and some of them can't be o[ened with the key i had
+[15:23:31] [Server thread/INFO]: <GunYoshi> i thought normal vaults could be used more than once> maybe i am not the understander
+[15:23:31] [Server thread/INFO]: <17sk> i'll just sit here and farm keys
+[15:23:44] [Server thread/INFO]: <GunYoshi> yeah some are ominous vaults, u need to go in w bad omen to trigger a harder trial
+[15:23:48] [Server thread/INFO]: <17sk> ohhhhhh
+[15:23:57] [Server thread/INFO]: <17sk> im gonna say some derogatory things about this
+[15:24:01] [Server thread/INFO]: <17sk> stupid!
+[15:24:12] [Server thread/INFO]: <GunYoshi> HEY. HEY. thats ur rihjt to think, ultimately
+[15:29:39] [User Authenticator #8/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[15:29:41] [Server thread/INFO]: razeyrainbows[/146.115.92.123:52975] logged in with entity id 49113 at (351.4830148683048, 70.0, 361.66306967740434)
+[15:29:41] [Server thread/INFO]: razeyrainbows joined the game
+[15:29:42] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
+[15:29:42] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
+[15:29:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
+[15:29:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
+[15:29:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
+[15:40:01] [User Authenticator #9/INFO]: UUID of player Zumquirelle is 0656d51b-fc45-439f-8850-f95f9f205cc5
+[15:40:01] [Server thread/INFO]: Zumquirelle[/24.60.30.191:49975] logged in with entity id 58463 at (-66.30000001192093, 61.0, 308.69999998807907)
+[15:40:01] [Server thread/INFO]: Zumquirelle joined the game
+[15:40:02] [Server thread/INFO]: [voicechat] Received secret request of Zumquirelle (18)
+[15:40:02] [Server thread/INFO]: [voicechat] Sent secret to Zumquirelle
+[15:40:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[15:40:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[15:40:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zumquirelle (0656d51b-fc45-439f-8850-f95f9f205cc5) successfully connected to voice chat
+[15:43:13] [Server thread/INFO]: <razeyrainbows> is it ok if i sleep
+[15:43:18] [Server thread/INFO]: <GunYoshi> good w me
+[15:43:19] [Server thread/INFO]: <razeyrainbows> or does someone need dark
+[15:43:23] [Server thread/INFO]: <Indicte> go ahead
+[15:43:35] [Server thread/INFO]: <razeyrainbows> ty
+[15:43:36] [Server thread/INFO]: Indicte has made the advancement [Eye Spy]
+[15:43:39] [Server thread/INFO]: Indicte has made the advancement [The End?]
+[15:44:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-64, y=61, z=340} class_2338{x=-66, y=60, z=341}
+[15:44:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-64, y=61, z=340} class_2338{x=-66, y=60, z=341}
+[15:44:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-64, y=61, z=340} class_2338{x=-66, y=60, z=341}
+[15:48:25] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[15:48:25] [Server thread/INFO]: GunYoshi left the game
+[15:48:25] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[15:49:27] [User Authenticator #10/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[15:49:28] [Server thread/INFO]: GunYoshi[/98.214.164.251:50200] logged in with entity id 71384 at (329.17451034579636, -42.0, -310.2446039245457)
+[15:49:28] [Server thread/INFO]: GunYoshi joined the game
+[15:49:35] [Server thread/INFO]: razeyrainbows has made the advancement [Voluntary Exile]
+[15:50:38] [Server thread/INFO]: Lemon_Frog was slain by Zombie
+[15:56:39] [Server thread/INFO]: TheSamuraiSloth was shot by Skeleton
+[15:59:39] [Server thread/INFO]: <razeyrainbows> -127 -18 577
+[15:59:46] [Server thread/INFO]: <Lemon_Frog> no one go there
+[15:59:49] [Server thread/INFO]: <Lemon_Frog> ours
+[15:59:51] [Server thread/INFO]: <Lemon_Frog> dibs
+[15:59:52] [Server thread/INFO]: <17sk> im omw already
+[15:59:52] [Server thread/INFO]: <GunYoshi> too late
+[15:59:55] [Server thread/INFO]: <razeyrainbows> nonono
+[15:59:57] [Server thread/INFO]: <Lemon_Frog> fuck you
+[15:59:59] [Server thread/INFO]: <Lemon_Frog> ours
+[16:00:02] [Server thread/INFO]: <17sk> what is it
+[16:00:06] [Server thread/INFO]: <razeyrainbows> shhh
+[16:00:06] [Server thread/INFO]: <Lemon_Frog> nothing
+[16:00:15] [Server thread/INFO]: <Lemon_Frog> dont even worry about it
+[16:00:16] [Server thread/INFO]: <razeyrainbows> boring stuff
+[16:00:26] [Server thread/INFO]: <Lemon_Frog> its a dmv chill
+[16:00:32] [Server thread/INFO]: <Lemon_Frog> its totally fine
+[16:01:08] [Server thread/INFO]: <17sk> is it an ancient city?
+[16:01:11] [Server thread/INFO]: <Lemon_Frog> no
+[16:01:13] [Server thread/INFO]: <Lemon_Frog> shut up
+[16:01:16] [Server thread/INFO]: <Lemon_Frog> STOP
+[16:01:17] [Server thread/INFO]: <17sk> oh ok
+[16:01:19] [Server thread/INFO]: <17sk> LMAO
+[16:01:29] [Server thread/INFO]: <Lemon_Frog> its a dmv you never listen to me
+[16:01:32] [Server thread/INFO]: <GunYoshi> getting the vibes its something else
+[16:01:41] [Server thread/INFO]: <17sk> im going there now ben wanna join
+[16:01:47] [Server thread/INFO]: <Lemon_Frog> no :(
+[16:01:51] [Server thread/INFO]: <razeyrainbows> ill cry
+[16:01:53] [Server thread/INFO]: <17sk> no im joking im busy with a thing rn
+[16:01:59] [Server thread/INFO]: <GunYoshi> eh i just went mining. im good
+[16:02:07] [Server thread/INFO]: <Lemon_Frog> okay purr
+[16:02:14] [Server thread/INFO]: <GunYoshi> otherwise i would but only to jumpa round a lot and summon the warden
+[16:02:17] [Server thread/INFO]: <17sk> does anyone want spider eyes side note
+[16:02:33] [Server thread/INFO]: <razeyrainbows> im not a potion guy
+[16:02:38] [Server thread/INFO]: <GunYoshi> yes actually i do
+[16:02:44] [Server thread/INFO]: <GunYoshi> if its not a hassle
+[16:03:13] [Server thread/INFO]: <17sk> yes
+[16:05:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-73, y=61, z=346} class_2338{x=-72, y=61, z=347}
+[16:05:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-77, y=62, z=345} class_2338{x=-74, y=60, z=346}
+[16:05:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-77, y=62, z=345} class_2338{x=-74, y=60, z=346}
+[16:05:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-77, y=62, z=345} class_2338{x=-74, y=60, z=346}
+[16:05:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-77, y=62, z=345} class_2338{x=-74, y=60, z=346}
+[16:06:14] [Server thread/INFO]: TheSamuraiSloth was impaled on a stalagmite
+[16:06:35] [Server thread/INFO]: <GunYoshi> damn.'
+[16:07:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=61, z=327} class_2338{x=-93, y=61, z=327}
+[16:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=61, z=327} class_2338{x=-93, y=61, z=327}
+[16:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=61, z=327} class_2338{x=-93, y=61, z=327}
+[16:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=61, z=327} class_2338{x=-93, y=61, z=327}
+[16:07:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-94, y=61, z=327} class_2338{x=-93, y=61, z=327}
+[16:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=62, z=330} class_2338{x=-99, y=61, z=327}
+[16:07:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-95, y=62, z=330} class_2338{x=-99, y=61, z=327}
+[16:09:05] [Server thread/INFO]: 17sk drowned
+[16:09:14] [Server thread/INFO]: <GunYoshi> tough
+[16:09:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=243, y=103, z=660} class_2338{x=262, y=97, z=615}
+[16:09:46] [Server thread/INFO]: <GunYoshi> is ur stuff far? Im about to depart on a journey so im happy to come w to get it
+[16:09:58] [Server thread/INFO]: <17sk> i got it all here but thank you tho
+[16:10:02] [Server thread/INFO]: <17sk> im right next to jtown
+[16:10:07] [Server thread/INFO]: <GunYoshi> oh loll
+[16:10:18] [Server thread/INFO]: <17sk> yea thankfuklly
+[16:10:33] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=252, y=102, z=622} class_2338{x=252, y=102, z=623}
+[16:10:45] [Server thread/INFO]: TheSamuraiSloth fell from a high place
+[16:11:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=261, y=98, z=617} class_2338{x=262, y=97, z=618}
+[16:12:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=263, y=96, z=614} class_2338{x=261, y=99, z=618}
+[16:12:50] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
+[16:12:50] [Server thread/INFO]: razeyrainbows left the game
+[16:12:50] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
+[16:12:52] [Server thread/INFO]: GunYoshi has made the advancement [Ol' Betsy]
+[16:13:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-73, y=60, z=327} class_2338{x=-72, y=60, z=327}
+[16:13:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-73, y=60, z=327} class_2338{x=-72, y=60, z=327}
+[16:13:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-73, y=60, z=327} class_2338{x=-72, y=60, z=327}
+[16:13:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-73, y=60, z=325} class_2338{x=-72, y=60, z=327}
+[16:13:34] [Server thread/INFO]: * GunYoshi has killed the Ender Dragon
+[16:13:47] [Server thread/INFO]: TheSamuraiSloth was shot by Skeleton
+[16:13:51] [Server thread/INFO]: <FrozenJarate> ?
+[16:13:55] [Server thread/INFO]: <GunYoshi> ?
+[16:14:10] [Server thread/INFO]: [FrozenJarate] test
+[16:16:02] [Server thread/INFO]: * GunYoshi beated the game
+[16:16:18] [User Authenticator #11/INFO]: UUID of player its_bjorger is eac2110d-43a0-4ff5-b764-fcde8650fb0b
+[16:16:19] [Server thread/INFO]: its_bjorger[/70.20.52.139:54919] logged in with entity id 114691 at (152.95632150239382, 120.0, 688.6962520566307)
+[16:16:19] [Server thread/INFO]: its_bjorger joined the game
+[16:16:28] [Server thread/INFO]: <GunYoshi> hello!
+[16:16:35] [Server thread/INFO]: <its_bjorger> hi!!
+[16:16:48] [Server thread/INFO]: TheSamuraiSloth fell from a high place
+[16:19:36] [User Authenticator #12/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[16:19:36] [Server thread/INFO]: _scasey[/100.14.20.111:60997] logged in with entity id 121972 at (-101.04553767073737, 65.0, -291.59325901068627)
+[16:19:36] [Server thread/INFO]: _scasey joined the game
+[16:19:36] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[16:19:36] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[16:19:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[16:19:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[16:19:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[16:20:53] [Server thread/INFO]: 17sk lost connection: Disconnected
+[16:20:53] [Server thread/INFO]: 17sk left the game
+[16:20:53] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[16:23:55] [Server thread/INFO]: <FrozenJarate> hellO!
+[16:23:56] [Server thread/INFO]: <Lemon_Frog> hi
+[16:23:59] [Server thread/INFO]: <Lemon_Frog> :D
+[16:24:01] [Server thread/INFO]: <FrozenJarate> wrong capitalization lol
+[16:24:03] [Server thread/INFO]: <GunYoshi> hello!
+[16:24:08] [Server thread/INFO]: Lemon_Frog has made the advancement [Ice Bucket Challenge]
+[16:24:22] [Server thread/INFO]: <Lemon_Frog> sick as freak
+[16:24:25] [Server thread/INFO]: <FrozenJarate> ikr
+[16:24:32] [User Authenticator #13/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[16:24:32] [Server thread/INFO]: <GunYoshi> dash are you running some sort of plug in that deletes all the diamonds in my path
+[16:24:32] [Server thread/INFO]: 17sk[/24.253.191.140:61070] logged in with entity id 129621 at (-331.99592955382866, 65.0, -407.72314500702595)
+[16:24:32] [Server thread/INFO]: 17sk joined the game
+[16:24:33] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[16:24:33] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[16:24:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[16:24:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[16:24:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[16:24:35] [Server thread/INFO]: <FrozenJarate> you can decorate the portal differently if you want
+[16:24:40] [Server thread/INFO]: <Lemon_Frog> would it be okau with you if I decorated around the portal?
+[16:24:43] [Server thread/INFO]: <FrozenJarate> yes ben
+[16:24:49] [Server thread/INFO]: <FrozenJarate> lol yeah
+[16:24:50] [Server thread/INFO]: <FrozenJarate> go ahead
+[16:24:53] [Server thread/INFO]: <Lemon_Frog> I like the bricks, I just want to add some flowers and stuff
+[16:25:04] [Server thread/INFO]: <GunYoshi> dash do u think you could turn it off pls
+[16:25:06] [Server thread/INFO]: <Lemon_Frog> i was told my voice chat sounds terrible
+[16:25:08] [Server thread/INFO]: <FrozenJarate> no ben
+[16:25:19] [Server thread/INFO]: <FrozenJarate> i just heard something and it was freakish
+[16:25:27] [Server thread/INFO]: <Lemon_Frog> IDK
+[16:25:33] [Server thread/INFO]: <Lemon_Frog> IT JUST DOES THAT
+[16:25:33] [Server thread/INFO]: <FrozenJarate> you sound like a DEMON
+[16:25:50] [Server thread/INFO]: <Lemon_Frog> not very fairyville of me
+[16:25:58] [Server thread/INFO]: <FrozenJarate> fr
+[16:26:06] [Server thread/INFO]: <_scasey> is there a nether path to fairyville yet?
+[16:26:13] [Server thread/INFO]: <FrozenJarate> yes
+[16:26:16] [Server thread/INFO]: <FrozenJarate> it is labeled
+[16:26:20] [Server thread/INFO]: <GunYoshi> wait like from jungle twon?
+[16:26:35] [Server thread/INFO]: <FrozenJarate> idk
+[16:26:38] [Server thread/INFO]: <FrozenJarate> OHHH sorry
+[16:27:02] [Server thread/INFO]: <FrozenJarate> you guys need to give me coordinates and i can make a portal
+[16:27:23] [Server thread/INFO]: <GunYoshi> coords for j town generally? about -70, -275
+[16:27:34] [Server thread/INFO]: <FrozenJarate> no
+[16:27:35] [Server thread/INFO]: <_scasey> ben do you wanna try to move it to a more perminant place or is it good across the bridge?
+[16:27:52] [Server thread/INFO]: <GunYoshi> i think its good spot but we should build an actaul bridge lol
+[16:27:52] [Server thread/INFO]: <FrozenJarate> you need to give me the exact coordinates of a portal in the overworld so i can make a portal for j town
+[16:28:00] [Server thread/INFO]: <GunYoshi> ah ok im mining but i can when im back
+[16:28:08] [Server thread/INFO]: <GunYoshi> or like someone else can
+[16:28:13] [Server thread/INFO]: <17sk> i can work on a bridge ive ben procrastinating that
+[16:28:18] [Server thread/INFO]: <_scasey> overworld coords are -130 67 -336
+[16:28:19] [Server thread/INFO]: <GunYoshi> either way!
+[16:28:39] [Server thread/INFO]: <FrozenJarate> i need to you to tell me which direction you're facing and i need the coords on the left inside the portal
+[16:28:42] [Server thread/INFO]: <GunYoshi> but also not to #nitpick the obv temp bridge but you shoudl move it one over so its alligned w the portal lol
+[16:28:55] [Server thread/INFO]: <17sk> i can do that yea lol
+[16:28:57] [Server thread/INFO]: <Lemon_Frog> hi!
+[16:29:01] [Server thread/INFO]: <Indicte> hi
+[16:29:27] [Server thread/INFO]: <_scasey> facing south
+[16:29:52] [Server thread/INFO]: <_scasey> nether coords are -1 77 -57
+[16:30:19] [Server thread/INFO]: <FrozenJarate> i need overworld coords
+[16:30:24] [Server thread/INFO]: <FrozenJarate> cuz we're gonna be breaking the nether one
+[16:30:35] [Server thread/INFO]: <_scasey> -131 67 -336
+[16:30:49] [Server thread/INFO]: <FrozenJarate> facing south? in the left hand corner of the portal?
+[16:30:57] [Server thread/INFO]: <_scasey> yes
+[16:31:12] [Server thread/INFO]: <FrozenJarate> ok
+[16:31:22] [Server thread/INFO]: Lemon_Frog lost connection: Timed out
+[16:31:22] [Server thread/INFO]: Lemon_Frog left the game
+[16:31:22] [Server thread/INFO]: [voicechat] Disconnecting client Lemon_Frog
+[16:31:23] [Server thread/INFO]: <FrozenJarate> casey i need a big favor from you
+[16:31:25] [Server thread/INFO]: <FrozenJarate> or anyone
+[16:31:27] [User Authenticator #14/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:31:28] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:58736] logged in with entity id 137650 at (231.53254930078268, 96.0, 482.5463712011036)
+[16:31:28] [Server thread/INFO]: Lemon_Frog joined the game
+[16:31:28] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
+[16:31:28] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[16:31:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:31:29] [Server thread/INFO]: <_scasey> shoot
+[16:31:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:31:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
+[16:31:44] [Server thread/INFO]: <FrozenJarate> someone has to break the original portal in the nether
+[16:31:47] [Server thread/INFO]: <FrozenJarate> like mine the obsidian
+[16:32:01] [Server thread/INFO]: <FrozenJarate> just one block of it tho
+[16:32:08] [Server thread/INFO]: <_scasey> uhhh idk where the next nearest portal is to come back through
+[16:32:14] [Server thread/INFO]: <17sk> i can do it i know where it is
+[16:32:20] [Server thread/INFO]: <_scasey> ty!!!
+[16:32:35] [Server thread/INFO]: <17sk> ts broken
+[16:32:40] [Server thread/INFO]: <FrozenJarate> thanks goat
+[16:32:43] [Server thread/INFO]: Indicte has made the advancement [Voluntary Exile]
+[16:32:54] [Server thread/INFO]: <17sk> oh fuk
+[16:32:54] [Server thread/INFO]: <FrozenJarate> i'll go link up soon, need to get a couple more obsidian
+[16:32:57] [Server thread/INFO]: <17sk> the portal
+[16:32:58] [Server thread/INFO]: <17sk> broken
+[16:33:08] [Server thread/INFO]: <17sk> time find another one
+[16:33:22] [Server thread/INFO]: <FrozenJarate> tori can you give me that obsidian you picked up
+[16:33:28] [Server thread/INFO]: <Lemon_Frog> oh yeah sorry
+[16:33:37] [Server thread/INFO]: <FrozenJarate> you're good
+[16:33:38] [Server thread/INFO]: <Lemon_Frog> forgot i picked it up
+[16:33:41] [Server thread/INFO]: <GunYoshi> missing a word that starts with p dash...
+[16:33:46] [Server thread/INFO]: <FrozenJarate> i wouldnt mind i just need 1 more
+[16:33:53] [Server thread/INFO]: <FrozenJarate> Ben I have OP
+[16:34:01] [Server thread/INFO]: <Lemon_Frog> where are you?
+[16:34:05] [Server thread/INFO]: <FrozenJarate> my farms
+[16:34:31] [Server thread/INFO]: <GunYoshi> so what dash? might makes right? you think anything trump does is acceptable so long as he is president?
+[16:34:37] [Server thread/INFO]: <GunYoshi> you support broad presidential immunity??
+[16:34:46] [Server thread/INFO]: <GunYoshi> hey sorry
+[16:34:48] [Server thread/INFO]: <FrozenJarate> yeah trump is pretty awesome tbh
+[16:34:57] [Server thread/INFO]: <Lemon_Frog> oh thats not
+[16:35:03] [Server thread/INFO]: <GunYoshi> you need to leave!
+[16:35:17] [Server thread/INFO]: <FrozenJarate> ./kick Ben Robke
+[16:35:27] [Server thread/INFO]: <GunYoshi> YOU DONT HAVE THE BALLS!!!
+[16:35:30] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[16:35:30] [Server thread/INFO]: GunYoshi left the game
+[16:35:30] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[16:35:30] [Server thread/INFO]: <FrozenJarate> tori this looks beautiful thank you :) <3
+[16:35:38] [Server thread/INFO]: <Lemon_Frog> yay !
+[16:35:43] [User Authenticator #15/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[16:35:43] [Server thread/INFO]: GunYoshi[/98.214.164.251:50230] logged in with entity id 142137 at (-52.30000001192093, -58.0, 224.6178447665692)
+[16:35:43] [Server thread/INFO]: GunYoshi joined the game
+[16:36:00] [Server thread/INFO]: <GunYoshi> sorry dash. i think youre a good person. im sorry please don't kick me again
+[16:36:04] [Server thread/INFO]: <17sk> where am i what the heck
+[16:36:18] [Server thread/INFO]: <Lemon_Frog> the girls are fighting
+[16:36:18] [Server thread/INFO]: TheSamuraiSloth was slain by Zombie
+[16:36:18] [Server thread/INFO]: <17sk> who lives near a cherrry biome with a crazy good looking suger cane farm
+[16:36:21] [Server thread/INFO]: <17sk> and bamboo
+[16:36:33] [Server thread/INFO]: <Lemon_Frog> dash
+[16:36:38] [Server thread/INFO]: <17sk> oh dash i found ur portal then
+[16:36:50] [Server thread/INFO]: <FrozenJarate> thats me
+[16:37:08] [Server thread/INFO]: <17sk> this is nice
+[16:37:16] [Server thread/INFO]: GunYoshi has made the advancement [Sneak 100]
+[16:37:22] [Server thread/INFO]: Zumquirelle was burned to a crisp while fighting Blaze
+[16:37:35] [Server thread/INFO]: <17sk> tori where di dyou just go wtf
+[16:37:45] [Server thread/INFO]: <Lemon_Frog> my house
+[16:37:46] [Server thread/INFO]: <GunYoshi> sculk: -55, -53, 242
+[16:37:52] [Server thread/INFO]: <17sk> oh its cute i like it
+[16:37:59] [Server thread/INFO]: <Lemon_Frog> hello
+[16:38:03] [Server thread/INFO]: <17sk> hi
+[16:38:40] [Server thread/INFO]: <GunYoshi> WARDEN WARDEN QWARDEN
+[16:38:44] [Server thread/INFO]: <Indicte> i just found a ton of stuff from somoneone in a fortess
+[16:38:49] [Server thread/INFO]: <Lemon_Frog> RUNRUNRUNRUN
+[16:38:50] [Server thread/INFO]: <17sk> oh that may be mine
+[16:38:54] [Server thread/INFO]: <17sk> i died there and raged
+[16:38:59] [Server thread/INFO]: <17sk> i was trying for like an hour to get it back
+[16:39:03] [Server thread/INFO]: <Indicte> i saved it all
+[16:39:14] [Server thread/INFO]: <17sk> how many boats were there at least like 2-3? coz then its def mine
+[16:39:22] [Server thread/INFO]: <GunYoshi> i have maybe never noped out of a place faster. 14 diamonds on me rn
+[16:39:26] [Server thread/INFO]: <FrozenJarate> Hello Jungletown!
+[16:39:34] [Server thread/INFO]: <Indicte> ya it was terrifying becasue the withers picled up ur daimond armour
+[16:39:39] [Server thread/INFO]: <17sk> jesus christ
+[16:39:39] [Server thread/INFO]: <TheSamuraiSloth> what's the ideal y level to mine at for diamonds and iron?
+[16:39:41] [Server thread/INFO]: <FrozenJarate> portal is linked gamers
+[16:39:53] [Server thread/INFO]: <17sk> -53 diamonds but also good just caving
+[16:40:01] [Server thread/INFO]: <Lemon_Frog> oh boy first trip to jungletown
+[16:40:03] [Server thread/INFO]: <GunYoshi> yeah diamonds and iron are kinda diff y levels unfort
+[16:40:05] [Server thread/INFO]: <17sk> i think iron is.... y15?? but i am probably wrong
+[16:40:18] [Server thread/INFO]: <17sk> that or maybe it was 32 ican't remember
+[16:40:20] [Server thread/INFO]: <GunYoshi> diamonds is pm as low as u can, -53 is good for avoiding lava
+[16:40:23] [Server thread/INFO]: <17sk> those numbers are speaking to me
+[16:40:38] [Server thread/INFO]: <Indicte> i cant find any diamonds
+[16:40:48] [Server thread/INFO]: Lemon_Frog has made the advancement [Eye Spy]
+[16:40:52] [Server thread/INFO]: <Lemon_Frog> WOAH
+[16:41:15] [Server thread/INFO]: <FrozenJarate> can you put a sign up and label the portal in the nether plz <3
+[16:41:23] [Server thread/INFO]: <17sk> wait its set up
+[16:41:25] [Server thread/INFO]: <Lemon_Frog> oh daddy (me) is gonna get some elytra
+[16:41:34] [Server thread/INFO]: <17sk> tori can you get me one
+[16:41:36] [Server thread/INFO]: <17sk> ill trade you
+[16:41:46] [Server thread/INFO]: <Lemon_Frog> i will try
+[16:42:32] [Server thread/INFO]: <Lemon_Frog> i fear the nether portal that goes to the end portal took me not to the roof of the nether again and now i am a wee lost
+[16:42:38] [Server thread/INFO]: <Lemon_Frog> its okay im gonna lock in
+[16:42:43] [Server thread/INFO]: <FrozenJarate> yes i pointed that out earlier
+[16:42:47] [Server thread/INFO]: <Lemon_Frog> ahh yes
+[16:42:50] [Server thread/INFO]: <FrozenJarate> it is not linked properly
+[16:42:53] [Server thread/INFO]: <Lemon_Frog> however, counter point
+[16:42:56] [Server thread/INFO]: <Lemon_Frog> i cannot read
+[16:43:14] [Server thread/INFO]: <17sk> im on the roof, which way is jtown
+[16:43:35] [Server thread/INFO]: <_scasey> jtown portal is -16 128 -45
+[16:43:36] [Server thread/INFO]: <Indicte> i put all ur stuff in a chest 17sk
+[16:43:42] [Server thread/INFO]: <17sk> ty
+[16:43:47] [Server thread/INFO]: <17sk> love
+[16:43:53] [Server thread/INFO]: its_bjorger has made the advancement [Getting an Upgrade]
+[16:45:13] [Server thread/INFO]: <_scasey> if you're building on the nether roof just remember to spawn proof <3
+[16:45:39] [Server thread/INFO]: Indicte has made the advancement [Spooky Scary Skeleton]
+[16:45:44] [Server thread/INFO]: <17sk> heck yea
+[16:46:02] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:46:02] [Server thread/INFO]: Indicte left the game
+[16:46:02] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:46:57] [User Authenticator #16/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:46:58] [Server thread/INFO]: Indicte[/209.6.169.219:59299] logged in with entity id 159024 at (262.30000001192093, 25.824236005316923, 264.72652063204356)
+[16:46:58] [Server thread/INFO]: Indicte joined the game
+[16:47:00] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:47:00] [Server thread/INFO]: Indicte left the game
+[16:47:00] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:47:02] [User Authenticator #17/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:47:02] [Server thread/INFO]: Indicte[/209.6.169.219:59303] logged in with entity id 159256 at (262.7959579665277, 26.15563130783269, 265.908150332576)
+[16:47:02] [Server thread/INFO]: Indicte joined the game
+[16:47:04] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:47:04] [Server thread/INFO]: Indicte left the game
+[16:47:04] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:47:05] [User Authenticator #18/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:47:06] [Server thread/INFO]: Indicte[/209.6.169.219:59305] logged in with entity id 159471 at (263.1485364956138, 26.718578148469135, 266.9181398017069)
+[16:47:06] [Server thread/INFO]: Indicte joined the game
+[16:47:08] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:47:08] [Server thread/INFO]: Indicte left the game
+[16:47:08] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:47:09] [User Authenticator #19/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:47:09] [Server thread/INFO]: Indicte[/209.6.169.219:59307] logged in with entity id 159711 at (263.50206379310987, 27.611524987317438, 267.9958722350179)
+[16:47:09] [Server thread/INFO]: Indicte joined the game
+[16:47:10] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:47:10] [Server thread/INFO]: Indicte left the game
+[16:47:10] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:47:16] [User Authenticator #20/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:47:16] [Server thread/INFO]: Indicte[/209.6.169.219:59309] logged in with entity id 159917 at (263.58450278035247, 27.173459353309543, 268.25199259940416)
+[16:47:16] [Server thread/INFO]: Indicte joined the game
+[16:47:18] [Server thread/INFO]: <Lemon_Frog> i fear someone is not doing well in the nether
+[16:47:18] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:47:18] [Server thread/INFO]: Indicte left the game
+[16:47:18] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:47:26] [User Authenticator #21/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:47:27] [Server thread/INFO]: Indicte[/209.6.169.219:59313] logged in with entity id 160240 at (263.8571797089319, 27.380686699583535, 268.69999998807907)
+[16:47:27] [Server thread/INFO]: Indicte joined the game
+[16:47:29] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:47:29] [Server thread/INFO]: Indicte left the game
+[16:47:29] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:47:31] [Server thread/INFO]: <17sk> need help?
+[16:47:36] [User Authenticator #22/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:47:36] [Server thread/INFO]: Indicte[/209.6.169.219:59317] logged in with entity id 160593 at (263.8571797089319, 25.377563970884836, 268.69999998807907)
+[16:47:36] [Server thread/INFO]: Indicte joined the game
+[16:47:39] [Server thread/INFO]: <Lemon_Frog> not me
+[16:47:39] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:47:39] [Server thread/INFO]: Indicte left the game
+[16:47:39] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:47:41] [User Authenticator #23/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:47:41] [Server thread/INFO]: Indicte[/209.6.169.219:59321] logged in with entity id 160835 at (263.67717227178247, 26.828688921263975, 267.7718092077567)
+[16:47:41] [Server thread/INFO]: Indicte joined the game
+[16:47:43] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:47:43] [Server thread/INFO]: Indicte left the game
+[16:47:43] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:47:43] [User Authenticator #24/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:47:44] [Server thread/INFO]: Indicte[/209.6.169.219:59323] logged in with entity id 161090 at (263.67717227178247, 26.866150646222522, 267.7718092077567)
+[16:47:44] [Server thread/INFO]: Indicte joined the game
+[16:47:45] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:47:45] [Server thread/INFO]: Indicte left the game
+[16:47:45] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:47:48] [User Authenticator #25/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:47:48] [Server thread/INFO]: Indicte[/209.6.169.219:59326] logged in with entity id 161391 at (263.6470181985358, 26.72861238023352, 268.1822911660144)
+[16:47:48] [Server thread/INFO]: Indicte joined the game
+[16:47:50] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:47:50] [Server thread/INFO]: Indicte left the game
+[16:47:50] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:48:03] [User Authenticator #26/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[16:48:03] [Server thread/INFO]: Bemf[/71.233.245.252:62031] logged in with entity id 161811 at (2406.682798625854, 65.0, -2992.78250204772)
+[16:48:03] [Server thread/INFO]: Bemf joined the game
+[16:48:09] [Server thread/INFO]: its_bjorger has made the advancement [Sweet Dreams]
+[16:48:19] [User Authenticator #27/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:48:19] [Server thread/INFO]: Indicte[/209.6.169.219:59328] logged in with entity id 162292 at (263.6938576959727, 27.348105337219874, 267.71653814312543)
+[16:48:19] [Server thread/INFO]: Indicte joined the game
+[16:48:20] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:48:20] [Server thread/INFO]: Indicte left the game
+[16:48:20] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:49:06] [User Authenticator #28/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:49:07] [Server thread/INFO]: Indicte[/209.6.169.219:59333] logged in with entity id 163512 at (263.6938576959727, 26.189727969849283, 267.71653814312543)
+[16:49:07] [Server thread/INFO]: Indicte joined the game
+[16:49:08] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:49:08] [Server thread/INFO]: Indicte left the game
+[16:49:08] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:49:13] [User Authenticator #29/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[16:49:13] [Server thread/INFO]: Indicte[/209.6.169.219:59340] logged in with entity id 163801 at (263.6938576959727, 25.395096940369307, 267.71653814312543)
+[16:49:13] [Server thread/INFO]: Indicte joined the game
+[16:49:15] [Server thread/INFO]: Indicte lost connection: Disconnected
+[16:49:15] [Server thread/INFO]: Indicte left the game
+[16:49:15] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[16:50:28] [Server thread/INFO]: <_scasey> ben all these blocks need to be carpeted
+[16:50:31] [Server thread/INFO]: <GunYoshi> ill just let it grow and maybe itll get cut off eventually
+[16:50:34] [Server thread/INFO]: <GunYoshi> yes i am doing so
+[16:50:40] [Server thread/INFO]: <_scasey> word
+[16:50:41] [Server thread/INFO]: <GunYoshi> oh fuck wait. do u have a shovel lol
+[16:50:54] [Server thread/WARN]: Lemon_Frog moved too quickly! -3.3549850875321,-2.8583148272754784,-9.231721675898257
+[16:50:54] [Server thread/INFO]: <GunYoshi> getting real dirt for path
+[16:50:58] [Server thread/WARN]: Lemon_Frog was kicked for floating too long!
+[16:50:58] [Server thread/INFO]: Lemon_Frog lost connection: Flying is not enabled on this server
+[16:50:58] [Server thread/INFO]: Lemon_Frog left the game
+[16:50:58] [Server thread/INFO]: [voicechat] Disconnecting client Lemon_Frog
+[16:51:34] [User Authenticator #30/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:51:35] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:58800] logged in with entity id 167854 at (281.00179576120235, 76.00133597911214, 743.5823915249448)
+[16:51:35] [Server thread/INFO]: Lemon_Frog joined the game
+[16:51:35] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
+[16:51:35] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[16:51:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:51:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:51:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
+[16:55:01] [Server thread/INFO]: <Lemon_Frog> HIIII
+[16:55:03] [Server thread/INFO]: <GunYoshi> HI!
+[16:55:07] [Server thread/INFO]: <GunYoshi> come to beautiful jungle town
+[16:55:10] [Server thread/INFO]: <GunYoshi> come to salmons head bar
+[16:55:13] [Server thread/INFO]: <_scasey> vouch
+[16:55:13] [Server thread/INFO]: <Lemon_Frog> will do!
+[16:55:14] [Server thread/INFO]: <GunYoshi> first order on the house
+[16:55:52] [Server thread/INFO]: <Lemon_Frog> :o
+[16:55:53] [Server thread/INFO]: <Lemon_Frog> so cute
+[16:56:22] [Server thread/INFO]: <GunYoshi> we have fish and cocktails, what would you like?
+[16:56:27] [Server thread/INFO]: <GunYoshi> dont mind the horse
+[16:56:30] [Server thread/INFO]: <GunYoshi> he just walked in here
+[16:56:37] [Server thread/INFO]: <Lemon_Frog> classic
+[16:56:41] [Server thread/INFO]: <Lemon_Frog> can i get a cocktail
+[16:56:44] [Server thread/INFO]: <GunYoshi> yes
+[16:57:01] [Server thread/INFO]: <_scasey> bottled fresh
+[16:57:09] [Server thread/INFO]: <GunYoshi> on the house. we are coming up with better recipies soomn
+[16:57:10] [Server thread/INFO]: <Lemon_Frog> what an experience
+[16:57:13] [Server thread/INFO]: <GunYoshi> casey you want anything
+[16:57:15] [Server thread/INFO]: <Lemon_Frog> thank you
+[16:57:23] [Server thread/INFO]: <GunYoshi> ofc ofc. come to beautiful jungle town always
+[16:57:40] [Server thread/INFO]: <_scasey> i fished my own
+[16:57:41] [Server thread/INFO]: <GunYoshi> oh hey also casey do u want horse armor? i have gold and iron
+[16:57:43] [Server thread/INFO]: <GunYoshi> LOL
+[16:57:55] [Server thread/INFO]: <_scasey> i don't have horse yet unforch
+[16:58:09] [Server thread/INFO]: <GunYoshi> oh word do u wanna breed mine and emily's?
+[16:58:13] [Server thread/INFO]: <Lemon_Frog> jtown is very cool
+[16:58:19] [Server thread/INFO]: <_scasey> do you have an extra lead?
+[16:58:27] [Server thread/INFO]: <GunYoshi> hold on
+[16:58:31] [Server thread/INFO]: <GunYoshi> i can make som
+[16:58:33] [Server thread/INFO]: <GunYoshi> e
+[17:00:50] [Server thread/INFO]: <GunYoshi> casey wya
+[17:00:54] [Server thread/INFO]: <_scasey> my house
+[17:01:10] [Server thread/INFO]: <_scasey> :0
+[17:01:16] [Server thread/INFO]: <GunYoshi> also in the tourism office
+[17:01:24] [Server thread/INFO]: <GunYoshi> one of the barrels has a seed bank
+[17:01:36] [Server thread/INFO]: <GunYoshi> one of every sapling except nether ones
+[17:01:39] [Server thread/INFO]: <_scasey> oh emily's is so slow lmao
+[17:01:40] [Server thread/INFO]: <GunYoshi> or four for the big trees
+[17:01:45] [Server thread/INFO]: Lemon_Frog has made the advancement [The End?]
+[17:02:02] [Server thread/INFO]: <GunYoshi> so feel free to use them to replenish if u need saplings but out them back pkls! also one of each big flower i have
+[17:02:07] [Server thread/INFO]: <GunYoshi> so u can bone meal up more
+[17:03:02] [Server thread/INFO]: Lemon_Frog has made the advancement [Remote Getaway]
+[17:03:16] [Server thread/INFO]: <GunYoshi> TORI THIS HOUSE IS AWESOME OH MY GOD
+[17:03:30] [Server thread/INFO]: <Lemon_Frog> awe thank you :)
+[17:03:37] [Server thread/INFO]: <Lemon_Frog> i worked very hard on it
+[17:03:39] [Server thread/INFO]: <Lemon_Frog> so many axes
+[17:03:46] [Server thread/INFO]: <GunYoshi> i like the spore blossom room
+[17:03:53] [Server thread/INFO]: <_scasey> wait tori which one is your's?
+[17:04:04] [Server thread/INFO]: <Lemon_Frog> the one closest to the portal
+[17:04:27] [Server thread/INFO]: Zumquirelle has made the advancement [Withering Heights]
+[17:04:42] [Server thread/INFO]: <GunYoshi> i love how both towns kind of have their own aesthetics
+[17:04:43] [Server thread/INFO]: <Lemon_Frog> HUH
+[17:04:49] [Server thread/INFO]: <GunYoshi> ???????????????????
+[17:04:54] [Server thread/INFO]: <GunYoshi> godspeed soldier
+[17:05:00] [Server thread/INFO]: <_scasey> wither sounds!
+[17:05:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=248, y=102, z=642} class_2338{x=249, y=103, z=642}
+[17:06:03] [Server thread/INFO]: <_scasey> oooh i saw this one earlier i love it
+[17:06:12] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[17:06:12] [Server thread/INFO]: Say hey guys any lag?<--[HERE]
+[17:06:21] [Server thread/INFO]: [Not Secure] [Server] hey guys any lag?
+[17:06:24] [Server thread/INFO]: <GunYoshi> nah
+[17:06:33] [Server thread/INFO]: [Not Secure] [Server] pog
+[17:06:46] [Server thread/INFO]: its_bjorger lost connection: Disconnected
+[17:06:46] [Server thread/INFO]: its_bjorger left the game
+[17:06:46] [Server thread/INFO]: [voicechat] Disconnecting client its_bjorger
+[17:07:18] [Server thread/INFO]: <_scasey> has anyone set up an xp farm?
+[17:07:30] [Server thread/INFO]: <Zumquirelle> yes
+[17:07:30] [Server thread/INFO]: <GunYoshi> im sayin like
+[17:07:33] [Server thread/INFO]: <Zumquirelle> in the end
+[17:07:37] [Server thread/INFO]: <GunYoshi> woah what
+[17:07:44] [Server thread/INFO]: <GunYoshi> is there an enderman xp farm>>>
+[17:07:46] [Server thread/INFO]: <GunYoshi> ??
+[17:07:47] [Server thread/INFO]: <Zumquirelle> yep
+[17:07:56] [Server thread/INFO]: <_scasey> real shit time to find the end
+[17:08:14] [Server thread/INFO]: <_scasey> what was i doing fishing
+[17:08:20] [Server thread/INFO]: <GunYoshi> yeah lollll
+[17:08:28] [Server thread/INFO]: <GunYoshi> casey lmk when ur done bc im gonna go over
+[17:08:31] [Server thread/INFO]: <Lemon_Frog> stronghold nether portal is on the roof
+[17:08:33] [Server thread/INFO]: <GunYoshi> if ur going there now
+[17:08:40] [Server thread/INFO]: <Lemon_Frog> end is also not too far to fairyville
+[17:09:29] [Server thread/INFO]: <GunYoshi> theres a chicken in a block in the bar rn. like isnide the block
+[17:09:32] [Server thread/INFO]: <GunYoshi> not suffocating
+[17:10:17] [Server thread/INFO]: _scasey has made the advancement [Eye Spy]
+[17:10:34] [Server thread/INFO]: _scasey has made the advancement [The End?]
+[17:11:04] [Server thread/INFO]: <_scasey> where is the farm in relation to the spawn platform
+[17:11:24] [Server thread/INFO]: <Zumquirelle> behind where you spawn in
+[17:11:33] [Server thread/INFO]: <_scasey> ahah
+[17:12:01] [Server thread/INFO]: GunYoshi has made the advancement [Eye Spy]
+[17:12:20] [Server thread/INFO]: GunYoshi has made the advancement [The End?]
+[17:12:34] [Server thread/INFO]: <_scasey> uhh is there a way down without wings?
+[17:12:41] [Server thread/INFO]: <Zumquirelle> water bucket
+[17:12:43] [Server thread/INFO]: <GunYoshi> oh okay cool
+[17:12:56] [Server thread/INFO]: <GunYoshi> ill go first if u wan
+[17:13:08] [Server thread/INFO]: <GunYoshi> wait lemme get some endstone
+[17:13:29] [Server thread/INFO]: <_scasey> endermen farm is not osha compliant i fear
+[17:13:56] [Server thread/INFO]: <GunYoshi> turning on toggle sneak
+[17:14:15] [Server thread/INFO]: <GunYoshi> dont go down that
+[17:14:17] [Server thread/INFO]: <GunYoshi> i have a plan
+[17:15:00] [Server thread/INFO]: <GunYoshi> im gonna get ladders from home
+[17:15:12] [Server thread/INFO]: <Bemf> 263 24 267
+[17:15:43] [Server thread/INFO]: Bemf has made the advancement [Spooky Scary Skeleton]
+[17:17:03] [Server thread/INFO]: Lemon_Frog has made the advancement [The City at the End of the Game]
+[17:17:34] [User Authenticator #31/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[17:17:35] [Server thread/INFO]: razeyrainbows[/146.115.92.123:56314] logged in with entity id 203114 at (179.76579737714533, 93.0, 514.5803804858792)
+[17:17:35] [Server thread/INFO]: razeyrainbows joined the game
+[17:17:35] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
+[17:17:35] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
+[17:17:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
+[17:17:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
+[17:17:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
+[17:17:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=263, y=60, z=258} class_2338{x=263, y=31, z=268}
+[17:18:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=263, y=60, z=258} class_2338{x=264, y=33, z=267}
+[17:18:30] [Server thread/INFO]: <GunYoshi> miles this is some crazy technique
+[17:18:37] [Server thread/INFO]: <GunYoshi> in a good way
+[17:18:46] [Server thread/INFO]: <GunYoshi> thank u king
+[17:18:50] [Server thread/INFO]: <FrozenJarate> thats not miles
+[17:18:53] [Server thread/INFO]: <GunYoshi> what
+[17:18:54] [Server thread/INFO]: <GunYoshi> wait
+[17:18:57] [Server thread/INFO]: <GunYoshi> what the fuck
+[17:18:58] [Server thread/INFO]: <FrozenJarate> miles is ASHJGAHGLA or whatever
+[17:19:02] [Server thread/INFO]: <FrozenJarate> thats adriaan
+[17:19:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=263, y=28, z=267} class_2338{x=262, y=29, z=267}
+[17:19:04] [Server thread/INFO]: <GunYoshi> wow. wow.
+[17:19:06] [Server thread/INFO]: <GunYoshi> wow
+[17:19:11] [Server thread/INFO]: <razeyrainbows> woah
+[17:19:14] [Server thread/INFO]: <_scasey> omg so embarressing
+[17:19:16] [Server thread/INFO]: <GunYoshi> adriaan. im so sorry. this is awesome to watch tho LOLLLL
+[17:19:18] [Server thread/INFO]: Lemon_Frog was slain by Shulker
+[17:19:21] [Server thread/INFO]: <GunYoshi> :(
+[17:19:22] [Server thread/INFO]: <Lemon_Frog> well fuck
+[17:19:26] [Server thread/INFO]: <razeyrainbows> TORI
+[17:19:49] [Server thread/INFO]: Bemf lost connection: Disconnected
+[17:19:49] [Server thread/INFO]: Bemf left the game
+[17:19:49] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[17:19:50] [Server thread/INFO]: <GunYoshi> casey you got a crafting table on u
+[17:19:56] [Server thread/INFO]: <_scasey> nope
+[17:19:58] [Server thread/INFO]: <GunYoshi> ok lol
+[17:20:43] [User Authenticator #32/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[17:20:44] [Server thread/INFO]: Bemf[/71.233.245.252:62655] logged in with entity id 204373 at (262.6469645686925, 28.0, 267.5865310388681)
+[17:20:44] [Server thread/INFO]: Bemf joined the game
+[17:20:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=262, y=30, z=269} class_2338{x=262, y=31, z=268}
+[17:21:00] [Server thread/INFO]: <_scasey> not to tell the sweats how to play the game or anything but. guardrails are huge
+[17:21:14] [Server thread/INFO]: <_scasey> ./j btw
+[17:21:39] [Server thread/INFO]: <GunYoshi> meant to clutch up there, .oops
+[17:22:25] [Server thread/INFO]: TheSamuraiSloth lost connection: Disconnected
+[17:22:25] [Server thread/INFO]: TheSamuraiSloth left the game
+[17:22:25] [Server thread/INFO]: [voicechat] Disconnecting client TheSamuraiSloth
+[17:22:29] [Server thread/INFO]: Bemf lost connection: Disconnected
+[17:22:29] [Server thread/INFO]: Bemf left the game
+[17:22:29] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[17:22:36] [Server thread/INFO]: razeyrainbows has made the advancement [Eye Spy]
+[17:22:40] [Server thread/INFO]: razeyrainbows has made the advancement [The End?]
+[17:23:08] [Server thread/INFO]: <_scasey> the end sucks btw i dont like it
+[17:23:09] [Server thread/INFO]: <GunYoshi> either of u want ladders to fill ur iventory
+[17:23:09] [User Authenticator #33/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[17:23:09] [Server thread/INFO]: Bemf[/71.233.245.252:62767] logged in with entity id 207069 at (263.85385067856976, 22.875, 268.0057827969292)
+[17:23:09] [Server thread/INFO]: Bemf joined the game
+[17:23:18] [User Authenticator #34/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
+[17:23:19] [Server thread/INFO]: Indicte[/209.6.169.219:59804] logged in with entity id 207511 at (263.6938576959727, 24.196719572998717, 267.71653814312543)
+[17:23:19] [Server thread/INFO]: Indicte joined the game
+[17:23:40] [Server thread/INFO]: razeyrainbows was slain by Enderman
+[17:23:44] [Server thread/INFO]: <GunYoshi> and ill come back later to put in guardrails
+[17:23:44] [Server thread/INFO]: Lemon_Frog was slain by Enderman
+[17:23:50] [Server thread/INFO]: <GunYoshi> and spawn proof them n wahtnot
+[17:23:52] [Server thread/INFO]: <Lemon_Frog> lmao
+[17:24:22] [Server thread/INFO]: <_scasey> uhh the guys are getting to the stairs
+[17:24:34] [Server thread/INFO]: GunYoshi was slain by Enderman
+[17:24:37] [Server thread/INFO]: <GunYoshi> yes
+[17:24:41] [Server thread/INFO]: <razeyrainbows> not all of us
+[17:24:42] [Server thread/INFO]: <Lemon_Frog> real
+[17:24:56] [Server thread/INFO]: <_scasey> guys im stuck
+[17:25:07] [Server thread/INFO]: <GunYoshi> i will save u
+[17:25:22] [Server thread/INFO]: [Not Secure] [Server] remember y�all there is always /kill
+[17:26:03] [Server thread/INFO]: <Zumquirelle> yall need to keep water on these stairs so that theyre not spawnable locatiuons
+[17:26:24] [Server thread/INFO]: Lemon_Frog was slain by Enderman
+[17:28:34] [Server thread/INFO]: Indicte was doomed to fall
+[17:29:02] [Server thread/INFO]: razeyrainbows has made the advancement [Remote Getaway]
+[17:30:20] [Server thread/INFO]: GunYoshi was slain by Enderman
+[17:30:24] [Server thread/INFO]: <GunYoshi> oops lmao
+[17:30:31] [Server thread/INFO]: <GunYoshi> at least that time i had nothing on me
+[17:33:30] [Server thread/WARN]: Lemon_Frog moved too quickly! -9.05012504671663,0.5009966402674735,-4.648041993916991
+[17:35:10] [User Authenticator #35/INFO]: UUID of player its_bjorger is eac2110d-43a0-4ff5-b764-fcde8650fb0b
+[17:35:11] [Server thread/INFO]: its_bjorger[/70.20.52.139:55871] logged in with entity id 224177 at (141.93644302950773, 120.0, 691.2771524645166)
+[17:35:11] [Server thread/INFO]: its_bjorger joined the game
+[17:37:47] [Server thread/INFO]: razeyrainbows has made the advancement [The City at the End of the Game]
+[17:38:07] [User Authenticator #36/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[17:38:07] [Server thread/INFO]: madb0nes[/72.70.38.62:64871] logged in with entity id 229464 at (266.0262295477595, 93.0625, 553.2970676745816)
+[17:38:07] [Server thread/INFO]: madb0nes joined the game
+[17:38:08] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
+[17:38:08] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
+[17:38:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[17:38:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[17:38:10] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
+[17:38:10] [Server thread/INFO]: GunYoshi was slain by Enderman
+[17:38:13] [Server thread/INFO]: <GunYoshi> WHAT
+[17:38:16] [Server thread/INFO]: <madb0nes> allo
+[17:38:19] [Server thread/INFO]: <GunYoshi> I WAS NOT IN THE FARM
+[17:38:22] [Server thread/INFO]: <GunYoshi> WHAT THE FUCK
+[17:38:47] [Server thread/INFO]: <GunYoshi> casey u should still go to the enderman farm and get my seven levels as a little bonus
+[17:38:55] [Server thread/INFO]: <GunYoshi> ill just go later tn
+[17:38:57] [Server thread/INFO]: <_scasey> word
+[17:39:02] [Server thread/INFO]: <FrozenJarate> probably still aggro'd to you
+[17:39:14] [Server thread/INFO]: <GunYoshi> can they tp to leaves? what am i doing wrong w the guardrails
+[17:39:22] [Server thread/INFO]: <Bemf> they can tp onto leaves
+[17:39:23] [Server thread/INFO]: <GunYoshi> like how do i avoid this
+[17:39:29] [Server thread/INFO]: <Bemf> just cant spawn on leaves
+[17:39:34] [Server thread/INFO]: <_scasey> half slabs?
+[17:39:36] [Server thread/INFO]: <FrozenJarate> use slabs
+[17:39:41] [Server thread/INFO]: <Bemf> no slabs dont work either
+[17:39:44] [Server thread/INFO]: <Bemf> only double carpets
+[17:39:51] [Server thread/INFO]: <GunYoshi> okay. cool.
+[17:40:11] [Server thread/INFO]: <_scasey> would relogging clear agro?
+[17:40:21] [Server thread/INFO]: <FrozenJarate> for guardrails tho you can probably just waterlog?
+[17:40:45] [Server thread/INFO]: Indicte lost connection: Disconnected
+[17:40:45] [Server thread/INFO]: Indicte left the game
+[17:40:45] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
+[17:40:45] [Server thread/INFO]: <FrozenJarate> idk, i think its only if it despawns or if you derender it
+[17:41:19] [Server thread/INFO]: Lemon_Frog has made the advancement [Cover Me with Diamonds]
+[17:41:44] [Server thread/INFO]: its_bjorger has made the advancement [Monster Hunter]
+[17:42:07] [Server thread/INFO]: razeyrainbows was slain by Shulker
+[17:45:32] [Server thread/INFO]: madb0nes has made the advancement [Eye Spy]
+[17:45:37] [Server thread/INFO]: madb0nes has made the advancement [The End?]
+[17:46:34] [Server thread/INFO]: madb0nes has made the advancement [Remote Getaway]
+[17:46:53] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[17:46:53] [Server thread/INFO]: GunYoshi left the game
+[17:46:53] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[17:46:59] [Server thread/INFO]: Lemon_Frog lost connection: Disconnected
+[17:46:59] [Server thread/INFO]: Lemon_Frog left the game
+[17:46:59] [Server thread/INFO]: [voicechat] Disconnecting client Lemon_Frog
+[17:47:46] [Server thread/INFO]: <Bemf> if yall wanna contribute lapis to the enderman farm enchanting table id appreciate it
+[17:47:48] [Server thread/INFO]: <Bemf> but no pressure
+[17:48:11] [Server thread/INFO]: _scasey lost connection: Disconnected
+[17:48:11] [Server thread/INFO]: _scasey left the game
+[17:48:11] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[17:48:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=484, y=75, z=614} class_2338{x=484, y=74, z=613}
+[17:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=484, y=75, z=614} class_2338{x=484, y=74, z=613}
+[17:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=484, y=75, z=614} class_2338{x=484, y=74, z=613}
+[17:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=485, y=76, z=614} class_2338{x=484, y=74, z=613}
+[17:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=485, y=76, z=614} class_2338{x=484, y=74, z=613}
+[17:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=485, y=76, z=614} class_2338{x=484, y=74, z=613}
+[17:48:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=485, y=76, z=614} class_2338{x=484, y=74, z=613}
+[17:48:48] [Server thread/INFO]: <FrozenJarate> anyone have gunpowder?
+[17:48:56] [Server thread/INFO]: <FrozenJarate> i will buy
+[17:51:01] [Server thread/INFO]: There are 7 of a max of 69 players online: FrozenJarate, 17sk, Zumquirelle, Bemf, its_bjorger, madb0nes, razeyrainbows
+[17:54:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=248, y=104, z=636} class_2338{x=460, y=64, z=597}
+[17:54:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=472, y=75, z=597} class_2338{x=472, y=74, z=596}
+[17:54:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=472, y=75, z=597} class_2338{x=472, y=74, z=596}
+[17:54:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=472, y=75, z=597} class_2338{x=472, y=74, z=596}
+[17:54:20] [Server thread/INFO]: madb0nes has made the advancement [The City at the End of the Game]
+[17:54:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=474, y=72, z=594} class_2338{x=473, y=72, z=594}
+[17:54:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=474, y=72, z=594} class_2338{x=473, y=72, z=594}
+[17:54:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=474, y=72, z=594} class_2338{x=473, y=72, z=594}
+[17:54:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=474, y=72, z=594} class_2338{x=473, y=72, z=594}
+[17:54:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=474, y=72, z=594} class_2338{x=473, y=72, z=594}
+[17:55:57] [User Authenticator #37/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[17:55:57] [Server thread/INFO]: _scasey[/100.14.20.111:61169] logged in with entity id 250058 at (239.32704690468103, 1.5, 0.25773987783523367)
+[17:55:57] [Server thread/INFO]: _scasey joined the game
+[17:55:58] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[17:55:58] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[17:55:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[17:55:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[17:55:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[17:56:13] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
+[17:56:13] [Server thread/INFO]: razeyrainbows left the game
+[17:56:13] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
+[17:56:17] [User Authenticator #38/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[17:56:18] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:59021] logged in with entity id 250795 at (49.26068028946263, 135.20000004768372, -1467.300000011921)
+[17:56:18] [Server thread/INFO]: Lemon_Frog joined the game
+[17:56:18] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
+[17:56:18] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[17:56:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[17:56:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[17:56:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
+[17:56:36] [User Authenticator #39/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[17:56:37] [Server thread/INFO]: razeyrainbows[/146.115.92.123:56612] logged in with entity id 250978 at (49.78262686556381, 119.59099411821515, -1471.1325166037352)
+[17:56:37] [Server thread/INFO]: razeyrainbows joined the game
+[17:56:37] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
+[17:56:37] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
+[17:56:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
+[17:56:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
+[17:56:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
+[17:56:55] [Server thread/INFO]: razeyrainbows has made the advancement [Take Aim]
+[17:57:17] [User Authenticator #40/INFO]: UUID of player BlockBearz is 10a642b9-6aef-430e-a5bd-938c54329887
+[17:57:18] [Server thread/INFO]: BlockBearz[/74.108.230.37:58241] logged in with entity id 251438 at (-62.32518696804526, 64.0, -256.6414649856656)
+[17:57:18] [Server thread/INFO]: BlockBearz joined the game
+[17:57:50] [Server thread/INFO]: <Bemf> tori your house is awesome
+[17:57:57] [Server thread/INFO]: <Lemon_Frog> thank you!
+[17:59:59] [Server thread/INFO]: BlockBearz lost connection: Disconnected
+[17:59:59] [Server thread/INFO]: BlockBearz left the game
+[17:59:59] [Server thread/INFO]: [voicechat] Disconnecting client BlockBearz
+[18:00:19] [Server thread/INFO]: madb0nes lost connection: Disconnected
+[18:00:19] [Server thread/INFO]: madb0nes left the game
+[18:00:19] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
+[18:00:24] [User Authenticator #41/INFO]: UUID of player BlockBearz is 10a642b9-6aef-430e-a5bd-938c54329887
+[18:00:25] [Server thread/INFO]: BlockBearz[/74.108.230.37:58328] logged in with entity id 254160 at (-115.30000001192093, 74.0, -365.15926655393093)
+[18:00:25] [Server thread/INFO]: BlockBearz joined the game
+[18:02:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=368, y=15, z=-450} class_2338{x=365, y=15, z=-450}
+[18:04:16] [Server thread/INFO]: Lemon_Frog fell from a high place
+[18:04:26] [Server thread/INFO]: <razeyrainbows> for the greater good
+[18:05:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=439, y=14, z=-452} class_2338{x=435, y=11, z=-451}
+[18:06:05] [Server thread/WARN]: Lemon_Frog moved too quickly! 2.634503712740866,-2.090061919226727,9.778975790094762
+[18:07:09] [Server thread/INFO]: razeyrainbows fell from a high place
+[18:07:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=365, y=15, z=-513} class_2338{x=365, y=16, z=-515}
+[18:07:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=365, y=15, z=-513} class_2338{x=365, y=16, z=-515}
+[18:07:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=365, y=15, z=-513} class_2338{x=365, y=16, z=-515}
+[18:07:20] [Server thread/INFO]: <razeyrainbows> uhhhh
+[18:08:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=397, y=14, z=-481} class_2338{x=401, y=15, z=-482}
+[18:09:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=397, y=14, z=-490} class_2338{x=359, y=15, z=-482}
+[18:10:43] [Server thread/INFO]: razeyrainbows was slain by Enderman
+[18:10:49] [Server thread/INFO]: BlockBearz fell from a high place
+[18:11:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=365, y=12, z=-390} class_2338{x=368, y=14, z=-386}
+[18:13:15] [Server thread/INFO]: <FrozenJarate> Nick come to Fairyville :)
+[18:13:23] [Server thread/INFO]: _scasey lost connection: Disconnected
+[18:13:23] [Server thread/INFO]: _scasey left the game
+[18:13:23] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[18:13:58] [Server thread/INFO]: <Lemon_Frog> what are you scheming
+[18:17:22] [Server thread/INFO]: its_bjorger was shot by Skeleton
+[18:19:33] [Server thread/INFO]: BlockBearz drowned
+[18:19:35] [Server thread/INFO]: BlockBearz lost connection: Disconnected
+[18:19:35] [Server thread/INFO]: BlockBearz left the game
+[18:19:35] [Server thread/INFO]: [voicechat] Disconnecting client BlockBearz
+[18:19:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=436, y=10, z=-538} class_2338{x=433, y=16, z=-542}
+[18:19:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=436, y=10, z=-538} class_2338{x=433, y=16, z=-542}
+[18:19:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=436, y=10, z=-538} class_2338{x=433, y=16, z=-542}
+[18:19:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=436, y=10, z=-538} class_2338{x=433, y=16, z=-542}
+[18:21:14] [User Authenticator #42/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[18:21:15] [Server thread/INFO]: madb0nes[/72.70.38.62:49328] logged in with entity id 274339 at (51.31374558775247, 80.38773210176608, -1448.149808367291)
+[18:21:15] [Server thread/INFO]: madb0nes joined the game
+[18:21:15] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
+[18:21:15] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
+[18:21:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[18:21:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[18:21:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
+[18:24:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=427, y=15, z=-371} class_2338{x=411, y=16, z=-358}
+[18:24:05] [Server thread/INFO]: razeyrainbows was slain by Enderman
+[18:24:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=427, y=15, z=-371} class_2338{x=411, y=16, z=-358}
+[18:24:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=427, y=15, z=-371} class_2338{x=411, y=16, z=-358}
+[18:24:37] [Server thread/INFO]: <FrozenJarate> yo any real ones got some string <3
+[18:27:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=395, y=12, z=-315} class_2338{x=393, y=12, z=-314}
+[18:27:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=377, y=13, z=-308} class_2338{x=377, y=15, z=-310}
+[18:28:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=337, y=15, z=-312} class_2338{x=338, y=14, z=-312}
+[18:28:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=337, y=15, z=-312} class_2338{x=338, y=14, z=-312}
+[18:30:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=248, y=16, z=-298} class_2338{x=288, y=16, z=-312}
+[18:30:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=308, y=16, z=-266} class_2338{x=305, y=16, z=-267}
+[18:30:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=307, y=15, z=-266} class_2338{x=306, y=16, z=-266}
+[18:30:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=307, y=15, z=-266} class_2338{x=306, y=16, z=-266}
+[18:30:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=307, y=15, z=-266} class_2338{x=306, y=16, z=-266}
+[18:30:50] [Server thread/INFO]: razeyrainbows has made the advancement [Fishy Business]
+[18:31:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=314, y=15, z=-237} class_2338{x=313, y=14, z=-237}
+[18:31:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=314, y=15, z=-237} class_2338{x=313, y=14, z=-237}
+[18:31:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=314, y=15, z=-237} class_2338{x=313, y=14, z=-237}
+[18:31:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=325, y=15, z=-276} class_2338{x=358, y=16, z=-283}
+[18:32:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=325, y=15, z=-276} class_2338{x=369, y=15, z=-290}
+[18:36:02] [Server thread/INFO]: Bemf lost connection: Disconnected
+[18:36:02] [Server thread/INFO]: Bemf left the game
+[18:36:02] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[18:38:15] [Server thread/INFO]: Zumquirelle lost connection: Disconnected
+[18:38:15] [Server thread/INFO]: Zumquirelle left the game
+[18:38:15] [Server thread/INFO]: [voicechat] Disconnecting client Zumquirelle
+[18:39:16] [Server thread/INFO]: Lemon_Frog has made the advancement [Voluntary Exile]
+[18:46:10] [Server thread/INFO]: You whisper to razeyrainbows: HOLY SHIT BEHIND YOU!
+[18:48:21] [Server thread/INFO]: madb0nes has made the advancement [Enchanter]
+[18:49:40] [User Authenticator #43/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[18:49:40] [Server thread/INFO]: _scasey[/100.14.20.111:61610] logged in with entity id 290270 at (-97.49177366413083, 64.5, -293.02663250519635)
+[18:49:40] [Server thread/INFO]: _scasey joined the game
+[18:49:40] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[18:49:40] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[18:49:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[18:49:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[18:49:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[18:57:49] [Server thread/INFO]: <Lemon_Frog> hello
+[18:57:53] [Server thread/INFO]: <Lemon_Frog> where are yall goingg
+[18:58:00] [Server thread/INFO]: <Lemon_Frog> i need to mute for a sex
+[18:58:02] [Server thread/INFO]: <Lemon_Frog> sec
+[18:58:04] [Server thread/INFO]: <madb0nes> WJAT
+[18:58:06] [Server thread/INFO]: <razeyrainbows> WOAH
+[18:58:07] [Server thread/INFO]: <_scasey> AYOOO
+[18:58:11] [Server thread/INFO]: <Lemon_Frog> my bad
+[18:58:16] [Server thread/INFO]: <Lemon_Frog> my bad gang
+[18:58:25] [Server thread/INFO]: <Lemon_Frog> boobs
+[18:58:32] [Server thread/INFO]: <its_bjorger> for real
+[18:58:34] [Server thread/INFO]: <_scasey> LETS GOOOOOO
+[18:58:48] [Server thread/INFO]: <madb0nes> consider: ass
+[18:58:58] [Server thread/INFO]: <Lemon_Frog> penis
+[18:58:59] [Server thread/INFO]: <razeyrainbows> consider both
+[18:59:40] [Server thread/WARN]: Lemon_Frog moved too quickly! -7.743829805482051,0.25799910351528155,-6.553576837722289
+[19:01:33] [User Authenticator #44/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[19:01:34] [Server thread/INFO]: Bemf[/71.233.245.252:64149] logged in with entity id 297807 at (237.69999998807907, 15.0, -371.61502759881273)
+[19:01:34] [Server thread/INFO]: Bemf joined the game
+[19:01:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=0, y=0, z=0} class_2338{x=237, y=15, z=-373}
+[19:03:18] [Server thread/INFO]: razeyrainbows was slain by Enderman
+[19:03:39] [Server thread/INFO]: its_bjorger lost connection: Disconnected
+[19:03:39] [Server thread/INFO]: its_bjorger left the game
+[19:03:39] [Server thread/INFO]: [voicechat] Disconnecting client its_bjorger
+[19:07:42] [Server thread/INFO]: razeyrainbows was slain by Enderman
+[19:07:49] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
+[19:07:49] [Server thread/INFO]: razeyrainbows left the game
+[19:07:49] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
+[19:08:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=143, y=17, z=-478} class_2338{x=365, y=16, z=-456}
+[19:12:07] [User Authenticator #45/INFO]: UUID of player Mosshroom_ is dc7e2ddf-9c53-4b85-a6eb-4c391086470b
+[19:12:07] [Server thread/INFO]: Mosshroom_[/71.232.16.38:58728] logged in with entity id 310263 at (-455.56255743944865, 75.0, -304.69999998807907)
+[19:12:07] [Server thread/INFO]: Mosshroom_ joined the game
+[19:12:51] [Server thread/INFO]: Bemf has completed the challenge [Cover Me in Debris]
+[19:13:59] [Server thread/INFO]: madb0nes was slain by Shulker
+[19:15:02] [Server thread/INFO]: Lemon_Frog was slain by Shulker
+[19:17:26] [Server thread/INFO]: Mosshroom_ has made the advancement [Eye Spy]
+[19:17:29] [Server thread/INFO]: Mosshroom_ has made the advancement [The End?]
+[19:17:35] [Server thread/INFO]: <FrozenJarate> yooo
+[19:18:16] [Server thread/INFO]: Mosshroom_ has made the advancement [Remote Getaway]
+[19:22:24] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
+[19:22:24] [Server thread/INFO]: FrozenJarate left the game
+[19:22:24] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
+[19:23:03] [Server thread/INFO]: _scasey lost connection: Disconnected
+[19:23:03] [Server thread/INFO]: _scasey left the game
+[19:23:03] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[19:24:22] [User Authenticator #46/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[19:24:24] [Server thread/INFO]: GunYoshi[/98.214.164.251:50506] logged in with entity id 327698 at (-60.23750001192093, 64.0, -257.76249998807907)
+[19:24:24] [Server thread/INFO]: GunYoshi joined the game
+[19:25:20] [Server thread/INFO]: <GunYoshi> anyone at the enderman farm rn?
+[19:26:41] [Server thread/INFO]: <Bemf> i was gonna go to it but you can first
+[19:26:46] [Server thread/INFO]: <Mosshroom_> yeah
+[19:26:49] [Server thread/INFO]: <Mosshroom_> I am
+[19:26:53] [Server thread/INFO]: <Mosshroom_> not for too long though
+[19:26:57] [Server thread/INFO]: <GunYoshi> oh word lol
+[19:27:01] [Server thread/INFO]: <Mosshroom_> sorry
+[19:27:01] [Server thread/INFO]: <GunYoshi> im here but ill wait respectfully
+[19:27:07] [Server thread/INFO]: <GunYoshi> nah ur totally good!!
+[19:28:31] [Server thread/INFO]: <GunYoshi> yall can go first if u need since ill be a while, im trying to go from 1-32 or so
+[19:28:41] [Server thread/INFO]: <Bemf> that wont take long lol
+[19:29:15] [Server thread/INFO]: <Mosshroom_> oh no
+[19:29:20] [Server thread/WARN]: Lemon_Frog moved too quickly! 7.070872968598962,-53.28332128387218,-1.0852091397466666
+[19:29:20] [Server thread/INFO]: Lemon_Frog has completed the challenge [Great View From Up Here]
+[19:29:25] [Server thread/INFO]: <GunYoshi> ?
+[19:29:26] [Server thread/INFO]: <Mosshroom_> I forgot to disenchant my chest before I put mending on it
+[19:29:30] [Server thread/INFO]: <Mosshroom_> :(
+[19:29:34] [Server thread/INFO]: <GunYoshi> damn
+[19:30:21] [Server thread/WARN]: Lemon_Frog moved too quickly! 2.645046562541779,-32.48021643018025,3.24835992879639
+[19:30:32] [Server thread/WARN]: madb0nes moved too quickly! 7.4838373220896415,-3.3557358498406415,-7.98521089366227
+[19:30:37] [Server thread/INFO]: <Bemf> thx
+[19:31:40] [Server thread/WARN]: Lemon_Frog moved too quickly! 3.079901852449609,-37.89047629612854,-0.0995263374879869
+[19:32:28] [Server thread/WARN]: Lemon_Frog moved too quickly! 0.22968482357873654,-19.05125747634601,-4.12993716275173
+[19:33:01] [Server thread/INFO]: Lemon_Frog was slain by Shulker
+[19:33:04] [Server thread/INFO]: <Mosshroom_> lmk when y'all are done. I just realized I forgot more enchanting
+[19:33:33] [Server thread/INFO]: <GunYoshi> my sword broke LOLL
+[19:33:34] [Server thread/INFO]: <GunYoshi> im done!
+[19:33:37] [Server thread/INFO]: <Mosshroom_> lmao
+[19:33:44] [Server thread/INFO]: <Mosshroom_> bemf you still there?
+[19:33:50] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[19:33:50] [Server thread/INFO]: GunYoshi left the game
+[19:33:50] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[19:33:53] [User Authenticator #47/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[19:33:54] [Server thread/INFO]: GunYoshi[/98.214.164.251:50520] logged in with entity id 338198 at (190.24643950417374, 1.0, 0.3995498983527536)
+[19:33:54] [Server thread/INFO]: GunYoshi joined the game
+[19:33:55] [Server thread/INFO]: <Bemf> ya but you can use it
+[19:34:00] [Server thread/INFO]: <Mosshroom_> nah that's all you
+[19:34:04] [Server thread/INFO]: <Mosshroom_> I'm gonna do some exploring
+[19:39:16] [Server thread/INFO]: GunYoshi has made the advancement [Enchanter]
+[19:49:56] [User Authenticator #48/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[19:49:57] [Server thread/INFO]: razeyrainbows[/146.115.92.123:57293] logged in with entity id 357542 at (189.5, -18.0, 1699.5)
+[19:49:57] [Server thread/INFO]: razeyrainbows joined the game
+[19:49:57] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
+[19:49:57] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
+[19:49:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
+[19:49:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
+[19:49:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
+[19:50:53] [Server thread/INFO]: <GunYoshi> NOPE WARDEN NOPE
+[19:50:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player f566e0b4-e112-411a-bfcc-9b3a7425fd44 timed out
+[19:50:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Lemon_Frog
+[19:50:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[19:50:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[19:51:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[19:51:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
+[19:53:22] [Server thread/INFO]: <razeyrainbows> do you have my food?
+[19:56:25] [Server thread/INFO]: Mosshroom_ lost connection: Disconnected
+[19:56:25] [Server thread/INFO]: Mosshroom_ left the game
+[19:56:25] [Server thread/INFO]: [voicechat] Disconnecting client Mosshroom_
+[19:56:36] [Server thread/INFO]: Lemon_Frog fell from a high place
+[19:59:46] [Server thread/INFO]: <Bemf> anyone found an area that seems to rain a lot?
+[20:04:03] [Server thread/INFO]: <17sk> hi
+[20:04:04] [Server thread/INFO]: <Lemon_Frog> hello!
+[20:04:11] [Server thread/INFO]: <Lemon_Frog> I am here for sheep
+[20:04:15] [Server thread/INFO]: <17sk> sheep
+[20:04:29] [Server thread/INFO]: <razeyrainbows> declan you are a machine
+[20:04:34] [Server thread/INFO]: <razeyrainbows> youve done so much
+[20:04:44] [Server thread/INFO]: <Lemon_Frog> I need a lead
+[20:04:51] [Server thread/INFO]: <Lemon_Frog> im physically taking one sheep
+[20:04:54] [Server thread/INFO]: <17sk> oh
+[20:04:55] [Server thread/INFO]: <17sk> ok
+[20:05:08] [Server thread/INFO]: <17sk> shearS?
+[20:05:15] [Server thread/INFO]: <17sk> love
+[20:05:17] [Server thread/INFO]: <GunYoshi> nice bog head
+[20:05:20] [Server thread/INFO]: <17sk> thank
+[20:05:23] [Server thread/INFO]: <GunYoshi> do u have the coords of the trial chamber?
+[20:05:26] [Server thread/INFO]: <17sk> no :(
+[20:05:28] [Server thread/INFO]: <GunYoshi> zamn
+[20:05:33] [Server thread/INFO]: <17sk> sorry
+[20:07:03] [Server thread/INFO]: <17sk> hole
+[20:07:09] [Server thread/INFO]: <GunYoshi> what is that for lmaoo
+[20:07:12] [Server thread/INFO]: <17sk> xp
+[20:11:31] [Server thread/INFO]: <17sk> no sleep?
+[20:11:33] [Server thread/INFO]: <17sk> just for minute
+[20:11:36] [Server thread/INFO]: <razeyrainbows> ok
+[20:11:38] [Server thread/INFO]: <17sk> i need zombie
+[20:11:50] [Server thread/INFO]: GunYoshi has made the advancement [Cover Me with Diamonds]
+[20:13:05] [Server thread/INFO]: <Lemon_Frog> im so sorry
+[20:13:08] [Server thread/INFO]: <Lemon_Frog> i missed that
+[20:13:09] [Server thread/INFO]: 17sk was burned to a crisp while fighting Spider
+[20:13:12] [Server thread/INFO]: <17sk> :(
+[20:13:14] [Server thread/INFO]: <17sk> is ok
+[20:13:15] [Server thread/INFO]: <razeyrainbows> noo
+[20:13:16] [Server thread/INFO]: <Lemon_Frog> i wont sleep tonight
+[20:15:47] [User Authenticator #49/INFO]: UUID of player its_bjorger is eac2110d-43a0-4ff5-b764-fcde8650fb0b
+[20:15:47] [Server thread/INFO]: its_bjorger[/70.20.52.139:57724] logged in with entity id 388161 at (153.88013958022697, 120.5625, 690.2690027159427)
+[20:15:47] [Server thread/INFO]: its_bjorger joined the game
+[20:21:51] [Server thread/INFO]: <17sk> no sleep? need zombie
+[20:21:57] [Server thread/INFO]: <madb0nes> o7
+[20:22:02] [Server thread/INFO]: <17sk> thank you
+[20:22:10] [Server thread/INFO]: <GunYoshi> r u making an iron farm?
+[20:22:10] [Server thread/INFO]: <razeyrainbows> i told chat
+[20:22:22] [Server thread/INFO]: <17sk> armadillo farm
+[20:22:29] [Server thread/INFO]: <GunYoshi> what?
+[20:22:32] [Server thread/INFO]: <razeyrainbows> sorry?
+[20:22:34] [Server thread/INFO]: <madb0nes> whar
+[20:22:44] [Server thread/INFO]: <17sk> i'll show you it working, or i'll get in vc to explain
+[20:22:48] [Server thread/INFO]: <17sk> its for xp tho
+[20:22:50] [Server thread/INFO]: <17sk> if it works
+[20:22:52] [Server thread/INFO]: <17sk> it should
+[20:23:15] [Server thread/INFO]: Bemf lost connection: Disconnected
+[20:23:15] [Server thread/INFO]: Bemf left the game
+[20:23:15] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[20:25:27] [User Authenticator #50/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[20:25:28] [Server thread/INFO]: FrozenJarate[/192.168.86.1:55204] logged in with entity id 395632 at (164.28555802097145, 131.0, 795.4233123027262)
+[20:25:28] [Server thread/INFO]: FrozenJarate joined the game
+[20:25:28] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
+[20:25:28] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
+[20:25:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[20:25:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
+[20:25:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
+[20:25:32] [Server thread/INFO]: <17sk> no sleep please dash!
+[20:25:36] [Server thread/INFO]: <FrozenJarate> gotcha
+[20:25:50] [Server thread/INFO]: <17sk> ok perf i got him thank you guys
+[20:28:22] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
+[20:28:22] [Server thread/INFO]: razeyrainbows left the game
+[20:28:22] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
+[20:28:24] [Server thread/INFO]: madb0nes lost connection: Disconnected
+[20:28:24] [Server thread/INFO]: madb0nes left the game
+[20:28:24] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
+[20:28:28] [User Authenticator #51/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[20:28:28] [Server thread/INFO]: razeyrainbows[/146.115.92.123:57672] logged in with entity id 397673 at (137.76249998807907, 111.0, 610.3141085433338)
+[20:28:28] [Server thread/INFO]: razeyrainbows joined the game
+[20:28:28] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
+[20:28:28] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
+[20:28:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
+[20:28:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
+[20:28:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
+[20:28:32] [User Authenticator #52/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[20:28:33] [Server thread/INFO]: madb0nes[/72.70.38.62:50628] logged in with entity id 397715 at (219.5087745849445, 87.0, 526.0755177462908)
+[20:28:33] [Server thread/INFO]: madb0nes joined the game
+[20:28:33] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
+[20:28:33] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
+[20:28:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[20:28:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[20:28:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
+[20:30:56] [Server thread/INFO]: 17sk has made the advancement [Local Brewery]
+[20:31:12] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
+[20:31:12] [Server thread/INFO]: razeyrainbows left the game
+[20:31:12] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:45] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:46] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:47] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934 timed out
+[20:31:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player madb0nes
+[20:31:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to madb0nes
+[20:31:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player e95834af-1c1b-4130-afd5-d649cae36b67 timed out
+[20:31:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player 17sk
+[20:31:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to 17sk
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:48] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player f566e0b4-e112-411a-bfcc-9b3a7425fd44 timed out
+[20:31:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Lemon_Frog
+[20:31:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:49] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:50] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:51] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:52] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:53] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:54] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:55] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:56] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:57] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/INFO]: its_bjorger lost connection: Disconnected
+[20:31:58] [Server thread/INFO]: its_bjorger left the game
+[20:31:58] [Server thread/INFO]: [voicechat] Disconnecting client its_bjorger
+[20:31:58] [Server thread/WARN]: madb0nes was kicked for floating too long!
+[20:31:58] [Server thread/INFO]: Lemon_Frog lost connection: Disconnected
+[20:31:58] [Server thread/INFO]: Lemon_Frog left the game
+[20:31:58] [Server thread/INFO]: [voicechat] Disconnecting client Lemon_Frog
+[20:31:58] [Server thread/INFO]: madb0nes lost connection: Disconnected
+[20:31:58] [Server thread/INFO]: madb0nes left the game
+[20:31:58] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
+[20:31:58] [Server thread/INFO]: 17sk lost connection: Disconnected
+[20:31:58] [Server thread/INFO]: 17sk left the game
+[20:31:58] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[20:31:58] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[20:31:58] [Server thread/INFO]: GunYoshi left the game
+[20:31:58] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[20:32:03] [User Authenticator #53/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[20:32:04] [Server thread/INFO]: 17sk[/24.253.191.140:64930] logged in with entity id 399691 at (-184.53637218580354, 69.0, -291.7389275775245)
+[20:32:04] [Server thread/INFO]: 17sk joined the game
+[20:32:04] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[20:32:04] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[20:32:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[20:32:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[20:32:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[20:32:10] [Server thread/INFO]: <17sk> hello?
+[20:32:12] [User Authenticator #54/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[20:32:12] [Server thread/INFO]: madb0nes[/72.70.38.62:50685] logged in with entity id 400175 at (270.9365526838063, 95.25220334025373, 596.2730817512263)
+[20:32:12] [Server thread/INFO]: madb0nes joined the game
+[20:32:12] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
+[20:32:12] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
+[20:32:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[20:32:12] [User Authenticator #55/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[20:32:13] [Server thread/INFO]: GunYoshi[/98.214.164.251:50555] logged in with entity id 400319 at (260.5355684411365, 93.0, 485.75683278776063)
+[20:32:13] [Server thread/INFO]: GunYoshi joined the game
+[20:32:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[20:32:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
+[20:32:14] [User Authenticator #56/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[20:32:15] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:59496] logged in with entity id 400424 at (170.62749597544192, 95.0, 536.191691542222)
+[20:32:15] [Server thread/INFO]: Lemon_Frog joined the game
+[20:32:15] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
+[20:32:15] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[20:32:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[20:32:16] [User Authenticator #57/INFO]: UUID of player its_bjorger is eac2110d-43a0-4ff5-b764-fcde8650fb0b
+[20:32:16] [Server thread/INFO]: its_bjorger[/70.20.52.139:57879] logged in with entity id 400460 at (150.41804327443128, 120.0, 724.8902346854113)
+[20:32:16] [Server thread/INFO]: its_bjorger joined the game
+[20:32:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[20:32:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
+[20:34:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=110, y=121, z=697} class_2338{x=112, y=116, z=698}
+[20:37:04] [User Authenticator #58/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[20:37:04] [Server thread/INFO]: _scasey[/100.14.20.111:62068] logged in with entity id 404994 at (-117.74853087504522, 72.5, -252.32454827637468)
+[20:37:04] [Server thread/INFO]: _scasey joined the game
+[20:37:04] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[20:37:04] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[20:37:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[20:37:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[20:37:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[20:37:09] [Server thread/INFO]: <_scasey> AAAAAAAAAAAAAAA
+[20:37:12] [Server thread/INFO]: <madb0nes> ae
+[20:37:13] [Server thread/INFO]: <Lemon_Frog> yeah
+[20:37:16] [Server thread/INFO]: <_scasey> hey guys hows it going
+[20:37:24] [Server thread/INFO]: <madb0nes> dirt
+[20:37:32] [Server thread/INFO]: <_scasey> YEAH BABY
+[20:37:44] [Server thread/WARN]: Player Lemon_Frog just tried to change non-editable sign
+[20:38:20] [Server thread/INFO]: GunYoshi has made the advancement [Voluntary Exile]
+[20:41:10] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 5 mins
+[20:41:19] [Server thread/INFO]: <Lemon_Frog> thank you o7
+[20:45:10] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 1 minute
+[20:45:51] [Server thread/INFO]: FrozenJarate lost connection: Disconnected
+[20:45:51] [Server thread/INFO]: FrozenJarate left the game
+[20:45:51] [Server thread/INFO]: [voicechat] Disconnecting client FrozenJarate
+[20:45:53] [Server thread/INFO]: _scasey lost connection: Disconnected
+[20:45:53] [Server thread/INFO]: _scasey left the game
+[20:45:53] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[20:46:00] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 10 seconds
+[20:46:10] [Server thread/INFO]: Stopping the server
+[20:46:10] [Server thread/INFO]: Stopping server
+[20:46:10] [Server thread/INFO]: Saving players
+[20:46:10] [Server thread/INFO]: 17sk lost connection: Server closed
+[20:46:10] [Server thread/INFO]: 17sk left the game
+[20:46:10] [Server thread/INFO]: GunYoshi lost connection: Server closed
+[20:46:10] [Server thread/INFO]: GunYoshi left the game
+[20:46:10] [Server thread/INFO]: its_bjorger lost connection: Server closed
+[20:46:10] [Server thread/INFO]: its_bjorger left the game
+[20:46:10] [Server thread/INFO]: Saving worlds
+[20:46:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20:46:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20:46:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20:46:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20:46:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:46:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:46:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

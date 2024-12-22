@@ -8375,7 +8375,8 @@
       "minecraft:magma_cube": "2024-12-20 02:57:40 -0500",
       "minecraft:spider": "2024-12-20 01:12:10 -0500",
       "minecraft:zombie": "2024-12-19 19:38:19 -0500",
-      "minecraft:creeper": "2024-12-19 21:20:27 -0500"
+      "minecraft:creeper": "2024-12-19 21:20:27 -0500",
+      "minecraft:wither": "2024-12-21 17:05:12 -0500"
     },
     "done": false
   },
@@ -8560,6 +8561,12 @@
   "minecraft:nether/get_wither_skull": {
     "criteria": {
       "wither_skull": "2024-12-21 05:33:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-12-21 17:04:27 -0500"
     },
     "done": true
   },

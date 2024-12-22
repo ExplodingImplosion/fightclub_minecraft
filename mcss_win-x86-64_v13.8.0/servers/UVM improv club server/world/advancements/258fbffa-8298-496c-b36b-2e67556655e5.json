@@ -8320,7 +8320,9 @@
     "criteria": {
       "minecraft:blaze": "2024-12-19 19:48:13 -0500",
       "minecraft:skeleton": "2024-12-19 19:12:49 -0500",
+      "minecraft:phantom": "2024-12-21 19:12:04 -0500",
       "minecraft:zombified_piglin": "2024-12-20 16:00:21 -0500",
+      "minecraft:wither_skeleton": "2024-12-21 17:11:12 -0500",
       "minecraft:ghast": "2024-12-19 20:46:52 -0500",
       "minecraft:ender_dragon": "2024-12-19 21:50:28 -0500",
       "minecraft:hoglin": "2024-12-20 03:26:27 -0500",
@@ -8567,6 +8569,18 @@
   "minecraft:adventure/ol_betsy": {
     "criteria": {
       "shot_crossbow": "2024-12-20 19:50:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-12-21 17:15:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-12-21 19:12:51 -0500"
     },
     "done": true
   },

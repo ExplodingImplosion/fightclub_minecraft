@@ -8294,8 +8294,10 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "bread": "2024-12-19 21:28:33 -0500",
+      "cooked_chicken": "2024-12-21 15:07:17 -0500",
       "cooked_mutton": "2024-12-19 19:12:16 -0500",
       "glow_berries": "2024-12-19 19:58:43 -0500",
+      "cooked_cod": "2024-12-21 17:16:03 -0500",
       "salmon": "2024-12-19 21:54:24 -0500",
       "cooked_beef": "2024-12-20 00:00:10 -0500",
       "melon_slice": "2024-12-20 15:09:12 -0500",
@@ -8326,8 +8328,10 @@
       "minecraft:pillager": "2024-12-19 22:43:37 -0500",
       "minecraft:cave_spider": "2024-12-20 15:34:15 -0500",
       "minecraft:skeleton": "2024-12-19 20:34:23 -0500",
+      "minecraft:enderman": "2024-12-21 17:23:57 -0500",
       "minecraft:spider": "2024-12-20 15:21:20 -0500",
       "minecraft:zombie": "2024-12-19 19:30:33 -0500",
+      "minecraft:creeper": "2024-12-21 15:46:17 -0500",
       "minecraft:drowned": "2024-12-21 03:17:12 -0500"
     },
     "done": false
@@ -8408,6 +8412,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:soul_sand_valley": "2024-12-21 16:48:31 -0500",
       "minecraft:basalt_deltas": "2024-12-20 00:00:16 -0500"
     },
     "done": false
@@ -8429,6 +8434,54 @@
       "ocean_ruin_cold": "2024-12-21 03:23:38 -0500"
     },
     "done": false
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-12-21 16:12:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2024-12-21 16:37:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-12-21 17:12:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-12-21 17:12:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-21 17:12:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-12-21 19:39:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2024-12-21 20:11:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-12-21 20:38:20 -0500"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }

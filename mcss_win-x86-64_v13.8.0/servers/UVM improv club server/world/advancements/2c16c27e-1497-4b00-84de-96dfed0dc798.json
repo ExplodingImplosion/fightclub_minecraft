@@ -8243,6 +8243,7 @@
       "minecraft:forest": "2024-12-19 19:14:51 -0500",
       "minecraft:sparse_jungle": "2024-12-19 19:13:50 -0500",
       "minecraft:river": "2024-12-19 19:12:29 -0500",
+      "minecraft:lukewarm_ocean": "2024-12-21 17:09:02 -0500",
       "minecraft:lush_caves": "2024-12-19 19:54:51 -0500",
       "minecraft:dripstone_caves": "2024-12-19 19:36:40 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-20 14:23:19 -0500",
@@ -8278,6 +8279,7 @@
     "criteria": {
       "minecraft:pillager": "2024-12-19 22:53:23 -0500",
       "minecraft:skeleton": "2024-12-19 19:35:17 -0500",
+      "minecraft:enderman": "2024-12-21 17:26:15 -0500",
       "minecraft:magma_cube": "2024-12-20 20:38:08 -0500",
       "minecraft:zombie": "2024-12-19 19:17:10 -0500",
       "minecraft:creeper": "2024-12-21 09:56:18 -0500",
@@ -8380,7 +8382,10 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
-      "minecraft:cow": "2024-12-20 14:17:10 -0500"
+      "minecraft:cow": "2024-12-20 14:17:10 -0500",
+      "minecraft:chicken": "2024-12-21 18:01:53 -0500",
+      "minecraft:horse": "2024-12-21 17:02:44 -0500",
+      "minecraft:sheep": "2024-12-21 18:05:35 -0500"
     },
     "done": false
   },
@@ -8393,6 +8398,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:nether_wastes": "2024-12-20 15:02:23 -0500",
+      "minecraft:soul_sand_valley": "2024-12-21 16:43:45 -0500",
       "minecraft:basalt_deltas": "2024-12-20 15:01:52 -0500"
     },
     "done": false
@@ -8436,6 +8442,24 @@
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_chestplate": "2024-12-21 00:23:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-12-21 17:10:17 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-12-21 17:10:34 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-21 17:10:34 -0500"
     },
     "done": true
   },

@@ -97,16 +97,18 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2024-12-20 23:34:30 -0500",
       "minecraft:beach": "2024-12-19 20:16:09 -0500",
       "minecraft:dark_forest": "2024-12-21 01:15:56 -0500",
       "minecraft:forest": "2024-12-19 19:09:48 -0500",
       "minecraft:sparse_jungle": "2024-12-19 19:07:11 -0500",
-      "minecraft:jungle": "2024-12-19 19:07:10 -0500",
-      "minecraft:ocean": "2024-12-20 23:34:29 -0500",
       "minecraft:river": "2024-12-19 19:07:45 -0500",
       "minecraft:lukewarm_ocean": "2024-12-20 23:29:19 -0500",
+      "minecraft:old_growth_birch_forest": "2024-12-20 23:34:30 -0500",
+      "minecraft:jungle": "2024-12-19 19:07:10 -0500",
+      "minecraft:ocean": "2024-12-20 23:34:29 -0500",
+      "minecraft:swamp": "2024-12-21 17:33:32 -0500",
       "minecraft:birch_forest": "2024-12-19 19:00:45 -0500",
+      "minecraft:windswept_gravelly_hills": "2024-12-21 17:36:10 -0500",
       "minecraft:old_growth_spruce_taiga": "2024-12-21 01:19:07 -0500",
       "minecraft:plains": "2024-12-19 19:27:28 -0500"
     },
@@ -8285,6 +8287,7 @@
       "cooked_chicken": "2024-12-19 19:45:38 -0500",
       "rotten_flesh": "2024-12-20 23:32:31 -0500",
       "cooked_mutton": "2024-12-19 19:40:41 -0500",
+      "cooked_cod": "2024-12-21 16:40:17 -0500",
       "cooked_beef": "2024-12-19 19:17:47 -0500",
       "beef": "2024-12-21 01:15:16 -0500",
       "melon_slice": "2024-12-19 19:10:44 -0500"
@@ -8300,6 +8303,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-12-19 19:48:30 -0500",
+      "minecraft:pillager": "2024-12-21 16:32:33 -0500",
       "minecraft:skeleton": "2024-12-19 19:15:15 -0500",
       "minecraft:phantom": "2024-12-21 01:27:38 -0500",
       "minecraft:wither_skeleton": "2024-12-19 19:47:54 -0500",
@@ -8437,6 +8441,48 @@
   "minecraft:end/elytra": {
     "criteria": {
       "elytra": "2024-12-20 23:55:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-12-21 15:03:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-12-21 15:07:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-12-21 15:43:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-12-21 15:43:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-21 15:43:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-12-21 16:32:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-12-21 16:45:39 -0500"
     },
     "done": true
   },
