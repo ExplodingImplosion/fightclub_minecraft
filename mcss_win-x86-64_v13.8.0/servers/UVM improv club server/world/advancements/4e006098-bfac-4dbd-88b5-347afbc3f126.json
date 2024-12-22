@@ -5753,11 +5753,13 @@
       "minecraft:ocean": "2024-12-19 23:19:01 -0500",
       "minecraft:jungle": "2024-12-19 21:28:56 -0500",
       "minecraft:sunflower_plains": "2024-12-20 17:44:24 -0500",
+      "minecraft:cherry_grove": "2024-12-21 22:24:42 -0500",
       "minecraft:birch_forest": "2024-12-19 21:22:05 -0500",
       "minecraft:windswept_hills": "2024-12-20 14:31:56 -0500",
       "minecraft:old_growth_spruce_taiga": "2024-12-20 14:33:59 -0500",
       "minecraft:bamboo_jungle": "2024-12-19 21:31:00 -0500",
       "minecraft:windswept_savanna": "2024-12-19 23:19:17 -0500",
+      "minecraft:warm_ocean": "2024-12-21 22:17:30 -0500",
       "minecraft:deep_lukewarm_ocean": "2024-12-19 23:17:49 -0500",
       "minecraft:flower_forest": "2024-12-20 02:36:08 -0500",
       "minecraft:beach": "2024-12-19 23:17:31 -0500",
@@ -8332,6 +8334,7 @@
       "beef": "2024-12-20 14:41:21 -0500",
       "melon_slice": "2024-12-19 21:33:40 -0500",
       "apple": "2024-12-20 14:26:49 -0500",
+      "cooked_chicken": "2024-12-21 23:14:46 -0500",
       "potato": "2024-12-19 23:26:27 -0500",
       "cooked_cod": "2024-12-20 17:18:10 -0500",
       "cooked_salmon": "2024-12-20 17:13:26 -0500",
@@ -8385,6 +8388,7 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-12-20 14:40:07 -0500",
       "minecraft:nether_wastes": "2024-12-20 14:36:56 -0500",
+      "minecraft:soul_sand_valley": "2024-12-21 22:28:31 -0500",
       "minecraft:basalt_deltas": "2024-12-19 23:50:28 -0500"
     },
     "done": false
@@ -8428,6 +8432,42 @@
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2024-12-20 16:36:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2024-12-21 23:07:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-21 22:26:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2024-12-21 23:32:30 -0500"
+    },
+    "done": false
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2024-12-21 23:11:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2024-12-21 23:35:42 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-12-21 23:29:42 -0500"
     },
     "done": true
   },
