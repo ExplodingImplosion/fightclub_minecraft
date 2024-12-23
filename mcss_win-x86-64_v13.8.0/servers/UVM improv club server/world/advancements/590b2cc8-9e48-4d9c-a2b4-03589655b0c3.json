@@ -8296,6 +8296,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-12-22 03:31:20 -0500",
+      "pufferfish": "2024-12-23 04:01:00 -0500",
       "bread": "2024-12-19 21:28:33 -0500",
       "cooked_chicken": "2024-12-21 15:07:17 -0500",
       "cooked_mutton": "2024-12-19 19:12:16 -0500",
@@ -8391,6 +8392,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2024-12-19 22:11:30 -0500",
+      "minecraft:chicken": "2024-12-23 02:02:54 -0500",
       "minecraft:sheep": "2024-12-20 14:06:23 -0500",
       "minecraft:bee": "2024-12-19 22:47:51 -0500"
     },
@@ -8517,6 +8519,18 @@
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2024-12-22 02:09:45 -0500"
+    },
+    "done": true
+  },
+  "graves:check_death_markers_later_in_tick": {
+    "criteria": {
+      "tick": "2024-12-23 01:15:25 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2024-12-23 01:15:25 -0500"
     },
     "done": true
   },
