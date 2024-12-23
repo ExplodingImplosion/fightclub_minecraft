@@ -36,14 +36,21 @@ java.io.IOException: The process cannot access the file because another process 
 	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
 	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
 	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:72) ~[?:?]
-	at java.base/sun.nio.ch.FileChannelImpl.write(FileChannelImpl.java:303) ~[?:?]
-	at knot/net.minecraft.class_5125.method_26803(class_5125.java:37) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_32$class_5143.<init>(class_32.java:374) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_32.method_52236(class_32.java:353) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.server.Main.main(Main.java:139) [server-intermediary.jar:?]
-	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.9.jar:?]
-	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric_installer.jar:1.0.1]
+	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:7[00:50:32] [Server thread/INFO]: [Not Secure] [Server] hey guys unfortunately theres been a bug so im gonna restart the server rq, is that cool?
+[00:50:45] [Server thread/INFO]: <madb0nes> sounds good
+[00:50:56] [Server thread/INFO]: <razeyrainbows> ofc
+[00:50:58] [Server thread/INFO]: Stopping the server
+[00:50:58] [Server thread/INFO]: Stopping server
+[00:50:59] [Server thread/INFO]: Saving players
+[00:50:59] [Server thread/INFO]: 17sk lost connection: Server closed
+[00:50:59] [Server thread/INFO]: 17sk left the game
+[00:50:59] [Server thread/INFO]: FrozenJarate lost connection: Server closed
+[00:50:59] [Server thread/INFO]: FrozenJarate left the game
+[00:50:59] [Server thread/INFO]: Saving worlds
+[00:50:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:51:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:51:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
