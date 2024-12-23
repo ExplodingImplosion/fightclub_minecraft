@@ -97,18 +97,24 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-12-22 17:15:45 -0500",
       "minecraft:old_growth_pine_taiga": "2024-12-21 21:10:05 -0500",
       "minecraft:forest": "2024-12-19 19:13:20 -0500",
       "minecraft:taiga": "2024-12-20 13:58:54 -0500",
       "minecraft:deep_ocean": "2024-12-20 11:49:35 -0500",
+      "minecraft:lush_caves": "2024-12-22 20:10:52 -0500",
+      "minecraft:deep_cold_ocean": "2024-12-22 17:14:38 -0500",
       "minecraft:frozen_ocean": "2024-12-21 21:18:48 -0500",
       "minecraft:desert": "2024-12-20 14:58:46 -0500",
+      "minecraft:frozen_river": "2024-12-22 17:10:46 -0500",
+      "minecraft:deep_frozen_ocean": "2024-12-22 17:09:03 -0500",
       "minecraft:ocean": "2024-12-19 19:41:01 -0500",
       "minecraft:jungle": "2024-12-19 19:08:34 -0500",
       "minecraft:cherry_grove": "2024-12-19 19:27:23 -0500",
       "minecraft:sunflower_plains": "2024-12-19 19:34:16 -0500",
       "minecraft:birch_forest": "2024-12-19 19:00:20 -0500",
       "minecraft:windswept_hills": "2024-12-20 11:50:42 -0500",
+      "minecraft:old_growth_spruce_taiga": "2024-12-22 20:27:25 -0500",
       "minecraft:snowy_beach": "2024-12-21 21:18:40 -0500",
       "minecraft:windswept_savanna": "2024-12-20 11:50:05 -0500",
       "minecraft:deep_lukewarm_ocean": "2024-12-20 11:49:27 -0500",
@@ -8468,6 +8474,24 @@
   "minecraft:end/enter_end_gateway": {
     "criteria": {
       "entered_end_gateway": "2024-12-21 19:18:16 -0500"
+    },
+    "done": true
+  },
+  "graves:check_death_markers_later_in_tick": {
+    "criteria": {
+      "tick": "2024-12-22 17:08:56 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2024-12-22 17:08:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2024-12-22 20:11:12 -0500"
     },
     "done": true
   },

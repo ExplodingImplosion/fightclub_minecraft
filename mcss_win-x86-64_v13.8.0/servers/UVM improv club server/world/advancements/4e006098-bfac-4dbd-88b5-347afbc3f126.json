@@ -8327,6 +8327,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "mutton": "2024-12-20 14:43:43 -0500",
+      "chicken": "2024-12-22 18:24:23 -0500",
       "golden_apple": "2024-12-20 02:39:19 -0500",
       "bread": "2024-12-20 01:53:52 -0500",
       "rotten_flesh": "2024-12-20 15:57:24 -0500",
@@ -8334,10 +8335,12 @@
       "cooked_mutton": "2024-12-20 00:59:32 -0500",
       "glow_berries": "2024-12-19 22:04:12 -0500",
       "sweet_berries": "2024-12-21 16:04:54 -0500",
+      "salmon": "2024-12-22 18:25:50 -0500",
       "cooked_beef": "2024-12-20 01:12:05 -0500",
       "beef": "2024-12-20 14:41:21 -0500",
       "baked_potato": "2024-12-22 00:35:46 -0500",
       "melon_slice": "2024-12-19 21:33:40 -0500",
+      "porkchop": "2024-12-22 18:09:06 -0500",
       "golden_carrot": "2024-12-22 00:39:35 -0500",
       "apple": "2024-12-20 14:26:49 -0500",
       "cooked_chicken": "2024-12-21 23:14:46 -0500",
@@ -8486,6 +8489,24 @@
   "minecraft:story/follow_ender_eye": {
     "criteria": {
       "in_stronghold": "2024-12-22 01:32:12 -0500"
+    },
+    "done": true
+  },
+  "graves:check_death_markers_later_in_tick": {
+    "criteria": {
+      "tick": "2024-12-22 17:44:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2024-12-22 18:58:43 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2024-12-22 17:44:44 -0500"
     },
     "done": true
   },

@@ -97,6 +97,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2024-12-22 20:42:14 -0500",
       "minecraft:forest": "2024-12-19 19:08:42 -0500",
       "minecraft:taiga": "2024-12-20 02:06:46 -0500",
       "minecraft:lush_caves": "2024-12-21 01:30:10 -0500",
@@ -114,9 +115,11 @@
       "minecraft:savanna_plateau": "2024-12-19 21:24:38 -0500",
       "minecraft:beach": "2024-12-19 19:57:13 -0500",
       "minecraft:dark_forest": "2024-12-19 21:16:43 -0500",
+      "minecraft:stony_peaks": "2024-12-22 20:37:09 -0500",
       "minecraft:sparse_jungle": "2024-12-19 19:07:35 -0500",
       "minecraft:river": "2024-12-19 19:07:41 -0500",
       "minecraft:lukewarm_ocean": "2024-12-19 20:18:36 -0500",
+      "minecraft:stony_shore": "2024-12-22 20:36:26 -0500",
       "minecraft:dripstone_caves": "2024-12-20 04:05:16 -0500",
       "minecraft:frozen_peaks": "2024-12-19 21:19:39 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-19 20:21:20 -0500",
@@ -8321,27 +8324,28 @@
       "minecraft:blaze": "2024-12-19 19:48:13 -0500",
       "minecraft:pillager": "2024-12-21 23:48:22 -0500",
       "minecraft:skeleton": "2024-12-19 19:12:49 -0500",
+      "minecraft:bogged": "2024-12-22 01:09:15 -0500",
+      "minecraft:ghast": "2024-12-19 20:46:52 -0500",
+      "minecraft:hoglin": "2024-12-20 03:26:27 -0500",
+      "minecraft:breeze": "2024-12-22 00:30:58 -0500",
+      "minecraft:magma_cube": "2024-12-19 19:33:02 -0500",
+      "minecraft:spider": "2024-12-19 21:14:00 -0500",
+      "minecraft:piglin_brute": "2024-12-20 15:59:43 -0500",
+      "minecraft:creeper": "2024-12-20 03:36:09 -0500",
+      "minecraft:slime": "2024-12-22 00:20:52 -0500",
       "minecraft:phantom": "2024-12-21 19:12:04 -0500",
       "minecraft:zombified_piglin": "2024-12-20 16:00:21 -0500",
       "minecraft:wither_skeleton": "2024-12-21 17:11:12 -0500",
-      "minecraft:bogged": "2024-12-22 01:09:15 -0500",
-      "minecraft:ghast": "2024-12-19 20:46:52 -0500",
       "minecraft:ender_dragon": "2024-12-19 21:50:28 -0500",
-      "minecraft:hoglin": "2024-12-20 03:26:27 -0500",
       "minecraft:shulker": "2024-12-19 22:19:36 -0500",
       "minecraft:cave_spider": "2024-12-22 00:20:02 -0500",
       "minecraft:piglin": "2024-12-19 19:33:52 -0500",
-      "minecraft:breeze": "2024-12-22 00:30:58 -0500",
       "minecraft:enderman": "2024-12-19 20:39:31 -0500",
       "minecraft:silverfish": "2024-12-19 21:30:20 -0500",
-      "minecraft:magma_cube": "2024-12-19 19:33:02 -0500",
+      "minecraft:stray": "2024-12-22 19:48:52 -0500",
       "minecraft:endermite": "2024-12-21 01:01:49 -0500",
-      "minecraft:spider": "2024-12-19 21:14:00 -0500",
-      "minecraft:piglin_brute": "2024-12-20 15:59:43 -0500",
       "minecraft:zombie": "2024-12-19 21:13:34 -0500",
-      "minecraft:creeper": "2024-12-20 03:36:09 -0500",
-      "minecraft:drowned": "2024-12-22 02:02:55 -0500",
-      "minecraft:slime": "2024-12-22 00:20:52 -0500"
+      "minecraft:drowned": "2024-12-22 02:02:55 -0500"
     },
     "done": false
   },
@@ -8617,6 +8621,24 @@
   "minecraft:adventure/trim_with_any_armor_pattern": {
     "criteria": {
       "armor_trimmed_minecraft:flow_armor_trim_smithing_template_smithing_trim": "2024-12-22 01:22:08 -0500"
+    },
+    "done": true
+  },
+  "graves:check_death_markers_later_in_tick": {
+    "criteria": {
+      "tick": "2024-12-22 19:02:29 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2024-12-22 19:02:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2024-12-22 19:50:16 -0500"
     },
     "done": true
   },

@@ -5743,16 +5743,20 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:flower_forest": "2024-12-22 17:37:30 -0500",
+      "minecraft:snowy_slopes": "2024-12-22 17:05:02 -0500",
+      "minecraft:beach": "2024-12-22 17:42:19 -0500",
       "minecraft:forest": "2024-12-19 22:07:06 -0500",
       "minecraft:sparse_jungle": "2024-12-21 20:59:05 -0500",
+      "minecraft:river": "2024-12-19 22:10:56 -0500",
+      "minecraft:frozen_peaks": "2024-12-21 16:22:56 -0500",
       "minecraft:jungle": "2024-12-19 22:05:22 -0500",
       "minecraft:cherry_grove": "2024-12-19 22:12:38 -0500",
       "minecraft:sunflower_plains": "2024-12-19 22:14:15 -0500",
-      "minecraft:river": "2024-12-19 22:10:56 -0500",
       "minecraft:grove": "2024-12-21 16:22:58 -0500",
       "minecraft:meadow": "2024-12-19 22:07:13 -0500",
       "minecraft:birch_forest": "2024-12-19 22:02:50 -0500",
-      "minecraft:frozen_peaks": "2024-12-21 16:22:56 -0500",
+      "minecraft:savanna": "2024-12-22 16:42:08 -0500",
       "minecraft:bamboo_jungle": "2024-12-21 21:00:26 -0500",
       "minecraft:plains": "2024-12-19 22:12:36 -0500"
     },
@@ -8266,6 +8270,8 @@
       "apple": "2024-12-19 22:17:40 -0500",
       "cooked_rabbit": "2024-12-21 20:54:57 -0500",
       "cooked_mutton": "2024-12-21 22:05:15 -0500",
+      "salmon": "2024-12-22 16:41:02 -0500",
+      "cooked_beef": "2024-12-22 16:34:42 -0500",
       "porkchop": "2024-12-19 22:09:37 -0500",
       "cooked_salmon": "2024-12-21 21:57:24 -0500"
     },
@@ -8314,13 +8320,6 @@
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:soul_sand_valley": "2024-12-21 21:01:24 -0500",
-      "minecraft:basalt_deltas": "2024-12-21 20:58:16 -0500"
-    },
-    "done": false
-  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2024-12-21 20:58:15 -0500"
@@ -8330,6 +8329,37 @@
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-12-21 20:58:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:soul_sand_valley": "2024-12-21 21:01:24 -0500",
+      "minecraft:basalt_deltas": "2024-12-21 20:58:16 -0500"
+    },
+    "done": false
+  },
+  "graves:check_death_markers_later_in_tick": {
+    "criteria": {
+      "tick": "2024-12-22 16:26:08 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2024-12-22 16:26:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2024-12-22 16:37:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/smelt_iron": {
+    "criteria": {
+      "iron": "2024-12-22 17:46:43 -0500"
     },
     "done": true
   },

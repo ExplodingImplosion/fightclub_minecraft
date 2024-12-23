@@ -8377,5 +8377,17 @@
     },
     "done": true
   },
+  "graves:check_death_markers_later_in_tick": {
+    "criteria": {
+      "tick": "2024-12-22 17:04:56 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2024-12-22 17:04:56 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }
