@@ -1,5 +1,5 @@
-[00:48:32] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[00:48:32] [main/INFO]: Loading 12 mods:
+[00:54:33] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[00:54:33] [main/INFO]: Loading 12 mods:
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
 	- ferritecore 7.1.1
@@ -13,44 +13,65 @@
 	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
 	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
 	   \-- fabric-resource-loader-v0 3.0.9+203e6b2382
-[00:48:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:48:32] [main/INFO]: Compatibility level set to JAVA_21
-[00:48:32] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[00:48:32] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[00:48:32] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[00:48:32] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[00:48:32] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[00:48:32] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[00:48:32] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[00:48:32] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
-[00:48:33] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[00:48:39] [main/INFO]: [voicechat] Compatibility version 18
-[00:48:39] [main/INFO]: [voicechat] Loading plugins
-[00:48:39] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[00:48:39] [main/INFO]: [voicechat] Initializing plugins
-[00:48:39] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[00:48:39] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:48:39] [main/ERROR]: Failed to start the minecraft server
-java.io.IOException: The process cannot access the file because another process has locked a portion of the file
-	at java.base/sun.nio.ch.FileDispatcherImpl.write0(Native Method) ~[?:?]
-	at java.base/sun.nio.ch.FileDispatcherImpl.write(FileDispatcherImpl.java:75) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.writeFromNativeBuffer(IOUtil.java:137) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:81) ~[?:?]
-	at java.base/sun.nio.ch.IOUtil.write(IOUtil.java:7[00:50:32] [Server thread/INFO]: [Not Secure] [Server] hey guys unfortunately theres been a bug so im gonna restart the server rq, is that cool?
-[00:50:45] [Server thread/INFO]: <madb0nes> sounds good
-[00:50:56] [Server thread/INFO]: <razeyrainbows> ofc
-[00:50:58] [Server thread/INFO]: Stopping the server
-[00:50:58] [Server thread/INFO]: Stopping server
-[00:50:59] [Server thread/INFO]: Saving players
-[00:50:59] [Server thread/INFO]: 17sk lost connection: Server closed
-[00:50:59] [Server thread/INFO]: 17sk left the game
-[00:50:59] [Server thread/INFO]: FrozenJarate lost connection: Server closed
-[00:50:59] [Server thread/INFO]: FrozenJarate left the game
-[00:50:59] [Server thread/INFO]: Saving worlds
-[00:50:59] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[00:51:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[00:51:00] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[00:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[00:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[00:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[00:51:00] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:54:33] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[00:54:33] [main/INFO]: Compatibility level set to JAVA_21
+[00:54:33] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[00:54:33] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[00:54:33] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[00:54:33] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[00:54:33] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[00:54:33] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[00:54:33] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[00:54:33] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
+[00:54:34] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:54:39] [main/INFO]: [voicechat] Compatibility version 18
+[00:54:39] [main/INFO]: [voicechat] Loading plugins
+[00:54:39] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[00:54:39] [main/INFO]: [voicechat] Initializing plugins
+[00:54:39] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[00:54:39] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:54:40] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[00:54:40] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[00:54:40] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[00:54:40] [main/INFO]: Loaded 1370 recipes
+[00:54:40] [main/INFO]: Loaded 1503 advancements
+[00:54:41] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[00:54:41] [Server thread/INFO]: Loading properties
+[00:54:41] [Server thread/INFO]: Default game type: SURVIVAL
+[00:54:41] [Server thread/INFO]: Generating keypair
+[00:54:41] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[00:54:41] [Server thread/INFO]: Using default channel type
+[00:54:41] [Server thread/INFO]: Preparing level "world"
+[00:54:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[00:54:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:54:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:54:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:54:44] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[00:54:44] [Server thread/INFO]: Time elapsed: 1919 ms
+[00:54:44] [Server thread/INFO]: Done (2.344s)! For help, type "help"
+[00:54:44] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[00:54:44] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[00:54:44] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[00:54:45] [User Authenticator #1/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[00:54:46] [Server thread/INFO]: 17sk[/24.253.191.140:60232] logged in with entity id 2 at (-1846.3264150187863, 63.0, 716.0382661975076)
+[00:54:46] [Server thread/INFO]: 17sk joined the game
+[00:54:46] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[00:54:46] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[00:54:46] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[00:54:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[00:54:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[00:54:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[00:55:01] [Server thread/INFO]: [Not Secure] [Server] hey there! one more restart and then u can reconnect
+[00:55:05] [Server thread/INFO]: Stopping the server
+[00:55:05] [Server thread/INFO]: Stopping server
+[00:55:05] [Server thread/INFO]: Saving players
+[00:55:05] [Server thread/INFO]: 17sk lost connection: Server closed
+[00:55:05] [Server thread/INFO]: 17sk left the game
+[00:55:05] [Server thread/INFO]: Saving worlds
+[00:55:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:55:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:55:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:55:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:55:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:55:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:55:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
