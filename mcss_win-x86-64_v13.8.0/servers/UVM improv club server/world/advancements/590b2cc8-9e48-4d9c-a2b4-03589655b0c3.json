@@ -99,6 +99,7 @@
     "criteria": {
       "minecraft:snowy_slopes": "2024-12-21 21:16:14 -0500",
       "minecraft:forest": "2024-12-19 19:09:00 -0500",
+      "minecraft:taiga": "2024-12-24 01:12:37 -0500",
       "minecraft:deep_ocean": "2024-12-21 03:17:58 -0500",
       "minecraft:lush_caves": "2024-12-19 19:34:28 -0500",
       "minecraft:desert": "2024-12-21 02:57:17 -0500",
@@ -111,6 +112,7 @@
       "minecraft:windswept_savanna": "2024-12-21 03:07:33 -0500",
       "minecraft:warm_ocean": "2024-12-21 02:57:15 -0500",
       "minecraft:deep_lukewarm_ocean": "2024-12-21 03:17:54 -0500",
+      "minecraft:flower_forest": "2024-12-24 00:48:55 -0500",
       "minecraft:beach": "2024-12-19 22:55:54 -0500",
       "minecraft:dark_forest": "2024-12-21 03:05:41 -0500",
       "minecraft:mangrove_swamp": "2024-12-21 03:41:18 -0500",
@@ -8306,7 +8308,8 @@
       "salmon": "2024-12-19 21:54:24 -0500",
       "cooked_beef": "2024-12-20 00:00:10 -0500",
       "melon_slice": "2024-12-20 15:09:12 -0500",
-      "cooked_salmon": "2024-12-19 20:06:51 -0500"
+      "cooked_salmon": "2024-12-19 20:06:51 -0500",
+      "golden_carrot": "2024-12-24 01:42:20 -0500"
     },
     "done": false
   },
@@ -8338,13 +8341,17 @@
       "minecraft:ghast": "2024-12-22 01:45:38 -0500",
       "minecraft:hoglin": "2024-12-22 01:10:02 -0500",
       "minecraft:cave_spider": "2024-12-20 15:34:15 -0500",
+      "minecraft:piglin": "2024-12-23 23:54:28 -0500",
+      "minecraft:breeze": "2024-12-24 01:25:24 -0500",
       "minecraft:enderman": "2024-12-21 17:23:57 -0500",
       "minecraft:silverfish": "2024-12-21 21:18:16 -0500",
+      "minecraft:stray": "2024-12-24 01:26:05 -0500",
       "minecraft:magma_cube": "2024-12-22 01:04:07 -0500",
       "minecraft:spider": "2024-12-20 15:21:20 -0500",
       "minecraft:zombie": "2024-12-19 19:30:33 -0500",
       "minecraft:creeper": "2024-12-21 15:46:17 -0500",
-      "minecraft:drowned": "2024-12-21 03:17:12 -0500"
+      "minecraft:drowned": "2024-12-21 03:17:12 -0500",
+      "minecraft:slime": "2024-12-24 01:32:52 -0500"
     },
     "done": false
   },
@@ -8447,9 +8454,10 @@
   },
   "minecraft:adventure/salvage_sherd": {
     "criteria": {
+      "has_sherd": "2024-12-24 01:41:07 -0500",
       "ocean_ruin_cold": "2024-12-21 03:23:38 -0500"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/ol_betsy": {
     "criteria": {
@@ -8538,6 +8546,24 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2024-12-23 17:59:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2024-12-24 01:22:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2024-12-24 01:34:15 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2024-12-24 02:39:43 -0500"
     },
     "done": true
   },

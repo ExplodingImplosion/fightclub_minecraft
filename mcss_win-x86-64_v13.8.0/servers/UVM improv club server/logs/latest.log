@@ -1,5 +1,5 @@
-[19:00:23] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[19:00:23] [main/INFO]: Loading 12 mods:
+[02:20:57] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[02:20:57] [main/INFO]: Loading 12 mods:
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
 	- ferritecore 7.1.1
@@ -13,116 +13,476 @@
 	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
 	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
 	   \-- fabric-resource-loader-v0 3.0.9+203e6b2382
-[19:00:23] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[19:00:23] [main/INFO]: Compatibility level set to JAVA_21
-[19:00:23] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[19:00:23] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[19:00:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[19:00:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[19:00:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[19:00:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[19:00:23] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[19:00:23] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
-[19:00:24] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[19:00:30] [main/INFO]: [voicechat] Compatibility version 18
-[19:00:30] [main/INFO]: [voicechat] Loading plugins
-[19:00:30] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[19:00:30] [main/INFO]: [voicechat] Initializing plugins
-[19:00:30] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[19:00:30] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[19:00:31] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[19:00:31] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[19:00:31] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[19:00:32] [main/INFO]: Loaded 1370 recipes
-[19:00:32] [main/INFO]: Loaded 1503 advancements
-[19:00:32] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[19:00:32] [Server thread/INFO]: Loading properties
-[19:00:32] [Server thread/INFO]: Default game type: SURVIVAL
-[19:00:32] [Server thread/INFO]: Generating keypair
-[19:00:32] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[19:00:32] [Server thread/INFO]: Using default channel type
-[19:00:33] [Server thread/INFO]: Preparing level "world"
-[19:00:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:00:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:00:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:00:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:00:34] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[19:00:35] [Server thread/INFO]: Time elapsed: 1622 ms
-[19:00:35] [Server thread/INFO]: Done (1.979s)! For help, type "help"
-[19:00:35] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[19:00:35] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[19:00:35] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[19:01:16] [User Authenticator #1/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
-[19:01:17] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:49285] logged in with entity id 3 at (240.77474956399928, 1.5, 0.22198174575448426)
-[19:01:17] [Server thread/INFO]: Lemon_Frog joined the game
-[19:01:17] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[19:01:17] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
-[19:01:17] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
-[19:01:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
-[19:01:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
-[19:01:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
-[19:02:11] [User Authenticator #2/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
-[19:02:12] [Server thread/INFO]: Bemf[/71.233.245.252:65093] logged in with entity id 489 at (1905.237500011921, -20.0, -3208.1019385802833)
-[19:02:12] [Server thread/INFO]: Bemf joined the game
-[19:03:01] [User Authenticator #3/INFO]: UUID of player its_bjorger is eac2110d-43a0-4ff5-b764-fcde8650fb0b
-[19:03:01] [Server thread/INFO]: its_bjorger[/70.20.52.139:53036] logged in with entity id 1451 at (145.48388988671473, 125.0, 688.3206149187425)
-[19:03:01] [Server thread/INFO]: its_bjorger joined the game
-[19:06:59] [Server thread/INFO]: Lemon_Frog lost connection: Disconnected
-[19:06:59] [Server thread/INFO]: Lemon_Frog left the game
-[19:06:59] [Server thread/INFO]: [voicechat] Disconnecting client Lemon_Frog
-[19:22:17] [Server thread/INFO]: Bemf lost connection: Disconnected
-[19:22:17] [Server thread/INFO]: Bemf left the game
-[19:22:17] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
-[19:24:15] [User Authenticator #4/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
-[19:24:15] [Server thread/INFO]: Bemf[/71.233.245.252:65483] logged in with entity id 8698 at (1952.323881033641, 76.0, -3209.4518937461708)
-[19:24:15] [Server thread/INFO]: Bemf joined the game
-[19:37:44] [User Authenticator #5/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
-[19:37:45] [Server thread/INFO]: GunYoshi[/98.214.164.251:49242] logged in with entity id 13661 at (-71.63699485697938, 48.0, -252.08355764141794)
-[19:37:45] [Server thread/INFO]: GunYoshi joined the game
-[19:37:54] [Server thread/INFO]: <GunYoshi> hi!
-[19:42:56] [Server thread/WARN]: Bemf moved wrongly!
-[19:46:10] [Server thread/INFO]: its_bjorger lost connection: Disconnected
-[19:46:10] [Server thread/INFO]: its_bjorger left the game
-[19:46:10] [Server thread/INFO]: [voicechat] Disconnecting client its_bjorger
-[19:48:07] [Server thread/INFO]: <Bemf> oh shit
-[19:48:14] [Server thread/INFO]: <GunYoshi> whats up
-[19:48:20] [Server thread/INFO]: <Bemf> got a heavy core
-[19:48:23] [Server thread/INFO]: <GunYoshi> YO
-[19:48:39] [Server thread/INFO]: <GunYoshi> could u put the trial chamber coords in chat? i need a ton of copper lmao
-[19:48:56] [Server thread/INFO]: <Bemf> sure, its pretty far tho
-[19:49:00] [Server thread/INFO]: <GunYoshi> rthanks
-[19:49:18] [Server thread/INFO]: <Bemf> 1670 -20 -3630
-[19:49:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=269, y=75, z=-577} class_2338{x=270, y=74, z=-577}
-[19:49:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=269, y=75, z=-577} class_2338{x=270, y=74, z=-577}
-[19:49:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=269, y=75, z=-577} class_2338{x=270, y=74, z=-577}
-[19:49:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=269, y=75, z=-577} class_2338{x=270, y=74, z=-577}
-[19:49:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=269, y=75, z=-577} class_2338{x=270, y=74, z=-577}
-[19:49:59] [User Authenticator #6/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[19:50:00] [Server thread/INFO]: 17sk[/24.253.191.140:49918] logged in with entity id 23582 at (-1847.3558661594009, 66.0, 728.9886927574115)
-[19:50:00] [Server thread/INFO]: 17sk joined the game
-[19:50:00] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[19:50:00] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[19:50:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[19:50:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[19:50:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[19:52:09] [Server thread/INFO]: 17sk lost connection: Disconnected
-[19:52:09] [Server thread/INFO]: 17sk left the game
-[19:52:09] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
-[19:55:45] [Server thread/INFO]: Villager class_1646['Villager'/29229, l='ServerLevel[world]', x=2597.88, y=65.28, z=-3607.15] died, message: 'Villager tried to swim in lava'
-[20:03:19] [Server thread/INFO]: Bemf lost connection: Disconnected
-[20:03:19] [Server thread/INFO]: Bemf left the game
-[20:03:19] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
-[20:04:03] [Server thread/INFO]: GunYoshi lost connection: Disconnected
-[20:04:03] [Server thread/INFO]: GunYoshi left the game
-[20:04:03] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
-[20:04:35] [Server thread/INFO]: Stopping the server
-[20:04:35] [Server thread/INFO]: Stopping server
-[20:04:35] [Server thread/INFO]: Saving players
-[20:04:35] [Server thread/INFO]: Saving worlds
-[20:04:35] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:04:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:04:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:04:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:04:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:04:36] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:04:36] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02:20:57] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:20:57] [main/INFO]: Compatibility level set to JAVA_21
+[02:20:57] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[02:20:57] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[02:20:57] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[02:20:57] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[02:20:57] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[02:20:57] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[02:20:57] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[02:20:57] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
+[02:20:58] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02:21:04] [main/INFO]: [voicechat] Compatibility version 18
+[02:21:04] [main/INFO]: [voicechat] Loading plugins
+[02:21:04] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[02:21:04] [main/INFO]: [voicechat] Initializing plugins
+[02:21:04] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[02:21:04] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:21:05] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[02:21:05] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[02:21:05] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[02:21:06] [main/INFO]: Loaded 1370 recipes
+[02:21:06] [main/INFO]: Loaded 1503 advancements
+[02:21:06] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[02:21:06] [Server thread/INFO]: Loading properties
+[02:21:06] [Server thread/INFO]: Default game type: SURVIVAL
+[02:21:06] [Server thread/INFO]: Generating keypair
+[02:21:06] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[02:21:07] [Server thread/INFO]: Using default channel type
+[02:21:07] [Server thread/INFO]: Preparing level "world"
+[02:21:07] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:21:08] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[02:21:08] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[02:21:08] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[02:21:08] [Server thread/INFO]: Time elapsed: 1473 ms
+[02:21:08] [Server thread/INFO]: Done (1.812s)! For help, type "help"
+[02:21:08] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[02:21:08] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[02:21:08] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[02:21:20] [User Authenticator #1/INFO]: UUID of player Zumquirelle is 0656d51b-fc45-439f-8850-f95f9f205cc5
+[02:21:21] [Server thread/INFO]: Zumquirelle[/24.60.30.191:56216] logged in with entity id 3 at (-756.5712721042937, 76.0, 1778.2239812980376)
+[02:21:21] [Server thread/INFO]: Zumquirelle joined the game
+[02:21:21] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[02:21:21] [Server thread/INFO]: [voicechat] Received secret request of Zumquirelle (18)
+[02:21:21] [Server thread/INFO]: [voicechat] Sent secret to Zumquirelle
+[02:21:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[02:21:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[02:21:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zumquirelle (0656d51b-fc45-439f-8850-f95f9f205cc5) successfully connected to voice chat
+[02:21:25] [Server thread/INFO]: razeyrainbows (/146.115.92.123:60127) lost connection: Disconnected
+[02:21:28] [Server thread/INFO]: razeyrainbows (/146.115.92.123:60129) lost connection: Disconnected
+[02:21:40] [Server thread/INFO]: razeyrainbows (/146.115.92.123:60134) lost connection: Disconnected
+[02:21:43] [Server thread/INFO]: razeyrainbows (/146.115.92.123:60137) lost connection: Disconnected
+[02:21:44] [User Authenticator #2/INFO]: UUID of player King_Orion is 9438c271-6781-41d2-a23c-ae87f86eefcc
+[02:21:44] [Server thread/INFO]: King_Orion[/92.119.19.224:63876] logged in with entity id 306 at (1676.7694808772935, -17.464159374955443, -3610.9543091778055)
+[02:21:44] [Server thread/INFO]: King_Orion joined the game
+[02:23:19] [User Authenticator #3/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[02:23:20] [Server thread/INFO]: razeyrainbows[/146.115.92.123:60289] logged in with entity id 1031 at (1700.10152586374, -18.0, -3578.3366504569362)
+[02:23:20] [Server thread/INFO]: razeyrainbows joined the game
+[02:23:21] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
+[02:23:21] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
+[02:23:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
+[02:23:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
+[02:23:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
+[02:23:30] [User Authenticator #4/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[02:23:31] [Server thread/INFO]: GunYoshi[/98.214.164.251:49391] logged in with entity id 1090 at (1700.3924262395012, -13.0, -3588.834405600789)
+[02:23:31] [Server thread/INFO]: GunYoshi joined the game
+[02:23:31] [Server thread/INFO]: <King_Orion> the evil infants
+[02:23:36] [Server thread/INFO]: <King_Orion> theyre everywhere
+[02:23:40] [Server thread/INFO]: [GunYoshi: Triggered [List Graves]]
+[02:23:45] [Server thread/INFO]: <King_Orion> i hate the children
+[02:24:13] [Server thread/INFO]: <King_Orion> idk where my grave is
+[02:24:13] [Server thread/INFO]: razeyrainbows was slain by Zombie
+[02:24:26] [Server thread/INFO]: King_Orion was slain by Zombie
+[02:24:49] [Server thread/INFO]: GunYoshi was slain by Zombie
+[02:25:02] [Server thread/INFO]: razeyrainbows was slain by Zombie
+[02:25:06] [Server thread/INFO]: <King_Orion> the room with the fountain is baddd
+[02:25:23] [Server thread/INFO]: GunYoshi was slain by Zombie
+[02:25:47] [Server thread/INFO]: razeyrainbows was slain by Zombie
+[02:26:00] [Server thread/INFO]: <King_Orion> it's so joever
+[02:26:18] [Server thread/INFO]: <King_Orion> how could there possibly be so many
+[02:26:32] [Server thread/INFO]: <King_Orion> fountain is evil zone
+[02:26:37] [Server thread/INFO]: <King_Orion> it's also where my grave is
+[02:26:55] [Server thread/INFO]: razeyrainbows was slain by Zombie
+[02:26:57] [Server thread/INFO]: <King_Orion> want to ditch this?
+[02:27:23] [Server thread/INFO]: King_Orion was slain by Zombie
+[02:27:32] [Server thread/INFO]: <King_Orion> i don't even want to complete this room anymore
+[02:27:34] [Server thread/INFO]: GunYoshi was slain by Zombie
+[02:28:19] [Server thread/INFO]: King_Orion was slain by Zombie
+[02:28:27] [Server thread/INFO]: <King_Orion> oh i'm killing people
+[02:29:32] [Server thread/INFO]: <King_Orion> where is my grave
+[02:29:48] [Server thread/INFO]: GunYoshi was slain by Drowned
+[02:30:23] [Server thread/INFO]: <King_Orion> we did it
+[02:30:27] [Server thread/INFO]: <King_Orion> i got 3 keys
+[02:30:53] [Server thread/INFO]: <King_Orion> we need to get tf outta here
+[02:31:10] [Server thread/INFO]: <King_Orion> id
+[02:32:19] [Server thread/INFO]: <King_Orion> no
+[02:32:21] [Server thread/INFO]: GunYoshi was slain by Zombie
+[02:33:34] [Server thread/INFO]: <King_Orion> home time
+[02:34:27] [Server thread/INFO]: <King_Orion> i found a yeraz grave
+[02:35:51] [Server thread/INFO]: <King_Orion> i'm not near you
+[02:35:58] [Server thread/INFO]: <King_Orion> lol
+[02:36:30] [Server thread/INFO]: <King_Orion> lol
+[02:36:48] [Server thread/INFO]: <King_Orion> so if i'm here... and ethan's over there... then who's hitting me?
+[02:37:30] [Server thread/INFO]: <King_Orion> no it was me that time
+[02:37:43] [User Authenticator #5/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[02:37:43] [Server thread/INFO]: 17sk[/24.253.191.140:54779] logged in with entity id 5428 at (-1843.300000011921, 58.0, 720.3000000119209)
+[02:37:43] [Server thread/INFO]: 17sk joined the game
+[02:37:43] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[02:37:43] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[02:37:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[02:37:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[02:37:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[02:38:25] [Server thread/INFO]: <King_Orion> i would love to leave
+[02:38:51] [Server thread/INFO]: <King_Orion> the normal ones are usually upstairs
+[02:39:43] [Server thread/INFO]: GunYoshi has made the advancement [Under Lock and Key]
+[02:40:00] [Server thread/INFO]: <King_Orion> yes
+[02:40:29] [Server thread/INFO]: <King_Orion> i have a prot 2 chestplate you can have robke
+[02:40:33] [Server thread/INFO]: <King_Orion> diamond
+[02:40:52] [Server thread/INFO]: <King_Orion> i do
+[02:41:04] [Server thread/INFO]: <King_Orion> i have plenty room
+[02:45:22] [Server thread/INFO]: <King_Orion> i feel like we have endured something together
+[02:45:27] [Server thread/INFO]: <King_Orion> that was a lot
+[02:45:39] [Server thread/INFO]: <King_Orion> no
+[02:46:47] [Server thread/INFO]: <King_Orion> boat back?
+[02:47:01] [Server thread/INFO]: <King_Orion> can i break bed
+[02:47:28] [Server thread/INFO]: <King_Orion> woah
+[02:48:29] [Server thread/INFO]: <King_Orion> glitched
+[02:48:55] [Server thread/INFO]: <King_Orion> fuck ass swimming
+[02:48:59] [Server thread/INFO]: <King_Orion> looks funn
+[02:49:16] [Server thread/INFO]: <King_Orion> no i want to go home
+[02:49:22] [Server thread/INFO]: <King_Orion> we can go to ruins tomorrow
+[02:51:24] [Server thread/INFO]: <King_Orion> i'm listening to my own spotify playlist lol
+[02:54:35] [Server thread/INFO]: <King_Orion> boat>
+[02:55:13] [Server thread/INFO]: <King_Orion> i hate woodland mansions
+[02:55:27] [Server thread/INFO]: <King_Orion> any sleepers in the chat?
+[02:55:28] [Server thread/INFO]: <King_Orion> fuck
+[02:55:52] [Server thread/INFO]: <King_Orion> and because of the timing you can tell i wastyping that b4 ben said it
+[02:56:07] [Server thread/INFO]: <King_Orion> there is no leadership in junkletown
+[02:56:11] [Server thread/INFO]: <King_Orion> is communal
+[02:56:26] [Server thread/INFO]: <King_Orion> horizontal as fuck
+[02:56:39] [Server thread/INFO]: <King_Orion> EW
+[02:57:46] [Server thread/INFO]: razeyrainbows has made the advancement [Best Friends Forever]
+[02:58:32] [Server thread/INFO]: <King_Orion> hey
+[02:59:42] [Server thread/INFO]: <King_Orion> no
+[02:59:58] [Server thread/INFO]: <King_Orion> no no don't do that
+[03:00:03] [Server thread/INFO]: <King_Orion> nick and i are already planning something
+[03:00:31] [Server thread/INFO]: <King_Orion> we're making a nasty gross awesome city in the nether
+[03:00:49] [Server thread/INFO]: <King_Orion> it's gonna be called soulsmelt
+[03:00:56] [Server thread/INFO]: <King_Orion> ask nick
+[03:02:47] [Server thread/INFO]: <King_Orion> oh my god
+[03:03:30] [Server thread/INFO]: <King_Orion> the fact that you have the head now is crazy
+[03:04:55] [Server thread/INFO]: <King_Orion> is fun
+[03:05:11] [Server thread/INFO]: <King_Orion> damn
+[03:05:52] [Server thread/INFO]: <King_Orion> no...
+[03:08:18] [Server thread/INFO]: <King_Orion> idk where i am
+[03:08:33] [Server thread/INFO]: <GunYoshi> you wanna be at -70, -275
+[03:09:19] [Server thread/INFO]: <King_Orion> YOO
+[03:11:45] [Server thread/INFO]: <King_Orion> i think alexis might join junkle town
+[03:11:51] [Server thread/INFO]: <razeyrainbows> great news
+[03:12:07] [Server thread/INFO]: <King_Orion> lol
+[03:12:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=220, y=82, z=-206} class_2338{x=219, y=80, z=-206}
+[03:12:39] [Server thread/INFO]: <King_Orion> murder goose
+[03:12:48] [Server thread/INFO]: <King_Orion> oh?
+[03:13:03] [Server thread/INFO]: <King_Orion> portal?
+[03:13:18] [Server thread/INFO]: <King_Orion> you got bird!
+[03:13:27] [Server thread/INFO]: <King_Orion> aw
+[03:14:10] [Server thread/INFO]: <King_Orion> yes
+[03:14:25] [Server thread/INFO]: <King_Orion> never forget
+[03:14:40] [Server thread/INFO]: <King_Orion> :D
+[03:14:51] [Server thread/INFO]: <King_Orion> oh?
+[03:15:17] [Server thread/INFO]: <King_Orion> reak
+[03:15:19] [Server thread/INFO]: <King_Orion> real
+[03:15:26] [Server thread/INFO]: <King_Orion> nooo
+[03:15:39] [Server thread/INFO]: <King_Orion> you are no more of a freak than i
+[03:15:53] [Server thread/INFO]: <King_Orion> i calculated a freak scale
+[03:16:00] [Server thread/INFO]: <King_Orion> oh it'll happen
+[03:16:06] [Server thread/INFO]: <King_Orion> yessss
+[03:16:37] [Server thread/INFO]: <King_Orion> i do
+[03:17:29] [Server thread/INFO]: <King_Orion> wya
+[03:18:20] [Server thread/INFO]: <King_Orion> yes
+[03:18:30] [Server thread/INFO]: <King_Orion> can i have crossbow
+[03:18:35] [Server thread/INFO]: <King_Orion> i heart crossbows
+[03:18:40] [Server thread/INFO]: <King_Orion> ye!
+[03:18:53] [Server thread/INFO]: <King_Orion> yea
+[03:20:59] [Server thread/INFO]: <King_Orion> fire
+[03:21:00] [Server thread/INFO]: razeyrainbows was smashed by GunYoshi
+[03:21:04] [Server thread/INFO]: <King_Orion> i took everything i want
+[03:22:03] [Server thread/INFO]: <King_Orion> pleak
+[03:22:08] [Server thread/INFO]: <King_Orion> yes
+[03:22:46] [Server thread/INFO]: <King_Orion> nah
+[03:25:13] [Server thread/INFO]: <King_Orion> i have ben head in my house
+[03:25:40] [Server thread/INFO]: <King_Orion> we have ben head at home
+[03:25:44] [Server thread/INFO]: <King_Orion> ben head at home:
+[03:26:03] [Server thread/INFO]: <GunYoshi> everyone's talking about the quality of my head
+[03:26:09] [Server thread/INFO]: <King_Orion> talking heads
+[03:26:33] [Server thread/INFO]: <King_Orion> posthumously
+[03:26:42] [Server thread/INFO]: <King_Orion> birk
+[03:26:48] [Server thread/INFO]: <King_Orion> birk the bird
+[03:27:32] [Server thread/INFO]: <King_Orion> what happened to the dillo
+[03:27:42] [Server thread/INFO]: <King_Orion> :(
+[03:27:48] [Server thread/INFO]: <King_Orion> i wonder if they despawned
+[03:28:17] [Server thread/INFO]: <King_Orion> damn
+[03:29:13] [Server thread/INFO]: <King_Orion> oh i love banners
+[03:29:16] [Server thread/INFO]: <King_Orion> i'm a banner boy
+[03:29:21] [Server thread/INFO]: <King_Orion> ben knows this
+[03:29:24] [Server thread/INFO]: <King_Orion> i already took one
+[03:29:31] [Server thread/INFO]: <King_Orion> misgendering
+[03:30:07] [Server thread/INFO]: <King_Orion> i fear it is called junkle town now
+[03:31:44] [Server thread/INFO]: <King_Orion> loving the unmarked portals
+[03:31:51] [Server thread/INFO]: <King_Orion> yeah
+[03:32:00] [Server thread/INFO]: <King_Orion> yeah but which one
+[03:32:52] [Server thread/INFO]: <King_Orion> i'm at some swamp
+[03:33:13] [Server thread/WARN]: Failed to update secure chat state for Zumquirelle: 'Chat disabled due to missing profile public key. Please try reconnecting.'
+[03:33:13] [Server thread/INFO]: <Zumquirelle> other side of spawn
+[03:33:26] [Server thread/INFO]: <Zumquirelle> do yuo like the flesh cube?
+[03:33:50] [Server thread/INFO]: <King_Orion> i have no idea
+[03:35:02] [Server thread/INFO]: <King_Orion> oil rig?
+[03:35:12] [Server thread/INFO]: <King_Orion> oh my god
+[03:36:19] [Server thread/INFO]: <King_Orion> there are 7 elytra here
+[03:36:30] [Server thread/INFO]: <Zumquirelle> ? where
+[03:36:34] [Server thread/INFO]: <King_Orion> oil rig
+[03:37:15] [Server thread/INFO]: <King_Orion> it really does look like an oil rig
+[03:38:03] [Server thread/INFO]: <King_Orion> where is the goddamn enderman portal
+[03:38:20] [Server thread/INFO]: <GunYoshi> 23, 20
+[03:38:27] [Server thread/INFO]: <GunYoshi> 23, 210
+[03:40:57] [Server thread/INFO]: <King_Orion> yeraz do you celebrate christmas?
+[03:41:09] [Server thread/INFO]: <King_Orion> happy christmas eve!
+[03:41:14] [Server thread/INFO]: <GunYoshi> merry christmas!
+[03:41:24] [Server thread/INFO]: <King_Orion> he doesn't mean that
+[03:42:03] [Server thread/INFO]: <King_Orion> i mean it's just an excuse to be with family imo
+[03:42:25] [Server thread/INFO]: <King_Orion> i like the family traditions we have
+[03:43:38] [Server thread/INFO]: <King_Orion> hanukkah sameach
+[03:43:52] [Server thread/INFO]: <GunYoshi> actually wait no that might be right
+[03:44:05] [Server thread/INFO]: <GunYoshi> def chag sameach is for any holiday but idk if u can get specific
+[03:44:12] [Server thread/INFO]: <GunYoshi> ethan may be a better jew than I
+[03:44:15] [Server thread/INFO]: <King_Orion> lmao
+[03:44:27] [Server thread/INFO]: <King_Orion> my gf celebrates hannukah
+[03:44:37] [Server thread/INFO]: <King_Orion> sorta?
+[03:44:53] [Server thread/INFO]: <King_Orion> yes
+[03:44:58] [Server thread/INFO]: <King_Orion> several months :)
+[03:45:16] [Server thread/INFO]: <King_Orion> i heart them
+[03:45:33] [Server thread/INFO]: <King_Orion> goodnight yeraz! have a good sleep
+[03:45:37] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
+[03:45:37] [Server thread/INFO]: razeyrainbows left the game
+[03:45:37] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
+[03:46:05] [Server thread/INFO]: <King_Orion> also norah uses all prns so i call them my gf, bf, partner, etc.
+[03:46:12] [Server thread/INFO]: <King_Orion> just so you aren't confuzed
+[03:46:22] [Server thread/INFO]: <King_Orion> i only have one partner
+[03:46:41] [Server thread/INFO]: <King_Orion> solo poly muslim amputee
+[03:47:10] [Server thread/INFO]: <GunYoshi> you cant talk like that partnered monogamous eurochristian able bodied baby
+[03:47:15] [Server thread/INFO]: <King_Orion> lmaoooo
+[03:47:35] [Server thread/INFO]: <King_Orion> you've seen that on twitter though yes?
+[03:49:07] [Server thread/INFO]: <King_Orion> my autojump almost killed me
+[03:49:12] [Server thread/INFO]: <King_Orion> ye
+[03:49:24] [Server thread/INFO]: <King_Orion> i play trackpad autojump bro
+[03:49:42] [Server thread/INFO]: <King_Orion> and i changed my right click to be the alt key so i can use my pinky
+[03:50:24] [Server thread/INFO]: <King_Orion> q is drop
+[03:50:33] [Server thread/INFO]: <King_Orion> lol
+[03:52:29] [Server thread/INFO]: <King_Orion> yeah
+[03:52:57] [Server thread/INFO]: <King_Orion> i feel survivors guilt ab that parrot
+[03:53:13] [Server thread/INFO]: <King_Orion> :(
+[03:53:22] [Server thread/INFO]: <King_Orion> i feel bad
+[03:53:32] [Server thread/INFO]: <King_Orion> i heart minecraft animals and i would be so sad
+[03:54:05] [Server thread/INFO]: <King_Orion> i like ben telling me to feel bad as a joke and then remembering i am sensitive
+[03:54:18] [Server thread/INFO]: <King_Orion> no i find that funny
+[03:55:25] [Server thread/INFO]: <King_Orion> oh my god
+[03:55:42] [Server thread/INFO]: <King_Orion> are you serious
+[03:56:04] [Server thread/INFO]: <King_Orion> get every man on shrooms STAT
+[03:56:19] [Server thread/INFO]: <King_Orion> do shrooms and read the dao
+[03:56:33] [Server thread/INFO]: <King_Orion> yes!
+[03:56:43] [Server thread/INFO]: <King_Orion> mansplaining empathy is insane
+[03:57:01] [Server thread/INFO]: <King_Orion> that worries me
+[03:57:11] [Server thread/INFO]: <King_Orion> people don't have empathy and it's soooo scary
+[03:57:29] [Server thread/INFO]: <King_Orion> yea
+[03:57:31] [Server thread/INFO]: <King_Orion> mar kar
+[03:57:49] [Server thread/INFO]: <King_Orion> interesting
+[03:57:59] [Server thread/INFO]: <King_Orion> where are villagers?
+[03:58:17] [Server thread/INFO]: <King_Orion> i want mending is the thing
+[03:58:27] [Server thread/INFO]: <King_Orion> well
+[03:58:38] [Server thread/INFO]: <King_Orion> fetch me some books
+[03:59:12] [Server thread/INFO]: Zumquirelle lost connection: Disconnected
+[03:59:12] [Server thread/INFO]: Zumquirelle left the game
+[03:59:12] [Server thread/INFO]: [voicechat] Disconnecting client Zumquirelle
+[03:59:17] [Server thread/INFO]: <King_Orion> hard to find things in fairytown
+[03:59:19] [Server thread/INFO]: <King_Orion> needs paths
+[04:00:11] [Server thread/INFO]: <King_Orion> oh?
+[04:00:20] [Server thread/INFO]: <King_Orion> yikes
+[04:00:36] [Server thread/INFO]: <King_Orion> lol
+[04:01:03] [Server thread/INFO]: <King_Orion> well you built on the precipice
+[04:01:22] [Server thread/INFO]: <King_Orion> yeah
+[04:01:42] [Server thread/INFO]: <King_Orion> hawaiian shirt
+[04:01:49] [Server thread/INFO]: <King_Orion> :)
+[04:01:58] [Server thread/INFO]: <King_Orion> lol
+[04:02:15] [Server thread/INFO]: <King_Orion> yeah
+[04:02:35] [Server thread/INFO]: <King_Orion> agree!
+[04:02:49] [Server thread/INFO]: <King_Orion> yea
+[04:03:00] [Server thread/INFO]: <King_Orion> mhm
+[04:03:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-176, y=67, z=-276} class_2338{x=-174, y=67, z=-275}
+[04:03:08] [Server thread/INFO]: <King_Orion> we're making so many new friends
+[04:03:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-171, y=65, z=-272} class_2338{x=-172, y=66, z=-273}
+[04:03:24] [Server thread/INFO]: <King_Orion> sorry that i am sorta lumped in with you so much
+[04:03:55] [Server thread/INFO]: <King_Orion> i'm with you almost all the time and end up associating with everything you're associated with
+[04:04:25] [Server thread/INFO]: <King_Orion> i guess i worry ab being clingy
+[04:04:40] [Server thread/INFO]: <King_Orion> we truly just like a lot of the same things
+[04:05:08] [Server thread/INFO]: <King_Orion> i figured
+[04:05:18] [Server thread/INFO]: <King_Orion> i have a bf
+[04:05:29] [Server thread/INFO]: <King_Orion> lol
+[04:05:42] [Server thread/INFO]: <King_Orion> lol i know
+[04:05:48] [Server thread/INFO]: <King_Orion> yeah
+[04:05:56] [Server thread/INFO]: <King_Orion> uh oh
+[04:06:22] [Server thread/INFO]: <King_Orion> I-
+[04:06:33] [Server thread/INFO]: <King_Orion> some of them do though
+[04:06:55] [Server thread/INFO]: <King_Orion> like bathtime video or little kids running around with no pants cause they don't know any better
+[04:07:17] [Server thread/INFO]: <King_Orion> my neighbor's kids have roamed around in the front yard pantsless
+[04:07:28] [Server thread/INFO]: <King_Orion> yes
+[04:07:47] [Server thread/INFO]: <King_Orion> lol
+[04:08:33] [Server thread/INFO]: <King_Orion> yeah!
+[04:08:44] [Server thread/INFO]: <King_Orion> no i am!
+[04:09:40] [Server thread/INFO]: <King_Orion> oh interesting
+[04:10:03] [Server thread/INFO]: <King_Orion> yesss that's so cool
+[04:10:20] [Server thread/INFO]: <King_Orion> and you designed this yourself?
+[04:10:29] [Server thread/INFO]: <King_Orion> i couldn't make doorbell
+[04:10:35] [Server thread/INFO]: <King_Orion> that's awesome
+[04:11:16] [Server thread/INFO]: <King_Orion> oo
+[04:11:34] [Server thread/INFO]: <King_Orion> that's so cute
+[04:11:53] [Server thread/INFO]: <King_Orion> aww
+[04:12:03] [Server thread/INFO]: <King_Orion> yea!
+[04:12:46] [Server thread/INFO]: <King_Orion> junkletown is my forever home but soulsmelt is my big project
+[04:13:27] [Server thread/INFO]: <King_Orion> i'm so excited
+[04:13:50] [Server thread/INFO]: <King_Orion> make your own freak town then
+[04:14:01] [Server thread/INFO]: <King_Orion> we're going like nyc being taken over
+[04:14:48] [Server thread/INFO]: <King_Orion> yeah
+[04:15:01] [Server thread/INFO]: <King_Orion> my next step will be starting the sewer system
+[04:15:25] [Server thread/INFO]: <King_Orion> the sewers will be clean in the overworld and become gross when you enter the nether
+[04:15:58] [Server thread/INFO]: <King_Orion> i want them to kinda connect all the houses/important places
+[04:16:37] [Server thread/INFO]: <King_Orion> do librarians ever have mending as one of their first two books?
+[04:16:59] [Server thread/INFO]: <King_Orion> i found the fairytown ones
+[04:17:40] [Server thread/INFO]: <King_Orion> oo yeah!
+[04:18:08] [Server thread/INFO]: King_Orion has made the advancement [What a Deal!]
+[04:18:15] [Server thread/INFO]: <King_Orion> lol
+[04:18:27] [Server thread/INFO]: <King_Orion> what mending should i prioritize>
+[04:18:35] [Server thread/INFO]: <King_Orion> yeah
+[04:18:50] [Server thread/INFO]: <King_Orion> idk
+[04:18:53] [Server thread/INFO]: <King_Orion> probably not
+[04:19:01] [Server thread/INFO]: <King_Orion> real
+[04:19:33] [Server thread/INFO]: <King_Orion> yes
+[04:20:04] [Server thread/INFO]: <King_Orion> i should buy a gundam
+[04:20:09] [Server thread/INFO]: <King_Orion> they're so cool
+[04:20:25] [Server thread/INFO]: <King_Orion> mtg
+[04:20:43] [Server thread/INFO]: <King_Orion> the sickness <3
+[04:20:57] [Server thread/INFO]: <King_Orion> they sell them at michaels
+[04:21:04] [Server thread/INFO]: <King_Orion> it's like the green goblin mask
+[04:21:17] [Server thread/INFO]: <King_Orion> yup
+[04:21:25] [Server thread/INFO]: <King_Orion> nooooo
+[04:21:43] [Server thread/INFO]: <King_Orion> what should i name my stuff
+[04:21:59] [Server thread/INFO]: <King_Orion> naming my chestplate binder
+[04:22:14] [Server thread/INFO]: <King_Orion> fire
+[04:22:31] [Server thread/INFO]: <King_Orion> fr
+[04:22:37] [Server thread/INFO]: <King_Orion> ben robke from fortnite
+[04:22:53] [Server thread/INFO]: <King_Orion> yea
+[04:22:57] [Server thread/INFO]: <King_Orion> what the hell sure
+[04:25:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-61, y=63, z=-266} class_2338{x=-63, y=64, z=-268}
+[04:26:00] [Server thread/INFO]: <King_Orion> can i kill you
+[04:26:22] [Server thread/INFO]: <King_Orion> you'll see
+[04:26:49] [Server thread/INFO]: <King_Orion> true
+[04:27:04] [Server thread/INFO]: <King_Orion> mhm
+[04:27:15] [Server thread/INFO]: King_Orion has made the advancement [Ol' Betsy]
+[04:27:25] [Server thread/INFO]: <King_Orion> okay
+[04:27:34] [Server thread/INFO]: <King_Orion> i want to use my pick though
+[04:27:46] [Server thread/INFO]: GunYoshi was slain by King_Orion using [Powerhouse]
+[04:28:02] [Server thread/INFO]: <King_Orion> bladedancer is my sword
+[04:28:21] [Server thread/INFO]: <King_Orion> axe is green wall
+[04:28:41] [Server thread/INFO]: <King_Orion> i love masks
+[04:29:35] [Server thread/INFO]: <King_Orion> putting stuff away
+[04:29:54] [Server thread/INFO]: <King_Orion> sick
+[04:30:25] [Server thread/INFO]: <King_Orion> scary
+[04:30:38] [Server thread/INFO]: King_Orion was smashed by GunYoshi
+[04:30:45] [Server thread/INFO]: <King_Orion> okay that was awesome
+[04:31:26] [Server thread/INFO]: King_Orion was slain by GunYoshi using [The Killer]
+[04:31:34] [Server thread/INFO]: <King_Orion> yeah i never claimed to be good
+[04:31:53] [Server thread/INFO]: <King_Orion> it's like wednesday wrestling
+[04:32:00] [Server thread/INFO]: <King_Orion> i never claimed to be good
+[04:32:37] [Server thread/INFO]: King_Orion was slain by GunYoshi
+[04:32:44] [Server thread/INFO]: <King_Orion> come over ben
+[04:32:52] [Server thread/INFO]: <King_Orion> i'll pick you up and throw you in the grass
+[04:33:32] [Server thread/INFO]: GunYoshi was shot by King_Orion using [fortnite gun]
+[04:33:36] [Server thread/INFO]: <King_Orion> awesome
+[04:33:46] [Server thread/INFO]: <King_Orion> fortnite gun
+[04:34:09] [Server thread/INFO]: <King_Orion> yeah!
+[04:34:34] [Server thread/INFO]: <King_Orion> lol
+[04:35:03] [Server thread/INFO]: <King_Orion> so cool
+[04:35:14] [Server thread/INFO]: <King_Orion> woah
+[04:35:32] [Server thread/INFO]: <King_Orion> lol
+[04:35:59] [Server thread/INFO]: <King_Orion> damn
+[04:36:12] [Server thread/INFO]: <King_Orion> really good
+[04:36:19] [Server thread/INFO]: <King_Orion> yeah
+[04:36:43] [Server thread/INFO]: <King_Orion> L
+[04:36:58] [Server thread/INFO]: <King_Orion> yeah
+[04:37:23] [Server thread/INFO]: <King_Orion> grave where
+[04:37:30] [Server thread/INFO]: <King_Orion> bird grave
+[04:37:43] [Server thread/INFO]: <King_Orion> :(
+[04:37:53] [Server thread/INFO]: <King_Orion> the bird who never even learned his name
+[04:38:00] [Server thread/INFO]: <King_Orion> yeah
+[04:38:14] [Server thread/INFO]: <King_Orion> poetic
+[04:38:46] [Server thread/INFO]: <King_Orion> how did ppl get skeleton horse
+[04:39:01] [Server thread/INFO]: <King_Orion> damn
+[04:39:23] [Server thread/INFO]: <King_Orion> that's fun
+[04:39:52] [Server thread/INFO]: <King_Orion> yeah you're a big horse breeder
+[04:40:38] [Server thread/INFO]: <King_Orion> ugh i need to go to enderfarm again
+[04:40:53] [Server thread/INFO]: <King_Orion> that's coolw
+[04:41:33] [Server thread/INFO]: <King_Orion> i might make a fountain in jungletown and then start soulsmelt
+[04:42:55] [Server thread/INFO]: <King_Orion> hello?
+[04:43:26] [Server thread/INFO]: <King_Orion> oh?
+[04:44:22] [Server thread/INFO]: <King_Orion> hmm
+[04:45:08] [Server thread/INFO]: <King_Orion> are you home alone again?
+[04:45:19] [Server thread/INFO]: <King_Orion> fair
+[04:45:33] [Server thread/INFO]: <King_Orion> how was queer?
+[04:46:19] [Server thread/INFO]: <King_Orion> is it like all of us strangers?
+[04:46:24] [Server thread/INFO]: <King_Orion> oh wow
+[04:46:46] [Server thread/INFO]: <King_Orion> yeah
+[04:46:58] [Server thread/INFO]: <King_Orion> mhm
+[04:47:14] [Server thread/INFO]: <King_Orion> cool
+[04:47:39] [Server thread/INFO]: <King_Orion> sounds a lot like all of us strangers
+[04:47:46] [Server thread/INFO]: <King_Orion> slow and weird and sad and lonely
+[04:47:54] [Server thread/INFO]: <King_Orion> yep
+[04:48:34] [Server thread/INFO]: <King_Orion> lol
+[04:48:47] [Server thread/INFO]: <King_Orion> interesting
+[04:49:08] [Server thread/INFO]: King_Orion was slain by Enderman
+[04:49:12] [Server thread/INFO]: <King_Orion> oh my god
+[04:49:29] [Server thread/INFO]: <King_Orion> fuckass farm
+[04:49:57] [Server thread/INFO]: <King_Orion> yeah
+[04:50:23] [Server thread/INFO]: <King_Orion> i went to a home alone themed pizza place for dinner
+[04:50:36] [Server thread/INFO]: <King_Orion> it was fun
+[04:50:44] [Server thread/INFO]: <King_Orion> the interior was home alone themed
+[04:51:11] [Server thread/INFO]: <King_Orion> it had wallpaper from the house and kevin's battle plan on the wall
+[04:51:17] [Server thread/INFO]: <King_Orion> and paint cans hanging from the cieling
+[04:51:30] [Server thread/INFO]: <King_Orion> yeah all of john hughes' movies are set in chicago
+[04:51:54] [Server thread/INFO]: <King_Orion> the drinks were all home alone themed
+[04:52:01] [Server thread/INFO]: <King_Orion> "filthy animal"
+[04:52:18] [Server thread/INFO]: <King_Orion> and they had an olive oil and cheese pizza so i was happy
+[04:52:29] [Server thread/INFO]: <King_Orion> sooooo good
+[04:52:35] [Server thread/INFO]: <King_Orion> it tasted like mac n cheese
+[04:52:39] [Server thread/INFO]: <King_Orion> like good mac n cheese
+[04:52:44] [Server thread/INFO]: <King_Orion> white chedder
+[04:52:56] [Server thread/INFO]: <King_Orion> it was a pop up
+[04:53:36] [Server thread/INFO]: <King_Orion> and they eat pizza in the movie so
+[04:54:42] [Server thread/INFO]: <King_Orion> ben look at the tie
+[04:54:43] [Server thread/INFO]: <King_Orion> time
+[04:54:50] [Server thread/INFO]: <King_Orion> yeah
+[04:54:58] [Server thread/INFO]: <King_Orion> good night sleep well
+[04:55:00] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[04:55:00] [Server thread/INFO]: GunYoshi left the game
+[04:55:00] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[04:55:01] [Server thread/INFO]: King_Orion lost connection: Disconnected
+[04:55:01] [Server thread/INFO]: King_Orion left the game
+[04:55:01] [Server thread/INFO]: [voicechat] Disconnecting client King_Orion
+[05:06:09] [Server thread/INFO]: You whisper to 17sk: HOLY SHIT BEHIND YOU!
+[06:03:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player e95834af-1c1b-4130-afd5-d649cae36b67 timed out
+[06:03:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player 17sk
+[06:03:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to 17sk
+[06:03:24] [Server thread/INFO]: 17sk lost connection: Disconnected
+[06:03:24] [Server thread/INFO]: 17sk left the game
+[06:03:24] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[06:04:11] [Server thread/INFO]: Stopping the server
+[06:04:11] [Server thread/INFO]: Stopping server
+[06:04:11] [Server thread/INFO]: Saving players
+[06:04:11] [Server thread/INFO]: Saving worlds
+[06:04:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06:04:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06:04:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06:04:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06:04:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06:04:11] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06:04:11] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

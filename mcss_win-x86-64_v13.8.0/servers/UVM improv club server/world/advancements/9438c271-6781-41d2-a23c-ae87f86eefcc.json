@@ -113,6 +113,7 @@
       "minecraft:deep_lukewarm_ocean": "2024-12-20 01:31:48 -0500",
       "minecraft:flower_forest": "2024-12-20 00:29:15 -0500",
       "minecraft:beach": "2024-12-20 00:20:36 -0500",
+      "minecraft:mangrove_swamp": "2024-12-24 02:59:19 -0500",
       "minecraft:sparse_jungle": "2024-12-19 23:29:41 -0500",
       "minecraft:river": "2024-12-19 23:31:20 -0500",
       "minecraft:lukewarm_ocean": "2024-12-20 01:30:03 -0500",
@@ -120,6 +121,7 @@
       "minecraft:dripstone_caves": "2024-12-21 04:13:51 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-20 00:15:04 -0500",
       "minecraft:grove": "2024-12-20 02:43:08 -0500",
+      "minecraft:swamp": "2024-12-24 03:32:13 -0500",
       "minecraft:meadow": "2024-12-19 23:59:07 -0500",
       "minecraft:savanna": "2024-12-21 23:51:26 -0500",
       "minecraft:plains": "2024-12-20 00:00:58 -0500"
@@ -8274,11 +8276,13 @@
       "apple": "2024-12-19 23:33:11 -0500",
       "bread": "2024-12-19 23:34:38 -0500",
       "cooked_chicken": "2024-12-21 22:44:20 -0500",
+      "enchanted_golden_apple": "2024-12-24 01:58:30 -0500",
       "cooked_mutton": "2024-12-21 22:47:44 -0500",
       "baked_potato": "2024-12-21 03:46:26 -0500",
       "melon_slice": "2024-12-21 22:38:34 -0500",
       "porkchop": "2024-12-20 00:23:00 -0500",
-      "cooked_salmon": "2024-12-20 01:31:24 -0500"
+      "cooked_salmon": "2024-12-20 01:31:24 -0500",
+      "golden_carrot": "2024-12-24 02:48:33 -0500"
     },
     "done": false
   },
@@ -8315,11 +8319,17 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-12-21 04:09:48 -0500",
+      "minecraft:skeleton": "2024-12-24 01:47:59 -0500",
+      "minecraft:breeze": "2024-12-24 01:30:13 -0500",
       "minecraft:enderman": "2024-12-23 01:26:51 -0500",
+      "minecraft:silverfish": "2024-12-24 01:38:32 -0500",
+      "minecraft:stray": "2024-12-24 01:26:09 -0500",
       "minecraft:magma_cube": "2024-12-20 22:40:52 -0500",
+      "minecraft:spider": "2024-12-24 01:48:08 -0500",
       "minecraft:zombie": "2024-12-20 21:12:14 -0500",
       "minecraft:drowned": "2024-12-21 23:28:51 -0500",
-      "minecraft:zombie_villager": "2024-12-20 01:18:47 -0500"
+      "minecraft:zombie_villager": "2024-12-20 01:18:47 -0500",
+      "minecraft:slime": "2024-12-24 01:32:37 -0500"
     },
     "done": false
   },
@@ -8368,6 +8378,7 @@
   "minecraft:nether/explore_nether": {
     "criteria": {
       "minecraft:soul_sand_valley": "2024-12-21 23:45:22 -0500",
+      "minecraft:nether_wastes": "2024-12-24 03:31:26 -0500",
       "minecraft:basalt_deltas": "2024-12-20 22:39:57 -0500"
     },
     "done": false
@@ -8390,15 +8401,21 @@
     },
     "done": true
   },
-  "minecraft:story/shiny_gear": {
+  "graves:check_death_markers_later_in_tick": {
     "criteria": {
-      "diamond_helmet": "2024-12-23 01:12:06 -0500"
+      "tick": "2024-12-23 01:03:58 -0500"
     },
     "done": true
   },
-  "minecraft:story/enchant_item": {
+  "vanillatweaks:graves": {
     "criteria": {
-      "enchanted_item": "2024-12-23 01:31:39 -0500"
+      "tick": "2024-12-23 01:03:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-12-23 01:12:06 -0500"
     },
     "done": true
   },
@@ -8414,21 +8431,69 @@
     },
     "done": true
   },
-  "graves:check_death_markers_later_in_tick": {
-    "criteria": {
-      "tick": "2024-12-23 01:03:58 -0500"
-    },
-    "done": true
-  },
-  "vanillatweaks:graves": {
-    "criteria": {
-      "tick": "2024-12-23 01:03:58 -0500"
-    },
-    "done": true
-  },
   "minecraft:story/enter_the_end": {
     "criteria": {
       "entered_end": "2024-12-23 01:23:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-12-23 01:31:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/minecraft_trials_edition": {
+    "criteria": {
+      "minecraft_trials_edition": "2024-12-24 01:23:28 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2024-12-24 01:26:55 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2024-12-24 01:29:10 -0500"
+    },
+    "done": false
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2024-12-24 01:34:30 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-12-24 01:34:33 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-24 01:57:29 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-24 02:16:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-12-24 04:18:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-12-24 04:27:15 -0500"
     },
     "done": true
   },
