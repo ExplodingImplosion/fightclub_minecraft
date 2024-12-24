@@ -122,6 +122,7 @@
       "minecraft:deep_dark": "2024-12-20 00:21:02 -0500",
       "minecraft:grove": "2024-12-21 21:18:46 -0500",
       "minecraft:meadow": "2024-12-19 22:39:54 -0500",
+      "minecraft:windswept_gravelly_hills": "2024-12-23 19:47:58 -0500",
       "minecraft:savanna": "2024-12-21 03:00:52 -0500",
       "minecraft:plains": "2024-12-19 22:43:26 -0500"
     },
@@ -8531,6 +8532,12 @@
   "vanillatweaks:graves": {
     "criteria": {
       "tick": "2024-12-23 01:15:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-12-23 17:59:38 -0500"
     },
     "done": true
   },

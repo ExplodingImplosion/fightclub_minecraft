@@ -8325,6 +8325,7 @@
       "minecraft:pillager": "2024-12-19 23:52:40 -0500",
       "minecraft:cave_spider": "2024-12-22 19:38:35 -0500",
       "minecraft:skeleton": "2024-12-19 19:40:39 -0500",
+      "minecraft:vindicator": "2024-12-23 17:35:55 -0500",
       "minecraft:silverfish": "2024-12-21 22:03:00 -0500",
       "minecraft:enderman": "2024-12-23 02:10:37 -0500",
       "minecraft:spider": "2024-12-20 01:12:20 -0500",
@@ -8397,6 +8398,7 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cow": "2024-12-23 15:16:24 -0500",
       "minecraft:chicken": "2024-12-20 17:24:26 -0500"
     },
     "done": false
@@ -8503,6 +8505,18 @@
   "minecraft:story/lava_bucket": {
     "criteria": {
       "lava_bucket": "2024-12-22 21:04:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-23 14:30:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-23 17:35:51 -0500"
     },
     "done": true
   },

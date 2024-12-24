@@ -5751,6 +5751,7 @@
       "minecraft:lush_caves": "2024-12-19 19:51:38 -0500",
       "minecraft:dripstone_caves": "2024-12-19 19:36:29 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-19 21:13:46 -0500",
+      "minecraft:deep_dark": "2024-12-23 17:25:59 -0500",
       "minecraft:jungle": "2024-12-19 19:13:46 -0500",
       "minecraft:cherry_grove": "2024-12-19 21:17:01 -0500",
       "minecraft:sunflower_plains": "2024-12-19 21:18:13 -0500",
@@ -8284,7 +8285,9 @@
       "cooked_mutton": "2024-12-19 21:34:26 -0500",
       "glow_berries": "2024-12-19 19:59:17 -0500",
       "cooked_beef": "2024-12-19 22:05:10 -0500",
+      "beef": "2024-12-23 17:37:45 -0500",
       "melon_slice": "2024-12-19 19:17:41 -0500",
+      "porkchop": "2024-12-23 17:37:41 -0500",
       "cooked_salmon": "2024-12-19 19:26:14 -0500"
     },
     "done": false
@@ -8336,6 +8339,7 @@
       "minecraft:pillager": "2024-12-19 22:46:23 -0500",
       "minecraft:cave_spider": "2024-12-19 21:53:35 -0500",
       "minecraft:skeleton": "2024-12-19 21:58:05 -0500",
+      "minecraft:enderman": "2024-12-23 17:31:38 -0500",
       "minecraft:magma_cube": "2024-12-20 00:05:49 -0500",
       "minecraft:spider": "2024-12-19 21:23:02 -0500",
       "minecraft:zombie": "2024-12-19 21:33:46 -0500",
@@ -8394,18 +8398,6 @@
     },
     "done": true
   },
-  "minecraft:story/enchant_item": {
-    "criteria": {
-      "enchanted_item": "2024-12-22 16:59:43 -0500"
-    },
-    "done": true
-  },
-  "minecraft:adventure/voluntary_exile": {
-    "criteria": {
-      "voluntary_exile": "2024-12-22 16:56:49 -0500"
-    },
-    "done": true
-  },
   "graves:check_death_markers_later_in_tick": {
     "criteria": {
       "tick": "2024-12-22 16:26:11 -0500"
@@ -8415,6 +8407,48 @@
   "vanillatweaks:graves": {
     "criteria": {
       "tick": "2024-12-22 16:26:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-12-22 16:56:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-12-22 16:59:43 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2024-12-23 17:46:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:rusty": "2024-12-23 17:46:16 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-12-23 16:46:29 -0500"
+    },
+    "done": false
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-12-23 18:07:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-12-23 16:46:29 -0500"
     },
     "done": true
   },

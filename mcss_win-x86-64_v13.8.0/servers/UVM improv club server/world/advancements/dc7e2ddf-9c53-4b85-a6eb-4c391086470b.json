@@ -8334,17 +8334,19 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:blaze": "2024-12-19 20:04:02 -0500",
+      "minecraft:pillager": "2024-12-23 09:15:44 -0500",
       "minecraft:skeleton": "2024-12-19 19:42:21 -0500",
       "minecraft:phantom": "2024-12-21 09:18:42 -0500",
-      "minecraft:enderman": "2024-12-20 14:38:13 -0500",
       "minecraft:witch": "2024-12-20 22:06:26 -0500",
-      "minecraft:spider": "2024-12-19 19:20:18 -0500",
       "minecraft:wither_skeleton": "2024-12-19 20:09:39 -0500",
+      "minecraft:ghast": "2024-12-20 14:35:00 -0500",
+      "minecraft:piglin": "2024-12-23 09:58:32 -0500",
+      "minecraft:enderman": "2024-12-20 14:38:13 -0500",
+      "minecraft:spider": "2024-12-19 19:20:18 -0500",
       "minecraft:zombie": "2024-12-19 19:14:11 -0500",
       "minecraft:creeper": "2024-12-19 19:18:34 -0500",
       "minecraft:drowned": "2024-12-19 20:57:57 -0500",
-      "minecraft:zombie_villager": "2024-12-20 13:58:18 -0500",
-      "minecraft:ghast": "2024-12-20 14:35:00 -0500"
+      "minecraft:zombie_villager": "2024-12-20 13:58:18 -0500"
     },
     "done": false
   },
@@ -8492,6 +8494,12 @@
   "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
       "axolotl_bucket": "2024-12-22 20:11:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-12-23 09:39:38 -0500"
     },
     "done": true
   },

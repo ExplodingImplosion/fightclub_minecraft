@@ -8544,5 +8544,17 @@
     },
     "done": true
   },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2024-12-23 18:24:02 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-12-23 18:55:50 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }
