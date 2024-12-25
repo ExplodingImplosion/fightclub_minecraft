@@ -20,7 +20,7 @@
       {
         "guid": "a8c28e7b-0e9b-4dfe-8478-99375bd89536",
         "name": "stop on no one in server",
-        "enabled": true,
+        "enabled": false,
         "playerRequirement": "Empty",
         "timing": {
           "interval": 60,
@@ -49,7 +49,7 @@
         "enabled": true,
         "playerRequirement": "AtLeastOne",
         "timing": {
-          "interval": 14400,
+          "interval": 9900,
           "repeat": true
         },
         "job": {
@@ -114,6 +114,17 @@
         "job": {
           "action": "Start"
         }
+      },
+      {
+        "guid": "7b7a23e8-b79b-436f-9cbf-3f68b5769a9f",
+        "name": "its raining meat",
+        "enabled": true,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "interval": 10800,
+          "repeat": true
+        },
+        "job": {}
       }
     ]
   },
