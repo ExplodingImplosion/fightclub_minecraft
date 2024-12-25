@@ -102,6 +102,7 @@
       "minecraft:old_growth_pine_taiga": "2024-12-22 15:21:35 -0500",
       "minecraft:forest": "2024-12-19 19:43:23 -0500",
       "minecraft:taiga": "2024-12-22 15:09:12 -0500",
+      "minecraft:deep_ocean": "2024-12-25 14:22:15 -0500",
       "minecraft:desert": "2024-12-22 15:05:22 -0500",
       "minecraft:windswept_forest": "2024-12-22 15:20:51 -0500",
       "minecraft:jungle": "2024-12-19 20:01:28 -0500",
@@ -111,6 +112,7 @@
       "minecraft:birch_forest": "2024-12-19 19:32:58 -0500",
       "minecraft:windswept_hills": "2024-12-22 15:21:19 -0500",
       "minecraft:bamboo_jungle": "2024-12-22 14:53:36 -0500",
+      "minecraft:windswept_savanna": "2024-12-25 14:29:19 -0500",
       "minecraft:deep_lukewarm_ocean": "2024-12-22 14:52:15 -0500",
       "minecraft:flower_forest": "2024-12-22 14:54:36 -0500",
       "minecraft:savanna_plateau": "2024-12-22 14:56:29 -0500",
@@ -8316,7 +8318,8 @@
     "criteria": {
       "apple": "2024-12-22 15:44:49 -0500",
       "bread": "2024-12-19 19:56:18 -0500",
-      "cooked_mutton": "2024-12-19 19:46:31 -0500"
+      "cooked_mutton": "2024-12-19 19:46:31 -0500",
+      "cooked_beef": "2024-12-25 13:13:17 -0500"
     },
     "done": false
   },
@@ -8337,7 +8340,8 @@
       "minecraft:pillager": "2024-12-19 19:52:35 -0500",
       "minecraft:skeleton": "2024-12-22 16:13:08 -0500",
       "minecraft:spider": "2024-12-22 15:43:49 -0500",
-      "minecraft:zombie": "2024-12-22 15:48:16 -0500"
+      "minecraft:zombie": "2024-12-22 15:48:16 -0500",
+      "minecraft:creeper": "2024-12-25 13:23:00 -0500"
     },
     "done": false
   },
@@ -8386,6 +8390,38 @@
   "vanillatweaks:graves": {
     "criteria": {
       "tick": "2024-12-22 17:04:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-12-25 11:25:45 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-12-25 13:11:15 -0500",
+      "minecraft:soul_sand_valley": "2024-12-25 13:58:33 -0500",
+      "minecraft:basalt_deltas": "2024-12-25 13:11:11 -0500"
+    },
+    "done": false
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-12-25 13:11:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-12-25 13:11:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2024-12-25 13:59:14 -0500"
     },
     "done": true
   },
