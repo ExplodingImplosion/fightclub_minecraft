@@ -1,303 +1,369 @@
-[08:50:49] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[08:50:49] [main/INFO]: Loading 12 mods:
+[14:40:01] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[14:40:01] [main/INFO]: Loading 44 mods:
+	- c2me 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-base 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-client-uncapvd 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-general-threading-issues 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-notickvd 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-allocs 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-chunkio 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-dfc 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-math 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-natives-math 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-scheduling 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-worldgen-general 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-worldgen-vanilla 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-rewrites-chunk-serializer 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-rewrites-chunk-system 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-rewrites-chunkio 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-server-utils 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-threading-lighting 0.3.1+rc.1.0+1.21.4
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- distanthorizons 2.3.0-b-dev
+	   |-- fabric-api-base 0.4.52+8ca5486f82
+	   |-- fabric-command-api-v2 2.2.39+e496eb1582
+	   |-- fabric-entity-events-v1 2.0.10+60fccc7682
+	   |-- fabric-events-interaction-v0 4.0.0+a4eebcf082
+	   |-- fabric-key-binding-api-v1 1.0.55+7feeb73382
+	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
+	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
+	   |-- fabric-rendering-v1 10.0.0+6a293bdb82
+	   |-- fabric-resource-loader-v0 3.0.9+203e6b2382
+	   \-- fabric-screen-api-v1 2.0.36+7feeb73382
 	- fabricloader 0.16.9
 	   \-- mixinextras 0.4.1
 	- ferritecore 7.1.1
 	- java 22
 	- lithium 0.14.3+mc1.21.4
 	- minecraft 1.21.4
+	- noisium 2.5.0+mc1.21.4
 	- voicechat 1.21.4-2.5.26
-	   |-- fabric-api-base 0.4.52+8ca5486f82
-	   |-- fabric-command-api-v2 2.2.39+e496eb1582
-	   |-- fabric-key-binding-api-v1 1.0.55+7feeb73382
-	   |-- fabric-lifecycle-events-v1 2.5.2+bf2a60eb82
-	   |-- fabric-networking-api-v1 4.3.7+cc0fa2fe82
-	   \-- fabric-resource-loader-v0 3.0.9+203e6b2382
-[08:50:49] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[08:50:49] [main/INFO]: Compatibility level set to JAVA_21
-[08:50:49] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[08:50:49] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[08:50:49] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[08:50:49] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[08:50:49] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[08:50:49] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[08:50:49] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[08:50:49] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
-[08:50:50] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[08:50:56] [main/INFO]: [voicechat] Compatibility version 18
-[08:50:56] [main/INFO]: [voicechat] Loading plugins
-[08:50:56] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[08:50:56] [main/INFO]: [voicechat] Initializing plugins
-[08:50:56] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[08:50:56] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[08:50:57] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[08:50:57] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[08:50:57] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[08:50:57] [main/INFO]: Loaded 1370 recipes
-[08:50:57] [main/INFO]: Loaded 1503 advancements
-[08:50:58] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[08:50:58] [Server thread/INFO]: Loading properties
-[08:50:58] [Server thread/INFO]: Default game type: SURVIVAL
-[08:50:58] [Server thread/INFO]: Generating keypair
-[08:50:58] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[08:50:58] [Server thread/INFO]: Using default channel type
-[08:50:58] [Server thread/INFO]: Preparing level "world"
-[08:50:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[08:51:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:51:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:51:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[08:51:00] [Server thread/INFO]: Time elapsed: 1441 ms
-[08:51:00] [Server thread/INFO]: Done (1.821s)! For help, type "help"
-[08:51:00] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[08:51:00] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[08:51:00] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[08:51:04] [User Authenticator #1/INFO]: UUID of player FrozenJarate is e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[08:51:04] [Server thread/INFO]: FrozenJarate[/192.168.86.1:54256] logged in with entity id 3 at (1061.361772829084, 80.0, 458.22832980828497)
-[08:51:04] [Server thread/INFO]: FrozenJarate joined the game
-[08:51:05] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[08:51:05] [Server thread/INFO]: [voicechat] Received secret request of FrozenJarate (18)
-[08:51:05] [Server thread/INFO]: [voicechat] Sent secret to FrozenJarate
-[08:51:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[08:51:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e817ea6d-f451-4c07-8fe9-21ba2518cf00
-[08:51:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player FrozenJarate (e817ea6d-f451-4c07-8fe9-21ba2518cf00) successfully connected to voice chat
-[10:19:04] [User Authenticator #2/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[10:19:05] [Server thread/INFO]: madb0nes[/72.70.38.62:58793] logged in with entity id 5446 at (266.28483548050923, 93.0625, 554.2629350702308)
-[10:19:05] [Server thread/INFO]: madb0nes joined the game
-[10:19:06] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
-[10:19:06] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
-[10:19:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[10:19:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[10:19:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
-[10:19:08] [Server thread/INFO]: <FrozenJarate> yo
-[10:19:12] [Server thread/INFO]: <madb0nes> hallo
-[10:19:36] [Server thread/INFO]: <FrozenJarate> merry christmas!
-[10:20:32] [Server thread/INFO]: <madb0nes> merry christler !!
-[10:29:45] [Server thread/INFO]: madb0nes lost connection: Disconnected
-[10:29:45] [Server thread/INFO]: madb0nes left the game
-[10:29:45] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
-[10:50:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=66, z=598} class_2338{x=495, y=65, z=599}
-[10:50:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=67, z=600} class_2338{x=497, y=65, z=599}
-[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=71, z=605} class_2338{x=499, y=72, z=606}
-[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=71, z=605} class_2338{x=499, y=72, z=606}
-[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=71, z=605} class_2338{x=499, y=72, z=606}
-[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=71, z=605} class_2338{x=499, y=72, z=606}
-[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=71, z=605} class_2338{x=499, y=72, z=606}
-[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=71, z=605} class_2338{x=499, y=72, z=606}
-[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=71, z=605} class_2338{x=499, y=72, z=606}
-[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=497, y=71, z=605} class_2338{x=499, y=72, z=606}
-[10:50:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=496, y=72, z=606} class_2338{x=499, y=72, z=606}
-[10:50:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=72, z=604} class_2338{x=495, y=72, z=606}
-[10:50:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=72, z=604} class_2338{x=495, y=72, z=606}
-[10:50:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=72, z=604} class_2338{x=495, y=72, z=606}
-[10:50:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=72, z=604} class_2338{x=495, y=72, z=606}
-[10:50:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=495, y=72, z=604} class_2338{x=495, y=72, z=606}
-[10:50:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=499, y=72, z=603} class_2338{x=498, y=71, z=603}
-[10:50:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=501, y=70, z=608} class_2338{x=501, y=69, z=607}
-[10:58:47] [Server thread/INFO]: FrozenJarate has made the advancement [Fishy Business]
-[11:18:42] [User Authenticator #3/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[11:18:43] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:53205] logged in with entity id 27711 at (397.4329703845877, 72.0, 507.8012159859117)
-[11:18:43] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
-[11:18:48] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
-[11:18:48] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
-[11:18:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[11:18:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[11:18:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
-[11:18:57] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
-[11:18:57] [Server thread/INFO]: ASFJASJHALALF he / him left the game
-[11:18:57] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
-[11:24:54] [User Authenticator #4/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[11:24:54] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:54080] logged in with entity id 28738 at (380.7743846970388, 72.0, 494.53398250964693)
-[11:24:54] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
-[11:24:54] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
-[11:24:54] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
-[11:24:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[11:24:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[11:24:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
-[11:25:45] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Take Aim]
-[11:25:55] [Server thread/INFO]: ASFJASJHALALF he / him was slain by Zombie
-[11:28:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=878, y=107, z=449} class_2338{x=890, y=107, z=460}
-[11:28:26] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
-[11:28:26] [Server thread/INFO]: ASFJASJHALALF he / him left the game
-[11:28:26] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
-[11:36:00] [Server thread/INFO]: You whisper to FrozenJarate: HOLY SHIT BEHIND YOU!
-[11:50:16] [User Authenticator #5/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
-[11:50:17] [Server thread/INFO]: razeyrainbows[/146.115.92.123:52631] logged in with entity id 36439 at (-60.2101290226344, 64.0, -263.6496493768808)
-[11:50:17] [Server thread/INFO]: razeyrainbows joined the game
-[11:50:18] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
-[11:50:18] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
-[11:50:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
-[11:50:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
-[11:50:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
-[11:50:28] [Server thread/INFO]: <FrozenJarate> hey!
-[11:50:31] [Server thread/INFO]: <razeyrainbows> hiii
-[11:50:42] [Server thread/INFO]: <razeyrainbows> oh wow we're the only ones on
-[11:50:46] [Server thread/INFO]: <razeyrainbows> ig that makes sense
-[11:51:13] [Server thread/INFO]: <FrozenJarate> rise and grind
-[11:51:44] [Server thread/INFO]: <razeyrainbows> fr cant believe people are taking a holiday
-[11:52:12] [Server thread/INFO]: <FrozenJarate> gotta get my iron farm up and running before christmas dinner :)
-[11:52:47] [Server thread/INFO]: <razeyrainbows> hell yeah good luck
-[11:53:08] [Server thread/INFO]: <FrozenJarate> ty <3
-[11:54:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=884, y=109, z=456} class_2338{x=880, y=107, z=453}
-[11:55:16] [Server thread/INFO]: <FrozenJarate> time to capture a pillager
-[11:55:29] [Server thread/INFO]: <razeyrainbows> wont be hard where we live
-[11:59:49] [User Authenticator #6/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[11:59:50] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:58461] logged in with entity id 41211 at (393.71453648617717, 72.875, 496.6113873647917)
-[11:59:50] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
-[11:59:52] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
-[11:59:52] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
-[11:59:53] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[11:59:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[11:59:54] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
-[12:00:07] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
-[12:00:07] [Server thread/INFO]: ASFJASJHALALF he / him left the game
-[12:00:07] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
-[12:01:07] [Server thread/INFO]: <razeyrainbows> unfortunately have to go bc i took my bedtime meds by accident and now am so sleepy im not gonna make it :(
-[12:01:22] [Server thread/INFO]: <FrozenJarate> oh im so sorry
-[12:01:24] [Server thread/INFO]: <FrozenJarate> o7
-[12:01:31] [Server thread/INFO]: ASFJASJHALALF (/192.168.86.69:58786) lost connection: Disconnected
-[12:01:38] [Server thread/INFO]: <razeyrainbows> its fine see you later probably
-[12:01:40] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
-[12:01:40] [Server thread/INFO]: razeyrainbows left the game
-[12:01:40] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
-[12:17:17] [User Authenticator #7/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[12:17:18] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:60055] logged in with entity id 41944 at (396.1734087802698, 72.0, 496.0692926499854)
-[12:17:18] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
-[12:17:18] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
-[12:17:18] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
-[12:17:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[12:17:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[12:17:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
-[12:25:15] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
-[12:25:15] [Server thread/INFO]: ASFJASJHALALF he / him left the game
-[12:25:15] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
-[13:07:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[13:07:55] [Server thread/INFO]: save<--[HERE]
-[13:07:58] [Server thread/INFO]: Saving the game (this may take a moment!)
-[13:07:59] [Server thread/INFO]: Saved the game
-[13:08:20] [User Authenticator #8/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[13:08:21] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:62087] logged in with entity id 50056 at (400.2498490269695, 72.0, 494.41400630112787)
-[13:08:21] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
-[13:08:24] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
-[13:08:24] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
-[13:08:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[13:08:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[13:08:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
-[13:11:11] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [We Need to Go Deeper]
-[13:11:26] [Server thread/INFO]: [ASFJASJHALALF he / him: Added FrozenJarate he / him to team [he/him]]
-[13:14:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=886, y=84, z=441} class_2338{x=895, y=65, z=453}
-[13:14:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=895, y=64, z=453} class_2338{x=896, y=65, z=454}
-[13:19:11] [Server thread/INFO]: [ASFJASJHALALF he / him: Applied effect Haste to ASFJASJHALALF he / him]
-[13:19:24] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[13:19:29] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:19:36] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[13:19:40] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:24:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=896, y=62, z=457} class_2338{x=889, y=65, z=447}
-[13:29:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1064, y=65, z=447} class_2338{x=1064, y=66, z=447}
-[13:29:50] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[13:29:51] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:29:53] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[13:31:29] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:32:26] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[13:35:43] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:36:51] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[13:37:08] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:37:32] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[13:38:07] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:43:12] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[13:43:13] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:43:14] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[13:43:32] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:44:22] [Server thread/INFO]: [ASFJASJHALALF he / him: Applied effect Haste to ASFJASJHALALF he / him]
-[13:45:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=885, y=115, z=449} class_2338{x=66, y=2, z=500}
-[13:45:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=885, y=115, z=449} class_2338{x=66, y=2, z=500}
-[13:45:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=885, y=115, z=449} class_2338{x=66, y=2, z=500}
-[13:49:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=75, y=-2, z=499} class_2338{x=75, y=-3, z=499}
-[13:49:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=75, y=-2, z=499} class_2338{x=75, y=-3, z=499}
-[13:49:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=75, y=-2, z=499} class_2338{x=75, y=-3, z=499}
-[13:49:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=75, y=-2, z=499} class_2338{x=75, y=-3, z=499}
-[13:49:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=75, y=-2, z=499} class_2338{x=75, y=-3, z=499}
-[13:51:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=66, y=-3, z=492} class_2338{x=72, y=-3, z=488}
-[13:51:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=66, y=-3, z=492} class_2338{x=72, y=-3, z=488}
-[13:51:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=66, y=-3, z=492} class_2338{x=72, y=-3, z=488}
-[13:51:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=66, y=-3, z=492} class_2338{x=72, y=-3, z=488}
-[13:51:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=66, y=-3, z=492} class_2338{x=72, y=-3, z=488}
-[13:51:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=66, y=-3, z=492} class_2338{x=72, y=-3, z=488}
-[13:52:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=74, y=-3, z=492} class_2338{x=73, y=-3, z=493}
-[13:52:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=74, y=-3, z=492} class_2338{x=73, y=-3, z=493}
-[13:52:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=74, y=-3, z=492} class_2338{x=73, y=-3, z=493}
-[13:55:37] [Server thread/INFO]: [ASFJASJHALALF he / him: Applied effect Resistance to 14 targets]
-[13:56:35] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=919, y=142, z=455} class_2338{x=899, y=115, z=447}
-[13:58:29] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[13:58:30] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:58:31] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[13:58:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=895, y=115, z=446} class_2338{x=1059, y=66, z=446}
-[13:58:49] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:59:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=895, y=115, z=446} class_2338{x=1043, y=82, z=447}
-[13:59:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1040, y=85, z=447} class_2338{x=1037, y=88, z=447}
-[13:59:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1040, y=85, z=447} class_2338{x=1037, y=88, z=447}
-[13:59:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1040, y=85, z=447} class_2338{x=1035, y=90, z=447}
-[13:59:14] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Isn't It Iron Pick]
-[13:59:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1033, y=92, z=447} class_2338{x=1028, y=97, z=447}
-[13:59:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1033, y=92, z=447} class_2338{x=1027, y=98, z=447}
-[13:59:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1033, y=92, z=447} class_2338{x=1026, y=99, z=447}
-[13:59:43] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[13:59:44] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:59:45] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[13:59:46] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[13:59:48] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[14:00:05] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[14:03:53] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
-[14:03:53] [Server thread/INFO]: ASFJASJHALALF he / him left the game
-[14:03:53] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
-[14:08:48] [Server thread/INFO]: Villager class_1646['Villager'/79354, l='ServerLevel[world]', x=885.29, y=85.43, z=456.20] died, message: 'Villager tried to swim in lava'
-[14:10:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=889, y=114, z=460} class_2338{x=891, y=115, z=459}
-[14:10:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=889, y=114, z=460} class_2338{x=891, y=115, z=459}
-[14:12:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=880, y=115, z=460} class_2338{x=880, y=116, z=450}
-[14:13:29] [User Authenticator #9/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[14:13:30] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:64703] logged in with entity id 83148 at (-164.27421967017327, 68.0, -291.4448532642141)
-[14:13:30] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
-[14:13:30] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
-[14:13:30] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
-[14:13:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[14:13:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[14:13:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
-[14:15:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=900, y=115, z=447} class_2338{x=901, y=113, z=447}
-[14:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=900, y=115, z=447} class_2338{x=904, y=110, z=447}
-[14:15:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=900, y=115, z=447} class_2338{x=905, y=109, z=447}
-[14:15:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=906, y=108, z=447} class_2338{x=907, y=107, z=447}
-[14:15:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=906, y=108, z=447} class_2338{x=908, y=106, z=447}
-[14:15:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=906, y=108, z=447} class_2338{x=909, y=105, z=447}
-[14:15:18] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[14:15:20] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[14:15:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=913, y=101, z=447} class_2338{x=914, y=100, z=447}
-[14:15:21] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[14:16:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1031, y=92, z=447} class_2338{x=1044, y=79, z=447}
-[14:16:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1047, y=76, z=447} class_2338{x=1049, y=74, z=447}
-[14:16:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1052, y=71, z=447} class_2338{x=1054, y=69, z=447}
-[14:16:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1052, y=71, z=447} class_2338{x=1055, y=68, z=447}
-[14:16:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1056, y=67, z=447} class_2338{x=1058, y=65, z=447}
-[14:21:00] [Server thread/INFO]: You whisper to FrozenJarate he / him: HOLY SHIT BEHIND YOU!
-[14:22:03] [Server thread/INFO]: FrozenJarate he / him was slain by Iron Golem
-[14:28:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=887, y=93, z=451} class_2338{x=881, y=95, z=458}
-[14:28:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=887, y=93, z=451} class_2338{x=888, y=95, z=458}
-[14:28:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=881, y=98, z=457} class_2338{x=881, y=98, z=451}
-[14:28:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=888, y=98, z=452} class_2338{x=888, y=98, z=458}
-[14:29:00] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -10.314449416255115,0.0,-3.167408290653384
-[14:29:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=888, y=98, z=452} class_2338{x=888, y=101, z=458}
-[14:35:14] [Server thread/INFO]: [ASFJASJHALALF: Added ASFJASJHALALF he / him to team [he/him]]
-[14:35:18] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
-[14:35:18] [Server thread/INFO]: ASFJASJHALALF he / him left the game
-[14:35:18] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
-[14:36:04] [Server thread/INFO]: Stopping the server
-[14:36:04] [Server thread/INFO]: Stopping server
-[14:36:04] [Server thread/INFO]: Saving players
-[14:36:04] [Server thread/INFO]: FrozenJarate lost connection: Server closed
-[14:36:04] [Server thread/INFO]: FrozenJarate he / him left the game
-[14:36:04] [Server thread/INFO]: Saving worlds
-[14:36:04] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:36:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14:36:05] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14:36:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:36:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:36:05] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:36:05] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+	   \-- fabric-key-binding-api-v1 1.0.55+7feeb73382
+[14:40:01] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:40:01] [main/INFO]: Compatibility level set to JAVA_16
+[14:40:01] [main/INFO]: Compatibility level set to JAVA_21
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[14:40:02] [main/INFO]: Updating config from 0 to 1
+[14:40:02] [main/INFO]: Updating config from 1 to 2
+[14:40:02] [main/INFO]: Updating config from 2 to 3
+[14:40:02] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[14:40:02] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[14:40:02] [main/INFO]: Detected maximum supported ISA target: AVX2
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[14:40:02] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[14:40:02] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[14:40:02] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[14:40:02] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[14:40:02] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[14:40:02] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[14:40:02] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[14:40:02] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[14:40:02] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[14:40:02] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 0 override(s) found
+[14:40:03] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[14:40:03] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14:40:09] [main/INFO]: Loading Noisium.
+[14:40:09] [main/INFO]: [voicechat] Compatibility version 18
+[14:40:09] [main/INFO]: [voicechat] Loading plugins
+[14:40:09] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[14:40:09] [main/INFO]: [voicechat] Initializing plugins
+[14:40:09] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[14:40:09] [main/INFO]: Initializing Distant Horizons server.
+[14:40:09] [main/INFO]: [STDERR]: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+[14:40:09] [main/INFO]: [STDERR]: SLF4J: Defaulting to no-operation (NOP) logger implementation
+[14:40:09] [main/INFO]: [STDERR]: SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+[14:40:09] [main/INFO]: Distant Horizons, Version: 2.3.0-b-dev
+[14:40:09] [main/INFO]: DH Branch: main
+[14:40:09] [main/INFO]: DH Commit: b60d778303b9313c81cb8c46d922d624fcb44bf4
+[14:40:09] [main/INFO]: DH Jar Build Source: GitLab CI (1602524442)
+[14:40:09] [main/INFO]: Registering Fabric Server Events
+[14:40:09] [main/INFO]: Distant Horizons server Initialized.
+[14:40:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:40:10] [main/WARN]: Missing data pack file/afk display v1.1.10 (MC 1.21-1.21.4).zip
+[14:40:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[14:40:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[14:40:11] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[14:40:11] [main/INFO]: Loaded 1370 recipes
+[14:40:11] [main/INFO]: Loaded 1502 advancements
+[14:40:12] [Server thread/INFO]: Initialising config for DistantHorizons
+[14:40:12] [Server thread/INFO]: Config for DistantHorizons initialised
+[14:40:12] [Server thread/INFO]: Post-Initializing Mod
+[14:40:12] [Server thread/INFO]: Mod Post-Initialized
+[14:40:12] [Server thread/INFO]: Dedicated server initialized at 
+[14:40:12] [Server thread/INFO]: Started [DhServerWorld] of type [SERVER_ONLY].
+[14:40:12] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[14:40:12] [Server thread/INFO]: Loading properties
+[14:40:12] [Server thread/INFO]: Default game type: SURVIVAL
+[14:40:12] [Server thread/INFO]: Generating keypair
+[14:40:12] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[14:40:12] [Server thread/INFO]: Using default channel type
+[14:40:12] [Server thread/INFO]: Preparing level "world"
+[14:40:12] [Server thread/INFO]: Enforcing safe world random access
+[14:40:13] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 239.9 ms
+[14:40:13] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [.\world\data\DistantHorizons.sqlite]
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [.\world\data\DistantHorizons.sqlite]
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [.\world\data\DistantHorizons.sqlite]
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [.\world\data\DistantHorizons.sqlite]
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [.\world\data\DistantHorizons.sqlite]
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [.\world\data\DistantHorizons.sqlite]
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [.\world\data\DistantHorizons.sqlite]
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [.\world\data\DistantHorizons.sqlite]
+[14:40:13] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}] at [[LocalSaveStructure@(.\world\data)]].
+[14:40:13] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.960 ms
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [.\world\DIM1\data\DistantHorizons.sqlite]
+[14:40:13] [DH-Full Data Migration Thread: [minecraft:overworld] Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:overworld]-[.\world\data]...
+[14:40:13] [DH-Full Data Migration Thread: [minecraft:overworld] Thread[0]/INFO]: Found [0] data sources that need migration.
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [.\world\DIM1\data\DistantHorizons.sqlite]
+[14:40:13] [DH-Full Data Migration Thread: [minecraft:overworld] Thread[0]/INFO]: No migration necessary.
+[14:40:13] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [.\world\DIM1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [.\world\DIM1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [.\world\DIM1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [.\world\DIM1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [.\world\DIM1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [.\world\DIM1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}] at [[LocalSaveStructure@(.\world\DIM1\data;.\world\data)]].
+[14:40:14] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.738 ms
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0010-sqlite-createInitialDataTables.sql], for repo: [.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:40:14] [DH-Full Data Migration Thread: [minecraft:the_end] Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_end]-[.\world\DIM1\data]...
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0020-sqlite-createFullDataSourceV2Tables.sql], for repo: [.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:40:14] [DH-Full Data Migration Thread: [minecraft:the_end] Thread[0]/INFO]: Found [0] data sources that need migration.
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0030-sqlite-changeTableJournaling.sql], for repo: [.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:40:14] [DH-Full Data Migration Thread: [minecraft:the_end] Thread[0]/INFO]: No migration necessary.
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0031-sqlite-useSqliteWalJournaling.sql], for repo: [.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0040-sqlite-removeRenderCache.sql], for repo: [.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0050-sqlite-addApplyToParentIndex.sql], for repo: [.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0060-sqlite-createChunkHashTable.sql], for repo: [.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Running SQL update script: [sqlScripts/0070-sqlite-createBeaconBeamTable.sql], for repo: [.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:40:14] [Server thread/INFO]: Started DhServerLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}] at [[LocalSaveStructure@(.\world\DIM1\data;.\world\DIM-1\data;.\world\data)]].
+[14:40:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:40:14] [DH-Full Data Migration Thread: [minecraft:the_nether] Thread[0]/INFO]: Attempting to migrate data sources for: [minecraft:the_nether]-[.\world\DIM-1\data]...
+[14:40:14] [DH-Full Data Migration Thread: [minecraft:the_nether] Thread[0]/INFO]: Found [0] data sources that need migration.
+[14:40:14] [DH-Full Data Migration Thread: [minecraft:the_nether] Thread[0]/INFO]: No migration necessary.
+[14:40:14] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[14:40:14] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[14:40:14] [Server thread/INFO]: Time elapsed: 785 ms
+[14:40:14] [Server thread/INFO]: Done (2.266s)! For help, type "help"
+[14:40:15] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[14:40:15] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[14:40:15] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[14:40:15] [Server thread/INFO]: DH TerraFirmaCraft detection: false
+[14:40:15] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[14:40:15] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use async methods handled by C2ME.
+[14:40:15] [Server thread/INFO]: Batch Chunk Generator initialized
+[14:40:15] [Server thread/INFO]: Creating world gen queue
+[14:40:15] [Server thread/INFO]: Created world gen queue
+[14:40:15] [Server thread/INFO]: Set world gen queue for level [minecraft:the_end].
+[14:40:15] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[14:40:15] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use async methods handled by C2ME.
+[14:40:15] [Server thread/INFO]: Batch Chunk Generator initialized
+[14:40:15] [Server thread/INFO]: Creating world gen queue
+[14:40:15] [Server thread/INFO]: Created world gen queue
+[14:40:15] [Server thread/INFO]: Set world gen queue for level [minecraft:the_nether].
+[14:40:15] [Server thread/INFO]: ================WORLD_GEN_STEP_INITING=============
+[14:40:15] [Server thread/INFO]: C2ME detected: DH's pre-existing chunk accessing will use async methods handled by C2ME.
+[14:40:15] [Server thread/INFO]: Batch Chunk Generator initialized
+[14:40:15] [Server thread/INFO]: Creating world gen queue
+[14:40:15] [Server thread/INFO]: Created world gen queue
+[14:40:15] [Server thread/INFO]: Set world gen queue for level [minecraft:overworld].
+[14:40:15] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: LOW_IMPACT
+[14:40:15] [DH-ApplyConfigPresetTimer/INFO]: preset active: LOW_IMPACT
+[14:40:15] [DH-ApplyConfigPresetTimer/INFO]: changing preset to: MEDIUM
+[14:40:15] [DH-ApplyConfigPresetTimer/INFO]: preset active: MEDIUM
+[14:40:47] [Server thread/INFO]: /advancement (grant|revoke)
+[14:40:47] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
+[14:40:47] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[14:40:47] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
+[14:40:47] [Server thread/INFO]: /clear [<targets>]
+[14:40:47] [Server thread/INFO]: /clone (<begin>|from)
+[14:40:47] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
+[14:40:47] [Server thread/INFO]: /data (merge|get|remove|modify)
+[14:40:47] [Server thread/INFO]: /datapack (enable|disable|list)
+[14:40:47] [Server thread/INFO]: /debug (start|stop|function)
+[14:40:47] [Server thread/INFO]: /defaultgamemode <gamemode>
+[14:40:47] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
+[14:40:47] [Server thread/INFO]: /effect (clear|give)
+[14:40:47] [Server thread/INFO]: /me <action>
+[14:40:47] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
+[14:40:47] [Server thread/INFO]: /experience (add|set|query)
+[14:40:47] [Server thread/INFO]: /xp -> experience
+[14:40:47] [Server thread/INFO]: /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[14:40:47] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
+[14:40:47] [Server thread/INFO]: /forceload (add|remove|query)
+[14:40:47] [Server thread/INFO]: /function <name> [<arguments>|with]
+[14:40:47] [Server thread/INFO]: /gamemode <gamemode> [<target>]
+[14:40:47] [Server thread/INFO]: /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[14:40:47] [Server thread/INFO]: /give <targets> <item> [<count>]
+[14:40:47] [Server thread/INFO]: /help [<command>]
+[14:40:47] [Server thread/INFO]: /item (replace|modify)
+[14:40:47] [Server thread/INFO]: /kick <targets> [<reason>]
+[14:40:47] [Server thread/INFO]: /kill [<targets>]
+[14:40:47] [Server thread/INFO]: /list [uuids]
+[14:40:47] [Server thread/INFO]: /locate (structure|biome|poi)
+[14:40:47] [Server thread/INFO]: /loot (replace|insert|give|spawn)
+[14:40:47] [Server thread/INFO]: /msg <targets> <message>
+[14:40:47] [Server thread/INFO]: /tell -> msg
+[14:40:47] [Server thread/INFO]: /w -> msg
+[14:40:47] [Server thread/INFO]: /particle <name> [<pos>]
+[14:40:47] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
+[14:40:47] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[14:40:47] [Server thread/INFO]: /random (value|roll|reset)
+[14:40:47] [Server thread/INFO]: /reload
+[14:40:47] [Server thread/INFO]: /recipe (give|take)
+[14:40:47] [Server thread/INFO]: /return (<value>|fail|run)
+[14:40:47] [Server thread/INFO]: /ride <target> (mount|dismount)
+[14:40:47] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
+[14:40:47] [Server thread/INFO]: /say <message>
+[14:40:47] [Server thread/INFO]: /schedule (function|clear)
+[14:40:47] [Server thread/INFO]: /scoreboard (objectives|players)
+[14:40:47] [Server thread/INFO]: /seed
+[14:40:47] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace]
+[14:40:47] [Server thread/INFO]: /spawnpoint [<targets>]
+[14:40:47] [Server thread/INFO]: /setworldspawn [<pos>]
+[14:40:47] [Server thread/INFO]: /spectate [<target>]
+[14:40:47] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[14:40:47] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[14:40:47] [Server thread/INFO]: /summon <entity> [<pos>]
+[14:40:47] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[14:40:47] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
+[14:40:47] [Server thread/INFO]: /teammsg <message>
+[14:40:47] [Server thread/INFO]: /tm -> teammsg
+[14:40:47] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
+[14:40:47] [Server thread/INFO]: /tp -> teleport
+[14:40:47] [Server thread/INFO]: /tellraw <targets> <message>
+[14:40:47] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
+[14:40:47] [Server thread/INFO]: /time (set|add|query)
+[14:40:47] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[14:40:47] [Server thread/INFO]: /trigger <objective> [add|set]
+[14:40:47] [Server thread/INFO]: /weather (clear|rain|thunder)
+[14:40:47] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
+[14:40:47] [Server thread/INFO]: /jfr (start|stop)
+[14:40:47] [Server thread/INFO]: /ban-ip <target> [<reason>]
+[14:40:47] [Server thread/INFO]: /banlist [ips|players]
+[14:40:47] [Server thread/INFO]: /ban <targets> [<reason>]
+[14:40:47] [Server thread/INFO]: /deop <targets>
+[14:40:47] [Server thread/INFO]: /op <targets>
+[14:40:47] [Server thread/INFO]: /pardon <targets>
+[14:40:47] [Server thread/INFO]: /pardon-ip <target>
+[14:40:47] [Server thread/INFO]: /perf (start|stop)
+[14:40:47] [Server thread/INFO]: /save-all [flush]
+[14:40:47] [Server thread/INFO]: /save-off
+[14:40:47] [Server thread/INFO]: /save-on
+[14:40:47] [Server thread/INFO]: /setidletimeout <minutes>
+[14:40:47] [Server thread/INFO]: /stop
+[14:40:47] [Server thread/INFO]: /transfer <hostname> [<port>]
+[14:40:47] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
+[14:40:47] [Server thread/INFO]: /c2me notick
+[14:40:47] [Server thread/INFO]: /voicechat [help|test|invite|join|leave]
+[14:40:47] [Server thread/INFO]: /dh (config|debug)
+[14:40:51] [Server thread/INFO]: /c2me notick
+[14:41:14] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[14:41:15] [Server thread/INFO]: Stopping the server
+[14:41:15] [Server thread/INFO]: Stopping server
+[14:41:15] [Server thread/INFO]: Saving players
+[14:41:15] [Server thread/INFO]: Saving worlds
+[14:41:15] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[14:41:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:41:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:41:15] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:41:15] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:41:15] [Server thread/INFO]: Unloading level DhServerLevel{505ojdci5k2ea@minecraft:overworld} 
+[14:41:15] [Server thread/INFO]: Closing world gen queue
+[14:41:15] [Server thread/INFO]: Closing WorldGenerationQueue...
+[14:41:15] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[14:41:18] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[14:41:18] [Server thread/INFO]: BatchGenerator shutting down...
+[14:41:18] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[14:41:18] [Server thread/INFO]: Canceling in progress generation event futures...
+[14:41:18] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[14:41:18] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[14:41:18] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{505ojdci5k2ea@minecraft:overworld}].
+[14:41:18] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{505ojdci5k2ea@minecraft:overworld}].
+[14:41:18] [Server thread/INFO]: Closing database connection: [jdbc:sqlite:.\world\data\DistantHorizons.sqlite]
+[14:41:18] [DH-Parent Update Queue [minecraft:overworld] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:overworld] Thread[0]] terminated.
+[14:41:18] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[14:41:18] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{505ojdci5k2ea@minecraft:overworld}].
+[14:41:18] [Server thread/WARN]: Attempting to close already closed database connection: [jdbc:sqlite:.\world\data\DistantHorizons.sqlite]
+[14:41:18] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{505ojdci5k2ea@minecraft:overworld}].
+[14:41:18] [Server thread/WARN]: Attempting to close already closed database connection: [jdbc:sqlite:.\world\data\DistantHorizons.sqlite]
+[14:41:18] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[14:41:18] [C2ME Storage #3/INFO]: Storage thread Thread[#76,C2ME Storage #3,8,main] stopped
+[14:41:18] [C2ME Storage #2/INFO]: Storage thread Thread[#75,C2ME Storage #2,8,main] stopped
+[14:41:18] [Server thread/INFO]: Unloading level DhServerLevel{505ojdci5k2ea@minecraft:the_end} 
+[14:41:18] [C2ME Storage #1/INFO]: Storage thread Thread[#74,C2ME Storage #1,8,main] stopped
+[14:41:18] [Server thread/INFO]: Closing world gen queue
+[14:41:18] [Server thread/INFO]: Closing WorldGenerationQueue...
+[14:41:18] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[14:41:21] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[14:41:21] [Server thread/INFO]: BatchGenerator shutting down...
+[14:41:21] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[14:41:21] [Server thread/INFO]: Canceling in progress generation event futures...
+[14:41:21] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[14:41:21] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[14:41:22] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{505ojdci5k2ea@minecraft:the_end}].
+[14:41:22] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{505ojdci5k2ea@minecraft:the_end}].
+[14:41:22] [DH-Parent Update Queue [minecraft:the_end] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_end] Thread[0]] terminated.
+[14:41:22] [Server thread/INFO]: Closing database connection: [jdbc:sqlite:.\world\DIM1\data\DistantHorizons.sqlite]
+[14:41:22] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[14:41:22] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{505ojdci5k2ea@minecraft:the_end}].
+[14:41:22] [Server thread/WARN]: Attempting to close already closed database connection: [jdbc:sqlite:.\world\DIM1\data\DistantHorizons.sqlite]
+[14:41:22] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{505ojdci5k2ea@minecraft:the_end}].
+[14:41:22] [Server thread/WARN]: Attempting to close already closed database connection: [jdbc:sqlite:.\world\DIM1\data\DistantHorizons.sqlite]
+[14:41:22] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[14:41:22] [C2ME Storage #5/INFO]: Storage thread Thread[#84,C2ME Storage #5,8,main] stopped
+[14:41:22] [Server thread/INFO]: Unloading level DhServerLevel{505ojdci5k2ea@minecraft:the_nether} 
+[14:41:22] [C2ME Storage #4/INFO]: Storage thread Thread[#83,C2ME Storage #4,8,main] stopped
+[14:41:22] [Server thread/INFO]: Closing world gen queue
+[14:41:22] [C2ME Storage #6/INFO]: Storage thread Thread[#85,C2ME Storage #6,8,main] stopped
+[14:41:22] [Server thread/INFO]: Closing WorldGenerationQueue...
+[14:41:22] [Server thread/INFO]: Awaiting world generator thread pool termination...
+[14:41:25] [Server thread/WARN]: World generator thread pool shutdown didn't complete after [3] seconds. Some world generator requests may still be running.
+[14:41:25] [Server thread/INFO]: BatchGenerator shutting down...
+[14:41:25] [Server thread/INFO]: BatchGenerationEnvironment shutting down...
+[14:41:25] [Server thread/INFO]: Canceling in progress generation event futures...
+[14:41:25] [Server thread/INFO]: BatchGenerationEnvironment shutdown complete.
+[14:41:25] [Server thread/INFO]: Finished closing WorldGenerationQueue
+[14:41:25] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{505ojdci5k2ea@minecraft:the_nether}].
+[14:41:25] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{505ojdci5k2ea@minecraft:the_nether}].
+[14:41:25] [DH-Parent Update Queue [minecraft:the_nether] Thread[0]/INFO]: Update thread [DH-Parent Update Queue [minecraft:the_nether] Thread[0]] terminated.
+[14:41:25] [Server thread/INFO]: Closing database connection: [jdbc:sqlite:.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:41:25] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[14:41:25] [Server thread/INFO]: Closing [GeneratedFullDataSourceProvider] for level: [DhServerLevel{505ojdci5k2ea@minecraft:the_nether}].
+[14:41:25] [Server thread/WARN]: Attempting to close already closed database connection: [jdbc:sqlite:.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:41:25] [Server thread/INFO]: Closing [FullDataSourceProviderV1] for level: [DhServerLevel{505ojdci5k2ea@minecraft:the_nether}].
+[14:41:25] [Server thread/WARN]: Attempting to close already closed database connection: [jdbc:sqlite:.\world\DIM-1\data\DistantHorizons.sqlite]
+[14:41:25] [Server thread/INFO]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[14:41:25] [C2ME Storage #9/INFO]: Storage thread Thread[#91,C2ME Storage #9,8,main] stopped
+[14:41:25] [C2ME Storage #8/INFO]: Storage thread Thread[#90,C2ME Storage #8,8,main] stopped
+[14:41:25] [C2ME Storage #7/INFO]: Storage thread Thread[#89,C2ME Storage #7,8,main] stopped
+[14:41:25] [Server thread/INFO]: Closed DhWorld of type [SERVER_ONLY].
+[14:41:25] [Server thread/INFO]: Closing all [0] database connections...
