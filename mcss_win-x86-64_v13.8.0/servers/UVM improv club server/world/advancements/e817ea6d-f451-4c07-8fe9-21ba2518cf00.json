@@ -8306,6 +8306,7 @@
       "minecraft:spider": "2024-12-20 12:38:50 -0500",
       "minecraft:zombie": "2024-12-19 19:17:22 -0500",
       "minecraft:creeper": "2024-12-19 19:12:59 -0500",
+      "minecraft:drowned": "2024-12-24 12:34:42 -0500",
       "minecraft:slime": "2024-12-20 12:59:27 -0500"
     },
     "done": false
@@ -8517,6 +8518,12 @@
   "vanillatweaks:graves": {
     "criteria": {
       "tick": "2024-12-22 16:26:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/lightning_rod_with_villager_no_fire": {
+    "criteria": {
+      "lightning_rod_with_villager_no_fire": "2024-12-24 14:40:29 -0500"
     },
     "done": true
   },
