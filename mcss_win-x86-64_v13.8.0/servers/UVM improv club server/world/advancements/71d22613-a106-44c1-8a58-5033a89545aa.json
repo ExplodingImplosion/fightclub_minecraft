@@ -99,17 +99,24 @@
     "criteria": {
       "minecraft:cold_ocean": "2024-12-20 21:43:33 -0500",
       "minecraft:snowy_slopes": "2024-12-20 22:33:05 -0500",
+      "minecraft:old_growth_pine_taiga": "2024-12-25 02:29:18 -0500",
       "minecraft:forest": "2024-12-19 19:16:40 -0500",
       "minecraft:taiga": "2024-12-20 23:00:54 -0500",
       "minecraft:deep_ocean": "2024-12-20 21:38:31 -0500",
       "minecraft:lush_caves": "2024-12-21 21:07:11 -0500",
+      "minecraft:frozen_ocean": "2024-12-25 02:32:01 -0500",
       "minecraft:desert": "2024-12-24 00:42:23 -0500",
+      "minecraft:frozen_river": "2024-12-25 02:31:25 -0500",
+      "minecraft:deep_frozen_ocean": "2024-12-25 02:35:02 -0500",
       "minecraft:jungle": "2024-12-19 19:18:09 -0500",
       "minecraft:ocean": "2024-12-20 21:41:01 -0500",
       "minecraft:cherry_grove": "2024-12-19 19:31:37 -0500",
       "minecraft:sunflower_plains": "2024-12-19 19:38:16 -0500",
       "minecraft:birch_forest": "2024-12-19 19:01:01 -0500",
+      "minecraft:old_growth_spruce_taiga": "2024-12-25 02:29:22 -0500",
+      "minecraft:snowy_beach": "2024-12-25 02:32:00 -0500",
       "minecraft:bamboo_jungle": "2024-12-19 22:27:49 -0500",
+      "minecraft:windswept_savanna": "2024-12-25 02:12:46 -0500",
       "minecraft:deep_lukewarm_ocean": "2024-12-20 21:36:37 -0500",
       "minecraft:flower_forest": "2024-12-19 21:42:27 -0500",
       "minecraft:beach": "2024-12-20 21:57:42 -0500",
@@ -119,13 +126,16 @@
       "minecraft:river": "2024-12-19 19:10:41 -0500",
       "minecraft:lukewarm_ocean": "2024-12-20 21:36:18 -0500",
       "minecraft:stony_shore": "2024-12-20 21:42:26 -0500",
+      "minecraft:snowy_plains": "2024-12-25 02:38:49 -0500",
       "minecraft:dripstone_caves": "2024-12-19 19:12:25 -0500",
+      "minecraft:snowy_taiga": "2024-12-25 02:31:50 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-19 19:21:01 -0500",
       "minecraft:deep_dark": "2024-12-20 22:33:10 -0500",
       "minecraft:grove": "2024-12-21 15:53:53 -0500",
       "minecraft:meadow": "2024-12-19 19:26:52 -0500",
       "minecraft:savanna": "2024-12-20 23:37:12 -0500",
-      "minecraft:plains": "2024-12-19 19:25:07 -0500"
+      "minecraft:plains": "2024-12-19 19:25:07 -0500",
+      "minecraft:pale_garden": "2024-12-25 01:22:57 -0500"
     },
     "done": false
   },
@@ -8575,6 +8585,13 @@
       "tamed_animal": "2024-12-24 02:57:46 -0500"
     },
     "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2024-12-25 01:41:19 -0500",
+      "minecraft:ashen": "2024-12-25 03:32:52 -0500"
+    },
+    "done": false
   },
   "DataVersion": 4189
 }

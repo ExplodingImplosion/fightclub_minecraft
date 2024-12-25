@@ -120,6 +120,7 @@
       "minecraft:beach": "2024-12-19 19:57:13 -0500",
       "minecraft:dark_forest": "2024-12-19 21:16:43 -0500",
       "minecraft:stony_peaks": "2024-12-22 20:37:09 -0500",
+      "minecraft:mangrove_swamp": "2024-12-24 23:47:36 -0500",
       "minecraft:sparse_jungle": "2024-12-19 19:07:35 -0500",
       "minecraft:river": "2024-12-19 19:07:41 -0500",
       "minecraft:lukewarm_ocean": "2024-12-19 20:18:36 -0500",
@@ -8653,6 +8654,12 @@
   "minecraft:adventure/avoid_vibration": {
     "criteria": {
       "avoid_vibration": "2024-12-23 23:04:16 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2024-12-25 00:37:32 -0500"
     },
     "done": true
   },

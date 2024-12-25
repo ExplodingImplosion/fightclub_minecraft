@@ -97,17 +97,24 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cold_ocean": "2024-12-25 02:28:26 -0500",
       "minecraft:snowy_slopes": "2024-12-21 21:16:14 -0500",
+      "minecraft:old_growth_pine_taiga": "2024-12-25 02:29:17 -0500",
       "minecraft:forest": "2024-12-19 19:09:00 -0500",
       "minecraft:taiga": "2024-12-24 01:12:37 -0500",
       "minecraft:deep_ocean": "2024-12-21 03:17:58 -0500",
       "minecraft:lush_caves": "2024-12-19 19:34:28 -0500",
+      "minecraft:frozen_ocean": "2024-12-25 02:32:01 -0500",
       "minecraft:desert": "2024-12-21 02:57:17 -0500",
+      "minecraft:frozen_river": "2024-12-25 02:31:23 -0500",
+      "minecraft:deep_frozen_ocean": "2024-12-25 02:35:01 -0500",
       "minecraft:jungle": "2024-12-19 19:22:19 -0500",
       "minecraft:ocean": "2024-12-21 03:04:34 -0500",
       "minecraft:cherry_grove": "2024-12-19 22:43:08 -0500",
       "minecraft:sunflower_plains": "2024-12-19 22:50:31 -0500",
       "minecraft:birch_forest": "2024-12-19 19:00:29 -0500",
+      "minecraft:old_growth_spruce_taiga": "2024-12-25 02:29:22 -0500",
+      "minecraft:snowy_beach": "2024-12-25 02:31:59 -0500",
       "minecraft:bamboo_jungle": "2024-12-19 19:12:26 -0500",
       "minecraft:windswept_savanna": "2024-12-21 03:07:33 -0500",
       "minecraft:warm_ocean": "2024-12-21 02:57:15 -0500",
@@ -119,7 +126,10 @@
       "minecraft:sparse_jungle": "2024-12-19 19:07:05 -0500",
       "minecraft:river": "2024-12-19 19:07:03 -0500",
       "minecraft:lukewarm_ocean": "2024-12-21 02:56:58 -0500",
+      "minecraft:stony_shore": "2024-12-25 02:34:17 -0500",
+      "minecraft:snowy_plains": "2024-12-25 02:38:54 -0500",
       "minecraft:dripstone_caves": "2024-12-19 19:52:41 -0500",
+      "minecraft:snowy_taiga": "2024-12-25 02:31:50 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-21 03:04:57 -0500",
       "minecraft:deep_dark": "2024-12-20 00:21:02 -0500",
       "minecraft:grove": "2024-12-21 21:18:46 -0500",
@@ -8301,15 +8311,16 @@
       "cooked_porkchop": "2024-12-22 03:31:20 -0500",
       "pufferfish": "2024-12-23 04:01:00 -0500",
       "bread": "2024-12-19 21:28:33 -0500",
-      "cooked_chicken": "2024-12-21 15:07:17 -0500",
       "cooked_mutton": "2024-12-19 19:12:16 -0500",
       "glow_berries": "2024-12-19 19:58:43 -0500",
-      "cooked_cod": "2024-12-21 17:16:03 -0500",
+      "sweet_berries": "2024-12-25 02:40:26 -0500",
       "salmon": "2024-12-19 21:54:24 -0500",
       "cooked_beef": "2024-12-20 00:00:10 -0500",
       "melon_slice": "2024-12-20 15:09:12 -0500",
-      "cooked_salmon": "2024-12-19 20:06:51 -0500",
-      "golden_carrot": "2024-12-24 01:42:20 -0500"
+      "golden_carrot": "2024-12-24 01:42:20 -0500",
+      "cooked_chicken": "2024-12-21 15:07:17 -0500",
+      "cooked_cod": "2024-12-21 17:16:03 -0500",
+      "cooked_salmon": "2024-12-19 20:06:51 -0500"
     },
     "done": false
   },
@@ -8337,6 +8348,7 @@
       "minecraft:blaze": "2024-12-22 02:09:45 -0500",
       "minecraft:skeleton": "2024-12-19 20:34:23 -0500",
       "minecraft:phantom": "2024-12-22 00:17:12 -0500",
+      "minecraft:witch": "2024-12-25 03:17:50 -0500",
       "minecraft:wither_skeleton": "2024-12-22 02:09:11 -0500",
       "minecraft:ghast": "2024-12-22 01:45:38 -0500",
       "minecraft:hoglin": "2024-12-22 01:10:02 -0500",
@@ -8351,6 +8363,7 @@
       "minecraft:zombie": "2024-12-19 19:30:33 -0500",
       "minecraft:creeper": "2024-12-21 15:46:17 -0500",
       "minecraft:drowned": "2024-12-21 03:17:12 -0500",
+      "minecraft:zombie_villager": "2024-12-25 03:01:56 -0500",
       "minecraft:slime": "2024-12-24 01:32:52 -0500"
     },
     "done": false
@@ -8401,6 +8414,7 @@
     "criteria": {
       "minecraft:cow": "2024-12-19 22:11:30 -0500",
       "minecraft:chicken": "2024-12-23 02:02:54 -0500",
+      "minecraft:wolf": "2024-12-25 03:35:58 -0500",
       "minecraft:sheep": "2024-12-20 14:06:23 -0500",
       "minecraft:bee": "2024-12-19 22:47:51 -0500"
     },
@@ -8566,6 +8580,18 @@
       "under_lock_and_key": "2024-12-24 02:39:43 -0500"
     },
     "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2024-12-24 23:22:36 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:ashen": "2024-12-25 03:32:43 -0500"
+    },
+    "done": false
   },
   "DataVersion": 4189
 }

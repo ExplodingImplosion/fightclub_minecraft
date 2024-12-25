@@ -8308,16 +8308,17 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-12-23 22:53:26 -0500",
-      "minecraft:cave_spider": "2024-12-21 15:44:02 -0500",
       "minecraft:skeleton": "2024-12-19 21:33:34 -0500",
-      "minecraft:breeze": "2024-12-22 00:44:58 -0500",
       "minecraft:witch": "2024-12-20 14:23:20 -0500",
+      "minecraft:ghast": "2024-12-20 14:38:10 -0500",
+      "minecraft:cave_spider": "2024-12-21 15:44:02 -0500",
+      "minecraft:breeze": "2024-12-22 00:44:58 -0500",
+      "minecraft:enderman": "2024-12-24 23:08:22 -0500",
       "minecraft:spider": "2024-12-20 01:48:50 -0500",
       "minecraft:zombie": "2024-12-19 22:32:19 -0500",
       "minecraft:creeper": "2024-12-19 21:47:13 -0500",
       "minecraft:drowned": "2024-12-23 21:08:12 -0500",
       "minecraft:zombie_villager": "2024-12-22 01:08:41 -0500",
-      "minecraft:ghast": "2024-12-20 14:38:10 -0500",
       "minecraft:slime": "2024-12-22 00:30:05 -0500"
     },
     "done": false
@@ -8347,6 +8348,7 @@
       "porkchop": "2024-12-22 18:09:06 -0500",
       "golden_carrot": "2024-12-22 00:39:35 -0500",
       "apple": "2024-12-20 14:26:49 -0500",
+      "spider_eye": "2024-12-25 00:14:37 -0500",
       "cooked_chicken": "2024-12-21 23:14:46 -0500",
       "potato": "2024-12-19 23:26:27 -0500",
       "cooked_cod": "2024-12-20 17:18:10 -0500",
@@ -8547,6 +8549,30 @@
   "minecraft:adventure/avoid_vibration": {
     "criteria": {
       "avoid_vibration": "2024-12-23 23:08:04 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-12-24 23:06:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-24 23:06:32 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-12-24 23:12:03 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2024-12-25 00:11:52 -0500"
     },
     "done": true
   },
