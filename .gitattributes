@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+club filter=lfs diff=lfs merge=lfs -text
+server/world/data/DistantHorizons.sqlite filter=lfs diff=lfs merge=lfs -text
+C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM filter=lfs diff=lfs merge=lfs -text
+improv filter=lfs diff=lfs merge=lfs -text
