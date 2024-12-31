@@ -1,5 +1,5 @@
-[00:09:51] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[00:09:51] [main/INFO]: Loading 75 mods:
+[01:04:20] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[01:04:20] [main/INFO]: Loading 75 mods:
 	- c2me 0.3.1+rc.1.0+1.21.4
 	   |-- c2me-base 0.3.1+rc.1.0+1.21.4
 	   |-- c2me-client-uncapvd 0.3.1+rc.1.0+1.21.4
@@ -87,151 +87,404 @@
 	- noisium 2.5.0+mc1.21.4
 	- voicechat 1.21.4-2.5.26
 	   \-- fabric-key-binding-api-v1 1.0.55+7feeb73382
-[00:09:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:09:52] [main/INFO]: Compatibility level set to JAVA_16
-[00:09:52] [main/INFO]: Compatibility level set to JAVA_17
-[00:09:52] [main/INFO]: Compatibility level set to JAVA_21
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[00:09:52] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[00:09:52] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[00:09:52] [main/INFO]: Detected maximum supported ISA target: AVX2
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[00:09:52] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[00:09:52] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[00:09:52] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[00:09:52] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[00:09:52] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[00:09:52] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[00:09:52] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[00:09:52] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[00:09:52] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[00:09:52] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
-[00:09:53] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[00:09:53] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[00:09:53] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[00:09:59] [main/INFO]: Loading Noisium.
-[00:10:00] [main/INFO]: [voicechat] Compatibility version 18
-[00:10:00] [main/INFO]: [voicechat] Loading plugins
-[00:10:00] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[00:10:00] [main/INFO]: [voicechat] Initializing plugins
-[00:10:00] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[00:10:00] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[00:10:01] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[00:10:01] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[00:10:01] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[00:10:02] [main/INFO]: Loaded 1370 recipes
-[00:10:02] [main/INFO]: Loaded 1502 advancements
-[00:10:02] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.252 ms
-[00:10:02] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[00:10:02] [Server thread/INFO]: Loading properties
-[00:10:02] [Server thread/INFO]: Default game type: SURVIVAL
-[00:10:02] [Server thread/INFO]: Generating keypair
-[00:10:03] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[00:10:03] [Server thread/INFO]: Using default channel type
-[00:10:03] [Server thread/INFO]: Preparing level "world"
-[00:10:03] [Server thread/INFO]: Enforcing safe world random access
-[00:10:03] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 224.4 ms
-[00:10:03] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[00:10:03] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.749 ms
-[00:10:03] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.392 ms
-[00:10:03] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:10:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[00:10:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[00:10:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[00:10:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[00:10:05] [Server thread/INFO]: Time elapsed: 1656 ms
-[00:10:05] [Server thread/INFO]: Done (2.371s)! For help, type "help"
-[00:10:05] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[00:10:05] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[00:10:05] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[00:11:05] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[00:18:19] [User Authenticator #1/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
-[00:18:21] [Server thread/INFO]: GunYoshi[/98.214.164.251:54538] logged in with entity id 27 at (-97.08807876637366, 0.0, -250.86473682959684)
-[00:18:21] [Server thread/INFO]: GunYoshi he / him joined the game
-[00:18:21] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[00:22:59] [User Authenticator #2/INFO]: UUID of player BlockBearz is 10a642b9-6aef-430e-a5bd-938c54329887
-[00:23:00] [Server thread/INFO]: BlockBearz[/68.197.139.95:51341] logged in with entity id 1122 at (-144.27633630534783, 64.0, -309.2197416206124)
-[00:23:00] [Server thread/INFO]: BlockBearz he / him joined the game
-[00:26:23] [Server thread/INFO]: Explore_T-Mobile (/103.136.147.245:37666) lost connection: Disconnected
-[00:26:32] [Server thread/INFO]: t-mobile.com (/103.136.147.245:45212) lost connection: Disconnected
-[00:28:16] [Server thread/INFO]: BlockBearz he / him went up in flames
-[00:29:04] [User Authenticator #3/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[00:29:06] [Server thread/INFO]: madb0nes[/192.158.231.248:60383] logged in with entity id 3956 at (-91.64088843424926, 82.71875002384186, -207.09414710567134)
-[00:29:06] [Server thread/INFO]: madb0nes he / him joined the game
-[00:29:07] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
-[00:29:07] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
-[00:29:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[00:29:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
-[00:29:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
-[00:29:12] [Server thread/INFO]: <GunYoshi he / him> mads.....
-[00:29:14] [Server thread/INFO]: <GunYoshi he / him> my son
-[00:29:16] [Server thread/INFO]: <GunYoshi he / him> taken from me
-[00:29:19] [Server thread/INFO]: <GunYoshi he / him> he was taken from me
-[00:29:20] [Server thread/INFO]: <madb0nes he / him> i came to see the carnage.....
-[00:29:27] [Server thread/INFO]: <madb0nes he / him> i am so sorry for your loss...
-[00:29:32] [Server thread/INFO]: <BlockBearz he / him> i lost my 4 signs...
-[00:29:32] [Server thread/INFO]: <GunYoshi he / him> ouyggghjglhikjbfglskxl.//
-[00:29:34] [Server thread/INFO]: <GunYoshi he / him> its okk
-[00:29:51] [Server thread/INFO]: <madb0nes he / him> NOOOO MY HOLE IS GONEEE
-[00:29:55] [Server thread/INFO]: <GunYoshi he / him> NO!!!!!
-[00:30:14] [Server thread/INFO]: <madb0nes he / him> a tragic day on this server
-[00:30:47] [Server thread/INFO]: [GunYoshi he / him: Triggered [toggle coordinates hud]]
-[00:32:04] [Server thread/INFO]: BlockBearz he / him went up in flames
-[00:32:36] [Server thread/INFO]: <madb0nes he / him> well.. at least the holiday tree has been erected once more
-[00:32:40] [Server thread/INFO]: <GunYoshi he / him> LMAO
-[00:33:39] [Server thread/INFO]: <GunYoshi he / him> cant find my horse. is it over?
-[00:35:46] [Server thread/INFO]: BlockBearz he / him went up in flames
-[00:35:48] [Server thread/INFO]: <GunYoshi he / him> im gonna disconnect until it can maybe get fixed........ iuyigyghhh
-[00:35:50] [Server thread/INFO]: GunYoshi lost connection: Disconnected
-[00:35:50] [Server thread/INFO]: GunYoshi he / him left the game
-[00:35:50] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
-[00:35:55] [Server thread/INFO]: madb0nes lost connection: Disconnected
-[00:35:55] [Server thread/INFO]: madb0nes he / him left the game
-[00:35:55] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
-[00:36:24] [Server thread/INFO]: BlockBearz lost connection: Disconnected
-[00:36:24] [Server thread/INFO]: BlockBearz he / him left the game
-[00:36:24] [Server thread/INFO]: [voicechat] Disconnecting client BlockBearz
-[00:37:24] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[00:58:19] [User Authenticator #4/INFO]: UUID of player Mosshroom_ is dc7e2ddf-9c53-4b85-a6eb-4c391086470b
-[00:58:22] [Server thread/INFO]: Mosshroom_[/71.232.16.38:51307] logged in with entity id 7274 at (238.8723861743136, 1.0, -1.9318757517045646)
-[00:58:22] [Server thread/INFO]: Mosshroom_ joined the game
-[01:00:29] [Server thread/INFO]: Stopping the server
-[01:00:29] [Server thread/INFO]: Stopping server
-[01:00:29] [Server thread/INFO]: Saving players
-[01:00:29] [Server thread/INFO]: Mosshroom_ lost connection: Server closed
-[01:00:29] [Server thread/INFO]: Mosshroom_ left the game
-[01:00:29] [Server thread/INFO]: Saving worlds
-[01:00:29] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
-[01:00:29] [Server thread/INFO]: ServerLevel[world]/minecraft:the_end: waiting for 2209 chunks to unload
-[01:00:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[01:00:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[01:00:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[01:00:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[01:00:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[01:00:30] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[01:00:30] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:00:30] [C2ME Storage #3/INFO]: Storage thread Thread[#68,C2ME Storage #3,8,main] stopped
-[01:00:30] [C2ME Storage #2/INFO]: Storage thread Thread[#67,C2ME Storage #2,8,main] stopped
-[01:00:30] [C2ME Storage #1/INFO]: Storage thread Thread[#66,C2ME Storage #1,8,main] stopped
-[01:00:30] [C2ME Storage #6/INFO]: Storage thread Thread[#73,C2ME Storage #6,8,main] stopped
-[01:00:30] [C2ME Storage #5/INFO]: Storage thread Thread[#72,C2ME Storage #5,8,main] stopped
-[01:00:30] [C2ME Storage #4/INFO]: Storage thread Thread[#71,C2ME Storage #4,8,main] stopped
-[01:00:30] [C2ME Storage #9/INFO]: Storage thread Thread[#77,C2ME Storage #9,8,main] stopped
-[01:00:30] [C2ME Storage #8/INFO]: Storage thread Thread[#76,C2ME Storage #8,8,main] stopped
-[01:00:30] [C2ME Storage #7/INFO]: Storage thread Thread[#75,C2ME Storage #7,8,main] stopped
+[01:04:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:04:21] [main/INFO]: Compatibility level set to JAVA_16
+[01:04:21] [main/INFO]: Compatibility level set to JAVA_17
+[01:04:21] [main/INFO]: Compatibility level set to JAVA_21
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[01:04:21] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[01:04:21] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[01:04:21] [main/INFO]: Detected maximum supported ISA target: AVX2
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[01:04:21] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[01:04:21] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[01:04:21] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[01:04:21] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[01:04:21] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[01:04:21] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[01:04:21] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[01:04:21] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[01:04:21] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[01:04:21] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
+[01:04:22] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[01:04:22] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[01:04:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:04:29] [main/INFO]: Loading Noisium.
+[01:04:29] [main/INFO]: [voicechat] Compatibility version 18
+[01:04:29] [main/INFO]: [voicechat] Loading plugins
+[01:04:29] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[01:04:29] [main/INFO]: [voicechat] Initializing plugins
+[01:04:29] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[01:04:29] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:04:30] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[01:04:30] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[01:04:30] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[01:04:31] [main/INFO]: Loaded 1370 recipes
+[01:04:31] [main/INFO]: Loaded 1502 advancements
+[01:04:31] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.120 ms
+[01:04:31] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[01:04:31] [Server thread/INFO]: Loading properties
+[01:04:31] [Server thread/INFO]: Default game type: SURVIVAL
+[01:04:31] [Server thread/INFO]: Generating keypair
+[01:04:32] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[01:04:32] [Server thread/INFO]: Using default channel type
+[01:04:32] [Server thread/INFO]: Preparing level "world"
+[01:04:32] [Server thread/INFO]: Enforcing safe world random access
+[01:04:32] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 224.9 ms
+[01:04:32] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[01:04:32] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 8.393 ms
+[01:04:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.963 ms
+[01:04:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:04:34] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:04:34] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:04:34] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[01:04:34] [Server thread/INFO]: Time elapsed: 1270 ms
+[01:04:34] [Server thread/INFO]: Done (2.044s)! For help, type "help"
+[01:04:34] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[01:04:34] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[01:04:34] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[01:04:38] [User Authenticator #1/INFO]: UUID of player Mosshroom_ is dc7e2ddf-9c53-4b85-a6eb-4c391086470b
+[01:04:39] [Server thread/INFO]: Mosshroom_[/71.232.16.38:51427] logged in with entity id 27 at (241.36606491477906, 1.375, 0.24202492541795623)
+[01:04:39] [Server thread/INFO]: Mosshroom_ joined the game
+[01:04:39] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[01:09:04] [User Authenticator #2/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[01:09:06] [Server thread/INFO]: razeyrainbows[/146.115.92.123:52046] logged in with entity id 2918 at (-49.247364055037764, 63.0, -338.8590056490336)
+[01:09:06] [Server thread/INFO]: razeyrainbows they / them joined the game
+[01:09:07] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
+[01:09:07] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
+[01:09:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
+[01:09:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
+[01:09:09] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
+[01:12:33] [User Authenticator #3/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[01:12:34] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:51184] logged in with entity id 4508 at (393.30178787167716, 72.875, 496.1570025249395)
+[01:12:34] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
+[01:12:34] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
+[01:12:34] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
+[01:12:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[01:12:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[01:12:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
+[01:13:14] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
+[01:13:14] [Server thread/INFO]: ASFJASJHALALF he / him left the game
+[01:13:14] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
+[01:13:20] [User Authenticator #4/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[01:13:20] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:51241] logged in with entity id 5041 at (394.3610385955845, 72.0, 497.6869165707856)
+[01:13:20] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
+[01:13:20] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
+[01:13:20] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
+[01:13:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[01:13:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[01:13:21] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
+[01:13:25] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
+[01:13:25] [Server thread/INFO]: ASFJASJHALALF he / him left the game
+[01:13:25] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
+[01:37:12] [Server thread/INFO]: Mosshroom_ lost connection: Disconnected
+[01:37:12] [Server thread/INFO]: Mosshroom_ left the game
+[01:37:12] [Server thread/INFO]: [voicechat] Disconnecting client Mosshroom_
+[01:52:46] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
+[01:52:46] [Server thread/INFO]: razeyrainbows they / them left the game
+[01:52:46] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
+[01:53:46] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[01:54:57] [User Authenticator #5/INFO]: UUID of player BlockBearz is 10a642b9-6aef-430e-a5bd-938c54329887
+[01:54:57] [Server thread/INFO]: BlockBearz[/68.197.139.95:51697] logged in with entity id 17044 at (-115.70274396665157, 74.9375, -213.7303042271468)
+[01:54:57] [Server thread/INFO]: BlockBearz he / him joined the game
+[01:58:21] [User Authenticator #6/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[01:58:23] [Server thread/INFO]: GunYoshi[/98.214.164.251:54655] logged in with entity id 18009 at (-100.83108083273197, 64.84375002384186, -280.2663176174302)
+[01:58:23] [Server thread/INFO]: GunYoshi he / him joined the game
+[01:59:20] [User Authenticator #7/INFO]: UUID of player murder__goose is d18e994a-6034-49d7-a21a-d9ef5de4aff9
+[01:59:22] [Server thread/INFO]: murder__goose[/76.226.64.27:50707] logged in with entity id 18256 at (847.3713084104944, 71.0, -568.4753832776532)
+[01:59:22] [Server thread/INFO]: murder__goose joined the game
+[01:59:25] [Server thread/INFO]: murder__goose lost connection: Disconnected
+[01:59:25] [Server thread/INFO]: murder__goose left the game
+[01:59:25] [Server thread/INFO]: [voicechat] Disconnecting client murder__goose
+[01:59:36] [Server thread/INFO]: BlockBearz he / him went up in flames
+[01:59:42] [User Authenticator #8/INFO]: UUID of player murder__goose is d18e994a-6034-49d7-a21a-d9ef5de4aff9
+[01:59:43] [Server thread/INFO]: murder__goose[/76.226.64.27:50722] logged in with entity id 18833 at (848.3115213460902, 71.0, -568.1745864213206)
+[01:59:43] [Server thread/INFO]: murder__goose joined the game
+[02:00:19] [Server thread/INFO]: [murder__goose: Triggered [List Graves]]
+[02:02:30] [Server thread/INFO]: <GunYoshi he / him> -70, -275
+[02:03:02] [Server thread/INFO]: BlockBearz he / him went up in flames
+[02:06:26] [Server thread/INFO]: BlockBearz he / him went up in flames
+[02:06:36] [Server thread/INFO]: murder__goose lost connection: Disconnected
+[02:06:36] [Server thread/INFO]: murder__goose left the game
+[02:06:36] [Server thread/INFO]: [voicechat] Disconnecting client murder__goose
+[02:06:53] [Server thread/INFO]: There are 2 of a max of 69 players online: GunYoshi he / him, BlockBearz he / him
+[02:06:59] [Server thread/INFO]: Made King_Orion a server operator
+[02:07:06] [Server thread/INFO]: [Not Secure] [Server] yo ben youre gunyoshi right
+[02:07:18] [Server thread/INFO]: Gave 1 [Sniffer Egg] to GunYoshi he / him
+[02:07:25] [Server thread/INFO]: <GunYoshi he / him> yes
+[02:07:40] [Server thread/INFO]: <GunYoshi he / him> thank you!!!
+[02:09:27] [Server thread/INFO]: Summoned new Horse
+[02:10:17] [Server thread/INFO]: Summoned new Horse
+[02:21:30] [Server thread/INFO]: BlockBearz he / him went up in flames
+[02:27:41] [Server thread/INFO]: BlockBearz he / him drowned
+[02:30:39] [Server thread/INFO]: BlockBearz he / him was slain by GunYoshi he / him using [Goyslop]
+[02:35:16] [Server thread/INFO]: BlockBearz he / him drowned
+[02:38:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-83, y=54, z=-296} class_2338{x=-83, y=55, z=-296}
+[02:38:37] [Server thread/INFO]: BlockBearz he / him drowned
+[02:44:41] [User Authenticator #9/INFO]: UUID of player King_Orion is 9438c271-6781-41d2-a23c-ae87f86eefcc
+[02:44:43] [Server thread/INFO]: King_Orion[/185.172.52.245:58764] logged in with entity id 38587 at (-102.15225371150099, 0.0, -261.96875888866356)
+[02:44:43] [Server thread/INFO]: King_Orion he / him joined the game
+[02:44:59] [Server thread/INFO]: <King_Orion he / him> my chests are not organized anymore
+[02:44:59] [User Authenticator #10/INFO]: UUID of player murder__goose is d18e994a-6034-49d7-a21a-d9ef5de4aff9
+[02:45:01] [Server thread/INFO]: murder__goose[/76.226.64.27:50769] logged in with entity id 38742 at (-134.3927546941527, 71.0, -265.7582777046884)
+[02:45:01] [Server thread/INFO]: murder__goose joined the game
+[02:45:06] [Server thread/INFO]: <King_Orion he / him> fuck my stupid minecraft life
+[02:45:18] [Server thread/INFO]: murder__goose has made the advancement [Sweet Dreams]
+[02:46:22] [Server thread/INFO]: <King_Orion he / him> it's a good song
+[02:46:24] [Server thread/INFO]: <King_Orion he / him> trust
+[02:46:42] [Server thread/INFO]: <King_Orion he / him> where
+[02:47:06] [Server thread/INFO]: BlockBearz he / him went up in flames
+[02:49:24] [Server thread/INFO]: <King_Orion he / him> yeah
+[02:49:37] [Server thread/INFO]: <King_Orion he / him> junkle horse was a good boy
+[02:49:45] [Server thread/INFO]: <King_Orion he / him> i had the idea for his name
+[02:49:54] [Server thread/INFO]: <King_Orion he / him> and he truly embodied the junkle spirit
+[02:50:19] [Server thread/INFO]: <King_Orion he / him> i just hope he is galloping away somewhere beautiful
+[02:50:26] [Server thread/INFO]: <King_Orion he / him> fly high junkle horse
+[02:50:46] [Server thread/INFO]: <BlockBearz he / him> druncle horse
+[02:50:58] [Server thread/INFO]: <murder__goose> drunkle
+[02:51:03] [Server thread/INFO]: <GunYoshi he / him> junkle.
+[02:53:10] [Server thread/INFO]: <King_Orion he / him> play the music
+[02:55:13] [Server thread/INFO]: <King_Orion he / him> yeah ofc
+[02:56:18] [Server thread/INFO]: <King_Orion he / him> me too
+[02:56:38] [Server thread/INFO]: <King_Orion he / him> the sun setting and the monument and the music
+[02:56:40] [Server thread/INFO]: <King_Orion he / him> the kind words
+[02:56:57] [Server thread/INFO]: <King_Orion he / him> it's fine
+[02:57:11] [Server thread/INFO]: <King_Orion he / him> sewer boy don't sleep
+[02:57:26] [Server thread/INFO]: GunYoshi he / him has made the advancement [Glow and Behold!]
+[02:57:50] [Server thread/INFO]: <King_Orion he / him> aww
+[02:57:54] [Server thread/INFO]: murder__goose lost connection: Disconnected
+[02:57:54] [Server thread/INFO]: murder__goose left the game
+[02:57:54] [Server thread/INFO]: [voicechat] Disconnecting client murder__goose
+[02:58:40] [Server thread/INFO]: <King_Orion he / him> damn
+[02:58:53] [Server thread/INFO]: <King_Orion he / him> pour one out for junkle
+[02:59:09] [Server thread/INFO]: <King_Orion he / him> i can't really work on the sewer until i get creative so
+[02:59:22] [Server thread/INFO]: <King_Orion he / him> no
+[03:00:45] [Server thread/INFO]: <King_Orion he / him> LMAO WHAT
+[03:01:03] [Server thread/INFO]: <King_Orion he / him> good
+[03:01:19] [Server thread/INFO]: <King_Orion he / him> oh my god
+[03:01:33] [Server thread/INFO]: <King_Orion he / him> that's insane
+[03:01:56] [Server thread/INFO]: BlockBearz he / him went up in flames
+[03:02:38] [Server thread/INFO]: [GunYoshi he / him: Triggered [toggle coordinates hud]]
+[03:02:47] [Server thread/INFO]: <King_Orion he / him> i've read the book
+[03:02:58] [Server thread/INFO]: <King_Orion he / him> lmao
+[03:03:35] [Server thread/INFO]: <King_Orion he / him> lol
+[03:03:50] [Server thread/INFO]: <King_Orion he / him> like 2
+[03:03:56] [Server thread/INFO]: <King_Orion he / him> ohhh
+[03:04:30] [Server thread/INFO]: <King_Orion he / him> the first one is ok
+[03:04:51] [Server thread/INFO]: BlockBearz he / him went up in flames
+[03:04:53] [Server thread/INFO]: <King_Orion he / him> i used to love the mcu
+[03:05:02] [Server thread/INFO]: <King_Orion he / him> paul and i would watch the new ones every time
+[03:05:25] [Server thread/INFO]: <King_Orion he / him> i'm so geniunely bummed
+[03:05:31] [Server thread/INFO]: <King_Orion he / him> junkle
+[03:05:55] [Server thread/INFO]: <King_Orion he / him> maybe you can get close to your dogs
+[03:07:14] [Server thread/INFO]: <King_Orion he / him> yeah!
+[03:07:20] [Server thread/INFO]: <King_Orion he / him> awesome
+[03:07:32] [Server thread/INFO]: <King_Orion he / him> that's so funny
+[03:08:10] [Server thread/INFO]: <King_Orion he / him> i was not on the trip last year
+[03:08:21] [Server thread/INFO]: <King_Orion he / him> i only joined the team in second semester
+[03:08:30] [Server thread/INFO]: <King_Orion he / him> ye
+[03:08:48] [Server thread/INFO]: <King_Orion he / him> 12 hrs i think
+[03:09:14] [Server thread/INFO]: BlockBearz he / him drowned
+[03:10:14] [Server thread/INFO]: King_Orion lost connection: Disconnected
+[03:10:14] [Server thread/INFO]: King_Orion he / him left the game
+[03:10:14] [Server thread/INFO]: [voicechat] Disconnecting client King_Orion
+[03:12:59] [User Authenticator #11/INFO]: UUID of player King_Orion is 9438c271-6781-41d2-a23c-ae87f86eefcc
+[03:13:01] [Server thread/INFO]: King_Orion[/185.172.52.245:55027] logged in with entity id 44086 at (-76.32736615276119, 48.0, -251.94807120699468)
+[03:13:01] [Server thread/INFO]: King_Orion he / him joined the game
+[03:13:17] [Server thread/INFO]: <King_Orion he / him> i'm gonna hurt people with my powers
+[03:13:54] [Server thread/INFO]: <King_Orion he / him> bored
+[03:14:03] [Server thread/INFO]: BlockBearz he / him went up in flames
+[03:14:07] [Server thread/INFO]: <King_Orion he / him> kazam bro
+[03:14:32] [Server thread/INFO]: <King_Orion he / him> thank you ben that's exactly how i wanted it to be read
+[03:14:41] [Server thread/INFO]: <King_Orion he / him> llmao
+[03:14:55] [Server thread/INFO]: <King_Orion he / him> oh my god
+[03:15:11] [Server thread/INFO]: <King_Orion he / him> that boy's not right
+[03:15:43] [Server thread/INFO]: <King_Orion he / him> nick that was so funny
+[03:16:27] [Server thread/INFO]: BlockBearz he / him was slain by GunYoshi he / him using [Goyslop]
+[03:16:31] [Server thread/INFO]: <King_Orion he / him> oh
+[03:16:36] [Server thread/INFO]: <King_Orion he / him> that's gore-
+[03:16:41] [Server thread/INFO]: <King_Orion he / him> that's gore of my comfort character
+[03:16:55] [Server thread/INFO]: <King_Orion he / him> yes
+[03:18:15] [Server thread/INFO]: BlockBearz he / him fell from a high place
+[03:20:30] [Server thread/INFO]: BlockBearz he / him was slain by GunYoshi he / him
+[03:22:31] [Server thread/INFO]: <King_Orion he / him> sewer bad
+[03:22:39] [Server thread/INFO]: <King_Orion he / him> not yet
+[03:22:51] [Server thread/INFO]: <King_Orion he / him> i have to wait for miles i assume
+[03:23:22] [Server thread/INFO]: <King_Orion he / him> fire tunes
+[03:23:54] [Server thread/INFO]: <King_Orion he / him> ben did you see your gift from tori?
+[03:23:56] [Server thread/INFO]: BlockBearz he / him was doomed to fall by GunYoshi he / him using [Goyslop]
+[03:26:30] [Server thread/INFO]: <King_Orion he / him> :)
+[03:26:42] [Server thread/INFO]: <King_Orion he / him> :D
+[03:26:54] [Server thread/INFO]: <King_Orion he / him> grinch?
+[03:27:28] [Server thread/INFO]: <King_Orion he / him> yeah
+[03:27:46] [Server thread/INFO]: <King_Orion he / him> oh my god
+[03:28:31] [Server thread/INFO]: <King_Orion he / him> yes ofc
+[03:28:52] [Server thread/INFO]: <King_Orion he / him> :)
+[03:28:55] [Server thread/INFO]: <GunYoshi he / him> :)
+[03:29:07] [Server thread/INFO]: <King_Orion he / him> oh my god
+[03:30:01] [Server thread/INFO]: <King_Orion he / him> not going to dignify that with a response
+[03:30:34] [Server thread/INFO]: <King_Orion he / him> lmao
+[03:31:02] [Server thread/INFO]: <King_Orion he / him> lmao
+[03:32:32] [Server thread/INFO]: BlockBearz he / him fell from a high place
+[03:37:00] [Server thread/INFO]: <King_Orion he / him> YES
+[03:37:04] [Server thread/INFO]: <King_Orion he / him> i heart spider man
+[03:38:51] [Server thread/INFO]: <King_Orion he / him> lava anywhere
+[03:38:54] [Server thread/INFO]: <GunYoshi he / him> ?
+[03:39:04] [Server thread/INFO]: <King_Orion he / him> is there lava anywhere
+[03:39:07] [Server thread/INFO]: BlockBearz he / him fell from a high place
+[03:39:10] [Server thread/INFO]: <GunYoshi he / him> yes casey's house
+[03:39:17] [Server thread/INFO]: <GunYoshi he / him> and nether behind my house
+[03:41:32] [Server thread/INFO]: <King_Orion he / him> spider manw
+[03:42:38] [Server thread/INFO]: <King_Orion he / him> lol
+[03:43:01] [Server thread/INFO]: <King_Orion he / him> wt
+[03:43:21] [Server thread/INFO]: <King_Orion he / him> fire
+[03:43:24] [Server thread/INFO]: <King_Orion he / him> i like storm
+[03:43:59] [Server thread/INFO]: <King_Orion he / him> yeah
+[03:44:28] [Server thread/INFO]: <King_Orion he / him> nah
+[03:45:08] [Server thread/INFO]: <King_Orion he / him> fire
+[03:45:13] [Server thread/INFO]: <GunYoshi he / him> im spider-man.
+[03:45:16] [Server thread/INFO]: <King_Orion he / him> no
+[03:45:19] [Server thread/INFO]: <King_Orion he / him> i'm spiderman
+[03:45:40] [Server thread/INFO]: <King_Orion he / him> how the fuck was i supposed to get that
+[03:45:46] [Server thread/INFO]: <King_Orion he / him> from you writing i'm spiderman
+[03:45:50] [Server thread/INFO]: <King_Orion he / him> in minecraft chat
+[03:45:52] [Server thread/INFO]: <King_Orion he / him> no
+[03:45:59] [Server thread/INFO]: <King_Orion he / him> tell me you're joking
+[03:46:01] [Server thread/INFO]: <King_Orion he / him> autism
+[03:46:20] [Server thread/INFO]: <King_Orion he / him> exactly
+[03:46:25] [Server thread/INFO]: <King_Orion he / him> lmao
+[03:46:33] [Server thread/INFO]: BlockBearz he / him drowned
+[03:46:49] [Server thread/INFO]: <King_Orion he / him> let me hold your hand when i say this
+[03:47:26] [Server thread/INFO]: <King_Orion he / him> nah i just was a whole new thing altogether
+[03:47:53] [Server thread/INFO]: <King_Orion he / him> i'm down
+[03:48:04] [Server thread/INFO]: <King_Orion he / him> fire
+[03:48:11] [Server thread/INFO]: <King_Orion he / him> OH MY GOD YES
+[03:48:15] [Server thread/INFO]: <King_Orion he / him> AOUGHHH
+[03:48:31] [Server thread/INFO]: <King_Orion he / him> good!
+[03:48:43] [Server thread/INFO]: <King_Orion he / him> aw
+[03:48:54] [Server thread/INFO]: <King_Orion he / him> thank
+[03:49:10] [Server thread/INFO]: <King_Orion he / him> tell him gn for me
+[03:49:13] [Server thread/INFO]: <King_Orion he / him> fuck
+[03:49:34] [Server thread/INFO]: You whisper to BlockBearz he / him: HOLY SHIT BEHIND YOU!
+[03:49:41] [Server thread/INFO]: <King_Orion he / him> spiderman is my fav
+[03:49:45] [Server thread/INFO]: <King_Orion he / him> then daredevil
+[03:50:17] [Server thread/INFO]: <King_Orion he / him> damn
+[03:51:11] [Server thread/INFO]: BlockBearz he / him drowned
+[03:51:25] [Server thread/INFO]: <King_Orion he / him> lmao
+[03:51:52] [Server thread/INFO]: <King_Orion he / him> holy shit
+[03:52:55] [Server thread/INFO]: <King_Orion he / him> ok
+[03:52:56] [Server thread/INFO]: <King_Orion he / him> sure
+[03:52:59] [Server thread/INFO]: <King_Orion he / him> whatever
+[03:53:13] [Server thread/INFO]: <King_Orion he / him> done
+[03:53:14] [Server thread/INFO]: <King_Orion he / him> easy
+[03:53:45] [Server thread/INFO]: <King_Orion he / him> stop
+[03:53:56] [Server thread/INFO]: <King_Orion he / him> lol
+[03:54:20] [Server thread/INFO]: <King_Orion he / him> where the babes at? :(
+[03:54:47] [Server thread/INFO]: <King_Orion he / him> i- was uh told there'd be babes
+[03:55:18] [Server thread/INFO]: <King_Orion he / him> wtf
+[03:55:35] [Server thread/INFO]: BlockBearz he / him fell from a high place
+[03:55:39] [Server thread/INFO]: <King_Orion he / him> your mind is amazing
+[03:55:58] [Server thread/INFO]: <King_Orion he / him> L
+[03:56:32] [Server thread/INFO]: <King_Orion he / him> ok
+[03:57:15] [Server thread/INFO]: <King_Orion he / him> someone eep
+[03:57:17] [Server thread/INFO]: <King_Orion he / him> pleak
+[03:57:41] [Server thread/INFO]: <King_Orion he / him> thank
+[03:57:48] [Server thread/INFO]: <King_Orion he / him> :(
+[03:58:41] [Server thread/INFO]: <King_Orion he / him> that was awful
+[03:58:59] [Server thread/INFO]: <GunYoshi he / him> do you guys think the most popular girl at school would go for me, a nerd?
+[03:59:01] [Server thread/INFO]: <GunYoshi he / him> what
+[03:59:05] [Server thread/INFO]: <King_Orion he / him> wtf
+[03:59:20] [Server thread/INFO]: <King_Orion he / him> ur cooked
+[03:59:42] [Server thread/INFO]: <King_Orion he / him> lmao
+[03:59:49] [Server thread/INFO]: BlockBearz he / him drowned
+[04:00:06] [Server thread/INFO]: <King_Orion he / him> you do?
+[04:00:23] [Server thread/INFO]: <King_Orion he / him> no no
+[04:00:29] [Server thread/INFO]: <King_Orion he / him> nick said "I do think"
+[04:00:34] [Server thread/INFO]: <King_Orion he / him> and i said you do?
+[04:00:52] [Server thread/INFO]: <King_Orion he / him> implying that he does not think
+[04:01:03] [Server thread/INFO]: <King_Orion he / him> cause he hadn't finished his statement
+[04:01:24] [Server thread/INFO]: <King_Orion he / him> evan bray
+[04:01:41] [Server thread/INFO]: <King_Orion he / him> evan bray is the most popular girl in school
+[04:02:10] [Server thread/INFO]: <King_Orion he / him> the brood?
+[04:03:00] [Server thread/INFO]: <King_Orion he / him> mk
+[04:03:16] [Server thread/INFO]: <King_Orion he / him> temporal shit
+[04:04:16] [Server thread/INFO]: <King_Orion he / him> he hates the coocoo
+[04:04:16] [Server thread/INFO]: BlockBearz he / him was slain by GunYoshi he / him using [Hey Paul!]
+[04:04:33] [Server thread/INFO]: <King_Orion he / him> need more nick head
+[04:05:58] [Server thread/INFO]: <King_Orion he / him> i heart todd and tudd
+[04:06:23] [Server thread/INFO]: <King_Orion he / him> that's cute
+[04:07:03] [Server thread/INFO]: <King_Orion he / him> ?
+[04:07:13] [Server thread/INFO]: <King_Orion he / him> oh
+[04:07:18] [Server thread/INFO]: <King_Orion he / him> gross
+[04:07:39] [Server thread/INFO]: BlockBearz he / him drowned
+[04:07:55] [Server thread/INFO]: <King_Orion he / him> lmao
+[04:08:21] [Server thread/INFO]: <King_Orion he / him> i have such a love hate relationship w twitter
+[04:08:32] [Server thread/INFO]: <King_Orion he / him> i am risen
+[04:08:41] [Server thread/INFO]: <King_Orion he / him> oo
+[04:08:57] [Server thread/INFO]: <King_Orion he / him> i'm so sad ab sewer
+[04:09:26] [Server thread/INFO]: <King_Orion he / him> thank
+[04:09:41] [Server thread/INFO]: <King_Orion he / him> woah
+[04:09:48] [Server thread/INFO]: <King_Orion he / him> this is awesome
+[04:09:53] [Server thread/INFO]: <King_Orion he / him> yeah
+[04:10:15] [Server thread/INFO]: <King_Orion he / him> do you have a plan for the layout of this field area?
+[04:10:24] [Server thread/INFO]: <King_Orion he / him> dope
+[04:10:30] [Server thread/INFO]: <King_Orion he / him> i dig it
+[04:10:42] [Server thread/INFO]: <King_Orion he / him> i want to build a barn over here
+[04:10:49] [Server thread/INFO]: <King_Orion he / him> fire
+[04:10:59] [Server thread/INFO]: <King_Orion he / him> oke
+[04:11:07] [Server thread/INFO]: BlockBearz he / him was killed while trying to hurt King_Orion he / him
+[04:11:12] [Server thread/INFO]: <King_Orion he / him> lol
+[04:11:19] [Server thread/INFO]: <King_Orion he / him> how did that happen
+[04:11:26] [Server thread/INFO]: <King_Orion he / him> lol
+[04:11:42] [Server thread/INFO]: <King_Orion he / him> i love you nick
+[04:12:38] [Server thread/INFO]: BlockBearz he / him fell from a high place
+[04:12:41] [Server thread/INFO]: <King_Orion he / him> lol
+[04:13:50] [Server thread/INFO]: <King_Orion he / him> agree
+[04:13:53] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[04:13:53] [Server thread/INFO]: GunYoshi he / him left the game
+[04:13:53] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[04:13:57] [Server thread/INFO]: <King_Orion he / him> gn!
+[04:13:59] [Server thread/INFO]: King_Orion lost connection: Disconnected
+[04:13:59] [Server thread/INFO]: King_Orion he / him left the game
+[04:13:59] [Server thread/INFO]: [voicechat] Disconnecting client King_Orion
+[04:14:03] [Server thread/INFO]: BlockBearz lost connection: Disconnected
+[04:14:03] [Server thread/INFO]: BlockBearz he / him left the game
+[04:14:03] [Server thread/INFO]: [voicechat] Disconnecting client BlockBearz
+[04:15:03] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[07:04:34] [Server thread/INFO]: Stopping the server
+[07:04:34] [Server thread/INFO]: Stopping server
+[07:04:34] [Server thread/INFO]: Saving players
+[07:04:34] [Server thread/INFO]: Saving worlds
+[07:04:34] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[07:04:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[07:04:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[07:04:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[07:04:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[07:04:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[07:04:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[07:04:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[07:04:34] [C2ME Storage #3/INFO]: Storage thread Thread[#67,C2ME Storage #3,8,main] stopped
+[07:04:34] [C2ME Storage #2/INFO]: Storage thread Thread[#66,C2ME Storage #2,8,main] stopped
+[07:04:34] [C2ME Storage #1/INFO]: Storage thread Thread[#65,C2ME Storage #1,8,main] stopped
+[07:04:34] [C2ME Storage #6/INFO]: Storage thread Thread[#72,C2ME Storage #6,8,main] stopped
+[07:04:34] [C2ME Storage #5/INFO]: Storage thread Thread[#71,C2ME Storage #5,8,main] stopped
+[07:04:34] [C2ME Storage #4/INFO]: Storage thread Thread[#70,C2ME Storage #4,8,main] stopped
+[07:04:34] [C2ME Storage #9/INFO]: Storage thread Thread[#76,C2ME Storage #9,8,main] stopped
+[07:04:34] [C2ME Storage #8/INFO]: Storage thread Thread[#75,C2ME Storage #8,8,main] stopped
+[07:04:34] [C2ME Storage #7/INFO]: Storage thread Thread[#74,C2ME Storage #7,8,main] stopped

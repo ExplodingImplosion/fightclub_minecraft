@@ -12,7 +12,7 @@
     "autoLoadConsole": true,
     "lastUpdateCheck": "2024-12-31T04:14:40.7774274Z",
     "serverInactivityKillCounter": -1,
-    "maxTrackedConsoleLines": 250,
+    "maxTrackedConsoleLines": 5000,
     "consoleFont": "Consolas, 10pt",
     "consoleFontColor": "244, 244, 244",
     "customColors": null,
