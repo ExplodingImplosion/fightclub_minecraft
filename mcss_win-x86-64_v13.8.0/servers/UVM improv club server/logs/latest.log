@@ -1,5 +1,5 @@
-[14:26:21] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[14:26:21] [main/INFO]: Loading 78 mods:
+[14:28:37] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[14:28:37] [main/INFO]: Loading 78 mods:
 	- c2me 0.3.1+rc.1.0+1.21.4
 	   |-- c2me-base 0.3.1+rc.1.0+1.21.4
 	   |-- c2me-client-uncapvd 0.3.1+rc.1.0+1.21.4
@@ -90,162 +90,111 @@
 	- noisium 2.5.0+mc1.21.4
 	- voicechat 1.21.4-2.5.26
 	   \-- fabric-key-binding-api-v1 1.0.55+7feeb73382
-[14:26:21] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[14:26:21] [main/INFO]: Compatibility level set to JAVA_16
-[14:26:21] [main/INFO]: Compatibility level set to JAVA_17
-[14:26:21] [main/INFO]: Compatibility level set to JAVA_21
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[14:26:22] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[14:26:22] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[14:26:22] [main/INFO]: Detected maximum supported ISA target: AVX2
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:26:22] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[14:26:22] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[14:26:22] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[14:26:22] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[14:26:22] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[14:26:22] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[14:26:22] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[14:26:22] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[14:26:22] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[14:26:22] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
-[14:26:22] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[14:26:22] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[14:26:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[14:26:29] [main/INFO]: Loading Noisium.
-[14:26:29] [main/INFO]: [voicechat] Compatibility version 18
-[14:26:29] [main/INFO]: [voicechat] Loading plugins
-[14:26:29] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[14:26:29] [main/INFO]: [voicechat] Initializing plugins
-[14:26:29] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[14:26:29] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:26:31] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[14:26:31] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[14:26:31] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[14:26:31] [main/INFO]: Loaded 1370 recipes
-[14:26:31] [main/INFO]: Loaded 1554 advancements
-[14:26:31] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.262 ms
-[14:26:32] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[14:26:32] [Server thread/INFO]: Loading properties
-[14:26:32] [Server thread/INFO]: Default game type: SURVIVAL
-[14:26:32] [Server thread/INFO]: Generating keypair
-[14:26:32] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[14:26:32] [Server thread/INFO]: Using default channel type
-[14:26:32] [Server thread/INFO]: Preparing level "world"
-[14:26:32] [Server thread/INFO]: Enforcing safe world random access
-[14:26:32] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 203.8 ms
-[14:26:33] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[14:26:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.750 ms
-[14:26:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.293 ms
-[14:26:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:26:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[14:26:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[14:26:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[14:26:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[14:26:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[14:26:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[14:26:36] [Server thread/INFO]: Time elapsed: 3058 ms
-[14:26:36] [Server thread/INFO]: Done (3.708s)! For help, type "help"
-[14:26:36] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[14:26:36] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[14:26:36] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[14:26:42] [User Authenticator #1/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[14:26:43] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:52959] logged in with entity id 6 at (376.01322441225403, 71.0, 515.5393884918033)
-[14:26:44] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
-[14:26:44] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[14:26:44] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
-[14:26:44] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
-[14:26:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[14:26:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[14:26:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
-[14:27:38] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 866 chunks (0.27%), ETA: 0:00:36, Rate: 8660.0 cps, Current: 19, 10
-[14:27:39] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 7116 chunks (2.23%), ETA: 0:00:48, Rate: 6463.2 cps, Current: -6, 35
-[14:27:40] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 14031 chunks (4.40%), ETA: 0:00:45, Rate: 6675.1 cps, Current: 61, -41
-[14:27:41] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 20978 chunks (6.57%), ETA: 0:00:44, Rate: 6760.6 cps, Current: -51, 80
-[14:27:42] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 26281 chunks (8.23%), ETA: 0:00:45, Rate: 6403.8 cps, Current: 126, 94
-[14:27:43] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 31555 chunks (9.88%), ETA: 0:00:46, Rate: 6181.2 cps, Current: 118, -82
-[14:27:44] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 36791 chunks (11.53%), ETA: 0:00:46, Rate: 6025.4 cps, Current: -43, -93
-[14:27:45] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 43296 chunks (13.56%), ETA: 0:00:45, Rate: 6092.0 cps, Current: -92, 115
-[14:27:46] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 48722 chunks (15.26%), ETA: 0:00:45, Rate: 6009.1 cps, Current: 81, 124
-[14:27:47] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 53896 chunks (16.88%), ETA: 0:00:44, Rate: 5916.8 cps, Current: 154, 25
-[14:27:48] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 59221 chunks (18.55%), ETA: 0:00:44, Rate: 5857.7 cps, Current: 113, -113
-[14:27:49] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 64386 chunks (20.17%), ETA: 0:00:43, Rate: 5794.8 cps, Current: -42, -121
-[14:27:50] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 69526 chunks (21.78%), ETA: 0:00:43, Rate: 5740.3 cps, Current: -112, -25
-[14:27:51] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 76022 chunks (23.81%), ETA: 0:00:41, Rate: 5797.5 cps, Current: -61, 140
-[14:27:52] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 81240 chunks (25.45%), ETA: 0:00:41, Rate: 5756.0 cps, Current: 97, 158
-[14:27:53] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 86523 chunks (27.10%), ETA: 0:00:40, Rate: 5724.3 cps, Current: 175, 51
-[14:27:54] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 91926 chunks (28.80%), ETA: 0:00:39, Rate: 5704.0 cps, Current: 191, -120
-[14:27:55] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 97034 chunks (30.40%), ETA: 0:00:39, Rate: 5668.9 cps, Current: 60, -147
-[14:27:56] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 101996 chunks (31.95%), ETA: 0:00:38, Rate: 5629.5 cps, Current: -105, -130
-[14:27:57] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 107306 chunks (33.61%), ETA: 0:00:37, Rate: 5612.5 cps, Current: -135, -24
-[14:27:58] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 112754 chunks (35.32%), ETA: 0:00:36, Rate: 5604.1 cps, Current: -150, 167
-[14:27:59] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 117762 chunks (36.89%), ETA: 0:00:36, Rate: 5575.6 cps, Current: 0, 161
-[14:28:00] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 122998 chunks (38.53%), ETA: 0:00:35, Rate: 5560.0 cps, Current: 171, 164
-[14:28:01] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 128358 chunks (40.21%), ETA: 0:00:34, Rate: 5551.1 cps, Current: 196, 63
-[14:28:02] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 133586 chunks (41.85%), ETA: 0:00:33, Rate: 5537.5 cps, Current: 203, -106
-[14:28:03] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 138734 chunks (43.46%), ETA: 0:00:32, Rate: 5521.8 cps, Current: 106, -175
-[14:28:04] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 143967 chunks (45.10%), ETA: 0:00:31, Rate: 5510.5 cps, Current: -46, -164
-[14:28:05] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 149267 chunks (46.76%), ETA: 0:00:30, Rate: 5502.5 cps, Current: -162, -150
-[14:28:06] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 154531 chunks (48.41%), ETA: 0:00:29, Rate: 5493.8 cps, Current: -174, 2
-[14:28:07] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 159769 chunks (50.05%), ETA: 0:00:29, Rate: 5484.9 cps, Current: -190, 198
-[14:28:08] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 164854 chunks (51.64%), ETA: 0:00:28, Rate: 5471.4 cps, Current: -36, 195
-[14:28:09] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 170202 chunks (53.32%), ETA: 0:00:27, Rate: 5432.0 cps, Current: 133, 200
-[14:28:10] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 175458 chunks (54.96%), ETA: 0:00:26, Rate: 5373.1 cps, Current: 229, 156
-[14:28:11] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 177868 chunks (55.72%), ETA: 0:00:27, Rate: 5179.0 cps, Current: 249, 81
-[14:28:12] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 178719 chunks (55.99%), ETA: 0:00:27, Rate: 5028.0 cps, Current: 242, 55
-[14:28:13] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 182106 chunks (57.05%), ETA: 0:00:27, Rate: 4965.7 cps, Current: 240, -51
-[14:28:15] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 186329 chunks (58.37%), ETA: 0:00:27, Rate: 4865.7 cps, Current: 224, -224
-[14:28:16] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 186998 chunks (58.58%), ETA: 0:00:29, Rate: 4540.8 cps, Current: 251, -186
-[14:28:17] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 187024 chunks (58.59%), ETA: 0:00:30, Rate: 4357.5 cps, Current: 251, -196
-[14:28:19] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 187071 chunks (58.60%), ETA: 0:00:31, Rate: 4161.4 cps, Current: 252, -202
-[14:28:20] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 187102 chunks (58.61%), ETA: 0:00:33, Rate: 3991.0 cps, Current: 252, -208
-[14:28:21] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 187288 chunks (58.67%), ETA: 0:00:35, Rate: 3766.6 cps, Current: 250, -222
-[14:28:22] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 187332 chunks (58.68%), ETA: 0:00:36, Rate: 3591.0 cps, Current: 253, -220
-[14:28:23] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 189571 chunks (59.38%), ETA: 0:00:37, Rate: 3490.7 cps, Current: 141, -211
-[14:28:24] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 193700 chunks (60.68%), ETA: 0:00:36, Rate: 3446.3 cps, Current: 8, -210
-[14:28:25] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 197999 chunks (62.02%), ETA: 0:00:35, Rate: 3418.2 cps, Current: -120, -200
-[14:28:26] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 202551 chunks (63.45%), ETA: 0:00:34, Rate: 3402.5 cps, Current: -202, -179
-[14:28:27] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 207129 chunks (64.88%), ETA: 0:00:33, Rate: 3387.5 cps, Current: -220, -12
-[14:28:28] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 211550 chunks (66.27%), ETA: 0:00:32, Rate: 3344.2 cps, Current: -206, 125
-[14:28:29] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 215381 chunks (67.47%), ETA: 0:00:31, Rate: 3301.1 cps, Current: -218, 248
-[14:28:30] [Server thread/INFO]: [Chunky] Task running for minecraft:overworld. Processed: 215404 chunks (67.48%), ETA: 0:00:33, Rate: 3127.3 cps, Current: -218, 252
-[14:28:31] [Chunky-minecraft:overworld Thread/INFO]: [Chunky] Task stopped for minecraft:overworld.
-[14:28:33] [Server thread/INFO]: [ASFJASJHALALF he / him: Stopping the server]
-[14:28:33] [Server thread/INFO]: Stopping server
-[14:28:33] [Server thread/INFO]: Saving players
-[14:28:33] [Server thread/INFO]: ASFJASJHALALF lost connection: Server closed
-[14:28:33] [Server thread/INFO]: ASFJASJHALALF he / him left the game
-[14:28:33] [Server thread/INFO]: Saving worlds
-[14:28:33] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 3524 chunks to unload
-[14:28:33] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:28:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[14:28:34] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[14:28:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:28:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:28:34] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:28:34] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:28:34] [C2ME Storage #3/INFO]: Storage thread Thread[#67,C2ME Storage #3,8,main] stopped
-[14:28:34] [C2ME Storage #2/INFO]: Storage thread Thread[#66,C2ME Storage #2,8,main] stopped
-[14:28:34] [C2ME Storage #1/INFO]: Storage thread Thread[#65,C2ME Storage #1,8,main] stopped
-[14:28:34] [C2ME Storage #6/INFO]: Storage thread Thread[#72,C2ME Storage #6,8,main] stopped
-[14:28:34] [C2ME Storage #5/INFO]: Storage thread Thread[#71,C2ME Storage #5,8,main] stopped
-[14:28:34] [C2ME Storage #4/INFO]: Storage thread Thread[#70,C2ME Storage #4,8,main] stopped
-[14:28:34] [C2ME Storage #9/INFO]: Storage thread Thread[#76,C2ME Storage #9,8,main] stopped
-[14:28:34] [C2ME Storage #8/INFO]: Storage thread Thread[#75,C2ME Storage #8,8,main] stopped
-[14:28:34] [C2ME Storage #7/INFO]: Storage thread Thread[#74,C2ME Storage #7,8,main] stopped
+[14:28:37] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:28:37] [main/INFO]: Compatibility level set to JAVA_16
+[14:28:37] [main/INFO]: Compatibility level set to JAVA_17
+[14:28:37] [main/INFO]: Compatibility level set to JAVA_21
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[14:28:38] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[14:28:38] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[14:28:38] [main/INFO]: Detected maximum supported ISA target: AVX2
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[14:28:38] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[14:28:38] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[14:28:38] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[14:28:38] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[14:28:38] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[14:28:38] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[14:28:38] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[14:28:38] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[14:28:38] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[14:28:38] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
+[14:28:38] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[14:28:38] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[14:28:39] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14:28:45] [main/INFO]: Loading Noisium.
+[14:28:45] [main/INFO]: [voicechat] Compatibility version 18
+[14:28:45] [main/INFO]: [voicechat] Loading plugins
+[14:28:45] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[14:28:45] [main/INFO]: [voicechat] Initializing plugins
+[14:28:45] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[14:28:45] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:28:47] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[14:28:47] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[14:28:47] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[14:28:47] [main/INFO]: Loaded 1370 recipes
+[14:28:48] [main/INFO]: Loaded 1554 advancements
+[14:28:48] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.291 ms
+[14:28:48] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[14:28:48] [Server thread/INFO]: Loading properties
+[14:28:48] [Server thread/INFO]: Default game type: SURVIVAL
+[14:28:48] [Server thread/INFO]: Generating keypair
+[14:28:48] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[14:28:48] [Server thread/INFO]: Using default channel type
+[14:28:48] [Server thread/INFO]: Preparing level "world"
+[14:28:48] [Server thread/INFO]: Enforcing safe world random access
+[14:28:49] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 250.8 ms
+[14:28:49] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[14:28:49] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.744 ms
+[14:28:49] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.379 ms
+[14:28:49] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:28:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[14:28:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[14:28:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[14:28:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[14:28:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[14:28:52] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[14:28:52] [Server thread/INFO]: Time elapsed: 3020 ms
+[14:28:52] [Server thread/INFO]: Done (3.765s)! For help, type "help"
+[14:28:52] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[14:28:52] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[14:28:52] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[14:28:58] [User Authenticator #1/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[14:28:58] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:53012] logged in with entity id 6 at (411.2898118959183, 68.0, 519.6988691266223)
+[14:28:58] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
+[14:28:58] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[14:28:59] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
+[14:28:59] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
+[14:28:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[14:29:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[14:29:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
+[14:29:47] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
+[14:29:47] [Server thread/INFO]: ASFJASJHALALF he / him left the game
+[14:29:47] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
+[14:29:52] [Server thread/INFO]: Stopping the server
+[14:29:52] [Server thread/INFO]: Stopping server
+[14:29:52] [Server thread/INFO]: Saving players
+[14:29:52] [Server thread/INFO]: Saving worlds
+[14:29:52] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[14:29:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:29:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[14:29:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[14:29:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:29:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:29:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:29:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[14:29:53] [C2ME Storage #3/INFO]: Storage thread Thread[#67,C2ME Storage #3,8,main] stopped
+[14:29:53] [C2ME Storage #2/INFO]: Storage thread Thread[#66,C2ME Storage #2,8,main] stopped
+[14:29:53] [C2ME Storage #1/INFO]: Storage thread Thread[#65,C2ME Storage #1,8,main] stopped
+[14:29:53] [C2ME Storage #5/INFO]: Storage thread Thread[#71,C2ME Storage #5,8,main] stopped
+[14:29:53] [C2ME Storage #6/INFO]: Storage thread Thread[#72,C2ME Storage #6,8,main] stopped
+[14:29:53] [C2ME Storage #4/INFO]: Storage thread Thread[#70,C2ME Storage #4,8,main] stopped
+[14:29:53] [C2ME Storage #9/INFO]: Storage thread Thread[#76,C2ME Storage #9,8,main] stopped
+[14:29:53] [C2ME Storage #8/INFO]: Storage thread Thread[#75,C2ME Storage #8,8,main] stopped
+[14:29:53] [C2ME Storage #7/INFO]: Storage thread Thread[#74,C2ME Storage #7,8,main] stopped
