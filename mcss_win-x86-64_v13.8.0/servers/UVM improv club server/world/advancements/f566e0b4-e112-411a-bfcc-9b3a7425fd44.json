@@ -29,12 +29,6 @@
     },
     "done": true
   },
-  "vanillatweaks:afk_display": {
-    "criteria": {
-      "tick": "2024-12-19 19:00:55 -0500"
-    },
-    "done": true
-  },
   "vanillatweaks:confetti_creepers": {
     "criteria": {
       "tick": "2024-12-19 19:00:55 -0500"
@@ -8561,6 +8555,12 @@
   "minecraft:nether/return_to_sender": {
     "criteria": {
       "killed_ghast": "2024-12-24 18:16:06 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-12-28 00:33:28 -0500"
     },
     "done": true
   },

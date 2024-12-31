@@ -1601,12 +1601,6 @@
     },
     "done": true
   },
-  "vanillatweaks:afk_display": {
-    "criteria": {
-      "tick": "2024-12-19 19:01:02 -0500"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_the_recipe": "2024-12-19 19:01:02 -0500"

@@ -29,12 +29,6 @@
     },
     "done": true
   },
-  "vanillatweaks:afk_display": {
-    "criteria": {
-      "tick": "2024-12-19 19:01:00 -0500"
-    },
-    "done": true
-  },
   "vanillatweaks:confetti_creepers": {
     "criteria": {
       "tick": "2024-12-19 19:01:00 -0500"
@@ -8314,6 +8308,7 @@
       "cooked_chicken": "2024-12-19 20:38:05 -0500",
       "cooked_cod": "2024-12-20 23:38:34 -0500",
       "cooked_salmon": "2024-12-19 21:53:47 -0500",
+      "pumpkin_pie": "2024-12-29 01:41:04 -0500",
       "carrot": "2024-12-23 22:51:14 -0500"
     },
     "done": false
@@ -8397,6 +8392,8 @@
   },
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
+      "minecraft:cat": "2024-12-25 21:48:40 -0500",
+      "minecraft:cow": "2024-12-27 01:46:07 -0500",
       "minecraft:sheep": "2024-12-21 20:56:19 -0500",
       "minecraft:bee": "2024-12-20 13:24:38 -0500"
     },
@@ -8592,6 +8589,19 @@
       "minecraft:ashen": "2024-12-25 03:32:52 -0500"
     },
     "done": false
+  },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:calico": "2024-12-25 21:15:20 -0500",
+      "minecraft:siamese": "2024-12-25 20:36:59 -0500"
+    },
+    "done": false
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2024-12-27 01:05:08 -0500"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }

@@ -3,7 +3,7 @@ _version = 3
 [server]
 	#
 	# Defines the distance the player will receive updates around.
-	realTimeUpdateDistanceRadiusInChunks = 512
+	realTimeUpdateDistanceRadiusInChunks = 256
 	#
 	# Maximum speed for uploading LODs to the clients, in KB/s.
 	# Value of 0 disables the limit.
@@ -133,7 +133,7 @@ _version = 3
 		# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 		# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 		# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-		numberOfLodBuilderThreads = 1
+		numberOfLodBuilderThreads = 2
 		#
 		# Should only be disabled if deadlock occurs and LODs refuse to update. 
 		# This will cause CPU usage to drastically increase for the Lod Builder threads. 
@@ -151,7 +151,7 @@ _version = 3
 		# If the total thread count in Distant Horizon's config is more threads than your CPU has cores, 
 		# CPU performance may suffer if Distant Horizons has a lot to load or generate. 
 		# This can be an issue when first loading into a world, when flying, and/or when generating new terrain.
-		numberOfNetworkCompressionThreads = 1
+		numberOfNetworkCompressionThreads = 2
 		#
 		# A value between 1.0 and 0.0 that represents the percentage 
 		# of time each thread can run before going idle. 
@@ -309,7 +309,7 @@ _version = 3
 		#
 		# Should Distant Horizons slowly generate LODs 
 		#  outside the vanilla render distance?
-		enableDistantGeneration = true
+		enableDistantGeneration = false
 
 [client]
 	#

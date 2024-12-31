@@ -98,7 +98,9 @@
       "minecraft:taiga": "2024-12-24 01:12:37 -0500",
       "minecraft:deep_ocean": "2024-12-21 03:17:58 -0500",
       "minecraft:lush_caves": "2024-12-19 19:34:28 -0500",
+      "minecraft:deep_cold_ocean": "2024-12-29 03:27:57 -0500",
       "minecraft:frozen_ocean": "2024-12-25 02:32:01 -0500",
+      "minecraft:eroded_badlands": "2024-12-28 03:43:15 -0500",
       "minecraft:desert": "2024-12-21 02:57:17 -0500",
       "minecraft:frozen_river": "2024-12-25 02:31:23 -0500",
       "minecraft:deep_frozen_ocean": "2024-12-25 02:35:01 -0500",
@@ -107,13 +109,16 @@
       "minecraft:cherry_grove": "2024-12-19 22:43:08 -0500",
       "minecraft:sunflower_plains": "2024-12-19 22:50:31 -0500",
       "minecraft:birch_forest": "2024-12-19 19:00:29 -0500",
+      "minecraft:windswept_hills": "2024-12-29 02:38:03 -0500",
       "minecraft:old_growth_spruce_taiga": "2024-12-25 02:29:22 -0500",
       "minecraft:snowy_beach": "2024-12-25 02:31:59 -0500",
       "minecraft:bamboo_jungle": "2024-12-19 19:12:26 -0500",
       "minecraft:windswept_savanna": "2024-12-21 03:07:33 -0500",
       "minecraft:warm_ocean": "2024-12-21 02:57:15 -0500",
       "minecraft:deep_lukewarm_ocean": "2024-12-21 03:17:54 -0500",
+      "minecraft:badlands": "2024-12-28 03:38:25 -0500",
       "minecraft:flower_forest": "2024-12-24 00:48:55 -0500",
+      "minecraft:savanna_plateau": "2024-12-28 03:37:33 -0500",
       "minecraft:beach": "2024-12-19 22:55:54 -0500",
       "minecraft:dark_forest": "2024-12-21 03:05:41 -0500",
       "minecraft:mangrove_swamp": "2024-12-21 03:41:18 -0500",
@@ -127,10 +132,12 @@
       "minecraft:old_growth_birch_forest": "2024-12-21 03:04:57 -0500",
       "minecraft:deep_dark": "2024-12-20 00:21:02 -0500",
       "minecraft:grove": "2024-12-21 21:18:46 -0500",
+      "minecraft:swamp": "2024-12-29 02:35:29 -0500",
       "minecraft:meadow": "2024-12-19 22:39:54 -0500",
       "minecraft:windswept_gravelly_hills": "2024-12-23 19:47:58 -0500",
       "minecraft:savanna": "2024-12-21 03:00:52 -0500",
-      "minecraft:plains": "2024-12-19 22:43:26 -0500"
+      "minecraft:plains": "2024-12-19 22:43:26 -0500",
+      "minecraft:pale_garden": "2024-12-26 03:41:31 -0500"
     },
     "done": false
   },
@@ -8345,7 +8352,9 @@
       "minecraft:witch": "2024-12-25 03:17:50 -0500",
       "minecraft:wither_skeleton": "2024-12-22 02:09:11 -0500",
       "minecraft:ghast": "2024-12-22 01:45:38 -0500",
+      "minecraft:ender_dragon": "2024-12-27 01:07:35 -0500",
       "minecraft:hoglin": "2024-12-22 01:10:02 -0500",
+      "minecraft:shulker": "2024-12-27 01:29:04 -0500",
       "minecraft:cave_spider": "2024-12-20 15:34:15 -0500",
       "minecraft:piglin": "2024-12-23 23:54:28 -0500",
       "minecraft:breeze": "2024-12-24 01:25:24 -0500",
@@ -8583,9 +8592,101 @@
   },
   "minecraft:husbandry/whole_pack": {
     "criteria": {
+      "minecraft:woods": "2024-12-25 23:39:04 -0500",
+      "minecraft:pale": "2024-12-25 23:38:58 -0500",
       "minecraft:ashen": "2024-12-25 03:32:43 -0500"
     },
     "done": false
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2024-12-25 22:51:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2024-12-27 00:49:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2024-12-27 01:05:08 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-12-27 01:07:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2024-12-27 01:23:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2024-12-27 01:23:35 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-12-27 01:25:54 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-12-27 01:29:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/levitate": {
+    "criteria": {
+      "levitated": "2024-12-27 01:44:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "pufferfish_bucket": "2024-12-28 04:03:59 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-12-28 14:13:37 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-12-29 00:16:38 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-12-29 03:26:23 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2024-12-29 04:07:13 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/plant_any_sniffer_seed": {
+    "criteria": {
+      "torchflower": "2024-12-30 03:52:02 -0500"
+    },
+    "done": true
   },
   "DataVersion": 4189
 }

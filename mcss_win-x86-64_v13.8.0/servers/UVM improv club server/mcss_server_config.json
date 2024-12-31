@@ -20,7 +20,7 @@
       {
         "guid": "a8c28e7b-0e9b-4dfe-8478-99375bd89536",
         "name": "stop on no one in server",
-        "enabled": false,
+        "enabled": true,
         "playerRequirement": "Empty",
         "timing": {
           "interval": 60,
@@ -116,15 +116,49 @@
         }
       },
       {
-        "guid": "7b7a23e8-b79b-436f-9cbf-3f68b5769a9f",
+        "guid": "e0191d96-e378-4d6c-977b-95fc8eddff8a",
+        "name": "chunky pause when ppl join",
+        "enabled": false,
+        "playerRequirement": "AtLeastOne",
+        "timing": {
+          "interval": 20,
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "chunky pause"
+          ]
+        }
+      },
+      {
+        "guid": "5c006e8d-7d5a-4e79-8894-e77ff664fd61",
         "name": "its raining meat",
         "enabled": true,
         "playerRequirement": "AtLeastOne",
         "timing": {
-          "interval": 10800,
+          "interval": 7200,
           "repeat": true
         },
-        "job": {}
+        "job": {
+          "commands": [
+            "execute at @a run summon cow ~ 300 ~"
+          ]
+        }
+      },
+      {
+        "guid": "a6cdd9de-da0a-4ea2-b413-3fb1bb7ff8e4",
+        "name": "chunky resume when no one is online",
+        "enabled": false,
+        "playerRequirement": "Empty",
+        "timing": {
+          "interval": 60,
+          "repeat": true
+        },
+        "job": {
+          "commands": [
+            "chunky continue"
+          ]
+        }
       }
     ]
   },

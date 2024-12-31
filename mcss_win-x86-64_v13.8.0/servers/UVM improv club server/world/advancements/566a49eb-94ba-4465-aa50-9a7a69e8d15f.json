@@ -29,12 +29,6 @@
     },
     "done": true
   },
-  "vanillatweaks:afk_display": {
-    "criteria": {
-      "tick": "2024-12-19 19:08:31 -0500"
-    },
-    "done": true
-  },
   "vanillatweaks:confetti_creepers": {
     "criteria": {
       "tick": "2024-12-19 19:08:31 -0500"
@@ -5744,6 +5738,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:flower_forest": "2024-12-19 21:43:23 -0500",
+      "minecraft:beach": "2024-12-27 20:11:03 -0500",
       "minecraft:dark_forest": "2024-12-20 23:20:26 -0500",
       "minecraft:forest": "2024-12-19 19:14:49 -0500",
       "minecraft:sparse_jungle": "2024-12-19 19:13:48 -0500",
@@ -8422,6 +8417,18 @@
     },
     "done": true
   },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-12-23 16:46:29 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-12-23 16:46:29 -0500"
+    },
+    "done": true
+  },
   "minecraft:husbandry/tame_an_animal": {
     "criteria": {
       "tamed_animal": "2024-12-23 17:46:16 -0500"
@@ -8434,21 +8441,15 @@
     },
     "done": false
   },
-  "minecraft:husbandry/bred_all_animals": {
-    "criteria": {
-      "minecraft:cow": "2024-12-23 16:46:29 -0500"
-    },
-    "done": false
-  },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_helmet": "2024-12-23 18:07:14 -0500"
     },
     "done": true
   },
-  "minecraft:husbandry/breed_an_animal": {
+  "minecraft:adventure/trade": {
     "criteria": {
-      "bred": "2024-12-23 16:46:29 -0500"
+      "traded": "2024-12-27 19:04:20 -0500"
     },
     "done": true
   },

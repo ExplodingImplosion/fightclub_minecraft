@@ -29,12 +29,6 @@
     },
     "done": true
   },
-  "vanillatweaks:afk_display": {
-    "criteria": {
-      "tick": "2024-12-19 19:32:57 -0500"
-    },
-    "done": true
-  },
   "vanillatweaks:confetti_creepers": {
     "criteria": {
       "tick": "2024-12-19 19:32:57 -0500"
@@ -103,6 +97,7 @@
       "minecraft:forest": "2024-12-19 19:43:23 -0500",
       "minecraft:taiga": "2024-12-22 15:09:12 -0500",
       "minecraft:deep_ocean": "2024-12-25 14:22:15 -0500",
+      "minecraft:lush_caves": "2024-12-25 23:14:33 -0500",
       "minecraft:desert": "2024-12-22 15:05:22 -0500",
       "minecraft:windswept_forest": "2024-12-22 15:20:51 -0500",
       "minecraft:jungle": "2024-12-19 20:01:28 -0500",
@@ -8316,6 +8311,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2024-12-25 15:33:00 -0500",
       "apple": "2024-12-22 15:44:49 -0500",
       "bread": "2024-12-19 19:56:18 -0500",
       "cooked_mutton": "2024-12-19 19:46:31 -0500",
@@ -8339,6 +8335,8 @@
     "criteria": {
       "minecraft:pillager": "2024-12-19 19:52:35 -0500",
       "minecraft:skeleton": "2024-12-22 16:13:08 -0500",
+      "minecraft:phantom": "2024-12-25 23:31:14 -0500",
+      "minecraft:enderman": "2024-12-25 23:49:38 -0500",
       "minecraft:spider": "2024-12-22 15:43:49 -0500",
       "minecraft:zombie": "2024-12-22 15:48:16 -0500",
       "minecraft:creeper": "2024-12-25 13:23:00 -0500"
@@ -8401,6 +8399,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-12-25 18:25:01 -0500",
       "minecraft:nether_wastes": "2024-12-25 13:11:15 -0500",
       "minecraft:soul_sand_valley": "2024-12-25 13:58:33 -0500",
       "minecraft:basalt_deltas": "2024-12-25 13:11:11 -0500"
@@ -8422,6 +8421,68 @@
   "minecraft:story/iron_tools": {
     "criteria": {
       "iron_pickaxe": "2024-12-25 13:59:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_helmet": "2024-12-25 15:28:47 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-12-25 19:03:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:rusty": "2024-12-25 19:22:58 -0500",
+      "minecraft:woods": "2024-12-26 02:02:10 -0500",
+      "minecraft:pale": "2024-12-26 02:07:23 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:cow": "2024-12-25 22:56:56 -0500"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-12-25 22:56:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2024-12-25 23:45:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-12-25 23:48:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-25 23:48:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2024-12-25 23:49:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-12-25 23:55:38 -0500"
     },
     "done": true
   },

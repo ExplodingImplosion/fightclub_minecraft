@@ -29,12 +29,6 @@
     },
     "done": true
   },
-  "vanillatweaks:afk_display": {
-    "criteria": {
-      "tick": "2024-12-19 21:22:04 -0500"
-    },
-    "done": true
-  },
   "vanillatweaks:confetti_creepers": {
     "criteria": {
       "tick": "2024-12-19 21:22:04 -0500"
@@ -8335,6 +8329,7 @@
       "chicken": "2024-12-22 18:24:23 -0500",
       "golden_apple": "2024-12-20 02:39:19 -0500",
       "bread": "2024-12-20 01:53:52 -0500",
+      "honey_bottle": "2024-12-28 21:27:27 -0500",
       "rotten_flesh": "2024-12-20 15:57:24 -0500",
       "suspicious_stew": "2024-12-20 16:49:20 -0500",
       "cooked_mutton": "2024-12-20 00:59:32 -0500",
@@ -8573,6 +8568,12 @@
   "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
       "blaze_rod": "2024-12-25 00:11:52 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/under_lock_and_key": {
+    "criteria": {
+      "under_lock_and_key": "2024-12-28 21:26:10 -0500"
     },
     "done": true
   },

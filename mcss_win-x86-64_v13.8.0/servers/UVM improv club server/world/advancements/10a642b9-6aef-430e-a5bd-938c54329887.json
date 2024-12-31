@@ -29,12 +29,6 @@
     },
     "done": true
   },
-  "vanillatweaks:afk_display": {
-    "criteria": {
-      "tick": "2024-12-19 20:46:56 -0500"
-    },
-    "done": true
-  },
   "vanillatweaks:confetti_creepers": {
     "criteria": {
       "tick": "2024-12-19 20:46:56 -0500"
@@ -106,12 +100,15 @@
       "minecraft:lukewarm_ocean": "2024-12-20 00:44:36 -0500",
       "minecraft:lush_caves": "2024-12-19 22:45:55 -0500",
       "minecraft:dripstone_caves": "2024-12-19 23:26:27 -0500",
+      "minecraft:old_growth_birch_forest": "2024-12-29 02:40:24 -0500",
       "minecraft:desert": "2024-12-20 00:45:38 -0500",
       "minecraft:deep_dark": "2024-12-20 17:55:58 -0500",
       "minecraft:jungle": "2024-12-19 21:01:26 -0500",
       "minecraft:ocean": "2024-12-20 00:59:39 -0500",
+      "minecraft:swamp": "2024-12-29 02:35:24 -0500",
       "minecraft:meadow": "2024-12-19 20:51:14 -0500",
       "minecraft:birch_forest": "2024-12-19 20:46:57 -0500",
+      "minecraft:windswept_hills": "2024-12-29 02:38:04 -0500",
       "minecraft:savanna": "2024-12-20 00:58:47 -0500",
       "minecraft:bamboo_jungle": "2024-12-19 20:56:16 -0500",
       "minecraft:windswept_savanna": "2024-12-20 00:52:45 -0500",
@@ -8325,6 +8322,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:pillager": "2024-12-28 20:35:01 -0500",
       "minecraft:skeleton": "2024-12-20 18:04:08 -0500",
       "minecraft:witch": "2024-12-20 18:07:10 -0500",
       "minecraft:spider": "2024-12-19 23:24:57 -0500",
@@ -8341,6 +8339,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "bread": "2024-12-29 02:35:07 -0500",
       "honey_bottle": "2024-12-21 00:59:09 -0500",
       "salmon": "2024-12-19 23:42:55 -0500",
       "cooked_beef": "2024-12-20 00:48:17 -0500",
@@ -8370,6 +8369,7 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-12-29 02:32:50 -0500",
       "minecraft:nether_wastes": "2024-12-20 14:39:10 -0500",
       "minecraft:soul_sand_valley": "2024-12-20 14:39:23 -0500",
       "minecraft:basalt_deltas": "2024-12-20 00:00:11 -0500"
@@ -8409,6 +8409,18 @@
   "minecraft:husbandry/safely_harvest_honey": {
     "criteria": {
       "safely_harvest_honey": "2024-12-21 00:58:47 -0500"
+    },
+    "done": true
+  },
+  "graves:check_death_markers_later_in_tick": {
+    "criteria": {
+      "tick": "2024-12-28 20:23:22 -0500"
+    },
+    "done": true
+  },
+  "vanillatweaks:graves": {
+    "criteria": {
+      "tick": "2024-12-28 20:23:22 -0500"
     },
     "done": true
   },
