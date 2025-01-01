@@ -11,3 +11,4 @@ mcss_win-x86-64_v13.8.0/servers/UVM improv club server/world/session.lock
 mcss_win-x86-64_v13.8.0/servers/UVM improv club server/world/data/DistantHorizons.sqlite-wal
 mcss_win-x86-64_v13.8.0/servers/UVM improv club server/world/data/DistantHorizons.sqlite-shm
 mcss_win-x86-64_v13.8.0/backups/*
+*.lock
