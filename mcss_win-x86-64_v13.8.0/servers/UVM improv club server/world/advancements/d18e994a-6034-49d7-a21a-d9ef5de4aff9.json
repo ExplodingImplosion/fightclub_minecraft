@@ -8345,6 +8345,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2024-12-31 22:44:50 -0500",
       "minecraft:zombie": "2024-12-27 18:48:42 -0500"
     },
     "done": false
@@ -8358,6 +8359,12 @@
   "minecraft:adventure/sleep_in_bed": {
     "criteria": {
       "slept_in_bed": "2024-12-31 02:45:18 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-12-31 22:43:29 -0500"
     },
     "done": true
   },

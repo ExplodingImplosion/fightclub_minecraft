@@ -107,9 +107,11 @@
       "minecraft:windswept_hills": "2024-12-26 01:46:31 -0500",
       "minecraft:old_growth_spruce_taiga": "2024-12-26 01:34:23 -0500",
       "minecraft:bamboo_jungle": "2024-12-19 21:24:42 -0500",
+      "minecraft:wooded_badlands": "2025-01-01 15:54:17 -0500",
       "minecraft:windswept_savanna": "2024-12-20 13:46:08 -0500",
       "minecraft:warm_ocean": "2024-12-21 22:41:38 -0500",
       "minecraft:deep_lukewarm_ocean": "2024-12-20 10:02:30 -0500",
+      "minecraft:badlands": "2025-01-01 15:54:00 -0500",
       "minecraft:flower_forest": "2024-12-21 14:53:46 -0500",
       "minecraft:beach": "2024-12-19 20:55:06 -0500",
       "minecraft:dark_forest": "2024-12-20 16:02:11 -0500",
@@ -117,6 +119,7 @@
       "minecraft:sparse_jungle": "2024-12-19 20:53:56 -0500",
       "minecraft:river": "2024-12-19 19:42:13 -0500",
       "minecraft:lukewarm_ocean": "2024-12-20 00:31:12 -0500",
+      "minecraft:stony_shore": "2025-01-01 15:57:23 -0500",
       "minecraft:dripstone_caves": "2024-12-21 14:29:16 -0500",
       "minecraft:old_growth_birch_forest": "2024-12-19 19:15:27 -0500",
       "minecraft:deep_dark": "2024-12-19 22:53:43 -0500",
@@ -8307,6 +8310,7 @@
       "minecraft:ghast": "2024-12-20 00:12:47 -0500",
       "minecraft:cave_spider": "2024-12-19 20:09:33 -0500",
       "minecraft:piglin": "2024-12-22 19:01:01 -0500",
+      "minecraft:guardian": "2025-01-01 15:36:10 -0500",
       "minecraft:breeze": "2024-12-20 14:39:18 -0500",
       "minecraft:stray": "2024-12-20 14:39:14 -0500",
       "minecraft:enderman": "2024-12-20 17:21:43 -0500",
@@ -8420,7 +8424,8 @@
     "criteria": {
       "minecraft:nether_wastes": "2024-12-20 00:12:32 -0500",
       "minecraft:soul_sand_valley": "2024-12-20 00:12:35 -0500",
-      "minecraft:basalt_deltas": "2024-12-19 23:59:30 -0500"
+      "minecraft:basalt_deltas": "2024-12-19 23:59:30 -0500",
+      "minecraft:warped_forest": "2025-01-01 14:56:04 -0500"
     },
     "done": false
   },
@@ -8590,6 +8595,24 @@
   "minecraft:adventure/voluntary_exile": {
     "criteria": {
       "voluntary_exile": "2024-12-28 19:57:58 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-01-01 14:25:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2025-01-01 15:10:29 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_shrine": {
+    "criteria": {
+      "shrine_combat": "2025-01-01 15:33:39 -0500"
     },
     "done": true
   },
