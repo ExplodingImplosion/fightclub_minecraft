@@ -8694,5 +8694,11 @@
     },
     "done": true
   },
+  "minecraft:husbandry/complete_catalogue": {
+    "criteria": {
+      "minecraft:white": "2025-01-01 21:53:34 -0500"
+    },
+    "done": false
+  },
   "DataVersion": 4189
 }

@@ -8335,14 +8335,18 @@
     "criteria": {
       "cooked_porkchop": "2024-12-19 19:17:15 -0500",
       "bread": "2024-12-20 00:14:10 -0500",
+      "golden_apple": "2025-01-01 18:05:59 -0500",
       "rotten_flesh": "2024-12-19 20:46:37 -0500",
       "suspicious_stew": "2024-12-20 10:03:43 -0500",
       "cooked_mutton": "2024-12-22 16:43:07 -0500",
       "cooked_beef": "2024-12-20 10:15:18 -0500",
       "melon_slice": "2024-12-20 16:23:54 -0500",
       "porkchop": "2024-12-22 10:54:01 -0500",
+      "tropical_fish": "2025-01-01 17:16:49 -0500",
+      "golden_carrot": "2025-01-01 17:11:25 -0500",
       "apple": "2024-12-22 10:54:05 -0500",
       "spider_eye": "2024-12-22 10:50:37 -0500",
+      "cooked_rabbit": "2025-01-01 17:50:22 -0500",
       "cooked_chicken": "2024-12-19 20:57:08 -0500",
       "cooked_cod": "2024-12-20 18:27:57 -0500",
       "cooked_salmon": "2024-12-19 19:48:45 -0500",
@@ -8397,6 +8401,7 @@
       "minecraft:cow": "2024-12-19 21:45:55 -0500",
       "minecraft:chicken": "2024-12-20 21:16:36 -0500",
       "minecraft:armadillo": "2024-12-21 02:02:33 -0500",
+      "minecraft:turtle": "2025-01-01 17:04:35 -0500",
       "minecraft:sheep": "2024-12-19 22:02:29 -0500",
       "minecraft:bee": "2024-12-27 14:25:26 -0500"
     },
@@ -8613,6 +8618,30 @@
   "nova_structures:adventure/find_shrine": {
     "criteria": {
       "shrine_combat": "2025-01-01 15:33:39 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/revaulting": {
+    "criteria": {
+      "revaulting": "2025-01-01 20:02:50 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/wax_off": {
+    "criteria": {
+      "wax_off": "2025-01-01 20:11:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trim_with_any_armor_pattern": {
+    "criteria": {
+      "armor_trimmed_minecraft:coast_armor_trim_smithing_template_smithing_trim": "2025-01-01 22:08:56 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/who_needs_rockets": {
+    "criteria": {
+      "who_needs_rockets": "2025-01-01 20:14:51 -0500"
     },
     "done": true
   },

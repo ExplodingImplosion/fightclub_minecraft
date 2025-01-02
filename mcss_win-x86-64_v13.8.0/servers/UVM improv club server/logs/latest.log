@@ -1,5 +1,5 @@
-[16:04:09] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[16:04:10] [main/INFO]: Loading 78 mods:
+[16:15:46] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[16:15:46] [main/INFO]: Loading 78 mods:
 	- c2me 0.3.1+rc.1.0+1.21.4
 	   |-- c2me-base 0.3.1+rc.1.0+1.21.4
 	   |-- c2me-client-uncapvd 0.3.1+rc.1.0+1.21.4
@@ -90,89 +90,1736 @@
 	- noisium 2.5.0+mc1.21.4
 	- voicechat 1.21.4-2.5.26
 	   \-- fabric-key-binding-api-v1 1.0.55+7feeb73382
-[16:04:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[16:04:10] [main/INFO]: Compatibility level set to JAVA_16
-[16:04:10] [main/INFO]: Compatibility level set to JAVA_17
-[16:04:10] [main/INFO]: Compatibility level set to JAVA_21
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[16:04:10] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[16:04:10] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[16:04:10] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[16:04:11] [main/INFO]: Detected maximum supported ISA target: AVX2
-[16:04:11] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[16:04:11] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[16:04:11] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[16:04:11] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[16:04:12] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[16:04:12] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[16:04:12] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[16:04:12] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[16:04:12] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[16:04:12] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[16:04:12] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[16:04:12] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[16:04:12] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[16:04:12] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[16:04:12] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[16:04:12] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[16:04:12] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
-[16:04:13] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[16:04:14] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[16:04:14] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[16:04:20] [main/INFO]: Loading Noisium.
-[16:04:20] [main/INFO]: [voicechat] Compatibility version 18
-[16:04:20] [main/INFO]: [voicechat] Loading plugins
-[16:04:20] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[16:04:20] [main/INFO]: [voicechat] Initializing plugins
-[16:04:20] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[16:04:21] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[16:04:22] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[16:04:22] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[16:04:22] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[16:04:23] [main/INFO]: Loaded 1370 recipes
-[16:04:23] [main/INFO]: Loaded 1554 advancements
-[16:04:23] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.603 ms
-[16:04:24] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[16:04:24] [Server thread/INFO]: Loading properties
-[16:04:24] [Server thread/INFO]: Default game type: SURVIVAL
-[16:04:24] [Server thread/INFO]: Generating keypair
-[16:04:24] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[16:04:24] [Server thread/INFO]: Using default channel type
-[16:04:24] [Server thread/INFO]: Preparing level "world"
-[16:04:24] [Server thread/INFO]: Enforcing safe world random access
-[16:04:25] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 244.6 ms
-[16:04:25] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[16:04:25] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.028 ms
-[16:04:25] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.545 ms
-[16:04:25] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[16:04:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[16:04:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[16:04:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[16:04:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[16:04:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[16:04:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[16:04:28] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[16:04:28] [Server thread/INFO]: Time elapsed: 3430 ms
-[16:04:28] [Server thread/INFO]: Done (4.336s)! For help, type "help"
-[16:04:28] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[16:04:28] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[16:04:28] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[16:04:41] [User Authenticator #1/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[16:04:42] [Server thread/INFO]: 17sk[/24.253.191.140:57657] logged in with entity id 6 at (-11142.583824067322, 129.0, -1253.1238152090352)
-[16:04:42] [Server thread/INFO]: 17sk they / them joined the game
-[16:04:42] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[16:04:42] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[16:04:42] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[16:04:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[16:04:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[16:04:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[16:04:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2065ms or 41 ticks behind
+[16:15:47] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[16:15:47] [main/INFO]: Compatibility level set to JAVA_16
+[16:15:47] [main/INFO]: Compatibility level set to JAVA_17
+[16:15:47] [main/INFO]: Compatibility level set to JAVA_21
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[16:15:47] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[16:15:47] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[16:15:47] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[16:15:48] [main/INFO]: Detected maximum supported ISA target: AVX2
+[16:15:48] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[16:15:48] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[16:15:48] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[16:15:48] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[16:15:49] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[16:15:49] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[16:15:49] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[16:15:49] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[16:15:49] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[16:15:49] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[16:15:49] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[16:15:49] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[16:15:49] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[16:15:49] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[16:15:49] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[16:15:49] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[16:15:49] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
+[16:15:50] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[16:15:51] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[16:15:51] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[16:15:57] [main/INFO]: Loading Noisium.
+[16:15:57] [main/INFO]: [voicechat] Compatibility version 18
+[16:15:57] [main/INFO]: [voicechat] Loading plugins
+[16:15:57] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[16:15:57] [main/INFO]: [voicechat] Initializing plugins
+[16:15:57] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[16:15:58] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[16:15:59] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[16:15:59] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[16:15:59] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[16:16:00] [main/INFO]: Loaded 1370 recipes
+[16:16:00] [main/INFO]: Loaded 1554 advancements
+[16:16:00] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.242 ms
+[16:16:01] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[16:16:01] [Server thread/INFO]: Loading properties
+[16:16:01] [Server thread/INFO]: Default game type: SURVIVAL
+[16:16:01] [Server thread/INFO]: Generating keypair
+[16:16:01] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[16:16:01] [Server thread/INFO]: Using default channel type
+[16:16:01] [Server thread/INFO]: Preparing level "world"
+[16:16:01] [Server thread/INFO]: Enforcing safe world random access
+[16:16:02] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 207.6 ms
+[16:16:02] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[16:16:02] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.916 ms
+[16:16:02] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.988 ms
+[16:16:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:16:04] [User Authenticator #1/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[16:16:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[16:16:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[16:16:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[16:16:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[16:16:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[16:16:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[16:16:05] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[16:16:05] [Server thread/INFO]: Time elapsed: 3425 ms
+[16:16:05] [Server thread/INFO]: Done (4.166s)! For help, type "help"
+[16:16:05] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[16:16:05] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[16:16:05] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[16:16:07] [Server thread/INFO]: 17sk[/24.253.191.140:57721] logged in with entity id 6 at (-11142.583824067322, 129.0, -1253.1238152090352)
+[16:16:07] [Server thread/INFO]: 17sk they / them joined the game
+[16:16:07] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[16:16:07] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[16:16:07] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[16:16:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[16:16:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[16:16:08] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[16:16:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3069ms or 61 ticks behind
+[16:16:26] [Server thread/INFO]: <17sk they / them> aw darn
+[16:17:45] [Server thread/INFO]: [Not Secure] [Server] what happened
+[16:17:50] [Server thread/INFO]: [Not Secure] [Server] did u get reset by a couple mins
+[16:17:52] [Server thread/INFO]: <17sk they / them> i lost a shulker
+[16:17:56] [Server thread/INFO]: <17sk they / them> yea
+[16:17:59] [Server thread/INFO]: [Not Secure] [Server] sorry dawg
+[16:18:02] [Server thread/INFO]: <17sk they / them> its ok nothing important was in it
+[16:18:20] [Server thread/INFO]: <17sk they / them> just my exploration stuff but like it was mostly just brush things
+[16:18:23] [Server thread/INFO]: [Not Secure] [Server] is it like gone or do u just not know where it is
+[16:18:27] [Server thread/INFO]: <17sk they / them> no its gone
+[16:18:36] [Server thread/INFO]: [Not Secure] [Server] thats really weird
+[16:19:02] [Server thread/INFO]: [Not Secure] [Server] what was in it
+[16:19:06] [Server thread/INFO]: <17sk they / them> i found a cool anceitn city type thing
+[16:19:10] [Server thread/INFO]: <17sk they / them> i have no idea
+[16:19:16] [Server thread/INFO]: [Not Secure] [Server] ok well at least have this
+[16:19:20] [Server thread/INFO]: <17sk they / them> nothing i was super attached too
+[16:19:21] [Server thread/INFO]: Gave 1 [Shulker Box] to 17sk they / them
+[16:19:26] [Server thread/INFO]: <17sk they / them> thanks!
+[16:19:51] [Server thread/INFO]: [Not Secure] [Server] not sure how that managed to be gone because i expected the only thing that i did was just reset by a couple mins without making destructive changes
+[16:19:57] [Server thread/INFO]: <17sk they / them> LOL
+[16:19:58] [Server thread/INFO]: [Not Secure] [Server] so im really surprised that happened
+[16:20:18] [Server thread/INFO]: <17sk they / them> yea i was making things and i had to place it down then you reset the server, its really not a big deal dw
+[16:25:06] [Server thread/INFO]: [Not Secure] [Server] but why the fuck did it not just like save that it got placed down... fuck my chungus life
+[16:25:22] [Server thread/INFO]: <17sk they / them> what the fuck is photosynthesis enchantment
+[16:25:32] [Server thread/INFO]: [Not Secure] [Server] idk
+[16:25:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11025, y=161, z=-1280} class_2338{x=-11025, y=160, z=-1279}
+[16:26:01] [Server thread/INFO]: [Not Secure] [Server] i think its like mending but when youre in sunlight, i think its from the datapack
+[16:26:08] [Server thread/INFO]: <17sk they / them> WHAT THATS OP OK
+[16:26:15] [Server thread/INFO]: <17sk they / them> thats going on my wings
+[16:26:41] [Server thread/INFO]: <17sk they / them> it can't darnit
+[16:26:48] [Server thread/INFO]: [Not Secure] [Server] gg
+[16:27:19] [Server thread/INFO]: <17sk they / them> cuz it already has mending
+[16:27:23] [Server thread/INFO]: <17sk they / them> freak
+[16:27:32] [Server thread/INFO]: [Not Secure] [Server] u can disenchant
+[16:27:38] [Server thread/INFO]: [Not Secure] [Server] nerd emoji type beat from me
+[16:27:42] [Server thread/INFO]: <17sk they / them> yea but i don't wanna lose the unbreaking 3 rn
+[16:27:46] [Server thread/INFO]: <17sk they / them> cuz im traveling around
+[16:27:51] [Server thread/INFO]: [Not Secure] [Server] real
+[16:27:52] [Server thread/INFO]: <17sk they / them> actually wold it even matetr?
+[16:27:58] [Server thread/INFO]: <17sk they / them> cuz if its repairing in sunight
+[16:28:06] [Server thread/INFO]: [Not Secure] [Server] idk maybe it doesnt repair veryfast
+[16:28:42] [Server thread/INFO]: <17sk they / them> yea idk i don't wanna test it rn
+[16:29:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11014, y=156, z=-1248} class_2338{x=-11015, y=155, z=-1248}
+[16:29:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11014, y=156, z=-1248} class_2338{x=-11015, y=155, z=-1248}
+[16:29:06] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11014, y=155, z=-1247} class_2338{x=-11014, y=153, z=-1247}
+[16:29:45] [Server thread/INFO]: <17sk they / them> well i found a mending book in a chest lol
+[16:30:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11013, y=159, z=-1257} class_2338{x=-11014, y=158, z=-1257}
+[16:30:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11013, y=159, z=-1257} class_2338{x=-11014, y=158, z=-1257}
+[16:30:04] [Server thread/INFO]: [Not Secure] [Server] nice
+[16:30:14] [Server thread/INFO]: [Not Secure] [Server] theres also a chance that the enchantment is bugged lmao
+[16:30:20] [Server thread/INFO]: <17sk they / them> true
+[16:30:25] [Server thread/INFO]: <17sk they / them> i don't wanna try it just yet
+[16:30:33] [Server thread/INFO]: [Not Secure] [Server] fr fr
+[16:33:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11025, y=154, z=-1254} class_2338{x=-11024, y=153, z=-1254}
+[16:33:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11026, y=154, z=-1255} class_2338{x=-11024, y=153, z=-1255}
+[16:33:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11026, y=154, z=-1255} class_2338{x=-11024, y=153, z=-1255}
+[16:33:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11026, y=154, z=-1255} class_2338{x=-11024, y=153, z=-1255}
+[16:33:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11025, y=154, z=-1256} class_2338{x=-11024, y=153, z=-1255}
+[16:33:09] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11025, y=154, z=-1256} class_2338{x=-11024, y=153, z=-1255}
+[16:33:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11027, y=155, z=-1258} class_2338{x=-11026, y=154, z=-1258}
+[16:33:43] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
+[16:34:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11091, y=150, z=-1286} class_2338{x=-11091, y=149, z=-1287}
+[16:34:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11090, y=148, z=-1286} class_2338{x=-11090, y=147, z=-1285}
+[16:34:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11089, y=147, z=-1285} class_2338{x=-11090, y=147, z=-1285}
+[16:34:25] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11088, y=148, z=-1286} class_2338{x=-11090, y=147, z=-1285}
+[16:34:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11087, y=148, z=-1286} class_2338{x=-11090, y=147, z=-1285}
+[16:34:26] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11087, y=148, z=-1286} class_2338{x=-11090, y=147, z=-1285}
+[16:34:26] [User Authenticator #2/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[16:34:27] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:51807] logged in with entity id 2540 at (410.41114376606623, 75.0, 514.6342610537213)
+[16:34:28] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
+[16:34:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11086, y=147, z=-1287} class_2338{x=-11086, y=146, z=-1286}
+[16:34:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11086, y=147, z=-1287} class_2338{x=-11086, y=146, z=-1286}
+[16:34:28] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
+[16:34:28] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
+[16:34:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11088, y=148, z=-1289} class_2338{x=-11087, y=148, z=-1289}
+[16:34:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[16:34:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11092, y=147, z=-1285} class_2338{x=-11088, y=145, z=-1288}
+[16:34:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11092, y=147, z=-1286} class_2338{x=-11088, y=145, z=-1288}
+[16:34:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11092, y=147, z=-1286} class_2338{x=-11088, y=145, z=-1288}
+[16:34:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11092, y=147, z=-1286} class_2338{x=-11088, y=145, z=-1288}
+[16:34:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11092, y=147, z=-1286} class_2338{x=-11088, y=145, z=-1288}
+[16:34:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11092, y=148, z=-1285} class_2338{x=-11088, y=145, z=-1288}
+[16:34:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11092, y=148, z=-1285} class_2338{x=-11088, y=145, z=-1288}
+[16:34:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[16:34:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
+[16:34:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11093, y=148, z=-1288} class_2338{x=-11094, y=146, z=-1286}
+[16:34:35] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
+[16:34:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11090, y=147, z=-1287} class_2338{x=-11089, y=146, z=-1288}
+[16:34:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11090, y=147, z=-1287} class_2338{x=-11089, y=146, z=-1288}
+[16:34:40] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[16:34:48] [Server thread/INFO]: <ASFJASJHALALF he / him> oooh what is this place?
+[16:34:52] [Server thread/INFO]: <17sk they / them> what
+[16:34:57] [Server thread/INFO]: <17sk they / them> oh are you at me
+[16:35:00] [Server thread/INFO]: <ASFJASJHALALF he / him> im watching u
+[16:35:03] [Server thread/INFO]: <ASFJASJHALALF he / him> its me
+[16:35:04] [Server thread/INFO]: <17sk they / them> i have no idea but it has loot
+[16:35:06] [Server thread/INFO]: <ASFJASJHALALF he / him> the holy spirit
+[16:35:07] [Server thread/INFO]: <17sk they / them> i k
+[16:35:28] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -13.601102299153354,14.941654798559512,13.672641812808706
+[16:35:28] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -11.110500681892518,11.944934395760242,10.691427444939563
+[16:36:34] [Server thread/INFO]: <ASFJASJHALALF he / him> this is the "jungle temple"
+[16:36:43] [Server thread/INFO]: <ASFJASJHALALF he / him> howd u get out so far
+[16:36:43] [Server thread/INFO]: <17sk they / them> its sick
+[16:36:47] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[16:36:47] [Server thread/INFO]: <17sk they / them> but hard cuz there are bogs
+[16:37:33] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[16:38:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11067, y=150, z=-1289} class_2338{x=-11068, y=148, z=-1288}
+[16:38:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11067, y=150, z=-1289} class_2338{x=-11068, y=148, z=-1288}
+[16:38:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11067, y=150, z=-1289} class_2338{x=-11068, y=148, z=-1288}
+[16:38:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11067, y=150, z=-1289} class_2338{x=-11068, y=148, z=-1288}
+[16:38:11] [Server thread/INFO]: <ASFJASJHALALF he / him> theres an illager camp at -11156 112 -1344
+[16:38:19] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 1.2859023270684702,-1.317902765238287,-15.432185930175137
+[16:38:19] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 1.099416413491781,-1.2749045949975653,-13.373973441802718
+[16:38:20] [Server thread/INFO]: <17sk they / them> whats that
+[16:38:24] [Server thread/INFO]: <17sk they / them> i;ll go there next maybe
+[16:38:27] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 410.500000, 75.000000, 514.500000]
+[16:38:32] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[16:38:44] [Server thread/INFO]: <ASFJASJHALALF he / him> small camp that has like 1 illager there rn lmao
+[16:38:48] [Server thread/INFO]: <17sk they / them> LOL
+[16:38:57] [Server thread/INFO]: <17sk they / them> YO THIS IS SCUTE
+[16:39:02] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[16:39:06] [Server thread/INFO]: <ASFJASJHALALF he / him> omg
+[16:39:16] [Server thread/INFO]: <ASFJASJHALALF he / him> axolotl sphinx
+[16:39:17] [Server thread/INFO]: <17sk they / them> get me a stick im litematicaing this
+[16:39:27] [Server thread/INFO]: <ASFJASJHALALF he / him> u can do it even without a stick i think
+[16:39:37] [Server thread/INFO]: <ASFJASJHALALF he / him> but that requires using their kinda unintuitive UI
+[16:39:58] [Server thread/INFO]: <ASFJASJHALALF he / him> did u walk this far or nether TP out here
+[16:40:03] [Server thread/INFO]: <17sk they / them> ok how do i save
+[16:40:08] [Server thread/INFO]: <17sk they / them> i nether tped then flew
+[16:40:12] [Server thread/INFO]: <ASFJASJHALALF he / him> gotcha gotcha
+[16:40:17] [Server thread/INFO]: <17sk they / them> i know where my portal is (like 2k blocks away)
+[16:40:20] [Server thread/INFO]: <ASFJASJHALALF he / him> uh like heres what u do
+[16:40:23] [Server thread/INFO]: <ASFJASJHALALF he / him> u press M
+[16:40:26] [Server thread/INFO]: <ASFJASJHALALF he / him> and like
+[16:40:33] [Server thread/INFO]: <ASFJASJHALALF he / him> figure it out from there Cuz i forget
+[16:40:36] [Server thread/INFO]: <17sk they / them> ok i got it
+[16:40:41] [Server thread/INFO]: <ASFJASJHALALF he / him> sick
+[16:40:47] [Server thread/INFO]: <ASFJASJHALALF he / him> waitt
+[16:40:49] [Server thread/INFO]: <ASFJASJHALALF he / him> Do u see The villager
+[16:40:54] [Server thread/INFO]: <17sk they / them> i did its cool
+[16:40:56] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported 17sk they / them to ASFJASJHALALF he / him]
+[16:40:59] [Server thread/INFO]: <ASFJASJHALALF he / him> gaze uPon it
+[16:41:00] [Server thread/INFO]: <17sk they / them> LOL
+[16:41:06] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Lightning Bolt]
+[16:41:07] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Lightning Bolt]
+[16:41:08] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Lightning Bolt]
+[16:41:09] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Lightning Bolt]
+[16:41:10] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Lightning Bolt]
+[16:41:11] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Lightning Bolt]
+[16:41:16] [Server thread/INFO]: <17sk they / them> was that you
+[16:41:22] [Server thread/INFO]: <17sk they / them> you almost killed me
+[16:41:23] [Server thread/INFO]: <17sk they / them> lol
+[16:41:25] [Server thread/INFO]: <ASFJASJHALALF he / him> no the villager just does that
+[16:41:29] [Server thread/INFO]: <ASFJASJHALALF he / him> no the villager just does that
+[16:41:29] [Server thread/INFO]: <17sk they / them> wait fr
+[16:41:32] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Lightning Bolt]
+[16:41:33] [Server thread/INFO]: <ASFJASJHALALF he / him> jk
+[16:41:36] [Server thread/INFO]: <ASFJASJHALALF he / him> i wish
+[16:41:42] [Server thread/INFO]: <ASFJASJHALALF he / him> loweky i could make a command block loop to do that
+[16:41:45] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Lightning Bolt]
+[16:41:47] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Lightning Bolt]
+[16:41:53] [Server thread/INFO]: <17sk they / them> bruh ur gonna slaughter me
+[16:41:56] [Server thread/INFO]: <ASFJASJHALALF he / him> are U hurt
+[16:41:59] [Server thread/INFO]: <17sk they / them> yea
+[16:42:01] [Server thread/INFO]: <ASFJASJHALALF he / him> wait fr
+[16:42:02] [Server thread/INFO]: <ASFJASJHALALF he / him> oh shit
+[16:42:05] [Server thread/INFO]: <17sk they / them> i was at half a heart
+[16:42:11] [Server thread/INFO]: [ASFJASJHALALF he / him: Applied effect Regeneration to 17sk they / them]
+[16:42:15] [Server thread/INFO]: <17sk they / them> lmaoty
+[16:42:22] [Server thread/INFO]: [ASFJASJHALALF he / him: Applied effect Saturation to 17sk they / them]
+[16:42:45] [Server thread/INFO]: <ASFJASJHALALF he / him> dude theres like hella loot dow nthere
+[16:42:49] [Server thread/INFO]: <ASFJASJHALALF he / him> puzzle Time
+[16:42:54] [Server thread/INFO]: <17sk they / them> i know but there is so puzzle
+[16:42:57] [Server thread/INFO]: <17sk they / them> no i hate puzzles
+[16:43:00] [Server thread/INFO]: <17sk they / them> jk but
+[16:43:12] [Server thread/INFO]: <ASFJASJHALALF he / him> idk what the fuckin clues or pattern is
+[16:43:38] [Server thread/INFO]: <ASFJASJHALALF he / him> enjoy 1.8 combat
+[16:43:39] [Server thread/INFO]: <17sk they / them> i freaked up
+[16:43:45] [Server thread/INFO]: <17sk they / them> wdym
+[16:43:50] [Server thread/INFO]: <ASFJASJHALALF he / him> try swiNging ur sword
+[16:44:23] [Server thread/INFO]: <17sk they / them> omg
+[16:45:01] [Server thread/INFO]: <17sk they / them> i broke pouzzle
+[16:45:06] [Server thread/INFO]: <ASFJASJHALALF he / him> ur the goat
+[16:45:11] [Server thread/INFO]: <17sk they / them> you goat
+[16:45:14] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
+[16:45:18] [Server thread/INFO]: <ASFJASJHALALF he / him> fuck it im here now
+[16:45:23] [Server thread/INFO]: <ASFJASJHALALF he / him> waitu actually brb im gonna put some stuff at home
+[16:45:37] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 410.500000, 75.000000, 514.500000]
+[16:45:40] [Server thread/INFO]: <17sk they / them> im taking the redstone lol
+[16:45:51] [Server thread/INFO]: <ASFJASJHALALF he / him> true hustler
+[16:45:51] [Server thread/INFO]: <17sk they / them> ohh i get the puzzle now]
+[16:46:00] [Server thread/INFO]: <ASFJASJHALALF he / him> *breaks puzzle* OOHHHHHHH thats how it works
+[16:46:02] [Server thread/INFO]: <17sk they / them> stickey pistons
+[16:46:08] [Server thread/INFO]: <17sk they / them> well yea ofc
+[16:47:09] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
+[16:47:13] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[16:47:19] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
+[16:47:55] [Server thread/INFO]: <ASFJASJHALALF he / him> i mnade mistake
+[16:47:59] [Server thread/INFO]: <17sk they / them> LOL
+[16:48:28] [Server thread/INFO]: <ASFJASJHALALF he / him> take]
+[16:48:31] [Server thread/INFO]: <17sk they / them> DIAMONDs
+[16:48:36] [Server thread/INFO]: <17sk they / them> hanks
+[16:48:39] [Server thread/INFO]: <ASFJASJHALALF he / him> can u hear me when i speak
+[16:49:12] [Server thread/INFO]: <ASFJASJHALALF he / him> i dont like this place
+[16:49:30] [Server thread/INFO]: <17sk they / them> im lefting this
+[16:50:29] [Server thread/INFO]: 17sk they / them was slain by Zombie Villager
+[16:50:34] [Server thread/INFO]: <17sk they / them> shitballs
+[16:50:37] [Server thread/INFO]: <ASFJASJHALALF he / him> not the lag
+[16:50:41] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported 17sk they / them to ASFJASJHALALF he / him]
+[16:50:43] [Server thread/INFO]: <17sk they / them> tanks
+[16:50:51] [Server thread/INFO]: <ASFJASJHALALF he / him> what? i didnt do anything ;)
+[16:50:52] [Server thread/INFO]: <17sk they / them> oh
+[16:50:54] [Server thread/INFO]: <17sk they / them> damn
+[16:50:55] [Server thread/INFO]: <17sk they / them> KNAI
+[16:50:58] [Server thread/INFO]: <ASFJASJHALALF he / him> oh waow
+[16:51:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2139ms or 42 ticks behind
+[16:51:20] [Server thread/INFO]: <ASFJASJHALALF he / him> i got a photosyntyhesis book
+[16:51:25] [Server thread/INFO]: <17sk they / them> niceee
+[16:51:35] [Server thread/INFO]: <ASFJASJHALALF he / him> beeg brain
+[16:51:54] [Server thread/INFO]: <ASFJASJHALALF he / him> can u take this ender chest
+[16:52:06] [Server thread/INFO]: <17sk they / them> yup good idea
+[16:52:13] [Server thread/INFO]: <ASFJASJHALALF he / him> mine is high key out of aspace
+[16:52:29] [Server thread/INFO]: <ASFJASJHALALF he / him> ive got like 3 slots left LMFAO
+[16:52:38] [Server thread/INFO]: <ASFJASJHALALF he / him> theres Cehsts here
+[16:52:49] [Server thread/INFO]: <17sk they / them> moer
+[16:53:01] [Server thread/INFO]: <ASFJASJHALALF he / him> blocks of emmys
+[16:53:26] [Server thread/INFO]: <17sk they / them> thank god for all this redstone so now i don[t have to make it myself
+[16:53:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-11075, y=144, z=-1251} class_2338{x=-11071, y=144, z=-1252}
+[16:53:31] [Server thread/INFO]: <ASFJASJHALALF he / him> fr fr
+[16:53:45] [Server thread/INFO]: <ASFJASJHALALF he / him> do u have lapis inyour inv
+[16:53:51] [Server thread/INFO]: <17sk they / them> no but i dpn't need it
+[16:54:01] [Server thread/INFO]: <ASFJASJHALALF he / him> im gonna sauce U some
+[16:56:09] [Server thread/INFO]: <ASFJASJHALALF he / him> WTW
+[16:59:10] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
+[16:59:18] [Server thread/INFO]: <ASFJASJHALALF he / him> can u not hear me in spectator
+[16:59:23] [Server thread/INFO]: <17sk they / them> no
+[16:59:24] [Server thread/INFO]: <ASFJASJHALALF he / him> thats fucked up
+[16:59:25] [Server thread/INFO]: <ASFJASJHALALF he / him> smh
+[16:59:45] [Server thread/INFO]: <ASFJASJHALALF he / him> waow
+[16:59:58] [Server thread/INFO]: <ASFJASJHALALF he / him> le dark
+[17:01:23] [Server thread/INFO]: <ASFJASJHALALF he / him> the newer music is playing and im getting shots of u flying this shit is mad peaceful and soothing
+[17:01:27] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[17:01:29] [Server thread/INFO]: <17sk they / them> LOL hell yea
+[17:01:40] [Server thread/INFO]: <ASFJASJHALALF he / him> beeg portal
+[17:01:49] [Server thread/INFO]: <ASFJASJHALALF he / him> mending gold axe is crazy
+[17:01:57] [Server thread/INFO]: <17sk they / them> never gonna use it
+[17:02:04] [Server thread/INFO]: <ASFJASJHALALF he / him> FR Fr
+[17:02:09] [Server thread/INFO]: <ASFJASJHALALF he / him> theyre the fastest tools In the game tho
+[17:02:24] [Server thread/INFO]: <17sk they / them> are they
+[17:02:27] [Server thread/INFO]: <ASFJASJHALALF he / him> omg tortles
+[17:02:34] [Server thread/INFO]: <ASFJASJHALALF he / him> yeah theyre the fastest to break and to mine
+[17:02:48] [Server thread/INFO]: <ASFJASJHALALF he / him> and theyre theyre like wood damaging and have bad armor stats
+[17:02:52] [Server thread/INFO]: <ASFJASJHALALF he / him> bagby totrtle
+[17:03:01] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[17:03:15] [Server thread/INFO]: <ASFJASJHALALF he / him> gold als ogets best enchants
+[17:03:31] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
+[17:03:33] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
+[17:04:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8908, y=48, z=-1070} class_2338{x=-8908, y=49, z=-1070}
+[17:04:34] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[17:04:35] [Server thread/INFO]: <17sk they / them> breed.
+[17:04:48] [Server thread/INFO]: <17sk they / them> good boy
+[17:04:52] [Server thread/INFO]: <ASFJASJHALALF he / him> W wW
+[17:04:54] [Server thread/INFO]: <17sk they / them> WHERA REYOU EGGS
+[17:04:59] [Server thread/INFO]: <17sk they / them> eggs
+[17:05:13] [Server thread/INFO]: <17sk they / them> want eggs
+[17:05:40] [Server thread/INFO]: <ASFJASJHALALF he / him> what the fuck
+[17:05:49] [Server thread/INFO]: <ASFJASJHALALF he / him> bro was SWISHING
+[17:05:51] [Server thread/INFO]: <17sk they / them> EGG
+[17:05:53] [Server thread/INFO]: <ASFJASJHALALF he / him> egg
+[17:06:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8906, y=51, z=-1072} class_2338{x=-8906, y=52, z=-1072}
+[17:07:37] [Server thread/INFO]: <ASFJASJHALALF he / him> bro swishing
+[17:08:46] [User Authenticator #3/INFO]: UUID of player Mosshroom_ is dc7e2ddf-9c53-4b85-a6eb-4c391086470b
+[17:08:47] [Server thread/INFO]: Mosshroom_[/71.232.16.38:53341] logged in with entity id 12005 at (-455.473570494597, 75.0, -304.69999998807907)
+[17:08:47] [Server thread/INFO]: Mosshroom_ she / they joined the game
+[17:08:47] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/12007, l='ServerLevel[world]', x=-459.52, y=72.00, z=-317.65]
+[17:08:47] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[17:08:53] [Server thread/WARN]: 17sk moved too quickly! 14.05568934105213,-1.8495200062567392,-10.262730855849668
+[17:10:32] [Server thread/INFO]: <Mosshroom_ she / they> w
+[17:10:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-9046, y=58, z=-1799} class_2338{x=-9046, y=59, z=-1799}
+[17:11:25] [Server thread/INFO]: <ASFJASJHALALF he / him> dont die
+[17:11:29] [Server thread/INFO]: <17sk they / them> i won't
+[17:11:32] [Server thread/INFO]: <ASFJASJHALALF he / him> W
+[17:11:40] [Server thread/INFO]: <ASFJASJHALALF he / him> june i keep forgetting that mosshroom is ur username
+[17:11:46] [Server thread/INFO]: <ASFJASJHALALF he / him> and i forget that its you, the goat
+[17:11:50] [Server thread/INFO]: <ASFJASJHALALF he / him> im so sorry
+[17:11:58] [Server thread/INFO]: <Mosshroom_ she / they> all good
+[17:12:08] [Server thread/INFO]: <Mosshroom_ she / they> I don't remember anyone
+[17:12:10] [Server thread/INFO]: <Mosshroom_ she / they> except raz
+[17:12:12] [Server thread/INFO]: 17sk they / them was impaled by Drowned
+[17:12:18] [Server thread/INFO]: <17sk they / them> oh dan
+[17:12:21] [Server thread/INFO]: <17sk they / them> he two shot me
+[17:12:25] [Server thread/INFO]: <Mosshroom_ she / they> a story in two parts
+[17:12:31] [Server thread/INFO]: <Mosshroom_ she / they> do you need armor?
+[17:12:56] [Server thread/INFO]: <17sk they / them> ill be god i think
+[17:13:01] [Server thread/INFO]: <Mosshroom_ she / they> ok
+[17:13:05] [Server thread/INFO]: <Mosshroom_ she / they> if you need any lmk
+[17:13:07] [Server thread/INFO]: <17sk they / them> ty
+[17:13:11] [Server thread/INFO]: <Mosshroom_ she / they> I have too many diamonds
+[17:14:19] [Server thread/WARN]: 17sk moved too quickly! 1.7394842357134621,0.0,-10.022143579277838
+[17:15:59] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Mosshroom_ she / they]
+[17:16:23] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 14.69121338935176,0.0,-3.4775806751353002
+[17:20:56] [Server thread/INFO]: <ASFJASJHALALF he / him> yo everyone
+[17:20:58] [Server thread/INFO]: <ASFJASJHALALF he / him> peep the patch notes
+[17:21:05] [Server thread/INFO]: <Mosshroom_ she / they> the villages?
+[17:21:13] [Server thread/INFO]: <ASFJASJHALALF he / him> hella new structures
+[17:21:17] [Server thread/INFO]: <Mosshroom_ she / they> pog
+[17:21:25] [Server thread/INFO]: <ASFJASJHALALF he / him> june why is there a llama in a boat
+[17:21:26] [Server thread/INFO]: <ASFJASJHALALF he / him> LMFAO
+[17:21:30] [Server thread/INFO]: <Mosshroom_ she / they> that was sage
+[17:21:45] [Server thread/INFO]: <Mosshroom_ she / they> it's been there for like a week
+[17:22:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2073ms or 41 ticks behind
+[17:22:25] [Server thread/INFO]: 17sk they / them was impaled by Drowned
+[17:22:28] [Server thread/INFO]: <17sk they / them> DARNIT
+[17:22:31] [Server thread/INFO]: <Mosshroom_ she / they> please
+[17:22:36] [Server thread/INFO]: <Mosshroom_ she / they> just wear armor
+[17:22:38] [Server thread/INFO]: <17sk they / them> i am
+[17:22:41] [Server thread/INFO]: <Mosshroom_ she / they> what is it?
+[17:22:42] [Server thread/INFO]: <17sk they / them> bro full diamond
+[17:22:44] [Server thread/INFO]: <17sk they / them> well
+[17:22:46] [Server thread/INFO]: <17sk they / them> chain chestplate
+[17:22:46] [Server thread/INFO]: <Mosshroom_ she / they> prot level?
+[17:22:49] [Server thread/INFO]: <17sk they / them> none
+[17:22:57] [Server thread/INFO]: <Mosshroom_ she / they> I think I've solved the mystery
+[17:23:01] [Server thread/INFO]: <Mosshroom_ she / they> enchant
+[17:23:15] [Server thread/INFO]: <Mosshroom_ she / they> you're missing out on so much defense
+[17:23:23] [Server thread/INFO]: <17sk they / them> ik but im lazy and just made this armor
+[17:24:01] [Server thread/INFO]: <17sk they / them> i made this armor like 20 mintues ago just to go exploring i didn;t think i'd be getting my ass munched by a drowned
+[17:24:28] [Server thread/INFO]: <Mosshroom_ she / they> what have you been doing on the server?
+[17:24:38] [Server thread/INFO]: <17sk they / them> farms
+[17:24:41] [Server thread/INFO]: <17sk they / them> i built a house
+[17:24:43] [Server thread/INFO]: <Mosshroom_ she / they> zamn
+[17:24:47] [Server thread/INFO]: <17sk they / them> i HAVE a prot 4 villager
+[17:24:53] [Server thread/INFO]: <17sk they / them> i just didn[t put it on
+[17:24:57] [Server thread/INFO]: <Mosshroom_ she / they> lmao
+[17:26:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8996, y=67, z=-1767} class_2338{x=-9158, y=65, z=-341}
+[17:27:08] [Server thread/WARN]: Mosshroom_ moved too quickly! 17.423773240855894,2.9904153533958464,6.145022622731801
+[17:28:07] [Server thread/WARN]: 17sk moved too quickly! -5.524698203777007,-5.446419875507559,-15.663057298134277
+[17:30:02] [Server thread/WARN]: 17sk moved too quickly! 8.201882140525413,-1.660834353107333,16.252881275757204
+[17:30:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6900ms or 138 ticks behind
+[17:30:22] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 7.852703396411982,17.25868005218132,13.303100945516121
+[17:30:24] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.5814663811807463,12.279936272392263,1.361649060428249
+[17:30:31] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 8.832318542107913,9.710060147320092,18.799791208216845
+[17:30:31] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 7.757576079768398,8.571459882680045,16.154024337817987
+[17:30:31] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 7.757576079768398,8.571459882680045,16.154024337817987
+[17:30:31] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 7.757576079768398,8.571459882680045,16.154024337817987
+[17:30:31] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 7.757576079768398,8.571459882680045,16.154024337817987
+[17:30:31] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 7.757576079768398,8.571459882680045,16.154024337817987
+[17:30:47] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.38622088019303646,15.838367950729847,7.593642299554574
+[17:30:47] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.8844273408081165,14.398421186497316,6.18935114953041
+[17:30:57] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[17:30:58] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.8142995898269874,10.21707282438048,0.0854863556487544
+[17:30:59] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 2.13202792885113,12.86019982443753,0.6276042537909916
+[17:31:05] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Mosshroom_ she / they]
+[17:31:17] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[17:31:30] [Server thread/WARN]: Mosshroom_ moved too quickly! 10.774307547190688,5.594531342397119,-13.517727459227984
+[17:31:35] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
+[17:31:51] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
+[17:32:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2919ms or 58 ticks behind
+[17:33:12] [Server thread/WARN]: 17sk moved too quickly! -8.53973839833543,10.64187082297073,10.876987238367064
+[17:33:12] [Server thread/WARN]: Mosshroom_ moved too quickly! -13.27995189794376,11.274357286569881,0.0495721611965223
+[17:33:41] [Server thread/WARN]: 17sk moved too quickly! -0.46025505070156214,4.68085062722767,16.929315031212713
+[17:33:41] [Server thread/WARN]: Mosshroom_ moved too quickly! -17.65046092521834,-2.4841368857341593,0.02389063629487964
+[17:34:12] [Server thread/WARN]: Mosshroom_ moved too quickly! -18.816218399889294,-2.2562999550517446,0.2977288787546968
+[17:35:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8452, y=70, z=635} class_2338{x=-8452, y=70, z=634}
+[17:35:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8463, y=65, z=622} class_2338{x=-8463, y=64, z=621}
+[17:36:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8466, y=65, z=629} class_2338{x=-8467, y=65, z=629}
+[17:36:23] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -11.743524450973382,0.6000000238418579,1.39035873828783
+[17:37:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8468, y=70, z=598} class_2338{x=-8469, y=68, z=598}
+[17:37:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8468, y=68, z=597} class_2338{x=-8468, y=67, z=598}
+[17:37:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8468, y=68, z=597} class_2338{x=-8468, y=67, z=598}
+[17:37:45] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8468, y=68, z=597} class_2338{x=-8468, y=67, z=598}
+[17:37:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8468, y=68, z=597} class_2338{x=-8468, y=67, z=598}
+[17:37:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8468, y=68, z=597} class_2338{x=-8468, y=67, z=598}
+[17:37:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8468, y=68, z=597} class_2338{x=-8468, y=67, z=598}
+[17:37:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8468, y=68, z=597} class_2338{x=-8468, y=67, z=598}
+[17:37:46] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8468, y=68, z=597} class_2338{x=-8468, y=67, z=598}
+[17:37:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2041ms or 40 ticks behind
+[17:38:08] [Server thread/WARN]: Mosshroom_ moved too quickly! -16.48472469352646,7.546687389189728,-1.8666325840290483
+[17:38:12] [Server thread/INFO]: Saving the game (this may take a moment!)
+[17:38:12] [Server thread/INFO]: Saved the game
+[17:38:17] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8470, y=65, z=624} class_2338{x=-8469, y=64, z=623}
+[17:38:29] [Server thread/WARN]: Mosshroom_ moved too quickly! -16.767162194244065,-1.5984406348683962,-5.859839819390572
+[17:39:23] [Server thread/INFO]: [Not Secure] [Server] i see part of the problem
+[17:39:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8535, y=75, z=660} class_2338{x=-8534, y=73, z=660}
+[17:39:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8535, y=75, z=660} class_2338{x=-8534, y=73, z=660}
+[17:39:35] [Server thread/INFO]: <Mosshroom_ she / they> ?
+[17:39:41] [Server thread/INFO]: [Not Secure] [Server] im compressing the git repo but its still using like most of my systems memory
+[17:39:48] [Server thread/INFO]: [Not Secure] [Server] dash has only 8GB of RAM
+[17:39:53] [Server thread/WARN]: Mosshroom_ moved too quickly! -18.35551199406109,-1.4057978047721207,-0.8076586622274817
+[17:40:17] [Server thread/WARN]: Mosshroom_ moved too quickly! -17.5593000097806,-5.582254080506615,1.0605531598129119
+[17:40:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=676} class_2338{x=-8524, y=76, z=677}
+[17:40:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=676} class_2338{x=-8524, y=76, z=677}
+[17:40:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=676} class_2338{x=-8524, y=76, z=677}
+[17:40:27] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=676} class_2338{x=-8524, y=76, z=677}
+[17:40:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=675} class_2338{x=-8521, y=77, z=675}
+[17:40:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=675} class_2338{x=-8524, y=76, z=676}
+[17:40:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=675} class_2338{x=-8524, y=76, z=676}
+[17:40:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=675} class_2338{x=-8524, y=76, z=676}
+[17:40:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=675} class_2338{x=-8524, y=76, z=676}
+[17:40:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=675} class_2338{x=-8524, y=76, z=676}
+[17:40:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=77, z=675} class_2338{x=-8524, y=76, z=676}
+[17:40:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8523, y=77, z=671} class_2338{x=-8523, y=76, z=670}
+[17:40:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8523, y=77, z=671} class_2338{x=-8523, y=76, z=670}
+[17:41:51] [Server thread/WARN]: Mosshroom_ moved too quickly! 12.219281056104592,-1.8277728239523583,12.78140198287997
+[17:41:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2924ms or 58 ticks behind
+[17:42:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=72, z=622} class_2338{x=-8524, y=70, z=622}
+[17:42:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=72, z=623} class_2338{x=-8524, y=70, z=622}
+[17:42:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=72, z=622} class_2338{x=-8524, y=70, z=622}
+[17:42:07] [Server thread/WARN]: Mosshroom_ moved too quickly! -16.01875658046356,-4.3607268105810135,-8.348042406442346
+[17:42:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8528, y=74, z=620} class_2338{x=-8528, y=72, z=619}
+[17:42:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8531, y=74, z=622} class_2338{x=-8531, y=73, z=623}
+[17:42:37] [Server thread/INFO]: <17sk they / them> i found another puzzle
+[17:42:45] [Server thread/INFO]: Saving the game (this may take a moment!)
+[17:42:45] [Server thread/INFO]: Saved the game
+[17:42:57] [Server thread/INFO]: [Not Secure] [Server] ok i canceled the git thing so the lag should be gone
+[17:43:03] [Server thread/INFO]: <Mosshroom_ she / they> oated
+[17:43:05] [Server thread/INFO]: <Mosshroom_ she / they> ty
+[17:43:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8557, y=71, z=607} class_2338{x=-8556, y=70, z=607}
+[17:43:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8557, y=73, z=608} class_2338{x=-8555, y=74, z=608}
+[17:43:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8557, y=73, z=608} class_2338{x=-8555, y=74, z=608}
+[17:44:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8605, y=80, z=596} class_2338{x=-8604, y=79, z=597}
+[17:44:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8605, y=80, z=592} class_2338{x=-8605, y=79, z=591}
+[17:44:33] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[17:44:41] [Server thread/INFO]: <ASFJASJHALALF he / him> oh wow cool temple
+[17:44:53] [User Authenticator #4/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[17:44:53] [Server thread/INFO]: Bemf[/71.233.245.252:49759] logged in with entity id 47020 at (2112.650377545382, 65.0, -2772.5412992312095)
+[17:44:53] [Server thread/INFO]: Bemf he / him joined the game
+[17:45:08] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -11.06519787111938,0.03157784924374596,-13.493500631311122
+[17:45:36] [Server thread/INFO]: Locating element nova_structures:lone_citadel took 11756 ms
+[17:45:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11791ms or 235 ticks behind
+[17:45:36] [Server thread/INFO]: 17sk lost connection: Disconnected
+[17:45:36] [Server thread/INFO]: 17sk they / them left the game
+[17:45:36] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[17:45:36] [Server thread/WARN]: Mosshroom_ moved too quickly! 17.789077072560758,-2.856691233348414,-0.08351065918759559
+[17:45:36] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -8.887186218062197,0.0,6.87800603402286
+[17:45:36] [Server thread/WARN]: Bemf moved too quickly! -8.632286843950624,-1.2468000194787976,-5.263426951498786
+[17:45:41] [Server thread/INFO]: Bemf lost connection: Disconnected
+[17:45:41] [Server thread/INFO]: Bemf he / him left the game
+[17:45:41] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[17:45:42] [User Authenticator #5/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[17:45:43] [Server thread/INFO]: 17sk[/24.253.191.140:58172] logged in with entity id 48428 at (-8541.80596684241, 65.0, 522.448445283883)
+[17:45:43] [Server thread/INFO]: 17sk they / them joined the game
+[17:45:43] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[17:45:43] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[17:45:43] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[17:45:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[17:45:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[17:45:50] [Server thread/INFO]: <ASFJASJHALALF he / him> sorry yall lmao
+[17:45:56] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -19183.500000, 100.392110, -2415.500000]
+[17:46:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3206ms or 64 ticks behind
+[17:46:01] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Frozen Remnants]
+[17:46:11] [Server thread/INFO]: <17sk they / them> wait where is a citidel it sounds sick
+[17:46:15] [Server thread/INFO]: <17sk they / them> i wanna loot it
+[17:46:35] [Server thread/INFO]: <ASFJASJHALALF he / him> X: -19184 Y: -2416
+[17:46:40] [Server thread/INFO]: <17sk they / them> jesus ok
+[17:46:47] [Server thread/INFO]: <ASFJASJHALALF he / him> yeah
+[17:46:58] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[17:47:01] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
+[17:47:01] [Server thread/INFO]: ASFJASJHALALF he / him left the game
+[17:47:01] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
+[17:47:21] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[17:48:13] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
+[17:48:38] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[17:48:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8517, y=80, z=584} class_2338{x=-8524, y=82, z=580}
+[17:48:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8517, y=80, z=584} class_2338{x=-8524, y=82, z=580}
+[17:48:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8517, y=80, z=584} class_2338{x=-8524, y=82, z=580}
+[17:48:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8517, y=80, z=584} class_2338{x=-8524, y=82, z=580}
+[17:49:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8518, y=78, z=581} class_2338{x=-8520, y=77, z=579}
+[17:49:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8516, y=80, z=578} class_2338{x=-8515, y=79, z=577}
+[17:49:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8507, y=76, z=575} class_2338{x=-8506, y=75, z=578}
+[17:52:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8513, y=78, z=584} class_2338{x=-8512, y=78, z=584}
+[17:52:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8514, y=74, z=586} class_2338{x=-8515, y=78, z=588}
+[17:52:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8514, y=74, z=586} class_2338{x=-8515, y=78, z=588}
+[17:52:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8514, y=74, z=586} class_2338{x=-8515, y=78, z=588}
+[17:52:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8514, y=74, z=586} class_2338{x=-8515, y=78, z=588}
+[17:52:44] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8514, y=74, z=586} class_2338{x=-8515, y=78, z=588}
+[17:52:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8517, y=76, z=595} class_2338{x=-8516, y=75, z=600}
+[17:53:19] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8516, y=76, z=587} class_2338{x=-8516, y=74, z=588}
+[17:53:36] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8521, y=73, z=584} class_2338{x=-8521, y=73, z=589}
+[17:53:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8528, y=72, z=586} class_2338{x=-8529, y=70, z=587}
+[17:54:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8534, y=72, z=591} class_2338{x=-8535, y=71, z=591}
+[17:54:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8528, y=72, z=581} class_2338{x=-8530, y=70, z=580}
+[17:55:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8535, y=72, z=588} class_2338{x=-8536, y=71, z=588}
+[17:55:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8523, y=70, z=581} class_2338{x=-8523, y=70, z=582}
+[17:55:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8523, y=70, z=581} class_2338{x=-8523, y=70, z=582}
+[17:55:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8523, y=70, z=581} class_2338{x=-8523, y=70, z=582}
+[17:55:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=68, z=578} class_2338{x=-8523, y=68, z=578}
+[17:55:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=68, z=578} class_2338{x=-8523, y=68, z=578}
+[17:55:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=68, z=578} class_2338{x=-8523, y=68, z=578}
+[17:55:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=68, z=578} class_2338{x=-8523, y=68, z=578}
+[17:55:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=68, z=578} class_2338{x=-8523, y=68, z=578}
+[17:55:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=68, z=578} class_2338{x=-8523, y=68, z=578}
+[17:55:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=68, z=578} class_2338{x=-8523, y=68, z=578}
+[17:55:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=68, z=578} class_2338{x=-8523, y=68, z=578}
+[17:55:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8524, y=68, z=578} class_2338{x=-8523, y=68, z=578}
+[17:55:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8525, y=69, z=580} class_2338{x=-8526, y=68, z=580}
+[17:55:56] [User Authenticator #6/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[17:55:56] [Server thread/INFO]: Bemf[/71.233.245.252:50381] logged in with entity id 63246 at (2099.789867915831, 63.0, -2775.3172361984057)
+[17:55:56] [Server thread/INFO]: Bemf he / him joined the game
+[17:55:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8522, y=70, z=579} class_2338{x=-8522, y=69, z=579}
+[17:56:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8518, y=68, z=578} class_2338{x=-8518, y=66, z=579}
+[17:56:08] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8518, y=68, z=578} class_2338{x=-8517, y=66, z=579}
+[17:56:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8515, y=68, z=579} class_2338{x=-8515, y=66, z=578}
+[17:56:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8523, y=68, z=584} class_2338{x=-8523, y=66, z=584}
+[17:56:30] [Server thread/INFO]: Bemf lost connection: Disconnected
+[17:56:30] [Server thread/INFO]: Bemf he / him left the game
+[17:56:30] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[17:56:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8525, y=68, z=584} class_2338{x=-8525, y=67, z=584}
+[17:56:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8523, y=68, z=587} class_2338{x=-8523, y=67, z=589}
+[17:56:37] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8519, y=68, z=588} class_2338{x=-8519, y=67, z=589}
+[17:56:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8516, y=69, z=587} class_2338{x=-8516, y=69, z=586}
+[17:56:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8516, y=67, z=588} class_2338{x=-8516, y=67, z=587}
+[17:56:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8514, y=68, z=587} class_2338{x=-8512, y=67, z=588}
+[17:57:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-450, y=60, z=-55} class_2338{x=-451, y=61, z=-53}
+[17:57:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8515, y=72, z=583} class_2338{x=-8515, y=70, z=583}
+[17:57:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8514, y=68, z=580} class_2338{x=-8514, y=66, z=581}
+[17:57:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8515, y=69, z=580} class_2338{x=-8514, y=66, z=581}
+[17:57:28] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8513, y=69, z=586} class_2338{x=-8513, y=68, z=587}
+[17:57:37] [User Authenticator #7/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[17:57:38] [Server thread/INFO]: Bemf[/71.233.245.252:50564] logged in with entity id 65982 at (2099.6130911124637, 63.0, -2771.1649656421387)
+[17:57:38] [Server thread/INFO]: Bemf he / him joined the game
+[17:57:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8505, y=72, z=575} class_2338{x=-8505, y=71, z=574}
+[17:59:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8498, y=76, z=590} class_2338{x=-8496, y=75, z=589}
+[17:59:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8501, y=72, z=588} class_2338{x=-8501, y=71, z=587}
+[17:59:20] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8499, y=72, z=590} class_2338{x=-8502, y=71, z=589}
+[17:59:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8500, y=68, z=587} class_2338{x=-8500, y=66, z=590}
+[17:59:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-521, y=66, z=-91} class_2338{x=-522, y=70, z=-94}
+[18:02:57] [Server thread/INFO]: <17sk they / them> update the desert temple added sucks
+[18:03:02] [Server thread/INFO]: <17sk they / them> its all filled with sand
+[18:03:07] [Server thread/INFO]: <17sk they / them> you gave to mine it all
+[18:03:10] [Server thread/INFO]: <Mosshroom_ she / they> shocker
+[18:03:27] [Server thread/INFO]: <17sk they / them> all the loot is hidden in the sand :(
+[18:03:31] [Server thread/INFO]: <Mosshroom_ she / they> lmao
+[18:03:32] [Server thread/INFO]: <17sk they / them> the jungle temple was cooler
+[18:03:44] [Server thread/INFO]: <Mosshroom_ she / they> desert content has never been very good
+[18:09:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8489, y=-18, z=846} class_2338{x=-8502, y=-19, z=804}
+[18:09:44] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[18:09:45] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[18:09:46] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[18:11:10] [Server thread/INFO]: <17sk they / them> if i drink a bad omen potion after beating a trial do i get better chest rewards
+[18:11:18] [Server thread/WARN]: Bemf moved too quickly! -8.763155353811044,-7.563634833126002,13.466838714933147
+[18:11:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5259ms or 105 ticks behind
+[18:11:19] [Server thread/INFO]: <17sk they / them> or would I have had to drink it before
+[18:11:26] [Server thread/WARN]: Bemf moved too quickly! -11.076789335423655,-5.244541807147826,-12.531538992156129
+[18:11:35] [Server thread/INFO]: <Mosshroom_ she / they> i thought bad omens was for raids
+[18:11:36] [Server thread/INFO]: <Bemf he / him> gotta be before
+[18:11:40] [Server thread/INFO]: <17sk they / them> frick
+[18:11:48] [Server thread/INFO]: <17sk they / them> ok
+[18:11:57] [Server thread/INFO]: <Bemf he / him> if you have bad omen you have a higher chance of getting ominous keys
+[18:12:03] [Server thread/INFO]: <17sk they / them> i have two keys
+[18:12:04] [Server thread/INFO]: <Bemf he / him> and then you use those to get the good loot
+[18:12:42] [Server thread/INFO]: <17sk they / them> ayee bad omen 4 bottle
+[18:12:57] [Server thread/INFO]: Bemf he / him blew up
+[18:13:04] [Server thread/INFO]: <Mosshroom_ she / they> my main goal
+[18:13:51] [Server thread/INFO]: <Bemf he / him> i was like 5000 blocks away
+[18:13:58] [Server thread/INFO]: 17sk lost connection: Disconnected
+[18:13:58] [Server thread/INFO]: 17sk they / them left the game
+[18:13:58] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[18:14:22] [Server thread/INFO]: <Mosshroom_ she / they> do you by any chance have spare shulker boxes you cold sell?
+[18:14:34] [Server thread/INFO]: <Bemf he / him> unfortunately not
+[18:14:39] [Server thread/INFO]: <Mosshroom_ she / they> cringe
+[18:16:06] [Server thread/INFO]: Summoned new Cow
+[18:16:06] [Server thread/INFO]: Summoned new Cow
+[18:20:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1697, y=81, z=-7401} class_2338{x=1696, y=80, z=-7401}
+[18:21:49] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1767, y=76, z=-7410} class_2338{x=1767, y=74, z=-7411}
+[18:22:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1767, y=79, z=-7410} class_2338{x=1751, y=74, z=-7375}
+[18:29:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1737, y=71, z=-7334} class_2338{x=1737, y=70, z=-7333}
+[18:29:50] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1738, y=70, z=-7331} class_2338{x=1737, y=71, z=-7332}
+[18:31:07] [Server thread/INFO]: <Mosshroom_ she / they> I've created a monster
+[18:31:12] [Server thread/INFO]: <Bemf he / him> ?
+[18:31:22] [Server thread/INFO]: <Mosshroom_ she / they> I feel like if I made a bigger one I could crash the server
+[18:31:27] [Server thread/INFO]: <Mosshroom_ she / they> I made a sea pickle farm
+[18:31:34] [Server thread/INFO]: <Mosshroom_ she / they> and when I turned it on
+[18:31:38] [Server thread/INFO]: <Mosshroom_ she / they> my game started chuggin
+[18:31:43] [Server thread/INFO]: <Bemf he / him> oh boy
+[18:31:44] [Server thread/INFO]: <Mosshroom_ she / they> my fps got halved
+[18:31:51] [Server thread/INFO]: <Bemf he / him> why do you need so many sea pickles lol
+[18:32:02] [Server thread/INFO]: <Mosshroom_ she / they> industry secret
+[18:32:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1740, y=70, z=-7337} class_2338{x=1741, y=69, z=-7340}
+[18:32:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1731, y=71, z=-7341} class_2338{x=1731, y=69, z=-7339}
+[18:32:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1730, y=71, z=-7342} class_2338{x=1729, y=70, z=-7341}
+[18:32:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1730, y=71, z=-7342} class_2338{x=1729, y=70, z=-7341}
+[18:32:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1730, y=71, z=-7342} class_2338{x=1729, y=70, z=-7341}
+[18:32:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1729, y=73, z=-7343} class_2338{x=1729, y=71, z=-7342}
+[18:32:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1733, y=75, z=-7343} class_2338{x=1734, y=74, z=-7343}
+[18:33:22] [Server thread/INFO]: <Mosshroom_ she / they> check general
+[18:33:27] [Server thread/INFO]: <Mosshroom_ she / they> that's about half of what I farmed
+[18:33:30] [Server thread/INFO]: <Mosshroom_ she / they> in like 30 seconds
+[18:33:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1745, y=72, z=-7331} class_2338{x=1746, y=71, z=-7334}
+[18:35:24] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1741, y=70, z=-7329} class_2338{x=1741, y=71, z=-7329}
+[18:36:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1747, y=74, z=-7324} class_2338{x=1746, y=74, z=-7323}
+[18:36:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1747, y=74, z=-7324} class_2338{x=1746, y=74, z=-7323}
+[18:36:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1747, y=74, z=-7324} class_2338{x=1746, y=74, z=-7323}
+[18:36:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1747, y=74, z=-7324} class_2338{x=1746, y=74, z=-7323}
+[18:37:54] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1752, y=70, z=-7340} class_2338{x=1752, y=69, z=-7339}
+[18:39:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1750, y=70, z=-7332} class_2338{x=1750, y=71, z=-7330}
+[18:39:16] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1754, y=72, z=-7331} class_2338{x=1753, y=71, z=-7329}
+[18:40:04] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1756, y=75, z=-7336} class_2338{x=1755, y=75, z=-7337}
+[18:40:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1756, y=75, z=-7340} class_2338{x=1755, y=74, z=-7341}
+[18:41:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1756, y=74, z=-7342} class_2338{x=1762, y=77, z=-7343}
+[18:42:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1752, y=76, z=-7341} class_2338{x=1752, y=77, z=-7341}
+[18:42:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1747, y=78, z=-7347} class_2338{x=1747, y=79, z=-7347}
+[18:42:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1747, y=78, z=-7347} class_2338{x=1747, y=79, z=-7348}
+[18:42:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1747, y=78, z=-7347} class_2338{x=1747, y=79, z=-7348}
+[18:42:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1747, y=78, z=-7347} class_2338{x=1747, y=79, z=-7348}
+[18:43:32] [Server thread/INFO]: <Mosshroom_ she / they> can I shoot you?
+[18:43:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1737, y=78, z=-7339} class_2338{x=1737, y=79, z=-7339}
+[18:43:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1737, y=78, z=-7339} class_2338{x=1737, y=79, z=-7338}
+[18:43:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1737, y=78, z=-7339} class_2338{x=1737, y=79, z=-7338}
+[18:43:41] [Server thread/INFO]: <Bemf he / him> a lil busy
+[18:43:44] [Server thread/INFO]: <Mosshroom_ she / they> okie
+[18:43:45] [Server thread/INFO]: <Bemf he / him> very far away
+[18:43:55] [Server thread/INFO]: <Mosshroom_ she / they> alr
+[18:44:00] [Server thread/INFO]: <Mosshroom_ she / they> im gonna afk a bit
+[18:47:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1745, y=83, z=-7336} class_2338{x=1745, y=84, z=-7336}
+[18:47:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1745, y=83, z=-7336} class_2338{x=1746, y=84, z=-7336}
+[18:47:48] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1745, y=83, z=-7336} class_2338{x=1746, y=84, z=-7336}
+[18:48:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1745, y=83, z=-7336} class_2338{x=1754, y=86, z=-7328}
+[18:49:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1743, y=80, z=-7326} class_2338{x=1742, y=80, z=-7325}
+[18:55:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1586, y=60, z=-7584} class_2338{x=1573, y=62, z=-7581}
+[18:55:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1586, y=60, z=-7584} class_2338{x=1573, y=62, z=-7581}
+[18:55:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1543, y=63, z=-7565} class_2338{x=1541, y=64, z=-7567}
+[18:55:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1543, y=63, z=-7565} class_2338{x=1541, y=64, z=-7567}
+[18:55:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1543, y=63, z=-7565} class_2338{x=1541, y=64, z=-7567}
+[18:55:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1543, y=63, z=-7565} class_2338{x=1541, y=64, z=-7567}
+[18:55:51] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=1543, y=63, z=-7565} class_2338{x=1541, y=64, z=-7567}
+[18:59:36] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[18:59:42] [Server thread/INFO]: Bemf he / him has made the advancement [Safe Haven]
+[19:01:06] [Server thread/INFO]: You whisper to Mosshroom_ she / they: HOLY SHIT BEHIND YOU!
+[19:01:23] [Server thread/INFO]: Bemf he / him has made the advancement [Call for Adventure]
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_right
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_right
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_right
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_right
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_right
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_right
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_right
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_left
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_right
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_right
+[19:01:25] [c2me-worker-0/WARN]: Empty or non-existent pool: nova_structures:pale_residence/resi_window_slim_right
+[19:01:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4829ms or 96 ticks behind
+[19:03:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[19:03:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[19:04:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2190ms or 43 ticks behind
+[19:08:02] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[19:08:46] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[19:08:53] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[19:11:35] [User Authenticator #8/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[19:11:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 33838ms or 676 ticks behind
+[19:11:36] [Server thread/INFO]: Mosshroom_ lost connection: Disconnected
+[19:11:36] [Server thread/INFO]: Mosshroom_ she / they left the game
+[19:11:36] [Server thread/INFO]: [voicechat] Disconnecting client Mosshroom_
+[19:11:36] [Server thread/INFO]: Bemf lost connection: Disconnected
+[19:11:36] [Server thread/INFO]: Bemf he / him left the game
+[19:11:36] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[19:11:36] [Server thread/INFO]: Bemf[/71.233.245.252:52544] logged in with entity id 117845 at (4069.300000011921, 124.0, -11240.104074845927)
+[19:11:36] [Server thread/INFO]: Bemf he / him joined the game
+[19:12:45] [Server thread/INFO]: Bemf lost connection: Disconnected
+[19:12:45] [Server thread/INFO]: Bemf he / him left the game
+[19:12:45] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[19:13:45] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:24:20] [User Authenticator #9/INFO]: UUID of player Mosshroom_ is dc7e2ddf-9c53-4b85-a6eb-4c391086470b
+[19:24:20] [Server thread/INFO]: Mosshroom_[/71.232.16.38:55212] logged in with entity id 118022 at (-455.30000001192093, 75.0, -304.69999998807907)
+[19:24:20] [Server thread/INFO]: Mosshroom_ she / they joined the game
+[19:28:14] [User Authenticator #10/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[19:28:15] [Server thread/INFO]: Bemf[/71.233.245.252:53152] logged in with entity id 118530 at (4069.7632845573817, 124.0, -11238.37998710445)
+[19:28:15] [Server thread/INFO]: Bemf he / him joined the game
+[19:29:39] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
+[19:30:24] [Server thread/WARN]: Bemf moved too quickly! 18.120606490629143,-2.176745291304897,-1.0758988518264232
+[19:32:56] [Server thread/WARN]: Bemf moved too quickly! 17.761465048267382,-3.4072287499671745,1.3278680588191492
+[19:33:07] [Server thread/WARN]: Bemf moved too quickly! 18.957241420555874,-2.084296996699635,-0.6663549842214707
+[19:33:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2508ms or 50 ticks behind
+[19:33:12] [Server thread/WARN]: Bemf moved too quickly! 18.315595137485616,0.34039844408067665,0.35637955763741047
+[19:33:20] [Server thread/WARN]: Bemf moved too quickly! 18.207942458830075,-3.0210050311893326,0.23762848632213718
+[19:33:28] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[19:33:32] [Server thread/WARN]: Bemf moved too quickly! 18.360905795598228,-2.147171603327436,-0.15665120056655724
+[19:33:41] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[19:33:42] [Server thread/WARN]: Bemf moved too quickly! 17.52987662889427,-2.0970165660105806,0.8088213568971696
+[19:33:50] [Server thread/WARN]: Bemf moved too quickly! 18.003883891971782,-1.0647841924324126,3.1537011845284724
+[19:33:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[19:33:56] [Server thread/WARN]: Bemf moved too quickly! 17.51995635748972,-2.5138552991758445,0.9563659732593806
+[19:34:00] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[19:39:16] [User Authenticator #11/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[19:39:17] [Server thread/INFO]: madb0nes[/72.70.38.62:56312] logged in with entity id 125689 at (239.361364574675, 1.5, 0.14942541510593077)
+[19:39:17] [Server thread/INFO]: madb0nes he / him joined the game
+[19:39:19] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
+[19:39:19] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
+[19:39:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[19:39:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[19:39:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
+[19:42:40] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=8867, y=14, z=-12495} class_2338{x=8866, y=13, z=-12495}
+[19:49:15] [Server thread/INFO]: [Not Secure] [Server] hey chat
+[19:49:17] [Server thread/INFO]: There are 3 of a max of 69 players online: Mosshroom_ she / they, Bemf he / him, madb0nes he / him
+[19:49:18] [Server thread/INFO]: [Not Secure] [Server] whos on
+[19:49:21] [Server thread/INFO]: [Not Secure] [Server] and what yall doin
+[19:49:28] [Server thread/INFO]: <madb0nes he / him> menderman farming
+[19:49:32] [Server thread/INFO]: <Bemf he / him> exploring some new dungeons
+[19:49:38] [Server thread/INFO]: [Not Secure] [Server] how are they?
+[19:49:44] [Server thread/INFO]: <Bemf he / him> pretty cool
+[19:50:02] [Server thread/INFO]: [Not Secure] [Server] what dungeons have u been to
+[19:50:12] [Server thread/INFO]: <Bemf he / him> big desert temple
+[19:50:18] [Server thread/INFO]: [Not Secure] [Server] nice nice
+[19:57:01] [User Authenticator #12/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[19:57:03] [Server thread/INFO]: 17sk[/24.253.191.140:59788] logged in with entity id 132635 at (-8440.28877703072, 66.0, 804.0491099154951)
+[19:57:03] [Server thread/INFO]: 17sk they / them joined the game
+[19:57:03] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[19:57:03] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[19:57:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[19:57:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[19:57:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[19:57:40] [Server thread/WARN]: 17sk moved too quickly! -17.944535979400825,-2.7165457753337137,-0.7255206632967202
+[19:58:54] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[19:59:43] [Server thread/WARN]: Bemf moved too quickly! -12.55678121974961,-1.7461696253685801,-12.012558645319587
+[20:01:11] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:01:25] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:01:26] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:01:27] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:01:28] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:01:29] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:01:30] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:01:54] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:02:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:02:45] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:02:46] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:02:47] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:02:48] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:02:49] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:02:50] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:02:50] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:02:50] [Server thread/INFO]: 17sk they / them has reached the goal [Revaulting]
+[20:03:03] [Server thread/INFO]: <madb0nes he / him> i thought that said reovulating
+[20:03:16] [Server thread/INFO]: <17sk they / them> yea i am
+[20:04:33] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
+[20:05:05] [Server thread/INFO]: madb0nes lost connection: Disconnected
+[20:05:05] [Server thread/INFO]: madb0nes he / him left the game
+[20:05:05] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
+[20:06:21] [Server thread/INFO]: Mosshroom_ lost connection: Disconnected
+[20:06:21] [Server thread/INFO]: Mosshroom_ she / they left the game
+[20:06:21] [Server thread/INFO]: [voicechat] Disconnecting client Mosshroom_
+[20:08:12] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:08:44] [c2me-worker-0/WARN]: Empty or non-existent pool: minecraft:minecraft_empty
+[20:08:44] [c2me-worker-0/WARN]: Empty or non-existent pool: minecraft:minecraft_empty
+[20:08:44] [c2me-worker-0/WARN]: Empty or non-existent pool: minecraft:minecraft_empty
+[20:08:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2334ms or 46 ticks behind
+[20:08:45] [Server thread/WARN]: Bemf moved too quickly! -6.496851309426347,-1.8964326511102598,-16.450526221247856
+[20:09:19] [Server thread/WARN]: Bemf moved too quickly! 1.3021563905153926,-3.1140750103352985,-17.667805849665456
+[20:09:19] [Server thread/WARN]: 17sk moved too quickly! -0.2707196138508152,0.0,-10.14757490863144
+[20:09:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3363ms or 67 ticks behind
+[20:09:54] [Server thread/INFO]: Bemf he / him has made the advancement [A Major Trial Of Strength]
+[20:11:56] [Server thread/INFO]: 17sk they / them has made the advancement [Wax Off]
+[20:14:51] [Server thread/INFO]: 17sk they / them has made the advancement [Who Needs Rockets?]
+[20:16:06] [Server thread/INFO]: Summoned new Cow
+[20:16:06] [Server thread/INFO]: Summoned new Cow
+[20:17:45] [Server thread/INFO]: <17sk they / them> why is this key not working
+[20:17:47] [Server thread/INFO]: <17sk they / them> i beat the guys
+[20:22:41] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:41] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:48] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:48] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:53] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:53] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:54] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:55] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:56] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:57] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:58] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:22:59] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:23:00] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:23:01] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:23:02] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:23:03] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
+[20:26:10] [Server thread/INFO]: /chunky [cancel] [<world>]
+[20:26:10] [Server thread/INFO]: /chunky [center] [<x>]
+[20:26:10] [Server thread/INFO]: /chunky [confirm]
+[20:26:10] [Server thread/INFO]: /chunky [continue] [<world>]
+[20:26:10] [Server thread/INFO]: /chunky [corners] [<x1>]
+[20:26:10] [Server thread/INFO]: /chunky [help] [<page>]
+[20:26:10] [Server thread/INFO]: /chunky [pattern] [<pattern>]
+[20:26:10] [Server thread/INFO]: /chunky [pause] [<world>]
+[20:26:10] [Server thread/INFO]: /chunky [progress]
+[20:26:10] [Server thread/INFO]: /chunky [quiet] [<interval>]
+[20:26:10] [Server thread/INFO]: /chunky [radius] [<radius>]
+[20:26:10] [Server thread/INFO]: /chunky [reload] [<type>]
+[20:26:10] [Server thread/INFO]: /chunky [selection]
+[20:26:10] [Server thread/INFO]: /chunky [shape] [<shape>]
+[20:26:10] [Server thread/INFO]: /chunky [silent]
+[20:26:10] [Server thread/INFO]: /chunky [spawn]
+[20:26:10] [Server thread/INFO]: /chunky [start] [<world>]
+[20:26:10] [Server thread/INFO]: /chunky [trim] [<world>]
+[20:26:10] [Server thread/INFO]: /chunky [worldborder]
+[20:26:10] [Server thread/INFO]: /chunky [world] [<world>]
+[20:26:15] [Server thread/INFO]: /chunky start [<world>] [<shape>]
+[20:26:30] [Server thread/INFO]: Expected integer
+[20:26:30] [Server thread/INFO]: ...unky help start<--[HERE]
+[20:26:46] [Server thread/INFO]: chunky start - Start a new chunk generation task
+[20:27:05] [Server thread/INFO]: chunky start - Start a new chunk generation task
+[20:27:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:27:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[20:27:53] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:29:12] [User Authenticator #13/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[20:29:12] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:55147] logged in with entity id 154266 at (-8553.416190104288, 72.49477983010931, 527.6787183560239)
+[20:29:12] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
+[20:29:13] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
+[20:29:13] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
+[20:29:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[20:29:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[20:29:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
+[20:29:28] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 837 chunks (1.33%), ETA: 0:00:07, Rate: 8370.0 cps, Current: 23, 13
+[20:29:29] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 1991 chunks (3.16%), ETA: 0:00:33, Rate: 1808.4 cps, Current: 62, 5
+[20:29:30] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6461 chunks (10.26%), ETA: 0:00:18, Rate: 3053.4 cps, Current: -29, 60
+[20:29:33] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6493 chunks (10.31%), ETA: 0:00:43, Rate: 1299.4 cps, Current: -27, 61
+[20:29:34] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6525 chunks (10.36%), ETA: 0:00:52, Rate: 1081.7 cps, Current: -21, 61
+[20:29:35] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 6760 chunks (10.73%), ETA: 0:00:58, Rate: 960.5 cps, Current: -8, 60
+[20:29:36] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7456 chunks (11.83%), ETA: 0:00:59, Rate: 927.1 cps, Current: 2, 57
+[20:29:37] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7511 chunks (11.92%), ETA: 0:01:06, Rate: 830.5 cps, Current: -29, 63
+[20:29:38] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7552 chunks (11.99%), ETA: 0:01:13, Rate: 751.6 cps, Current: 12, 62
+[20:29:39] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7663 chunks (12.16%), ETA: 0:01:19, Rate: 691.9 cps, Current: 19, 50
+[20:29:40] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7725 chunks (12.26%), ETA: 0:01:26, Rate: 639.7 cps, Current: 17, 59
+[20:29:41] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7773 chunks (12.34%), ETA: 0:01:33, Rate: 593.0 cps, Current: 23, 56
+[20:29:42] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7809 chunks (12.40%), ETA: 0:01:40, Rate: 547.9 cps, Current: 29, 60
+[20:29:43] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 7851 chunks (12.46%), ETA: 0:01:47, Rate: 514.4 cps, Current: 24, 54
+[20:29:44] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8287 chunks (13.15%), ETA: 0:01:47, Rate: 509.3 cps, Current: 43, 40
+[20:29:45] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8343 chunks (13.24%), ETA: 0:01:53, Rate: 482.6 cps, Current: 36, 46
+[20:29:46] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8434 chunks (13.39%), ETA: 0:01:58, Rate: 461.0 cps, Current: 36, 50
+[20:29:47] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8480 chunks (13.46%), ETA: 0:02:04, Rate: 438.8 cps, Current: 33, 57
+[20:29:48] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8526 chunks (13.53%), ETA: 0:02:09, Rate: 419.4 cps, Current: 36, 57
+[20:29:49] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8567 chunks (13.60%), ETA: 0:02:15, Rate: 401.6 cps, Current: 41, 61
+[20:29:50] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8601 chunks (13.65%), ETA: 0:02:21, Rate: 384.0 cps, Current: 46, 52
+[20:29:51] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 306 chunks (0.49%), ETA: 0:00:20, Rate: 3060.0 cps, Current: 2, 23
+[20:29:52] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8674 chunks (13.77%), ETA: 0:02:27, Rate: 369.5 cps, Current: 47, 48
+[20:29:52] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 11.59259157894303,0.0,2.257254264523908
+[20:29:52] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 10.08593292009391,0.0,1.9638848604772647
+[20:29:52] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 633 chunks (1.00%), ETA: 0:02:09, Rate: 481.4 cps, Current: 23, 23
+[20:29:53] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8689 chunks (13.79%), ETA: 0:02:33, Rate: 354.8 cps, Current: 51, 48
+[20:29:54] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8704 chunks (13.82%), ETA: 0:02:41, Rate: 337.2 cps, Current: 39, 63
+[20:29:54] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 652 chunks (1.03%), ETA: 0:04:50, Rate: 214.8 cps, Current: 24, 27
+[20:29:55] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 1077 chunks (1.71%), ETA: 0:03:53, Rate: 265.7 cps, Current: 34, 0
+[20:29:56] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 1352 chunks (2.15%), ETA: 0:03:50, Rate: 267.0 cps, Current: 37, 28
+[20:29:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8742 chunks (13.88%), ETA: 0:02:56, Rate: 307.1 cps, Current: 48, 54
+[20:29:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 1838 chunks (2.92%), ETA: 0:03:23, Rate: 300.8 cps, Current: 48, 15
+[20:29:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8764 chunks (13.91%), ETA: 0:03:03, Rate: 295.7 cps, Current: 51, 54
+[20:29:58] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 2934 chunks (4.66%), ETA: 0:02:25, Rate: 412.3 cps, Current: 51, -25
+[20:29:59] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8798 chunks (13.96%), ETA: 0:03:46, Rate: 239.2 cps, Current: 54, 57
+[20:29:59] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 4086 chunks (6.49%), ETA: 0:02:03, Rate: 477.2 cps, Current: -31, -32
+[20:30:00] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8835 chunks (14.02%), ETA: 0:11:19, Rate: 79.7 cps, Current: 60, 61
+[20:30:01] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8903 chunks (14.13%), ETA: 0:10:25, Rate: 86.5 cps, Current: 60, 52
+[20:30:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 4181 chunks (6.64%), ETA: 0:02:30, Rate: 390.1 cps, Current: -23, -25
+[20:30:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8938 chunks (14.19%), ETA: 0:10:38, Rate: 84.7 cps, Current: 62, 47
+[20:30:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 4247 chunks (6.74%), ETA: 0:02:42, Rate: 361.4 cps, Current: 39, 31
+[20:30:03] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 8963 chunks (14.23%), ETA: 0:10:53, Rate: 82.6 cps, Current: 59, 40
+[20:30:04] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 4256 chunks (6.76%), ETA: 0:02:56, Rate: 333.1 cps, Current: -24, -22
+[20:30:04] [Chunky-minecraft:the_end Thread/INFO]: [Chunky] Task stopped for minecraft:the_end.
+[20:30:04] [Chunky-minecraft:the_nether Thread/INFO]: [Chunky] Task stopped for minecraft:the_nether.
+[20:30:13] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:31:08] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[20:31:42] [Server thread/INFO]: Locating element nova_structures:badlands_miner_outpost took 2404 ms
+[20:31:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2384ms or 47 ticks behind
+[20:31:42] [Server thread/WARN]: Bemf moved too quickly! 0.1697723666343336,15.45034513393216,-9.056018142993707
+[20:31:42] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.0,-12.27993627239232,0.0
+[20:31:54] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -21711.500000, 100.613490, -7135.500000]
+[20:31:57] [Server thread/WARN]: Bemf moved too quickly! -0.5528970686027606,-2.529207426447755,-17.240315203835053
+[20:32:17] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:32:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=48, z=214}
+[20:32:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=48, z=214}
+[20:32:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=49, z=214}
+[20:32:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=48, z=214}
+[20:32:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=49, z=214}
+[20:32:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=49, z=214}
+[20:32:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=50, z=214}
+[20:32:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=50, z=214}
+[20:32:29] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=50, z=214}
+[20:32:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=48, z=214}
+[20:32:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=48, z=214}
+[20:32:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=49, z=214}
+[20:32:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=48, z=214}
+[20:32:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=49, z=214}
+[20:32:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=49, z=214}
+[20:32:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=50, z=214}
+[20:32:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=50, z=214}
+[20:32:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=50, z=214}
+[20:32:45] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -3.377943254134152,12.279936272392263,-3.0148237068997332
+[20:32:45] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -3.3117457574953733,9.466560215568535,-2.6357453069886105
+[20:32:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=48, z=214}
+[20:32:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=48, z=214}
+[20:32:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=49, z=214}
+[20:32:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=48, z=214}
+[20:32:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=49, z=214}
+[20:32:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=49, z=214}
+[20:32:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=50, z=214}
+[20:32:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=50, z=214}
+[20:32:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=50, z=214}
+[20:33:02] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 4.341616877070919,0.0,14.556595525853481
+[20:33:02] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 3.778024670384184,0.0,12.175389458525387
+[20:33:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.47951721122444724,-17.555208174359933,2.958391314970868
+[20:33:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.41719561958962004,-14.569719997211536,2.573896971267459
+[20:33:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.41719561958962004,-14.569719997211536,2.573896971267459
+[20:33:13] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:33:13] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[20:34:16] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [A Major Trial Of Strength]
+[20:36:32] [Server thread/INFO]: Locating element nova_structures:bunker took 0 ms
+[20:36:37] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -21279.500000, 94.929561, -6159.500000]
+[20:37:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:38:11] [Server thread/INFO]: Locating element nova_structures:conduit_ruin took 41 ms
+[20:38:15] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -23999.500000, 87.942199, -4335.500000]
+[20:38:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2518ms or 50 ticks behind
+[20:39:08] [Server thread/INFO]: Locating element nova_structures:catacomb took 219 ms
+[20:39:10] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -21103.500000, 82.279929, -1647.500000]
+[20:39:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2761ms or 55 ticks behind
+[20:39:27] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:39:35] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Sub Y 0]
+[20:40:34] [Server thread/INFO]: Locating element nova_structures:creeping_crypt took 146 ms
+[20:40:37] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -26687.500000, 118.306225, -479.500000]
+[20:40:39] [Server thread/WARN]: Bemf moved too quickly! -0.7131528659979267,-1.978167993687265,-17.57349875343425
+[20:40:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2130ms or 42 ticks behind
+[20:41:19] [Server thread/INFO]: _scasey (/100.14.20.111:51264) lost connection: Disconnected
+[20:41:40] [Server thread/WARN]: Bemf moved too quickly! -0.028091760419556522,-1.8000891529192558,-17.51628805133805
+[20:41:40] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 3.7173239625008136,0.15786117074870276,9.489932059184639
+[20:41:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2301ms or 46 ticks behind
+[20:41:52] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 25.0169113511256,0.0,-1.3390185574979228
+[20:41:52] [Server thread/WARN]: Bemf moved too quickly! -0.11950555061321211,8.943791355812948,-15.980684577501961
+[20:41:53] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 20.71365042449179,0.0,-3.755214541837063
+[20:41:53] [Server thread/WARN]: Bemf moved too quickly! -0.19889041707392607,10.770736752974756,-14.581612934744044
+[20:41:53] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 17.077996831736527,0.0,-3.0953177711421063
+[20:41:57] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 25.27988154281411,0.0,-4.604003914082341
+[20:41:57] [Server thread/WARN]: Bemf moved too quickly! -0.4977892089023044,-2.2719850271366226,-17.396991874240484
+[20:41:58] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 15.071978092651989,0.0,-2.7803811132258716
+[20:41:58] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 12.858235532363324,0.0,-2.414429600016547
+[20:41:58] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 10.244482741691172,0.0,-1.923637368917639
+[20:41:58] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 10.244482741691172,0.0,-1.923637368917639
+[20:42:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 24.043421927795862,0.0,-4.6766311683935555
+[20:42:04] [Server thread/WARN]: Bemf moved too quickly! -0.5297618780655284,-2.7228436905780313,-18.198396977157245
+[20:42:04] [Server thread/WARN]: 17sk moved too quickly! 14.332249589200899,-11.081759070106084,1.3781963954757646
+[20:42:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 15.973766311093641,0.0,-3.2395166465153125
+[20:42:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 12.957757220097847,0.0,-2.6278630473552766
+[20:42:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 12.957757220097847,0.0,-2.6278630473552766
+[20:42:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 12.957757220097847,0.0,-2.6278630473552766
+[20:42:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 12.957757220097847,0.0,-2.6278630473552766
+[20:42:05] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 10.16693805196337,0.0,-2.061878483881742
+[20:42:05] [Server thread/WARN]: Bemf moved too quickly! 0.012978507760180946,-3.2881885687076675,-17.270909711183776
+[20:42:06] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 4.715924775395251,-13.259208065641076,15.283223229380155
+[20:42:08] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -21.678605991382938,-11.222051639352728,-4.2562690463932995
+[20:42:08] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -17.911576923117536,-10.703663003743344,-3.8381528980444273
+[20:42:08] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -17.911576923117536,-10.703663003743344,-3.8381528980444273
+[20:42:08] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -17.911576923117536,-10.703663003743344,-3.8381528980444273
+[20:42:08] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -5.167768167397298,10.849920215568517,0.7389728073466131
+[20:42:08] [Server thread/WARN]: Bemf moved too quickly! 0.5234341737527757,-3.2633335570872646,-17.568686370086652
+[20:42:09] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.0,15.425971506486505,0.0
+[20:42:09] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.0,12.50995224855042,0.0
+[20:42:09] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.0,12.50995224855042,0.0
+[20:42:09] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.0,12.50995224855042,0.0
+[20:42:12] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 16.399544716929086,11.367729319697133,-2.5227544177790833
+[20:42:22] [User Authenticator #14/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[20:42:23] [Server thread/INFO]: _scasey[/100.14.20.111:51573] logged in with entity id 173118 at (-192.10304869464247, 80.0, -176.26543428373017)
+[20:42:23] [Server thread/INFO]: _scasey she / her joined the game
+[20:42:23] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[20:42:23] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[20:42:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[20:42:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[20:42:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[20:42:28] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -21013.613897, 156.731449, -559.537911]
+[20:42:30] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 3.299992676533293,0.0,-10.526471776146082
+[20:42:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2159ms or 43 ticks behind
+[20:42:44] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -20484.934294, 156.731449, -3708.268182]
+[20:42:46] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 2.520003326368169,0.0,11.030242167425058
+[20:42:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3168ms or 63 ticks behind
+[20:42:50] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -19980.557381, 156.731449, 11304.187867]
+[20:42:54] [Server thread/INFO]: <_scasey she / her> hey yall im now accepting any dirt donations
+[20:43:01] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:43:04] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -20480.557381, 170.519270, -3695.812133]
+[20:43:15] [Server thread/INFO]: 17sk they / them was slain by Enderman
+[20:43:19] [Server thread/INFO]: <17sk they / them> ouchies
+[20:43:24] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -19940.413068, 110.511800, -4154.717558]
+[20:43:28] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -19440.413068, 110.511800, -3654.717558]
+[20:43:32] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -19440.413068, 110.511800, -3154.717558]
+[20:43:33] [Server thread/WARN]: Bemf moved too quickly! 0.3412192956820945,6.728869312038981,-7.658371422268829
+[20:43:33] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -19440.413068, 110.511800, -2654.717558]
+[20:43:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3278ms or 65 ticks behind
+[20:43:35] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 8.233953386425128,0.0,7.293439363805646
+[20:43:55] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Safe Haven]
+[20:44:11] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 4.612366327415657,-10.420219806937268,0.13158841009317257
+[20:44:29] [Server thread/INFO]: Bemf lost connection: Disconnected
+[20:44:29] [Server thread/INFO]: Bemf he / him left the game
+[20:44:29] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[20:45:41] [User Authenticator #15/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[20:45:42] [Server thread/INFO]: Bemf[/71.233.245.252:55650] logged in with entity id 178894 at (2487.121300622109, 75.0, -27564.304780763592)
+[20:45:42] [Server thread/INFO]: Bemf he / him joined the game
+[20:45:49] [Server thread/INFO]: Locating element nova_structures:deepslate_camp took 0 ms
+[20:45:52] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -19631.500000, 96.843638, -2847.500000]
+[20:45:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[20:45:55] [Server thread/WARN]: Bemf moved too quickly! 0.00885194273223533,-3.7750634894234594,-18.043171901023015
+[20:46:27] [c2me-worker-0/WARN]: Empty or non-existent pool: minecraft:minecraft_empty
+[20:46:39] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Minecraft: Trial(s) Edition]
+[20:46:56] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[20:47:26] [Server thread/INFO]: Locating element nova_structures:underground_house took 0 ms
+[20:47:29] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -19487.500000, 116.633513, -2735.500000]
+[20:47:51] [Server thread/INFO]: Locating element nova_structures:village_swamp took 175 ms
+[20:47:54] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -18495.500000, 87.501960, -4111.500000]
+[20:47:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[20:47:56] [Server thread/WARN]: Bemf moved too quickly! 0.03629759239811392,2.3182795753486687,-17.459613153307146
+[20:48:00] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Bewitched]
+[20:48:01] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[20:48:05] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -7.09695957024087,-3.299988891758133,-7.268890813687904
+[20:48:32] [Server thread/INFO]: Locating element nova_structures:firewatch_tower_cherry took 1132 ms
+[20:48:32] [Server thread/WARN]: Bemf moved too quickly! -0.4764337727351631,-3.0183365535699522,-17.768596057350805
+[20:48:40] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -27455.500000, 110.665975, -9951.500000]
+[20:48:42] [Server thread/WARN]: Bemf moved too quickly! 0.011485031779557175,-2.7634340830699955,-17.368096605343453
+[20:48:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2151ms or 43 ticks behind
+[20:48:57] [Server thread/INFO]: Bemf he / him has made the advancement [I-ce Some Strays]
+[20:49:10] [Server thread/WARN]: Bemf moved too quickly! 0.5105076921799991,-1.0475792293577513,-17.621377701481833
+[20:49:10] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Bemf he / him]
+[20:49:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5385ms or 107 ticks behind
+[20:49:12] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.19695310688621248,-12.279936272392263,-1.8021896011123317
+[20:49:14] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.0,-10.478937980375079,0.0
+[20:49:14] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 2.2604499420922366,8.866560191726677,6.222781804317492
+[20:49:16] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[20:49:19] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [I-ce Some Strays]
+[20:49:24] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Bemf he / him]
+[20:49:28] [Server thread/WARN]: Bemf moved too quickly! 0.5487858756737296,11.836988729587674,-14.196516229429108
+[20:49:28] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 1.204016808439519,1.4918652718543939,-10.288608042836131
+[20:49:29] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 1.098251660889673,0.6000000238418579,-11.792464855079743
+[20:49:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4259ms or 85 ticks behind
+[20:49:36] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -3.775496954800019,0.0,-10.191522403023555
+[20:49:36] [Server thread/WARN]: Bemf moved too quickly! 0.004848734153711121,-1.841740000057797,-17.982894918161037
+[20:49:41] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[20:49:45] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[20:49:49] [Server thread/WARN]: Bemf moved too quickly! -4.690064004985743,-2.647001970512804,-16.893252503319673
+[20:49:49] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2277ms or 45 ticks behind
+[20:50:02] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Bemf he / him]
+[20:50:06] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[20:50:12] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[20:50:48] [Server thread/INFO]: Bemf he / him has made the advancement [Frozen Remnants]
+[20:51:38] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
+[20:54:26] [Server thread/INFO]: Bemf lost connection: Disconnected
+[20:54:26] [Server thread/INFO]: Bemf he / him left the game
+[20:54:26] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[20:54:57] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Suit Up]
+[20:56:54] [Server thread/INFO]: _scasey lost connection: Disconnected
+[20:56:54] [Server thread/INFO]: _scasey she / her left the game
+[20:56:54] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[20:58:24] [User Authenticator #16/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[20:58:24] [Server thread/INFO]: _scasey[/100.14.20.111:51594] logged in with entity id 191302 at (-120.44583389095234, 65.0, -283.1208582789038)
+[20:58:24] [Server thread/INFO]: _scasey she / her joined the game
+[20:58:25] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[20:58:25] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[20:58:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[20:58:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[20:58:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[20:58:49] [Server thread/INFO]: 17sk they / them was slain by Enderman
+[20:59:15] [User Authenticator #17/INFO]: UUID of player Bemf is 258fbffa-8298-496c-b36b-2e67556655e5
+[20:59:16] [Server thread/INFO]: Bemf[/71.233.245.252:50061] logged in with entity id 193554 at (2460.93614592905, 112.0, -31774.60842717497)
+[20:59:16] [Server thread/INFO]: Bemf he / him joined the game
+[21:02:04] [Server thread/INFO]: <17sk they / them> i thought enderman couldn't teleport to leaf blocks
+[21:02:07] [Server thread/INFO]: <17sk they / them> i just watched one
+[21:02:14] [Server thread/INFO]: <_scasey she / her> they can they just cant spawn there
+[21:02:17] [Server thread/INFO]: <17sk they / them> ohhhh
+[21:02:39] [Server thread/INFO]: <_scasey she / her> so a smarter farm would have double carpets for the path
+[21:02:43] [Server thread/INFO]: <_scasey she / her> or i just use wings
+[21:05:04] [Server thread/INFO]: <Bemf he / him> 2430 -31768
+[21:13:17] [User Authenticator #18/INFO]: UUID of player Zumquirelle is 0656d51b-fc45-439f-8850-f95f9f205cc5
+[21:13:17] [Server thread/INFO]: Disconnecting Zumquirelle (/24.60.30.191:50655): You are not white-listed on this server!
+[21:13:17] [Server thread/INFO]: Zumquirelle (/24.60.30.191:50655) lost connection: You are not white-listed on this server!
+[21:13:17] [Server thread/WARN]: handleDisconnection() called twice
+[21:13:41] [User Authenticator #19/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[21:13:41] [Server thread/INFO]: Disconnecting GunYoshi (/98.214.164.251:58751): You are not white-listed on this server!
+[21:13:41] [Server thread/INFO]: GunYoshi (/98.214.164.251:58751) lost connection: You are not white-listed on this server!
+[21:13:41] [Server thread/WARN]: handleDisconnection() called twice
+[21:14:10] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Bemf he / him]
+[21:14:20] [Server thread/INFO]: [ASFJASJHALALF he / him: Added Zumquirelle to the whitelist]
+[21:14:25] [User Authenticator #20/INFO]: UUID of player Zumquirelle is 0656d51b-fc45-439f-8850-f95f9f205cc5
+[21:14:26] [Server thread/INFO]: Zumquirelle[/24.60.30.191:50812] logged in with entity id 204967 at (-804.4275544273853, 76.5625, 1778.4884821166088)
+[21:14:26] [Server thread/INFO]: Zumquirelle joined the game
+[21:14:26] [Server thread/INFO]: [voicechat] Received secret request of Zumquirelle (18)
+[21:14:26] [Server thread/INFO]: [voicechat] Sent secret to Zumquirelle
+[21:14:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[21:14:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[21:14:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zumquirelle (0656d51b-fc45-439f-8850-f95f9f205cc5) successfully connected to voice chat
+[21:14:32] [Server thread/INFO]: [ASFJASJHALALF he / him: Added GunYoshi to the whitelist]
+[21:14:45] [Server thread/INFO]: razeyrainbows (/146.115.92.123:53552) lost connection: Disconnected
+[21:14:48] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Bemf he / him]
+[21:14:50] [Server thread/INFO]: razeyrainbows (/146.115.92.123:53562) lost connection: Disconnected
+[21:16:09] [User Authenticator #21/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[21:16:10] [Server thread/INFO]: GunYoshi[/98.214.164.251:58767] logged in with entity id 206331 at (-189.69999998807907, 67.0, -330.69999998807907)
+[21:16:10] [Server thread/INFO]: GunYoshi he / him joined the game
+[21:16:26] [Server thread/INFO]: <17sk they / them> hhi ben
+[21:16:29] [Server thread/INFO]: <GunYoshi he / him> hello!
+[21:16:32] [Server thread/INFO]: <17sk they / them> do you have a feather falling villager
+[21:16:36] [Server thread/INFO]: <GunYoshi he / him> yes
+[21:16:44] [Server thread/INFO]: <17sk they / them> mg
+[21:17:02] [Server thread/INFO]: <17sk they / them> im tryina make perfect boots
+[21:17:04] [User Authenticator #22/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[21:17:06] [Server thread/INFO]: razeyrainbows[/146.115.92.123:53734] logged in with entity id 207527 at (-159.30000001192093, 63.0, -336.30673458040746)
+[21:17:06] [Server thread/INFO]: razeyrainbows they / them joined the game
+[21:17:06] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
+[21:17:06] [Server thread/INFO]: razeyrainbows they / them left the game
+[21:17:06] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
+[21:17:10] [Server thread/INFO]: <17sk they / them> hi bye
+[21:17:31] [Server thread/INFO]: <17sk they / them> wow
+[21:17:33] [Server thread/INFO]: <17sk they / them> this is insanely cool
+[21:17:39] [Server thread/INFO]: <GunYoshi he / him> LOLLL thank u
+[21:18:24] [User Authenticator #23/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[21:18:25] [Server thread/INFO]: razeyrainbows[/146.115.92.123:53752] logged in with entity id 208293 at (-159.30000001192093, 63.0, -336.30673458040746)
+[21:18:25] [Server thread/INFO]: razeyrainbows they / them joined the game
+[21:18:26] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
+[21:18:26] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
+[21:18:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
+[21:18:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
+[21:18:28] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
+[21:19:53] [Server thread/INFO]: <17sk they / them> is there any other xp farm other than the enderman farm which is kinda broken rn
+[21:20:31] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[21:20:31] [Server thread/INFO]: GunYoshi he / him left the game
+[21:20:31] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[21:20:34] [User Authenticator #24/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[21:20:35] [Server thread/INFO]: GunYoshi[/98.214.164.251:58779] logged in with entity id 211294 at (-163.19932969241563, 68.0, -287.76300609200075)
+[21:20:35] [Server thread/INFO]: GunYoshi he / him joined the game
+[21:20:44] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[21:20:44] [Server thread/INFO]: GunYoshi he / him left the game
+[21:20:44] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[21:20:48] [User Authenticator #25/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[21:20:49] [Server thread/INFO]: GunYoshi[/98.214.164.251:58788] logged in with entity id 211490 at (-188.3657595345079, 69.0, -296.01943957284607)
+[21:20:49] [Server thread/INFO]: GunYoshi he / him joined the game
+[21:20:54] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[21:20:54] [Server thread/INFO]: GunYoshi he / him left the game
+[21:20:54] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[21:21:13] [User Authenticator #26/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[21:21:14] [Server thread/INFO]: GunYoshi[/98.214.164.251:58796] logged in with entity id 211632 at (-187.06005557406172, 69.20123978399887, -296.80480606781566)
+[21:21:14] [Server thread/INFO]: GunYoshi he / him joined the game
+[21:23:45] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Freezing Breeze]
+[21:24:44] [Server thread/INFO]: _scasey lost connection: Disconnected
+[21:24:44] [Server thread/INFO]: _scasey she / her left the game
+[21:24:44] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[21:25:23] [User Authenticator #27/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[21:25:24] [Server thread/INFO]: _scasey[/100.14.20.111:52837] logged in with entity id 216330 at (-185.89942546229472, 82.5, -173.19970881946725)
+[21:25:24] [Server thread/INFO]: _scasey she / her joined the game
+[21:25:24] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[21:25:24] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[21:25:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[21:25:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[21:25:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[21:26:33] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
+[21:26:40] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Bemf he / him]
+[21:26:58] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Zumquirelle]
+[21:27:19] [Server thread/INFO]: Zumquirelle lost connection: Disconnected
+[21:27:19] [Server thread/INFO]: Zumquirelle left the game
+[21:27:19] [Server thread/INFO]: [voicechat] Disconnecting client Zumquirelle
+[21:28:29] [Server thread/INFO]: <17sk they / them> hi guys i need to be muted
+[21:28:31] [Server thread/INFO]: <17sk they / them> sory but hi
+[21:28:38] [User Authenticator #28/INFO]: UUID of player Zumquirelle is 0656d51b-fc45-439f-8850-f95f9f205cc5
+[21:28:39] [Server thread/INFO]: Zumquirelle[/24.60.30.191:51751] logged in with entity id 219458 at (2561.7857006273684, 63.0, -3619.055877569627)
+[21:28:39] [Server thread/INFO]: Zumquirelle joined the game
+[21:28:39] [Server thread/INFO]: [voicechat] Received secret request of Zumquirelle (18)
+[21:28:39] [Server thread/INFO]: [voicechat] Sent secret to Zumquirelle
+[21:28:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[21:28:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[21:28:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zumquirelle (0656d51b-fc45-439f-8850-f95f9f205cc5) successfully connected to voice chat
+[21:28:44] [Server thread/INFO]: <17sk they / them> yea they call me ethan two
+[21:28:55] [Server thread/INFO]: <17sk they / them> fair enought
+[21:29:08] [Server thread/INFO]: <17sk they / them> LOL
+[21:29:27] [Server thread/INFO]: <17sk they / them> i was checking out soe of the structurs and they are sick
+[21:29:30] [Server thread/INFO]: <17sk they / them> only with a debug stick
+[21:29:45] [Server thread/INFO]: <17sk they / them> nonoo LOL
+[21:29:59] [Server thread/INFO]: <17sk they / them> yea whatup im a debug
+[21:30:00] [Server thread/INFO]: <17sk they / them> stick
+[21:30:14] [Server thread/WARN]: razeyrainbows moved too quickly! -10.058088526845381,1.1661092609382138,0.7944939714970474
+[21:30:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4600ms or 92 ticks behind
+[21:30:25] [Server thread/INFO]: <17sk they / them> im finally working on getting armor
+[21:30:33] [Server thread/INFO]: <17sk they / them> diamond
+[21:30:35] [Server thread/INFO]: <17sk they / them> lol
+[21:30:44] [Server thread/INFO]: <17sk they / them> nope
+[21:30:53] [Server thread/INFO]: <17sk they / them> yea
+[21:30:58] [Server thread/INFO]: <17sk they / them> yea
+[21:31:05] [Server thread/INFO]: <17sk they / them> no LOL i have so many
+[21:31:07] [Server thread/INFO]: <17sk they / them> trust
+[21:31:09] [Server thread/INFO]: <17sk they / them> wowwww
+[21:31:20] [Server thread/INFO]: <17sk they / them> i saw your sign
+[21:31:24] [Server thread/INFO]: <17sk they / them> it was funny
+[21:31:40] [Server thread/INFO]: <17sk they / them> tahnks!
+[21:32:14] [Server thread/INFO]: <17sk they / them> i put my first piece in channel
+[21:32:16] [Server thread/INFO]: <17sk they / them> of armor
+[21:32:20] [Server thread/INFO]: <17sk they / them> its not done
+[21:32:23] [Server thread/INFO]: Villager class_1646['Villager'/223936, l='ServerLevel[world]', x=2573.37, y=94.56, z=-30227.28] died, message: 'Villager suffocated in a wall'
+[21:32:42] [Server thread/INFO]: <17sk they / them> it mends it when you are in sunlight
+[21:32:43] [Server thread/INFO]: <17sk they / them> yea
+[21:32:51] [Server thread/INFO]: <17sk they / them> yea but i foundit
+[21:32:52] [Server thread/INFO]: <17sk they / them> so
+[21:33:11] [Server thread/INFO]: <17sk they / them> yea i found like 6 photosynthesis books while i was exploring today
+[21:33:27] [Server thread/INFO]: <17sk they / them> oh trust
+[21:33:28] [Server thread/INFO]: <17sk they / them> i will
+[21:33:30] [Server thread/INFO]: <17sk they / them> one day
+[21:33:35] [Server thread/INFO]: <17sk they / them> my wings are named fishlegs
+[21:33:39] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3064ms or 61 ticks behind
+[21:33:39] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17sk they / them]
+[21:34:04] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to GunYoshi he / him]
+[21:34:05] [Server thread/INFO]: <17sk they / them> i got the enderman farm to work janky
+[21:34:21] [Server thread/INFO]: <17sk they / them> don't lol
+[21:34:22] [Server thread/INFO]: <17sk they / them> its ok
+[21:34:31] [Server thread/INFO]: <17sk they / them> YEA WTF
+[21:34:35] [Server thread/INFO]: <17sk they / them> IM CRYING AND SOBBING
+[21:34:37] [Server thread/INFO]: <17sk they / them> AND I WILL
+[21:35:23] [Server thread/INFO]: <17sk they / them> yea the statue is cool fr
+[21:35:35] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Zumquirelle]
+[21:35:41] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to razeyrainbows they / them]
+[21:35:49] [Server thread/INFO]: <17sk they / them> BOBA
+[21:35:51] [Server thread/INFO]: <17sk they / them> WHUT
+[21:36:02] [Server thread/INFO]: <17sk they / them> we should raid a citidel
+[21:36:04] [Server thread/INFO]: <17sk they / them> or is that
+[21:36:05] [Server thread/INFO]: <17sk they / them> not ok
+[21:36:16] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to _scasey she / her]
+[21:36:25] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
+[21:36:29] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
+[21:37:23] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported 2 entities to ASFJASJHALALF he / him]
+[21:37:46] [Server thread/INFO]: [ASFJASJHALALF he / him: Removed effect Resistance from 2 targets]
+[21:37:55] [Server thread/INFO]: <17sk they / them> i mean this nicely miles you sound so similar to dash and its funny
+[21:37:58] [Server thread/INFO]: <17sk they / them> but like deeper voice
+[21:38:09] [Server thread/INFO]: <17sk they / them> LMFAO
+[21:38:15] [Server thread/INFO]: <17sk they / them> wait who is older
+[21:38:40] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[21:38:57] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[21:39:00] [Server thread/INFO]: Locating element nova_structures:tavern_snowy took 757 ms
+[21:39:02] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -4367.500000, 117.603637, 288.500000]
+[21:39:23] [Server thread/INFO]: Villager class_1646['Villager'/213976, l='ServerLevel[world]', x=2597.81, y=65.49, z=-3607.02] died, message: 'Villager tried to swim in lava'
+[21:39:25] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -9.762636212886719,14.429153611766296,-12.627203208575452
+[21:40:30] [Server thread/INFO]: <17sk they / them> miles
+[21:40:31] [Server thread/INFO]: <17sk they / them> yea
+[21:40:39] [Server thread/INFO]: <17sk they / them> ur much hotter than i thought
+[21:40:51] [Server thread/INFO]: <17sk they / them> yea lowkey i just pictured bert from seseme street
+[21:41:25] [Server thread/INFO]: Locating element nova_structures:toxic_lair took 7399 ms
+[21:41:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7369ms or 147 ticks behind
+[21:41:25] [Server thread/WARN]: 17sk moved too quickly! 15.60177647203463,-1.1260120184743698,9.869006620667836
+[21:41:25] [Server thread/WARN]: Bemf moved too quickly! -4.713282848314748,-1.8609800212715868,-17.091290971024137
+[21:41:25] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -5.496160474465796,6.777600160598752,-8.127018213505778
+[21:41:25] [Server thread/WARN]: razeyrainbows moved too quickly! 0.0,-10.05000039935112,0.0
+[21:41:25] [Server thread/INFO]: <17sk they / them> help
+[21:41:28] [Server thread/INFO]: <17sk they / them> ok
+[21:41:30] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -4863.500000, 101.552906, -5919.500000]
+[21:41:33] [Server thread/WARN]: razeyrainbows moved too quickly! 9.326275269447649,1.2808566282673297,-3.8868207135250827
+[21:41:34] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.0,-10.026939623155187,0.0
+[21:41:35] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Poison Swamp Enjoyer Rejoice]
+[21:41:54] [Server thread/INFO]: Bemf lost connection: Disconnected
+[21:41:54] [Server thread/INFO]: Bemf he / him left the game
+[21:41:54] [Server thread/INFO]: [voicechat] Disconnecting client Bemf
+[21:42:02] [Server thread/INFO]: <17sk they / them> yea
+[21:42:16] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -0.8509463476784731,11.804123142517597,16.360313970998504
+[21:43:19] [Server thread/INFO]: <17sk they / them> is there any resperation books anywhere
+[21:43:35] [Server thread/INFO]: <razeyrainbows they / them> no clue
+[21:43:53] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to _scasey she / her]
+[21:44:08] [Server thread/INFO]: <17sk they / them> guys i think dash is lost
+[21:44:14] [Server thread/INFO]: Locating element nova_structures:remnant_bee_keeper took 1075 ms
+[21:44:14] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 8.65099751817445,0.9231679985046384,5.136937493465837
+[21:44:14] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 8.969243876310827,0.7725465413369932,5.2181416603827415
+[21:44:14] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 9.27863746440795,0.5510576895623984,5.296653020114491
+[21:44:14] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 9.58013615195651,0.26150779068264285,5.372762934329387
+[21:44:14] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 9.87459416699295,0.0,5.4467312393705924
+[21:44:16] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 18672.500000, 111.870355, 16080.500000]
+[21:44:17] [c2me-worker-0/ERROR]: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: c2me-worker-0)
+This is usually NOT a bug in C2ME, but a bug in another mod or in vanilla code. 
+Possible solutions: 
+  - Find possible causes in the stack trace below and 
+    - if caused by another mod, report this to the corresponding mod authors 
+    - if no other mods are involved, report this to C2ME 
+
+java.util.ConcurrentModificationException: ThreadLocalRandom accessed from a different thread (owner: Server thread, current: c2me-worker-0)
+	at knot/com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.handleNotOwner(CheckedThreadLocalRandom.java:55) ~[c2me-fixes-worldgen-threading-is.1.0+1.21.4-fab8cb24d957359f.jar:?]
+	at knot/com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.isSafe(CheckedThreadLocalRandom.java:38) ~[c2me-fixes-worldgen-threading-is.1.0+1.21.4-fab8cb24d957359f.jar:?]
+	at knot/com.ishland.c2me.fixes.worldgen.threading_issues.common.CheckedThreadLocalRandom.method_43156(CheckedThreadLocalRandom.java:86) ~[c2me-fixes-worldgen-threading-is.1.0+1.21.4-fab8cb24d957359f.jar:?]
+	at knot/net.minecraft.class_6566.method_43048(class_6566.java:33) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4466$class_4472.<init>(class_4466.java:884) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4466.method_5959(class_4466.java:224) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1308.<init>(net/minecraft/class_1308.java:163) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1314.<init>(class_1314.java:17) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1296.<init>(net/minecraft/class_1296.java:30) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1429.<init>(class_1429.java:47) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_4466.<init>(class_4466.java:180) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1299.method_5883(net/minecraft/class_1299.java:597) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_1299.method_17846(net/minecraft/class_1299.java:601) ~[server-intermediary.jar:?]
+	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
+	at knot/net.minecraft.class_1299.method_5892(net/minecraft/class_1299.java:601) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3499.method_17916(net/minecraft/class_3499.java:459) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3499.method_15179(net/minecraft/class_3499.java:444) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3499.method_15172(net/minecraft/class_3499.java:369) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3781.method_16626(class_3781.java:141) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3790.method_27236(class_3790.java:98) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3790.method_14931(class_3790.java:94) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_3449.method_14974(net/minecraft/class_3449.java:100) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_2794.method_38265(net/minecraft/class_2794.java:325) ~[server-intermediary.jar:?]
+	at knot/com.google.common.collect.ImmutableList.forEach(ImmutableList.java:423) ~[guava-33.3.1-jre.jar:?]
+	at knot/net.minecraft.class_2794.method_12102(net/minecraft/class_2794.java:324) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9310.method_57610(net/minecraft/class_9310.java:102) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_9770.method_60560(class_9770.java:33) ~[server-intermediary.jar:?]
+	at knot/com.ishland.c2me.rewrites.chunksystem.common.statuses.VanillaWorldGenerationDelegate.lambda$upgradeToThis$8(VanillaWorldGenerationDelegate.java:137) ~[c2me-rewrites-chunk-system-0.3.1.1.0+1.21.4-6c24454a02018019.jar:?]
+	at knot/com.ishland.c2me.base.common.scheduler.ScheduledTask.run(ScheduledTask.java:22) [c2me-base-0.3.1+rc.1.0+1.21.4-3c625d16e75e37d0.jar:?]
+	at knot/com.ishland.flowsched.executor.WorkerThread.pollTasks(WorkerThread.java:57) [c2me-base-0.3.1+rc.1.0+1.21.4-3c625d16e75e37d0.jar:?]
+	at knot/com.ishland.flowsched.executor.WorkerThread.run(WorkerThread.java:27) [c2me-base-0.3.1+rc.1.0+1.21.4-3c625d16e75e37d0.jar:?]
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 9.63545129507294,0.0,3.2690694124095785
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 10.163401617623222,0.0,3.472036346075754
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 10.692131948245333,0.0,3.6729512267403948
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 11.222582008485887,0.0,3.8692174251112306
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 11.75474234443594,0.0,4.060761716714126
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 12.289108264906503,0.0,4.2459838940308146
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 12.825382282217504,0.0,4.425594246300761
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 13.363249833454603,0.0,4.600399586368553
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 13.902873667371779,0.0,4.769693570773427
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 14.443639785785834,0.0,4.935362238533742
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 14.985416728370382,0.0,5.097736856917834
+[21:44:18] [Server thread/WARN]: 17sk moved too quickly! -10.05446343745757,1.1661092609382138,1.8581920698305794
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 15.528956353441131,0.0,5.25403049493832
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 16.07795153709344,0.0,5.387752251507209
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 16.630805281132524,0.0,5.504288090617592
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved too quickly! 17.18720133247126,0.0,5.602085776423678
+[21:44:18] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved wrongly! 3.270374896275669
+[21:44:57] [Server thread/INFO]: Locating element joshie:village_ocean took 197 ms
+[21:45:00] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 17760.500000, 137.377493, 18176.500000]
+[21:45:02] [Server thread/WARN]: GunYoshi moved too quickly! 5.804629314156642,0.0,8.260746216438179
+[21:45:02] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2113ms or 42 ticks behind
+[21:45:18] [Server thread/INFO]: <GunYoshi he / him> hold up.... this village is fire?
+[21:45:21] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 1.124186216842645,0.0,-11.094893027966464
+[21:45:46] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to GunYoshi he / him]
+[21:45:48] [Server thread/INFO]: <17sk they / them> can you slash locate my self worth?
+[21:45:49] [Server thread/INFO]: <17sk they / them> jokes!
+[21:45:55] [Server thread/INFO]: Locating element minecraft:village_desert took 481 ms
+[21:46:05] [Server thread/INFO]: <ASFJASJHALALF he / him> -816 3952
+[21:46:05] [Server thread/INFO]: <17sk they / them> why are these damn villagers not taking jobs
+[21:46:06] [Server thread/INFO]: You whisper to 17sk they / them: HOLY SHIT BEHIND YOU!
+[21:46:09] [Server thread/INFO]: <17sk they / them> did you say quartz
+[21:46:12] [Server thread/INFO]: <ASFJASJHALALF he / him> gen z villagers
+[21:46:13] [Server thread/INFO]: <17sk they / them> i have quartz
+[21:46:17] [Server thread/INFO]: [GunYoshi he / him: Triggered [toggle coordinates hud]]
+[21:46:42] [Server thread/INFO]: Locating element nova_cherry_village:village_cherry took 1666 ms
+[21:46:44] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to 1120.500000, 93.430738, -5599.500000]
+[21:46:47] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.0,-10.430504366449014,0.0
+[21:46:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2283ms or 45 ticks behind
+[21:46:51] [Server thread/INFO]: <17sk they / them> sorry dash for giving you that gun
+[21:47:52] [Server thread/INFO]: <17sk they / them> who
+[21:48:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -0.47779321420910037,12.000000238418579,16.650116434489064
+[21:48:04] [Server thread/INFO]: <GunYoshi he / him> -102, 492
+[21:48:04] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 1.071161725771276,-1.132572684273896,11.730269273331942
+[21:48:05] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 10.113719629092543,0.0,3.8401586294767185
+[21:48:30] [Server thread/INFO]: Locating element nova_structures:stray_fort took 8 ms
+[21:48:32] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to -4527.500000, 325.048644, -1519.500000]
+[21:48:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10474ms or 209 ticks behind
+[21:48:45] [Server thread/WARN]: GunYoshi moved too quickly! -0.34711009090479195,-2.4213872887602292,17.995775434784264
+[21:48:45] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.0,-10.01757718833312,0.0
+[21:48:45] [Server thread/WARN]: 17sk moved too quickly! -3.57347855504986,1.0244240882136921,-9.528734859095493
+[21:48:45] [Server thread/WARN]: razeyrainbows moved too quickly! -5.718285032685863,0.7967356006687112,-8.278125401848513
+[21:49:16] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [If Winter Doesn't Come...]
+[21:49:17] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[21:49:30] [Server thread/INFO]: <17sk they / them> miles who is older you or dash
+[21:49:33] [Server thread/INFO]: <GunYoshi he / him> miles
+[21:49:36] [Server thread/INFO]: <17sk they / them> ohhh ok
+[21:49:38] [Server thread/INFO]: <GunYoshi he / him> #MazzottaFan
+[21:50:18] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 0.4982991867036617,0.0,10.269626668425417
+[21:50:34] [Server thread/INFO]: <_scasey she / her> junkle camel
+[21:50:51] [Server thread/INFO]: [ASFJASJHALALF he / him: Kicked _scasey she / her: whistle noises tweeeeeeet penalty: 50 yards]
+[21:50:51] [Server thread/INFO]: _scasey lost connection: whistle noises tweeeeeeet penalty: 50 yards
+[21:50:51] [Server thread/INFO]: _scasey she / her left the game
+[21:50:51] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[21:51:04] [User Authenticator #29/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[21:51:05] [Server thread/INFO]: _scasey[/100.14.20.111:53193] logged in with entity id 260502 at (-190.89442086681652, 85.0, -169.53003444098067)
+[21:51:05] [Server thread/INFO]: _scasey she / her joined the game
+[21:51:05] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[21:51:05] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[21:51:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[21:51:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[21:51:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[21:51:27] [Server thread/INFO]: [ASFJASJHALALF he / him: Kicked ASFJASJHALALF he / him: youre banned]
+[21:51:27] [Server thread/INFO]: ASFJASJHALALF lost connection: youre banned
+[21:51:27] [Server thread/INFO]: ASFJASJHALALF he / him left the game
+[21:51:27] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
+[21:51:28] [Server thread/INFO]: <17sk they / them> guys for new years dinner my dad said he yeets babies
+[21:51:35] [User Authenticator #30/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[21:51:35] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:56915] logged in with entity id 261447 at (-4436.021830130935, 120.30236456405925, -1553.297225355676)
+[21:51:35] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
+[21:51:35] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
+[21:51:35] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
+[21:51:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[21:51:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
+[21:51:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
+[21:51:45] [Server thread/INFO]: <razeyrainbows they / them> like for the dinner?
+[21:51:49] [Server thread/INFO]: <17sk they / them> no like for his job
+[21:51:56] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to _scasey she / her]
+[21:51:59] [Server thread/INFO]: <17sk they / them> obgyn
+[21:52:04] [Server thread/INFO]: <17sk they / them> he is pretty good at it
+[21:52:05] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
+[21:52:05] [Server thread/INFO]: ASFJASJHALALF he / him left the game
+[21:52:05] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
+[21:52:22] [Server thread/INFO]: <17sk they / them> what
+[21:53:06] [Server thread/INFO]: <17sk they / them> i've never even watched anything ever
+[21:53:44] [Server thread/INFO]: <17sk they / them> its ok i got it now
+[21:53:46] [Server thread/INFO]: <17sk they / them> fanks tho
+[21:54:33] [Server thread/INFO]: <17sk they / them> s\casey i may have dirt in one of my chests
+[21:54:35] [Server thread/INFO]: <17sk they / them> if yo uwanna look
+[21:54:46] [Server thread/INFO]: <17sk they / them> i HATE sorting things
+[21:54:48] [Server thread/INFO]: <17sk they / them> FUCK SORTING
+[21:55:07] [Server thread/INFO]: <17sk they / them> i hate it i don't know how to sort things
+[21:55:10] [Server thread/INFO]: <17sk they / them> i just
+[21:55:12] [Server thread/INFO]: <17sk they / them> put things in
+[21:55:14] [Server thread/INFO]: <17sk they / them> chests
+[21:55:45] [User Authenticator #31/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[21:55:45] [Server thread/INFO]: Disconnecting Lemon_Frog (/98.38.166.77:56942): You are not white-listed on this server!
+[21:55:45] [Server thread/INFO]: Lemon_Frog (/98.38.166.77:56942) lost connection: You are not white-listed on this server!
+[21:55:45] [Server thread/WARN]: handleDisconnection() called twice
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.6510809680906107,0.0,-9.640698312183105
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.800693611449571,0.0,-10.012167264317355
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.9485595635915764,0.0,-10.384345924693491
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.095191528253448,0.0,-10.757021101907725
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.2409968127324404,0.0,-11.13002660347476
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.38604342541122,0.0,-11.503331248006077
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.530684087935988,0.0,-11.876795957973314
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.67510753462712,0.0,-12.250346315763949
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.819414753456488,0.0,-12.623942501997277
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.963659781074362,0.0,-12.997563210116539
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.107871531414922,0.0,-13.37119703940806
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.2520654757478695,0.0,-13.74483788957724
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.396249892441158,0.0,-14.118482496478094
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.540429211084426,0.0,-14.49212911353115
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.684605801862769,0.0,-14.86577680617657
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.828780933014983,0.0,-15.239425074350038
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.972955283150352,0.0,-15.613073650477077
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.117129215379183,0.0,-15.986722391383921
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.261302923994556,0.0,-16.36037122046116
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.405476512958828,0.0,-16.73402009671662
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.549650037900179,0.0,-17.107668998216212
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.6275498022481862,0.0,-9.331940363339072
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.7717232567370367,0.0,-9.705589292617958
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.915896709723274,0.0,-10.079238222489323
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.0600701619054895,0.0,-10.452887152677732
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.204243613657489,0.0,-10.826536083035762
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.348417065179291,0.0,-11.200185013484571
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.492590516577916,0.0,-11.573833943981924
+[21:55:53] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.636763967910632,0.0,-11.947482874505283
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.604336281421549,0.0,-9.341223263831466
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.7485097326784125,0.0,-9.714872194384725
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.892683183935276,0.0,-10.088521124937984
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.036856635192139,0.0,-10.462170055491242
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.181030086449002,0.0,-10.835818986044501
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.325203537705866,0.0,-11.20946791659776
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.469376988962729,0.0,-11.583116847151018
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.613550440219592,0.0,-11.956765777704277
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.757723891476456,0.0,-12.330414708257535
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.901897342733319,0.0,-12.704063638810794
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.046070793990182,0.0,-13.077712569364053
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.190094328263358,0.0,-13.451419267010891
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.333253926946284,0.0,-13.825456475579045
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.475951250919884,0.0,-14.199670533951519
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.618401220913288,0.0,-14.573979221128269
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.760718836723594,0.0,-14.94833854229151
+[21:56:00] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.9029656324493835,0.0,-15.322724956691388
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.580218286050304,0.0,-9.350455746933307
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.722383867442696,0.0,-9.72487323103843
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.8645493125826995,0.0,-10.099290767268855
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.006714684816766,0.0,-10.473708331390498
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.148880018040318,0.0,-10.848125910436181
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.291045330390121,0.0,-11.222543497467399
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.433210631570798,0.0,-11.596961088771536
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.575375926775099,0.0,-11.97137868236203
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.717541218781559,0.0,-12.345796277175907
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.8597065090769185,0.0,-12.720213872644365
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.001871798456703,0.0,-13.094631468463092
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.144037087346581,0.0,-13.46904906446926
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.2862023759743195,0.0,-13.8434666605757
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.428367664461794,0.0,-14.2178842567358
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.570532952874213,0.0,-14.592301852924606
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.712698241246475,0.0,-14.966719449128789
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.854863529597248,0.0,-15.341137045341185
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.997028817936522,0.0,-15.715554641557986
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.139194106269644,0.0,-16.089972237777147
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.281359394599473,0.0,-16.464389833997558
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.423524682927541,0.0,-16.83880743021865
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.565689971254667,0.0,-17.213225026440085
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.707855259581288,0.0,-17.58764262266172
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.85002054790764,0.0,-17.962060218883465
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.992185836233848,0.0,-18.33647781510527
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.134351124559977,0.0,-18.7108954113271
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.8384639628674133,0.0,-10.109274647304858
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 3.9806292511934798,0.0,-10.483692243526718
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.122794539519535,0.0,-10.858109839748579
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.2649598278455825,0.0,-11.23252743597044
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.407125116171628,0.0,-11.6069450321923
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.549290404497671,0.0,-11.98136262841416
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.6914556928237126,0.0,-12.355780224636021
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.833620981149754,0.0,-12.730197820857882
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 4.975786269475796,0.0,-13.104615417079742
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.117951557801836,0.0,-13.479033013301603
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.260116846127877,0.0,-13.853450609523463
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.402282134453918,0.0,-14.227868205745324
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.5444474227799585,0.0,-14.602285801967184
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.686612711105999,0.0,-14.976703398189045
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.82877799943204,0.0,-15.351120994410905
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 5.970943287758081,0.0,-15.725538590632766
+[21:56:01] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.113108576084121,0.0,-16.099956186854627
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.255273864410162,0.0,-16.474373783076487
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.397439152736203,0.0,-16.848791379298348
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.539604441062243,0.0,-17.22320897552021
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.681769729388284,0.0,-17.59762657174207
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.823935017714325,0.0,-17.97204416796393
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 6.9661003060403655,0.0,-18.34646176418579
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.108265594366406,0.0,-18.72087936040765
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.250430882692447,0.0,-19.09529695662951
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.326500694005653,0.0,-19.29564034728631
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.367204133370935,0.0,-19.402840101210472
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.388983732236268,0.0,-19.460200552202792
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.400637561350753,0.0,-19.490892985884756
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.406873292957628,0.0,-19.507315895206858
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.410209908613392,0.0,-19.516103466547634
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.410209908613392,0.0,-19.5208055207668
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.410209908613392,0.0,-19.5208055207668
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.410209908613392,0.0,-19.5208055207668
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.410209908613392,0.0,-19.5208055207668
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.441518294098528,0.0,-19.603261727714084
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.4895791724348975,0.0,-19.729838606999465
+[21:56:02] [Server thread/WARN]: Camel (vehicle of GunYoshi) moved too quickly! 7.515295590202151,0.0,-19.797567371434354
+[21:56:04] [Server thread/INFO]: <17sk they / them> LMAO
+[21:56:08] [Server thread/INFO]: <17sk they / them> BROKE'
+[21:56:08] [User Authenticator #32/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[21:56:08] [Server thread/INFO]: Disconnecting Lemon_Frog (/98.38.166.77:56958): You are not white-listed on this server!
+[21:56:08] [Server thread/INFO]: Lemon_Frog (/98.38.166.77:56958) lost connection: You are not white-listed on this server!
+[21:56:08] [Server thread/WARN]: handleDisconnection() called twice
+[21:56:09] [Server thread/INFO]: <17sk they / them> L
+[21:56:12] [Server thread/INFO]: <17sk they / them> sorry
+[21:56:13] [Server thread/INFO]: <17sk they / them> my bad
+[21:56:40] [Server thread/INFO]: Added Lemon_Frog to the whitelist
+[21:56:51] [Server thread/INFO]: That player does not exist
+[21:56:51] [User Authenticator #33/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[21:56:54] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:56975] logged in with entity id 266979 at (186.98346026906913, 98.0, 513.4013072753701)
+[21:56:54] [Server thread/INFO]: Lemon_Frog joined the game
+[21:56:55] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
+[21:56:55] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[21:56:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[21:56:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[21:56:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
+[21:56:58] [Server thread/INFO]: <17sk they / them> hi tori
+[21:57:16] [Server thread/INFO]: Added Lemon_Frog she / her to team [she/her]
+[21:57:29] [Server thread/INFO]: <17sk they / them> casey and you are gonna... what?!
+[21:59:14] [Server thread/INFO]: Summoned new Cow
+[21:59:14] [Server thread/INFO]: Summoned new Cow
+[21:59:14] [Server thread/INFO]: Summoned new Cow
+[21:59:14] [Server thread/INFO]: Summoned new Cow
+[21:59:14] [Server thread/INFO]: Summoned new Cow
+[21:59:14] [Server thread/INFO]: Summoned new Cow
+[21:59:23] [Server thread/INFO]: Summoned new Cow
+[21:59:23] [Server thread/INFO]: Summoned new Cow
+[21:59:23] [Server thread/INFO]: Summoned new Cow
+[21:59:23] [Server thread/INFO]: Summoned new Cow
+[21:59:23] [Server thread/INFO]: Summoned new Cow
+[21:59:23] [Server thread/INFO]: Summoned new Cow
+[21:59:51] [Server thread/INFO]: Incorrect argument for command
+[21:59:51] [Server thread/INFO]: ...mon camel ~ 200 ~<--[HERE]
+[22:00:07] [Server thread/INFO]: Summoned new Camel
+[22:01:46] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:01:46] [Server thread/INFO]: tag list<--[HERE]
+[22:01:50] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[22:01:50] [Server thread/INFO]: ...Lemon_Frog<--[HERE]
+[22:01:58] [Server thread/INFO]: /tag <targets> (add|remove|list)
+[22:02:12] [Server thread/INFO]: Zumquirelle lost connection: Disconnected
+[22:02:12] [Server thread/INFO]: Zumquirelle left the game
+[22:02:12] [Server thread/INFO]: [voicechat] Disconnecting client Zumquirelle
+[22:02:22] [Server thread/INFO]: <Lemon_Frog she / her> papa (me) is going on a mission for pigstep
+[22:02:31] [Server thread/INFO]: <Lemon_Frog she / her> yes!
+[22:02:38] [User Authenticator #34/INFO]: UUID of player Zumquirelle is 0656d51b-fc45-439f-8850-f95f9f205cc5
+[22:02:39] [Server thread/INFO]: Zumquirelle[/24.60.30.191:54102] logged in with entity id 274126 at (2560.77134488067, 63.0, -3620.693207830717)
+[22:02:39] [Server thread/INFO]: Zumquirelle joined the game
+[22:02:39] [Server thread/INFO]: [voicechat] Received secret request of Zumquirelle (18)
+[22:02:39] [Server thread/INFO]: [voicechat] Sent secret to Zumquirelle
+[22:02:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[22:02:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0656d51b-fc45-439f-8850-f95f9f205cc5
+[22:02:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Zumquirelle (0656d51b-fc45-439f-8850-f95f9f205cc5) successfully connected to voice chat
+[22:04:37] [Server thread/INFO]: <17sk they / them> you have 4chan?
+[22:06:24] [Server thread/INFO]: <17sk they / them> is he gooning?
+[22:06:49] [Server thread/INFO]: <17sk they / them> does anyone have 1 amethyst shard
+[22:06:53] [Server thread/INFO]: <Lemon_Frog she / her> I do
+[22:06:58] [Server thread/INFO]: <Lemon_Frog she / her> take it from my chests
+[22:07:00] [Server thread/INFO]: <Lemon_Frog she / her> in the misc one
+[22:07:06] [Server thread/INFO]: <17sk they / them> thank!
+[22:07:09] [Server thread/INFO]: <Lemon_Frog she / her> ofc
+[22:07:23] [Server thread/INFO]: <17sk they / them> i laughed
+[22:08:56] [Server thread/INFO]: 17sk they / them has made the advancement [Crafting a New Look]
+[22:09:27] [Server thread/INFO]: <17sk they / them> wait what are you guys doing
+[22:09:31] [Server thread/INFO]: <GunYoshi he / him> coming ouy
+[22:09:34] [Server thread/INFO]: <17sk they / them> wait can
+[22:09:42] [Server thread/INFO]: <17sk they / them> nvm i can't go i have no chestplate yet
+[22:09:42] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-183, y=86, z=-160} class_2338{x=-185, y=87, z=-160}
+[22:09:56] [Server thread/INFO]: <Lemon_Frog she / her> fuck you
+[22:10:02] [Server thread/INFO]: <Lemon_Frog she / her> suck my penis
+[22:11:06] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 5 mins
+[22:12:43] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-220, y=65, z=-351} class_2338{x=-221, y=65, z=-350}
+[22:13:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-223, y=64, z=-346} class_2338{x=-223, y=64, z=-345}
+[22:13:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-223, y=64, z=-346} class_2338{x=-223, y=64, z=-345}
+[22:13:27] [Server thread/INFO]: <_scasey she / her> yeraz would you want to do some gardening for me at some point
+[22:13:35] [Server thread/INFO]: <17sk they / them> I LOVE GARDENING
+[22:13:39] [Server thread/INFO]: <17sk they / them> maybe different gardening
+[22:13:52] [Server thread/INFO]: <_scasey she / her> you dont have to do it now!
+[22:14:49] [Server thread/INFO]: <17sk they / them> hard
+[22:14:52] [Server thread/INFO]: <_scasey she / her> hard
+[22:14:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-212, y=69, z=-322} class_2338{x=-212, y=69, z=-328}
+[22:14:55] [Server thread/INFO]: <17sk they / them> haha
+[22:15:06] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 1 minute
+[22:15:23] [Server thread/INFO]: <17sk they / them> as sweeny todd once said, these are my friends
+[22:15:33] [Server thread/INFO]: <_scasey she / her> box
+[22:15:56] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 10 seconds
+[22:16:01] [Server thread/INFO]: <GunYoshi he / him> casey if u need to dig out a bunch of dirt, im covering a huge agrea
+[22:16:06] [Server thread/INFO]: Summoned new Cow
+[22:16:06] [Server thread/INFO]: Summoned new Cow
+[22:16:06] [Server thread/INFO]: Summoned new Cow
+[22:16:06] [Server thread/INFO]: Summoned new Cow
+[22:16:06] [Server thread/INFO]: Summoned new Cow
+[22:16:06] [Server thread/INFO]: Summoned new Cow
+[22:16:06] [Server thread/INFO]: Stopping the server
+[22:16:06] [Server thread/INFO]: <GunYoshi he / him> you can dig out under it
+[22:16:06] [Server thread/INFO]: Stopping server
+[22:16:06] [Server thread/INFO]: Saving players
+[22:16:06] [Server thread/INFO]: 17sk lost connection: Server closed
+[22:16:06] [Server thread/INFO]: 17sk they / them left the game
+[22:16:06] [Server thread/INFO]: GunYoshi lost connection: Server closed
+[22:16:06] [Server thread/INFO]: GunYoshi he / him left the game
+[22:16:06] [Server thread/INFO]: Lemon_Frog lost connection: Server closed
+[22:16:06] [Server thread/INFO]: Lemon_Frog she / her left the game
+[22:16:06] [Server thread/INFO]: Saving worlds
+[22:16:06] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 2847 chunks to unload
+[22:16:06] [Server thread/INFO]: ServerLevel[world]/minecraft:the_nether: waiting for 5232 chunks to unload
+[22:16:06] [Server thread/INFO]: ServerLevel[world]/minecraft:the_end: waiting for 2209 chunks to unload
+[22:16:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:16:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:16:08] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:16:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:16:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:16:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:16:08] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:16:08] [C2ME Storage #3/INFO]: Storage thread Thread[#67,C2ME Storage #3,8,main] stopped
+[22:16:08] [C2ME Storage #2/INFO]: Storage thread Thread[#66,C2ME Storage #2,8,main] stopped
+[22:16:09] [C2ME Storage #1/INFO]: Storage thread Thread[#65,C2ME Storage #1,8,main] stopped
+[22:16:09] [C2ME Storage #6/INFO]: Storage thread Thread[#72,C2ME Storage #6,8,main] stopped
+[22:16:09] [C2ME Storage #5/INFO]: Storage thread Thread[#71,C2ME Storage #5,8,main] stopped
+[22:16:09] [C2ME Storage #4/INFO]: Storage thread Thread[#70,C2ME Storage #4,8,main] stopped
+[22:16:09] [C2ME Storage #9/INFO]: Storage thread Thread[#76,C2ME Storage #9,8,main] stopped
+[22:16:09] [C2ME Storage #8/INFO]: Storage thread Thread[#75,C2ME Storage #8,8,main] stopped
+[22:16:09] [C2ME Storage #7/INFO]: Storage thread Thread[#74,C2ME Storage #7,8,main] stopped
