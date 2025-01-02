@@ -116,15 +116,19 @@
         }
       },
       {
-        "guid": "7b7a23e8-b79b-436f-9cbf-3f68b5769a9f",
+        "guid": "ee173e64-9b0b-47e2-be4d-dcdb3bb00f82",
         "name": "its raining meat",
         "enabled": true,
         "playerRequirement": "AtLeastOne",
         "timing": {
-          "interval": 10800,
+          "interval": 7200,
           "repeat": true
         },
-        "job": {}
+        "job": {
+          "commands": [
+            "execute at @a run summon cow ~ 300 ~"
+          ]
+        }
       }
     ]
   },

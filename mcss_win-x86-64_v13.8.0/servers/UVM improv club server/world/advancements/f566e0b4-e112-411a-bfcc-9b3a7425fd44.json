@@ -8342,6 +8342,7 @@
       "minecraft:skeleton": "2024-12-19 20:24:28 -0500",
       "minecraft:phantom": "2024-12-22 00:16:52 -0500",
       "minecraft:witch": "2024-12-19 19:52:10 -0500",
+      "minecraft:wither_skeleton": "2025-01-01 22:54:40 -0500",
       "minecraft:ghast": "2024-12-24 18:16:06 -0500",
       "minecraft:hoglin": "2024-12-22 22:10:18 -0500",
       "minecraft:shulker": "2024-12-21 17:18:10 -0500",
@@ -8601,6 +8602,30 @@
   "minecraft:adventure/blowback": {
     "criteria": {
       "blowback": "2024-12-31 22:55:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/elytra": {
+    "criteria": {
+      "elytra": "2025-01-01 22:20:21 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_nether_skeleton": {
+    "criteria": {
+      "fortress": "2025-01-01 22:54:26 -0500"
+    },
+    "done": false
+  },
+  "minecraft:adventure/spyglass_at_parrot": {
+    "criteria": {
+      "spyglass_at_parrot": "2025-01-02 01:59:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2025-01-02 01:42:29 -0500"
     },
     "done": true
   },

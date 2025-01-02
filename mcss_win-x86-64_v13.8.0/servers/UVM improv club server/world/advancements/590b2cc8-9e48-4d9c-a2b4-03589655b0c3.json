@@ -8700,5 +8700,17 @@
     },
     "done": false
   },
+  "minecraft:husbandry/allay_deliver_item_to_player": {
+    "criteria": {
+      "allay_deliver_item_to_player": "2025-01-01 22:39:12 -0500"
+    },
+    "done": true
+  },
+  "minecraft:adventure/throw_trident": {
+    "criteria": {
+      "shot_trident": "2025-01-01 22:41:11 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }
