@@ -8645,5 +8645,23 @@
     },
     "done": true
   },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:adventure/find_tavern": "2025-01-02 02:46:10 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_tavern": {
+    "criteria": {
+      "nova_structures:tavern_oak": "2025-01-02 02:46:10 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/tavern_quest": {
+    "criteria": {
+      "trade_quest": "2025-01-02 02:46:40 -0500"
+    },
+    "done": true
+  },
   "DataVersion": 4189
 }

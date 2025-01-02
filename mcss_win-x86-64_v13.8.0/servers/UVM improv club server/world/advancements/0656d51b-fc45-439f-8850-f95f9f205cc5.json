@@ -119,6 +119,7 @@
       "minecraft:jagged_peaks": "2024-12-23 23:18:16 -0500",
       "minecraft:cold_ocean": "2025-01-02 00:26:18 -0500",
       "minecraft:forest": "2024-12-19 19:42:24 -0500",
+      "minecraft:lush_caves": "2025-01-02 02:01:44 -0500",
       "minecraft:deep_cold_ocean": "2025-01-02 00:25:27 -0500",
       "minecraft:frozen_ocean": "2025-01-02 00:26:43 -0500",
       "minecraft:desert": "2024-12-20 02:04:09 -0500",
@@ -8378,6 +8379,7 @@
       "minecraft:zombified_piglin": "2024-12-21 06:12:40 -0500",
       "minecraft:witch": "2024-12-20 02:10:27 -0500",
       "minecraft:wither_skeleton": "2024-12-19 20:42:58 -0500",
+      "minecraft:husk": "2025-01-02 02:01:53 -0500",
       "minecraft:ghast": "2024-12-20 01:21:17 -0500",
       "minecraft:hoglin": "2024-12-20 03:15:17 -0500",
       "minecraft:shulker": "2024-12-19 22:42:06 -0500",
@@ -8391,7 +8393,8 @@
       "minecraft:zombie": "2024-12-19 19:38:19 -0500",
       "minecraft:creeper": "2024-12-19 21:20:27 -0500",
       "minecraft:drowned": "2025-01-02 00:30:24 -0500",
-      "minecraft:wither": "2024-12-21 17:05:12 -0500"
+      "minecraft:wither": "2024-12-21 17:05:12 -0500",
+      "minecraft:slime": "2025-01-02 02:14:59 -0500"
     },
     "done": false
   },
@@ -8653,6 +8656,7 @@
   },
   "nova_structures:adventure/find_all_illager_structures": {
     "criteria": {
+      "swamp_village": "2025-01-02 02:11:44 -0500",
       "tavern_dark_oak": "2025-01-02 01:33:22 -0500",
       "pillager_outpost": "2025-01-02 01:07:07 -0500",
       "illager_camp": "2025-01-02 01:41:00 -0500"
@@ -8671,6 +8675,12 @@
     },
     "done": true
   },
+  "nova_structures:adventure/find_swamp_village": {
+    "criteria": {
+      "minecraft:village_swamp": "2025-01-02 02:11:44 -0500"
+    },
+    "done": true
+  },
   "nova_structures:root": {
     "criteria": {
       "nova_structures:adventure/find_tavern": "2025-01-02 00:30:20 -0500"
@@ -8680,6 +8690,12 @@
   "nova_structures:adventure/find_tavern": {
     "criteria": {
       "nova_structures:tavern_snowy": "2025-01-02 00:30:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/axolotl_in_a_bucket": {
+    "criteria": {
+      "axolotl_bucket": "2025-01-02 02:08:54 -0500"
     },
     "done": true
   },
