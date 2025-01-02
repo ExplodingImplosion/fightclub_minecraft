@@ -1,907 +1,309 @@
-[00:01:09] [Server thread/INFO]: <King_Orion he / him> no one sleep!!
-[00:01:43] [Server thread/INFO]: [King_Orion he / him: Set own game mode to Creative Mode]
-[00:02:04] [User Authenticator #16/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[00:02:05] [Server thread/INFO]: 17sk[/24.253.191.140:62495] logged in with entity id 65631 at (-2093.300000011921, 63.0, 1050.6902341781886)
-[00:02:05] [Server thread/INFO]: 17sk they / them joined the game
-[00:02:06] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[00:02:06] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[00:02:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[00:02:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[00:02:07] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[00:02:11] [Server thread/INFO]: <17sk they / them> what is up gamers
-[00:02:17] [Server thread/INFO]: <GunYoshi he / him> killing pls dont sleep
-[00:02:22] [Server thread/INFO]: <17sk they / them> ok
-[00:03:15] [User Authenticator #17/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[00:03:16] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:62601] logged in with entity id 67652 at (-124.96188258170757, 70.98790962195571, -264.7225689593901)
-[00:03:16] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
-[00:03:16] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
-[00:03:16] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
-[00:03:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[00:03:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[00:03:18] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
-[00:03:23] [Server thread/INFO]: <_scasey she / her> DONT SLEEP
-[00:03:37] [Server thread/INFO]: <madb0nes he / him> o7
-[00:03:40] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[00:03:42] [Server thread/INFO]: <17sk they / them> wait what do you need
-[00:03:44] [Server thread/INFO]: <17sk they / them> gunpowder?
-[00:03:47] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-88, y=11, z=333} class_2338{x=-88, y=10, z=334}
-[00:03:56] [Server thread/INFO]: <17sk they / them> i have some in my chests fif you wanna grab it
-[00:04:06] [Server thread/INFO]: <ASFJASJHALALF he / him> X: -83 Y: 4 Z: -311
-[00:04:21] [Server thread/INFO]: <ASFJASJHALALF he / him> X: -84 Y: 7 Z: -287
-[00:04:24] [Server thread/INFO]: <ASFJASJHALALF he / him> X: -112 Y: 7 Z: -311
-[00:04:42] [Server thread/INFO]: [ASFJASJHALALF he / him: Successfully filled 12 block(s)]
-[00:05:00] [Server thread/INFO]: <ASFJASJHALALF he / him> X: -112 Y: 3 Z: -315
-[00:05:07] [Server thread/INFO]: <ASFJASJHALALF he / him> X: -92 Y: 8 Z: -288
-[00:05:19] [Server thread/INFO]: [ASFJASJHALALF he / him: Successfully filled 856 block(s)]
-[00:05:31] [User Authenticator #18/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
-[00:05:32] [Server thread/INFO]: razeyrainbows[/146.115.92.123:52273] logged in with entity id 69995 at (376.740571709937, 83.0, -243.90352078088225)
-[00:05:32] [Server thread/INFO]: razeyrainbows they / them joined the game
-[00:05:33] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
-[00:05:33] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
-[00:05:33] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
-[00:05:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
-[00:05:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
-[00:05:38] [Server thread/INFO]: <_scasey she / her> dont sleep
-[00:06:56] [Server thread/INFO]: <ASFJASJHALALF he / him> X: -81 Y: 4 Z: -309
-[00:07:00] [Server thread/INFO]: <ASFJASJHALALF he / him> X: -101 Y: 8 Z: -283
-[00:07:05] [Server thread/INFO]: <GunYoshi he / him> 14, 94, -39
-[00:07:12] [Server thread/INFO]: [ASFJASJHALALF he / him: Successfully filled 459 block(s)]
-[00:07:13] [Server thread/INFO]: <GunYoshi he / him> hats the portal in the nether
-[00:07:34] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-2036, y=64, z=861} class_2338{x=-2038, y=62, z=860}
-[00:08:39] [Server thread/INFO]: <17sk they / them> yeraz wherea re you
-[00:08:45] [Server thread/INFO]: <razeyrainbows they / them> the nether
-[00:08:46] [Server thread/INFO]: <razeyrainbows they / them> why
-[00:08:54] [Server thread/INFO]: <razeyrainbows they / them> omw back
-[00:09:25] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:09:58] [Server thread/INFO]: <17sk they / them> jtown looking so cute
-[00:10:04] [Server thread/INFO]: <17sk they / them> i'll mine stone for you
-[00:10:08] [Server thread/INFO]: <17sk they / them> i love mining stone
-[00:10:23] [Server thread/INFO]: <17sk they / them> you should see my spot
-[00:10:33] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[00:10:37] [Server thread/INFO]: <17sk they / them> wait casey n ben where are you
-[00:10:44] [Server thread/INFO]: <17sk they / them> wher is that
-[00:10:49] [Server thread/INFO]: <_scasey she / her> ziggeraut
-[00:10:49] [Server thread/INFO]: <17sk they / them> wher is that
-[00:10:54] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[00:10:54] [Server thread/INFO]: <17sk they / them> ohh k
-[00:11:01] [Server thread/INFO]: <17sk they / them> helo
-[00:11:22] [Server thread/INFO]: <17sk they / them> how far is suewe?
-[00:11:29] [Server thread/INFO]: <17sk they / them> like all the way down
-[00:11:32] [Server thread/INFO]: <17sk they / them> okok
-[00:11:38] [Server thread/INFO]: <17sk they / them> oh my gods
-[00:12:02] [Server thread/INFO]: <17sk they / them> sublime
-[00:12:04] [Server thread/INFO]: <17sk they / them> share with casy
-[00:12:21] [Server thread/INFO]: <17sk they / them> trainin yo mam
-[00:12:23] [Server thread/INFO]: <17sk they / them> mama
-[00:12:26] [Server thread/INFO]: <GunYoshi he / him> OOOH!!!
-[00:12:26] [Server thread/INFO]: <17sk they / them> gottem
-[00:12:32] [Server thread/INFO]: <17sk they / them> trying to type on a lader
-[00:12:34] [Server thread/INFO]: <17sk they / them> o is hard
-[00:12:42] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
-[00:12:42] [Server thread/INFO]: ASFJASJHALALF he / him left the game
-[00:12:42] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
-[00:12:53] [Server thread/INFO]: <17sk they / them> miles rocked our shit
-[00:13:10] [Server thread/INFO]: <GunYoshi he / him> any more stone to dig goat?
-[00:13:10] [Server thread/INFO]: <17sk they / them> yeraz you did rgeat
-[00:13:14] [Server thread/INFO]: <17sk they / them> i swouldsa said it earlier
-[00:13:16] [Server thread/INFO]: <17sk they / them> but i was on a ladre
-[00:13:37] [Server thread/INFO]: <17sk they / them> thanks
-[00:13:40] [Server thread/INFO]: <17sk they / them> wait wh did i need you
-[00:13:44] [Server thread/INFO]: <17sk they / them> lok
-[00:13:52] [Server thread/INFO]: <17sk they / them> wink
-[00:14:13] [Server thread/INFO]: <17sk they / them> thanks
-[00:14:14] [Server thread/INFO]: <17sk they / them> i try
-[00:14:22] [Server thread/INFO]: <17sk they / them> thank god my dick is small enough to wear one
-[00:14:34] [Server thread/INFO]: <17sk they / them> as the song peggy goe
-[00:14:36] [Server thread/INFO]: <17sk they / them> s
-[00:14:41] [Server thread/INFO]: <17sk they / them> scoopin it up in my hands
-[00:14:44] [Server thread/INFO]: <17sk they / them> oh ok nvm
-[00:14:50] [Server thread/INFO]: <17sk they / them> can i have it bac
-[00:14:52] [Server thread/INFO]: <17sk they / them> my plate
-[00:14:56] [Server thread/INFO]: <17sk they / them> no my stripper shirt
-[00:15:00] [Server thread/INFO]: <17sk they / them> thanks
-[00:15:06] [Server thread/INFO]: <17sk they / them> hi cred
-[00:15:13] [Server thread/INFO]: <17sk they / them> awit
-[00:15:16] [Server thread/INFO]: <17sk they / them> wanna mine with me
-[00:15:29] [Server thread/INFO]: <17sk they / them> fly?
-[00:15:31] [Server thread/INFO]: <17sk they / them> or
-[00:15:32] [Server thread/INFO]: <17sk they / them> no wings
-[00:15:39] [Server thread/INFO]: <17sk they / them> dos
-[00:16:15] [Server thread/INFO]: <17sk they / them> she gui on me
-[00:16:17] [Server thread/INFO]: <17sk they / them> on my
-[00:16:18] [Server thread/INFO]: <17sk they / them> fuck
-[00:16:30] [Server thread/INFO]: Summoned new Cow
-[00:16:30] [Server thread/INFO]: Summoned new Cow
-[00:16:30] [Server thread/INFO]: Summoned new Cow
-[00:16:30] [Server thread/INFO]: Summoned new Cow
-[00:16:30] [Server thread/INFO]: Summoned new Cow
-[00:16:30] [Server thread/INFO]: Summoned new Cow
-[00:16:30] [Server thread/INFO]: Summoned new Cow
-[00:16:30] [Server thread/INFO]: Summoned new Cow
-[00:16:38] [Server thread/INFO]: <Lemon_Frog she / her> f o u n t a i n
-[00:16:43] [Server thread/INFO]: <GunYoshi he / him> r u done?
-[00:16:49] [Server thread/INFO]: <Lemon_Frog she / her> no
-[00:16:54] [Server thread/INFO]: <Lemon_Frog she / her> need so much quartz
-[00:17:03] [Server thread/INFO]: <17sk they / them> i love squigglethumbs
-[00:17:11] [Server thread/INFO]: <razeyrainbows they / them> hes perfect
-[00:17:16] [Server thread/INFO]: <17sk they / them> wait yeraz im taking you to my super duper secret base of operations
-[00:17:21] [Server thread/INFO]: <17sk they / them> to mine
-[00:17:23] [Server thread/INFO]: <GunYoshi he / him> waow
-[00:17:26] [Server thread/INFO]: <razeyrainbows they / them> woahhhh
-[00:17:27] [Server thread/INFO]: <17sk they / them> you can't tell anyone
-[00:17:31] [Server thread/INFO]: <17sk they / them> i hope no one sees this
-[00:17:36] [Server thread/INFO]: <razeyrainbows they / them> i feel special
-[00:17:38] [Server thread/INFO]: <_scasey she / her> or yeraz
-[00:17:45] [Server thread/INFO]: <_scasey she / her> do you wanna help me decorate
-[00:17:46] [Server thread/INFO]: <17sk they / them> she git on my hub till im opensource
-[00:17:53] [Server thread/INFO]: <razeyrainbows they / them> oh oh oh
-[00:17:56] [Server thread/INFO]: <razeyrainbows they / them> uhhhh
-[00:18:08] [Server thread/INFO]: <razeyrainbows they / them> i kinda wanna see the secret base
-[00:18:12] [Server thread/INFO]: <_scasey she / her> valid
-[00:18:26] [Server thread/INFO]: <17sk they / them> who did that
-[00:18:31] [Server thread/INFO]: <17sk they / them> yea ofc
-[00:19:00] [Server thread/INFO]: <17sk they / them> yea
-[00:19:08] [Server thread/INFO]: <17sk they / them> sublime
-[00:19:34] [Server thread/INFO]: <17sk they / them> steals all of your items cutely
-[00:19:41] [Server thread/INFO]: <17sk they / them> gobbles it up
-[00:19:41] [Server thread/INFO]: <Lemon_Frog she / her> okay <3
-[00:19:42] [Server thread/INFO]: <17sk they / them> cutely
-[00:20:04] [Server thread/INFO]: <razeyrainbows they / them> do u
-[00:20:08] [Server thread/INFO]: <razeyrainbows they / them> have food
-[00:20:11] [Server thread/INFO]: <17sk they / them> a little
-[00:20:14] [Server thread/INFO]: <17sk they / them> more at my base
-[00:20:22] [Server thread/INFO]: <razeyrainbows they / them> ok lets go
-[00:20:32] [Server thread/INFO]: <razeyrainbows they / them> yipeee
-[00:20:38] [Server thread/INFO]: <17sk they / them> THEY ARE WHAT
-[00:20:44] [Server thread/INFO]: <17sk they / them> ben great minds think alike
-[00:21:22] [Server thread/INFO]: <17sk they / them> did you lose me
-[00:21:30] [Server thread/INFO]: <17sk they / them> yea
-[00:21:47] [Server thread/INFO]: <17sk they / them> double tap space
-[00:21:49] [Server thread/INFO]: <17sk they / them> then use a rocket
-[00:21:55] [Server thread/INFO]: <17sk they / them> right click
-[00:22:44] [Server thread/INFO]: <17sk they / them> its ok
-[00:22:47] [Server thread/INFO]: <17sk they / them> they volunteered
-[00:23:04] [Server thread/INFO]: <17sk they / them> mine
-[00:23:12] [Server thread/INFO]: <razeyrainbows they / them> hole
-[00:23:14] [Server thread/INFO]: <17sk they / them> yea
-[00:23:19] [Server thread/INFO]: <razeyrainbows they / them> yours?
-[00:23:22] [Server thread/INFO]: <17sk they / them> yup
-[00:23:24] [Server thread/INFO]: <razeyrainbows they / them> big
-[00:23:26] [Server thread/INFO]: <17sk they / them> just jump right into my hole
-[00:23:28] [Server thread/INFO]: <17sk they / them> thanks
-[00:23:36] [Server thread/INFO]: <GunYoshi he / him> okayyy
-[00:24:22] [Server thread/INFO]: <17sk they / them> she pope on my francies till i religion
-[00:24:28] [Server thread/INFO]: <17sk they / them> do you have coal
-[00:24:33] [Server thread/INFO]: <razeyrainbows they / them> uhhhh
-[00:24:36] [Server thread/INFO]: <17sk they / them> wait nvm im dumb
-[00:24:40] [Server thread/INFO]: <_scasey she / her> she pope on my francis til i ordain
-[00:24:59] [Server thread/INFO]: <razeyrainbows they / them> ohhh
-[00:25:03] [Server thread/INFO]: <razeyrainbows they / them> for food
-[00:25:06] [Server thread/INFO]: <17sk they / them> yea
-[00:25:10] [Server thread/INFO]: <razeyrainbows they / them> my seed
-[00:25:13] [Server thread/INFO]: <17sk they / them> to get out of my hole
-[00:25:19] [Server thread/INFO]: <17sk they / them> oh hekll yea thanks for your seed
-[00:25:27] [Server thread/INFO]: <17sk they / them> welcome to improv
-[00:25:35] [Server thread/INFO]: <GunYoshi he / him> MINECRAFT IMPROV SEX!!!
-[00:25:47] [Server thread/INFO]: <Lemon_Frog she / her> uvm core
-[00:25:52] [Server thread/INFO]: <17sk they / them> she im on my prov till i sex
-[00:25:55] [Server thread/INFO]: <17sk they / them> NUDE PROV
-[00:25:58] [Server thread/INFO]: <17sk they / them> like a beach
-[00:26:27] [Server thread/INFO]: <17sk they / them> i coulda soaked you to help
-[00:26:29] [Server thread/INFO]: <17sk they / them> no its ok
-[00:26:33] [Server thread/INFO]: <17sk they / them> look you coulda soaked
-[00:26:36] [Server thread/INFO]: <GunYoshi he / him> mormon prov
-[00:27:31] [Server thread/INFO]: <17sk they / them> use that
-[00:27:41] [Server thread/INFO]: <17sk they / them> it has efficiency 4
-[00:27:44] [Server thread/INFO]: <17sk they / them> i think
-[00:27:46] [Server thread/INFO]: <17sk they / them> i swing
-[00:27:52] [Server thread/INFO]: <17sk they / them> these fist are rated e for everyone
-[00:27:59] [Server thread/INFO]: <17sk they / them> fists
-[00:28:00] [Server thread/INFO]: <17sk they / them> fuck
-[00:28:30] [Server thread/INFO]: <17sk they / them> yea weirly enough
-[00:28:36] [Server thread/INFO]: <17sk they / them> i thought 4chan users all were swingers
-[00:28:49] [Server thread/INFO]: <Lemon_Frog she / her> brb
-[00:28:59] [Server thread/INFO]: Villager class_1646['Villager'/94404, l='ServerLevel[world]', x=6516.28, y=71.56, z=-3273.63] died, message: 'Villager suffocated in a wall'
-[00:29:14] [Server thread/INFO]: <17sk they / them> hot take giraffes are lowkey weird as fuck like who bred a horse with a ladder
-[00:29:25] [Server thread/INFO]: <17sk they / them> no i laughed
-[00:29:40] [Server thread/INFO]: <17sk they / them> i jerk off to ukranian caberet guy
-[00:29:43] [Server thread/INFO]: <17sk they / them> HAVE YOU SEEN HIM
-[00:29:46] [Server thread/INFO]: <King_Orion he / him> fair
-[00:29:49] [Server thread/INFO]: <17sk they / them> i'll send edits hold up
-[00:29:58] [Server thread/INFO]: <King_Orion he / him> em cee
-[00:30:06] [Server thread/INFO]: <17sk they / them> nvm im too lazy to find it
-[00:30:20] [Server thread/INFO]: Zumquirelle has made the advancement [Safe Haven]
-[00:30:23] [Server thread/INFO]: <17sk they / them> yea haven't even beated the shmeat since last year B)
-[00:30:28] [Server thread/INFO]: <17sk they / them> sorry i'll quit
-[00:30:33] [Server thread/INFO]: <razeyrainbows they / them> what hole fore?
-[00:30:42] [Server thread/INFO]: <17sk they / them> fun
-[00:30:44] [Server thread/INFO]: <17sk they / them> i ike hole
-[00:30:56] [Server thread/INFO]: <razeyrainbows they / them> me too
-[00:31:07] [Server thread/INFO]: <razeyrainbows they / them> its like when you go to the beach
-[00:31:15] [Server thread/INFO]: <17sk they / them> yuea
-[00:31:19] [Server thread/INFO]: <GunYoshi he / him> and get naked? at the beach?
-[00:31:27] [Server thread/INFO]: <17sk they / them> i only get naked at beaches
-[00:31:37] [Server thread/INFO]: <17sk they / them> thats why you never see me during the beach episode
-[00:31:41] [Server thread/INFO]: <17sk they / them> they usually have to cut away
-[00:32:10] [Server thread/INFO]: <17sk they / them> ben i mean this in the highest complimentary way possible
-[00:32:14] [Server thread/INFO]: <17sk they / them> i think about you at least once a day
-[00:32:39] [Server thread/INFO]: <17sk they / them> its your eyelashes definitely
-[00:32:49] [Server thread/INFO]: <17sk they / them> WOW
-[00:32:50] [Server thread/INFO]: <17sk they / them> OK
-[00:32:54] [Server thread/INFO]: <17sk they / them> JUST SAY MY JOKE LOUDER
-[00:33:00] [Server thread/INFO]: <17sk they / them> NO ITS COOL
-[00:33:04] [Server thread/INFO]: <17sk they / them> LMFAO
-[00:33:11] [Server thread/INFO]: <17sk they / them> LMAOOO
-[00:33:27] [Server thread/INFO]: <17sk they / them> next step
-[00:33:30] [Server thread/INFO]: <17sk they / them> crusades
-[00:33:58] [Server thread/INFO]: <17sk they / them> bro my college dream is to make it onto uvmhottiefinder
-[00:34:01] [Server thread/INFO]: <17sk they / them> idc if its evil
-[00:34:19] [Server thread/INFO]: <17sk they / them> like i just need my ego to be boosted
-[00:34:25] [Server thread/INFO]: <17sk they / them> fr
-[00:34:49] [Server thread/INFO]: <17sk they / them> i had a smore cheesecake and it was fucking delicious
-[00:34:53] [Server thread/INFO]: <17sk they / them> stacey made it
-[00:35:06] [Server thread/INFO]: <17sk they / them> me and stacey play pokemon go together
-[00:35:13] [Server thread/INFO]: <17sk they / them> she was my old boss
-[00:35:18] [Server thread/INFO]: <17sk they / them> maybe?
-[00:35:23] [Server thread/INFO]: <17sk they / them> does she make cheesecake
-[00:35:26] [Server thread/INFO]: <17sk they / them> uhh
-[00:35:29] [Server thread/INFO]: <17sk they / them> ...
-[00:35:32] [Server thread/INFO]: <17sk they / them> good question
-[00:35:36] [Server thread/INFO]: <17sk they / them> i have no idea
-[00:35:40] [Server thread/INFO]: <17sk they / them> she is crazty
-[00:35:48] [Server thread/INFO]: <17sk they / them> ben you should add me on pokemon go
-[00:35:49] [Server thread/INFO]: <17sk they / them> oh
-[00:35:59] [Server thread/INFO]: <17sk they / them> LMAO
-[00:36:04] [Server thread/INFO]: <17sk they / them> we keep going
-[00:36:09] [Server thread/INFO]: <17sk they / them> don't let the cave stop the hole
-[00:36:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=225, y=88, z=518} class_2338{x=334, y=83, z=507}
-[00:36:38] [Server thread/INFO]: <17sk they / them> get his phone an sd card
-[00:37:07] [Server thread/INFO]: <17sk they / them> do you like
-[00:37:13] [Server thread/INFO]: <17sk they / them> reminisce on your 2018 texts?
-[00:37:20] [Server thread/INFO]: <17sk they / them> no judgemtnet
-[00:38:18] [Server thread/INFO]: <17sk they / them> no as soon as i cut off someone i delete that shit
-[00:38:24] [Server thread/INFO]: <17sk they / them> because otherwise i'll spiral
-[00:38:40] [Server thread/INFO]: <17sk they / them> true
-[00:38:43] [Server thread/INFO]: <King_Orion he / him> i have to be quiet kieffner now :(
-[00:38:45] [Server thread/INFO]: <17sk they / them> lemme just get back on my ex rq
-[00:38:52] [Server thread/INFO]: <17sk they / them> joking that would be bad
-[00:39:14] [Server thread/INFO]: <17sk they / them> kieffner is such a sick name
-[00:39:26] [Server thread/INFO]: <17sk they / them> sorry guys its the voices heart eyes winky face
-[00:39:27] [Server thread/INFO]: <King_Orion he / him> sewer is crazy rn
-[00:40:20] [Server thread/INFO]: <King_Orion he / him> hmmm
-[00:40:22] [Server thread/INFO]: <17sk they / them> i have no one to send those too
-[00:40:24] [Server thread/INFO]: <17sk they / them> its so bad
-[00:40:25] [Server thread/INFO]: <GunYoshi he / him> looking into this
-[00:40:34] [Server thread/INFO]: <King_Orion he / him> come see sewer boy
-[00:40:42] [Server thread/INFO]: <17sk they / them> swewr bow
-[00:41:13] [Server thread/INFO]: <17sk they / them> i'd send those kinda memes to my friend but we did hookup once so i feel like it'd be awkward cuz it could be taken seriously
-[00:41:13] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:41:14] [Server thread/INFO]: <King_Orion he / him> i-
-[00:41:18] [Server thread/INFO]: <GunYoshi he / him> LMAO
-[00:41:20] [Server thread/INFO]: <17sk they / them> no thats so real
-[00:41:24] [Server thread/INFO]: <King_Orion he / him> tori is the toucher
-[00:41:25] [Server thread/INFO]: <17sk they / them> tori you real for that
-[00:42:32] [Server thread/INFO]: <17sk they / them> i don't even thikn B)
-[00:42:36] [Server thread/INFO]: <King_Orion he / him> you guys rock
-[00:42:40] [Server thread/INFO]: <GunYoshi he / him> REAL EYES REAL EYES REAL EYES
-[00:42:40] [Server thread/INFO]: <King_Orion he / him> i heart friendship
-[00:42:43] [Server thread/INFO]: <17sk they / them> rocked your moms world
-[00:42:44] [Server thread/INFO]: <17sk they / them> sorry
-[00:42:55] [Server thread/INFO]: <King_Orion he / him> lmao
-[00:42:56] [Server thread/INFO]: <King_Orion he / him> evil
-[00:43:01] [Server thread/INFO]: <Lemon_Frog she / her> i <3 provers
-[00:43:14] [Server thread/INFO]: <17sk they / them> sends hawk tuah memes with malicous intent
-[00:43:18] [Server thread/INFO]: <17sk they / them> same fer
-[00:43:19] [Server thread/INFO]: <King_Orion he / him> aw
-[00:43:25] [Server thread/INFO]: <17sk they / them> y'all aight
-[00:43:50] [Server thread/INFO]: <17sk they / them> yea
-[00:43:52] [Server thread/INFO]: <King_Orion he / him> auditions for spring team...
-[00:43:52] [Server thread/INFO]: <17sk they / them> trueth
-[00:43:56] [Server thread/INFO]: <17sk they / them> i'll auduiton
-[00:44:02] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[00:44:22] [Server thread/INFO]: <17sk they / them> we all fist fight to the death for that one spot
-[00:44:33] [Server thread/INFO]: <King_Orion he / him> yes!
-[00:44:40] [Server thread/INFO]: <17sk they / them> yes to the fist fighting?
-[00:44:40] [Server thread/INFO]: <King_Orion he / him> club is different from team
-[00:44:48] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:44:55] [Server thread/INFO]: <17sk they / them> bobke are you a junior?
-[00:44:58] [Server thread/INFO]: <GunYoshi he / him> yes
-[00:45:02] [Server thread/INFO]: <King_Orion he / him> i'm going for VP next year
-[00:45:10] [Server thread/INFO]: <17sk they / them> i genuinely have no idea what everyones year is
-[00:45:16] [Server thread/INFO]: <17sk they / them> I LOVE YOUR ROOMMATE
-[00:45:21] [Server thread/INFO]: <17sk they / them> elle epic
-[00:45:45] [Server thread/INFO]: <King_Orion he / him> lol
-[00:45:53] [Server thread/INFO]: <17sk they / them> wait casey you have a home
-[00:45:55] [Server thread/INFO]: <17sk they / them> you pay
-[00:45:57] [Server thread/INFO]: <17sk they / them> TAXES?
-[00:46:01] [Server thread/INFO]: <GunYoshi he / him> COME TO BEAUTIFUL SPINNER PLACE!
-[00:46:06] [Server thread/INFO]: <17sk they / them> WAIT WHAT
-[00:46:10] [Server thread/INFO]: <17sk they / them> CASEY YOU GRADUTAE????
-[00:46:13] [Server thread/INFO]: <17sk they / them> HUH
-[00:46:24] [Server thread/INFO]: <King_Orion he / him> :(
-[00:46:32] [Server thread/INFO]: <King_Orion he / him> the bit died
-[00:47:05] [Server thread/INFO]: <17sk they / them> thank you for helping me expand my hole yeraz
-[00:47:06] [Server thread/INFO]: <King_Orion he / him> horses is people!!
-[00:47:09] [Server thread/INFO]: <King_Orion he / him> oh-
-[00:47:15] [Server thread/INFO]: <razeyrainbows they / them> youre very welcome
-[00:47:24] [Server thread/INFO]: <17sk they / them> no guys you just have to see it
-[00:47:30] [Server thread/INFO]: <razeyrainbows they / them> its hot
-[00:47:30] [Server thread/INFO]: <King_Orion he / him> love is love
-[00:47:39] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:47:49] [Server thread/INFO]: <GunYoshi he / him> do you have any pics of your expanded hole? would love to see
-[00:47:53] [Server thread/INFO]: <King_Orion he / him> oh my god
-[00:47:55] [Server thread/INFO]: <17sk they / them> yea i'l take one
-[00:48:00] [Server thread/INFO]: <King_Orion he / him> fire!
-[00:48:00] [Server thread/INFO]: <GunYoshi he / him> thx <3
-[00:48:07] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:48:13] [Server thread/INFO]: <17sk they / them> yea
-[00:48:23] [Server thread/INFO]: Zumquirelle has made the advancement [A Major Trial Of Strength]
-[00:49:25] [Server thread/INFO]: <17sk they / them> ben i sent my hole pics in chat
-[00:49:40] [Server thread/INFO]: <King_Orion he / him> yea
-[00:49:44] [Server thread/INFO]: <King_Orion he / him> they're chill as fuck
-[00:49:55] [Server thread/INFO]: <King_Orion he / him> did you see tudd
-[00:50:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=206, y=86, z=555} class_2338{x=206, y=85, z=555}
-[00:50:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=206, y=86, z=555} class_2338{x=206, y=85, z=555}
-[00:50:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=206, y=86, z=555} class_2338{x=206, y=85, z=555}
-[00:50:01] [Server thread/INFO]: <King_Orion he / him> yuh
-[00:50:03] [Server thread/INFO]: <King_Orion he / him> sewer dog
-[00:50:16] [Server thread/INFO]: <King_Orion he / him> yesssss
-[00:50:26] [Server thread/INFO]: <King_Orion he / him> real
-[00:50:28] [Server thread/INFO]: <17sk they / them> when i say i got that dawg in me i mean generalized anxiety
-[00:50:35] [Server thread/INFO]: <_scasey she / her> !!!
-[00:51:02] [Server thread/INFO]: <King_Orion he / him> lmao
-[00:51:04] [Server thread/INFO]: <King_Orion he / him> ben
-[00:51:25] [Server thread/INFO]: <17sk they / them> i actually love this photosynthesis enchant its fire
-[00:51:33] [Server thread/INFO]: <17sk they / them> as long as its sunny my armor is full
-[00:51:41] [Server thread/INFO]: <madb0nes he / him> !
-[00:51:49] [Server thread/INFO]: <17sk they / them> and i think it works on tools so i may do that too
-[00:52:08] [Server thread/INFO]: [King_Orion he / him: Set own game mode to Survival Mode]
-[00:52:22] [Server thread/INFO]: <17sk they / them> im more for he para
-[00:52:23] [Server thread/INFO]: <17sk they / them> NO YOU
-[00:52:24] [Server thread/INFO]: <King_Orion he / him> ben come see sewer
-[00:52:25] [Server thread/INFO]: <17sk they / them> hey its ok
-[00:52:28] [Server thread/INFO]: <17sk they / them> great minds think alike
-[00:52:32] [Server thread/INFO]: <King_Orion he / him> back to it's prime
-[00:52:35] [Server thread/INFO]: <King_Orion he / him> and ever improving
-[00:52:40] [Server thread/INFO]: <17sk they / them> wait im gona dump some stuff and then come back to the hole
-[00:52:51] [Server thread/INFO]: <17sk they / them> ben did you see the hole
-[00:52:52] [Server thread/INFO]: <razeyrainbows they / them> okay miss you
-[00:53:22] [Server thread/INFO]: King_Orion he / him has made the advancement [Ice Bucket Challenge]
-[00:54:44] [Server thread/INFO]: <King_Orion he / him> one of my favourite gender
-[00:55:00] [Server thread/INFO]: <King_Orion he / him> good!
-[00:55:18] [Server thread/INFO]: <King_Orion he / him> ben the false sewer gives me such great access to the villagers lol
-[00:55:41] [Server thread/INFO]: <17sk they / them> have my meeat
-[00:56:13] [Server thread/INFO]: <King_Orion he / him> god damn you ben
-[00:56:17] [Server thread/INFO]: <King_Orion he / him> i was about to say that
-[00:56:22] [Server thread/INFO]: <King_Orion he / him> my typing is too slow
-[00:56:24] [Server thread/INFO]: <GunYoshi he / him> GO TO HELL!!!!!!!!!!!!
-[00:56:31] [Server thread/INFO]: <17sk they / them> she jeb on my notch till i minecraft
-[00:56:35] [Server thread/INFO]: <King_Orion he / him> fuck you and i mean that 1,000%
-[00:56:56] [Server thread/INFO]: <King_Orion he / him> lmao
-[00:57:02] [Server thread/INFO]: <17sk they / them> nice!
-[00:57:12] [Server thread/INFO]: <King_Orion he / him> baby bird jumping out of the nest
-[00:57:24] [Server thread/INFO]: <17sk they / them> keep it
-[00:57:27] [Server thread/INFO]: <17sk they / them> the chests net to the hole
-[00:57:43] [Server thread/INFO]: Zumquirelle has made the advancement [Minecraft: Trial(s) Edition]
-[00:57:47] [Server thread/INFO]: <17sk they / them> collecting this all
-[00:57:51] [Server thread/INFO]: <King_Orion he / him> ben you have to stop humming chocolate rain
-[00:57:52] [Server thread/INFO]: <17sk they / them> its going towards a thing i think
-[00:57:57] [Server thread/INFO]: <17sk they / them> a thing
-[00:57:58] [Server thread/INFO]: <17sk they / them> i think
-[00:58:07] [Server thread/INFO]: <17sk they / them> SUBLIME
-[00:58:34] [Server thread/INFO]: <17sk they / them> have you met hilbert
-[00:58:48] [Server thread/INFO]: <King_Orion he / him> ??
-[00:58:50] [Server thread/INFO]: <17sk they / them> shrug
-[00:59:04] [Server thread/INFO]: <razeyrainbows they / them> handsome
-[00:59:11] [Server thread/INFO]: <17sk they / them> i know i am thanks
-[00:59:15] [Server thread/INFO]: <17sk they / them> my mom says it all the time
-[00:59:21] [Server thread/INFO]: <17sk they / them> LMFAO
-[00:59:36] [Server thread/INFO]: <17sk they / them> its a chunk
-[00:59:38] [Server thread/INFO]: <Lemon_Frog she / her> mads is this okay
-[01:00:03] [Server thread/INFO]: <17sk they / them> i ove fullrbight
-[01:00:15] [Server thread/INFO]: <17sk they / them> NO WAY
-[01:00:18] [Server thread/INFO]: <King_Orion he / him> i have actually said that
-[01:00:21] [Server thread/INFO]: <17sk they / them> YERAZ DID YOU GIVE ME SEED
-[01:00:22] [Server thread/INFO]: <17sk they / them> oh
-[01:00:25] [Server thread/INFO]: <King_Orion he / him> kindke
-[01:00:28] [Server thread/WARN]: Lemon_Frog moved too quickly! -4.012380282205129,0.0625,9.563695865705427
-[01:00:29] [Server thread/INFO]: <madb0nes he / him> okay time for me to sleep
-[01:00:29] [Server thread/INFO]: <17sk they / them> hell yea
-[01:00:35] [Server thread/INFO]: <madb0nes he / him> gootnight
-[01:00:37] [Server thread/INFO]: <17sk they / them> godbigh!
-[01:00:38] [Server thread/INFO]: <King_Orion he / him> gn!
-[01:00:42] [Server thread/INFO]: _scasey lost connection: Disconnected
-[01:00:42] [Server thread/INFO]: _scasey she / her left the game
-[01:00:42] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
-[01:00:43] [Server thread/INFO]: madb0nes lost connection: Disconnected
-[01:00:43] [Server thread/INFO]: madb0nes he / him left the game
-[01:00:43] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
-[01:00:44] [Server thread/INFO]: <17sk they / them> goodnigh!
-[01:01:10] [Server thread/INFO]: <17sk they / them> im gonna get off after this layer
-[01:01:18] [Server thread/INFO]: <King_Orion he / him> but i love staying up until 4 with you
-[01:01:18] [Server thread/INFO]: <17sk they / them> EW MOUNTAIN TIME
-[01:01:21] [Server thread/INFO]: <17sk they / them> WHAT ARE YOU
-[01:01:25] [Server thread/INFO]: <17sk they / them> A ROCK??
-[01:01:27] [Server thread/INFO]: <17sk they / them> A BOULDER
-[01:01:30] [Server thread/INFO]: You whisper to Zumquirelle: HOLY SHIT BEHIND YOU!
-[01:01:41] [Server thread/INFO]: <17sk they / them> why did
-[01:01:42] [Server thread/INFO]: <17sk they / them> oh yea
-[01:02:00] [Server thread/INFO]: <King_Orion he / him> so many fish in my sewer
-[01:02:08] [Server thread/INFO]: <17sk they / them> after this layer im probably gonna log off
-[01:02:15] [Server thread/INFO]: <17sk they / them> no i gotta
-[01:02:22] [Server thread/INFO]: <King_Orion he / him> rip
-[01:02:22] [Server thread/INFO]: <17sk they / them> i have to get my brother from the airport tmrw morning
-[01:02:24] [Server thread/INFO]: <King_Orion he / him> goodnight
-[01:02:42] [Server thread/INFO]: <17sk they / them> sock mickey in the face for me
-[01:02:46] [Server thread/INFO]: <17sk they / them> that bitch has it coming
-[01:02:52] [Server thread/INFO]: <razeyrainbows they / them> what if we dig really slow
-[01:03:02] [Server thread/INFO]: <17sk they / them> you want me to stay on?
-[01:03:13] [Server thread/INFO]: <17sk they / them> NO IM NOT EVEN ON
-[01:03:23] [Server thread/INFO]: 17sk lost connection: Disconnected
-[01:03:23] [Server thread/INFO]: 17sk they / them left the game
-[01:03:23] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
-[01:03:24] [User Authenticator #19/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[01:03:25] [Server thread/INFO]: 17sk[/24.253.191.140:62671] logged in with entity id 121606 at (-1783.7942502943279, 22.0, 717.7476054573366)
-[01:03:25] [Server thread/INFO]: 17sk they / them joined the game
-[01:03:25] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[01:03:25] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[01:03:25] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[01:03:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[01:03:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[01:03:30] [Server thread/INFO]: <17sk they / them> no im joking i'll say goodnight
-[01:03:35] [Server thread/INFO]: <17sk they / them> plus im not logging off here
-[01:03:50] [Server thread/INFO]: <King_Orion he / him> oh my god shut the hell up
-[01:04:06] [Server thread/INFO]: razeyrainbows they / them experienced kinetic energy
-[01:04:08] [Server thread/INFO]: <King_Orion he / him> dont
-[01:04:09] [Server thread/INFO]: <17sk they / them> LMAO
-[01:04:19] [Server thread/INFO]: <17sk they / them> where did you even die
-[01:04:33] [Server thread/INFO]: <King_Orion he / him> lmaoooo
-[01:04:35] [Server thread/INFO]: <17sk they / them> ohh you died in the hole
-[01:04:39] [Server thread/INFO]: <17sk they / them> LMAO
-[01:04:48] [Server thread/INFO]: <King_Orion he / him> istg
-[01:04:56] [Server thread/INFO]: <17sk they / them> wait you guys gotta see this hole at some point
-[01:05:10] [Server thread/INFO]: <17sk they / them> because why not
-[01:05:13] [Server thread/INFO]: <17sk they / them> materials
-[01:05:14] [Server thread/INFO]: <17sk they / them> and
-[01:05:17] [Server thread/INFO]: <17sk they / them> now i have a hole
-[01:05:41] [Server thread/INFO]: <17sk they / them> yea a shrine is justa trial chamber
-[01:05:43] [Server thread/INFO]: <17sk they / them> its cool tho
-[01:05:45] [Server thread/INFO]: <17sk they / them> its got like rooms
-[01:05:53] [Server thread/INFO]: <17sk they / them> there are 4-5 rooms and then a chest at the end
-[01:06:27] [Server thread/INFO]: <17sk they / them> LOL
-[01:06:33] [Server thread/INFO]: <17sk they / them> well ig its time to log off!
-[01:06:36] [Server thread/INFO]: <17sk they / them> no im joking
-[01:07:04] [Server thread/INFO]: <King_Orion he / him> lol
-[01:07:07] [Server thread/INFO]: Zumquirelle has made the advancement [Intruder Alert]
-[01:07:35] [Server thread/INFO]: <17sk they / them> other way
-[01:07:48] [Server thread/INFO]: <17sk they / them> towards the cows then right
-[01:08:14] [Server thread/INFO]: <17sk they / them> that was cool wasn't it
-[01:08:18] [Server thread/INFO]: <17sk they / them> thanks
-[01:08:30] [Server thread/INFO]: <17sk they / them> look straight up
-[01:08:34] [Server thread/INFO]: <17sk they / them> double space
-[01:08:37] [Server thread/INFO]: <17sk they / them> thank right click
-[01:08:46] [Server thread/INFO]: <17sk they / them> nice
-[01:08:51] [Server thread/INFO]: <17sk they / them> you did!
-[01:10:22] [Server thread/INFO]: <17sk they / them> why tahnk you
-[01:10:37] [Server thread/INFO]: <razeyrainbows they / them> byebye
-[01:10:43] [Server thread/INFO]: <17sk they / them> i afk and go to bed now, let the sugarcane farm do its thing
-[01:10:44] [Server thread/INFO]: <17sk they / them> byebye
-[01:10:47] [Server thread/INFO]: <17sk they / them> goodnight guys!
-[01:10:50] [Server thread/INFO]: <King_Orion he / him> gn
-[01:10:52] [Server thread/INFO]: <Lemon_Frog she / her> night!
-[01:11:06] [Server thread/INFO]: <17sk they / them> IF MY PHONE WOULD LET ME LEAVE THE DAMN CALL
-[01:11:08] [Server thread/INFO]: <17sk they / them> hold up
-[01:11:19] [Server thread/INFO]: <King_Orion he / him> damn
-[01:11:19] [Server thread/INFO]: <17sk they / them> figured it out
-[01:11:28] [Server thread/INFO]: <GunYoshi he / him> LOL
-[01:11:46] [Server thread/INFO]: <GunYoshi he / him> im crashin out client side! damn!
-[01:12:07] [Server thread/INFO]: <Lemon_Frog she / her> does anyone have extra lilypads?
-[01:12:22] [Server thread/INFO]: <GunYoshi he / him> no sorry :(
-[01:12:26] [Server thread/INFO]: <Lemon_Frog she / her> its okay!
-[01:13:17] [Server thread/INFO]: Unknown item 'minecraft:lilypad'
-[01:13:17] [Server thread/INFO]: ...emon_Frog lilypad 64<--[HERE]
-[01:13:19] [User Authenticator #20/INFO]: UUID of player murder__goose is d18e994a-6034-49d7-a21a-d9ef5de4aff9
-[01:13:19] [Server thread/INFO]: Disconnecting murder__goose (/108.211.178.79:52626): You are not white-listed on this server!
-[01:13:19] [Server thread/INFO]: murder__goose (/108.211.178.79:52626) lost connection: You are not white-listed on this server!
-[01:13:19] [Server thread/WARN]: handleDisconnection() called twice
-[01:13:40] [Server thread/INFO]: Gave 64 [Lily Pad] to Lemon_Frog she / her
-[01:13:44] [Server thread/INFO]: [Not Secure] [Server] sh
-[01:13:57] [Server thread/INFO]: [Not Secure] [Server] it wasnt me
-[01:14:09] [Server thread/INFO]: <Lemon_Frog she / her> lmao thanks
-[01:14:43] [User Authenticator #21/INFO]: UUID of player murder__goose is d18e994a-6034-49d7-a21a-d9ef5de4aff9
-[01:14:43] [Server thread/INFO]: Disconnecting murder__goose (/108.211.178.79:52656): You are not white-listed on this server!
-[01:14:43] [Server thread/INFO]: murder__goose (/108.211.178.79:52656) lost connection: You are not white-listed on this server!
-[01:14:43] [Server thread/WARN]: handleDisconnection() called twice
-[01:14:49] [Server thread/INFO]: [Not Secure] [Server] im looking at this thing called SSH and GPG keys for github
-[01:14:54] [Server thread/INFO]: [Not Secure] [Server] and all i can think of is go piss girl
-[01:15:01] [Server thread/INFO]: <GunYoshi he / him> wait but goat can u pls white list murder goose
-[01:15:04] [Server thread/INFO]: <GunYoshi he / him> alexis
-[01:15:23] [Server thread/INFO]: [Not Secure] [Server] yeah for sure
-[01:15:30] [Server thread/INFO]: [Not Secure] [Server] i keep getting confused like why is alexis dcing
-[01:15:32] [Server thread/INFO]: [Not Secure] [Server] anyway
-[01:15:32] [Server thread/INFO]: <Lemon_Frog she / her> wait yeraz i have a task
-[01:15:37] [Server thread/INFO]: Added murder__goose to the whitelist
-[01:15:43] [Server thread/INFO]: Added murder__goose to team [they/them]
-[01:15:48] [Server thread/INFO]: [Not Secure] [Server] someone tell alexis to get on
-[01:15:51] [Server thread/INFO]: <GunYoshi he / him> ok ill get exact spelling in one sec miles
-[01:15:52] [Server thread/INFO]: [Not Secure] [Server] theyre on
-[01:15:53] [Server thread/INFO]: <GunYoshi he / him> alexis is on
-[01:15:59] [Server thread/INFO]: [Not Secure] [Server] i mean the  serve
-[01:16:02] [Server thread/INFO]: [Not Secure] [Server] they got whitelisted
-[01:16:19] [Server thread/INFO]: [Not Secure] [Server] for some reason minecraft has a very shitty way of doing whitelisting
-[01:16:32] [Server thread/INFO]: [Not Secure] [Server] when you connect to the server even if youre not whitelisted, it lets you connect
-[01:16:39] [Server thread/INFO]: [Not Secure] [Server] and then it just immediately disconnects you  if youre not whitelisted
-[01:16:58] [Server thread/INFO]: [Not Secure] [Server] which is fucking stupid because why the fuck are you letting someone connect in the first place.... like ok mojang
-[01:18:23] [Server thread/INFO]: Summoned new Cow
-[01:18:23] [Server thread/INFO]: Summoned new Cow
-[01:18:23] [Server thread/INFO]: Summoned new Cow
-[01:18:23] [Server thread/INFO]: Summoned new Cow
-[01:18:23] [Server thread/INFO]: Summoned new Cow
-[01:18:23] [Server thread/INFO]: Summoned new Cow
-[01:18:25] [Server thread/INFO]: Summoned new Cow
-[01:18:25] [Server thread/INFO]: Summoned new Cow
-[01:18:25] [Server thread/INFO]: Summoned new Cow
-[01:18:25] [Server thread/INFO]: Summoned new Cow
-[01:18:25] [Server thread/INFO]: Summoned new Cow
-[01:18:25] [Server thread/INFO]: Summoned new Cow
-[01:18:26] [Server thread/INFO]: Summoned new Cow
-[01:18:26] [Server thread/INFO]: Summoned new Cow
-[01:18:26] [Server thread/INFO]: Summoned new Cow
-[01:18:26] [Server thread/INFO]: Summoned new Cow
-[01:18:26] [Server thread/INFO]: Summoned new Cow
-[01:18:26] [Server thread/INFO]: Summoned new Cow
-[01:18:28] [Server thread/INFO]: Summoned new Cow
-[01:18:28] [Server thread/INFO]: Summoned new Cow
-[01:18:28] [Server thread/INFO]: Summoned new Cow
-[01:18:28] [Server thread/INFO]: Summoned new Cow
-[01:18:28] [Server thread/INFO]: Summoned new Cow
-[01:18:28] [Server thread/INFO]: Summoned new Cow
-[01:18:28] [Server thread/INFO]: <King_Orion he / him> oh god
-[01:18:29] [Server thread/INFO]: Summoned new Cow
-[01:18:29] [Server thread/INFO]: Summoned new Cow
-[01:18:29] [Server thread/INFO]: Summoned new Cow
-[01:18:29] [Server thread/INFO]: Summoned new Cow
-[01:18:29] [Server thread/INFO]: Summoned new Cow
-[01:18:29] [Server thread/INFO]: Summoned new Cow
-[01:18:34] [Server thread/INFO]: Zumquirelle has reached the goal [Revaulting]
-[01:21:20] [Server thread/INFO]: <King_Orion he / him> you can dig through my sewer chests
-[01:21:27] [Server thread/INFO]: <King_Orion he / him> lol
-[01:21:32] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=9694, y=-7, z=-2867} class_2338{x=9694, y=-8, z=-2867}
-[01:21:34] [Server thread/INFO]: Zumquirelle was slain by Drowned
-[01:21:47] [Server thread/INFO]: <Lemon_Frog she / her> i should be able to bonemeal vines this is evil
-[01:22:11] [Server thread/INFO]: <King_Orion he / him> he loves tuff
-[01:22:42] [Server thread/INFO]: <King_Orion he / him> i'm in my yard
-[01:22:55] [Server thread/INFO]: <King_Orion he / him> building shed
-[01:23:11] [Server thread/INFO]: <King_Orion he / him> ye
-[01:23:15] [Server thread/INFO]: <King_Orion he / him> no
-[01:23:19] [Server thread/INFO]: <King_Orion he / him> i would like one
-[01:23:27] [Server thread/INFO]: <King_Orion he / him> :(
-[01:23:33] [Server thread/INFO]: <Lemon_Frog she / her> yeraz my love
-[01:23:46] [Server thread/INFO]: <King_Orion he / him> name your horse penny
-[01:23:57] [Server thread/INFO]: <GunYoshi he / him> no i have a friend w a dog named pennies i cant
-[01:24:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=386, y=73, z=537} class_2338{x=387, y=71, z=538}
-[01:24:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=386, y=73, z=537} class_2338{x=387, y=71, z=538}
-[01:24:02] [Server thread/INFO]: <King_Orion he / him> hmm
-[01:24:29] [Server thread/INFO]: Zumquirelle has made the advancement [Under Lock and Key]
-[01:24:46] [Server thread/INFO]: <King_Orion he / him> what about nickel
-[01:24:55] [Server thread/INFO]: <King_Orion he / him> coin horse
-[01:25:00] [Server thread/INFO]: <King_Orion he / him> hold on
-[01:25:10] [Server thread/INFO]: <King_Orion he / him> i'm headed to sewer
-[01:25:16] [Server thread/INFO]: <Lemon_Frog she / her> r o c k e t
-[01:26:19] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[01:26:38] [Server thread/INFO]: <King_Orion he / him> what about gumby
-[01:26:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[01:26:44] [Server thread/INFO]: <King_Orion he / him> gumby horse
-[01:26:50] [Server thread/INFO]: <GunYoshi he / him> i think i may go for orlock
-[01:26:53] [Server thread/INFO]: <King_Orion he / him> lmao
-[01:26:55] [Server thread/INFO]: <King_Orion he / him> freak
-[01:26:58] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[01:26:58] [Server thread/INFO]: <GunYoshi he / him> like the count, but chill
-[01:27:05] [Server thread/INFO]: <King_Orion he / him> poki
-[01:27:08] [Server thread/INFO]: <King_Orion he / him> i know
-[01:27:26] [Server thread/INFO]: <King_Orion he / him> where
-[01:27:32] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[01:27:33] [Server thread/INFO]: <King_Orion he / him> awe
-[01:27:48] [Server thread/INFO]: <King_Orion he / him> thats too precious
-[01:27:48] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[01:27:51] [Server thread/INFO]: <King_Orion he / him> i love
-[01:27:57] [Server thread/INFO]: <King_Orion he / him> ok go for it
-[01:28:36] [Server thread/INFO]: <King_Orion he / him> ?
-[01:28:43] [Server thread/INFO]: <King_Orion he / him> oh i know
-[01:28:45] [Server thread/INFO]: <King_Orion he / him> i have it
-[01:28:47] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
-[01:28:47] [Server thread/INFO]: razeyrainbows they / them left the game
-[01:28:47] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 9.302156327231728,0.0,-4.386192297199841
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 9.687673524695697,0.0,-4.4731356214140305
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 10.074509963173,0.0,-4.554594844425537
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 10.462553518448772,0.0,-4.630862198981731
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 10.851699810487048,0.0,-4.702227355752484
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 11.241852136817784,0.0,-4.768973892780423
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 11.632874544708216,0.0,-4.832072490925384
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 12.024575684325555,0.0,-4.893041348987026
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 12.416668113870855,0.0,-4.953820470239862
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 12.808850719576412,0.0,-5.015975187524873
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 13.200827956845956,0.0,-5.080745819916501
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 13.592320510186596,0.0,-5.14910416544285
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 13.983073534866776,0.0,-5.221793242700869
-[01:29:03] [Server thread/WARN]: Cherry Boat (vehicle of Lemon_Frog) moved too quickly! 14.373067609368718,0.0,-5.2986962881568616
-[01:29:11] [Server thread/INFO]: <King_Orion he / him> well
-[01:29:31] [Server thread/INFO]: <King_Orion he / him> good@
-[01:30:06] [Server thread/INFO]: <King_Orion he / him> insane
-[01:30:15] [Server thread/INFO]: <King_Orion he / him> yes you have
-[01:30:20] [Server thread/INFO]: <King_Orion he / him> the freakiest of all freaks
-[01:30:29] [Server thread/INFO]: <King_Orion he / him> bro
-[01:30:56] [Server thread/INFO]: <King_Orion he / him> i think it was a sexually abusive relationship but yea!
-[01:31:12] [Server thread/INFO]: <King_Orion he / him> that's cute
-[01:31:21] [Server thread/INFO]: <King_Orion he / him> yes
-[01:32:35] [Server thread/INFO]: <King_Orion he / him> A- too
-[01:36:00] [Server thread/INFO]: <King_Orion he / him> yes!
-[01:36:08] [Server thread/INFO]: <King_Orion he / him> sewer train sewer train sewer train
-[01:36:09] [Server thread/INFO]: <King_Orion he / him> gn!
-[01:36:16] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
-[01:36:21] [Server thread/INFO]: <GunYoshi he / him> ethan can i cut down the random megaspruce behind ur house
-[01:36:27] [Server thread/INFO]: <King_Orion he / him> yes of course
-[01:39:39] [Server thread/WARN]: Zumquirelle moved too quickly! 16.720681884822625,-2.4527126142904336,4.665073284431855
-[01:39:40] [User Authenticator #22/INFO]: UUID of player ASFJASJHALALF is 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[01:39:40] [Server thread/INFO]: ASFJASJHALALF[/192.168.86.69:64180] logged in with entity id 154083 at (575.7619162347311, 63.08576431274413, 512.4083518408755)
-[01:39:40] [Server thread/INFO]: ASFJASJHALALF he / him joined the game
-[01:39:40] [Server thread/INFO]: [voicechat] Received secret request of ASFJASJHALALF (18)
-[01:39:40] [Server thread/INFO]: [voicechat] Sent secret to ASFJASJHALALF
-[01:39:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[01:39:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8
-[01:39:42] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player ASFJASJHALALF (80d98bcf-8ba8-4a57-9f35-2bd618a9e3a8) successfully connected to voice chat
-[01:40:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player f566e0b4-e112-411a-bfcc-9b3a7425fd44 timed out
-[01:40:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player Lemon_Frog
-[01:40:22] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to Lemon_Frog
-[01:40:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
-[01:40:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
-[01:40:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
-[01:40:33] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[01:41:27] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [What a Deal!]
-[01:41:51] [Server thread/INFO]: <King_Orion he / him> i think we should make some embassies
-[01:42:29] [Server thread/INFO]: Lemon_Frog she / her has made the advancement [Tactical Fishing]
-[01:43:50] [User Authenticator #23/INFO]: UUID of player murder__goose is d18e994a-6034-49d7-a21a-d9ef5de4aff9
-[01:43:52] [Server thread/INFO]: murder__goose[/108.211.178.79:54118] logged in with entity id 158612 at (3.3041539227645065, 90.0, 172.22278268925277)
-[01:43:52] [Server thread/INFO]: murder__goose they / them joined the game
-[01:44:33] [c2me-worker-0/ERROR]: Failed to fetch mob spawner entity at (15232, -3, -3403)
-[01:45:03] [Server thread/INFO]: <King_Orion he / him> i wouldn't overthink it
-[01:46:24] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
-[01:46:24] [Server thread/INFO]: ASFJASJHALALF he / him left the game
-[01:46:24] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
-[01:46:54] [Server thread/INFO]: <Lemon_Frog she / her> sorry to keep asking for things but does anyone have sea pickled
-[01:46:59] [Server thread/INFO]: <Lemon_Frog she / her> pickles
-[01:47:03] [Server thread/INFO]: <Lemon_Frog she / her> PURR
-[01:49:03] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[01:49:53] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[01:50:10] [Server thread/INFO]: <King_Orion he / him> i just got oak leaves from a junkle tree??
-[01:50:24] [Server thread/INFO]: <Lemon_Frog she / her> junkle <3
-[01:50:30] [Server thread/INFO]: <murder__goose they / them> oak trees also spawn in jungle
-[01:51:10] [Server thread/INFO]: <King_Orion he / him> in my house?
-[01:51:21] [Server thread/INFO]: <King_Orion he / him> ok lol
-[01:51:24] [Server thread/INFO]: <King_Orion he / him> thank u ben
-[01:52:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
-[01:52:21] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
-[01:55:35] [Server thread/INFO]: <King_Orion he / him> ben what du you think
-[01:56:02] [Server thread/INFO]: <King_Orion he / him> it's gonna be a lil cave that opens up into a storage room
-[01:56:05] [Server thread/INFO]: murder__goose lost connection: Disconnected
-[01:56:05] [Server thread/INFO]: murder__goose they / them left the game
-[01:56:05] [Server thread/INFO]: [voicechat] Disconnecting client murder__goose
-[01:56:07] [Server thread/INFO]: <King_Orion he / him> thank!
-[01:56:18] [Server thread/INFO]: <King_Orion he / him> oo
-[01:56:25] [Server thread/INFO]: <King_Orion he / him> dam
-[01:56:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[01:57:18] [Server thread/INFO]: <King_Orion he / him> ben can you move the beautiful dog bowl
-[01:57:33] [Server thread/INFO]: <Lemon_Frog she / her> junkle town
-[01:57:36] [Server thread/INFO]: <King_Orion he / him> but the pot broke
-[01:57:50] [Server thread/INFO]: <King_Orion he / him> ah cool
-[01:57:51] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[01:58:03] [Server thread/INFO]: <King_Orion he / him> map where
-[01:58:29] [Server thread/INFO]: <King_Orion he / him> ooooo
-[01:58:33] [Server thread/INFO]: <King_Orion he / him> fire
-[01:58:40] [Server thread/INFO]: <King_Orion he / him> yes!
-[01:58:53] [Server thread/INFO]: <King_Orion he / him> love shack lol
-[01:59:09] [Server thread/INFO]: Lemon_Frog she / her has made the advancement [Is It a Bird?]
-[01:59:18] [Server thread/INFO]: <King_Orion he / him> lmao
-[01:59:33] [Server thread/INFO]: <Lemon_Frog she / her> may i nab some pickles
-[01:59:38] [Server thread/INFO]: <Lemon_Frog she / her> thank you
-[02:02:37] [Server thread/INFO]: <King_Orion he / him> lol
-[02:03:35] [Server thread/INFO]: <Lemon_Frog she / her> fountain done
-[02:03:38] [Server thread/INFO]: <King_Orion he / him> oooo
-[02:03:38] [Server thread/INFO]: <Lemon_Frog she / her> :)
-[02:06:33] [Server thread/INFO]: <King_Orion he / him> when god sings with all his creations, will cacti not be in the choir?
-[02:06:43] [Server thread/INFO]: <King_Orion he / him> hey thanks
-[02:08:02] [Server thread/INFO]: <Lemon_Frog she / her> fairyville #1 RAHHHHHHH
-[02:08:15] [Server thread/INFO]: <Lemon_Frog she / her> yes
-[02:08:54] [Server thread/INFO]: Zumquirelle has made the advancement [The Cutest Predator]
-[02:09:30] [Server thread/INFO]: <King_Orion he / him> creature commandos releases at 12 am pt
-[02:11:44] [Server thread/INFO]: Zumquirelle has made the advancement [Bewitched]
-[02:13:48] [Server thread/INFO]: <Lemon_Frog she / her> :O
-[02:13:58] [Server thread/INFO]: <Lemon_Frog she / her> jesus type shit
-[02:14:07] [Server thread/INFO]: <King_Orion he / him> he's christlike as hell
-[02:14:21] [Server thread/INFO]: <King_Orion he / him> what?
-[02:14:27] [Server thread/INFO]: <King_Orion he / him> yea
-[02:15:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=84, z=517} class_2338{x=-94, y=81, z=-207}
-[02:15:47] [Server thread/INFO]: <King_Orion he / him> wtf
-[02:15:54] [Server thread/INFO]: <King_Orion he / him> skinny legend
-[02:16:07] [Server thread/INFO]: <King_Orion he / him> woah
-[02:16:11] [Server thread/INFO]: <King_Orion he / him> you dog
-[02:16:20] [Server thread/INFO]: <King_Orion he / him> that's awesome
-[02:16:30] [Server thread/INFO]: Summoned new Cow
-[02:16:30] [Server thread/INFO]: Summoned new Cow
-[02:16:30] [Server thread/INFO]: Summoned new Cow
-[02:16:30] [Server thread/INFO]: Summoned new Cow
-[02:16:30] [Server thread/INFO]: Summoned new Cow
-[02:16:37] [Server thread/INFO]: <King_Orion he / him> yes
-[02:16:39] [Server thread/INFO]: <King_Orion he / him> thank
-[02:16:42] [Server thread/INFO]: <King_Orion he / him> by my bed
-[02:17:51] [Server thread/INFO]: <King_Orion he / him> i think my stuff is nice
-[02:17:54] [Server thread/INFO]: <King_Orion he / him> :(
-[02:19:16] [Server thread/INFO]: <King_Orion he / him> i heart texturing
-[02:19:52] [Server thread/INFO]: <Lemon_Frog she / her> byeeeee
-[02:19:53] [Server thread/INFO]: Lemon_Frog lost connection: Disconnected
-[02:19:53] [Server thread/INFO]: Lemon_Frog she / her left the game
-[02:19:53] [Server thread/INFO]: [voicechat] Disconnecting client Lemon_Frog
-[02:22:41] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
-[02:22:47] [c2me-worker-0/ERROR]: Failed to fetch mob spawner entity at (6505, -9, -1587)
-[02:25:10] [Server thread/INFO]: <King_Orion he / him> anyone have hanging roots?
-[02:27:31] [Server thread/INFO]: <King_Orion he / him> i'll brb
-[02:27:40] [Server thread/INFO]: King_Orion lost connection: Disconnected
-[02:27:40] [Server thread/INFO]: King_Orion he / him left the game
-[02:27:40] [Server thread/INFO]: [voicechat] Disconnecting client King_Orion
-[02:38:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=49, z=214}
-[02:38:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=48, z=214}
-[02:38:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=50, z=214}
-[02:38:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=48, z=214}
-[02:38:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=48, z=214}
-[02:38:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=49, z=214}
-[02:38:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=49, z=214}
-[02:38:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=50, z=214}
-[02:38:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=50, z=214}
-[02:38:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=48, z=214}
-[02:38:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=48, z=214}
-[02:38:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=49, z=214}
-[02:38:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=48, z=214}
-[02:38:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=49, z=214}
-[02:38:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=49, z=214}
-[02:38:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=50, z=214}
-[02:38:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=50, z=214}
-[02:38:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=50, z=214}
-[02:40:04] [Server thread/INFO]: 17sk lost connection: Disconnected
-[02:40:04] [Server thread/INFO]: 17sk they / them left the game
-[02:40:04] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
-[02:41:20] [User Authenticator #24/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[02:41:21] [Server thread/INFO]: 17sk[/24.253.191.140:63503] logged in with entity id 214905 at (-9516.520299959802, 96.35172922248665, 1307.4420219869517)
-[02:41:21] [Server thread/INFO]: 17sk they / them joined the game
-[02:41:22] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[02:41:22] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[02:41:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[02:41:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[02:41:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[02:46:10] [Server thread/INFO]: 17sk they / them has made the advancement [Safe Haven]
-[02:46:40] [Server thread/INFO]: 17sk they / them has made the advancement [Call for Adventure]
-[02:46:48] [Server thread/INFO]: <GunYoshi he / him> go to sleep declan
-[02:46:56] [Server thread/INFO]: <17sk they / them> i can't
-[02:46:59] [Server thread/INFO]: <GunYoshi he / him> :(
-[02:47:06] [Server thread/INFO]: <17sk they / them> i know
-[02:47:10] [Server thread/INFO]: <17sk they / them> trust me i feel the same way
-[02:47:21] [Server thread/INFO]: <GunYoshi he / him> damn.
-[02:57:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=47, y=13, z=-418} class_2338{x=48, y=16, z=-418}
-[02:57:08] [Server thread/INFO]: There are 3 of a max of 69 players online: GunYoshi he / him, Zumquirelle, 17sk they / them
-[02:57:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=42, y=16, z=-418} class_2338{x=47, y=15, z=-415}
-[02:57:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=42, y=16, z=-418} class_2338{x=47, y=15, z=-415}
-[02:57:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=42, y=16, z=-418} class_2338{x=47, y=15, z=-415}
-[02:57:13] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=42, y=16, z=-418} class_2338{x=47, y=15, z=-415}
-[02:57:20] [Server thread/INFO]: Teleported Zumquirelle to 0.500000, 999.000000, 0.500000
-[03:00:10] [Server thread/INFO]: [Chunky] Task continuing for minecraft:the_end.
-[03:00:10] [Server thread/INFO]: [Chunky] Task continuing for minecraft:the_nether.
-[03:00:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 4310 chunks (6.84%), ETA: 0:15:34, Rate: 62.8 cps, Current: -26, -24
-[03:00:10] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9101 chunks (14.45%), ETA: 0:14:25, Rate: 62.3 cps, Current: 53, 39
-[03:00:11] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9217 chunks (14.63%), ETA: 0:09:48, Rate: 91.4 cps, Current: 64, 32
-[03:00:12] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 4385 chunks (6.96%), ETA: 0:14:47, Rate: 66.1 cps, Current: -25, -12
-[03:00:13] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9253 chunks (14.69%), ETA: 0:12:38, Rate: 70.9 cps, Current: 76, 32
-[03:00:13] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 4393 chunks (6.97%), ETA: 0:22:16, Rate: 43.8 cps, Current: -27, -12
-[03:00:14] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9307 chunks (14.77%), ETA: 0:13:31, Rate: 66.2 cps, Current: 68, 38
-[03:00:15] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9366 chunks (14.87%), ETA: 0:13:53, Rate: 64.4 cps, Current: 76, 42
-[03:00:15] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 4412 chunks (7.00%), ETA: 0:32:46, Rate: 29.8 cps, Current: -30, -12
-[03:00:16] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9431 chunks (14.97%), ETA: 0:14:15, Rate: 62.6 cps, Current: 78, 41
-[03:00:16] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 5207 chunks (8.26%), ETA: 0:06:17, Rate: 153.2 cps, Current: -21, 6
-[03:00:17] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9497 chunks (15.07%), ETA: 0:14:09, Rate: 63.0 cps, Current: 70, 47
-[03:00:17] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 5274 chunks (8.37%), ETA: 0:06:59, Rate: 137.4 cps, Current: -21, 12
-[03:00:18] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 5494 chunks (8.72%), ETA: 0:06:30, Rate: 147.2 cps, Current: -21, 29
-[03:00:18] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9509 chunks (15.09%), ETA: 0:16:29, Rate: 54.0 cps, Current: 67, 54
-[03:00:19] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9539 chunks (15.14%), ETA: 0:17:19, Rate: 51.4 cps, Current: 69, 60
-[03:00:19] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6215 chunks (9.86%), ETA: 0:04:36, Rate: 205.2 cps, Current: -22, 37
-[03:00:20] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9605 chunks (15.25%), ETA: 0:16:51, Rate: 52.8 cps, Current: 74, 61
-[03:00:20] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6226 chunks (9.88%), ETA: 0:05:09, Rate: 183.6 cps, Current: -18, 37
-[03:00:21] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9699 chunks (15.39%), ETA: 0:15:47, Rate: 56.2 cps, Current: 80, 48
-[03:00:21] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6240 chunks (9.90%), ETA: 0:05:36, Rate: 168.7 cps, Current: -22, 39
-[03:00:22] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6264 chunks (9.94%), ETA: 0:06:01, Rate: 156.9 cps, Current: -19, 43
-[03:00:22] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9770 chunks (15.51%), ETA: 0:15:45, Rate: 56.3 cps, Current: 79, 60
-[03:00:23] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6442 chunks (10.23%), ETA: 0:05:57, Rate: 158.4 cps, Current: -29, 63
-[03:00:23] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9828 chunks (15.60%), ETA: 0:15:44, Rate: 56.3 cps, Current: 87, 58
-[03:00:25] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9877 chunks (15.68%), ETA: 0:15:57, Rate: 55.5 cps, Current: 95, 56
-[03:00:25] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6482 chunks (10.29%), ETA: 0:06:34, Rate: 143.3 cps, Current: -32, -12
-[03:00:26] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 9954 chunks (15.80%), ETA: 0:15:34, Rate: 56.8 cps, Current: 95, 49
-[03:00:27] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10049 chunks (15.95%), ETA: 0:14:57, Rate: 59.0 cps, Current: 80, 42
-[03:00:27] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6483 chunks (10.29%), ETA: 0:07:14, Rate: 130.1 cps, Current: -32, -11
-[03:00:28] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10369 chunks (16.46%), ETA: 0:11:55, Rate: 73.5 cps, Current: 76, 14
-[03:00:28] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6486 chunks (10.30%), ETA: 0:07:54, Rate: 119.0 cps, Current: -22, 47
-[03:00:29] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10607 chunks (16.84%), ETA: 0:10:37, Rate: 82.2 cps, Current: 72, 28
-[03:00:30] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6518 chunks (10.35%), ETA: 0:08:18, Rate: 113.3 cps, Current: -32, 18
-[03:00:30] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 10763 chunks (17.08%), ETA: 0:10:10, Rate: 85.5 cps, Current: 86, 22
-[03:00:31] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11029 chunks (17.51%), ETA: 0:09:12, Rate: 94.1 cps, Current: 89, 9
-[03:00:32] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11156 chunks (17.71%), ETA: 0:09:04, Rate: 95.3 cps, Current: 86, 1
-[03:00:33] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11557 chunks (18.34%), ETA: 0:07:54, Rate: 108.5 cps, Current: 64, -3
-[03:00:34] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11868 chunks (18.84%), ETA: 0:07:17, Rate: 116.9 cps, Current: 87, -6
-[03:00:35] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 11951 chunks (18.97%), ETA: 0:07:21, Rate: 115.5 cps, Current: 89, -11
-[03:00:35] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6539 chunks (10.38%), ETA: 0:10:35, Rate: 88.9 cps, Current: -20, 60
-[03:00:36] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 13303 chunks (21.12%), ETA: 0:05:05, Rate: 162.5 cps, Current: 35, -57
-[03:00:36] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6613 chunks (10.50%), ETA: 0:10:38, Rate: 88.3 cps, Current: -17, 39
-[03:00:37] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 16351 chunks (25.95%), ETA: 0:02:56, Rate: 265.0 cps, Current: -61, -62
-[03:00:37] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6638 chunks (10.54%), ETA: 0:10:55, Rate: 86.0 cps, Current: -14, 49
-[03:00:38] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 16479 chunks (26.16%), ETA: 0:02:58, Rate: 260.2 cps, Current: -53, -56
-[03:00:38] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6736 chunks (10.69%), ETA: 0:10:51, Rate: 86.4 cps, Current: -11, 59
-[03:00:39] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 16540 chunks (26.25%), ETA: 0:03:03, Rate: 253.4 cps, Current: -58, -52
-[03:00:39] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6800 chunks (10.79%), ETA: 0:10:56, Rate: 85.6 cps, Current: -5, 59
-[03:00:40] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 16577 chunks (26.31%), ETA: 0:03:03, Rate: 252.4 cps, Current: 70, 63
-[03:00:40] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 6910 chunks (10.97%), ETA: 0:10:43, Rate: 87.1 cps, Current: -7, 43
-[03:00:41] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 16796 chunks (26.66%), ETA: 0:02:59, Rate: 257.0 cps, Current: -52, -42
-[03:00:41] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 7016 chunks (11.14%), ETA: 0:10:30, Rate: 88.8 cps, Current: -16, 39
-[03:00:42] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 18726 chunks (29.72%), ETA: 0:02:17, Rate: 321.0 cps, Current: -61, 27
-[03:00:43] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 7142 chunks (11.34%), ETA: 0:10:05, Rate: 92.3 cps, Current: -1, 37
-[03:00:43] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19418 chunks (30.82%), ETA: 0:02:07, Rate: 341.8 cps, Current: -64, -38
-[03:00:45] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19453 chunks (30.88%), ETA: 0:02:08, Rate: 340.0 cps, Current: -60, 36
-[03:00:46] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19541 chunks (31.02%), ETA: 0:02:07, Rate: 339.7 cps, Current: -53, 38
-[03:00:47] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19605 chunks (31.12%), ETA: 0:02:07, Rate: 340.1 cps, Current: -54, 45
-[03:00:48] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19679 chunks (31.24%), ETA: 0:02:05, Rate: 344.8 cps, Current: -63, 50
-[03:00:49] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19732 chunks (31.32%), ETA: 0:02:05, Rate: 345.7 cps, Current: -60, 54
-[03:00:49] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 7164 chunks (11.37%), ETA: 0:28:33, Rate: 32.6 cps, Current: -16, 63
-[03:00:50] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 7326 chunks (11.63%), ETA: 0:25:07, Rate: 36.9 cps, Current: 7, 45
-[03:00:51] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 7572 chunks (12.02%), ETA: 0:20:39, Rate: 44.7 cps, Current: 12, 57
-[03:00:52] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 7777 chunks (12.34%), ETA: 0:18:05, Rate: 50.9 cps, Current: 22, 61
-[03:00:53] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19748 chunks (31.35%), ETA: 0:02:07, Rate: 339.7 cps, Current: -64, 26
-[03:00:53] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 7899 chunks (12.54%), ETA: 0:18:44, Rate: 49.0 cps, Current: 25, 48
-[03:00:54] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 8237 chunks (13.07%), ETA: 0:15:06, Rate: 60.4 cps, Current: 42, 32
-[03:00:55] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 8451 chunks (13.41%), ETA: 0:13:10, Rate: 69.0 cps, Current: 37, 50
-[03:00:56] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 8608 chunks (13.66%), ETA: 0:12:35, Rate: 72.0 cps, Current: 46, 56
-[03:00:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19753 chunks (31.35%), ETA: 0:02:15, Rate: 319.6 cps, Current: -63, 59
-[03:00:57] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 9820 chunks (15.59%), ETA: 0:07:40, Rate: 115.4 cps, Current: 84, 60
-[03:00:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19765 chunks (31.37%), ETA: 0:02:19, Rate: 309.9 cps, Current: -61, 59
-[03:00:58] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 9940 chunks (15.78%), ETA: 0:07:39, Rate: 115.5 cps, Current: 93, 52
-[03:00:59] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19795 chunks (31.42%), ETA: 0:02:21, Rate: 305.7 cps, Current: -57, 56
-[03:00:59] [c2me-worker-0/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 13058 chunks (20.73%), ETA: 0:03:46, Rate: 220.4 cps, Current: 94, -55
-[03:01:00] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19830 chunks (31.48%), ETA: 0:02:24, Rate: 298.1 cps, Current: -52, 60
-[03:01:01] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19868 chunks (31.54%), ETA: 0:02:26, Rate: 295.0 cps, Current: -50, 52
-[03:01:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_nether. Processed: 19968 chunks (31.69%), ETA: 0:02:27, Rate: 291.3 cps, Current: -44, 53
-[03:01:02] [Server thread/INFO]: [Chunky] Task running for minecraft:the_end. Processed: 16363 chunks (25.97%), ETA: 0:02:08, Rate: 363.6 cps, Current: -61, -64
-[03:01:03] [Server thread/INFO]: [Chunky] Task paused for minecraft:the_nether.
-[03:01:03] [Server thread/INFO]: [Chunky] Task paused for minecraft:the_end.
-[03:01:03] [Chunky-minecraft:the_nether Thread/INFO]: [Chunky] Task stopped for minecraft:the_nether.
-[03:01:03] [Chunky-minecraft:the_end Thread/INFO]: [Chunky] Task stopped for minecraft:the_end.
-[03:03:54] [Server thread/INFO]: Stopping the server
-[03:03:54] [Server thread/INFO]: Stopping server
-[03:03:54] [Server thread/INFO]: Saving players
-[03:03:54] [Server thread/INFO]: GunYoshi lost connection: Server closed
-[03:03:54] [Server thread/INFO]: GunYoshi he / him left the game
-[03:03:54] [Server thread/INFO]: 17sk lost connection: Server closed
-[03:03:54] [Server thread/INFO]: 17sk they / them left the game
-[03:03:54] [Server thread/INFO]: Saving worlds
-[03:03:54] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 5259 chunks to unload
-[03:03:54] [Server thread/INFO]: ServerLevel[world]/minecraft:the_nether: waiting for 2209 chunks to unload
-[03:03:55] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[03:03:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[03:03:57] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[03:03:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[03:03:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[03:03:57] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[03:03:57] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[03:03:58] [C2ME Storage #3/INFO]: Storage thread Thread[#69,C2ME Storage #3,8,main] stopped
-[03:03:58] [C2ME Storage #2/INFO]: Storage thread Thread[#67,C2ME Storage #2,8,main] stopped
-[03:03:59] [C2ME Storage #1/INFO]: Storage thread Thread[#66,C2ME Storage #1,8,main] stopped
-[03:03:59] [C2ME Storage #6/INFO]: Storage thread Thread[#74,C2ME Storage #6,8,main] stopped
-[03:03:59] [C2ME Storage #5/INFO]: Storage thread Thread[#73,C2ME Storage #5,8,main] stopped
-[03:03:59] [C2ME Storage #4/INFO]: Storage thread Thread[#72,C2ME Storage #4,8,main] stopped
-[03:03:59] [C2ME Storage #9/INFO]: Storage thread Thread[#78,C2ME Storage #9,8,main] stopped
-[03:03:59] [C2ME Storage #8/INFO]: Storage thread Thread[#77,C2ME Storage #8,8,main] stopped
-[03:03:59] [C2ME Storage #7/INFO]: Storage thread Thread[#76,C2ME Storage #7,8,main] stopped
+[03:05:40] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[03:05:40] [main/INFO]: Loading 78 mods:
+	- c2me 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-base 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-client-uncapvd 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-general-threading-issues 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-notickvd 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-allocs 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-chunkio 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-dfc 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-math 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-natives-math 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-scheduling 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-worldgen-general 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-worldgen-vanilla 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-rewrites-chunk-serializer 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-rewrites-chunk-system 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-rewrites-chunkio 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-server-utils 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-threading-lighting 0.3.1+rc.1.0+1.21.4
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- chunky 1.4.27
+	- fabric-api 0.113.0+1.21.4
+	   |-- fabric-api-base 0.4.54+b47eab6b04
+	   |-- fabric-api-lookup-api-v1 1.6.86+b1caf1e904
+	   |-- fabric-biome-api-v1 15.0.5+b1caf1e904
+	   |-- fabric-block-api-v1 1.0.31+7feeb73304
+	   |-- fabric-block-view-api-v2 1.0.19+7feeb73304
+	   |-- fabric-blockrenderlayer-v1 2.0.8+7feeb73304
+	   |-- fabric-client-tags-api-v1 1.1.29+20ea1e2304
+	   |-- fabric-command-api-v1 1.2.62+f71b366f04
+	   |-- fabric-command-api-v2 2.2.41+e496eb1504
+	   |-- fabric-commands-v0 0.2.79+df3654b304
+	   |-- fabric-content-registries-v0 9.1.14+7feeb73304
+	   |-- fabric-convention-tags-v1 2.1.10+7f945d5b04
+	   |-- fabric-convention-tags-v2 2.10.0+cbf6036a04
+	   |-- fabric-crash-report-info-v1 0.3.6+7feeb73304
+	   |-- fabric-data-attachment-api-v1 1.4.6+9aea556b04
+	   |-- fabric-data-generation-api-v1 22.2.3+20ea1e2304
+	   |-- fabric-dimensions-v1 4.0.10+7feeb73304
+	   |-- fabric-entity-events-v1 2.0.12+60fccc7604
+	   |-- fabric-events-interaction-v0 4.0.2+a4eebcf004
+	   |-- fabric-game-rule-api-v1 1.0.62+7feeb73304
+	   |-- fabric-item-api-v1 11.1.14+203e6b2304
+	   |-- fabric-item-group-api-v1 4.1.23+7feeb73304
+	   |-- fabric-key-binding-api-v1 1.0.56+7feeb73304
+	   |-- fabric-keybindings-v0 0.2.54+df3654b304
+	   |-- fabric-lifecycle-events-v1 2.5.4+bf2a60eb04
+	   |-- fabric-loot-api-v2 3.0.33+3f89f5a504
+	   |-- fabric-loot-api-v3 1.0.21+203e6b2304
+	   |-- fabric-message-api-v1 6.0.25+7feeb73304
+	   |-- fabric-model-loading-api-v1 4.2.0+8ca2ae8d04
+	   |-- fabric-networking-api-v1 4.3.9+cc0fa2fe04
+	   |-- fabric-object-builder-api-v1 18.0.8+d70d2c0604
+	   |-- fabric-particles-v1 4.0.14+7feeb73304
+	   |-- fabric-recipe-api-v1 8.0.5+b1caf1e904
+	   |-- fabric-registry-sync-v0 6.1.2+3d1fb53904
+	   |-- fabric-renderer-api-v1 5.0.2+84404cdd04
+	   |-- fabric-renderer-indigo 2.0.2+84404cdd04
+	   |-- fabric-rendering-data-attachment-v1 0.3.57+73761d2e04
+	   |-- fabric-rendering-fluids-v1 3.1.19+7feeb73304
+	   |-- fabric-rendering-v1 10.1.2+b874120c04
+	   |-- fabric-resource-conditions-api-v1 5.0.13+203e6b2304
+	   |-- fabric-resource-loader-v0 3.0.11+b1caf1e904
+	   |-- fabric-screen-api-v1 2.0.38+7feeb73304
+	   |-- fabric-screen-handler-api-v1 1.3.109+7feeb73304
+	   |-- fabric-sound-api-v1 1.0.32+7feeb73304
+	   |-- fabric-tag-api-v1 1.0.2+20ea1e2304
+	   |-- fabric-transfer-api-v1 5.4.9+efa825c904
+	   \-- fabric-transitive-access-wideners-v1 6.3.2+56e78b9b04
+	- fabricloader 0.16.9
+	   \-- mixinextras 0.4.1
+	- ferritecore 7.1.1
+	- java 22
+	- lithium 0.14.3+mc1.21.4
+	- minecraft 1.21.4
+	- mr_cherry_villages 1.1.0
+	- mr_dungeons_andtaverns 1-v4.6
+	- mr_tidal_towns 1.3.4
+	- noisium 2.5.0+mc1.21.4
+	- voicechat 1.21.4-2.5.26
+	   \-- fabric-key-binding-api-v1 1.0.55+7feeb73382
+[03:05:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:05:41] [main/INFO]: Compatibility level set to JAVA_16
+[03:05:41] [main/INFO]: Compatibility level set to JAVA_17
+[03:05:41] [main/INFO]: Compatibility level set to JAVA_21
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[03:05:41] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[03:05:41] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[03:05:41] [main/INFO]: Detected maximum supported ISA target: AVX2
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[03:05:41] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[03:05:42] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[03:05:42] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[03:05:42] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[03:05:42] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[03:05:42] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[03:05:42] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[03:05:42] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[03:05:42] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[03:05:42] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[03:05:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[03:05:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[03:05:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[03:05:43] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
+[03:05:43] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[03:05:44] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[03:05:45] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[03:05:51] [main/INFO]: Loading Noisium.
+[03:05:51] [main/INFO]: [voicechat] Compatibility version 18
+[03:05:51] [main/INFO]: [voicechat] Loading plugins
+[03:05:51] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[03:05:51] [main/INFO]: [voicechat] Initializing plugins
+[03:05:51] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[03:05:52] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:05:53] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[03:05:53] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[03:05:53] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[03:05:54] [main/INFO]: Loaded 1370 recipes
+[03:05:54] [main/INFO]: Loaded 1554 advancements
+[03:05:54] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.393 ms
+[03:05:54] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[03:05:54] [Server thread/INFO]: Loading properties
+[03:05:54] [Server thread/INFO]: Default game type: SURVIVAL
+[03:05:54] [Server thread/INFO]: Generating keypair
+[03:05:55] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[03:05:55] [Server thread/INFO]: Using default channel type
+[03:05:55] [Server thread/INFO]: Preparing level "world"
+[03:05:55] [Server thread/INFO]: Enforcing safe world random access
+[03:05:55] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 345.0 ms
+[03:05:56] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[03:05:56] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 9.235 ms
+[03:05:56] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.364 ms
+[03:05:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:05:57] [User Authenticator #1/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:05:59] [Server thread/INFO]: Time elapsed: 3355 ms
+[03:05:59] [Server thread/INFO]: Done (4.300s)! For help, type "help"
+[03:05:59] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[03:05:59] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[03:05:59] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[03:06:00] [Server thread/INFO]: 17sk[/24.253.191.140:63642] logged in with entity id 1 at (-11183.034999125057, 64.68668707874468, 590.0216508037373)
+[03:06:00] [Server thread/INFO]: 17sk they / them joined the game
+[03:06:01] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[03:06:01] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[03:06:01] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[03:06:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[03:06:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[03:06:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[03:06:43] [User Authenticator #2/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[03:06:44] [Server thread/INFO]: GunYoshi[/98.214.164.251:58957] logged in with entity id 459 at (208.55223850637938, 15.0, -332.71071988248497)
+[03:06:44] [Server thread/INFO]: GunYoshi he / him joined the game
+[03:06:58] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[03:07:13] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
+[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
+[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
+[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
+[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
+[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
+[03:09:54] [Server thread/WARN]: 17sk moved too quickly! 2.315933971261984,-1.2426882039369644,-17.210657470032118
+[03:09:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2906ms or 58 ticks behind
+[03:10:00] [Server thread/WARN]: 17sk moved too quickly! 0.23391200776859478,-3.234690040670131,-17.275151730337598
+[03:10:06] [Server thread/WARN]: 17sk moved too quickly! 0.3917913379318634,-3.0861550012576373,-17.70905466334662
+[03:10:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2072ms or 41 ticks behind
+[03:11:26] [Server thread/INFO]: 17sk lost connection: Disconnected
+[03:11:26] [Server thread/INFO]: 17sk they / them left the game
+[03:11:26] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[03:13:00] [User Authenticator #3/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[03:13:02] [Server thread/INFO]: 17sk[/24.253.191.140:63987] logged in with entity id 10526 at (-12869.932250969869, 62.0, 397.0764625417711)
+[03:13:02] [Server thread/INFO]: 17sk they / them joined the game
+[03:13:03] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[03:13:03] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[03:13:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[03:13:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[03:13:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[03:15:08] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[03:15:19] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[03:15:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[03:16:02] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[03:28:58] [Server thread/INFO]: GunYoshi he / him has completed the challenge [Cover Me in Debris]
+[03:29:04] [Server thread/INFO]: <GunYoshi he / him> did you ever doubt?
+[03:29:08] [Server thread/INFO]: <17sk they / them> never dubted
+[03:29:17] [Server thread/INFO]: <17sk they / them> shiouldn't you also be iasleep
+[03:29:24] [Server thread/INFO]: <GunYoshi he / him> in fifteen minutes
+[03:29:28] [Server thread/INFO]: <GunYoshi he / him> im in cst lol
+[03:29:32] [Server thread/INFO]: <17sk they / them> ohh
+[03:30:48] [Server thread/INFO]: <17sk they / them> wait no way
+[03:30:54] [Server thread/INFO]: <GunYoshi he / him> whats up?
+[03:30:57] [Server thread/INFO]: <17sk they / them> i just found a creeper mob spawner
+[03:31:01] [Server thread/INFO]: <GunYoshi he / him> woah. woah
+[03:31:02] [Server thread/INFO]: <17sk they / them> CREEPER FARM HERE I COME
+[03:31:07] [Server thread/INFO]: <GunYoshi he / him> LOLLLLL
+[03:31:22] [Server thread/INFO]: <17sk they / them> easy peasy thats a later project (tmrw but also today yknow)
+[03:31:29] [Server thread/INFO]: <GunYoshi he / him> lolllll
+[03:31:29] [Server thread/INFO]: <17sk they / them> but thats incentive to log off
+[03:31:34] [Server thread/INFO]: <GunYoshi he / him> yes~
+[03:31:36] [Server thread/INFO]: <GunYoshi he / him> no\
+[03:31:37] [Server thread/INFO]: <GunYoshi he / him> yes!
+[03:31:42] [Server thread/INFO]: GunYoshi he / him has made the advancement [Crafting a New Look]
+[03:31:48] [Server thread/INFO]: <17sk they / them> only problem is that its at -13k
+[03:32:05] [Server thread/INFO]: 17sk lost connection: Disconnected
+[03:32:05] [Server thread/INFO]: 17sk they / them left the game
+[03:32:05] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[03:33:05] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[03:33:05] [Server thread/INFO]: GunYoshi he / him left the game
+[03:33:05] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[03:34:05] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[03:44:04] [User Authenticator #4/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[03:44:05] [Server thread/INFO]: 17sk[/24.253.191.140:64196] logged in with entity id 22508 at (-13447.414277277807, 24.0, 403.12767849638806)
+[03:44:05] [Server thread/INFO]: 17sk they / them joined the game
+[03:44:05] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[03:44:05] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[03:44:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[03:44:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[03:44:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[04:02:34] [Server thread/INFO]: 17sk lost connection: Disconnected
+[04:02:34] [Server thread/INFO]: 17sk they / them left the game
+[04:02:34] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[04:03:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[04:03:36] [User Authenticator #5/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[04:03:38] [Server thread/INFO]: 17sk[/24.253.191.140:64344] logged in with entity id 26853 at (-13428.959174284979, 18.54451055743173, 367.00162500291145)
+[04:03:38] [Server thread/INFO]: 17sk they / them joined the game
+[04:03:39] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[04:03:39] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[04:03:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[04:03:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[04:03:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[05:06:00] [Server thread/INFO]: Summoned new Cow
+[05:51:00] [Server thread/INFO]: You whisper to 17sk they / them: HOLY SHIT BEHIND YOU!
+[06:07:23] [Server thread/INFO]: 17sk they / them starved to death
+[07:06:00] [Server thread/INFO]: Summoned new Cow
+[07:57:41] [User Authenticator #6/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[07:57:43] [Server thread/INFO]: razeyrainbows[/146.115.92.123:52798] logged in with entity id 33142 at (125.17702219088844, 117.0625, 605.7068300866251)
+[07:57:43] [Server thread/INFO]: razeyrainbows they / them joined the game
+[07:57:44] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
+[07:57:44] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
+[07:57:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
+[07:57:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
+[07:57:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
+[08:00:13] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
+[08:00:13] [Server thread/INFO]: razeyrainbows they / them left the game
+[08:00:13] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
+[08:36:00] [Server thread/INFO]: You whisper to 17sk they / them: HOLY SHIT BEHIND YOU!
+[08:41:16] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[08:41:32] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[08:42:06] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[08:42:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[08:43:36] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[08:54:24] [Server thread/INFO]: <17sk they / them> -1685
+[08:54:36] [Server thread/INFO]: <17sk they / them> 45
+[08:54:42] [Server thread/INFO]: <17sk they / them> -1685 45
+[08:57:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2771ms or 55 ticks behind
+[09:00:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2656ms or 53 ticks behind
+[09:01:00] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 5 mins
+[09:05:00] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 1 minute
+[09:05:50] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 10 seconds
+[09:06:00] [Server thread/INFO]: Summoned new Cow
+[09:06:00] [Server thread/INFO]: Stopping the server
+[09:06:00] [Server thread/INFO]: Stopping server
+[09:06:00] [Server thread/INFO]: Saving players
+[09:06:00] [Server thread/INFO]: 17sk lost connection: Disconnected
+[09:06:00] [Server thread/INFO]: 17sk they / them left the game
+[09:06:00] [Server thread/INFO]: Saving worlds
+[09:06:00] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 8410 chunks to unload
+[09:06:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[09:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[09:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[09:06:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[09:06:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:06:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:06:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:06:02] [C2ME Storage #3/INFO]: Storage thread Thread[#69,C2ME Storage #3,8,main] stopped
+[09:06:02] [C2ME Storage #2/INFO]: Storage thread Thread[#66,C2ME Storage #2,8,main] stopped
+[09:06:02] [C2ME Storage #1/INFO]: Storage thread Thread[#65,C2ME Storage #1,8,main] stopped
+[09:06:02] [C2ME Storage #5/INFO]: Storage thread Thread[#73,C2ME Storage #5,8,main] stopped
+[09:06:02] [C2ME Storage #6/INFO]: Storage thread Thread[#74,C2ME Storage #6,8,main] stopped
+[09:06:02] [C2ME Storage #4/INFO]: Storage thread Thread[#72,C2ME Storage #4,8,main] stopped
+[09:06:02] [C2ME Storage #9/INFO]: Storage thread Thread[#78,C2ME Storage #9,8,main] stopped
+[09:06:02] [C2ME Storage #8/INFO]: Storage thread Thread[#77,C2ME Storage #8,8,main] stopped
+[09:06:02] [C2ME Storage #7/INFO]: Storage thread Thread[#76,C2ME Storage #7,8,main] stopped
