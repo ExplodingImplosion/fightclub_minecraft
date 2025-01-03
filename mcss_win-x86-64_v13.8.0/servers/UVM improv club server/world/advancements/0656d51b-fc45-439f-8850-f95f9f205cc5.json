@@ -96,6 +96,7 @@
       "minecraft:mushroom_fields": "2024-12-21 04:34:42 -0500",
       "minecraft:taiga": "2024-12-20 02:08:52 -0500",
       "minecraft:deep_ocean": "2024-12-19 19:19:01 -0500",
+      "minecraft:eroded_badlands": "2025-01-03 00:50:35 -0500",
       "minecraft:frozen_river": "2025-01-02 00:27:28 -0500",
       "minecraft:cherry_grove": "2024-12-19 19:39:26 -0500",
       "minecraft:sunflower_plains": "2024-12-19 19:24:12 -0500",
@@ -114,6 +115,7 @@
       "minecraft:stony_shore": "2024-12-21 02:21:54 -0500",
       "minecraft:snowy_plains": "2025-01-02 00:27:16 -0500",
       "minecraft:dripstone_caves": "2024-12-19 19:48:36 -0500",
+      "minecraft:snowy_taiga": "2025-01-03 00:39:49 -0500",
       "minecraft:grove": "2024-12-19 19:49:52 -0500",
       "minecraft:swamp": "2024-12-20 02:08:56 -0500",
       "minecraft:jagged_peaks": "2024-12-23 23:18:16 -0500",
@@ -8325,6 +8327,7 @@
       "porkchop": "2024-12-20 23:06:08 -0500",
       "golden_carrot": "2024-12-20 14:51:29 -0500",
       "apple": "2024-12-21 00:59:25 -0500",
+      "cooked_chicken": "2025-01-02 18:49:13 -0500",
       "potato": "2024-12-20 01:30:59 -0500",
       "cooked_cod": "2024-12-20 02:10:40 -0500",
       "cod": "2024-12-23 22:44:03 -0500",
@@ -8375,26 +8378,29 @@
       "minecraft:pillager": "2024-12-20 04:26:10 -0500",
       "minecraft:blaze": "2024-12-21 04:48:00 -0500",
       "minecraft:skeleton": "2024-12-19 19:36:07 -0500",
+      "minecraft:ghast": "2024-12-20 01:21:17 -0500",
+      "minecraft:hoglin": "2024-12-20 03:15:17 -0500",
+      "minecraft:guardian": "2024-12-23 11:34:29 -0500",
+      "minecraft:vindicator": "2025-01-02 01:34:28 -0500",
+      "minecraft:magma_cube": "2024-12-20 02:57:40 -0500",
+      "minecraft:spider": "2024-12-20 01:12:10 -0500",
+      "minecraft:piglin_brute": "2025-01-02 17:36:26 -0500",
+      "minecraft:creeper": "2024-12-19 21:20:27 -0500",
+      "minecraft:wither": "2024-12-21 17:05:12 -0500",
+      "minecraft:slime": "2025-01-02 02:14:59 -0500",
       "minecraft:phantom": "2025-01-02 00:20:41 -0500",
       "minecraft:zombified_piglin": "2024-12-21 06:12:40 -0500",
       "minecraft:witch": "2024-12-20 02:10:27 -0500",
       "minecraft:wither_skeleton": "2024-12-19 20:42:58 -0500",
       "minecraft:husk": "2025-01-02 02:01:53 -0500",
-      "minecraft:ghast": "2024-12-20 01:21:17 -0500",
-      "minecraft:hoglin": "2024-12-20 03:15:17 -0500",
       "minecraft:shulker": "2024-12-19 22:42:06 -0500",
       "minecraft:cave_spider": "2024-12-19 19:36:52 -0500",
-      "minecraft:guardian": "2024-12-23 11:34:29 -0500",
-      "minecraft:vindicator": "2025-01-02 01:34:28 -0500",
+      "minecraft:piglin": "2025-01-02 18:04:29 -0500",
       "minecraft:enderman": "2024-12-19 20:44:16 -0500",
       "minecraft:silverfish": "2024-12-19 21:27:52 -0500",
-      "minecraft:magma_cube": "2024-12-20 02:57:40 -0500",
-      "minecraft:spider": "2024-12-20 01:12:10 -0500",
+      "minecraft:stray": "2025-01-03 00:22:51 -0500",
       "minecraft:zombie": "2024-12-19 19:38:19 -0500",
-      "minecraft:creeper": "2024-12-19 21:20:27 -0500",
-      "minecraft:drowned": "2025-01-02 00:30:24 -0500",
-      "minecraft:wither": "2024-12-21 17:05:12 -0500",
-      "minecraft:slime": "2025-01-02 02:14:59 -0500"
+      "minecraft:drowned": "2025-01-02 00:30:24 -0500"
     },
     "done": false
   },
@@ -8642,6 +8648,18 @@
     },
     "done": true
   },
+  "nova_structures:root": {
+    "criteria": {
+      "nova_structures:adventure/find_tavern": "2025-01-02 00:30:20 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_tavern": {
+    "criteria": {
+      "nova_structures:tavern_snowy": "2025-01-02 00:30:20 -0500"
+    },
+    "done": true
+  },
   "nova_structures:adventure/find_shrine": {
     "criteria": {
       "shrine_combat": "2025-01-02 00:48:23 -0500"
@@ -8663,9 +8681,9 @@
     },
     "done": false
   },
-  "minecraft:adventure/under_lock_and_key": {
+  "nova_structures:adventure/find_pillager_outpost": {
     "criteria": {
-      "under_lock_and_key": "2025-01-02 01:24:29 -0500"
+      "minecraft:pillager_outpost": "2025-01-02 01:07:07 -0500"
     },
     "done": true
   },
@@ -8675,21 +8693,9 @@
     },
     "done": true
   },
-  "nova_structures:adventure/find_swamp_village": {
+  "minecraft:adventure/under_lock_and_key": {
     "criteria": {
-      "minecraft:village_swamp": "2025-01-02 02:11:44 -0500"
-    },
-    "done": true
-  },
-  "nova_structures:root": {
-    "criteria": {
-      "nova_structures:adventure/find_tavern": "2025-01-02 00:30:20 -0500"
-    },
-    "done": true
-  },
-  "nova_structures:adventure/find_tavern": {
-    "criteria": {
-      "nova_structures:tavern_snowy": "2025-01-02 00:30:20 -0500"
+      "under_lock_and_key": "2025-01-02 01:24:29 -0500"
     },
     "done": true
   },
@@ -8699,9 +8705,55 @@
     },
     "done": true
   },
-  "nova_structures:adventure/find_pillager_outpost": {
+  "nova_structures:adventure/find_swamp_village": {
     "criteria": {
-      "minecraft:pillager_outpost": "2025-01-02 01:07:07 -0500"
+      "minecraft:village_swamp": "2025-01-02 02:11:44 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2025-01-02 17:48:27 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2025-01-02 18:01:38 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_nether_skeleton": {
+    "criteria": {
+      "fortress": "2025-01-02 18:55:55 -0500",
+      "skeleton_camp_waste": "2025-01-02 19:03:18 -0500",
+      "nether_keep": "2025-01-02 22:32:59 -0500",
+      "nether_skeleton_tower_crimson": "2025-01-02 19:46:34 -0500"
+    },
+    "done": false
+  },
+  "nova_structures:nether/find_piglins": {
+    "criteria": {
+      "nova_structures:piglin_camp": "2025-01-02 19:38:40 -0500",
+      "nova_structures:hamlet": "2025-01-02 20:09:58 -0500"
+    },
+    "done": false
+  },
+  "nova_structures:nether/find_skeleton_tower": {
+    "criteria": {
+      "nova_structures:nether_skeleton_tower_crimson": "2025-01-02 19:46:34 -0500"
+    },
+    "done": false
+  },
+  "nova_structures:nether/find_hamlet": {
+    "criteria": {
+      "nova_structures:hamlet": "2025-01-02 20:09:58 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_keep": {
+    "criteria": {
+      "minecraft:nether_keep": "2025-01-02 22:32:59 -0500"
     },
     "done": true
   },

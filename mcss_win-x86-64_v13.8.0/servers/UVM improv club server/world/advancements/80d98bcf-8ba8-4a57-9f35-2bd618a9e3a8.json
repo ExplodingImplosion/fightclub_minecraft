@@ -8330,6 +8330,7 @@
       "rotten_flesh": "2025-01-01 21:07:31 -0500",
       "cooked_mutton": "2024-12-19 19:46:31 -0500",
       "cooked_beef": "2024-12-25 13:13:17 -0500",
+      "melon_slice": "2025-01-02 23:45:20 -0500",
       "pumpkin_pie": "2025-01-01 21:08:14 -0500"
     },
     "done": false
@@ -8424,9 +8425,10 @@
       "minecraft:crimson_forest": "2024-12-25 18:25:01 -0500",
       "minecraft:nether_wastes": "2024-12-25 13:11:15 -0500",
       "minecraft:soul_sand_valley": "2024-12-25 13:58:33 -0500",
-      "minecraft:basalt_deltas": "2024-12-25 13:11:11 -0500"
+      "minecraft:basalt_deltas": "2024-12-25 13:11:11 -0500",
+      "minecraft:warped_forest": "2025-01-02 22:45:15 -0500"
     },
-    "done": false
+    "done": true
   },
   "minecraft:nether/root": {
     "criteria": {
@@ -8598,6 +8600,88 @@
   "minecraft:adventure/trade": {
     "criteria": {
       "traded": "2025-01-02 01:41:27 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_nether_skeleton": {
+    "criteria": {
+      "nether_port": "2025-01-02 22:43:23 -0500",
+      "fortress": "2025-01-02 22:45:15 -0500",
+      "nether_keep": "2025-01-02 22:36:07 -0500"
+    },
+    "done": false
+  },
+  "nova_structures:nether/find_keep": {
+    "criteria": {
+      "minecraft:nether_keep": "2025-01-02 22:36:07 -0500"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2025-01-02 22:40:16 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_port": {
+    "criteria": {
+      "nova_structures:nether_port": "2025-01-02 22:43:23 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_piglins": {
+    "criteria": {
+      "nova_structures:piglin_outstation": "2025-01-02 22:47:14 -0500",
+      "nova_structures:piglin_camp": "2025-01-02 22:43:44 -0500",
+      "nova_structures:hamlet": "2025-01-02 22:52:03 -0500"
+    },
+    "done": false
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-01-02 22:45:15 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_hamlet": {
+    "criteria": {
+      "nova_structures:hamlet": "2025-01-02 22:52:03 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:end/find_end_lighthouse": {
+    "criteria": {
+      "end_lighthouse": "2025-01-02 23:17:17 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:end/find_end_castle": {
+    "criteria": {
+      "end_castle": "2025-01-02 23:21:21 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-01-03 00:49:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2025-01-02 23:22:34 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:end/find_end_ship": {
+    "criteria": {
+      "end_ship": "2025-01-02 23:25:55 -0500"
+    },
+    "done": true
+  },
+  "nova_structures:nether/find_piglin_outpost": {
+    "criteria": {
+      "nova_structures:piglin_outstation": "2025-01-02 22:47:14 -0500"
     },
     "done": true
   },
