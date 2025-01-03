@@ -1,489 +1,200 @@
-[00:00:45] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:01:51] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
-[00:01:51] [Server thread/INFO]: razeyrainbows they / them left the game
-[00:01:51] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
-[00:02:26] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[00:09:22] [Server thread/INFO]: [ASFJASJHALALF he / him: Applied effect Resistance to Wolf he / him]
-[00:15:28] [Server thread/WARN]: GunYoshi moved too quickly! 10.492530580151538,-5.719576550472766,13.05758520227505
-[00:15:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2197ms or 43 ticks behind
-[00:17:10] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:17:16] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to emilysoupp she / they]
-[00:17:36] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Iron Golem]
-[00:18:10] [Server thread/INFO]: [ASFJASJHALALF he / him: Added Iron Golem she / they to team [she/they]]
-[00:18:33] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[00:18:56] [Server thread/INFO]: <_scasey she / her> she go crazy on my nitwit head
-[00:18:59] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:19:50] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to Zumquirelle]
-[00:20:23] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to GunYoshi he / him]
-[00:21:08] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to GunYoshi he / him]
-[00:21:16] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[00:21:58] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Creeper]
-[00:22:01] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:22:10] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Creeper]
-[00:22:16] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:22:20] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[00:22:38] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Creeper]
-[00:22:46] [Server thread/INFO]: [ASFJASJHALALF he / him: Summoned new Creeper]
-[00:22:57] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[00:23:17] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 15.410123653559708,15.000000298023224,8.458043826011306
-[00:23:25] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 11.41921440660846,-14.94423597103804,16.19121963505762
-[00:23:25] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 9.36235221049067,-11.947370478043922,12.774341985324398
-[00:23:25] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 9.36235221049067,-11.947370478043922,12.774341985324398
-[00:23:25] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 9.36235221049067,-11.947370478043922,12.774341985324398
-[00:24:10] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
-[00:26:49] [Server thread/WARN]: Skeleton Horse (vehicle of _scasey) moved too quickly! -4.8122514768707285,0.0625,-8.900200054252252
-[00:26:49] [Server thread/WARN]: Skeleton Horse (vehicle of _scasey) moved too quickly! -5.0127619550736755,0.0625,-9.27104172317943
-[00:28:50] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -14.481989207069219,-6.560587052689115,-5.413063761071982
-[00:29:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[00:31:33] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[00:31:58] [Server thread/WARN]: Zumquirelle moved too quickly! -6.245968527340665,16.2256794173839,5.397190216564923
-[00:32:43] [Server thread/WARN]: Zumquirelle moved too quickly! -11.670973767706528,-1.9065982069060965,14.278533364587929
-[00:33:17] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[00:33:24] [Server thread/WARN]: Zumquirelle moved too quickly! -3.9579979644695413,12.43025020531951,11.686495845278841
-[00:33:49] [Server thread/WARN]: Zumquirelle moved too quickly! -4.89895570139015,-1.8759151155701375,17.415926921908977
-[00:33:57] [Server thread/WARN]: Zumquirelle moved too quickly! -4.911843163657977,-2.657545684443477,17.461742978463008
-[00:34:29] [Server thread/INFO]: Named entity class_1439['she they golem'/221346, l='ServerLevel[world]', x=68.78, y=-35.00, z=-708.42] died: she they golem she / they was slain by Zombie
-[00:35:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[00:35:34] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[00:35:57] [User Authenticator #21/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
-[00:35:58] [Server thread/INFO]: razeyrainbows[/146.115.92.123:53764] logged in with entity id 264349 at (126.54390353506261, 111.0, 605.2889930511132)
-[00:35:58] [Server thread/INFO]: razeyrainbows they / them joined the game
-[00:35:58] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
-[00:35:58] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
-[00:35:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
-[00:35:58] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:35:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
-[00:35:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
-[00:36:06] [Server thread/INFO]: <_scasey she / her> AHHHHHHHHHHHHHHH
-[00:36:23] [Server thread/WARN]: Zumquirelle moved too quickly! -1.5279441250931995,-1.8146200922925573,17.258913368841604
-[00:36:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:38:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2334ms or 46 ticks behind
-[00:38:47] [Server thread/WARN]: Zumquirelle moved too quickly! -0.9851898799970513,-1.8034034330738677,18.105336507102038
-[00:39:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=48, z=214}
-[00:39:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=48, z=214}
-[00:39:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=49, z=214}
-[00:39:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=48, z=214}
-[00:39:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=49, z=214}
-[00:39:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=49, z=214}
-[00:39:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=50, z=214}
-[00:39:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=50, z=214}
-[00:39:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=50, z=214}
-[00:39:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[00:39:53] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[00:40:01] [Server thread/INFO]: [ASFJASJHALALF he / him: Gave 1 [Command Block] to ASFJASJHALALF he / him]
-[00:40:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[00:40:33] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:40:51] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:41:16] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[00:41:37] [Server thread/ERROR]: Not a number
-[00:41:37] [Server thread/INFO]: [@: Summoned new benji the sewer boy]
-[00:41:42] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:42:00] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[00:42:01] [Server thread/INFO]: emilysoupp she / they has reached the goal [Hired Help]
-[00:42:03] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[00:42:25] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[00:42:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=48, z=214}
-[00:42:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=48, z=214}
-[00:42:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=49, z=214}
-[00:42:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=48, z=214}
-[00:42:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=49, z=214}
-[00:42:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=49, z=214}
-[00:42:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=311, y=50, z=214}
-[00:42:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=310, y=50, z=214}
-[00:42:30] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=309, y=50, z=214}
-[00:43:04] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
-[00:49:14] [Server thread/INFO]: ASFJASJHALALF he / him has made the advancement [Hot Stuff]
-[00:50:09] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[00:50:11] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[00:50:33] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:50:36] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[00:51:04] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:51:11] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[00:51:13] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:51:17] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[00:52:03] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[00:52:20] [Server thread/WARN]: ASFJASJHALALF moved too quickly! -0.32071167636826203,-12.27993627239227,-0.856375329054714
-[00:52:23] [User Authenticator #22/INFO]: UUID of player King_Orion is 9438c271-6781-41d2-a23c-ae87f86eefcc
-[00:52:24] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[00:52:25] [Server thread/INFO]: King_Orion[/185.172.52.245:34151] logged in with entity id 296048 at (-101.91076021521395, 80.0, -214.93913675589855)
-[00:52:25] [Server thread/INFO]: King_Orion he / him joined the game
-[00:52:31] [Server thread/INFO]: <King_Orion he / him> hello gamers!!
-[00:52:35] [Server thread/INFO]: <emilysoupp she / they> ethan!
-[00:52:37] [Server thread/INFO]: [ASFJASJHALALF he / him: Teleported ASFJASJHALALF he / him to King_Orion he / him]
-[00:52:40] [Server thread/INFO]: <King_Orion he / him> i'm eating a snoppy cookie
-[00:52:45] [Server thread/INFO]: <emilysoupp she / they> FUCK YEAH
-[00:52:47] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:52:54] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[00:52:57] [Server thread/INFO]: <King_Orion he / him> how are we!
-[00:53:21] [Server thread/INFO]: emilysoupp she / they was smashed by GunYoshi he / him with [The Smasher]
-[00:53:27] [Server thread/INFO]: <King_Orion he / him> the smasher
-[00:54:22] [Server thread/INFO]: <King_Orion he / him> i miss you guys!
-[00:54:29] [Server thread/INFO]: <emilysoupp she / they> I MISS YOU
-[00:54:32] [Server thread/INFO]: <_scasey she / her> miss you too pookie
-[00:54:39] [Server thread/INFO]: <King_Orion he / him> <3
-[00:54:48] [Server thread/INFO]: <King_Orion he / him> you guys are so kind and fun
-[00:54:49] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[00:54:56] [Server thread/INFO]: <King_Orion he / him> i love friends
-[00:55:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-181, y=76, z=-299} class_2338{x=-181, y=75, z=-299}
-[00:55:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-181, y=74, z=-299} class_2338{x=-181, y=75, z=-299}
-[00:55:07] [Server thread/INFO]: <King_Orion he / him> life is bueautiful
-[00:55:18] [Server thread/INFO]: <emilysoupp she / they> still stand by my "ethanskind" message from the ben my neighbor drunk night
-[00:55:23] [Server thread/INFO]: <King_Orion he / him> YES
-[00:55:25] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[00:55:27] [Server thread/INFO]: <emilysoupp she / they> never said anything truer
-[00:56:02] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=217, y=48, z=159}
-[00:56:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2235ms or 44 ticks behind
-[00:56:31] [Server thread/WARN]: Zumquirelle moved too quickly! -1.0328947547641292,10.327741471994557,14.143503337127186
-[00:56:31] [Server thread/WARN]: emilysoupp moved too quickly! 9.717460218110318,-2.580000013113022,-2.5053477495287098
-[00:56:46] [Server thread/INFO]: <King_Orion he / him> yse!!
-[00:56:55] [Server thread/INFO]: <King_Orion he / him> ?
-[00:56:58] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[00:57:00] [Server thread/WARN]: Zumquirelle moved too quickly! -0.3118893741584543,-1.775453391241058,17.301948026870377
-[00:57:01] [Server thread/INFO]: <King_Orion he / him> ohhh
-[00:57:03] [Server thread/INFO]: <King_Orion he / him> i meant yes
-[00:57:17] [Server thread/INFO]: <King_Orion he / him> dr peppie
-[00:57:22] [Server thread/WARN]: Zumquirelle moved too quickly! -0.3393428244444294,-1.9368582449882297,18.825019749554485
-[00:57:22] [Server thread/WARN]: ASFJASJHALALF moved too quickly! 10.096143407848515,0.0,-2.704439705706818
-[00:57:35] [Server thread/INFO]: <King_Orion he / him> ?
-[00:58:17] [Server thread/INFO]: King_Orion lost connection: Disconnected
-[00:58:17] [Server thread/INFO]: King_Orion he / him left the game
-[00:58:17] [Server thread/INFO]: [voicechat] Disconnecting client King_Orion
-[00:58:17] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3192ms or 63 ticks behind
-[00:58:18] [Server thread/WARN]: Zumquirelle moved wrongly!
-[00:58:34] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:58:40] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[00:58:51] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[00:59:20] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=8, y=114, z=525}
-[00:59:20] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=8, y=109, z=527}
-[00:59:25] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=6, y=80, z=534}
-[00:59:25] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=12, y=80, z=537}
-[00:59:25] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=11, y=81, z=537}
-[00:59:25] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=2, y=85, z=537}
-[00:59:25] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=8, y=85, z=532}
-[00:59:25] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=13, y=84, z=539}
-[00:59:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-3, y=80, z=539}
-[00:59:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-4, y=81, z=539}
-[00:59:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-4, y=110, z=539}
-[00:59:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-3, y=109, z=539}
-[00:59:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=6, y=109, z=534}
-[00:59:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=12, y=109, z=537}
-[00:59:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=11, y=110, z=537}
-[00:59:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=2, y=114, z=537}
-[00:59:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=8, y=114, z=532}
-[00:59:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=13, y=113, z=539}
-[00:59:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-68, y=56, z=657}
-[00:59:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-68, y=55, z=658}
-[00:59:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=8, y=85, z=525}
-[00:59:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=8, y=80, z=527}
-[00:59:34] [User Authenticator #23/INFO]: UUID of player King_Orion is 9438c271-6781-41d2-a23c-ae87f86eefcc
-[00:59:35] [Server thread/INFO]: King_Orion[/185.172.52.245:26873] logged in with entity id 304370 at (-105.02828707142977, 83.0, -201.2157245765895)
-[00:59:35] [Server thread/INFO]: King_Orion he / him joined the game
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-68, y=50, z=659}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-66, y=61, z=669}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-68, y=60, z=665}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-72, y=56, z=673}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-62, y=51, z=673}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-56, y=56, z=673}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-32, y=80, z=589}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-32, y=86, z=589}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-32, y=85, z=588}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-32, y=86, z=587}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-32, y=84, z=594}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-32, y=80, z=600}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-32, y=85, z=601}
-[00:59:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-32, y=85, z=606}
-[00:59:39] [Server thread/INFO]: <King_Orion he / him> YERAZ
-[00:59:40] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[00:59:43] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Creative Mode]
-[00:59:43] [Server thread/INFO]: <King_Orion he / him> SUBSTANCE BROTHERS
-[00:59:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-68, y=50, z=680}
-[00:59:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-66, y=56, z=679}
-[00:59:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-68, y=61, z=679}
-[00:59:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-66, y=60, z=684}
-[00:59:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-56, y=56, z=675}
-[00:59:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-34, y=81, z=589}
-[00:59:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-34, y=80, z=590}
-[00:59:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-34, y=79, z=608}
-[00:59:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-34, y=80, z=609}
-[00:59:44] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-34, y=85, z=609}
-[00:59:51] [Server thread/INFO]: <GunYoshi he / him> sick! sick.
-[00:59:51] [Server thread/INFO]: [ASFJASJHALALF he / him: Gave 1 [Command Block] to ASFJASJHALALF he / him]
-[00:59:51] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-68, y=51, z=691}
-[00:59:51] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-66, y=50, z=696}
-[00:59:51] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=-66, y=55, z=695}
-[00:59:51] [Server thread/INFO]: <King_Orion he / him> dr vodka :D
-[01:00:06] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=117, y=105, z=437}
-[01:00:06] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=114, y=115, z=437}
-[01:00:06] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=131, y=115, z=437}
-[01:00:06] [Server thread/INFO]: <King_Orion he / him> i always have kindness in mine heart
-[01:00:09] [Server thread/WARN]: Ignoring unknown attribute 'minecraft:generic.max_health'
-[01:00:09] [Server thread/ERROR]: Not a number
-[01:00:09] [Server thread/INFO]: [@: Summoned new kepler he / they]
-[01:00:12] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=121, y=105, z=451}
-[01:00:12] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=119, y=115, z=451}
-[01:00:12] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=136, y=115, z=451}
-[01:00:20] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Spectator Mode]
-[01:00:22] [Server thread/INFO]: <King_Orion he / him> lmao
-[01:00:27] [Server thread/INFO]: <King_Orion he / him> benji
-[01:00:30] [Server thread/INFO]: <King_Orion he / him> sewer ben
-[01:00:45] [Server thread/INFO]: [ASFJASJHALALF he / him: Set own game mode to Survival Mode]
-[01:00:47] [Server thread/INFO]: <King_Orion he / him> uh
-[01:00:57] [Server thread/INFO]: <King_Orion he / him> water
-[01:01:01] [Server thread/INFO]: <King_Orion he / him> should put out the fire
-[01:01:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[01:01:19] [Server thread/INFO]: <King_Orion he / him> this is fire i love sewer pals
-[01:01:31] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[01:01:34] [Server thread/INFO]: <King_Orion he / him> :)
-[01:01:35] [Server thread/INFO]: <King_Orion he / him> shhh
-[01:01:43] [Server thread/INFO]: <King_Orion he / him> it's fine
-[01:01:48] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[01:02:03] [Server thread/INFO]: ASFJASJHALALF lost connection: Disconnected
-[01:02:03] [Server thread/INFO]: ASFJASJHALALF he / him left the game
-[01:02:03] [Server thread/INFO]: [voicechat] Disconnecting client ASFJASJHALALF
-[01:02:07] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-181, y=74, z=-299} class_2338{x=-181, y=73, z=-299}
-[01:02:13] [Server thread/INFO]: <emilysoupp she / they> ehy
-[01:02:14] [Server thread/WARN]: Zumquirelle moved wrongly!
-[01:02:16] [Server thread/INFO]: <emilysoupp she / they> why
-[01:02:38] [Server thread/INFO]: <King_Orion he / him> where is golem
-[01:02:55] [Server thread/WARN]: Zumquirelle moved too quickly! -1.6244841657953657,-2.2616779236829814,17.238291119778296
-[01:02:58] [Server thread/INFO]: <King_Orion he / him> is this mangione?
-[01:03:03] [Server thread/INFO]: <King_Orion he / him> yay!
-[01:03:11] [Server thread/INFO]: <King_Orion he / him> this is so funny
-[01:03:24] [Server thread/INFO]: <King_Orion he / him> guys take a look at this
-[01:03:26] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
-[01:03:26] [Server thread/INFO]: razeyrainbows they / them left the game
-[01:03:26] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
-[01:03:28] [Server thread/INFO]: <King_Orion he / him> goodm shit
-[01:03:30] [Server thread/WARN]: Zumquirelle moved too quickly! -1.0036220000620233,-1.8293280185342837,17.48600013723808
-[01:03:36] [Server thread/INFO]: <King_Orion he / him> hey
-[01:03:45] [Server thread/INFO]: <King_Orion he / him> good night!!!
-[01:03:59] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[01:04:02] [Server thread/INFO]: <King_Orion he / him> should the path connect to the tourism hut?
-[01:04:14] [Server thread/INFO]: <King_Orion he / him> yes
-[01:04:15] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[01:05:07] [Server thread/INFO]: <King_Orion he / him> is their name she/they?
-[01:05:14] [Server thread/INFO]: <King_Orion he / him> like he/him nick
-[01:05:15] [Server thread/WARN]: Zumquirelle moved too quickly! -8.47529962988483,-1.9534109155420083,16.744670039786797
-[01:05:20] [Server thread/INFO]: <King_Orion he / him> YOOOO
-[01:05:43] [Server thread/INFO]: <King_Orion he / him> my history teacher played a cover of this for us but it was about mesopotamia
-[01:05:46] [Server thread/WARN]: Zumquirelle moved too quickly! -5.817937089478619,11.704028289819888,13.070344699612178
-[01:05:50] [Server thread/WARN]: Zumquirelle moved too quickly! -6.302186010901096,13.143365224821224,11.465317824966405
-[01:06:03] [Server thread/INFO]: <King_Orion he / him> by the UUUUUUUUeuphrades river
-[01:06:21] [Server thread/INFO]: <emilysoupp she / they> thats awesome
-[01:06:21] [Server thread/INFO]: <King_Orion he / him> ey
-[01:06:33] [Server thread/INFO]: <King_Orion he / him> yes!
-[01:06:36] [Server thread/INFO]: <King_Orion he / him> friendship
-[01:06:49] [Server thread/INFO]: <King_Orion he / him> i be sayin this shit sober
-[01:06:52] [Server thread/INFO]: <King_Orion he / him> and you know it
-[01:07:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-125, y=63, z=-347} class_2338{x=-127, y=62, z=-348}
-[01:07:18] [Server thread/INFO]: Summoned new Cow
-[01:07:18] [Server thread/INFO]: Summoned new Cow
-[01:07:18] [Server thread/INFO]: Summoned new Cow
-[01:07:18] [Server thread/INFO]: Summoned new Cow
-[01:07:18] [Server thread/INFO]: Summoned new Cow
-[01:07:21] [Server thread/INFO]: <King_Orion he / him> not true!
-[01:07:24] [Server thread/INFO]: <King_Orion he / him> you're always funny
-[01:07:27] [Server thread/INFO]: <King_Orion he / him> hey
-[01:07:45] [Server thread/INFO]: <King_Orion he / him> i lvoe superman
-[01:07:53] [Server thread/INFO]: <King_Orion he / him> yes oh my god
-[01:08:00] [Server thread/INFO]: <King_Orion he / him> save me james gunn
-[01:08:11] [Server thread/INFO]: <King_Orion he / him> it's coming out the weekend of my birthday!!!!!!!!
-[01:08:20] [Server thread/INFO]: <King_Orion he / him> cuz god loves me
-[01:08:42] [Server thread/INFO]: <King_Orion he / him> yes!
-[01:09:10] [Server thread/INFO]: <King_Orion he / him> lol
-[01:09:59] [Server thread/INFO]: <King_Orion he / him> yes!
-[01:10:10] [Server thread/INFO]: <King_Orion he / him> aw
-[01:10:26] [Server thread/INFO]: <King_Orion he / him> my friend and i went out
-[01:10:53] [Server thread/INFO]: <King_Orion he / him> WE ALL LIVE IN A YELLOW SUBMARINE
-[01:11:02] [Server thread/INFO]: <King_Orion he / him> it's a good one
-[01:11:10] [Server thread/INFO]: <King_Orion he / him> i like beatle
-[01:11:20] [Server thread/INFO]: <King_Orion he / him> they were my number 3 artist
-[01:11:35] [Server thread/INFO]: <_scasey she / her> beatle
-[01:11:37] [Server thread/INFO]: <King_Orion he / him> beetle
-[01:11:37] [Server thread/INFO]: <_scasey she / her> beetle
-[01:11:49] [Server thread/INFO]: <King_Orion he / him> it's a pun about music and also the bugs
-[01:12:03] [Server thread/INFO]: <King_Orion he / him> HAS ALL WE NEED
-[01:12:15] [Server thread/INFO]: <King_Orion he / him> i love the guy that's just yelling
-[01:12:33] [Server thread/INFO]: <King_Orion he / him> ok!
-[01:12:51] [Server thread/INFO]: <King_Orion he / him> junkletown polycule
-[01:13:05] [Server thread/INFO]: <King_Orion he / him> ambassador of fairytown
-[01:13:08] [Server thread/INFO]: <King_Orion he / him> for the polycule
-[01:14:00] [Server thread/INFO]: <King_Orion he / him> they are a racist institution
-[01:14:26] [Server thread/INFO]: <King_Orion he / him> damn
-[01:14:34] [Server thread/WARN]: Zumquirelle moved too quickly! -9.464285516988639,-1.785477852633818,14.65191728146965
-[01:14:34] [Server thread/WARN]: emilysoupp moved too quickly! 9.473847471171112,1.0244240882136921,3.47732529504043
-[01:14:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2505ms or 50 ticks behind
-[01:15:18] [Server thread/WARN]: Zumquirelle moved too quickly! -8.37034250869101,-1.853705453522295,16.042263613237083
-[01:15:48] [Server thread/WARN]: Zumquirelle moved too quickly! -11.950096151711023,-2.7682741352870295,15.150828095932411
-[01:15:53] [Server thread/INFO]: <King_Orion he / him> i love gay people
-[01:16:07] [Server thread/INFO]: <King_Orion he / him> lmao
-[01:16:31] [Server thread/INFO]: <King_Orion he / him> ?
-[01:16:36] [Server thread/WARN]: Zumquirelle moved too quickly! -5.80711809942386,14.73478563871626,9.937045792959452
-[01:16:40] [Server thread/INFO]: <King_Orion he / him> indigo girls
-[01:16:50] [Server thread/INFO]: <King_Orion he / him> song that's playing right now
-[01:17:02] [Server thread/WARN]: Zumquirelle moved too quickly! -9.889043115645563,-1.8536518211436004,14.799051772913117
-[01:17:50] [Server thread/INFO]: <King_Orion he / him> it's good
-[01:17:53] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-131, y=64, z=-351} class_2338{x=-133, y=63, z=-351}
-[01:18:28] [Server thread/INFO]: <King_Orion he / him> uh oh
-[01:18:30] [Server thread/WARN]: Zumquirelle moved too quickly! -13.938165194972726,-1.7966423202808244,11.361296601568256
-[01:18:33] [Server thread/WARN]: Zumquirelle moved too quickly! -9.277929338738886,9.014550204157999,12.812556631601637
-[01:18:36] [Server thread/WARN]: Zumquirelle moved too quickly! -15.45416308102267,2.192039726617338,9.221318026006657
-[01:18:36] [Server thread/INFO]: <King_Orion he / him> my storage spot has dug into a cave?
-[01:18:48] [Server thread/INFO]: <King_Orion he / him> this is not optimal
-[01:19:05] [Server thread/WARN]: Zumquirelle moved too quickly! -14.406509222378418,-1.8012073946013913,10.06650839779229
-[01:19:07] [Server thread/INFO]: <King_Orion he / him> :D
-[01:20:03] [Server thread/INFO]: <King_Orion he / him> lol
-[01:20:41] [Server thread/INFO]: <King_Orion he / him> fire!
-[01:21:35] [Server thread/INFO]: <King_Orion he / him> norah and i are both poets so we truly just be sayin shit
-[01:21:43] [Server thread/INFO]: <emilysoupp she / they> gotta love saying shit
-[01:21:44] [Server thread/INFO]: <_scasey she / her> that's so fire
-[01:22:02] [Server thread/INFO]: <emilysoupp she / they> i wish i took a poetry class cuz i liked that part of my creative writing class more than i expected
-[01:22:15] [Server thread/INFO]: <King_Orion he / him> i'm taking writing poetry next sem
-[01:22:23] [Server thread/INFO]: <emilysoupp she / they> ooh with who
-[01:23:08] [Server thread/INFO]: <King_Orion he / him> aughhhh
-[01:23:10] [Server thread/INFO]: <King_Orion he / him> yes
-[01:25:20] [Server thread/INFO]: <King_Orion he / him> i write when i am so sleep deprived
-[01:25:24] [Server thread/INFO]: <emilysoupp she / they> this
-[01:25:32] [Server thread/INFO]: <King_Orion he / him> 3 am poets mood
-[01:26:07] [Server thread/INFO]: <emilysoupp she / they> gotta love a light night inspiration
-[01:26:11] [Server thread/INFO]: <emilysoupp she / they> late not light oops
-[01:26:15] [Server thread/INFO]: <King_Orion he / him> once i was inspired by ted lasso fanart on pinterest
-[01:26:18] [Server thread/INFO]: <emilysoupp she / they> REAL
-[01:26:20] [Server thread/INFO]: <King_Orion he / him> and i wrote a whole poem
-[01:26:31] [Server thread/INFO]: <emilysoupp she / they> i was talking earlier about borderline fanfic i wrote this year
-[01:26:36] [Server thread/INFO]: <King_Orion he / him> fire
-[01:26:50] [Server thread/INFO]: <emilysoupp she / they> love to get inspired by media
-[01:26:55] [Server thread/INFO]: <King_Orion he / him> i love media
-[01:26:59] [Server thread/INFO]: <King_Orion he / him> need more
-[01:27:02] [Server thread/INFO]: <emilysoupp she / they> so true
-[01:27:16] [Server thread/INFO]: <emilysoupp she / they> been watching smosh play dread lately its awesome
-[01:27:21] [Server thread/INFO]: <emilysoupp she / they> smosh vs zombies <3
-[01:27:29] [Server thread/INFO]: <King_Orion he / him> cool!
-[01:28:53] [Server thread/INFO]: <_scasey she / her> in the junkle. straight up townin it
-[01:29:00] [Server thread/INFO]: <emilysoupp she / they> ive been saying this
-[01:29:25] [Server thread/INFO]: <King_Orion he / him> i heart soup
-[01:29:33] [Server thread/INFO]: <King_Orion he / him> tell sage i heart soup
-[01:30:05] [Server thread/INFO]: <King_Orion he / him> worms
-[01:31:03] [Server thread/WARN]: King_Orion moved too quickly! -8.6245394268756,5.5,-0.2865975647678738
-[01:31:03] [Server thread/WARN]: GunYoshi moved too quickly! 3.8736090711145437,-2.252203340253729,-8.968403984861993
-[01:31:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5723ms or 114 ticks behind
-[01:32:12] [Server thread/INFO]: <King_Orion he / him> i want horse how do i get horse
-[01:32:27] [Server thread/INFO]: <GunYoshi he / him> there are a bumnch by fairyville if u have a saddle
-[01:32:36] [Server thread/INFO]: <King_Orion he / him> i dont have a saddle
-[01:35:04] [Server thread/INFO]: <King_Orion he / him> stable
-[01:35:09] [Server thread/INFO]: <GunYoshi he / him> yes!
-[01:35:12] [Server thread/INFO]: <King_Orion he / him> woah
-[01:35:16] [Server thread/INFO]: <King_Orion he / him> green!!!!!!!!
-[01:35:36] [Server thread/INFO]: <King_Orion he / him> ben you know you can clip the glow berries to keep them from growing
-[01:35:39] [Server thread/INFO]: <King_Orion he / him> you don't need string
-[01:35:46] [Server thread/INFO]: <King_Orion he / him> with shears
-[01:36:04] [Server thread/INFO]: <King_Orion he / him> right click the ends of the berries
-[01:36:30] [Server thread/INFO]: <King_Orion he / him> then you can hit the ends with a bonemeal to make them glow again
-[01:36:52] [Server thread/INFO]: <King_Orion he / him> where do i find saddle
-[01:36:59] [Server thread/WARN]: _scasey moved too quickly! 10.808208933509206,-4.42221665403018,13.04231718707672
-[01:36:59] [Server thread/WARN]: emilysoupp moved too quickly! 2.062455416620608,-9.85279118012771,-1.0769452953844052
-[01:36:59] [Server thread/INFO]: <King_Orion he / him> no way
-[01:36:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4590ms or 91 ticks behind
-[01:37:02] [User Authenticator #24/INFO]: UUID of player Indicte is c6516a09-de0d-4722-a937-aaee1a6fd891
-[01:37:03] [Server thread/INFO]: Indicte[/209.6.169.219:59319] logged in with entity id 363260 at (-6193.055153350908, 79.0, -3971.4733108315645)
-[01:37:03] [Server thread/INFO]: Indicte they / them joined the game
-[01:37:09] [Server thread/INFO]: <King_Orion he / him> kindness
-[01:37:23] [Server thread/INFO]: <King_Orion he / him> love wins
-[01:37:28] [Server thread/INFO]: <_scasey she / her> true!
-[01:37:33] [Server thread/INFO]: <emilysoupp she / they> love love
-[01:38:25] [Server thread/INFO]: <King_Orion he / him> fairyville portal is fly as hell
-[01:38:35] [Server thread/INFO]: <King_Orion he / him> oh no
-[01:38:39] [Server thread/INFO]: <_scasey she / her> erm actually its on the ground
-[01:38:43] [Server thread/INFO]: emilysoupp lost connection: Disconnected
-[01:38:43] [Server thread/INFO]: emilysoupp she / they left the game
-[01:38:43] [Server thread/INFO]: [voicechat] Disconnecting client emilysoupp
-[01:38:50] [Server thread/INFO]: _scasey lost connection: Disconnected
-[01:38:50] [Server thread/INFO]: _scasey she / her left the game
-[01:38:50] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
-[01:39:22] [Server thread/WARN]: Indicte moved too quickly! 11.430842356133326,-1.9864502560375001,13.933257032819256
-[01:39:45] [Server thread/WARN]: Indicte moved too quickly! 11.015076026439601,-3.216077594276385,13.08639470836988
-[01:40:06] [Server thread/WARN]: Indicte moved too quickly! 11.152837200280374,-2.1205393814845195,13.441952036343082
-[01:40:39] [Server thread/WARN]: Indicte moved too quickly! 12.608983451787935,-1.8402543329575565,12.611666694656378
-[01:40:52] [Server thread/WARN]: Indicte moved too quickly! 12.382577419361041,13.389440054725299,3.294936649256215
-[01:41:05] [Server thread/WARN]: Indicte moved too quickly! 17.62780483696497,-0.6758378500444735,5.155470681433599
-[01:41:16] [Server thread/WARN]: Indicte moved too quickly! 16.842075132637547,-2.4635321589489365,6.821478071061392
-[01:41:42] [Server thread/WARN]: Indicte moved too quickly! 16.87089089543042,-2.356222835066461,6.226084050069858
-[01:41:45] [Server thread/INFO]: <King_Orion he / him> someone eep
-[01:41:56] [Server thread/INFO]: <King_Orion he / him> thank
-[01:42:13] [Server thread/WARN]: Indicte moved too quickly! 12.174759386263759,-0.06560412520300929,12.904429464616896
-[01:42:34] [Server thread/WARN]: Indicte moved too quickly! 16.472478212875103,-2.278985401042817,7.100746848168228
-[01:42:51] [Server thread/INFO]: <King_Orion he / him> ben check this out
-[01:43:17] [Server thread/INFO]: <King_Orion he / him> thank!!
-[01:43:21] [Server thread/WARN]: GunYoshi moved too quickly! -13.709273149541886,9.392967845231027,-7.746690388766581
-[01:43:42] [Server thread/INFO]: <King_Orion he / him> who's the gold guy
-[01:43:57] [Server thread/INFO]: <King_Orion he / him> is my horse bad
-[01:44:41] [Server thread/INFO]: <King_Orion he / him> :(
-[01:44:52] [Server thread/INFO]: <King_Orion he / him> this is my for now horse then
-[01:45:13] [Server thread/INFO]: <King_Orion he / him> oke
-[01:45:41] [Server thread/INFO]: <King_Orion he / him> you have two more diamond horse armout
-[01:45:46] [Server thread/INFO]: <King_Orion he / him> just btw
-[01:46:05] [Server thread/INFO]: <King_Orion he / him> damn
-[01:46:24] [Server thread/INFO]: <King_Orion he / him> back to my horse hunt
-[01:47:37] [Server thread/WARN]: GunYoshi moved too quickly! -13.529209568800042,9.738205744548111,-8.35099315901573
-[01:47:41] [Server thread/INFO]: <King_Orion he / him> no
-[01:47:49] [Server thread/INFO]: <King_Orion he / him> i'm in fairyville
-[01:47:55] [Server thread/INFO]: <King_Orion he / him> ok
-[01:48:16] [Server thread/WARN]: Indicte moved too quickly! 15.51988303850112,9.157280282781997,1.4063319200635078
-[01:48:37] [Server thread/WARN]: Indicte moved too quickly! 16.636907184132724,-2.189666041195167,4.848831265749936
-[01:49:03] [Server thread/INFO]: <King_Orion he / him> oh my god
-[01:49:16] [Server thread/INFO]: <King_Orion he / him> jesus
-[01:49:46] [Server thread/WARN]: Indicte moved too quickly! 18.44294865051768,-1.9892436006287397,1.518977018790224
-[01:50:24] [Server thread/WARN]: Indicte moved too quickly! 17.3097100320565,-1.9849291124960615,1.1367605931566231
-[01:50:34] [Server thread/INFO]: <King_Orion he / him> new horse feels faster
-[01:51:13] [Server thread/INFO]: <King_Orion he / him> can i be on portal improvement duty
-[01:51:16] [Server thread/INFO]: <GunYoshi he / him> yes!
-[01:51:24] [Server thread/INFO]: <King_Orion he / him> race race
-[01:51:41] [Server thread/INFO]: <King_Orion he / him> can we
-[01:51:51] [Server thread/INFO]: <King_Orion he / him> from here to those jungle trees
-[01:52:07] [Server thread/INFO]: <King_Orion he / him> yes
-[01:52:21] [Server thread/INFO]: <King_Orion he / him> nice
-[01:52:30] [Server thread/INFO]: <King_Orion he / him> yes
-[01:52:54] [Server thread/INFO]: <King_Orion he / him> yippee!
-[01:53:12] [Server thread/INFO]: <King_Orion he / him> yes hold on
-[01:53:32] [Server thread/INFO]: <King_Orion he / him> i got one
-[01:54:04] [Server thread/INFO]: <King_Orion he / him> yes
-[01:54:11] [Server thread/INFO]: <King_Orion he / him> i wanna try
-[01:54:25] [Server thread/INFO]: <King_Orion he / him> i have sharpness 3
-[01:55:04] [Server thread/INFO]: Indicte lost connection: Disconnected
-[01:55:04] [Server thread/INFO]: Indicte they / them left the game
-[01:55:04] [Server thread/INFO]: [voicechat] Disconnecting client Indicte
-[01:58:08] [Server thread/INFO]: <King_Orion he / him> holy shit
-[01:58:13] [Server thread/INFO]: <King_Orion he / him> that was so efficient
-[01:58:19] [Server thread/INFO]: <King_Orion he / him> 50
-[01:58:28] [Server thread/INFO]: <King_Orion he / him> i was at level 31
-[01:58:37] [Server thread/INFO]: <King_Orion he / him> that's so aweseom
-[01:58:49] [Server thread/INFO]: <King_Orion he / him> 10/10
-[01:58:57] [Server thread/INFO]: <King_Orion he / him> i like the scary heads
-[01:59:25] [Server thread/INFO]: <King_Orion he / him> one got out?
-[01:59:33] [Server thread/INFO]: <King_Orion he / him> dam
-[01:59:55] [Server thread/INFO]: <King_Orion he / him> can i have
-[02:00:00] [Server thread/INFO]: <King_Orion he / him> stone
-[02:00:09] [Server thread/INFO]: <King_Orion he / him> thank
-[02:00:33] [Server thread/INFO]: Villager class_1646['Villager'/409792, l='ServerLevel[world]', x=2597.82, y=65.08, z=-3606.99] died, message: 'Villager tried to swim in lava'
-[02:00:34] [Server thread/INFO]: <King_Orion he / him> what name?
-[02:00:38] [Server thread/INFO]: <King_Orion he / him> awe
-[02:01:01] [Server thread/INFO]: <King_Orion he / him> mine needs a name
-[02:01:16] [Server thread/INFO]: <King_Orion he / him> fire
-[02:01:24] [Server thread/INFO]: <King_Orion he / him> lmao
-[02:01:30] [Server thread/INFO]: <King_Orion he / him> ???
-[02:01:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=2547, y=60, z=-3623} class_2338{x=2550, y=62, z=-3617}
-[02:02:20] [Server thread/INFO]: <King_Orion he / him> yes
-[02:02:22] [Server thread/INFO]: <King_Orion he / him> always
-[02:02:34] [Server thread/INFO]: <King_Orion he / him> ha!
-[02:02:48] [Server thread/INFO]: <King_Orion he / him> yommy
-[02:03:57] [Server thread/INFO]: <King_Orion he / him> therefore i am
-[02:04:42] [Server thread/INFO]: <King_Orion he / him> i placed them on your statues
-[02:04:57] [Server thread/INFO]: <King_Orion he / him> on the sword tips
-[02:05:11] [Server thread/INFO]: Saving the game (this may take a moment!)
-[02:05:11] [Server thread/INFO]: Saved the game
-[02:05:15] [Server thread/INFO]: <King_Orion he / him> let me think
-[02:05:26] [Server thread/INFO]: <King_Orion he / him> i think i took off 9
-[02:05:35] [Server thread/INFO]: <King_Orion he / him> no
-[02:05:43] [Server thread/INFO]: <King_Orion he / him> i put them all on the statues
-[02:05:56] [Server thread/INFO]: Saving the game (this may take a moment!)
-[02:05:57] [Server thread/INFO]: Saved the game
+[03:07:25] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[03:07:25] [main/WARN]: Warnings were found!
+ - Mod 'Spawn Animations' (spawnanimations) 1.10+mod recommends any version of modmenu, which is missing!
+	 - You should install any version of modmenu for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.10+mod recommends any version of modmenu-badges-lib, which is missing!
+	 - You should install any version of modmenu-badges-lib for the optimal experience.
+ - Mod 'Spawn Animations' (spawnanimations) 1.10+mod recommends any version of midnightlib, which is missing!
+	 - You should install any version of midnightlib for the optimal experience.
+[03:07:25] [main/INFO]: Loading 79 mods:
+	- c2me 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-base 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-client-uncapvd 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-general-threading-issues 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-notickvd 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-allocs 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-chunkio 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-dfc 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-math 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-natives-math 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-scheduling 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-worldgen-general 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-opts-worldgen-vanilla 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-rewrites-chunk-serializer 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-rewrites-chunk-system 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-rewrites-chunkio 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-server-utils 0.3.1+rc.1.0+1.21.4
+	   |-- c2me-threading-lighting 0.3.1+rc.1.0+1.21.4
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- chunky 1.4.27
+	- fabric-api 0.113.0+1.21.4
+	   |-- fabric-api-base 0.4.54+b47eab6b04
+	   |-- fabric-api-lookup-api-v1 1.6.86+b1caf1e904
+	   |-- fabric-biome-api-v1 15.0.5+b1caf1e904
+	   |-- fabric-block-api-v1 1.0.31+7feeb73304
+	   |-- fabric-block-view-api-v2 1.0.19+7feeb73304
+	   |-- fabric-blockrenderlayer-v1 2.0.8+7feeb73304
+	   |-- fabric-client-tags-api-v1 1.1.29+20ea1e2304
+	   |-- fabric-command-api-v1 1.2.62+f71b366f04
+	   |-- fabric-command-api-v2 2.2.41+e496eb1504
+	   |-- fabric-commands-v0 0.2.79+df3654b304
+	   |-- fabric-content-registries-v0 9.1.14+7feeb73304
+	   |-- fabric-convention-tags-v1 2.1.10+7f945d5b04
+	   |-- fabric-convention-tags-v2 2.10.0+cbf6036a04
+	   |-- fabric-crash-report-info-v1 0.3.6+7feeb73304
+	   |-- fabric-data-attachment-api-v1 1.4.6+9aea556b04
+	   |-- fabric-data-generation-api-v1 22.2.3+20ea1e2304
+	   |-- fabric-dimensions-v1 4.0.10+7feeb73304
+	   |-- fabric-entity-events-v1 2.0.12+60fccc7604
+	   |-- fabric-events-interaction-v0 4.0.2+a4eebcf004
+	   |-- fabric-game-rule-api-v1 1.0.62+7feeb73304
+	   |-- fabric-item-api-v1 11.1.14+203e6b2304
+	   |-- fabric-item-group-api-v1 4.1.23+7feeb73304
+	   |-- fabric-key-binding-api-v1 1.0.56+7feeb73304
+	   |-- fabric-keybindings-v0 0.2.54+df3654b304
+	   |-- fabric-lifecycle-events-v1 2.5.4+bf2a60eb04
+	   |-- fabric-loot-api-v2 3.0.33+3f89f5a504
+	   |-- fabric-loot-api-v3 1.0.21+203e6b2304
+	   |-- fabric-message-api-v1 6.0.25+7feeb73304
+	   |-- fabric-model-loading-api-v1 4.2.0+8ca2ae8d04
+	   |-- fabric-networking-api-v1 4.3.9+cc0fa2fe04
+	   |-- fabric-object-builder-api-v1 18.0.8+d70d2c0604
+	   |-- fabric-particles-v1 4.0.14+7feeb73304
+	   |-- fabric-recipe-api-v1 8.0.5+b1caf1e904
+	   |-- fabric-registry-sync-v0 6.1.2+3d1fb53904
+	   |-- fabric-renderer-api-v1 5.0.2+84404cdd04
+	   |-- fabric-renderer-indigo 2.0.2+84404cdd04
+	   |-- fabric-rendering-data-attachment-v1 0.3.57+73761d2e04
+	   |-- fabric-rendering-fluids-v1 3.1.19+7feeb73304
+	   |-- fabric-rendering-v1 10.1.2+b874120c04
+	   |-- fabric-resource-conditions-api-v1 5.0.13+203e6b2304
+	   |-- fabric-resource-loader-v0 3.0.11+b1caf1e904
+	   |-- fabric-screen-api-v1 2.0.38+7feeb73304
+	   |-- fabric-screen-handler-api-v1 1.3.109+7feeb73304
+	   |-- fabric-sound-api-v1 1.0.32+7feeb73304
+	   |-- fabric-tag-api-v1 1.0.2+20ea1e2304
+	   |-- fabric-transfer-api-v1 5.4.9+efa825c904
+	   \-- fabric-transitive-access-wideners-v1 6.3.2+56e78b9b04
+	- fabricloader 0.16.9
+	   \-- mixinextras 0.4.1
+	- ferritecore 7.1.1
+	- java 22
+	- lithium 0.14.3+mc1.21.4
+	- minecraft 1.21.4
+	- mr_cherry_villages 1.1.0
+	- mr_dungeons_andtaverns 1-v4.6
+	- mr_tidal_towns 1.3.4
+	- noisium 2.5.0+mc1.21.4
+	- spawnanimations 1.10+mod
+	- voicechat 1.21.4-2.5.26
+	   \-- fabric-key-binding-api-v1 1.0.55+7feeb73382
+[03:07:26] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:07:26] [main/INFO]: Compatibility level set to JAVA_16
+[03:07:26] [main/INFO]: Compatibility level set to JAVA_17
+[03:07:26] [main/INFO]: Compatibility level set to JAVA_21
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[03:07:26] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[03:07:26] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[03:07:27] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[03:07:27] [main/INFO]: Detected maximum supported ISA target: AVX2
+[03:07:27] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[03:07:27] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[03:07:27] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[03:07:27] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[03:07:28] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[03:07:28] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[03:07:28] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[03:07:28] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[03:07:28] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[03:07:28] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[03:07:28] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[03:07:28] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[03:07:28] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[03:07:28] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[03:07:28] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[03:07:28] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[03:07:28] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
+[03:07:29] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[03:07:30] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[03:07:30] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[03:07:37] [main/INFO]: Loading Noisium.
+[03:07:37] [main/INFO]: [Spawn Animations] Loaded Spawn Animations by Tschipcraft successfully!
+[03:07:37] [main/INFO]: [voicechat] Compatibility version 18
+[03:07:37] [main/INFO]: [voicechat] Loading plugins
+[03:07:37] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[03:07:37] [main/INFO]: [voicechat] Initializing plugins
+[03:07:37] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[03:07:38] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:07:38] [main/INFO]: Found new data pack spawnanimations, loading it automatically
+[03:07:39] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[03:07:39] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[03:07:39] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[03:07:40] [main/INFO]: Loaded 1370 recipes
+[03:07:40] [main/INFO]: Loaded 1555 advancements
+[03:07:40] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.516 ms
+[03:07:41] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[03:07:41] [Server thread/INFO]: Loading properties
+[03:07:41] [Server thread/INFO]: Default game type: SURVIVAL
+[03:07:41] [Server thread/INFO]: Generating keypair
+[03:07:41] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[03:07:41] [Server thread/INFO]: Using default channel type
+[03:07:41] [Server thread/INFO]: Preparing level "world"
+[03:07:41] [Server thread/INFO]: Enforcing safe world random access
+[03:07:42] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 209.9 ms
+[03:07:42] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[03:07:42] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 10.36 ms
+[03:07:42] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.505 ms
+[03:07:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:07:45] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:07:45] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:07:45] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:07:45] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:07:45] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:07:45] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:07:45] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[03:07:45] [Server thread/INFO]: Time elapsed: 3204 ms
+[03:07:45] [Server thread/INFO]: Done (4.048s)! For help, type "help"
+[03:07:45] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[03:07:45] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[03:07:45] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[03:08:45] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[03:08:46] [Server thread/INFO]: Stopping the server
+[03:08:46] [Server thread/INFO]: Stopping server
+[03:08:46] [Server thread/INFO]: Saving players
+[03:08:46] [Server thread/INFO]: Saving worlds
+[03:08:46] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[03:08:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:08:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03:08:46] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:08:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:08:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:08:46] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:08:46] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:08:46] [C2ME Storage #3/INFO]: Storage thread Thread[#67,C2ME Storage #3,8,main] stopped
+[03:08:46] [C2ME Storage #2/INFO]: Storage thread Thread[#66,C2ME Storage #2,8,main] stopped
+[03:08:46] [C2ME Storage #6/INFO]: Storage thread Thread[#72,C2ME Storage #6,8,main] stopped
+[03:08:46] [C2ME Storage #5/INFO]: Storage thread Thread[#71,C2ME Storage #5,8,main] stopped
+[03:08:46] [C2ME Storage #1/INFO]: Storage thread Thread[#65,C2ME Storage #1,8,main] stopped
+[03:08:46] [C2ME Storage #4/INFO]: Storage thread Thread[#70,C2ME Storage #4,8,main] stopped
+[03:08:46] [C2ME Storage #9/INFO]: Storage thread Thread[#76,C2ME Storage #9,8,main] stopped
+[03:08:46] [C2ME Storage #8/INFO]: Storage thread Thread[#75,C2ME Storage #8,8,main] stopped
+[03:08:46] [C2ME Storage #7/INFO]: Storage thread Thread[#74,C2ME Storage #7,8,main] stopped
