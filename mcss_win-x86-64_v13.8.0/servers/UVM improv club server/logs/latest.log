@@ -1,5 +1,5 @@
-[03:05:40] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[03:05:40] [main/INFO]: Loading 78 mods:
+[09:06:05] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[09:06:05] [main/INFO]: Loading 78 mods:
 	- c2me 0.3.1+rc.1.0+1.21.4
 	   |-- c2me-base 0.3.1+rc.1.0+1.21.4
 	   |-- c2me-client-uncapvd 0.3.1+rc.1.0+1.21.4
@@ -90,220 +90,314 @@
 	- noisium 2.5.0+mc1.21.4
 	- voicechat 1.21.4-2.5.26
 	   \-- fabric-key-binding-api-v1 1.0.55+7feeb73382
-[03:05:41] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[03:05:41] [main/INFO]: Compatibility level set to JAVA_16
-[03:05:41] [main/INFO]: Compatibility level set to JAVA_17
-[03:05:41] [main/INFO]: Compatibility level set to JAVA_21
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[03:05:41] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[03:05:41] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[03:05:41] [main/INFO]: Detected maximum supported ISA target: AVX2
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[03:05:41] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[03:05:42] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[03:05:42] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[03:05:42] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[03:05:42] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[03:05:42] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[03:05:42] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[03:05:42] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[03:05:42] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[03:05:42] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[03:05:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[03:05:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[03:05:43] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[03:05:43] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
-[03:05:43] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[03:05:44] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[03:05:45] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[03:05:51] [main/INFO]: Loading Noisium.
-[03:05:51] [main/INFO]: [voicechat] Compatibility version 18
-[03:05:51] [main/INFO]: [voicechat] Loading plugins
-[03:05:51] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[03:05:51] [main/INFO]: [voicechat] Initializing plugins
-[03:05:51] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[03:05:52] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[03:05:53] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[03:05:53] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[03:05:53] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[03:05:54] [main/INFO]: Loaded 1370 recipes
-[03:05:54] [main/INFO]: Loaded 1554 advancements
-[03:05:54] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.393 ms
-[03:05:54] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[03:05:54] [Server thread/INFO]: Loading properties
-[03:05:54] [Server thread/INFO]: Default game type: SURVIVAL
-[03:05:54] [Server thread/INFO]: Generating keypair
-[03:05:55] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[03:05:55] [Server thread/INFO]: Using default channel type
-[03:05:55] [Server thread/INFO]: Preparing level "world"
-[03:05:55] [Server thread/INFO]: Enforcing safe world random access
-[03:05:55] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 345.0 ms
-[03:05:56] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[03:05:56] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 9.235 ms
-[03:05:56] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 4.364 ms
-[03:05:56] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:05:57] [User Authenticator #1/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[03:05:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[03:05:59] [Server thread/INFO]: Time elapsed: 3355 ms
-[03:05:59] [Server thread/INFO]: Done (4.300s)! For help, type "help"
-[03:05:59] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[03:05:59] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[03:05:59] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[03:06:00] [Server thread/INFO]: 17sk[/24.253.191.140:63642] logged in with entity id 1 at (-11183.034999125057, 64.68668707874468, 590.0216508037373)
-[03:06:00] [Server thread/INFO]: 17sk they / them joined the game
-[03:06:01] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[03:06:01] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[03:06:01] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[03:06:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[03:06:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[03:06:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[03:06:43] [User Authenticator #2/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
-[03:06:44] [Server thread/INFO]: GunYoshi[/98.214.164.251:58957] logged in with entity id 459 at (208.55223850637938, 15.0, -332.71071988248497)
-[03:06:44] [Server thread/INFO]: GunYoshi he / him joined the game
-[03:06:58] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[03:07:13] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
-[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
-[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
-[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
-[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
-[03:09:22] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=202, y=15, z=-346} class_2338{x=202, y=16, z=-347}
-[03:09:54] [Server thread/WARN]: 17sk moved too quickly! 2.315933971261984,-1.2426882039369644,-17.210657470032118
-[03:09:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2906ms or 58 ticks behind
-[03:10:00] [Server thread/WARN]: 17sk moved too quickly! 0.23391200776859478,-3.234690040670131,-17.275151730337598
-[03:10:06] [Server thread/WARN]: 17sk moved too quickly! 0.3917913379318634,-3.0861550012576373,-17.70905466334662
-[03:10:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2072ms or 41 ticks behind
-[03:11:26] [Server thread/INFO]: 17sk lost connection: Disconnected
-[03:11:26] [Server thread/INFO]: 17sk they / them left the game
-[03:11:26] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
-[03:13:00] [User Authenticator #3/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[03:13:02] [Server thread/INFO]: 17sk[/24.253.191.140:63987] logged in with entity id 10526 at (-12869.932250969869, 62.0, 397.0764625417711)
-[03:13:02] [Server thread/INFO]: 17sk they / them joined the game
-[03:13:03] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[03:13:03] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[03:13:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[03:13:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[03:13:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[03:15:08] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[03:15:19] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
-[03:15:26] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[03:16:02] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[03:28:58] [Server thread/INFO]: GunYoshi he / him has completed the challenge [Cover Me in Debris]
-[03:29:04] [Server thread/INFO]: <GunYoshi he / him> did you ever doubt?
-[03:29:08] [Server thread/INFO]: <17sk they / them> never dubted
-[03:29:17] [Server thread/INFO]: <17sk they / them> shiouldn't you also be iasleep
-[03:29:24] [Server thread/INFO]: <GunYoshi he / him> in fifteen minutes
-[03:29:28] [Server thread/INFO]: <GunYoshi he / him> im in cst lol
-[03:29:32] [Server thread/INFO]: <17sk they / them> ohh
-[03:30:48] [Server thread/INFO]: <17sk they / them> wait no way
-[03:30:54] [Server thread/INFO]: <GunYoshi he / him> whats up?
-[03:30:57] [Server thread/INFO]: <17sk they / them> i just found a creeper mob spawner
-[03:31:01] [Server thread/INFO]: <GunYoshi he / him> woah. woah
-[03:31:02] [Server thread/INFO]: <17sk they / them> CREEPER FARM HERE I COME
-[03:31:07] [Server thread/INFO]: <GunYoshi he / him> LOLLLLL
-[03:31:22] [Server thread/INFO]: <17sk they / them> easy peasy thats a later project (tmrw but also today yknow)
-[03:31:29] [Server thread/INFO]: <GunYoshi he / him> lolllll
-[03:31:29] [Server thread/INFO]: <17sk they / them> but thats incentive to log off
-[03:31:34] [Server thread/INFO]: <GunYoshi he / him> yes~
-[03:31:36] [Server thread/INFO]: <GunYoshi he / him> no\
-[03:31:37] [Server thread/INFO]: <GunYoshi he / him> yes!
-[03:31:42] [Server thread/INFO]: GunYoshi he / him has made the advancement [Crafting a New Look]
-[03:31:48] [Server thread/INFO]: <17sk they / them> only problem is that its at -13k
-[03:32:05] [Server thread/INFO]: 17sk lost connection: Disconnected
-[03:32:05] [Server thread/INFO]: 17sk they / them left the game
-[03:32:05] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
-[03:33:05] [Server thread/INFO]: GunYoshi lost connection: Disconnected
-[03:33:05] [Server thread/INFO]: GunYoshi he / him left the game
-[03:33:05] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
-[03:34:05] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[03:44:04] [User Authenticator #4/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[03:44:05] [Server thread/INFO]: 17sk[/24.253.191.140:64196] logged in with entity id 22508 at (-13447.414277277807, 24.0, 403.12767849638806)
-[03:44:05] [Server thread/INFO]: 17sk they / them joined the game
-[03:44:05] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[03:44:05] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[03:44:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[03:44:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[03:44:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[04:02:34] [Server thread/INFO]: 17sk lost connection: Disconnected
-[04:02:34] [Server thread/INFO]: 17sk they / them left the game
-[04:02:34] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
-[04:03:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[04:03:36] [User Authenticator #5/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[04:03:38] [Server thread/INFO]: 17sk[/24.253.191.140:64344] logged in with entity id 26853 at (-13428.959174284979, 18.54451055743173, 367.00162500291145)
-[04:03:38] [Server thread/INFO]: 17sk they / them joined the game
-[04:03:39] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[04:03:39] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[04:03:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[04:03:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[04:03:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[05:06:00] [Server thread/INFO]: Summoned new Cow
-[05:51:00] [Server thread/INFO]: You whisper to 17sk they / them: HOLY SHIT BEHIND YOU!
-[06:07:23] [Server thread/INFO]: 17sk they / them starved to death
-[07:06:00] [Server thread/INFO]: Summoned new Cow
-[07:57:41] [User Authenticator #6/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
-[07:57:43] [Server thread/INFO]: razeyrainbows[/146.115.92.123:52798] logged in with entity id 33142 at (125.17702219088844, 117.0625, 605.7068300866251)
-[07:57:43] [Server thread/INFO]: razeyrainbows they / them joined the game
-[07:57:44] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
-[07:57:44] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
-[07:57:44] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
-[07:57:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
-[07:57:45] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
-[08:00:13] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
-[08:00:13] [Server thread/INFO]: razeyrainbows they / them left the game
-[08:00:13] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
-[08:36:00] [Server thread/INFO]: You whisper to 17sk they / them: HOLY SHIT BEHIND YOU!
-[08:41:16] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[08:41:32] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[08:42:06] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[08:42:42] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
-[08:43:36] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
-[08:54:24] [Server thread/INFO]: <17sk they / them> -1685
-[08:54:36] [Server thread/INFO]: <17sk they / them> 45
-[08:54:42] [Server thread/INFO]: <17sk they / them> -1685 45
-[08:57:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2771ms or 55 ticks behind
-[09:00:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2656ms or 53 ticks behind
-[09:01:00] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 5 mins
-[09:05:00] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 1 minute
-[09:05:50] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 10 seconds
-[09:06:00] [Server thread/INFO]: Summoned new Cow
-[09:06:00] [Server thread/INFO]: Stopping the server
-[09:06:00] [Server thread/INFO]: Stopping server
-[09:06:00] [Server thread/INFO]: Saving players
-[09:06:00] [Server thread/INFO]: 17sk lost connection: Disconnected
-[09:06:00] [Server thread/INFO]: 17sk they / them left the game
-[09:06:00] [Server thread/INFO]: Saving worlds
-[09:06:00] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 8410 chunks to unload
-[09:06:01] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[09:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[09:06:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[09:06:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[09:06:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09:06:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09:06:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[09:06:02] [C2ME Storage #3/INFO]: Storage thread Thread[#69,C2ME Storage #3,8,main] stopped
-[09:06:02] [C2ME Storage #2/INFO]: Storage thread Thread[#66,C2ME Storage #2,8,main] stopped
-[09:06:02] [C2ME Storage #1/INFO]: Storage thread Thread[#65,C2ME Storage #1,8,main] stopped
-[09:06:02] [C2ME Storage #5/INFO]: Storage thread Thread[#73,C2ME Storage #5,8,main] stopped
-[09:06:02] [C2ME Storage #6/INFO]: Storage thread Thread[#74,C2ME Storage #6,8,main] stopped
-[09:06:02] [C2ME Storage #4/INFO]: Storage thread Thread[#72,C2ME Storage #4,8,main] stopped
-[09:06:02] [C2ME Storage #9/INFO]: Storage thread Thread[#78,C2ME Storage #9,8,main] stopped
-[09:06:02] [C2ME Storage #8/INFO]: Storage thread Thread[#77,C2ME Storage #8,8,main] stopped
-[09:06:02] [C2ME Storage #7/INFO]: Storage thread Thread[#76,C2ME Storage #7,8,main] stopped
+[09:06:05] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[09:06:05] [main/INFO]: Compatibility level set to JAVA_16
+[09:06:05] [main/INFO]: Compatibility level set to JAVA_17
+[09:06:05] [main/INFO]: Compatibility level set to JAVA_21
+[09:06:05] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[09:06:06] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[09:06:06] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[09:06:06] [main/INFO]: Detected maximum supported ISA target: AVX2
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[09:06:06] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[09:06:07] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[09:06:07] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[09:06:07] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[09:06:07] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[09:06:07] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[09:06:07] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[09:06:07] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[09:06:07] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[09:06:07] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[09:06:08] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[09:06:08] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[09:06:08] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[09:06:08] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
+[09:06:08] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[09:06:09] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[09:06:09] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[09:06:15] [main/INFO]: Loading Noisium.
+[09:06:15] [main/INFO]: [voicechat] Compatibility version 18
+[09:06:15] [main/INFO]: [voicechat] Loading plugins
+[09:06:15] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[09:06:15] [main/INFO]: [voicechat] Initializing plugins
+[09:06:15] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[09:06:16] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:06:17] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[09:06:17] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[09:06:17] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[09:06:18] [main/INFO]: Loaded 1370 recipes
+[09:06:18] [main/INFO]: Loaded 1554 advancements
+[09:06:18] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.326 ms
+[09:06:19] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[09:06:19] [Server thread/INFO]: Loading properties
+[09:06:19] [Server thread/INFO]: Default game type: SURVIVAL
+[09:06:19] [Server thread/INFO]: Generating keypair
+[09:06:19] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[09:06:19] [Server thread/INFO]: Using default channel type
+[09:06:19] [Server thread/INFO]: Preparing level "world"
+[09:06:19] [Server thread/INFO]: Enforcing safe world random access
+[09:06:19] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 197.1 ms
+[09:06:20] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[09:06:20] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.584 ms
+[09:06:20] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.708 ms
+[09:06:20] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:06:23] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[09:06:23] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[09:06:23] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[09:06:23] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[09:06:23] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[09:06:23] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[09:06:23] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[09:06:23] [Server thread/INFO]: Time elapsed: 3253 ms
+[09:06:23] [Server thread/INFO]: Done (3.983s)! For help, type "help"
+[09:06:23] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[09:06:23] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[09:06:23] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[09:07:20] [User Authenticator #1/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[09:07:21] [Server thread/INFO]: 17sk[/24.253.191.140:65289] logged in with entity id 1 at (-13451.300000011921, 16.0, 386.69999998807907)
+[09:07:21] [Server thread/INFO]: 17sk they / them joined the game
+[09:07:23] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[09:07:23] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[09:07:23] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[09:07:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2051ms or 41 ticks behind
+[09:07:23] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[09:07:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[09:07:24] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[09:09:02] [Server thread/INFO]: 17sk lost connection: Disconnected
+[09:09:02] [Server thread/INFO]: 17sk they / them left the game
+[09:09:02] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[09:09:59] [User Authenticator #2/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[09:10:00] [Server thread/INFO]: 17sk[/24.253.191.140:65408] logged in with entity id 1328 at (-13452.699999988079, 12.0, 391.30000001192093)
+[09:10:00] [Server thread/INFO]: 17sk they / them joined the game
+[09:10:01] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[09:10:01] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[09:10:02] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[09:10:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[09:10:03] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[11:06:24] [Server thread/INFO]: Summoned new Cow
+[11:28:52] [User Authenticator #3/INFO]: UUID of player Mosshroom_ is dc7e2ddf-9c53-4b85-a6eb-4c391086470b
+[11:28:53] [Server thread/INFO]: Mosshroom_[/71.232.16.38:50391] logged in with entity id 4554 at (-455.30000001192093, 75.0, -304.69999998807907)
+[11:28:53] [Server thread/INFO]: Mosshroom_ she / they joined the game
+[11:29:18] [Server thread/INFO]: <Mosshroom_ she / they> are you just always on?
+[11:43:37] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[11:48:51] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=203, y=48, z=159}
+[11:49:19] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[11:51:24] [Server thread/INFO]: You whisper to 17sk they / them: HOLY SHIT BEHIND YOU!
+[11:54:20] [Server thread/WARN]: Mosshroom_ moved too quickly! -17.78755280353289,-2.7334297781554255,-0.2852489654119381
+[11:56:30] [Server thread/INFO]: <Mosshroom_ she / they> yo
+[11:56:33] [Server thread/INFO]: <Mosshroom_ she / they> massive castle
+[11:56:33] [Server thread/INFO]: <Mosshroom_ she / they> wtf
+[11:58:45] [Server thread/INFO]: Mosshroom_ she / they has made the advancement [Frozen Remnants]
+[12:02:08] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=202, y=47, z=211}
+[12:09:19] [Server thread/INFO]: There are 2 of a max of 69 players online: 17sk they / them, Mosshroom_ she / they
+[12:09:54] [Server thread/INFO]: [Not Secure] [Server] we should add a Capitol Hill dungeon
+[12:10:14] [Server thread/INFO]: [Not Secure] [Server] where we raid it and get Nancy pelosis keyboard as loot
+[12:12:31] [Server thread/INFO]: <Mosshroom_ she / they> the loot in this thing is awful
+[12:19:34] [Server thread/INFO]: <17sk they / them> sorry hi
+[12:19:37] [Server thread/INFO]: <17sk they / them> yes moss im always on
+[12:19:45] [Server thread/INFO]: <Mosshroom_ she / they> sick
+[12:19:48] [Server thread/INFO]: <17sk they / them> im sitting at a gunpowder farm rn
+[12:19:51] [Server thread/INFO]: <Mosshroom_ she / they> ah
+[12:20:01] [Server thread/INFO]: <17sk they / them> im not actually ON, i just leave my shit open while i go bout my day
+[12:20:05] [Server thread/INFO]: <17sk they / them> i swear i have a life
+[12:20:28] [Server thread/INFO]: <17sk they / them> im combating capitalism with my own gunpowder farm
+[12:20:40] [Server thread/INFO]: <Mosshroom_ she / they> are you not also trying to sell it?
+[12:20:56] [Server thread/INFO]: <17sk they / them> i meani'll trade it for paper cuz if someone has paper then we can both make rockets
+[12:21:04] [Server thread/INFO]: <Mosshroom_ she / they> as i see
+[12:21:10] [Server thread/INFO]: <17sk they / them> but tbh im cool with just giving it away i have almost 2 shulkers of it already
+[12:21:19] [Server thread/INFO]: <17sk they / them> and i've been going since like 6 this morning maybe??
+[12:21:20] [Server thread/INFO]: <17sk they / them> idk
+[12:21:21] [Server thread/INFO]: <Mosshroom_ she / they> I'm in the process of making a huge cane farm
+[12:21:27] [Server thread/INFO]: <Mosshroom_ she / they> damn
+[12:21:29] [Server thread/INFO]: <17sk they / them> so lets collaborate or something
+[12:21:43] [Server thread/INFO]: <Mosshroom_ she / they> problem is
+[12:21:50] [Server thread/INFO]: <Mosshroom_ she / they> it's really expensive
+[12:21:59] [Server thread/INFO]: <Mosshroom_ she / they> because for each row I need a piston
+[12:21:59] [Server thread/INFO]: <17sk they / them> ohh, yea that would make sense
+[12:22:01] [Server thread/INFO]: <Mosshroom_ she / they> and observer
+[12:22:05] [Server thread/INFO]: <Mosshroom_ she / they> and I need mud
+[12:22:17] [Server thread/INFO]: <Mosshroom_ she / they> and that's so much cobblestone
+[12:22:18] [Server thread/INFO]: <17sk they / them> true
+[12:22:21] [Server thread/INFO]: <Mosshroom_ she / they> so it's gonna be a while
+[12:22:22] [Server thread/INFO]: <17sk they / them> yea that is a lot of cobblestone
+[12:22:26] [Server thread/INFO]: <Mosshroom_ she / they> also, before I do that
+[12:22:32] [Server thread/INFO]: <Mosshroom_ she / they> im gonna make an actual base
+[12:22:40] [Server thread/INFO]: <17sk they / them> yea thats smart i finally did that LOL
+[12:22:41] [Server thread/INFO]: <Mosshroom_ she / they> probably like 50k blocks out in the end
+[12:22:44] [Server thread/INFO]: <17sk they / them> DAMN
+[12:22:49] [Server thread/INFO]: <17sk they / them> hey that sounds sick
+[12:22:51] [Server thread/INFO]: <Mosshroom_ she / they> ty
+[12:23:04] [Server thread/INFO]: <Mosshroom_ she / they> if you ever wanna join feel freee
+[12:23:27] [Server thread/INFO]: <17sk they / them> thanks! i am gonna afk for a bit more and walk my dog, maybe make lunch
+[12:23:33] [Server thread/INFO]: <Mosshroom_ she / they> sick
+[12:23:39] [Server thread/INFO]: <17sk they / them> be seeing you!
+[12:23:52] [Server thread/INFO]: <Mosshroom_ she / they> cya!
+[12:29:10] [Server thread/INFO]: <Mosshroom_ she / they> I GOT A GOD APPLE
+[12:29:10] [Server thread/INFO]: <Mosshroom_ she / they> WTF
+[12:29:13] [Server thread/INFO]: <Mosshroom_ she / they> CITADELS ARE GOATEED
+[13:01:52] [Server thread/INFO]: [Not Secure] [Server] oh shit
+[13:06:24] [Server thread/INFO]: Summoned new Cow
+[13:06:24] [Server thread/INFO]: Summoned new Cow
+[13:21:09] [User Authenticator #4/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[13:21:10] [Server thread/INFO]: madb0nes[/72.70.38.62:54555] logged in with entity id 46613 at (222.4545566208171, 88.0, 539.9922746191287)
+[13:21:10] [Server thread/INFO]: madb0nes he / him joined the game
+[13:21:11] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
+[13:21:11] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
+[13:21:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[13:21:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[13:21:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
+[13:30:11] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-5, y=60, z=-248} class_2338{x=-5, y=61, z=-248}
+[13:30:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-4, y=60, z=-249} class_2338{x=-4, y=61, z=-249}
+[13:30:18] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4, y=58, z=-245} class_2338{x=4, y=59, z=-245}
+[13:34:12] [Server thread/INFO]: madb0nes lost connection: Disconnected
+[13:34:12] [Server thread/INFO]: madb0nes he / him left the game
+[13:34:12] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
+[13:34:18] [User Authenticator #5/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[13:34:18] [Server thread/INFO]: madb0nes[/72.70.38.62:55689] logged in with entity id 57348 at (-143.91594602754031, 67.22149363870948, -289.92500001192093)
+[13:34:18] [Server thread/INFO]: madb0nes he / him joined the game
+[13:34:18] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
+[13:34:18] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
+[13:34:19] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[13:34:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[13:34:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
+[13:34:23] [Server thread/INFO]: madb0nes lost connection: Disconnected
+[13:34:23] [Server thread/INFO]: madb0nes he / him left the game
+[13:34:23] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
+[13:34:35] [User Authenticator #6/INFO]: UUID of player madb0nes is fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[13:34:36] [Server thread/INFO]: madb0nes[/72.70.38.62:55728] logged in with entity id 59138 at (-145.07499998807907, 67.0, -289.92500001192093)
+[13:34:36] [Server thread/INFO]: madb0nes he / him joined the game
+[13:34:36] [Server thread/INFO]: [voicechat] Received secret request of madb0nes (18)
+[13:34:36] [Server thread/INFO]: [voicechat] Sent secret to madb0nes
+[13:34:36] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[13:34:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fdc3eea0-4c9b-4e31-98ca-3e26eea1e934
+[13:34:37] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player madb0nes (fdc3eea0-4c9b-4e31-98ca-3e26eea1e934) successfully connected to voice chat
+[13:44:45] [User Authenticator #7/INFO]: UUID of player razeyrainbows is 71d22613-a106-44c1-8a58-5033a89545aa
+[13:44:45] [Server thread/INFO]: razeyrainbows[/146.115.92.123:53007] logged in with entity id 68261 at (144.4964356953585, 105.0, 599.7526141519664)
+[13:44:45] [Server thread/INFO]: razeyrainbows they / them joined the game
+[13:44:46] [Server thread/INFO]: [voicechat] Received secret request of razeyrainbows (18)
+[13:44:46] [Server thread/INFO]: [voicechat] Sent secret to razeyrainbows
+[13:44:46] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 71d22613-a106-44c1-8a58-5033a89545aa
+[13:44:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 71d22613-a106-44c1-8a58-5033a89545aa
+[13:44:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player razeyrainbows (71d22613-a106-44c1-8a58-5033a89545aa) successfully connected to voice chat
+[13:44:50] [Server thread/INFO]: <madb0nes he / him> HII
+[13:44:51] [Server thread/INFO]: <Mosshroom_ she / they> hai
+[13:44:54] [Server thread/INFO]: <razeyrainbows they / them> hiiiiii
+[13:50:31] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19186, y=70, z=-2461} class_2338{x=-19185, y=70, z=-2461}
+[13:54:14] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=214, y=86, z=536} class_2338{x=218, y=86, z=542}
+[13:59:15] [Server thread/INFO]: <razeyrainbows they / them> byebyeee
+[13:59:20] [Server thread/INFO]: <madb0nes he / him> o/
+[13:59:28] [Server thread/INFO]: razeyrainbows lost connection: Disconnected
+[13:59:28] [Server thread/INFO]: razeyrainbows they / them left the game
+[13:59:28] [Server thread/INFO]: [voicechat] Disconnecting client razeyrainbows
+[14:28:15] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19197, y=92, z=-2434} class_2338{x=-19194, y=94, z=-2435}
+[14:29:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19144, y=78, z=-2388} class_2338{x=-19157, y=78, z=-2379}
+[14:29:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19144, y=78, z=-2388} class_2338{x=-19157, y=78, z=-2379}
+[14:31:12] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19219, y=72, z=-2447} class_2338{x=-19218, y=71, z=-2436}
+[14:32:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19151, y=123, z=-2410} class_2338{x=-19143, y=118, z=-2398}
+[14:32:39] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-19151, y=123, z=-2410} class_2338{x=-19143, y=118, z=-2398}
+[14:35:39] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[14:35:50] [Server thread/WARN]: Mosshroom_ moved too quickly! 17.492238956136134,-1.5744470240129118,1.4271405417034657
+[14:36:24] [Server thread/INFO]: You whisper to Mosshroom_ she / they: HOLY SHIT BEHIND YOU!
+[14:38:47] [Server thread/WARN]: Mosshroom_ moved too quickly! 17.634545981749397,-1.9368674686920428,3.5745663363325093
+[14:39:53] [Server thread/WARN]: Mosshroom_ moved too quickly! 17.53134789444448,-2.085862378923565,0.6339365132142802
+[14:41:16] [Server thread/WARN]: Mosshroom_ moved too quickly! 17.13923061390051,-1.761945275170234,2.7155707312557524
+[14:41:34] [Server thread/WARN]: Mosshroom_ moved too quickly! 17.552409927464396,-1.9311212195790404,1.6578835465769544
+[14:44:22] [c2me-worker-0/ERROR]: Block-attached entity at invalid position: class_2338{x=216, y=47, z=211}
+[14:44:37] [Server thread/WARN]: Mosshroom_ moved too quickly! 17.721414232059942,-1.793853365484594,0.6068488704331685
+[14:44:38] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=230, y=77, z=340} class_2338{x=231, y=75, z=341}
+[14:45:00] [Server thread/INFO]: Villager class_1646['Villager'/101745, l='ServerLevel[world]', x=-4239.37, y=86.56, z=-757.72] died, message: 'Villager suffocated in a wall'
+[14:45:55] [Server thread/WARN]: Mosshroom_ moved too quickly! 18.309107683199272,-1.8127928115196426,0.34258120498134303
+[14:46:27] [Server thread/WARN]: Mosshroom_ moved too quickly! 18.143039944355678,-1.8072609827769952,-0.4186119057731048
+[14:46:30] [Server thread/WARN]: Mosshroom_ moved too quickly! 13.155756807222815,11.943027479858358,1.688202180403323
+[14:51:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6406ms or 128 ticks behind
+[14:56:50] [Server thread/INFO]: [Not Secure] [Server] yo lmk when youre in the end
+[14:56:55] [Server thread/INFO]: [Not Secure] [Server] im gonna put u in creative lmao
+[14:56:58] [Server thread/INFO]: <Mosshroom_ she / they> im at the farm
+[14:57:03] [Server thread/INFO]: [Not Secure] [Server] bet bet
+[14:57:08] [Server thread/INFO]: Unknown game mode: Mosshroom_
+[14:57:08] [Server thread/INFO]: ...Mosshroom_ creative<--[HERE]
+[14:57:14] [Server thread/INFO]: Set Mosshroom_ she / they's game mode to Creative Mode
+[14:57:19] [Server thread/INFO]: <Mosshroom_ she / they> thanks goatr
+[14:57:33] [Server thread/INFO]: [Not Secure] [Server] lmk when youre done
+[15:01:05] [Server thread/INFO]: <Mosshroom_ she / they> it won't let me nametag him
+[15:01:24] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 5 mins
+[15:01:32] [Server thread/INFO]: <Mosshroom_ she / they> take away dreative rq
+[15:01:38] [Server thread/INFO]: <Mosshroom_ she / they> fuck
+[15:01:40] [Server thread/INFO]: <Mosshroom_ she / they> he despawned
+[15:02:24] [Server thread/INFO]: madb0nes lost connection: Disconnected
+[15:02:24] [Server thread/INFO]: madb0nes he / him left the game
+[15:02:24] [Server thread/INFO]: [voicechat] Disconnecting client madb0nes
+[15:02:42] [Server thread/INFO]: Named entity class_1559['Gubbugins'/116258, l='ServerLevel[world]', x=242.40, y=3.72, z=1.16] died: Gubbugins was slain by Enderman
+[15:03:40] [Server thread/INFO]: [Not Secure] [Server] wait sorry
+[15:03:49] [Server thread/INFO]: [Not Secure] [Server] do u need anything
+[15:04:16] [Server thread/INFO]: [Not Secure] [Server] who the fuck is gubbugins
+[15:04:20] [Server thread/INFO]: [Not Secure] [Server] is that the endermite LMFAO
+[15:04:22] [Server thread/INFO]: <Mosshroom_ she / they> yes
+[15:04:30] [Server thread/INFO]: [Not Secure] [Server] do i need t odo anything else
+[15:04:38] [Server thread/INFO]: <Mosshroom_ she / they> i can't get this fuck in the cart
+[15:04:41] [Server thread/INFO]: <Mosshroom_ she / they> gimme a sec
+[15:04:47] [Server thread/INFO]: Named entity class_1559['Gubbugins'/118448, l='ServerLevel[world]', x=241.80, y=7.06, z=1.80] died: Gubbugins was slain by Mosshroom_ she / they using [I LOVE HOMICIDE!!!!!!!!!!!!!!!]
+[15:04:59] [Server thread/INFO]: <17sk they / them> can you give me 16 stacks of diamonds and a full enchanted crossbow with all the new denchats if you are taking orders
+[15:05:11] [Server thread/INFO]: <17sk they / them> kidding
+[15:05:15] [Server thread/INFO]: [Not Secure] [Server] sure!
+[15:05:18] [Server thread/INFO]: <17sk they / them> nonononoonnononono
+[15:05:24] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 1 minute
+[15:05:26] [Server thread/INFO]: 17sk lost connection: 16 stacks of diamonds and a full enchanted crossbow with all the new denchats
+[15:05:26] [Server thread/INFO]: 17sk they / them left the game
+[15:05:26] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[15:05:26] [Server thread/INFO]: Kicked 17sk they / them: 16 stacks of diamonds and a full enchanted crossbow with all the new denchats
+[15:05:27] [Server thread/WARN]: handleDisconnection() called twice
+[15:05:33] [User Authenticator #8/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[15:05:34] [Server thread/INFO]: 17sk[/24.253.191.140:50797] logged in with entity id 118478 at (-13452.699999988079, 14.0, 392.25774536705694)
+[15:05:34] [Server thread/INFO]: 17sk they / them joined the game
+[15:05:34] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[15:05:34] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[15:05:34] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[15:05:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[15:05:35] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[15:05:36] [Server thread/INFO]: <17sk they / them> LOL
+[15:05:48] [Server thread/INFO]: [Not Secure] [Server] trolololol
+[15:05:51] [Server thread/INFO]: Named entity class_1559['Gubbugins'/118915, l='ServerLevel[world]', x=238.72, y=5.06, z=0.50] died: Gubbugins was slain by Mosshroom_ she / they using [I LOVE HOMICIDE!!!!!!!!!!!!!!!]
+[15:06:14] [Server thread/INFO]: [Not Secure] [Server] the server is gonna restart in 10 seconds
+[15:06:24] [Server thread/INFO]: Summoned new Cow
+[15:06:24] [Server thread/INFO]: Summoned new Cow
+[15:06:24] [Server thread/INFO]: Stopping the server
+[15:06:24] [Server thread/INFO]: Stopping server
+[15:06:24] [Server thread/INFO]: Saving players
+[15:06:24] [Server thread/INFO]: Mosshroom_ lost connection: Server closed
+[15:06:24] [Server thread/INFO]: Mosshroom_ she / they left the game
+[15:06:24] [Server thread/INFO]: Saving worlds
+[15:06:24] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 9139 chunks to unload
+[15:06:24] [Server thread/INFO]: ServerLevel[world]/minecraft:the_end: waiting for 7569 chunks to unload
+[15:06:26] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 247 chunks to unload
+[15:06:28] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 1 chunks to unload
+[15:06:30] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 1 chunks to unload
+[15:06:30] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:06:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[15:06:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[15:06:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:06:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:06:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:06:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:06:32] [C2ME Storage #3/INFO]: Storage thread Thread[#67,C2ME Storage #3,8,main] stopped
+[15:06:32] [C2ME Storage #2/INFO]: Storage thread Thread[#66,C2ME Storage #2,8,main] stopped
+[15:06:32] [C2ME Storage #1/INFO]: Storage thread Thread[#65,C2ME Storage #1,8,main] stopped
+[15:06:32] [C2ME Storage #6/INFO]: Storage thread Thread[#72,C2ME Storage #6,8,main] stopped
+[15:06:32] [C2ME Storage #5/INFO]: Storage thread Thread[#71,C2ME Storage #5,8,main] stopped
+[15:06:32] [C2ME Storage #4/INFO]: Storage thread Thread[#70,C2ME Storage #4,8,main] stopped
+[15:06:32] [C2ME Storage #9/INFO]: Storage thread Thread[#76,C2ME Storage #9,8,main] stopped
+[15:06:32] [C2ME Storage #8/INFO]: Storage thread Thread[#75,C2ME Storage #8,8,main] stopped
+[15:06:32] [C2ME Storage #7/INFO]: Storage thread Thread[#74,C2ME Storage #7,8,main] stopped
