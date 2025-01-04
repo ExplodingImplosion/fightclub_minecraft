@@ -20,7 +20,7 @@
       {
         "guid": "a8c28e7b-0e9b-4dfe-8478-99375bd89536",
         "name": "stop on no one in server",
-        "enabled": false,
+        "enabled": true,
         "playerRequirement": "Empty",
         "timing": {
           "interval": 60,
@@ -46,7 +46,7 @@
       {
         "guid": "828f2585-6a59-4829-bb56-f384cae75352",
         "name": "behind you",
-        "enabled": true,
+        "enabled": false,
         "playerRequirement": "AtLeastOne",
         "timing": {
           "interval": 9900,
