@@ -8617,15 +8617,21 @@
     },
     "done": false
   },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2025-01-02 01:42:29 -0500"
+    },
+    "done": true
+  },
   "minecraft:adventure/spyglass_at_parrot": {
     "criteria": {
       "spyglass_at_parrot": "2025-01-02 01:59:09 -0500"
     },
     "done": true
   },
-  "minecraft:husbandry/tactical_fishing": {
+  "minecraft:adventure/walk_on_powder_snow_with_leather_boots": {
     "criteria": {
-      "tropical_fish_bucket": "2025-01-02 01:42:29 -0500"
+      "walk_on_powder_snow_with_leather_boots": "2025-01-03 16:44:14 -0500"
     },
     "done": true
   },

@@ -1,12 +1,12 @@
-[13:18:18] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
-[13:18:18] [main/WARN]: Warnings were found!
+[13:44:50] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.9
+[13:44:51] [main/WARN]: Warnings were found!
  - Mod 'Spawn Animations' (spawnanimations) 1.10+mod recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
  - Mod 'Spawn Animations' (spawnanimations) 1.10+mod recommends any version of modmenu-badges-lib, which is missing!
 	 - You should install any version of modmenu-badges-lib for the optimal experience.
  - Mod 'Spawn Animations' (spawnanimations) 1.10+mod recommends any version of midnightlib, which is missing!
 	 - You should install any version of midnightlib for the optimal experience.
-[13:18:18] [main/INFO]: Loading 79 mods:
+[13:44:51] [main/INFO]: Loading 79 mods:
 	- c2me 0.3.1+rc.1.0+1.21.4
 	   |-- c2me-base 0.3.1+rc.1.0+1.21.4
 	   |-- c2me-client-uncapvd 0.3.1+rc.1.0+1.21.4
@@ -98,133 +98,356 @@
 	- spawnanimations 1.10+mod
 	- voicechat 1.21.4-2.5.26
 	   \-- fabric-key-binding-api-v1 1.0.55+7feeb73382
-[13:18:19] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[13:18:19] [main/INFO]: Compatibility level set to JAVA_16
-[13:18:19] [main/INFO]: Compatibility level set to JAVA_17
-[13:18:19] [main/INFO]: Compatibility level set to JAVA_21
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[13:18:19] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[13:18:19] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[13:18:19] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[13:18:20] [main/INFO]: Detected maximum supported ISA target: AVX2
-[13:18:20] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[13:18:20] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[13:18:20] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[13:18:20] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[13:18:20] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[13:18:20] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[13:18:20] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[13:18:20] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[13:18:20] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[13:18:20] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[13:18:20] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
-[13:18:20] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
-[13:18:20] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
-[13:18:21] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
-[13:18:21] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
-[13:18:21] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
-[13:18:21] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
-[13:18:21] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
-[13:18:22] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
-[13:18:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[13:18:28] [main/INFO]: Loading Noisium.
-[13:18:28] [main/INFO]: [Spawn Animations] Loaded Spawn Animations by Tschipcraft successfully!
-[13:18:28] [main/INFO]: [voicechat] Compatibility version 18
-[13:18:28] [main/INFO]: [voicechat] Loading plugins
-[13:18:28] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[13:18:28] [main/INFO]: [voicechat] Initializing plugins
-[13:18:28] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[13:18:29] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:18:30] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
-[13:18:30] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
-[13:18:30] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
-[13:18:31] [main/INFO]: Loaded 1370 recipes
-[13:18:31] [main/INFO]: Loaded 1555 advancements
-[13:18:31] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.261 ms
-[13:18:31] [Server thread/INFO]: Starting minecraft server version 1.21.4
-[13:18:31] [Server thread/INFO]: Loading properties
-[13:18:31] [Server thread/INFO]: Default game type: SURVIVAL
-[13:18:31] [Server thread/INFO]: Generating keypair
-[13:18:31] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
-[13:18:32] [Server thread/INFO]: Using default channel type
-[13:18:32] [Server thread/INFO]: Preparing level "world"
-[13:18:32] [Server thread/INFO]: Enforcing safe world random access
-[13:18:32] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 189.3 ms
-[13:18:32] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[13:18:32] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.870 ms
-[13:18:32] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.968 ms
-[13:18:32] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:18:33] [User Authenticator #1/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
-[13:18:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[13:18:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[13:18:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[13:18:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[13:18:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[13:18:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[13:18:35] [Server thread/INFO]: Time elapsed: 3015 ms
-[13:18:35] [Server thread/INFO]: Done (3.689s)! For help, type "help"
-[13:18:35] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
-[13:18:35] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
-[13:18:35] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
-[13:18:37] [Server thread/INFO]: 17sk[/24.253.191.140:54749] logged in with entity id 11 at (-8850.547919817363, 1.1767592750642373, 16.931919718215948)
-[13:18:37] [Server thread/INFO]: 17sk they / them joined the game
-[13:18:38] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
-[13:18:38] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
-[13:18:38] [Server thread/INFO]: [voicechat] Sent secret to 17sk
-[13:18:39] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
-[13:18:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
-[13:18:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
-[13:19:22] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
-[13:19:22] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
-[13:19:23] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
-[13:19:24] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
-[13:19:25] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
-[13:19:26] [Server thread/WARN]: Couldn't find a compatible enchantment for 1 minecraft:enchanted_book
-[13:22:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8799, y=8, z=22} class_2338{x=-8811, y=10, z=20}
-[13:22:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8799, y=8, z=22} class_2338{x=-8811, y=10, z=21}
-[13:22:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8799, y=8, z=22} class_2338{x=-8811, y=10, z=21}
-[13:22:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8799, y=8, z=22} class_2338{x=-8811, y=10, z=21}
-[13:22:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8799, y=8, z=22} class_2338{x=-8811, y=10, z=21}
-[13:22:21] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-8799, y=8, z=22} class_2338{x=-8811, y=10, z=21}
-[13:25:21] [User Authenticator #2/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
-[13:25:22] [Server thread/INFO]: GunYoshi[/98.214.164.251:60124] logged in with entity id 3486 at (-165.6019659117476, 68.0, -292.93017093791957)
-[13:25:22] [Server thread/INFO]: GunYoshi he / him joined the game
-[13:25:31] [Server thread/INFO]: <17sk they / them> hi ben
-[13:25:38] [Server thread/INFO]: <GunYoshi he / him> hi! just on for one sec to check msthn
-[13:27:33] [Server thread/INFO]: GunYoshi lost connection: Disconnected
-[13:27:33] [Server thread/INFO]: GunYoshi he / him left the game
-[13:27:33] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
-[13:30:36] [Server thread/INFO]: 17sk they / them drowned
-[13:32:00] [Server thread/INFO]: 17sk lost connection: Disconnected
-[13:32:00] [Server thread/INFO]: 17sk they / them left the game
-[13:32:00] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
-[13:32:36] [Server thread/INFO]: Stopping the server
-[13:32:36] [Server thread/INFO]: Stopping server
-[13:32:36] [Server thread/INFO]: Saving players
-[13:32:36] [Server thread/INFO]: Saving worlds
-[13:32:36] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
-[13:32:36] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[13:32:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[13:32:37] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[13:32:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[13:32:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13:32:37] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13:32:37] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[13:32:37] [C2ME Storage #3/INFO]: Storage thread Thread[#68,C2ME Storage #3,8,main] stopped
-[13:32:37] [C2ME Storage #2/INFO]: Storage thread Thread[#66,C2ME Storage #2,8,main] stopped
-[13:32:37] [C2ME Storage #1/INFO]: Storage thread Thread[#65,C2ME Storage #1,8,main] stopped
-[13:32:37] [C2ME Storage #6/INFO]: Storage thread Thread[#73,C2ME Storage #6,8,main] stopped
-[13:32:37] [C2ME Storage #5/INFO]: Storage thread Thread[#72,C2ME Storage #5,8,main] stopped
-[13:32:37] [C2ME Storage #4/INFO]: Storage thread Thread[#71,C2ME Storage #4,8,main] stopped
-[13:32:37] [C2ME Storage #9/INFO]: Storage thread Thread[#77,C2ME Storage #9,8,main] stopped
-[13:32:37] [C2ME Storage #8/INFO]: Storage thread Thread[#76,C2ME Storage #8,8,main] stopped
-[13:32:37] [C2ME Storage #7/INFO]: Storage thread Thread[#75,C2ME Storage #7,8,main] stopped
+[13:44:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/Owner/Desktop/fightclub_minecraft/mcss_win-x86-64_v13.8.0/servers/UVM%20improv%20club%20server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:44:52] [main/INFO]: Compatibility level set to JAVA_16
+[13:44:52] [main/INFO]: Compatibility level set to JAVA_17
+[13:44:52] [main/INFO]: Compatibility level set to JAVA_21
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[13:44:52] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[13:44:52] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[13:44:52] [main/INFO]: Detected maximum supported ISA target: AVX2
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[13:44:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[13:44:53] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[13:44:53] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[13:44:53] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[13:44:53] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[13:44:53] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[13:44:53] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[13:44:53] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[13:44:53] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[13:44:53] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[13:44:54] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[13:44:54] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[13:44:54] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[13:44:54] [main/INFO]: Loaded configuration file for Lithium: 140 options available, 1 override(s) found
+[13:44:54] [main/WARN]: Error loading class: ca/spottedleaf/starlight/common/thread/SchedulingUtil (java.lang.ClassNotFoundException: ca/spottedleaf/starlight/common/thread/SchedulingUtil)
+[13:44:55] [main/INFO]: Force-enabling mixin 'compat.transfer_api.TransferApiHelperMixin' as rule 'mixin.compat.transfer_api' (added by mods [lithium]) enables it
+[13:44:55] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13:45:01] [main/INFO]: Loading Noisium.
+[13:45:01] [main/INFO]: [Spawn Animations] Loaded Spawn Animations by Tschipcraft successfully!
+[13:45:01] [main/INFO]: [voicechat] Compatibility version 18
+[13:45:01] [main/INFO]: [voicechat] Loading plugins
+[13:45:01] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[13:45:01] [main/INFO]: [voicechat] Initializing plugins
+[13:45:01] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[13:45:01] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:45:03] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/husk}.pools[2].entries[0]: Unknown loot table called husks_drop_sand:entities/husk
+[13:45:03] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/villager}.pools[2].entries[0]: Unknown loot table called villager_death:entities/villager
+[13:45:03] [Worker-Main-3/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:entities/bat}.pools[2].entries[0]: Unknown loot table called bat_membranes:entities/bat
+[13:45:03] [main/INFO]: Loaded 1370 recipes
+[13:45:03] [main/INFO]: Loaded 1555 advancements
+[13:45:03] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.182 ms
+[13:45:04] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[13:45:04] [Server thread/INFO]: Loading properties
+[13:45:04] [Server thread/INFO]: Default game type: SURVIVAL
+[13:45:04] [Server thread/INFO]: Generating keypair
+[13:45:04] [Server thread/INFO]: Starting Minecraft server on 192.168.86.140:25565
+[13:45:04] [Server thread/INFO]: Using default channel type
+[13:45:04] [Server thread/INFO]: Preparing level "world"
+[13:45:04] [Server thread/INFO]: Enforcing safe world random access
+[13:45:05] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 222.3 ms
+[13:45:05] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[13:45:05] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.131 ms
+[13:45:05] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 3.808 ms
+[13:45:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:45:07] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[13:45:07] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[13:45:07] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[13:45:07] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[13:45:07] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[13:45:07] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[13:45:08] [Server thread/INFO]: Time elapsed: 3026 ms
+[13:45:08] [Server thread/INFO]: Done (3.744s)! For help, type "help"
+[13:45:08] [VoiceChatServerThread/INFO]: [voicechat] Using server-ip as bind address: 192.168.86.140
+[13:45:08] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '71.232.19.208:25569'
+[13:45:08] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at 192.168.86.140:25565
+[13:45:09] [User Authenticator #1/INFO]: UUID of player 17sk is e95834af-1c1b-4130-afd5-d649cae36b67
+[13:45:12] [Server thread/INFO]: 17sk[/24.253.191.140:55086] logged in with entity id 11 at (-8850.109357650424, 55.0, 864.6190658274264)
+[13:45:12] [Server thread/INFO]: 17sk they / them joined the game
+[13:45:12] [Server thread/INFO]: [STDOUT]: Lithium Cached BlockState Flags are disabled!
+[13:45:13] [Server thread/INFO]: [voicechat] Received secret request of 17sk (18)
+[13:45:13] [Server thread/INFO]: [voicechat] Sent secret to 17sk
+[13:45:13] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e95834af-1c1b-4130-afd5-d649cae36b67
+[13:45:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e95834af-1c1b-4130-afd5-d649cae36b67
+[13:45:14] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 17sk (e95834af-1c1b-4130-afd5-d649cae36b67) successfully connected to voice chat
+[13:55:46] [User Authenticator #2/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[13:55:47] [Server thread/INFO]: GunYoshi[/98.214.164.251:60160] logged in with entity id 14869 at (-180.65418953414493, 69.0, -330.89260742008753)
+[13:55:47] [Server thread/INFO]: GunYoshi he / him joined the game
+[13:55:51] [Server thread/INFO]: <GunYoshi he / him> hi!
+[13:56:04] [Server thread/INFO]: <17sk they / them> hi
+[13:56:05] [Server thread/INFO]: <17sk they / them> !!!
+[13:56:17] [Server thread/INFO]: <GunYoshi he / him> ! !
+[13:56:28] [Server thread/INFO]: <17sk they / them> i finally gotlooting
+[13:56:34] [Server thread/INFO]: <GunYoshi he / him> woah did u nothave it
+[13:56:37] [Server thread/INFO]: <17sk they / them> nope
+[13:56:40] [Server thread/INFO]: <GunYoshi he / him> damn
+[13:56:42] [Server thread/INFO]: <17sk they / them> yea
+[13:56:48] [Server thread/INFO]: <17sk they / them> and something called spiteful
+[13:56:56] [Server thread/INFO]: <GunYoshi he / him> oooohh adrian was tellin g me abt that
+[13:56:59] [Server thread/INFO]: <GunYoshi he / him> seems cool as hell
+[13:56:59] [Server thread/INFO]: <17sk they / them> every time i take damage tehre is a chance i get like 2 seconds of strength
+[13:57:06] [Server thread/INFO]: <17sk they / them> yea its cool
+[13:57:33] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3205ms or 64 ticks behind
+[13:58:49] [Server thread/INFO]: <GunYoshi he / him> LMAO Grekel is awesome
+[13:58:53] [Server thread/INFO]: <17sk they / them> thanks!
+[14:02:30] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-195, y=72, z=-321} class_2338{x=-195, y=74, z=-321}
+[14:07:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-9575, y=66, z=91} class_2338{x=-9574, y=55, z=90}
+[14:08:05] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-9739, y=67, z=49} class_2338{x=-9740, y=67, z=48}
+[14:08:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-9748, y=68, z=46} class_2338{x=-9747, y=67, z=48}
+[14:12:09] [Server thread/INFO]: Villager class_1646['Villager'/46134, l='ServerLevel[world]', x=-9524.43, y=75.00, z=-467.11] died, message: 'Villager was slain by Husk'
+[14:20:10] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-7975, y=64, z=-181} class_2338{x=-7974, y=53, z=-182}
+[14:27:01] [Server thread/INFO]: 17sk lost connection: Disconnected
+[14:27:01] [Server thread/INFO]: 17sk they / them left the game
+[14:27:01] [Server thread/INFO]: [voicechat] Disconnecting client 17sk
+[14:32:42] [Server thread/INFO]: [GunYoshi he / him: Triggered [toggle coordinates hud]]
+[14:54:54] [User Authenticator #3/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[14:54:55] [Server thread/INFO]: _scasey[/100.14.20.111:57799] logged in with entity id 75120 at (-134.5528157764769, 68.125, -283.51249998807907)
+[14:54:55] [Server thread/INFO]: _scasey she / her joined the game
+[14:54:55] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[14:54:55] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[14:54:55] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[14:54:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[14:54:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[14:54:58] [Server thread/INFO]: <GunYoshi he / him> hi!
+[14:55:12] [Server thread/INFO]: <_scasey she / her> holy crap GunYoshi from minecraft
+[15:03:54] [Server thread/INFO]: <_scasey she / her> what are you building king
+[15:04:00] [Server thread/INFO]: <GunYoshi he / him> workin on my trees
+[15:04:06] [Server thread/INFO]: <_scasey she / her> dope
+[15:04:18] [Server thread/INFO]: <GunYoshi he / him> i got four nice designs out in creativ eand are litematica ing some in
+[15:04:49] [Server thread/INFO]: <GunYoshi he / him> if u have any excess jungle wood or azalea leaves (not flowering) ive just realized i will need. so much
+[15:04:56] [Server thread/INFO]: <GunYoshi he / him> or glowberries
+[15:05:18] [Server thread/INFO]: <_scasey she / her> i have some in my greenery shulker its up at my garden rn
+[15:05:41] [Server thread/INFO]: <GunYoshi he / him> GOAT! thank youuu
+[15:06:39] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved wrongly! 0.5886771829845827
+[15:06:39] [Server thread/WARN]: Horse (vehicle of GunYoshi) moved wrongly! 0.8292171582957621
+[15:06:51] [Server thread/INFO]: <GunYoshi he / him> ok u dont have that much i woint take
+[15:06:54] [Server thread/INFO]: <GunYoshi he / him> but i appreciate !!
+[15:07:01] [Server thread/INFO]: <_scasey she / her> oh wait i totally put the wood away in my house
+[15:07:26] [Server thread/INFO]: <GunYoshi he / him> im so distracted by looking at this beautoful fountain
+[15:07:35] [Server thread/INFO]: <GunYoshi he / him> i want to visit it in real life
+[15:07:39] [Server thread/INFO]: <_scasey she / her> LMAO
+[15:16:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-203, y=88, z=-168} class_2338{x=-203, y=87, z=-168}
+[15:35:17] [Server thread/INFO]: <GunYoshi he / him> casey do u still need dirt
+[15:35:26] [Server thread/INFO]: <_scasey she / her> nah im good for a solid bit
+[15:35:29] [Server thread/INFO]: <GunYoshi he / him> ok cool
+[15:45:08] [Server thread/INFO]: Summoned new Cow
+[15:45:08] [Server thread/INFO]: Summoned new Cow
+[15:53:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
+[15:53:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
+[15:53:38] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
+[15:53:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[15:53:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[15:53:48] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[16:01:56] [User Authenticator #4/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:01:58] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:61912] logged in with entity id 92982 at (199.6514833071146, 89.0, 509.30000001192093)
+[16:01:58] [Server thread/INFO]: Lemon_Frog she / her joined the game
+[16:01:59] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
+[16:01:59] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[16:02:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:02:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:02:01] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
+[16:02:04] [Server thread/INFO]: <_scasey she / her> AAAAAAAAAA
+[16:02:12] [Server thread/INFO]: <Lemon_Frog she / her> thank you queen
+[16:02:19] [Server thread/INFO]: <_scasey she / her> np o7
+[16:02:19] [Server thread/INFO]: <GunYoshi he / him> woah
+[16:02:41] [Server thread/INFO]: <GunYoshi he / him> this. didnt mean to do this rifht after you joined but i am leavi g now lol
+[16:02:46] [Server thread/INFO]: <Lemon_Frog she / her> YEAH WE HAVE ANARCHO COMMUNIST DRAGON
+[16:02:48] [Server thread/INFO]: <GunYoshi he / him> talk to yall later!
+[16:02:50] [Server thread/INFO]: <Lemon_Frog she / her> god bless
+[16:02:52] [Server thread/INFO]: <GunYoshi he / him> YEEESAH!
+[16:02:53] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[16:02:53] [Server thread/INFO]: GunYoshi he / him left the game
+[16:02:53] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[16:03:07] [Server thread/INFO]: <Lemon_Frog she / her> ben robke :(
+[16:03:16] [Server thread/INFO]: <_scasey she / her> gone but not forgotten
+[16:03:22] [Server thread/INFO]: <Lemon_Frog she / her> who?
+[16:03:29] [Server thread/INFO]: <_scasey she / her> yeah :D
+[16:03:42] [Server thread/INFO]: <Lemon_Frog she / her> i find myself to be rather silly
+[16:03:51] [Server thread/INFO]: <_scasey she / her> that's awesome
+[16:04:03] [Server thread/INFO]: <Lemon_Frog she / her> thank you
+[16:08:19] [Server thread/WARN]: Lemon_Frog moved too quickly! 1.9067453673877992,2.0646240719316182,9.839687583778868
+[16:19:52] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=-180, y=87, z=-183} class_2338{x=-180, y=86, z=-183}
+[16:20:39] [Server thread/INFO]: <Lemon_Frog she / her> yo is it okay if i nab some sugar cane?
+[16:20:42] [Server thread/INFO]: <Lemon_Frog she / her> from jungle town
+[16:21:00] [Server thread/INFO]: <_scasey she / her> yeah theres some by the iron farm
+[16:21:05] [Server thread/INFO]: <Lemon_Frog she / her> thank you
+[16:27:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 2c16c27e-1497-4b00-84de-96dfed0dc798 timed out
+[16:27:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player _scasey
+[16:27:47] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to _scasey
+[16:27:56] [Server thread/INFO]: _scasey lost connection: Disconnected
+[16:27:56] [Server thread/INFO]: _scasey she / her left the game
+[16:27:56] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[16:28:14] [User Authenticator #5/INFO]: UUID of player _scasey is 2c16c27e-1497-4b00-84de-96dfed0dc798
+[16:28:15] [Server thread/INFO]: _scasey[/100.14.20.111:57913] logged in with entity id 116353 at (-184.90333930525534, 86.0, -145.42445431773496)
+[16:28:15] [Server thread/INFO]: _scasey she / her joined the game
+[16:28:15] [Server thread/INFO]: [voicechat] Received secret request of _scasey (18)
+[16:28:15] [Server thread/INFO]: [voicechat] Sent secret to _scasey
+[16:28:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[16:28:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 2c16c27e-1497-4b00-84de-96dfed0dc798
+[16:28:17] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _scasey (2c16c27e-1497-4b00-84de-96dfed0dc798) successfully connected to voice chat
+[16:41:02] [Server thread/WARN]: Lemon_Frog moved too quickly! 0.2357723393961635,1.0,-10.19033273059324
+[16:43:11] [Server thread/WARN]: Lemon_Frog moved too quickly! -7.014869763684402,-2.9873954154779625,6.699974266094728
+[16:43:16] [Server thread/INFO]: Lemon_Frog lost connection: Timed out
+[16:43:16] [Server thread/INFO]: Lemon_Frog she / her left the game
+[16:43:16] [Server thread/INFO]: [voicechat] Disconnecting client Lemon_Frog
+[16:43:54] [User Authenticator #6/INFO]: UUID of player Lemon_Frog is f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:43:56] [Server thread/INFO]: Lemon_Frog[/98.38.166.77:62078] logged in with entity id 123349 at (166.74734066485763, 101.0, 291.96659333394325)
+[16:43:56] [Server thread/INFO]: Lemon_Frog she / her joined the game
+[16:43:56] [Server thread/INFO]: [voicechat] Received secret request of Lemon_Frog (18)
+[16:43:56] [Server thread/INFO]: [voicechat] Sent secret to Lemon_Frog
+[16:43:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:43:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player f566e0b4-e112-411a-bfcc-9b3a7425fd44
+[16:43:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Lemon_Frog (f566e0b4-e112-411a-bfcc-9b3a7425fd44) successfully connected to voice chat
+[16:44:14] [Server thread/INFO]: Lemon_Frog she / her has made the advancement [Light as a Rabbit]
+[16:44:24] [Server thread/WARN]: _scasey moved too quickly! 6.822995600721356,1.461144369385238,-16.10746295500671
+[17:12:17] [User Authenticator #7/INFO]: UUID of player GunYoshi is 590b2cc8-9e48-4d9c-a2b4-03589655b0c3
+[17:12:19] [Server thread/INFO]: GunYoshi[/98.214.164.251:60339] logged in with entity id 142937 at (-210.84292305314798, 73.0, -302.82151312736727)
+[17:12:19] [Server thread/INFO]: GunYoshi he / him joined the game
+[17:12:30] [Server thread/INFO]: <GunYoshi he / him> im ben
+[17:12:35] [Server thread/INFO]: <Lemon_Frog she / her> no
+[17:12:38] [Server thread/INFO]: <_scasey she / her> prove it
+[17:12:38] [Server thread/INFO]: <GunYoshi he / him> sorry
+[17:14:30] [Server thread/INFO]: <Lemon_Frog she / her> do we think i can use polished diorite in my build over calicite
+[17:14:48] [Server thread/INFO]: <GunYoshi he / him> eh, polished dirorite doesnt connect so idt so
+[17:14:53] [Server thread/INFO]: <Lemon_Frog she / her> BRUH
+[17:14:58] [Server thread/INFO]: <GunYoshi he / him> try stripped pale oak tho
+[17:26:56] [Server thread/INFO]: <GunYoshi he / him> WEEEE VE GOT SNIFFER!!
+[17:36:25] [Server thread/INFO]: <Lemon_Frog she / her> thank you
+[17:36:28] [Server thread/INFO]: <GunYoshi he / him> what are yall up to
+[17:36:33] [Server thread/INFO]: <GunYoshi he / him> anytime
+[17:36:42] [Server thread/INFO]: <Lemon_Frog she / her> im putting fairyville on the up and up
+[17:36:45] [Server thread/INFO]: <GunYoshi he / him> LOLLL
+[17:36:53] [Server thread/INFO]: <GunYoshi he / him> i hear it is, yknow. on the up and up
+[17:37:01] [Server thread/INFO]: <_scasey she / her> building a storage room but probably gonna give up soon
+[17:37:43] [Server thread/INFO]: <GunYoshi he / him> damn
+[17:39:40] [Server thread/INFO]: <GunYoshi he / him> CASEY THIS IS FIRE
+[17:39:44] [Server thread/INFO]: <_scasey she / her> the sniffer area is sick
+[17:39:47] [Server thread/INFO]: <_scasey she / her> aw thanks
+[17:39:51] [Server thread/INFO]: <GunYoshi he / him> LMAO did we swap
+[17:39:52] [Server thread/WARN]: _scasey moved too quickly! 1.7108778951034935,8.349928199301146,15.152626511425126
+[17:40:02] [Server thread/INFO]: <GunYoshi he / him> fwiw i think the entrance works rlly well
+[17:40:09] [Server thread/INFO]: <_scasey she / her> hell yeah
+[17:40:24] [Server thread/INFO]: <_scasey she / her> i need to move all my items up here and then figure out how to decorate
+[17:40:30] [Server thread/INFO]: <GunYoshi he / him> lollll
+[17:40:35] [Server thread/INFO]: <GunYoshi he / him> the tree is sick as hell
+[17:40:43] [Server thread/INFO]: <_scasey she / her> tyyyyy
+[17:41:01] [Server thread/INFO]: <GunYoshi he / him> scaffolding................. waow...
+[17:41:12] [Server thread/INFO]: <_scasey she / her> based based based
+[17:41:24] [Server thread/INFO]: <GunYoshi he / him> im gonna go snoop on tori. tori im coming to snoop on you
+[17:41:32] [Server thread/INFO]: <Lemon_Frog she / her> :O
+[17:42:38] [Server thread/INFO]: <_scasey she / her> :o
+[17:43:00] [Server thread/INFO]: <GunYoshi he / him> so
+[17:43:25] [Server thread/INFO]: <GunYoshi he / him> wowow what is this
+[17:43:28] [Server thread/INFO]: <_scasey she / her> castle :D
+[17:43:31] [Server thread/INFO]: <GunYoshi he / him> ooooh
+[17:43:33] [Server thread/INFO]: <Lemon_Frog she / her> no
+[17:43:34] [Server thread/INFO]: <_scasey she / her> i assume
+[17:43:36] [Server thread/INFO]: <_scasey she / her> oh
+[17:43:37] [Server thread/INFO]: <Lemon_Frog she / her> but you will see
+[17:43:40] [Server thread/INFO]: <Lemon_Frog she / her> :)
+[17:43:40] [Server thread/INFO]: <GunYoshi he / him> oh
+[17:43:48] [Server thread/INFO]: <GunYoshi he / him> confusing that you are the same color to me
+[17:44:03] [Server thread/INFO]: <GunYoshi he / him> i want to pick my own color.
+[17:44:09] [Server thread/INFO]: <Lemon_Frog she / her> real
+[17:44:14] [Server thread/INFO]: <_scasey she / her> wdym
+[17:44:17] [Server thread/INFO]: <GunYoshi he / him> anyway as a not-castle warming gift take this
+[17:44:24] [Server thread/INFO]: <Lemon_Frog she / her> wow thanks
+[17:44:28] [Server thread/INFO]: <GunYoshi he / him> chat color. i wanna be purple or a nicer green
+[17:44:29] [Server thread/INFO]: <Lemon_Frog she / her> im honored
+[17:44:31] [Server thread/INFO]: <GunYoshi he / him> ofc
+[17:44:40] [Server thread/INFO]: <_scasey she / her> i dont have any gifts
+[17:44:43] [Server thread/INFO]: <_scasey she / her> goodbye
+[17:44:49] [Server thread/INFO]: <Lemon_Frog she / her> bye :D
+[17:45:08] [Server thread/INFO]: Summoned new Cow
+[17:45:08] [Server thread/INFO]: Summoned new Cow
+[17:45:08] [Server thread/INFO]: Summoned new Cow
+[17:45:37] [Server thread/INFO]: <GunYoshi he / him> tori how many levels do u have?
+[17:45:42] [Server thread/INFO]: <Lemon_Frog she / her> 24
+[17:45:44] [Server thread/INFO]: <GunYoshi he / him> ok
+[17:46:01] [Server thread/INFO]: <GunYoshi he / him> would u mind putting smthn together in an anvil for me? ill come to u w it
+[17:46:09] [Server thread/INFO]: <Lemon_Frog she / her> sure
+[17:47:08] [Server thread/WARN]: _scasey moved too quickly! -11.44511080280725,3.054320179609462,13.283284396614363
+[17:47:13] [Server thread/WARN]: _scasey moved too quickly! -10.477138841163992,11.084617918484597,9.463075863837162
+[17:47:38] [Server thread/INFO]: <_scasey she / her> where did you go :(
+[17:47:43] [Server thread/INFO]: <GunYoshi he / him> FAIRYVILLE HAS GOATS OH MY GODD!
+[17:47:52] [Server thread/INFO]: <Lemon_Frog she / her> yes
+[17:47:53] [Server thread/INFO]: <_scasey she / her> real?
+[17:47:53] [Server thread/INFO]: GunYoshi he / him fell from a high place
+[17:47:57] [Server thread/INFO]: <Lemon_Frog she / her> NOOOOOO
+[17:48:07] [Server thread/INFO]: <GunYoshi he / him> looks like the hammer found a nail
+[17:48:16] [Server thread/INFO]: <Lemon_Frog she / her> not on my platform D:
+[17:48:18] [Server thread/INFO]: <_scasey she / her> YEAH
+[17:48:22] [Server thread/WARN]: _scasey moved too quickly! -10.428689240872757,13.362166594228157,7.40129076524056
+[17:48:25] [Server thread/WARN]: _scasey moved too quickly! -13.6464372784759,10.87103107243317,-5.90324732024078
+[17:48:28] [Server thread/WARN]: _scasey moved too quickly! -13.650633529019444,3.5940037828861477,-11.28957175231551
+[17:48:50] [Server thread/INFO]: <_scasey she / her> can you shreep
+[17:48:54] [Server thread/INFO]: <GunYoshi he / him> yeah
+[17:50:46] [Server thread/WARN]: _scasey moved too quickly! -5.7730109975314114,2.032198684014901,-17.118157919761405
+[17:50:48] [Server thread/WARN]: _scasey moved too quickly! -6.332499600728402,1.1971014954797,-16.806259488999693
+[17:50:50] [Server thread/INFO]: GunYoshi he / him fell from a high place
+[17:50:53] [Server thread/INFO]: dscrdGGfabricmc (/198.54.134.173:50282) lost connection: Disconnected
+[17:50:53] [Server thread/INFO]: .ifthColumnMC (/198.54.134.173:50256) lost connection: Disconnected
+[17:50:53] [Server thread/INFO]: joinOurDiscord (/198.54.134.173:50268) lost connection: Disconnected
+[17:50:54] [Server thread/INFO]: <Lemon_Frog she / her> jesus
+[17:51:01] [Server thread/INFO]: <Lemon_Frog she / her> creed core
+[17:51:07] [Server thread/INFO]: <GunYoshi he / him> alright im done trying. dont need you to combine anything also that was a lie
+[17:51:36] [Server thread/WARN]: _scasey moved too quickly! -6.350703371740622,4.7395570605244615,17.024682234851355
+[17:51:51] [Server thread/WARN]: _scasey moved too quickly! -9.367717443082114,-6.469657717253369,-13.53250632706974
+[17:53:29] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=55, y=152, z=387} class_2338{x=58, y=152, z=389}
+[17:54:40] [Server thread/INFO]: <GunYoshi he / him> reading the wiki rn, did you knwo goats sometimes try to ram players in spectator mode lmao
+[17:57:30] [Server thread/WARN]: _scasey moved too quickly! 16.50144237037746,-3.2397312158117586,-7.939744319630336
+[17:58:51] [Server thread/INFO]: <_scasey she / her> ben these trees are sick
+[17:58:55] [Server thread/INFO]: <GunYoshi he / him> thank u!
+[18:12:24] [Server thread/INFO]: _scasey lost connection: Disconnected
+[18:12:24] [Server thread/INFO]: _scasey she / her left the game
+[18:12:24] [Server thread/INFO]: [voicechat] Disconnecting client _scasey
+[18:12:46] [Server thread/INFO]: <GunYoshi he / him> could someone sleep pls
+[18:13:00] [Server thread/INFO]: <Lemon_Frog she / her> yeah
+[18:19:03] [Server thread/INFO]: Lemon_Frog lost connection: Disconnected
+[18:19:03] [Server thread/INFO]: Lemon_Frog she / her left the game
+[18:19:03] [Server thread/INFO]: [voicechat] Disconnecting client Lemon_Frog
+[18:24:17] [Server thread/INFO]: <GunYoshi he / him> SLep
+[18:24:19] [Server thread/INFO]: <GunYoshi he / him> pls
+[18:24:23] [Server thread/INFO]: <GunYoshi he / him> sorry wfiughtin
+[18:33:41] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=59, y=149, z=388} class_2338{x=62, y=156, z=386}
+[18:42:54] [Server thread/INFO]: GunYoshi he / him has made the advancement [Whatever Floats Your Goat!]
+[18:46:34] [Server thread/INFO]: FifthColumnMC (/198.54.134.173:39264) lost connection: Disconnected
+[18:46:34] [Server thread/INFO]: joinOurDiscord (/198.54.134.173:39268) lost connection: Disconnected
+[18:46:34] [Server thread/INFO]: dscrdGGfabricmc (/198.54.134.173:39270) lost connection: Disconnected
+[19:03:37] [Server thread/INFO]: GunYoshi lost connection: Disconnected
+[19:03:37] [Server thread/INFO]: GunYoshi he / him left the game
+[19:03:37] [Server thread/INFO]: [voicechat] Disconnecting client GunYoshi
+[19:04:12] [Server thread/INFO]: Stopping the server
+[19:04:12] [Server thread/INFO]: Stopping server
+[19:04:12] [Server thread/INFO]: Saving players
+[19:04:12] [Server thread/INFO]: Saving worlds
+[19:04:12] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[19:04:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[19:04:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[19:04:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[19:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[19:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[19:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[19:04:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[19:04:12] [C2ME Storage #3/INFO]: Storage thread Thread[#67,C2ME Storage #3,8,main] stopped
+[19:04:12] [C2ME Storage #2/INFO]: Storage thread Thread[#66,C2ME Storage #2,8,main] stopped
+[19:04:12] [C2ME Storage #1/INFO]: Storage thread Thread[#65,C2ME Storage #1,8,main] stopped
+[19:04:12] [C2ME Storage #6/INFO]: Storage thread Thread[#72,C2ME Storage #6,8,main] stopped
+[19:04:12] [C2ME Storage #5/INFO]: Storage thread Thread[#71,C2ME Storage #5,8,main] stopped
+[19:04:12] [C2ME Storage #4/INFO]: Storage thread Thread[#70,C2ME Storage #4,8,main] stopped
+[19:04:12] [C2ME Storage #9/INFO]: Storage thread Thread[#76,C2ME Storage #9,8,main] stopped
+[19:04:12] [C2ME Storage #8/INFO]: Storage thread Thread[#75,C2ME Storage #8,8,main] stopped
+[19:04:12] [C2ME Storage #7/INFO]: Storage thread Thread[#74,C2ME Storage #7,8,main] stopped
